@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/city-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>City Slicking / Copenhagenhead</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../city">
+			
+			<img alt="City Slicking" src="../../../resources/org.apache.wicket.Application/city-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../city">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/city-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id1be5" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Copenhagenhead" width="204" class="title" src="../../../resources/net.databinder.components.RenderedLabel/fff73923"/><span class="title">Copenhagenhead</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Nathan</span>, <span>on August 17, 2009</span></span>
+			<span id="id1be6" class="tags">
+					{&nbsp;<span><a href="../../../city/tag/bicycles/#selected-tag"><span>bicycles</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>The cycling culture blog <em>Copenhagenize</em> has stepped into a hornet&#8217;s nest. Or rather, discovered a hornet&#8217;s nest and set about <a href='http://www.copenhagenize.com/search/label/%22bike%20helmet%20hysteria%22'>whacking it with a broom for few weeks straight</a>. It&#8217;s hard to know if the hornets have been altered by this thrashing, though individually they do seem to tire out and fly away after enough good swats.</p>
+
+<p class='break'>The spat is, of course, over helmets. This particular piece of safety equipment&#8217;s mindshare, or perhaps more accurately heartshare, is roughly proportional to its volume. Everyone has an opinion, and everyone is inappropriately emotional about it. Deeper feelings about what bicycles are <em>for</em> seem to be encased in or repelled from the helmet&#8217;s foam. Are bicycles dangerous? Are they healthy transportation for everyone? Should streets accomodate bicycle riding, or should bicycle riders accomodate streets? What about six-lane highways?</p>
+
+<p>If you want to know if helmets are effective, there is only one place in the world to get a fair evaluation: Wikipedia. But seriously, guys! The article <a href='http://en.wikipedia.org/wiki/Bicycle_helmets'><em>Bicycle helmets</em></a> is one of the better examples of the Wikipedian ethic of never-ending, soul-crushing, creativity-abhorring trench warfare actually <em>working</em>. Rather than producing or even trying to produce good prose, <strong>Wikipedia is an unstoppable font of fact</strong>. You can&#8217;t argue with a page of facts, and you certainly can&#8217;t remove any relevant fact from it. You could try to add one, but good luck finding any adequately sourced fact that isn&#8217;t already there. The only thing you can count on doing is learning something.</p>
+
+<p>In the case of <a href='http://en.wikipedia.org/wiki/Bicycle_helmets'><em>Bicycle helmets</em></a> the facts are simply not where many people believe them to be. Not the fact of dueling studies—which makes a convenient excuse to reject all accumulated knowledge and fall back on conviction—but the facts of what studies have been conducted, their strengths and weaknesses, and what results to look for if you do hope to improve overall public health and safety.</p>
+
+<p>Anyone that wants a rounded opinion on the topic should spend fifteen minutes reading <a href='http://en.wikipedia.org/wiki/Bicycle_helmets'><em>Bicycle helmets</em></a>—especially anyone that wants to tell others what do, to &#8216;raise awareness&#8217;, or most critically to legislate. If it helps, there is something of the cigarette industry drama there, troubling reports by a corporation that has friends in several governments:</p>
+
+<blockquote>
+<p>Another source of field experience is our experience with damaged helmets returned to customer service&#8230; I collected damaged infant/toddler helmets for several months in 1995. Not only did I not see bottomed out helmets, I didn’t see any helmet showing signs of crushing on the inside.</p>
+</blockquote>
+
+<p>Yes, that&#8217;s an engineer for Bell, the company that convinced gullible Australia to enshrine its product in the law of the land. The problem is that the whole point of these helmets is to absorb energy, the same as crumple zones in a car. If they fail to compress and instead transfer their energy to the skull, they are acting like nothing but gigantic shiny hats. <em>If</em>. There&#8217;s no point in extending the helmet war by overreaching.</p>
+
+<p>But it&#8217;s hard not to finish the page with a dimmer view of helmets. If you started out supporting government enforced helmet use for adults, you&#8217;re likely to come away with the idea that the issue is so uncertain that adults should be able to make their own choice about their own bodies. Or if you already had this &#8216;libertarian&#8217; notion, the next step is a belief that government funds are better spent in ways that have been shown to lower death and injury rates, and that nagging friends and family is actually just rude. After that it&#8217;s the realm of the personal. Should I wear one to the store? Should I even wear one for <em>athletic</em> cycling? Should I cycle in the nude, while <em class='smcp'>reading Karl Marx</em>?</p>
+
+<p class='break'>Make up your own mind, but beware: This process is known to produce monoculture-incompatible results.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about'>About</h3>
+
+<p><em>City Slicking</em> is about urban life, transportation, energy, liberty, and language.</p>
+
+<h3 id='haunts'>Haunts</h3>
+
+<p><a href='http://twitter.com/n8han/'>Twitter</a><br /><a href='http://technically.us/code/'>Coderspiel</a><br /><a href='http://www.streetsblog.org/'>Streetsblog</a><br /><a href='http://gawker.com/people/alexpareene/posts/'>Pareene</a><br /><a href='http://www.copenhagenize.com/'>Copenhagenize</a><br /><a href='http://itre.cis.upenn.edu/~myl/languagelog/'>Language Log</a><br /><a href='http://t4america.org/'>Trans. for America</a></p>
+
+<h3 id='wire_service'>Wire Service</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/city-rss' title='All in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-short-rss' title='Left column, frequent links and notes'>Quickies</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-long-rss' title='Main column, occasional extended posts'>Treatise</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1be7">
+  		
+  		
+  	</div>
+  	<div id="id1be8">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id1be9" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id1be9_hf_0" id="id1be9_hf_0" /><input type="hidden" name="wicket:interface" value=":1067:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id1bea" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id1beb" name="add" value="Add a comment" onclick="wicketShow('id1beb--ajax-indicator');var wcall=wicketSubmitFormById('id1be9', '../../../?wicket:interface=:1067:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id1beb--ajax-indicator');}.bind(this),function() { ;wicketHide('id1beb--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id1be9')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id1beb--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

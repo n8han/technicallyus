@@ -1,0 +1,1310 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / home cooking</title>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container tag-listing">
+
+<div id="lead">
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-11">
+		<div class="tag-columns">
+	<div>
+		<span class="elem"><a href="../../../eat/tag/baking/#selected-tag"><span>baking</span></a></span><span class="elem"><a href="../../../eat/tag/drink/#selected-tag"><span>drink</span></a></span><span class="elem"><a href="../../../eat/tag/grocery/#selected-tag"><span>grocery</span></a></span><span class="elem"><a href="../../../eat/tag/restaurants/#selected-tag"><span>restaurants</span></a></span><span class="elem"><a href="../../../eat/tag/techniques/#selected-tag"><span>techniques</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../eat/tag/books/#selected-tag"><span>books</span></a></span><span class="elem"><a href="../../../eat/tag/entertaining/#selected-tag"><span>entertaining</span></a></span><span class="elem"><span><em><span>home cooking</span></em></span></span><span class="elem"><a href="../../../eat/tag/restaurants:%20new%20york/#selected-tag"><span>restaurants: new york</span></a></span><span class="elem"><a href="../../../eat/tag/theory/#selected-tag"><span>theory</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../eat/tag/cooking%20with%20fruit/#selected-tag"><span>cooking with fruit</span></a></span><span class="elem"><a href="../../../eat/tag/ethnic%20cooking/#selected-tag"><span>ethnic cooking</span></a></span><span class="elem"><a href="../../../eat/tag/kitchen%20equipment/#selected-tag"><span>kitchen equipment</span></a></span><span class="elem"><a href="../../../eat/tag/restaurants:%20pittsburgh/#selected-tag"><span>restaurants: pittsburgh</span></a></span><span class="elem"><a href="../../../eat/tag/travel/#selected-tag"><span>travel</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../eat/tag/dessert/#selected-tag"><span>dessert</span></a></span><span class="elem"><a href="../../../eat/tag/food%20products/#selected-tag"><span>food products</span></a></span><span class="elem"><a href="../../../eat/tag/party/#selected-tag"><span>party</span></a></span><span class="elem"><a href="../../../eat/tag/school/#selected-tag"><span>school</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../eat/tag/desserts/#selected-tag"><span>desserts</span></a></span><span class="elem"><a href="../../../eat/tag/freshdirect/#selected-tag"><span>freshdirect</span></a></span><span class="elem"><a href="../../../eat/tag/produce%20alerts/#selected-tag"><span>produce alerts</span></a></span><span class="elem"><a href="../../../eat/tag/shopping/#selected-tag"><span>shopping</span></a></span>
+	</div>
+</div>
+
+	<div id="selected-tag"><img height="45" alt="home cooking" width="221" src="../../../resources/net.databinder.components.RenderedLabel/6269a5e8"/></div>
+		
+	<div>
+		<h4><a href="../../../eat/x/rendering-leaf-lard/"><span>Rendering leaf lard</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>April 6, 2009</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/pollo-alla-cacciatora/"><span>Pollo alla cacciatora</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>February 10, 2009</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/pommes-anna/"><span>Pommes Anna</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>December 20, 2008</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/pommes-rissoles/"><span>Pommes rissolées</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>November 22, 2008</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/rancho-gordo-beans/"><span>Rancho Gordo beans</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>September 7, 2008</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/white-fish-in-bacon-with-mayonnaise/"><span>White fish in bacon with mayonnaise</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>September 3, 2008</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/blueberry-peach-pie/"><span>Blueberry-peach pie</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>August 17, 2008</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/rhubarb-pie/"><span>Rhubarb pie</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>May 26, 2008</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/chocolate-ice-cream-with-salted-almonds/"><span>Chocolate ice cream with salted almonds</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>May 18, 2008</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/onion-custard-pie/"><span>Onion custard pie</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>May 12, 2008</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/paschal-lamb/"><span>Paschal lamb</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>March 27, 2008</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/chicken-stock-for-rich-people/"><span>Chicken stock for rich people</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>March 2, 2008</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/alice-waterss-onion-tart/"><span>Alice Waters&#039;s onion tart</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>February 24, 2008</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/ice-cream/"><span>Ice cream</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>February 9, 2008</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/lasagna-con-carne/"><span>Lasagna con carne</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>February 4, 2008</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/spaghetti-cacio-e-pepe/"><span>Spaghetti cacio e pepe</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>January 17, 2008</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/poule-au-pot/"><span>Poulet en cocotte</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>January 14, 2008</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/martha-stewarts-pumpkin-bread/"><span>Martha Stewart&#039;s pumpkin bread</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>January 3, 2008</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/jamie-olivers-duck-pasta/"><span>Jamie Oliver’s duck pasta</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>December 15, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/brining-everything/"><span>Brining everything</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>December 1, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/lelands-first-turkey/"><span>Leland’s first turkey</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>November 25, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/red-onion-gratin/"><span>Red onion gratin</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>November 10, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-cooks-pasta-with-beets/"><span>Mom cooks pasta with beets</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>November 2, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/apple-walnut-risotto-with-gorgonzola/"><span>Apple-walnut risotto with gorgonzola</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>October 30, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/lentils-with-bacon-dried-apricots-and-goat-cheese/"><span>Lentils with bacon, dried apricots, and goat cheese</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>October 24, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/braised-cabbage-with-bacon-and-apples/"><span>Braised cabbage with bacon and apples</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>October 17, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/jamie-olivers-sticky-saucepan-carrots/"><span>Jamie Oliver&#039;s sticky saucepan carrots</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>October 11, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/blistered-peppers-and-mustard-potato-salad/"><span>Blistered peppers and mustard potato salad</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>September 23, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/stuffed-squash-and-goodbyes/"><span>Stuffed squash and goodbyes</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>September 22, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/semolina-pasta-with-tomato-sauce/"><span>Semolina pasta with tomato sauce</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>August 12, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/the-lake/"><span>The Lake</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>July 29, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-cooks-pasta-with-zucchini/"><span>Mom cooks pasta with zucchini</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>July 20, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-cooks-chicken-under-a-brick/"><span>Mom cooks chicken under a brick</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>July 6, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mark-bittmans-plum-tomato-tart-with-pesto/"><span>Mark Bittman&#039;s plum tomato tart with pesto</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>July 3, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/stinging-nettles-not-worth-eating/"><span>Stinging nettles: not worth eating</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>June 28, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/thomas-kellers-over-the-top-mushroom-quiche/"><span>Thomas Keller&#039;s over-the-top mushroom quiche</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>June 25, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/everybody-loves-cookies/"><span>Everybody loves cookies</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>June 21, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/heart-disease-redux-and-vermouth-pasta/"><span>Heart disease redux, and vermouth pasta</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>June 20, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/morels/"><span>Morels</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>June 19, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/this-marriage-of-cooks-and-food-snobs-is-an-abortion/"><span>This marriage (of cooks and food snobs) is an abortion!</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Nathan</span>, <span>June 6, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-grills-asparagus/"><span>Mom grills asparagus</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>June 1, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-makes-rice-salad/"><span>Mom makes rice salad</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>May 28, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/homemade-pasta-with-mushrooms/"><span>Homemade pasta with mushrooms</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>May 22, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/upside-down-onion-tart/"><span>Upside-down onion tart</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>May 19, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-makes-pudding/"><span>Mom makes pudding</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>May 16, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/smoked-paprika%E2%80%93manchego-souffl%C3%A9s/"><span>Smoked paprika–Manchego soufflés</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>May 15, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/deep-fried-eggs/"><span>Deep-fried eggs</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>May 12, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mamas-got-a-brand-new-bag/"><span>Mama&#039;s got a brand new bag</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>May 10, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-loves-rhubarb/"><span>Mom loves rhubarb</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>May 9, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/fighting-with-richard-olney/"><span>Fighting with Richard Olney</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>April 29, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/another-cherry-pie/"><span>Another cherry pie</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>April 27, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/hash-browns-and-steak/"><span>Hash browns and steak</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>April 20, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-makes-curried-noodles/"><span>Mom makes curried noodles</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>April 19, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-makes-more-soup/"><span>Mom makes more soup</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>April 17, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-makes-pea-soup/"><span>Mom makes pea soup</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>April 13, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/easter-dinner/"><span>Easter dinner</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>April 10, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mushroom-pudding/"><span>Mushroom pudding</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>April 7, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/advanced-tart-making/"><span>Advanced tart-making</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>April 5, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-makes-banana-cake/"><span>Mom makes banana cake</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>April 2, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/a-tale-of-two-loaves/"><span>A tale of two loaves</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>March 29, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/carrot-pudding/"><span>Carrot pudding</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>March 27, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/sweet-potato-gratin-with-manchego/"><span>Sweet potato gratin with manchego</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>March 25, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/moms-big-mussels/"><span>Mom&#039;s big mussels</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>March 22, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-make-a-st-patricks-day-dinner/"><span>Mom make a St. Patrick&#039;s Day dinner</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>March 15, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/pork-chops-and-apples-in-mustard-sauce/"><span>Pork chops and apples in mustard sauce</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>March 14, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/onion-tart/"><span>Onion tart</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>March 13, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-makes-pot-pie/"><span>Mom makes pot pie</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>March 7, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/martha-stewarts-spicy-cheese-biscuits/"><span>Martha Stewart&#039;s spicy cheese biscuits</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>March 1, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/italian-pot-roast-over-homemade-pasta/"><span>Italian pot roast over homemade pasta</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>February 27, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/gratin-dauphinois/"><span>Gratin dauphinois</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>February 26, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/leland-makes-fresh-pasta/"><span>Leland makes fresh pasta</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>February 24, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-cooks-fish/"><span>Mom cooks fish</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>February 22, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/soupe-%C3%A0-loignon-gratin%C3%A9e/"><span>Soupe à l&#039;oignon gratinée</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>February 20, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-makes-sweet-and-sour-pork/"><span>Mom makes sweet and sour pork</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>February 19, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-bakes-a-valentines-day-cake/"><span>Mom bakes a Valentine&#039;s Day cake</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>February 14, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-has-a-birthday/"><span>Mom has a birthday</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>February 14, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/grease/"><span>Grease</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>February 13, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/braised-celery/"><span>Braised celery</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>February 8, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/moms-smoked-paprika-chicken/"><span>Mom&#039;s smoked-paprika chicken</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>February 6, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-makes-apple-cake/"><span>Mom makes apple cake</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>February 4, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/lamb-rag%C3%BA/"><span>Lamb ragú</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>February 4, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/rustic-onion-tart/"><span>Rustic onion tart</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>January 28, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-makes-goulash/"><span>Mom makes goulash</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>January 27, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/brussels-sprouts-with-pancetta/"><span>Brussels sprouts with pancetta</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>January 27, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-makes-phillipine-style-chicken/"><span>Mom makes Philippine-style chicken</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>January 24, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-makes-caramels/"><span>Mom makes caramels</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>January 18, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/bread-dumpling-soup/"><span>Bread dumpling soup</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>January 15, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-makes-chili/"><span>Mom makes chili</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>January 12, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-butters-nuts/"><span>Mom butters nuts</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>January 11, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/blistered-potatoes/"><span>Blistered potatoes</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>January 10, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/easy-potato-gnocchi/"><span>Easy potato gnocchi</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>January 10, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mark-bittmans-lamburgers/"><span>Mark Bittman&#039;s Lamburgers</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>January 8, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/pancakes-and-english-muffins/"><span>Pancakes and English muffins</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>January 3, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/best-dinner-ever/"><span>Best dinner ever</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>December 21, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/rag%C3%B9-bolognese/"><span>Ragù bolognese</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>December 19, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/chicken-thighs-with-saffron-green-olives-and-mint/"><span>Chicken thighs with saffron, green olives, and mint</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>December 17, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/parmesan-gnocchi/"><span>Parmesan gnocchi</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>December 14, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/apple-risotto/"><span>Apple risotto</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>December 11, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-makes-baked-beans/"><span>Mom makes baked beans</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>December 8, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/leland-copies-mom-makes-a-tomato-tart/"><span>Leland copies Mom, makes a tomato tart</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>December 6, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-makes-a-tomato-tart/"><span>Mom makes a tomato tart</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>December 5, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-bakes-and-she-cooks/"><span>Mom bakes and she cooks</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>December 4, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/peter-bs-macaroni-and-cheese/"><span>Peter B’s macaroni and cheese</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>December 3, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/welsh-rarebit/"><span>Welsh rarebit</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>December 2, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-makes-an-apple-tart/"><span>Mom makes an apple tart</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>November 29, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/extremely-good-onion-soup/"><span>Extremely good onion soup</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>November 21, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/lelands-first-whole-fish/"><span>Leland’s first whole fish</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>November 18, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/butternut-squash-pur%C3%A9e/"><span>Butternut squash purée</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>November 14, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/poulet-r%C3%B4ti-%C3%A0-la-proven%C3%A7ale/"><span>Poulet rôti à la provençale</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>November 13, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/chicken-thighs-with-bosc-pears/"><span>Chicken thighs with Bosc pears</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>November 8, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/perfect-short-ribs/"><span>Perfect short ribs</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>November 5, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/lelands-pur%C3%A9ed-dinner/"><span>Leland’s puréed dinner</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>November 4, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/leland-makes-applesauce-becomes-a-man/"><span>Leland makes applesauce, becomes a man</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>October 31, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/pot-roast-teaser/"><span>Pot roast teaser</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>October 30, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/bacon-thyme-tenderloin/"><span>Bacon-thyme tenderloin</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>October 27, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/cooking-for-children-swedish-meat-balls/"><span>Cooking for children, Swedish meat balls</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>October 25, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/cooking-101-lelands-salad-dressing/"><span>Cooking 101, Leland’s salad dressing</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>October 25, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/cooking-101-moms-applesauce/"><span>Cooking 101, Mom’s Applesauce</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>October 21, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/another-meat-loaf/"><span>Another meat loaf</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>October 16, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/lidias-meat-sauce/"><span>Lidia&#039;s meat sauce</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>October 15, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/leland-eats-meat-catches-up/"><span>Leland eats meat, catches up</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>October 13, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/la-cense-ribeye/"><span>La Cense ribeye</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>October 8, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/cooking-101-moms-pie-crust/"><span>Cooking 101, Mom&#039;s Pie Crust</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>October 5, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-cooks-pork-chops/"><span>Mom cooks pork chops</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>October 2, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-makes-a-fall-dinner/"><span>Mom makes a fall dinner</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>September 27, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/seafood-stew-at-the-lyonses/"><span>Seafood stew with the Lyonses</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>September 26, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/spiced-lentils-and-roasted-carrots/"><span>Spiced lentils and roasted carrots</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>September 24, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-bakes/"><span>Mom bakes</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>September 19, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/sherry-caramel%E2%80%93glazed-pears/"><span>Sherry caramel–glazed pears</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>September 19, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/chicken-with-bacon-wrapped-apples/"><span>Chicken with bacon-wrapped apples</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>September 14, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-makes-fancy-shortbread/"><span>Mom makes fancy shortbread</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>September 13, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/lime-ginger-scallop-saut%C3%A9/"><span>Lime-ginger scallop sauté</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>September 10, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-makes-plum-cake/"><span>Mom makes plum cake</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>September 10, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/hurricane-salmon/"><span>Hurricane salmon</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>September 3, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/veal-chops-with-mushrooms/"><span>Veal chops with mushrooms</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>August 30, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/chicken-with-lots-of-garlic/"><span>Chicken with lots of garlic</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>August 28, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/catch-up-weblogging-2/"><span>Catch-up weblogging</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>August 26, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/chicken-livers/"><span>Chicken livers</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>August 24, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/swiss-chard/"><span>Swiss chard</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>August 17, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/sp%C3%A4tzle/"><span>Spätzle</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>August 15, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/tomates-%C3%A0-la-cr%C3%A8me/"><span>Tomates à la crème</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>August 6, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/summer-salad/"><span>Summer salad</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>July 30, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/insalata-caprese/"><span>Insalata caprese</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>July 22, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/healthy-dinner/"><span>Healthy dinner</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>July 19, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/steak-and-shrimp-kebabs-with-peanut-sauce/"><span>Steak and Shrimp Kebabs with Peanut Sauce</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Nathan</span>, <span>July 13, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/queens-on-horseback/"><span>Queens on horseback</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>July 9, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/goat-cheese-souffl%C3%A9/"><span>Goat cheese soufflé</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>July 8, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/prosciutto-wrapped-chicken/"><span>Prosciutto-wrapped chicken</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>July 6, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/strawberry-rhubarb-homecoming/"><span>Strawberry-rhubarb homecoming</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>July 1, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-copies-creampuff-and-makes-some-chicken/"><span>Mom copies Creampuff, and makes some chicken</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>June 29, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/penne-with-mushrooms/"><span>Penne with mushrooms</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>June 27, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/nigella-lawson/"><span>Nigella Lawson</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>June 26, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/special-cherry-pie/"><span>Special cherry pie</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>June 23, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/nigellas-dense-chocolate-cake/"><span>Nigella&#039;s dense chocolate cake</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>June 22, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/free-salmon-with-watercress-sauce/"><span>(Free) Salmon with Watercress Sauce</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Nathan</span>, <span>June 21, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-serves-bitter-greens-again/"><span>Mom serves bitter greens again</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>June 21, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-makes-spicy-noodles/"><span>Mom makes spicy noodles</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>June 19, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/bacon-salmon/"><span>Bacon salmon</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>June 15, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/hamburger-helper-%C3%A0-la-cr%C3%A8me-fra%C3%AEche/"><span>Hamburger Helper à la crème fraîche</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Nathan</span>, <span>June 14, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/at-last-cookies/"><span>At last, cookies</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>June 10, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-cooks-zesty-pasta/"><span>Mom cooks zesty pasta</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>June 8, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/leland-tackles-spanakopita/"><span>Leland tackles spanakopita</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>June 6, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-goes-to-the-farmers-market/"><span>Mom goes to the farmer&#039;s market</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>June 5, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/garlic-soup-with-mussels/"><span>Garlic soup with mussels</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>June 4, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/a-new-recipe-and-an-old-favorite/"><span>A new recipe and an old favorite</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>June 1, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/coq-au-vin/"><span>Coq au vin</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>May 24, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/a-nice-mid-week-supper/"><span>A nice mid-week supper</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>May 17, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/today-i-ate-a-cheese-sandwich-um-made-a-pot-roast/"><span>Today I ate a cheese sandwich...um, made a pot roast</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>May 16, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/a-springtime-dessert/"><span>A springtime dessert</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>May 11, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/maple-granola-and-spring-cleaning/"><span>Maple granola, and spring cleaning</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>May 10, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/toad-in-the-hole/"><span>Toad in the hole</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>May 9, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/jacques-p%C3%A9pins-scallop-souffl%C3%A9/"><span>Jacques Pépin&#039;s scallop soufflé</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>May 6, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/hamburgers/"><span>Hamburgers</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>May 2, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/the-simple-life/"><span>The simple life</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>May 1, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-tries-david-changs-short-ribs/"><span>Mom tries David Chang&#039;s short ribs</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>April 27, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/lasagna/"><span>Lasagna</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>April 24, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/ruth-wakefields-chocolate-chip-cookie-bars/"><span>Ruth Wakefield&#039;s Chocolate Chip Cookie Bars</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>April 23, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/david-changs-short-ribs/"><span>David Chang&#039;s short ribs</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>April 23, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/nick-malgieris-best-and-easiest-banana-cake/"><span>Nick Malgieri&#039;s Best and Easiest Banana Cake</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>April 20, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/two-people-and-a-ham/"><span>Two people and a ham</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>April 19, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/goat-cheese-salad/"><span>Goat cheese salad</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>April 18, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/baked-pasta/"><span>Baked pasta</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>April 18, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/hot-cross-buns/"><span>Hot cross buns</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>April 16, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/pumpkin-ravioli-with-bacon/"><span>Pumpkin ravioli with bacon</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>April 16, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/ruth-reichs-macaroni-and-cheese/"><span>Ruth Reichl&#039;s macaroni and cheese</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>April 15, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/pletzlach-and-pudding/"><span>Pletzlach and pudding</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>April 14, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/chicken-wings-and-cupcakes/"><span>Chicken wings and cupcakes</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>April 13, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/pasta-with-spicy-broccoli-and-pine-nuts/"><span>Pasta with spicy broccoli and pine nuts</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>April 12, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/amanda-hessers-lemon-chicken/"><span>Amanda Hesser&#039;s Lemon Chicken</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>April 10, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/martha-stewarts-caramel-nut-bars/"><span>Martha Stewart&#039;s caramel nut bars</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>April 9, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/nine-hour-pork-shoulder/"><span>Nine-hour pork shoulder</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>April 8, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/quiche-party/"><span>Quiche party</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>April 6, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/spoon-pork-for-the-last-time/"><span>Spoon pork, for the last time</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>April 5, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/cr%C3%A8pes/"><span>Crêpes</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>April 4, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/leland-tackles-meatloaf/"><span>Leland tackles meatloaf</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>April 3, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/croque-monsieur/"><span>Croque monsieur</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>March 31, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/flan/"><span>Flan</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>March 30, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/polenta-and-w%C3%BCsthof/"><span>Polenta and Wüsthof</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>March 29, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/cheese-souffl%C3%A9/"><span>Cheese soufflé</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>March 27, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/braised-pork-shoulder-part-two/"><span>Braised Pork Shoulder, part two</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>March 24, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/favorite-meat-loaf/"><span>Favorite meat loaf</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>March 23, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mark-bittmans-braised-pork-shoulder-part-one/"><span>Mark Bittman&#039;s Braised Pork Shoulder, part one</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>March 23, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/wild-mushroom-risotto/"><span>Wild mushroom risotto</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>March 21, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/butternut-squash-race/"><span>Butternut squash race</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>March 19, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/yam-chips/"><span>Yam chips</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>March 18, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/spoon-pork/"><span>Spoon Pork</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>March 17, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/bones/"><span>Bones</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>March 15, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/pesto-my-way/"><span>Pesto my way</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>March 13, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/pork-chops-rebecca/"><span>Pork Chops Rebecca</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>March 11, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/pasta-puttanesca/"><span>Pasta Puttanesca</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>March 10, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/can-she-bake-a-cherry-pie/"><span>Can she bake a cherry pie</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>March 9, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/potato-bacon-and-gruy%C3%A8re-quiche/"><span>Potato, bacon, and Gruyère quiche</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>March 2, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/a-man-pleasing-dinner/"><span>A man-pleasing dinner</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>March 1, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/zucchini-bacon-and-gruy%C3%A8re-quiche/"><span>Zucchini, bacon, and Gruyère quiche</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>February 28, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/yam-pyramids/"><span>Yam pyramids</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>February 26, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/potato-soup/"><span>Potato soup</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>February 25, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/pantry-soup/"><span>Pantry Soup</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>February 24, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/scalloped-potatoes/"><span>Scalloped potatoes</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>February 22, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/garlic-eggplant-rice/"><span>Garlic &amp; eggplant rice</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>February 20, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/butternut-squash-soup-and-via-emilia/"><span>Butternut squash soup and Via Emilia</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>February 16, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/moules-marini%C3%A8res/"><span>Moules marinières</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>February 11, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/eggs-and-potatoes/"><span>Eggs and potatoes</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>February 9, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/spaghetti-al-limone/"><span>Spaghetti al limone</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>February 8, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/pierogies-and-collard-greens/"><span>Pierogies and collard greens</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>February 1, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/pork-roast-and-whipped-cream/"><span>Pork roast and whipped cream</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>January 31, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/guiness-ginger-cake/"><span>Guiness ginger cake</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>January 29, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/spaghetti-with-butternut-squash-and-goat-cheese/"><span>Spaghetti with butternut squash and goat cheese</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>January 27, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/roast-chicken-with-croutons/"><span>Roast chicken with croutons</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>January 24, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/man-food-lamb-meatballs-and-chicken-wings/"><span>Man food: Lamb meatballs and chicken wings</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>January 22, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/chocolate-chip-cookies-to-die-for/"><span>Chocolate chip cookies to die for</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>January 21, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/dinner-with-uncle-ted-and-emily/"><span>Dinner with Uncle Ted and Emily</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>January 19, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/duck-breast-and-red-wine-risotto/"><span>Duck breast and red wine risotto</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>January 18, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/boiling-vortex-eggs-with-wild-salmon-caviar/"><span>Boiling vortex eggs with wild salmon caviar</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>January 14, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/sour-cream-coffee-cake/"><span>Sour cream coffee cake</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>January 8, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/macaroni-and-cheese/"><span>Macaroni and cheese</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>January 7, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/chicken-stew/"><span>Chicken stew</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>January 4, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/pierogies-%C3%A0-la-proven%C3%A7ale/"><span>Pierogies à la Provençale</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>January 2, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/new-daube-and-buona-sera/"><span>New daube and Buona Sera</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>January 1, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/cesare-casellas-tuscan-fries/"><span>Cesare Casella&#039;s Tuscan fries</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>December 28, 2005</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/christmas/"><span>Christmas</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>December 27, 2005</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/catch-up-weblogging/"><span>Catch up weblogging</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>December 19, 2005</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/daube-of-short-ribs/"><span>Daube of short ribs</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>December 1, 2005</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/my-first-daube/"><span>My first daube</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>November 30, 2005</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/my-first-roast-chicken/"><span>My first roast chicken</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>November 14, 2005</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/practice-hors-doeuvre/"><span>Practice hors d&#039;oeuvre</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>November 2, 2005</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/whole-chicken-breasts/"><span>Whole Chicken Breasts</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>November 1, 2005</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/barley-party/"><span>Barley party</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>October 25, 2005</span>
+		</div>
+	</div>
+
+	<div><form id="searchbox_014353926172616456646:1qois_andhs" action="http://www.google.com/cse">
+<input type="hidden" name="cx" value="014353926172616456646:1qois_andhs" />
+<input type="hidden" name="cof" value="FORID:0" />
+<p><a href="/eat/archive/2007/10/">Browse by calendar </a>, or     <input name="q" type="text" /><br />
+    <input type="submit" name="sa" value="Search" /></p>
+</form></div>
+
+</div>
+	
+</div> <!-- container -->
+
+<div id="target-padder"></div>
+
+
+
+
+</body>
+</html>

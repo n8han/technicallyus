@@ -1,0 +1,175 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Di Palo’s</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id6be" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Di Palo’s" width="137" class="title" src="../../../resources/net.databinder.components.RenderedLabel/2c88a118"/><span class="title">Di Palo’s</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on September 30, 2006</span></span>
+			<span id="id6bf" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/grocery/#selected-tag"><span>grocery</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p style="float:right"><img src="/pictures/dipalo.jpg" alt="" /></p>
+
+
+	<p><a href="http://travel2.nytimes.com/top/features/travel/destinations/unitedstates/newyork/newyorkcity/restaurant_details.html?vid=1002207985857">Di Palo&#8217;s</a> is my favorite place to buy food in New York, despite the extreme inconvenience often involved in doing so. I first read about it in a piece by Jeffrey Steingarten, in which he described a tasting of Parmesan cheeses from different seasons. The first few times I went, I didn&#8217;t have hours to wait, so I stood around annoyed for ten minutes and then took off. Eventually, I learned that you can take a number and then go run other errands in the neighborhood for twenty or thirty minutes. These days, I don&#8217;t mind waiting for my turn in the store, because DiPalo&#8217;s is not a bad place to waste time, even when it&#8217;s bustling.</p>
+
+
+	<p>I usually go to Di Palo&#8217;s for Parmesan, which never disappoints and is the cheapest in this city or any other: $11.99 a pound. I leave the store with a bag full of cured meats and other Italian cheese. Yesterday, after waiting a modest 35 minutes, which I spent listening to various people from the five boroughs talk about their trips to Italy, their favorite cheese, and their favorite pizza places, I bought salty and delicate prosciutto di Parma ($20 per pound), soppressatta, a pound of fresh ricotta ($4, with which I made fabulous spinach <em>gnudi</em> last night), and a half pound of nutty Piave cheese ($10 per pound).</p>
+
+
+	<p>The reason one must wait so long is not bad service&#8212;it is ridiculously good service. It&#8217;s the best, friendliest, and most thorough service in town. You&#8217;re offered samples (and sometimes a history) of everything you order, and you&#8217;re encouraged to sample and discuss other products in a totally unpretentious way. Lou, the owner, stopped what he was doing at several points to talk about something to a gathering crowd. My instinct is to be annoyed, but when it&#8217;s my turn, I forget about everyone else in the store, and I&#8217;m happy to have my moment at the counter, which never lasts less than five minutes (a very tiny order by Di Palo standards; I see people ordering for 45 minutes and leaving with full grocery bags). The prices are low, and the products are excellent.</p>
+
+
+	<p>My only letdown yesterday was the soppressatta, and if someone in New York knows a good source, I&#8217;d love to hear it. I had been buying a local version at <a href="http://technically.us/eat/articles/2006/04/08/murrays-cheese">Murray&#8217;s</a> and eating it gluttonously for months until I read the ingredients and found corn syrup second from the top of the list. This baffled me, and I called them out on it one day. They were surprised, and they steered me towards a different salami, from Niman Ranch. I enjoy it, but not nearly as much as the soppressatta. I thought Di Palo&#8217;s would trounce them in this department, but their version is fatty and chewy and not at all what I expected. I like it less moist and a bit harder. If someone knows something, please help.</p>
+
+
+	<p><em>Di Palo&#8217;s, 206 Grand Street @ Mott Street, 212-226-1033</em></p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id6c0">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-2851"><p>While I know all corn syrup is bad, I think regular corn syrup, so to speak, is different than high fructose corn syrup, and your body is better able to process it. Many cured meats simply do have a lot of sugar in them.</p>
+<p>But now you&#8217;re getting me greedy for Italian foods and feeling sorry I&#8217;m not going to Italy after all!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.technically.us/eat"><span class="alias">Mommy</span></a>
+  				<span>on September 30, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2852"><p>I too have begun to understand, and in fact relish, time spent waiting for meats, cured and otherwise.  The suspense, waiting to approach the counter, the spontaneous and serendipitous discoveries!  so wonderful.  i was nearly brought to tears by the friendliness of my butcher the other day.  while the cutting and trimming was taking place, a chance to survey the bounty in front of me.  delicious!  Please do tell more about Piave&#8212;it sounds wondrous.  I&#8217;m a sucker for nutty cheeses&#8230;</p>
+<p>Lovely blog!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.epifurious.com"><span class="alias">I Feel Crazy</span></a>
+  				<span>on September 30, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2853"><p>Mom: Spain has great cheese and meat too! And coffee. Don&#8217;t worry!</p>
+<p><span class="caps">IFC</span>: Thank you! Piave is good. There was a woman there, a customer, making everyone taste it. It&#8217;s a fine cheese for eating by the hunk, but it doesn&#8217;t melt well. I made grilled cheese on it yesterday and it did that thing where it doesn&#8217;t meld with the bread; it just kind of got soft and leather, you know? Not too appealing, but still tasty, and recommended.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on September 30, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2854"><p>The soppressata at Caputo&#8217;s in Brooklyn (460 Court St.) is terrific (as is their mozzarella).  There are actually two stores named Caputo&#8217;s on Court St., so make sure you get the right one.  (The other is a bakery.)</p>
+<p>I got soppressata once in Italy, and it was exactly how you described Di Palo&#8217;s.  Maybe someone likes it that way.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">toby</span></span>
+  				<span>on September 30, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4554"><p>I hearded Loius Di Palo on new York Public Radoi and I am very interested in learning more about olive oil, dose he teach a class or seminar .<br />
+jT</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Joseph Torres</span></span>
+  				<span>on October 23, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id6c1">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id6c2" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id6c2_hf_0" id="id6c2_hf_0" /><input type="hidden" name="wicket:interface" value=":260:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id6c3" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id6c4" name="add" value="Add a comment" onclick="wicketShow('id6c4--ajax-indicator');var wcall=wicketSubmitFormById('id6c2', '../../../?wicket:interface=:260:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id6c4--ajax-indicator');}.bind(this),function() { ;wicketHide('id6c4--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id6c2')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id6c4--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

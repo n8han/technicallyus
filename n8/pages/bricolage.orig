@@ -1,0 +1,1086 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Coderspiel</title>
+
+<!-- DEFAULT VARIABLES -->
+
+        <meta name="image:Header" content="http://static.tumblr.com/internal/1Vdkfwdnw/dftr.png"/>
+        <meta name="color:Background" content="#FF821C"/>
+        <meta name="color:Text" content="#841"/>
+        <meta name="color:Link" content="#FFF"/>
+        <meta name="color:Link Hover" content="#FFD412"/>
+        <meta name="color:Date and Post Header" content="#FFF"/>
+        <meta name="color:Image Frame" content="#FFF"/>
+        <meta name="if:Show Tags" content="1" />
+        <meta name="if:Show People I Follow" content="1" />
+        <meta name="font:type" content="Arial, Helvetica, sans-serif"/>
+
+<!-- END DEFAULT VARIABLES -->
+
+
+  <link rel="shortcut icon" href="http://29.media.tumblr.com/avatar_a3f7ea9d5db9_16.png"/>
+  <link rel="alternate" type="application/rss+xml" href="http://code.technically.us/rss"/>
+  
+
+
+
+  <style type="text/css">
+/**
+ * Theme : Dragonfly
+ * Author: MGRL
+ * Designed for use with the  Tumblr theme.
+ * http://customcss.tumblr.com/
+ */
+
+
+/* MAIN */
+
+html { font-size: 100%; }
+
+body {
+  background-color: #E8FFCF;
+  color: #2F3C21;
+  font: normal 1em/1.5  Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+a, a:active, a:visited {
+  color: #2F3C21;
+  outline: none;
+  text-decoration: none;
+  border-bottom: 3px solid rgb(239, 209, 194);
+}
+
+a:hover {
+  color: #2F3C21;
+  border-bottom: 3px dashed rgb(233, 96, 26);
+}
+
+a img {
+  border: 0;
+}
+
+
+/* Typography */
+
+h1 {
+  font-size: 6em;
+  font-weight: normal;
+  letter-spacing: 6px;
+  color: #E9601A;
+  line-height: 1.3em;
+  padding: 0;
+  margin: 0;
+}
+
+
+#description {
+  font-size: 1.1em;
+  line-height: 1em;
+
+}
+
+
+blockquote {
+  font-style: italic;
+  margin: 1em 0 1em 1em;
+}
+
+p {
+  margin: 0 0 1em 0;
+}
+
+ol, ul {
+  margin: 0 0 1.5em;
+  padding: 0 1.5em;
+}
+
+
+/* LAYOUT */
+#contain {
+  margin: 0 auto;
+  padding: 0 0 0 100px;
+  text-align: left;
+  width: 800px;
+}
+
+#header {
+  margin-left: 25px;
+  padding: 0px 0 220px 0px;
+  background: url('http://static.tumblr.com/6hfelm8/Esnky1jn2/code-photo.jpeg') bottom left no-repeat;
+}
+
+#header h1 a, #header h1 a:active, #header h1 a:visited {
+  color: #E9601A;
+  margin-left: -12px;
+  letter-spacing:-3px;
+  border: none;
+}
+
+#bookend h1 {
+  margin-top: -1em;
+}
+
+#content {
+  float: left;
+  width: 526px;
+  margin: 1.2em 22px 0 22px;
+}
+
+#footer {
+  float: right;
+  width: 205px;
+  margin: 1.8em 0 0 0;
+  padding: 5px;
+}
+
+
+/* DATE AND HEADER */
+
+.newdate, .samedate, .notecount{
+position: relative;
+text-align: right;
+font-size: 1.1em;
+float: left;
+margin: 0 0 0 -145px;
+color: #2F3C21;
+}
+
+.post-header {
+  text-align: left;
+ float: left;
+}
+
+.post-header .post-metadata {
+  margin: 20px 0 0 -145;
+  padding: 40px 0 0 0;
+}
+
+.post-header .post-metadata .post-type {
+  display: none;
+}
+
+.post-header .post-metadata a.permalink {
+  color: ##2F3C21;
+  font-size: 1.2em;
+  letter-spacing: -1px;
+}
+
+
+
+/* POST LOOP STYLES */
+
+
+.post {
+ margin: 2em 0 7em 0;
+ padding:0px;
+
+}
+
+.post img {
+ max-width: 100%;
+}
+
+.post h3 {
+  font-size: 1.3em;
+  margin: 0 0 0.3em 0;
+}
+
+.post .caption {
+  margin: .5em 1.5em 0 0;
+}
+
+.quote .words {
+  font-size: 1.25em;
+  line-height: 1.2em;
+  margin: 0 0 0.4em 0;
+}
+
+.quote .short {
+  font-size: 1.4em;
+  line-height: 1.3em;	
+}
+
+.quote .medium {
+  font-size: 1.1em;
+  line-height: 1.2em;	
+}
+
+.quote .long {
+  font-size: 1em;
+  line-height: 1.3em;	
+}
+
+.post img {
+  display: block;
+  padding: 6px;
+  margin: 0;
+  background: #E9601A;
+}
+
+.chat .conversation {
+  list-style: none;
+  padding: 0;
+  font-size: 0.9em;
+}
+
+.chat .conversation .line {
+  border-bottom: 2px dashed #FFF;
+  padding: 0.4em;
+}
+
+.chat .conversation .person {
+  font-weight: bold;
+}
+
+.chat .conversation li.odd {
+  background: ;
+}
+
+.chat .conversation li.even {
+  background: ;
+}
+
+.post .notecontainer {
+  margin-top: 3em; 
+}
+
+.post .notes img {
+  padding: 3px;
+  display: inline;
+}
+  
+.was-reblogged {
+  margin: 0.5em 0 0 0;
+  color: #A52;
+  font-size: 0.8em;
+  text-align: right;
+}
+  
+  
+/* NAVIGATION */
+.previous-next {
+  margin: 0;
+  text-align: center;
+  font-size: 1em;
+  text-transform: lowercase;
+  line-height: 4em;
+}
+
+
+
+.previous-next .previous {
+  margin-right: 1em;
+}
+  
+
+.previous-next .next {
+  margin-left: 1em;
+}
+
+
+/* "FOOTER" sidebar */
+#footer {
+  font-size: 0.875em;
+}
+
+#footer h4.section {
+  margin: 2em 0 .5em 0;
+}
+
+#footer ul {
+  margin: .5em 0 .5em 0;
+}
+
+#footer .links,
+#footer .followed {
+  list-style: none;
+  padding: 0;
+}
+
+#footer input.field {
+  width: 125px;
+}
+
+#footer .followed li {
+  display: inline;
+  margin-right: .25em;
+}
+
+#footer .followed li a {
+  background: none;
+}
+
+ul#twitter_update_list > li * { white-space: nowrap }
+ul#twitter_update_list > li a { margin-left: .5em }
+ul#twitter_update_list > li > a { display: none }
+   
+#footer p.please_dont_hide_this {
+  margin: 4em 0 0 0;
+  border-top: 2px dashed rgb(233, 96, 26);
+  padding: 0.5em 0 0 0;
+  font-size: 0.8em;
+}
+
+
+
+
+  </style>
+<meta http-equiv="x-dns-prefetch-control" content="off"/></head>
+<body>
+  <div id="contain">
+    
+    <div id="header">
+      <h1><a href="/">Coderspiel {</a></h1>
+      <div id="description"></div>
+    </div>
+    
+    <div id="content">
+    <!-- Loops for each post-type -->
+    
+      <div class="post software patents dumb_property china economy">
+        <div class="post-header">
+				
+          <h4 class="newdate">
+            <span class="date"><a href="http://code.technically.us/post/8647279135/pick-any-country-that-is-currently-doing-well" class="permalink">#&nbsp;08&nbsp;Aug&nbsp;2011</a></span>
+
+          </h4>
+					
+          
+
+        <div class="notecount"><br/><br/>1 note</div>
+        </div> <!-- end post-header -->
+
+        
+    
+                
+        <div class="quote">
+          <blockquote class="words long">&#8220;Pick any country that is currently doing well, China is a perfect example. In China the Intellectual Property Laws are so weak that someone thought it was a good idea to completely replicate Apple retail stores. Compare their economy to ours. As much as I hate to compare other economies to ours, it’s worth taking a look .&#8221;</blockquote>
+          <p class="source">&mdash; <a href="http://blogmaverick.com/2011/08/07/my-suggestion-on-patent-law/">My Suggestion on Patent Law (end all software patents)</a></p>
+        </div>
+        
+  
+        
+  
+        
+  
+        
+  
+        
+  
+        
+        
+        
+
+        
+         <div class="tags">[<a href="http://code.technically.us/tagged/Software">Software</a>] [<a href="http://code.technically.us/tagged/Patents">Patents</a>] [<a href="http://code.technically.us/tagged/Dumb_Property">Dumb Property</a>] [<a href="http://code.technically.us/tagged/China">China</a>] [<a href="http://code.technically.us/tagged/Economy">Economy</a>] </div>
+        
+                    
+        
+
+        
+      </div> <!-- end single post -->
+    
+      <div class="post programming patents responsibility innovation martin_fowler">
+        <div class="post-header">
+				
+          <h4 class="newdate">
+            <span class="date"><a href="http://code.technically.us/post/8525071258/i-do-think-that-any-programmer-who-cooperates-in" class="permalink">#&nbsp;05&nbsp;Aug&nbsp;2011</a></span>
+
+          </h4>
+					
+          
+
+        <div class="notecount"><br/><br/>5 notes</div>
+        </div> <!-- end post-header -->
+
+        
+    
+                
+        <div class="quote">
+          <blockquote class="words medium">&#8220;I do think that any programmer who cooperates in getting a baseless patent should be ashamed of themselves. It shows the kind of lack of responsibility that undermines any justification we have to be treated as professionals.&#8221;</blockquote>
+          <p class="source">&mdash; <a href="http://martinfowler.com/bliki/SoftwarePatent.html">Martin Fowler — SoftwarePatent</a></p>
+        </div>
+        
+  
+        
+  
+        
+  
+        
+  
+        
+  
+        
+        
+        
+
+        
+         <div class="tags">[<a href="http://code.technically.us/tagged/Programming">Programming</a>] [<a href="http://code.technically.us/tagged/Patents">Patents</a>] [<a href="http://code.technically.us/tagged/Responsibility">Responsibility</a>] [<a href="http://code.technically.us/tagged/Innovation">Innovation</a>] [<a href="http://code.technically.us/tagged/Martin_Fowler">Martin Fowler</a>] </div>
+        
+                    
+        
+
+        
+      </div> <!-- end single post -->
+    
+      <div class="post spotify meetups nyc music patents">
+        <div class="post-header">
+				
+          <h4 class="newdate">
+            <span class="date"><a href="http://code.technically.us/post/8491711758/this-meetup-is-devoted-to-exploring-how-spotifys" class="permalink">#&nbsp;04&nbsp;Aug&nbsp;2011</a></span>
+
+          </h4>
+					
+          
+
+        
+        </div> <!-- end post-header -->
+
+        
+    
+                
+        <div class="quote">
+          <blockquote class="words long">&#8220;This Meetup is devoted to exploring how Spotify&#8217;s technology stack works and to the hackers who use Spotify&#8217;s APIs. We&#8217;ll get together to meet both Spotify engineers and business leaders and anyone who takes the time to do something cool with Spotify&#8217;s APIs.&#8221;</blockquote>
+          <p class="source">&mdash; <a href="http://www.meetup.com/NYC-Spotify-Tech-Group/?gj=wg2_ej1b&amp;a=wg2.1_l1">NYC Spotify Tech Group (New York, NY)</a></p>
+        </div>
+        
+  
+        
+  
+        
+  
+        
+  
+        
+  
+        
+        
+        
+
+        
+         <div class="tags">[<a href="http://code.technically.us/tagged/Spotify">Spotify</a>] [<a href="http://code.technically.us/tagged/Meetups">Meetups</a>] [<a href="http://code.technically.us/tagged/NYC">NYC</a>] [<a href="http://code.technically.us/tagged/Music">Music</a>] [<a href="http://code.technically.us/tagged/Patents">Patents</a>] </div>
+        
+                    
+        
+
+        
+      </div> <!-- end single post -->
+    
+      <div class="post software_freedom patents google android mobile">
+        <div class="post-header">
+				
+          
+          <h4 class="samedate">
+            <span class="time"><a href="http://code.technically.us/post/8481966791/google-should-publicly-oppose-software-patents" class="permalink">#&nbsp;16:00</a></span>
+          </h4>
+          
+
+        <div class="notecount"><br/><br/>6 notes</div>
+        </div> <!-- end post-header -->
+
+        
+    
+        
+  
+          
+        <div class="link">        
+          <h3><a href="http://blogs.forbes.com/timothylee/2011/08/03/google-should-publicly-oppose-software-patents/" >Google Should Publicly Oppose Software Patents</a></h3>
+          <blockquote>
+  <p>Conspicuously missing here is any mention of patent reform. Congress is currently working on a patent overhaul called the America Invents Act. Google is one of the world’s largest and most prominent victims of our innovation-taxing patent system, so lobbying for better patent laws seems like an obvious way to fight back.</p>
+</blockquote>
+
+<p>Constructive criticism, +1! (Or is that patented?)</p>
+        </div>
+        
+  
+        
+  
+        
+  
+        
+  
+        
+        
+        
+
+        
+         <div class="tags">[<a href="http://code.technically.us/tagged/Software_Freedom">Software Freedom</a>] [<a href="http://code.technically.us/tagged/Patents">Patents</a>] [<a href="http://code.technically.us/tagged/Google">Google</a>] [<a href="http://code.technically.us/tagged/Android">Android</a>] [<a href="http://code.technically.us/tagged/Mobile">Mobile</a>] </div>
+        
+                    
+        
+
+        
+      </div> <!-- end single post -->
+    
+      <div class="post patents apple google mobile software_freedom competition">
+        <div class="post-header">
+				
+          <h4 class="newdate">
+            <span class="date"><a href="http://code.technically.us/post/8448749781/but-androids-success-has-yielded-something-else" class="permalink">#&nbsp;03&nbsp;Aug&nbsp;2011</a></span>
+
+          </h4>
+					
+          
+
+        <div class="notecount"><br/><br/>5 notes</div>
+        </div> <!-- end post-header -->
+
+        
+    
+                
+        <div class="quote">
+          <blockquote class="words medium">&#8220;But Android’s success has yielded something else: a hostile, organized campaign against Android by Microsoft, Oracle, Apple and other companies, waged through bogus patents.&#8221;</blockquote>
+          <p class="source">&mdash; <a href="http://googleblog.blogspot.com/2011/08/when-patents-attack-android.html">Official Google Blog: When patents attack Android</a></p>
+        </div>
+        
+  
+        
+  
+        
+  
+        
+  
+        
+  
+        
+        
+        
+
+        
+         <div class="tags">[<a href="http://code.technically.us/tagged/Patents">Patents</a>] [<a href="http://code.technically.us/tagged/Apple">Apple</a>] [<a href="http://code.technically.us/tagged/Google">Google</a>] [<a href="http://code.technically.us/tagged/Mobile">Mobile</a>] [<a href="http://code.technically.us/tagged/Software_Freedom">Software Freedom</a>] [<a href="http://code.technically.us/tagged/Competition">Competition</a>] </div>
+        
+                    
+        
+
+        
+      </div> <!-- end single post -->
+    
+      <div class="post scala unfiltered akka streaming async milk">
+        <div class="post-header">
+				
+          <h4 class="newdate">
+            <span class="date"><a href="http://code.technically.us/post/8392475732/weve-always-wanted-to-add-this-real-time-updating" class="permalink">#&nbsp;02&nbsp;Aug&nbsp;2011</a></span>
+
+          </h4>
+					
+          
+
+        
+        </div> <!-- end post-header -->
+
+        
+    
+                
+        <div class="quote">
+          <blockquote class="words medium">&#8220;We&#8217;ve always wanted to add this real time updating awesomeness to the web app, and with the help of Scala, Akka, Netty and Unfiltered, we&#8217;re excited to announce that real time updates are finally here.&#8221;</blockquote>
+          <p class="source">&mdash; <a href="http://blog.rememberthemilk.com/2011/08/real-time-updating-comes-to-the-remember-the-milk-web-app/">Real time updating comes to the Remember The Milk web app</a></p>
+        </div>
+        
+  
+        
+  
+        
+  
+        
+  
+        
+  
+        
+        
+        
+
+        
+         <div class="tags">[<a href="http://code.technically.us/tagged/Scala">Scala</a>] [<a href="http://code.technically.us/tagged/Unfiltered">Unfiltered</a>] [<a href="http://code.technically.us/tagged/Akka">Akka</a>] [<a href="http://code.technically.us/tagged/Streaming">Streaming</a>] [<a href="http://code.technically.us/tagged/Async">Async</a>] [<a href="http://code.technically.us/tagged/Milk">Milk</a>] </div>
+        
+                    
+        
+
+        
+      </div> <!-- end single post -->
+    
+      <div class="post glaring_bugs android web mobile">
+        <div class="post-header">
+				
+          <h4 class="newdate">
+            <span class="date"><a href="http://code.technically.us/post/8174106078/we-have-noticed-as-well-that-the-flagship-books" class="permalink">#&nbsp;28&nbsp;Jul&nbsp;2011</a></span>
+
+          </h4>
+					
+          
+
+        <div class="notecount"><br/><br/>16 notes</div>
+        </div> <!-- end post-header -->
+
+        
+    
+                
+        <div class="quote">
+          <blockquote class="words medium">&#8220;We have noticed as well that the flagship &#8216;Books&#8217; app has not implemented text selection, and by the images split across pages in landscape mode, we thought perhaps it is using a WebView as well? (Very pretty page turning though&#8230;) Help? :)&#8221;</blockquote>
+          <p class="source">&mdash; <a href="http://code.google.com/p/android/issues/detail?id=4549#c10">Issue 4549 - android - In webkit/webview touchmove/touchstart/touchend events get queued and don&#8217;t fire until touch ends</a></p>
+        </div>
+        
+  
+        
+  
+        
+  
+        
+  
+        
+  
+        
+        
+        
+
+        
+         <div class="tags">[<a href="http://code.technically.us/tagged/Glaring_Bugs">Glaring Bugs</a>] [<a href="http://code.technically.us/tagged/Android">Android</a>] [<a href="http://code.technically.us/tagged/Web">Web</a>] [<a href="http://code.technically.us/tagged/Mobile">Mobile</a>] </div>
+        
+                    
+        
+
+        
+      </div> <!-- end single post -->
+    
+      <div class="post nyt hacktivism hack_reporters anonymous">
+        <div class="post-header">
+				
+          <h4 class="newdate">
+            <span class="date"><a href="http://code.technically.us/post/8108116332/for-supposed-journalists-a-sense-of-repulsed" class="permalink">#&nbsp;26&nbsp;Jul&nbsp;2011</a></span>
+
+          </h4>
+					
+          
+
+        <div class="notecount"><br/><br/>2 notes</div>
+        </div> <!-- end post-header -->
+
+              
+        <div class="text">
+          <h3>For Supposed Journalists, a Sense of Repulsed Detachment</h3>
+          <p>Were you wondering what cliches, stereotypes, and distortions the
+elite media establishment would use when it tried to suss out the latest
+&#8220;hacker&#8221; arrests? Wait no longer!</p>
+
+<p><a href="http://www.nytimes.com/2011/07/26/technology/for-suspected-hackers-a-sense-of-social-protest.html">For Suspected Hackers, a Sense of Social Protest (<em>NYT</em>)</a></p>
+
+<blockquote>
+  <p>The F.B.I.’s arrests of 14 people last week were the most ambitious crackdown yet on a loose-knit group of hackers called Anonymous&#8230;</p>
+  
+  <p>But at least some of the suspects are not your typical
+    hard-core hackers, judging from interviews with two of them and
+    the online traces of others.</p>
+</blockquote>
+
+<p>Whatever they base their idea of typical hard-core hackers on (<a href="http://3.bp.blogspot.com/-gWhG5RbW-28/Tfp6uQaSTkI/AAAAAAAAAm4/v5-6r80ilRc/s1600/Hackers22.jpg">Acid Burn</a>?) we&#8217;ll never know.</p>
+
+<blockquote>
+  <p>Some did not bother to cover their digital tracks as they
+    participated in what they saw as an online protest. And some
+    say they were unaware that their feverish clicks on a home
+    computer may have been against the law.</p>
+</blockquote>
+
+<p>Ignoring the author&#8217;s futile attempt to jazz up the story with
+overwrought language, we see here that every statement is
+cloaked in <strong>pedantically skeptical reportage</strong> to the absurd point that
+we&#8217;re unsure if someone was truly <em>unaware</em> that something <em>may
+have been</em> against the law. What does that even mean?</p>
+
+<blockquote>
+  <p>While federal law enforcement officials are clearly keen to
+    quash the notion that online attacks are a form of social
+    protest&#8230;</p>
+</blockquote>
+
+<p>Since this &#8220;notion&#8221; is an <a href="http://pastebin.com/RA15ix7S">easily verifiable fact</a>, it will be
+difficult to quash. There are many forms of social protest,
+even violent ones. Riots are illegal pretty much 
+everywhere, but the fact that some of them are
+protests is never in dispute. If someone says their disruptive
+activity is a protest, it&#8217;s a protest.</p>
+
+<blockquote>
+  <p>Drew Phillips, a wry, serious 26-year-old programmer with a
+    paunch that testifies to hours spent hunched over a computer&#8230;</p>
+</blockquote>
+
+<p>Three years later, <strong>the word &#8220;hunch&#8221;</strong> is <a href="http://technically.us/code/x/posturing-about-programming/">still required by the <em>NYT</em>
+style guide</a> for stories about the people who make
+everyone else&#8217;s computers workie. Yes, the computers
+that almost everyone else is also sitting in front of all day long.</p>
+
+<p>And maybe that is partly why <a href="http://www.usatoday.com/news/health/weightloss/2010-01-13-obesity-rates_N.htm">one third of Americans are
+obese</a>. That&#8217;s right, not just one third of 
+programmer-Americans&#8212;but one third of regular <em>human</em> Americans. It
+must be shocking to the newshounds at the <em>Times</em>, whose
+respectable friends stay slim on a diet of
+Jamba Juice, pilates, and cocaine, but yes&#8212;outside their circles
+having a small belly is a testament that you need another KFC Double Down,
+not that you are an exotic &#8220;computer user&#8221;.</p>
+
+<blockquote>
+  <p>admits to joining one of those chat rooms when the attack was
+    being discussed, and to tinkering with the program used in the
+    attack. He said he could have obscured his Internet Protocol
+    address, which can be used to identify a computer, had he
+    thought that anyone was interested in what he was doing.</p>
+</blockquote>
+
+<p><strong>So he <em>admits</em> to joining a chat room!</strong> What great times we live in guys.</p>
+
+<blockquote>
+  <p>Mr. Phillips admits he was sympathetic to the strike against
+    PayPal, but he maintains he did not actually participate.</p>
+</blockquote>
+
+<p>Thoughtcrime, check.</p>
+
+<blockquote>
+  <p>Federal agents were interested in what he was doing with the
+    Low Orbit Ion Cannon software. Mr. Phillips, who works for a
+    solar energy company, said he used it to test the endurance of
+    his employer’s computer systems.</p>
+</blockquote>
+
+<p>He says all he did was <strong>write some code and talk about
+it</strong>.  That is, he didn&#8217;t participate in the DDOS attacks. If he
+had, he would have taken the trouble to disguise his IP address,
+because duh. If this is true (prediction: it is), then the
+prosecutors have no evidence that he participated in the actual
+attacks. Nevertheless&#8230;</p>
+
+<blockquote>
+  <p>They left with all his equipment: a server he had built
+    himself, a desktop, two laptops and several flash
+    drives. Federal agents returned last week to arrest him,
+    charging him with causing damage to a protected computer and a
+    related conspiracy charge. He says wryly that he suspects the
+    government needed to make an example out of him.</p>
+</blockquote>
+
+<p>How very wry! His arrest must be such a light topic, for this &#8220;wry,
+serious&#8221; (?) programmer who was supposedly unaware that writing 
+load testing software and talking about it is definitely maybe
+against some law.</p>
+
+<blockquote>
+  <p>A federal law enforcement official, who would not be named
+    because he was not authorized to speak about an active case,
+    argued that denial-of-service attacks like the one against
+    PayPal were costly and illegal: “These things are costing
+    companies millions of dollars.”</p>
+</blockquote>
+
+<p>Being costly is irrelevant. <strong>Boycotts are costly</strong>, but are legal
+and even praiseworthy. The legality of DOS is only relevant to
+the extent that there is evidence this person carried out a DOS
+attack. None has been presented. In other words, this useless 
+anonymously sourced paragraph seems to have been dropped
+into the story from a great height, with no connection to
+anything that came before it.</p>
+
+<blockquote>
+  <p>The official acknowledged that some of those arrested “used
+    unsophisticated techniques.” But when asked if the authorities
+    were overreacting, he said, “No, it’s never heavy-handed to
+    address violations of law, particularly in this arena of
+    cybersecurity, where the threat is so pervasive.”</p>
+</blockquote>
+
+<p>So they <em>admit</em> to making an example of people! How wry.</p>
+
+<blockquote>
+  <p>In Jacksonville, Fla., another self-taught programmer named
+    Keith Downey was also angered last December by PayPal’s stance
+    toward WikiLeaks.</p>
+</blockquote>
+
+<p>Teaching yourself programming&#8212;bypassing the institutions charged
+with dispensing such education for merely $50,000 a year or
+whatever&#8212;is very suspicious indeed. If people can teach
+themselves the most useful knowledge in the modern world, who
+will subsidize the education of hack reporters?</p>
+
+<blockquote>
+  <p>And in general, he was dismayed at what he saw as increasing
+    government control over the Internet.</p>
+</blockquote>
+
+<p>He said, she said. Who can definitively state that <strong>government is
+increasing its control of the internet</strong> when it has started
+<a href="http://torrentfreak.com/u-s-government-shuts-down-84000-websites-by-mistake-110216/">seizing domain names</a>, advising private companies <a href="http://www.rawstory.com/rs/2010/12/07/mastercard-shuts-donations-wikileaks-calling-site-illegal/">to cut
+off certain accounts</a> based on no law at all, and is
+plotting to grant itself the power to <a href="http://news.cnet.com/8301-31921_3-20029282-281.html">shutdown the
+internet</a> and/or create a <a href="http://www.alternet.org/story/148377/congress_has_plans_for_an_internet_blacklist_in_the_works__lets_stop_this_now">blacklist</a>?  Certainly
+not the even-keeled <em>New York Times</em>! They report a mishmash of
+subjectively qualified facts wrapped in snide cliches, you decide
+whether or not the guy with the paunch is a weirdo.</p>
+
+<blockquote>
+  <p>He logged on from home, also without bothering to use tools
+    that would help shield his identity.</p>
+</blockquote>
+
+<p>And then this dude actually did participate in the DOS, but he
+thinks it should be legal or he thinks it should be a minor
+offense.</p>
+
+<blockquote>
+  <p>He likened it to “the college sit-ins of the ’70s” and even to
+    Gandhi’s civil disobedience movement against British rule. No
+    one in the chat rooms apparently bothered to explain that
+    Gandhi spent a lot of time in jail, as did antiwar protesters
+    in the 1970s. Mr. Downing wasn’t prepared to be arrested last
+    week. Nor is he financially prepared to travel across the
+    country for his court appearance in San Jose, Calif., in
+    September.</p>
+</blockquote>
+
+<p>And no one has bothered to explain to the editors of this piece
+that neither Gandhi nor those <strong>legendary boomer hippies</strong> were
+required to travel 2,700 miles at their own expense to stand
+trial. That&#8217;s because it&#8217;s a new, <em>innovative</em> way for government to undermine
+the presumption of innocence, by making all sorts of loosely defined nonviolent acts
+into federal offenses with big numbers attached.</p>
+
+<p>And is anyone really &#8220;prepared&#8221; to go to jail, and happy about
+it when interviewed? It&#8217;s unclear where the comparison with
+protesters of yore is supposed to break down, according to this
+stupidly aloof newspaper article. Is it that Gandhi didn&#8217;t
+have a paunch?</p>
+
+<blockquote>
+  <p>Mr. Downey, who had a small business installing and maintaining
+  computer hardware for local music studios, lost his computer
+  equipment during an F.B.I. raid in January. He lives with his
+  widowed mother, who was laid off from her job earlier this
+  year. Mr. Downey says he is patching together construction work
+  to make ends meet.</p>
+</blockquote>
+
+<p>Ah. Now it all makes sense. He had been using the equipment to
+support himself and his recently laid off mother, one of our
+country&#8217;s <strong>9% unemployed</strong>. As he waits to stand trial, the
+government has seized all the tools that he needs to
+be productive in this economy.</p>
+
+<p>And that&#8217;s what we call&#8230; <em><a href="http://www.whitehouse.gov/winning-the-future/">WINNING THE FUTURE</a>!</em></p>
+        </div>
+        
+    
+        
+  
+        
+  
+        
+  
+        
+  
+        
+  
+        
+        
+        
+
+        
+         <div class="tags">[<a href="http://code.technically.us/tagged/NYT">NYT</a>] [<a href="http://code.technically.us/tagged/Hacktivism">Hacktivism</a>] [<a href="http://code.technically.us/tagged/Hack_Reporters">Hack Reporters</a>] [<a href="http://code.technically.us/tagged/Anonymous">Anonymous</a>] </div>
+        
+                    
+        
+
+        
+      </div> <!-- end single post -->
+    
+      <div class="post dispatch unfiltered scala community">
+        <div class="post-header">
+				
+          
+          <h4 class="samedate">
+            <span class="time"><a href="http://code.technically.us/post/8078991962/community-management" class="permalink">#&nbsp;4:00</a></span>
+          </h4>
+          
+
+        <div class="notecount"><br/><br/>4 notes</div>
+        </div> <!-- end post-header -->
+
+              
+        <div class="text">
+          <h3>Community Management</h3>
+          <p>Were you annoyed because the <a href="http://databinder.3617998.n2.nabble.com/">old</a> Dispatch and Unfiltered forums did not have a Google+ notification bar at the top of every screen?</p>
+
+<p>Fixed that for ya!</p>
+
+<ul><li><a href="https://groups.google.com/forum/#!forum/dispatch-scala">Dispatch Google Group</a></li>
+<li><a href="https://groups.google.com/forum/#!forum/unfiltered-scala">Unfiltered Google Group</a></li>
+</ul>
+        </div>
+        
+    
+        
+  
+        
+  
+        
+  
+        
+  
+        
+  
+        
+        
+        
+
+        
+         <div class="tags">[<a href="http://code.technically.us/tagged/Dispatch">Dispatch</a>] [<a href="http://code.technically.us/tagged/Unfiltered">Unfiltered</a>] [<a href="http://code.technically.us/tagged/Scala">Scala</a>] [<a href="http://code.technically.us/tagged/Community">Community</a>] </div>
+        
+                    
+        
+
+        
+      </div> <!-- end single post -->
+    
+      <div class="post jvm cps callbacks async scala event_loops">
+        <div class="post-header">
+				
+          <h4 class="newdate">
+            <span class="date"><a href="http://code.technically.us/post/8055583228/callbacks-synchronous-and-asynchronous" class="permalink">#&nbsp;25&nbsp;Jul&nbsp;2011</a></span>
+
+          </h4>
+					
+          
+
+        <div class="notecount"><br/><br/>3 notes</div>
+        </div> <!-- end post-header -->
+
+        
+    
+        
+  
+          
+        <div class="link">        
+          <h3><a href="http://blog.ometer.com/2011/07/24/callbacks-synchronous-and-asynchronous/" >Callbacks, synchronous and asynchronous</a></h3>
+          <blockquote>
+  <p>In the end it works, but imag­ine what hap­pens if callback-based APIs become pop­u­lar and every jar you use with a call­back in its API has to have its own thread pool. Kind of sucks. That’s prob­a­bly why Netty punts on the issue. Too hard to make pol­icy deci­sions about this in a low-level net­work­ing library.</p>
+</blockquote>
+
+<p>/cc Waffle, who <a href="http://waffle.wootest.net/2010/12/15/spielfeel/">said some of this</a> before.</p>
+        </div>
+        
+  
+        
+  
+        
+  
+        
+  
+        
+        
+        
+
+        
+         <div class="tags">[<a href="http://code.technically.us/tagged/JVM">JVM</a>] [<a href="http://code.technically.us/tagged/cps">cps</a>] [<a href="http://code.technically.us/tagged/Callbacks">Callbacks</a>] [<a href="http://code.technically.us/tagged/Async">Async</a>] [<a href="http://code.technically.us/tagged/Scala">Scala</a>] [<a href="http://code.technically.us/tagged/Event_Loops">Event Loops</a>] </div>
+        
+                    
+        
+
+        
+      </div> <!-- end single post -->
+    
+
+          
+      
+      
+      
+      <!-- Pagination only rendered on index pages -->
+      <p class="previous-next">
+        <a href="/page/2" class="previous">&#8592; Older Entries</a>
+        <span id="pages">Page 1 of 36</span>
+        
+      </p> <!-- end previous/next (pages) -->
+      
+      
+
+	    <div id="bookend">
+	      <h1>}</h1>
+	    </div>
+
+      <script type="text/javascript">var disqus_url = ""; var disqus_title ="";</script><script type="text/javascript">
+      //<![CDATA[
+      (function() {
+      	var links = document.getElementsByTagName('a');
+      	var query = '?';
+      	for(var i = 0; i < links.length; i++) {
+      	if(links[i].href.indexOf('#disqus_thread') >= 0) {
+      		query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+      	}
+      	}
+      	document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/coderspiel/get_num_replies.js' + query + '"></' + 'script>');
+      })();
+      //]]>
+      </script>
+
+    </div> <!-- end content -->
+    
+
+    <div id="footer">
+      <h4 class="section" id="links-header">Coderspiel</h4>
+      <form action="/search" method="get">
+      <ul class="links">
+        <li><a href="http://code.technically.us/rss">RSS</a></li>
+        <li><a href="http://twitter.com/Coderspiel">Twitter</a></li>
+        <li><a href="/archive">Archives</a></li>
+        <li><a href="http://technically.us/code/archive/2010/2/"><em>More</em> Archives</a></li>
+      </ul>
+      <input type="text" class="field" name="q" value=""/>
+      <input type="submit" value="Search"/>
+      </form>
+
+      <div id="twitter_div">
+      <h4 class="sidebar-title section">implicit.ly</h4>
+      <ul id="twitter_update_list" class="links"></ul>
+      </div>
+
+      <h4 class="section">n8hanspiel</h4>
+      <ul class="links">
+        <li><a href="http://twitter.com/n8han">Twitter</a></li>
+        <li><a href="http://n8han.technically.us/">Tumblr</a></li>
+      </ul>
+
+<iframe width="245" height="425" src="http://api.meetup.com/widget?head=ee0e37d66418c42ac68c3cf9027bfa49bfd3943f&q_events=%2Fevents%3Fradius%3D25.0%26order%3Dtime%26group_urlname%3Dny-scala%26offset%3D0%26callback%3D%3F%26format%3Djson%26page%3D1%26fields%3D%26sig_id%3D7230113%26sig%3Dea5e106b32e97aa5508432e9dbdf0faef1e7613b%26user_agent%3Dmeetup.widget%3Amug_stats&p_width=225&q_groups=%2Fgroups%3Fradius%3D25.0%26order%3Dctime%26group_urlname%3Dny-scala%26offset%3D0%26callback%3D%3F%26format%3Djson%26page%3D200%26sig_id%3D7230113%26sig%3Da21c50bf89b23e3b5462aa8228efa414384926cb%26user_agent%3Dmeetup.widget%3Amug_stats&p_height=470&p_urlname=ny-scala&name=mug_stats.live.html" frameborder="0"></iframe>
+
+      <!-- Outputs a list of 30x30 pics of all the tumblelogs you follow -->
+      
+      
+      
+
+      
+      <p class="please_dont_hide_this">Based on <a href=http://mgrl.carbonmade.com/>MGRL</a>, <a href="http://customcss.tumblr.com/">CustomCSS</a></p>
+    </div> <!-- end footer -->
+
+    
+        <script type="text/javascript" src="/tweets.js"></script>
+    
+
+  </div> <!-- end containing div -->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-13048575-4");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+<script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/implicit_ly.json?callback=twitterCallback2&amp;count=5"></script>
+
+<!-- BEGIN TUMBLR CODE --><iframe src="http://assets.tumblr.com/iframe.html?9&src=http%3A%2F%2Fcode.technically.us%2F&amp;lang=en_US&amp;name=coderspiel" scrolling="no" width="330" height="25" frameborder="0" style="position:absolute; z-index:1337; top:0px; right:0px; border:0px; background-color:transparent; overflow:hidden;" id="tumblr_controls"></iframe><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><script type="text/javascript">_qoptions={qacct:"p-19UtqE8ngoZbM"};</script><script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script><noscript><img src="http://pixel.quantserve.com/pixel/p-19UtqE8ngoZbM.gif" style="display:none; border-width:0px; height:1px; width:1px;" alt=""/></noscript><!-- END TUMBLR CODE --></body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Pollo alla cacciatora</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id8ea" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Pollo alla cacciatora" width="309" class="title" src="../../../resources/net.databinder.components.RenderedLabel/bcbcbbe1"/><span class="title">Pollo alla cacciatora</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on February 10, 2009</span></span>
+			<span id="id8eb" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p><img src="http://technically.us/resources/com.typeturner.Typeturner/image?name=cacciatore" title="cacciatore" alt="cacciatore" /></p>
+<p>On the rare nights that I&#8217;m home these days &#8211; often only one night per week &#8211; the last thing I want to do is prepare an elaborate dinner and mess up my small, windowless kitchen with a bunch of grease and dishes. I know I have a starving man to take care of, and I should make an effort to apply some of what I&#8217;m learning at home. Nevertheless, dinner at our house is usually dried pasta or pot beans or salad or scrambled eggs.</p>
+<p>But the weather this weekend got us onto our bicycles and out to Fairway, and I decided I would take ten minutes to find a recipe and make it, come hell or high water. I found Jamie Oliver&#8217;s recipe for <em>pollo alla cacciatora</em>, and it looked pretty darn similar to a recipe we made in school. It also involved hardly any ingredients I didn&#8217;t have, and it would give me a chance to quarter a bird, so I went ahead and committed myself to the dish.</p>
+<p>The key to this chicken is marinating. If you don&#8217;t organize yourself to marinate the chicken overnight, then don&#8217;t bother making it. Anyone can sear off chicken and braise it, but it won&#8217;t be this tender or taste this good. You hardly need a recipe:</p>
+<p>1 4-pound chicken, quartered <br> 8 bay leaves <br> rosemary sprigs <br> garlic cloves (2 crushed and 1 sliced) <br> 1/2 bottle red wine <br> flour <br> olive oil <br> 6 anchovy fillets (you really can&#8217;t detect them) <br> about 1 cup pitted olives <br> 1 28-ounce can tomatoes</p>
+<p>Season the chicken pieces with salt and pepper. Place them in a bowl with the bay leaves, a few rosemary sprigs, and the crushed garlic cloves. Cover with the wine, adding more if you need to. (Jamie says to use chianti&#8212;-I hit the box!) Let marinate overnight in the fridge, rotating the chicken pieces at least once if you think of it.</p>
+<p>Preheat the oven to 350ºF. Reserving the marinade, drain the chicken. Dry it on a towel, lightly dredge it flour, and brown it on all sides in olive oil in an ovenproof cooking vessel (such as a dutch oven). You&#8217;ll probably need to do this in two batches unless you have a huge pan. Don&#8217;t skimp on the browning. Set the chicken aside and throw off some fat if it looks ridiculous.</p>
+<p>Back on the heat, add the sliced garlic, and fry till browned. Add the anchovies, olives, and tomatoes. Break up the tomatoes a bit with a wooden spoon. Return the chicken pieces to the pan with the marinade, and bring to a boil (this is necessary to make the marinade safe&#8212;-you can also boil it in another pan while the chicken is browning to speed up the process).</p>
+<p>Cover the chicken with a tight-fitting lid and bake for 90 minutes. Skim off any fat that&#8217;s risen to the surface, season if necessary, and serve, preferably with a loaf of crusty bread and a big bowl of beans.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id8ec">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-6096"><p>If you can&#8217;t detect the anchovy fillets why use them at all?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca (Mom)</span></span>
+  				<span>on February 10, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6097"><p>Because they add a savory deliciousness that you can&#8217;t get from salt alone. I don&#8217;t like to eat anchovies on their own, but they definitely contribute an extra layer of flavor to a dish like this.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on February 10, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6099"><p>This looks delicious!! Thanks for posting!!!! xoxo</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Emily</span></span>
+  				<span>on February 10, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6170"><p>good suggestion, family approved and it used up<br />
+some anchovies a friend left in the fridge when<br />
+she attempted bagna cuda.  I love using stuff up!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Janet</span></span>
+  				<span>on March 5, 2009</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id8ed">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id8ee" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id8ee_hf_0" id="id8ee_hf_0" /><input type="hidden" name="wicket:interface" value=":332:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id8ef" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id8f0" name="add" value="Add a comment" onclick="wicketShow('id8f0--ajax-indicator');var wcall=wicketSubmitFormById('id8ee', '../../../?wicket:interface=:332:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id8f0--ajax-indicator');}.bind(this),function() { ;wicketHide('id8f0--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id8ee')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id8f0--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

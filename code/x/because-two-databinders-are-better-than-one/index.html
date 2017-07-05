@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="../../../blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="../../../blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet.css"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Because two Databinders are better than one</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code.html">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code.html">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id23f3" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Because two Databinders are better than one" width="725" class="title" src="../../../resources/net.databinder.components.RenderedLabel/4101353b"/><span class="title">Because two Databinders are better than one</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on September 17, 2006</span></span>
+			<span id="id23f4" class="tags">
+					{&nbsp;<span><a href="../../tag/hibernate/index.html#selected-tag"><span>hibernate</span></a><span id="id23f5">, </span></span><span><a href="../../tag/databinder/index.html#selected-tag"><span>databinder</span></a><span id="id23f6">, </span></span><span><a href="../../tag/wicket/index.html#selected-tag"><span>wicket</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p style="float:left"><img src="../../../pictures/meier.jpg" alt="" /></p>
+
+
+	<p>I&#8217;d <a href="http://technically.us/n8/articles/2006/08/21/0-7-is-databinders-lucky-number">previously</a> intended to get Databinder 1.0 out of the house before branching for Wicket 2.0. We all know how much fun it is to apply bug fixes and enhancements to multiple source trees. But then I remembered that Hibernate Annotations, responsible for about one half of Databinder&#8217;s fabulousness, has never actually been &#8220;released.&#8221;</p>
+
+
+	<p>Annotations has been camped out at 3.2.0 <span class="caps">CR1</span> since May. This long pause for a mostly finished, mostly stable product is hard to figure. An <a href="http://en.wikipedia.org/wiki/Object-relational_mapping"><span class="caps">ORM</span></a> kidnapping—are they being held for ransom at <a href="http://www.37signals.com/">37signals</a>? Or maybe they&#8217;re waiting to release the software and <a href="http://blog.hibernate.org/cgi-bin/blosxom.cgi/2006/09/15#jpwh-meap">their new Manning book</a> at the same time? Somebody call Martha&#8212;synergy is <em>back!</em></p>
+
+
+	<p><strong>Update:</strong> Well, well. <span class="caps">CR2</span> was <a href="http://technically.us/code/x/because-two-databinders-are-better-than-one/:http://www.hibernate.org/247.html">released</a> between me writing and posting this; it&#8217;s in all Databinder snapshots now. &#8220;Hibernate Annotations is ready for prime time.&#8221; Yes!</p>
+
+
+	<p>It wouldn&#8217;t be too responsible to release a 1.0 Databinder that depends heavily on an unreleased version of Hibernate. So we wait. No one&#8217;s found any major bugs in 0.7, and 0.8-SNAPSHOT is chillin&#8217; with a few minor enhancements. We&#8217;re not losing revenue here, thank God. (We&#8217;re not even sure what &#8220;revenue&#8221; is, other than the feminine past participle of <em>revenir</em>.)</p>
+
+
+	<p>But instead of doing nothing I&#8217;ve decided to branch for Wicket 2.0 support. And guess what the branch is called&#8230; yes, it&#8217;s <a href="http://databinder.net/wsvn/Databinder/databinder/r2.0/src/main/java/net/databinder/?rev=0&#38;sc=0">r2.0</a>. There&#8217;s a long, silly tradition in software (Java, particularly) of version number jumps. The usual excuse is to avoid &#8220;confusion.&#8221; Works for me.</p>
+
+
+	<p>2.0-SNAPSHOT, as of right now, is available at the Databinder repository and works with Wicket 2.0-SNAPSHOT builds. Compared to 0.8-SNAPSHOT, it is neither comprehensive, tested, nor documented. But it&#8217;s available because I know some Databinder users are getting antsy and I don&#8217;t want them to think we aren&#8217;t on the ball here.</p>
+
+
+	<p>But please, please, stay with &lt;= 1.0 releases if you&#8217;re learning Wicket or working on something you might finish in the next few months. Don&#8217;t worry about &#8220;learning Wicket twice&#8221; or anything like that. Migrating to 2.0 requires a fair bit of typing but not a lot of philosophizing.</p>
+
+
+	<p>Well, there is one thing I&#8217;m puzzled about with Wicket 2.0: <strong>where did my Roles go?</strong> Eelco, did you take my Roles? I want them back. Please give me back my Roles. Until they are returned, don&#8217;t expect anything in Databinder&#8217;s authentication package to work.</p>
+
+
+	<h3>How to use the Wicket and Databinder 2.0 snapshots</h3>
+
+
+	<p><em>Or, how to make lots of extra work for yourself, and be cool.</em></p>
+
+
+	<ol>
+	<li>Have these in your <code>pom.xml</code>: <pre>&lt;repositories&gt;
+    &lt;repository&gt;
+        &lt;id&gt;databinder-snapshots&lt;/id&gt;
+        &lt;name&gt;Databinder snapshot repository&lt;/name&gt;
+        &lt;url&gt;http://databinder.net/snapshot&lt;/url&gt;
+    &lt;/repository&gt;
+    &lt;repository&gt;
+        &lt;id&gt;wicket-snapshot&lt;/id&gt;
+        &lt;name&gt;Wicket snapshot repository&lt;/name&gt;
+        &lt;url&gt;http://maven.sateh.com/wicket/&lt;/url&gt;
+    &lt;/repository&gt;
+&lt;/repositories&gt;  </pre></li>
+		<li>Bump your Databinder version to 2.0-SNAPSHOT.</li>
+		<li><pre> mvn clean eclipse:clean eclipse:eclipse \
+-Declipse.downloadSources=true</pre></li>
+		<li>Open project in Eclipse.</li>
+		<li>Fix all those squiggly red lines. (est. time 1hr)</li>
+		<li>Fix all those squiggly yellow lines. (don&#8217;t plan on going out today)</li>
+	</ol></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='../../../resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id23f7">
+  		
+  		
+  	</div>
+  	<div id="id23f8">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id23f9" action="../../../index.html" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id23f9_hf_0" id="id23f9_hf_0" /><input type="hidden" name="wicket:interface" value=":1325:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id23fa" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id23fb" name="add" value="Add a comment" onclick="wicketShow('id23fb--ajax-indicator');var wcall=wicketSubmitFormById('id23f9', '../../../?wicket:interface=:1325:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id23fb--ajax-indicator');}.bind(this),function() { ;wicketHide('id23fb--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id23f9')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id23fb--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

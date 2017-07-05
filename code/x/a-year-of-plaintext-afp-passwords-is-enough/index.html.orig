@@ -1,0 +1,200 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / A year of plaintext AFP passwords is enough!</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id2254" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="A year of plaintext AFP passwords is enough!" width="720" class="title" src="../../../resources/net.databinder.components.RenderedLabel/fccd5341"/><span class="title">A year of plaintext AFP passwords is enough!</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on November 16, 2006</span></span>
+			<span id="id2255" class="tags">
+					{&nbsp;<span><a href="../../../code/tag/macintosh/#selected-tag"><span>macintosh</span></a><span id="id2256">, </span></span><span><a href="../../../code/tag/ubuntu/#selected-tag"><span>ubuntu</span></a><span id="id2257">, </span></span><span><a href="../../../code/tag/open%20source/#selected-tag"><span>open source</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Somebody (another <a href="http://eckenrodehouse.net/">Nathan</a>—but in Brooklyn!) <a href="http://technically.us/n8/articles/2005/11/12/ubuntu-mac-os-x-file-sharing#comment-1966">tugged</a> on <i>coderspiel</i>’s long tail to ask if Edgy’s <a href="http://netatalk.sourceforge.net/">Netatalk</a> was any better than ye old Breezy’s at encrypting passwords for <a href="http://en.wikipedia.org/wiki/Apple_Filing_Protocol" title="Apple Filing Protocol"><span class="caps">AFP</span></a> connections.</p>
+
+
+	<p>I happened to be in the middle of upgrading <b>the box</b> (notice that downtime Tuesday night?), so I checked. Nope. Same deal. But a year later I know a little bit more about Ubuntu and Debian, and this is what I found in <tt>/usr/share/doc/netatalk/README.Debian</tt>:</p>
+
+
+	<blockquote>
+		<p>OpenSSL support is currently disabled, because of licensing issues: The Free Software Foundation and Debian consider the <acronym title="">GNU</acronym> General Public License (<acronym title="">GPL</acronym>) under which Netatalk is licensed to be incompatible with the OpenSSL license.</p>
+	</blockquote>
+
+
+
+	<p class="break">Aha. Here at <i>technically.us</i>, we love free-as-in-freedom software but we love gettin’ shit done even more. After all, we’re responsible for little <a href="http://databinder.net/">Databinder</a>, a toolkit known for listening to death metal and calling into both Apache and <acronym title="">LGPL</acronym> licensed libraries without even saying “please.”</p>
+
+
+	<p class="out"><img  src="/pictures/monkey.jpg" /></p>
+
+	<p>So far, hoards of flying monkey reverse-IP lawyers haven’t come crashing through the window. We hope it’s because Databinder doesn’t actually distribute or package <em>any</em> dependency, thanks to <a href="http://maven.apache.org/">Maven</a>. I guess that’s similar to how Debian packages work, though. Um, did I just hear someone scream, “Now fly, fly!” ?</p>
+
+
+	<p>Anywho, the Debian downer quoted above is followed by some terse instructions for building the OpenSSH version that would probably make sense to someone who actually knows Linux. But I figured it out eventually.</p>
+
+
+	<p>If you wanted to do <acronym title="">AFP</acronym> file sharing between Mac <span class="caps">OS X</span> and Ubuntu (with universe repositories <em>enabled</em>), this is how it would go down:</p>
+
+
+<pre>sudo apt-get build-dep netatalk
+sudo apt-get install cracklib2-dev fakeroot libssl-dev
+apt-get source netatalk
+cd netatalk-2.0.3/
+DEB_BUILD_OPTIONS=ssl dpkg-buildpackage -rfakeroot
+sudo dpkg -i ~/netatalk_2.0.3-4_i386.deb
+echo "netatalk hold" | sudo dpkg --set-selections</pre>
+
+	<p>That last command keeps the package manager from overwriting your renegade Netatalk the next time you run it, but it will also hide any updates for it. There’s something you can do about that, but it’s <a href="http://www.debian-administration.org/articles/332">complicated</a>. So I’m going to use the check up on it myself method.</p>
+
+
+	<p>Finally, here’s an inspirational note for IP lawyers, enterprise copy & paste engineers, etc.: the monkeys were only bad because the witch enslaved them.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id2258">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-1196"><p>Thanks for that tip! I stumbled across your other post on the subject but was miffed about the idea of plain text passwords. The only problem I ran into was that I didn&#8217;t have fakeroot installed. Fixed with a quick apt-get but a total newbie might not figure that out.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://docgnome.livejournal.com"><span class="alias">docgnome</span></a>
+  				<span>on November 16, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1197"><p>Updated, thanks!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on November 16, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1198"><p>Also need libssl-dev for it to work. If you don&#8217;t have it there is no error message, it just doesn&#8217;t work.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">docgnome</span></span>
+  				<span>on November 16, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1199"><p>I followed the same steps on a fresh edgy lamp server installation and it went well.</p>
+
+<p>While starting up a connection from my Mac I noted an error with using tail -f /var/log/syslog This error refferred to some missing cracklib stuff. To solve that I installed: apt-get install cracklib2 cracklib2-dev libpam-cracklib libpam-passwdqc</p>
+
+<p>Now it runs without any error :)</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">wouter</span></span>
+  				<span>on November 16, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1200"><p>Work brilliantly, thanks</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Erik Martino</span></span>
+  				<span>on November 16, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4438"><p>Nice one! I&#8217;m going to setup a home server next week once I&#8217;ve fully decommissioned an older box. This might be the ticket.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://germanforblack.com"><span class="alias">Ben Schwarz</span></a>
+  				<span>on October 4, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4569"><p>You have to su root before you run <code>DEB_BUILD_OPTIONS</code>&#8230; You can not run sudo <code>DEB_BUILD_OPTIONS</code>.</p>
+
+<p>Rookie stuff i know but for some people this may be the first build they attempt.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mike Bishop</span></span>
+  				<span>on October 25, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id2259">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id225a" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id225a_hf_0" id="id225a_hf_0" /><input type="hidden" name="wicket:interface" value=":1284:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id225b" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id225c" name="add" value="Add a comment" onclick="wicketShow('id225c--ajax-indicator');var wcall=wicketSubmitFormById('id225a', '../../../?wicket:interface=:1284:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id225c--ajax-indicator');}.bind(this),function() { ;wicketHide('id225c--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id225a')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id225c--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

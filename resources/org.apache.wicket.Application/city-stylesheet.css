@@ -1,0 +1,89 @@
+body {
+	background: #f5f5f5;
+}
+
+.container, h1,h2,h3,h4,h5,h6 {
+	background: #f5f5f5;
+	color: #333;
+	font-family: Didot, "Palatino Linotype", Georgia, serif;
+}
+
+.container {
+	font-size: 130%;
+}
+
+#weblog-name {
+	position: absolute;
+}
+
+#weblog-name img {
+	position: relative;
+	left: 2px;
+	top: 2px;
+	height: 135px;
+	width: 565px;
+}
+
+#weblog-photo img {
+	height: 333px;
+}
+
+#weblog-photo img, .post p img {
+	border: 2px solid #999;
+}
+
+a, a:hover, a:active, a:visited {
+	text-decoration: none;
+	color: #333;
+	border-bottom: 2px solid #ddd;
+}
+
+a:hover, .tag-columns a:hover {
+	border-bottom: 2px solid #aaa;
+}
+
+a.arrow, h2.title a, .tag-columns a {
+	border: none;
+}
+
+.post p.out {
+	position: absolute;
+	height: 0;
+	margin: 0;
+	text-indent: 0;
+	margin-top: 0;
+}
+
+.post p.out img {
+	left: 485px;
+	position: relative;
+	top: 0.25em;
+}
+
+.post p + p {
+	text-indent:1.5em; 
+	margin-top:-1.5em;
+}
+
+.post p.break {
+	margin-top: 1.5em;
+	text-indent: 0;
+}
+
+.byline {
+	color: #555;
+}
+
+.invisible {
+	color: #f5f5f5;
+	border-color: #f5f5f5;
+}
+
+.normal {
+	color: #333;
+	border-color: #ddd;
+}
+
+.special-delivery {
+	display: none;
+}

@@ -1,0 +1,182 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/city-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>City Slicking / Train of development</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../city">
+			
+			<img alt="City Slicking" src="../../../resources/org.apache.wicket.Application/city-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../city">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/city-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id1a5d" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Train of development" width="248" class="title" src="../../../resources/net.databinder.components.RenderedLabel/e175e323"/><span class="title">Train of development</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Nathan</span>, <span>on February 28, 2009</span></span>
+			<span id="id1a5e" class="tags">
+					{&nbsp;<span><a href="../../../city/tag/environment/#selected-tag"><span>environment</span></a><span id="id1a5f">, </span></span><span><a href="../../../city/tag/amtrak/#selected-tag"><span>amtrak</span></a><span id="id1a60">, </span></span><span><a href="../../../city/tag/transportation/#selected-tag"><span>transportation</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>What a difference a conjunction makes. Late in the stimulus lawmaking debate, by the time its twists and turns had insulted all of our special interests, 8 billion magical dollars appeared for high-speed rail, next to 1.3 billion for Amtrak and 6.9 for public transit. It looked like a conclusive victory for the &#8216;bullet train&#8217; set, Americans with little use for actual railroads but who sparkle with enthusiasm for superfast trains in the abstract. Thing is, it wasn&#8217;t $8 billion for HSR alone, <a href='http://www.nytimes.com/2009/02/20/us/20rail.html'>but for HSR <em>and</em> intercity rail</a>: two vaguely defined concepts that, when coupled, are an awkward way to say &#8216;railroads&#8217;.</p>
+
+<p class='break'>No one has anything against high-speed (currently understood to be <a href='http://fr.wikipedia.org/wiki/Ligne_à_grande_vitesse'>at least 220 kph</a>) rail, least of all this writer. But faced with the usual problem of limited resources and limitless desires, we do have to prioritize. If $30 billion is the going rate for a minimal high-speed line, then what could be done with the same money for existing, popular train routes? It could speed the routes of many times more people, that&#8217;s obviously what. On the aggregate, the American-person-hours saved by somewhat speeding many routes would far exceed the gains from a single high-speed line.</p>
+
+<p>Of course, current <a href='http://www.narprail.org/'>railroad passengers</a> are assumed not to have valuable hours. Hollywood HSR projections don&#8217;t talk about time saved by transferring people from existing lines to high-speed. They talk about the <a href='http://www.cahighspeedrail.ca.gov/news/MOBILITY_lr.pdf'>environmental gains</a> of transferring people from regional airlines to HSR and tacitly assume that existing Amtrak passengers are flat characters from the Old West that will continue to ride slow lines because they have plenty of time to get to their ghost towns. Or something. Certainly new HSR lines will win passengers from both slower railroad lines and airlines, but there is a distinct (and condescending) <em>those people</em> in the air when existing train passengers are infrequently remembered. And in terms of the bustling Northeast Corridor, it&#8217;s a <em>that region</em> dismissal. In any case, those people and that region are ignored because they violate the fundamental tenet of American HSR religion, which holds that only by rolling out high-speed rail between sprawled out metropolises will Americans understand the glory of trains and storm the IRS to demand the higher income taxes needed to finance a modern national network and maybe some public transportation for the poors.</p>
+
+<p class='break'> Like most religions, AHSR worships little understood artifacts in far off lands, specifically Japan&#8217;s Shinkansen and France&#8217;s TGV. These are revered as if they existed in a vacuum, as if they were not built upon and deeply connected to slower-speed regional railroads and public transportation. As if those slower things were not the popular and well funded base of which high-speed rail is simply the leading edge of technology.</p>
+
+<p>AHSR acolytes are lucky that the foreign gods they worship are not all-powerful, or they would quickly be smitten. Everything that our futuretrain technologists hate about Amtrak&#8212;the unions, the need for subsidy, the bureaucracy&#8212;has been crucial to the development of successful public railroad corporations like the SNCF, the frenchy Amtrak whose flagship brand is the beloved TGV. In America we have HSR futurists who know better than countries which have deliberately cultivated HSR, who believe we can jump from incompetently running a 1960s-era train network to perfectly executing a single $45 billion high-speed line implementation. That could work, but probably not.</p>
+
+<p>It&#8217;s like praising Monet but saying he really should have been more careful with the brush strokes, or gushing that old world cities are a great place <em>to visit</em>. Where do domestic HSR know-it-alls get off? What we should be emulating from our railroad betters is not the blunt action of <em>opening the throttle</em> but rather <em>learning how to fund and run a large public institution</em>. Railroads can not be run like Google, sadly. They are never going to be efficient companies in the Republican sense (where you hire undocumented immigrants, spit on them, then cheat on taxes). There are likely some undiscovered ways of running a competitive railroad market, but we can&#8217;t just crash through the problem of large scale administration like the drunken cowboys that the world justifiably perceives us as.</p>
+
+<p>Still, California is giving it a go. They&#8217;ve bravely committed $0 present-day funds and some billions in bonds to a plan to run trains at a certain speed for a certain (highly improbable) fare, to desperately compete with those high-flying, <a href='http://www.hasbrouck.org/blog/archives/001001.html'>eagerly subsidized</a> airlines on their own turf of raw speed. It&#8217;s like Doc Brown&#8217;s DeLorean: you just have to hit 220 mph in a train and suddenly you&#8217;re in France, but without the SNCF strikes and appreciation of <em>terroir</em>. Good luck with that, guys.</p>
+
+<p class='break'> I have a confession to make. I rode Amtrak home from Georgia to New York after Christmas. The trip was many hours, I can&#8217;t be much more precise than that. The ticket was a few $20 bills more than it would have been to fly, but there were other criteria for me than the cost and schedule. For starters, there was the proximity of the train station on both ends versus that of the airport. There was the probable difference between scheduled arrival and actual arrival times (a dreadful quantity that is strangely absent from most discussions of &#8216;how long&#8217; it takes to fly somewhere). Stress was another factor. Basically, when various members of my Georgia family incredulously asked if I was saving money&#8212;or what?&#8212;by taking the train I simply shook my head.</p>
+
+<p>It&#8217;s not that I don&#8217;t value my time; it&#8217;s that I do value it as something other than the difference between hopeful departure and arrival times. I value time not being trapped, not standing in line, not feeling abused by a government-corporate transportation junta. So as a trial, I booked a one-way plane ticket down and an Amtrak ticket up. I was not surprised when my flight out was delayed, but I was surprised by the delay&#8217;s length, location, and cause (4 hours, on the plane, because the pilot was &#8220;stuck in traffic&#8221;). On the trip home I was only surprised that the train arrived in New York a few minutes ahead of schedule despite its having stood still for an hour overnight. We had left in the late evening (parents&#8217; bedtime) and got to New York in the early afternoon. I slept and was never bored, between my <a href='http://www.amazon.com/Serena-Novel-Ron-Rash/dp/0061470856'>novel</a> and my <a href='http://technically.us/code/x/new-toy-new-toy-new-toy/'>netbook</a>. To arrive by plane at that (scheduled) time I would have had to leave from the parents&#8217; house in the morning, netting only a few more hours of driving-time with them before oppression-time at the airport and flying. No thanks.</p>
+
+<p>That was just one trip, but surely the delays and stress of consumer airline travel are established by now. The strange thing is how quickly those delays and indignities are forgotten when comparing flight with other modes. If we&#8217;re going to reduce travel to simply the time spent doing it&#8212;a travel <em>sentence</em>&#8212;we should at least try to adjust it for reality. And personally I would like to factor in being barked at by overweight security guards.</p>
+
+<p>Which raises a nasty potential outcome of the jet-to-HSR transition that pinot noir chuggers dream of: will we transfer the worst parts of current plane travel directly into our railroad future? Rail is inherently safer than planes, especially when its intersections with automobiles are minimized, and there is no need for a security state dress-up party just to roll around on iron for a few hours. Train companies present and future should advertise and extend their significant convenience (and Constitution-respecting) lead against airplanes, not <a href='http://technically.us/city/x/dear-amtrak-americas-rail-road/'>race them to the bottom of the terror-hyping abyss</a>.</p>
+
+<p>If we would just set our priorities straight, to modernize and speed our neglected passenger rail in all its dimensions (regulatory, bureaucratic, physical&#8230;) we could drastically improve many routes. An hour not waiting for freight to pass here, a cleaned up and respectable train station there, a horn not uselessly blown by a uselessly weighted down train: these low-hanging fruit would convert an unknown number of carbon-heavy airline and auto trips to rail (aided by rising fuel costs including a carbon tax if we&#8217;re smart). By developing broader public support and experiencing railroad success once again on this continent, we&#8217;ll <em>eventually</em> (like, in five years) be in a position to build canonical high-speed lines without risk of a skittish public pulling the plug when the cowboys can&#8217;t deliver on all their promises. It takes ten dang years to lay the first HSR track anyway&#8212;if half that time seems too long to lay the institutional groundwork, you really should find something besides thousand-mile rail networks to be an internet fan of.</p>
+
+<p class='break'> There&#8217;s reason to hope that this &#8220;high-speed and intercity rail&#8221; stimulus is a step in a wiser direction&#8212;Amtrak does run our intercity rail, after all. The funds are going to be distributed in some <a href='http://t4america.org/news/archives/672'>new change-y ways</a> which will probably be effective like everything the O has put his mind to so far. Shuttling money from this pot directly to Amtrak won&#8217;t be encouraged, and that&#8217;s fine&#8212;let&#8217;s use it to take the Northeast Corridor off their hands and scoop up whatever freight lines we can. Let&#8217;s use it to build out practical travel infrastructure for all Americans.</p>
+
+<p class='break'> The verdict for this crazy last-minute HSR-branded railroad stimulus is full speed ahead&#8212;with reservations.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about'>About</h3>
+
+<p><em>City Slicking</em> is about urban life, transportation, energy, liberty, and language.</p>
+
+<h3 id='haunts'>Haunts</h3>
+
+<p><a href='http://twitter.com/n8han/'>Twitter</a><br /><a href='http://technically.us/code/'>Coderspiel</a><br /><a href='http://www.streetsblog.org/'>Streetsblog</a><br /><a href='http://gawker.com/people/alexpareene/posts/'>Pareene</a><br /><a href='http://www.copenhagenize.com/'>Copenhagenize</a><br /><a href='http://itre.cis.upenn.edu/~myl/languagelog/'>Language Log</a><br /><a href='http://t4america.org/'>Trans. for America</a></p>
+
+<h3 id='wire_service'>Wire Service</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/city-rss' title='All in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-short-rss' title='Left column, frequent links and notes'>Quickies</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-long-rss' title='Main column, occasional extended posts'>Treatise</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1a61">
+  		<div><h3 id='backtalk'>Backtalk</h3></div>
+  		<div>
+  			<div id="item-6162"><p>The appropriations for rail transport in the &#8220;stumulus&#8221; package are a pittance compared to what is needed, and far too large a proportion is earmarked for &#8220;high-speed&#8221; rail.</p>
+
+<p>&#8220;Conventional&#8221; trains are capabale of much higher speeds than are the norm today for Amtrak, as is obvious to anyone who has ridden conventional European mainline trains in the last 20 years. The value for the money would be many times higher, in both the short and long term, for investment in conventional intercity rail than for &#8220;high-speed&#8221; rail. And upgrades to current rail service (as well as less sexy things like trolleybuses) are much more &#8220;shovel ready&#8221; than HSR projects.</p>
+
+<p>(For some ideas of what might be needed, and what it might cost, I recommend Gilbert and Peel&#8217;s dry, detailed book, &#8220;Transport Revolutions&#8221;.)</p>
+
+<p>And what are tax credits for buyers of personal internal-combustion vehicles doing in this bill?</p>
+
+<p>The problem, I think, is that passenger rail and transit have been so underfunded that the misallocated pittance for them in this bill is still so much more than the <em>nothing</em> they have been getting from the Feds for years that many rail advocates are afraid to point out the deficiencies, lest they be seen as &#8220;ungrateful&#8221;.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://hasbrouck.org"><span class="alias">Edward Hasbrouck</span></a>
+  				<span>on March 4, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6163"><p>Edward, thanks for commenting. I agree entirely with the spirit of what your say, but I&#8217;m not sure anyone can lay out what the deficiencies of the intercity+HSR investment are yet. It may be morally deficient in pandering to people&#8217;s HSR-without-the-hard-work dreams through its branding, but if it is primarily allocated to the immediately productive &#8220;intercity&#8221; mission I <em>will</em> be very grateful for it. The best thing we can do now is push for that.</p>
+
+<p>For the autocentric parts of the stimulus I&#8217;ve heard much criticism, but mostly from shortchanged transit advocates of which I&#8217;m also one. It&#8217;s not a bill to be dancing in the streets over but I&#8217;ve personally come to appreciate the rail part of it—unless it does all end up going to planning for a single high-speed line!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Nathan</span></span>
+  				<span>on March 4, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6361"><p>Ha. Rings a bell.</p>
+
+<p>In Argentina we strongly opposed the disproportionately expensive HSR project (http://en.wikipedia.org/wiki/Buenos<em>Aires%E2%80%93Rosario%E2%80%93C%C3%B3rdoba</em>high-speed<em>railway), with the premise of a fairer system with a higher value/money ratio:</em></p>
+
+<p>http://www.trenparatodos.com.ar/ <span>sorry couldn&#8217;t find it in English</span>.</p>
+
+<p>Anyway - excellent blog, Nathan. The greatest black-and-white thing that happened to New York after cookies and Allen&#8217;s Manhattan.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://zoptio.nl"><span class="alias">Francisco</span></a>
+  				<span>on July 7, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6362"><p>I&#8217;m glad you&#8217;re down with the b&amp;w stylings. Every few years when I write an actual post with pictures, they&#8217;re also color-free. It&#8217;s neat, but these obsessive standards also get in the way of, you know, me posting at all.</p>
+
+<p>Also glad I&#8217;m not the only person whose experience with and enthusiasm (I assume) for European HSR hasn&#8217;t lead to lopsided advocacy at home. Many Americans take their little euro-trips during college and come back in an HSR cargo cult, worshiping the artifacts of a successful rail system instead of the long-term planning and commitment to rail that produced such wonders.</p>
+
+<p>I&#8217;m all for the Tren para Todos! :)</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Nathan</span></span>
+  				<span>on July 7, 2009</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id1a62">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id1a63" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id1a63_hf_0" id="id1a63_hf_0" /><input type="hidden" name="wicket:interface" value=":1021:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id1a64" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id1a65" name="add" value="Add a comment" onclick="wicketShow('id1a65--ajax-indicator');var wcall=wicketSubmitFormById('id1a63', '../../../?wicket:interface=:1021:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id1a65--ajax-indicator');}.bind(this),function() { ;wicketHide('id1a65--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id1a63')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id1a65--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

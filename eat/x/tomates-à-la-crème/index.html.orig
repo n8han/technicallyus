@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Tomates à la crème</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id848" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Tomates à la crème" width="310" class="title" src="../../../resources/net.databinder.components.RenderedLabel/73434cc2"/><span class="title">Tomates à la crème</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on August 6, 2006</span></span>
+			<span id="id849" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/books/#selected-tag"><span>books</span></a><span id="id84a">, </span></span><span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Elizabeth David turned me on to a wonderful little book called <a href="http://www.amazon.com/exec/obidos/ASIN/0375757139/eat0e-20"><em>Cooking with Pomiane</em></a>. It&#8217;s a collection of writings and recipes from the early food scientist Édouard de Pomiane, and it&#8217;s brilliant. He writes his recipes as though he&#8217;s making them with you (&#8220;Now I boil the meat for three minutes, but it is not done. I boil it another minute, and it is perfect,&#8221; etc.). He spends much of his time lamenting the end of the era when women cooked all day, but he gives plenty of simple recipes that use just a few ingredients. I suspect his name and recipes will appear on this blog on a regular basis. Tonight, I tried one that&#8217;s actually in David&#8217;s book, <em>tomates à la crème</em>:</p>
+
+
+	<p style="float:center"><img src="/pictures/creamtomatoes.jpg" alt="" /></p>
+
+
+	<p>I hated to cook the hell out these Greenmarket tomatoes, but of course they were wonderful, and they did maintain their integrity somewhat. Pomiane&#8217;s recipe doesn&#8217;t mention pasta, but we were without bread and I knew we&#8217;d want some starch for the sauce.</p>
+
+
+	<p>Tomatoes with cream is as simple as it sounds: Melt a few tablespoons of butter over medium heat. Cut some tomatoes in half. Season the cut side, and poke a few holes in the round side. When the butter is hot, cook the tomatoes cut-side down for five minutes. Turn them and cook over lower heat for ten minutes. Turn again, let the juice run out, then turn a final time. Pour in a bit of cream to mix with the tomato juice, and serve (you could be making pasta, rice, or croutons while you wait). I added garlic and basil to the recipe as well, and a bit of grated gruyère (don&#8217;t worry, mom, I did swim a few laps today!). It would have been just as good without these embellishments.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id84b">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-2533"><p>It sounds like a charming book and the meal looks delicious.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://kitchenography.typepad.com"><span class="alias">Julie</span></a>
+  				<span>on August 6, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2534"><p>Leland, these sound wonderful. I am still having my first tomatoes of the season, so I&#8217;m not cooking them yet, but I will be remembering this one as the season rolls on.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://http//:lindystoast.com"><span class="alias">lindy</span></a>
+  				<span>on August 6, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2535"><p>Cooking with Pomiane is a <span class="caps">GREAT</span> book! I have charmed many a guest with his chicken sauteed with tomatoes and garlic (I can&#8217;t remember the official name of the dish).</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Luisa</span></span>
+  				<span>on August 6, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2536"><p>Thank you, ladies! It is a charming book, and I&#8217;m not surprised you know it, Luisa. I&#8217;ll look for that recipe and give it a try. He&#8217;s so funny.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on August 6, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id84c">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id84d" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id84d_hf_0" id="id84d_hf_0" /><input type="hidden" name="wicket:interface" value=":311:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id84e" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id84f" name="add" value="Add a comment" onclick="wicketShow('id84f--ajax-indicator');var wcall=wicketSubmitFormById('id84d', '../../../?wicket:interface=:311:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id84f--ajax-indicator');}.bind(this),function() { ;wicketHide('id84f--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id84d')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id84f--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

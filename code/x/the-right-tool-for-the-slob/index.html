@@ -1,0 +1,334 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="../../../blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="../../../blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet.css"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / The right tool for the slob</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code.html">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code.html">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id2655" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="The right tool for the slob" width="414" class="title" src="../../../resources/net.databinder.components.RenderedLabel/8a55cc40"/><span class="title">The right tool for the slob</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on January 17, 2008</span></span>
+			<span id="id2656" class="tags">
+					{&nbsp;<span><a href="../../tag/hosting/index.html#selected-tag"><span>hosting</span></a><span id="id2657">, </span></span><span><a href="../../tag/java/index.html#selected-tag"><span>java</span></a><span id="id2658">, </span></span><span><a href="../../tag/web/index.html#selected-tag"><span>web</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p><a href='http://www.postal-code.com/mrhappy/blog/2008/01/17/lucene-a-tacit-admission-of-fail/'>Somebody noticed</a> that <a href='http://lucene.apache.org/'>Lucene</a> doesn&#8217;t use Lucene to index its own site; it presents a Google site search like everybody else. And not just that but their sub-project <a href='http://lucene.apache.org/nutch/'>Nutch</a>, which is specifically for web searching, doesn&#8217;t use itself. Natch.</p>
+
+<p>We&#8217;ve heard this story <a href='http://epesh.blog-city.com/spring_not_eating_its_own_dog_food.htm'>before</a>, and the defendants have a common response: we would <em>love</em> to use our wonderful web software for our own web site, but&#8212;damn thee, cruel fates!&#8212;it&#8217;s not the right tool for this highly particular job.</p>
+
+<p class='break'> How is it that some fancy-pants framework is always the right tool for an <em>abstract</em> job and <abbr>PHP</abbr> is the right tool for a <em>real</em> job?</p>
+
+<p class='break'> It seems like someone&#8217;s selling a load of crap. But in this case, no: Lucene is not a load of crap. It&#8217;s a very down to earth project that does something people need and does it well enough to be respected&#8212;even outside the Java community. Lucene is just fine, thank you.</p>
+
+<p>So if the project produces a free product that is worth using for individual sites, why don&#8217;t they use it for their own site again? Whatever things a personal site search engine is good for (triggered updates, customized results display, not feeding daddy Googlebucks) apply as well to Lucene&#8217;s home site. Aren&#8217;t they a little enthusiastic about sending their own software out to the world? Probably they are, but the culture of large scale Java projects, and Apache specifically, is against it. Random comment:</p>
+
+<blockquote>
+<p>Apache.org runs the Apache httpd server and serves static pages. Allowing every sub-project to run its own software on that server would be pretty insane. Look at how many there are.</p>
+</blockquote>
+
+<p>If it&#8217;s &#8220;insane&#8221; to let programmers of Apache projects run their own software on Apache servers, that doesn&#8217;t say much for their revered vetting process for projects and programmers. Yes, system administration isn&#8217;t the same as programming&#8212;got it&#8212;but any project for the <em>web</em> ought to have someone competent in that as well. It matters.</p>
+
+<p>Java deployment is treated as some kind of Apollo mission, to be undertaken only with careful planning and a healthy budget. Open source projects generally have neither of those, so Java projects are left writing code for a void. Good projects get hooked up with a patron company that pays for practical, internal applications to develop alongside the public framework. Bad projects build elaborately useless public frameworks and scoff at wasting their precious brains on mere applications programming. That everyone is scared of Java deployment plays right into their lazy, conceited plans.</p>
+
+<p>And it&#8217;s <em>not</em> the case that every project with a complicated deployment reverts to static <abbr>HTML</abbr> or <abbr>PHP</abbr> for its own webfront. The <a href='http://blog.hibernate.org/'>Hibernate blog</a> runs on Seam. <em>This</em> weblog is rendered using various technologies it hyperventilates over. And freaking Smalltalk programmers&#8212;what could possibly be harder to deploy?&#8212;host their own site, their &#8220;<abbr>CMS</abbr>&#8221; if you must, for the <a href='http://www.seaside.st/'>Seaside web framework</a>. The site isn&#8217;t always fast, it&#8217;s probably not always running, but at least the framework has the courage to show itself.</p>
+
+<p>This isn&#8217;t 1999. You don&#8217;t need a server dedicated to one Java application; a virtualized server is perfectly adequate. Take one meaty server and create virtuals for every project to use, or not use, as suits its disposition. Certainly the exposed site should be an Apache Web Server, but there&#8217;s this little thing called <code>mod_proxy_ajp</code>&#8212;perhaps the Apache project has heard about it? (If not, it&#8217;s discussed in the updated <a href='http://databinder.net/site/show/deployment'>Databinder deployment tutorial</a>.) You <em>can</em> isolate software.</p>
+
+<p class='break'> Anyway, eating other people&#8217;s dog food is disgusting.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='../../../resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id2659">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-4997"><p>Look at the list of projects that apache.org hosts. There are some 55 or so top-level projects, plus tons more in the incubator and in sub-projects. Not all of them are web projects, but many of them are. And they&#8217;re not just Java &#8211; Tcl, Perl, C++, etc. Letting all of those projects run their own code on a server for demo purposes would be a nightmare in terms of administration, security, and resources. If you think you can click your heels together and say &#8220;virtual servers&#8221; and make all of that go away, you&#8217;re kidding yourself.</p>
+
+<p>If you feel like donating enough hardware and admin time to Apache to make your dream a reality, go for it. Otherwise, you&#8217;re not helping.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Death by Chocolate</span></span>
+  				<span>on January 18, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4998"><p>It&#8217;s not my dream, or my cause to help Apache. (I have independent open source projects to help.) But I will point out lame excuses when I see them: virtualization supports any programming language (come on&#8230;) and any operating system, without heel clicking. I use several myself, and my hosting company is either &#8220;insane&#8221; or they&#8217;ve set it up so that I can&#8217;t bring down other sites, or compromise their security. Apache could do the same, and very cost-effectively for 55 virtual servers. But it hasn&#8217;t been their priority to put project code onto the real web, and it&#8217;s one of the many reasons I have lukewarm feelings towards the megaproject.</p>
+
+<p>Good luck to you/them!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on January 18, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4999"><p>That was the most ridiculous article I have read in a long time. Lucene is an absolutely incredible package that has and will continue to be the driving force behind many advanced web based systems. A simple web site like the homepage of this product and many of the other apache products simply do not need the horsepower and features of lucene. It would work for them, but id rather them spend those extra few hours developing than integrating it into the site with no real benefit. Google search works fine. Why use a sledghammer to drive in a tac.</p>
+
+<p>Most likely also, the site is not managed by the developers themselves, it seems to be a template for apache projects. Anyway&#8230;what is your real point.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.lucene.com"><span class="alias">in defence of..</span></a>
+  				<span>on January 18, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5000"><p>Perhaps you should read the post until you discover its &#8220;real point&#8221; so you&#8217;ll know what to defend.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on January 18, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5001"><p>&#8220;How is it that some fancy-pants framework is always the right tool for an abstract job and PHP is the right tool for a real job?&#8221;</p>
+
+<p>Comments like this seem like they&#8217;re aimed at the Lucene/Nutch developers. However, those developers do not control or administer the Apache servers powering apache.org. For all you know (unless you&#8217;ve had conversations with them to the contrary), they&#8217;d <em>love</em> to have their own site indexed with their own tools, but that&#8217;s not their decision.</p>
+
+<p>Your choice of quoted passage (&#8221;&#8230;Allowing every sub-project to run its own software on that server would be pretty insane&#8230;&#8221;) seems to be a slam against those in charge of those servers. And I agree with you that, in an ideal world, Apache would have virtualized servers for each sub-project so they could demo what they need.</p>
+
+<p>But there is absolutely no question that hosting ~55 virtualized servers requires more resources (hardware plus staff) than hosting ~55 static Web sites. If you took a look at their public financial records, you would see that in 2005-06, they only had a bit under $100K in donations to their non-profit (other years are lower), and they say elsewhere on their site that &#8220;While all of the administrative effort is currently through unpaid volunteers, we need financial assistance to purchase bandwidth and keep our servers running.&#8221;</p>
+
+<p>Ask the Slicehost guys how far $100K will go. Heck, Apache shells out $20K/year just for co-lo services, and that&#8217;s just for their ~55 static Web sites.</p>
+
+<p>&#8220;Yes, system administration isn’t the same as programming—got it—but any project for the web ought to have someone competent in that as well. It matters.&#8221;</p>
+
+<p>It&#8217;s not a lack of talent; it&#8217;s a lack of funds, and perhaps time. They appear to be fairly frugal, by looking at their financial records, and for a non-profit, that&#8217;s a good thing. You can&#8217;t afford to be reliant on donations remaining steady year-in and year-out, nor can you rely on corporate backers (one management shuffle and your funding may dry up). So they&#8217;re building a reserve fund to cover operational costs, and they&#8217;re keeping operational costs down so that fund can keep the lights on for a longer period of time.</p>
+
+<p>Nor can you, J. Random Outsider, demand that unpaid volunteers do things to make you happy, so if the issue is lack of time from people with the talent, that&#8217;s kinda the way it is. Perhaps with enough contributions, they would elect to fund an sysadmin position that could resolve issues with lack of volunteer time.</p>
+
+<p>&#8220;Apache could do the same, and very cost-effectively for 55 virtual servers.&#8221;</p>
+
+<p>Perhaps they&#8217;ve done the cost estimates and came to a different conclusion. Remember that firms like Slicehost are amortizing their investment over many more virtual servers than ~55. While ~55 seems like a lot, it may fall in that dead zone where you can&#8217;t get by with just a rack-shelf of PCs, and that the infrastructure to &#8220;do it right&#8221; costs enough that, even spread over 55, is prohibitively expensive.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mark Murphy</span></span>
+  				<span>on January 19, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5002"><p>Small caveat: So long as you are hosting your own site (or using a system like Amazon&#8217;s EC2) Smalltalk websites are easy to deploy.</p>
+
+<ul>
+<li>put the image and VM on the server</li>
+
+<li>set up Apache proxypass rules</li>
+</ul>
+
+<p>Done</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.cincomsmalltalk.com/blog/blogView"><span class="alias">James Robertson</span></a>
+  				<span>on January 19, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5003"><p>Mark, thanks for taking the time to comment.</p>
+
+<p>As &#8220;J. Random Outsider&#8221; to Apache I&#8217;m not making any demands; I&#8217;m engaging in criticism. I know as well as you that 55 is not a big number; the suggestion to the contrary is what got on my nerves in the first place. And likewise I do assume that the project that&#8217;s grown from the world&#8217;s most popular web server has the talent to administer a virtualized setup.</p>
+
+<p>So what&#8217;s left are funding <em>and priorities</em>. Their priority is a squeaky clean image, a site for their projects that never goes down and never slows down. That doesn&#8217;t interest me in the slightest. If I&#8217;m looking for software to run on the web I want to see it running on the web, and if the site holding it is less than 100% stable I understand that perfectly, because I&#8217;m a programmer. Who is Apache making their site for?</p>
+
+<p>It&#8217;s not like Wikipedia always works perfectly. (Remember in 2003?) Or even wealthy businesses like Facebook&#8212;do people stop using those sites when they fail on occasion? The entire popular web is <em>active</em> and therefore unstable; against that backdrop Apache&#8217;s insistance on static front ends is out of touch. They could build a playground for projects; instead it&#8217;s a museum.</p>
+
+<p>On the micro scale, a smallish project can run on a $30 server / month virtual server just fine. Why would such a project, that is worth $360 a year to itself, move to Apache and host like they&#8217;re on Go Daddy?</p>
+
+<p>I&#8217;d wager that a re-prioritized $20k / year could include a single virtualizing server to be used optionally by projects through proxying, and that Apache&#8217;s interest in the topic hasn&#8217;t gone far enough to do an estimate. They&#8217;ve probably got a line of Web 0.1 sysadmins stomping their feet saying it will <em>never</em> happen on their watch. But I predict that it will happen, within ten years, or Apache will no longer be able to attract interesting web projects.</p>
+
+<p>So, I guess we&#8217;ll find out.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on January 19, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5004"><p>James, I was hoping a Smalltalk person would stop by and say that. <code>;)</code></p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on January 19, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5008"><p>&#8220;As “J. Random Outsider” to Apache I’m not making any demands; I’m engaging in criticism.&#8221;</p>
+
+<p>Rants get downgraded as &#8220;criticism&#8221; in my book, simply for tone. The post that these comments are attached to, IMHO, qualifies as a rant. That gets you more traffic and comments but may not get better results.</p>
+
+<p>&#8220;Why would such a project, that is worth $360 a year to itself, move to Apache and host like they’re on Go Daddy?&#8221;</p>
+
+<p>And here we get to the crux of the issue: why do some projects aim to be under the Apache umbrella?</p>
+
+<p>I&#8217;m fairly certain it ain&#8217;t for the hosting. Probably, it&#8217;s for the cachet, possibly for the legal infrastructure a registered non-profit affords (e.g., centralized copyright ownership?).</p>
+
+<p>Personally, I&#8217;d have little interest in having projects as subprojects of Apache. Hosting wouldn&#8217;t be the issue &#8211; there&#8217;s nothing preventing Lucene/Nutch from grabbing their own slice on Slicehost (or their preferred VPS) and using that as an adjunct to their Apache hosted area. My issue would be branding: in the world of open source, you are your brand. I&#8217;m not convinced that the boost in visibility from Apache will pay off long-term compared to the probable headaches in having &#8220;bosses&#8221; with some measure of control over the project.</p>
+
+<p>&#8220;But I predict that it will happen, within ten years, or Apache will no longer be able to attract interesting web projects.&#8221;</p>
+
+<p>I don&#8217;t know about that. Again, I don&#8217;t think projects choose to affiliate with Apache because of Apache&#8217;s hosting. I also don&#8217;t think projects choose <em>not</em> to affiliate with Apache because of Apache&#8217;s hosting. There are other criteria at play here (e.g., initial visibility boost, organization for IBM and kin to legally donate code to) that are probably more important.</p>
+
+<p>Don&#8217;t get me wrong: I agree that Apache&#8217;s hosting is kinda bland, and the quantity and quality of documentation varies widely per project. They&#8217;re not the worst (I find Codehaus-hosted projects to be worse to navigate, for example), but they&#8217;re far from the best. Their priorities lie elsewhere, as you suggest. Our difference is that you appear to believe that they&#8217;ve made the wrong choice, while I believe I don&#8217;t know for certain what the other priorities are and therefore cannot pass judgment.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mark Murphy</span></span>
+  				<span>on January 19, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5009"><p>Mark, feel free to grade this post and this criticism however you wish in your book. I will do the same for open source procects and the sites they present themselves with. Thanks for stopping by!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on January 19, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5011"><p>For the record: Apache Infra does support virtualized machines (aka: &#8220;the zones&#8221;) for projects that want to use them &#8211; and Lucene takes advantage of a virtual server to run the automated build systems for each of the sub projects, but we try to minimize the load and network usage on these virtual machines since they are already fairly taxed.</p>
+
+<p>That&#8217;s reason #2 why no one has ever bothered to put a lot of work into setting something up like this (any of the other 4 dozen times someone has brought it up).</p>
+
+<p>Reason #1 is a lot simpler&#8230;</p>
+
+<p>When I have a free hour, I can either spend it improving Lucene code (either adding features or fixing bugs), or I can spend it answering questions on the user email list, or I can spend it setting up some software so that instead of using the search box we get for free by running forrest we have a search box that points at a Lucene powered search application for our documentation.</p>
+
+<p>This may seem silly to you, but I care more about the code and the users then I do about impressing people, so I&#8217;ve never chosen that third option.</p>
+
+<p>You might disagree with my choices, but then again: I&#8217;m the one volunteering, and you&#8217;re the one posting criticisms of a project you don&#8217;t participate in &#8230; so I guess that says everything that needs to be said about our respective priorities.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Hoss</span></span>
+  				<span>on January 20, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5012"><p>Huh &#8230; your comments system seemed to pre-truncate(?) the first paragraph of my comment &#8230;</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Hoss</span></span>
+  				<span>on January 20, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5013"><p>Don&#8217;t worry about my commenting system, Hoss. Sometimes its Markdown processor chews up blocks of text with colons, but I go back and escape them. Even for comments that attack me personally.</p>
+
+<p>In addition to being the one posting criticism of things I don&#8217;t participate in, I&#8217;m also another one volunteering for open source projects. I&#8217;ve faced criticism of my &#8220;volunteer work&#8221; too. (None of this is as virtuous as feeding the homeless. We do enjoy programming, right?)</p>
+
+<p>I know all about your Reason #1, and it has no place in a debate. I spend some of my free time coding for my project or others, some answering questions around the internet, some of it writing about topics I find compelling, some of it reading, and some of it completely wasted doing god knows what. Who cares how I or you choose to slice it? Certainly it&#8217;s no one else&#8217;s business.</p>
+
+<p>I&#8217;m thrilled to hear that Apache has these &#8220;zones&#8221; and that you&#8217;re using them. It&#8217;s the most promising thing I&#8217;ve heard about the project in a while. To me it seems like rather a shame to just be using it for builds, which can normally execute in a common environment, but then I use my virtuals for builds as well as app servers, because it&#8217;s convenient.</p>
+
+<p>Don&#8217;t underestimate the value to your project of &#8220;impressing people.&#8221; There&#8217;s nothing vain or unproductive about it. And please try to understand that independent criticism, though it&#8217;s rarely received with pleasure, has a long and important tradition. It&#8217;s not going anywhere, and the position taken in many open source projects, that the only legitimate criticism is self-criticism, is deeply misguided. A criticism-firewall promotes an isolationist culture that steadily drifts from popular reality (and therefore relevance).</p>
+
+<p>Thanks for taking some of your free time to read and respond.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on January 20, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5017"><p>Wow - some of the people you&#8217;re not attacking in this post seem awfully defensive.</p>
+
+<p>I don&#8217;t have a dog in this fight - but it sure is entertaining to watch.</p>
+
+<p>Off topic; I used to work for Compaq, in their Netelligent division. We used a lot of gear that was produced by the company before they were bought by Compaq, but none of the Compaq-branded gear.</p>
+
+<p>Why? The rules changed. NetWorth saw the value in having IT eat their own dogfood. Compaq .. not so much. IT had to buy the stuff and pay list price, just like any customer.</p>
+
+<p>So we had a few Compaq servers and of course we had Compaq desktops. But we simply did not have the budget to upgrade network gear.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://space4commerce.blogspot.com/"><span class="alias">Brian</span></a>
+  				<span>on January 20, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5020"><p>Yeah, I never thought about it with respect to hardware. I guess any time you&#8217;re not using your own work product it&#8217;s a threat to morale.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on January 20, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5023"><p>Spot-on. Eating your own dogfood is important to credibility. Whether ASF can afford to host the welter of technologies currently under their wing is a moot point to outsiders. It&#8217;s kind of like the joke about the redneck divorcing his new bride after finding out she was a virgin: &#8220;If she ain&#8217;t good enough for her own family&#8230;&#8221; That sort of thing&#8230;</p>
+
+<p>Argue all you like about whether what&#8217;s feasible on the back end, but it doesn&#8217;t make a dent in the credibility problem.</p>
+
+<p>And, frankly, I think that ASF&#8217;s efforts could stand some prioritizing after the explosion of supported projects in recent years. (How many servlet/JSP containers does anyone need, honestly?) I&#8217;d feel much better about donating (again) if I knew that my dollar was nurturing the best-of-breed, rather than germinating anything that looked promising. A bit of an exaggeration. But I&#8217;ve been wearing the project management hat a little too long to have much patience with mere chest-thumping. If you use your own product day in and day out, you&#8217;ll know where more bodies are buried. That brings up my comfort level, <em>and</em> my willingness to throw money at its PayPal account and stake some of my own credibility by recommending it to my bosses or my peers.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">cubiclegrrl</span></span>
+  				<span>on January 22, 2008</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id265a">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id265b" action="../../../index.html" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id265b_hf_0" id="id265b_hf_0" /><input type="hidden" name="wicket:interface" value=":1392:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id265c" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id265d" name="add" value="Add a comment" onclick="wicketShow('id265d--ajax-indicator');var wcall=wicketSubmitFormById('id265b', '../../../?wicket:interface=:1392:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id265d--ajax-indicator');}.bind(this),function() { ;wicketHide('id265d--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id265b')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id265d--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

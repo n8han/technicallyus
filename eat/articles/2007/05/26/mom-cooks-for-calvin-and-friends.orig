@@ -1,0 +1,301 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Mom cooks for Calvin and friends</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../eat">
+			
+			<img alt="Eat" src="../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../eat">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id14d3" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Mom cooks for Calvin and friends" width="520" class="title" src="../../resources/net.databinder.components.RenderedLabel/b8d4590b"/><span class="title">Mom cooks for Calvin and friends</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on May 26, 2007</span></span>
+			
+		</span></div>
+		<div><p>Calvin attended his senior prom the other night, and instead of eating the buffet provided at the dance or going out to a restaurant beforehand, he asked me if I would cook dinner here at the house for him and several of his friends, including his date. I was surprised and touched &#8211; surprised because when I was his age I couldn&#8217;t bear to be anywhere in the vicinity of my parents, let alone bring any of my friends voluntarily into their orbit, and touched by his faith in my cooking. But this seems to be a cleaner-living generation; Calvin spends a lot of time hanging around the house and actually seems to like our company.</p>
+
+
+	<p>He and I pondered the menu and this is what we came up with: Grilled pork tenderloin, served with homemade pineapple salsa, couscous, tossed salad, and for dessert I made chocolate waffles topped with vanilla ice cream and sliced strawberries. Everything came out great except the couscous, which I had tried to make a new way, according to directions I read on another <a href="http://achickenineverygrannycart.wordpress.com/2007/04/26/claudia-roden-couscous/">blog</a>. I had been seduced by the description of how light and fluffy the couscous would turn out using this method, rather than just throwing it into hot chicken stock the way I usually do, and all I can say is that I must have done something wrong because it was as dry as sawdust and very disappointing. In fact, I have probably ensured that several teenagers will never eat couscous again as long as they live. Perhaps couscous steamed like this is best as a base for stews rather than on its own as a side dish.</p>
+
+
+	<p style="float:left"><img src="/eat/files/waffle.jpg" alt="" /></p>
+
+
+	<p>I was particularly pleased with the waffles, and so were the kids. I just adapted the recipe for buttermilk waffles in my <em>Fanny Farmer</em> cookbook and they were delicious. The only tricky part was determining when they were done, since they were already brown I couldn&#8217;t look at color and had to put my finger on them to see how crisp they were getting. Waffles take a lot longer to bake than pancakes, unless it&#8217;s my waffle iron, but you want them nice and crisp.</p>
+
+
+	<p>The young people also liked the salsa quite well, and I&#8217;m giving the recipe for both the salsa and the waffles. I&#8217;ve served this salsa with grilled chicken as well as grilled pork and it&#8217;s just delicious; everyone loves it. Calvin and his friends were a delight to entertain; they cleared the table themselves and before they left for the dance they all thanked me and said it was a wonderful prom dinner. They were also quite patient about posing for photographs, another contrast to myself as a teenager. Mom &#8211; if you&#8217;re reading this, sorry for the bad attitude and ruined family photos!</p>
+
+
+	<p style="float:center"><img src="/eat/files/kids.jpg" alt="" /></p>
+
+
+	<p>Calvin is on the right &#8211; don&#8217;t they look great?</p>
+
+
+	<p><strong>Pineapple Salsa</strong></p>
+
+
+	<p style="float:right"><img src="/eat/files/salsa.jpg" alt="" /></p>
+
+
+	<ul>
+	<li>1/2 pineapple, peeled, cored, and diced</li>
+		<li>zest and juice of 1 lime</li>
+		<li>1/2 bunch scallions or green onions, washed, trimmed, thinly sliced,
+including most of green part</li>
+		<li>1/2 red pepper, finely diced</li>
+		<li>1 or 3 minced jalapeno peppers</li>
+		<li>1/4 cup minced fresh cilantro, stems and all</li>
+		<li>3 large cloves garlic, minced, or more to taste</li>
+		<li>1 teaspoon salt, or to taste</li>
+	</ul>
+
+
+	<p>Put all ingredients except cilantro in large bowl and fold
+together with rubber spatula. Let sit for flavors to mingle for about
+an hour; add fresh herb shortly before serving and stir gently with
+spatula. The acid in the other ingredients will discolor the cilantro
+which is why you don&#8217;t want to add it too soon. You could add some other tropical fruits to this, like mango or
+papaya. If it&#8217;s not tart enough add more lime or lemon juice.</p>
+
+
+	<p><strong>Buttermilk Waffles</strong> from <em>Fanny Farmer</em> cookbook, 1990 edition</p>
+
+
+	<ul>
+	<li>1 1/2 cups all-purpose flour</li>
+		<li>2 teaspoons baking powder</li>
+		<li>3/4 teaspoon baking soda</li>
+		<li>1/2 teaspoon salt</li>
+		<li>2 tablespoons sugar</li>
+		<li>3 eggs</li>
+		<li>1 1/2 cups buttermilk</li>
+		<li>3/4 cup melted butter</li>
+	</ul>
+
+
+	<p>Put the flour into a medium mixing bowl and add the remaining dry ingredients. Stir with a fork or whisk to blend. Into a larger mixing bowl, beat the eggs until well-blended. Stir in the buttermilk and the melted butter (slightly cooled). Add the flour mixture to the liquid mixture and blend. Bake in a hot waffle iron until crisp and golden. Serve hot.</p>
+
+
+	<p><strong>For chocolate waffles</strong>: Decrease flour to 1 1/4 cups and add 1/4 cup unsweetened cocoa powder with dry ingredients. Increase sugar to 1/3 cup. Melt 2 oz. semi-sweet chocolate with the butter and blend with the wet ingredients. Add 1 teaspoon vanilla extract. Serve warm with ice cream and/or fruit or fudge sauce.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id14d4">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3813"><p>Wow. It&#8217;s hard to imagine that a kid <strong>not</strong> brought up in the parental bed would have such a warm, intimate relationship to his family . . .</p>
+<p>I am so kidding. ;)</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">zp</span></span>
+  				<span>on May 26, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3814"><p>Wow. I have never heard of that method for cooking couscous, but I can&#8217;t imagine why anyone would want to make it so complicated. I just pour it into the boiling water, turn the heat down to medium low, and stir it the entire time. Keeps it from clumping.<br />
+It&#8217;s awesome that the kids wanted a home-cooked meal before their prom, and they do look great!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Annie</span></span>
+  				<span>on May 26, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3815"><p>I enjoyed your post. I also wonder why anyone would want to go through that much trouble for couscous&#8230; I guarantee the following method never fails, and it&#8217;s the easiest way yet to make it: put about 1/2 cup couscous in a bowl, drizzle about 2 tsp olive oil into it and blend it with a fork so the couscous grains are all coated, add salt and (optionally) spices (curry, herbes de provence, whatever) to taste, and cover over with boiling water or broth. Put a plate on top of the bowl snuggly enough  so the couscous can steam, wait 5mn, and voilà! Fluff it with a fork and you&#8217;re ready to go.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Christine</span></span>
+  				<span>on May 26, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3816"><p>Zp, he probably turned out that way because he was horribly spoiled by his much older brothers and elderly parents, and given lots of meat to eat&#8230;</p>
+<p>Annie and Christine, if you read the post I was referring to you can see why I wanted to try it because it does sound good, doesn&#8217;t it? And I so respect the author of that blog! But either of your methods, or just the directions on the box, would have resulted in much moister couscous and far fewer dishes to wash, too.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca (Mommy)</span></span>
+  				<span>on May 26, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3817"><p>Wow.  Just wow.  I tried to walk 10 steps behind my parents when I was forced to go to the mall with them in hopes that nobody would think we were together.</p>
+<p>You must be a wonderful mom to have both Calvin and Leland still so close!  (The best late Mother&#8217;s Day present I can imagine is to have my kids actually <span class="caps">WANT</span> to hang out with me &#8211; since mine&#8217;s only 8 months old he sort of has no choice but to hang out with me right now, as I am the font and source of all food &#8211; but if he still wants to hang out with me at 17, I will count myself a resounding success!!)</p>
+<p>And I&#8217;m trying Christine&#8217;s couscous method tonight.  Sounds delish.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://trivialissimo.blogspot.com"><span class="alias">Heath</span></a>
+  				<span>on May 26, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3818"><p>awh, Rebecca, I&#8217;m soooo sorry it didn&#8217;t work out :-(<br />
+but you are the best mom in the world (after mine of course) for making the kids a pre-prom dinner!!!<br />
+Maybe the next time you&#8217;re in <span class="caps">NYC</span> I&#8217;ll take you out for couscous (or make it myself)<br />
+Sorry again!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://achickenineverygrannycart.wordpress.com"><span class="alias">ann</span></a>
+  				<span>on May 26, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3819"><p>Thanks, Heath! You&#8217;re right, I&#8217;m very lucky; and I was definitely more like you as a teen. Three adjectives that spring to mind are sulky, ungrateful, and sneaky (that&#8217;s me, not you). My poor parents.</p>
+<p>Ann, one thing I may have done wrong is put too little water on for the first sprinkle; you don&#8217;t really specify how much, and it was still almost completely dry after the first 30 minutes of steaming was up. But I will take you up on that invitation &#8211; I may be spending a week with Leland later on in the summer, then you can show me how it&#8217;s supposed to turn out.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on May 26, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3820"><p>Thanks for bringing up the bad memories!  Oh well, you have certainly made up for it.  So, I feel blessed now.<br />
+I will definitely try Christine&#8217;s recipe for couscous.  It does sound delicious.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">grandma</span></span>
+  				<span>on May 26, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3821"><p>I think we may just have been the ungracious generation. I had perfectly charming, interesting parents, who took me to interesting places and encouraged my exploits, yet I sulked, grumped and avoided them throughout my entire adolescence.</p>
+<p>I was therefore amazed that my daughter ( and her friends) treated me like a human being, that she brought her friends home, included me in her conversations, actually asked my advice, and took me with her to parties when I visited her at college.<br />
+Having been such an ingrate myself, I often felt like I should be saying, &#8220;But I am unworthy&#8230;&#8221;</p>
+<p>Perhaps one reason your son is so delightful is that he knows he has a mother who feels pleased when asked to make and serve a party dinner for his friends?</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://lindystoast.com"><span class="alias">Lindy</span></a>
+  				<span>on May 26, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3822"><p>Hi, Lindy &#8211; Yes, it sounds like both of us are lucky in our children, and yes, my parents did their best to provide me with lots of interesting experiences to nurture my physical, intellectual, and spiritual well-being, far more than I ever managed for my boys. And my mom would have been thrilled to have been asked to serve a prom dinner for me and my friends. Of course, my hippie self was far too cool and cynical to attend my senior prom (and then felt aggrieved and victimized not to have been there!)</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on May 26, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3823"><p>That prom dinner sounds wonderful and it is touching that your son wanted you to prepare that for him and his friends. I wanted to be as far away from my family as possible for the prom.</p>
+<p>As for the couscous, don&#8217;t give up on lengthy methods. Try Paula Wolfert&#8217;s method, it is very specific and detailed and she uses milk instead of water but it is not a side dish so you may be onto something.</p>
+<p>As for waffles, I am an avid waffle maker and I prefer my waffles only <br />
+slightly crisp outside and very soft inside. Your recipe is almost like the one on my blog which I might need to try with chocolate..<span class="caps">YUM</span></p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.izzyeats.blogspot.com"><span class="alias">izzy&#039;s mama</span></a>
+  				<span>on May 26, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3824"><p>Hi, izzy&#8217;s mama &#8211; hmm, I think I have a Wolfert cookbook tucked away somewhere that probably has her couscous recipe in it.</p>
+<p>Do try the chocolate waffles; I had enough left over to serve for dessert to guests the other night and they were just wild about them, the whole table went quiet in that way it does when people really love the food.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on May 26, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3825"><p>What a lovely post!! The meal sounds wonderful and your son sounds even better! I <span class="caps">LOVE</span> the picture of them. They all look so nice! I love that the girls didn&#8217;t get all &#8220;pagent-y&#8221; looking. They look super! <br />
+I&#8217;m so trying those waffles! And the salsa with my next pork chop dinner! <br />
+Thanks for sharing!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">tulip</span></span>
+  				<span>on May 26, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3826"><p>Hi, Tulip! Welcome to the blog! Thanks for your comments; yes, the girls did look sweet, didn&#8217;t they? Ten years ago when Calvin&#8217;s big brothers were attending their senior proms the girls were all wearing slinky strapless black numbers and looked like Las Vegas show girls. I like these sun dress sort of things better, even if they&#8217;re a little less dressy. I guess the days of wearing pastel colors and eyelet are over for good!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca (Mommy)</span></span>
+  				<span>on May 26, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id14d5">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id14d6" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id14d6_hf_0" id="id14d6_hf_0" /><input type="hidden" name="wicket:interface" value=":756:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id14d7" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id14d8" name="add" value="Add a comment" onclick="wicketShow('id14d8--ajax-indicator');var wcall=wicketSubmitFormById('id14d6', '../../?wicket:interface=:756:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id14d8--ajax-indicator');}.bind(this),function() { ;wicketHide('id14d8--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id14d6')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id14d8--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

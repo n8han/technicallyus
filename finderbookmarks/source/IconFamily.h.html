@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE  html PUBLIC "-//W3C//DTD XHTML 1.1//EN"  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>IconFamily.h</title>
+	<link rel="stylesheet" type="text/css" href="highlight.css"/>
+</head>
+<body>
+<pre></pre><div class="com">// IconFamily.h
+</div><pre></pre><div class="com">// IconFamily class interface
+</div><pre></pre><div class="com">// by Troy Stephens, Thomas Schnitzer, David Remahl, Nathan Day and Ben Haller
+</div><pre></pre><div class="com">// version 0.5
+</div><pre></pre><div class="com">//
+</div><pre></pre><div class="com">// Project Home Page:
+</div><pre></pre><div class="com">//   http://homepage.mac.com/troy_stephens/software/objects/IconFamily/
+</div><pre></pre><div class="com">//
+</div><pre></pre><div class="com">// Problems, shortcomings, and uncertainties that I'm aware of are flagged
+</div><pre></pre><div class="com">// with &quot;NOTE:&quot;.  Please address bug reports, bug fixes, suggestions, etc.
+</div><pre></pre><div class="com">// to me at troy_stephens&#64;mac.com
+</div><pre></pre><div class="com">//
+</div><pre></pre><div class="com">// This code is provided as-is, with no warranty, in the hope that it will be
+</div><pre></pre><div class="com">// useful.  However, it appears to work fine on Mac OS X 10.1.4. :-)
+</div><pre>
+<span class="dir">#import &lt;Cocoa/Cocoa.h&gt;
+</span><span class="dir">#import &lt;Carbon/Carbon.h&gt;
+</span>
+</pre><div class="com">// This class is a Cocoa/Objective-C wrapper for the Mac OS X Carbon API's
+</div><pre></pre><div class="com">// &quot;icon family&quot; data type.  Its main purpose is to enable Cocoa applications
+</div><pre></pre><div class="com">// to easily create custom file icons from NSImage instances, and thus take
+</div><pre></pre><div class="com">// advantage of Mac OS X's new 128x128 RGBA &quot;thumbnail&quot; icon format to provide
+</div><pre></pre><div class="com">// richly detailed thumbnail previews of the files' contents.
+</div><pre></pre><div class="com">//
+</div><pre></pre><div class="com">// Using IconFamily, this becomes as simple as:
+</div><pre></pre><div class="com">//
+</div><pre></pre><div class="com">//      id iconFamily = [IconFamily iconFamilyWithThumbnailsOfImage:anImage];
+</div><pre></pre><div class="com">//      [iconFamily setAsCustomIconForFile:anExistingFile];
+</div><pre></pre><div class="com">//
+</div><pre></pre><div class="com">// You can also write an icon family to an .icns file using the -writeToFile:
+</div><pre></pre><div class="com">// method.
+</div><pre>
+&#64;interface IconFamily : NSObject
+{
+    IconFamilyHandle hIconFamily;
+}
+
+</pre><div class="com">// Convenience methods.  These use the corresponding -init methods to return
+</div><pre></pre><div class="com">// an autoreleased IconFamily instance.
+</div><pre></pre><div class="com">//
+</div><pre></pre><div class="com">// NOTE: +iconFamily relies on -init, which is currently broken (see -init).
+</div><pre>
++ (IconFamily*) iconFamily;
++ (IconFamily*) iconFamilyWithContentsOfFile:(NSString*)path;
++ (IconFamily*) iconFamilyWithIconOfFile:(NSString*)path;
++ (IconFamily*) iconFamilyWithIconFamilyHandle:(IconFamilyHandle)hNewIconFamily;
++ (IconFamily*) iconFamilyWithSystemIcon:(<span class="typ">int</span>)fourByteCode;
++ (IconFamily*) iconFamilyWithThumbnailsOfImage:(NSImage*)image;
++ (IconFamily*) iconFamilyWithThumbnailsOfImage:(NSImage*)image usingImageInterpolation:(NSImageInterpolation)imageInterpolation;
+
+</pre><div class="com">// Added by Nathan Hamblen for support of small icons that are not the same representation
+</div><pre></pre><div class="com">// as large ones. The given bitmaps must have 128x128, 32x32, and 16x16 sizes.
+</div><pre>- initWithBitmaps:(NSArray *)bitmaps;
+
+
+</pre><div class="com">// Initializes as a new, empty IconFamily.  This is IconFamily's designated
+</div><pre></pre><div class="com">// initializer method.
+</div><pre></pre><div class="com">//
+</div><pre></pre><div class="com">// NOTE: This method is broken until we figure out how to create a valid new
+</div><pre></pre><div class="com">//       IconFamilyHandle!  In the meantime, use -initWithContentsOfFile: to
+</div><pre></pre><div class="com">//       load an existing .icns file that you can use as a starting point, and
+</div><pre></pre><div class="com">//       use -setIconFamilyElement:fromBitmapImageRep: to replace its
+</div><pre></pre><div class="com">//   elements.  This is what the &quot;MakeThumbnail&quot; demo app does.
+</div><pre>
+- init;
+
+</pre><div class="com">// Initializes an IconFamily by loading the contents of an .icns file.
+</div><pre>
+- initWithContentsOfFile:(NSString*)path;
+
+</pre><div class="com">// Initializes an IconFamily from an existing Carbon IconFamilyHandle.
+</div><pre>
+- initWithIconFamilyHandle:(IconFamilyHandle)hNewIconFamily;
+
+</pre><div class="com">// Initializes an IconFamily by loading the Finder icon that's assigned to a
+</div><pre></pre><div class="com">// file.
+</div><pre>
+- initWithIconOfFile:(NSString*)path;
+
+</pre><div class="com">// Initializes an IconFamily by referencing a standard system icon.
+</div><pre>
+- initWithSystemIcon:(<span class="typ">int</span>)fourByteCode;
+
+</pre><div class="com">// Initializes an IconFamily by creating its elements from a resampled
+</div><pre></pre><div class="com">// NSImage.  The second form of this method allows you to specify the degree
+</div><pre></pre><div class="com">// of antialiasing to be used in resampling the image, by passing in one of
+</div><pre></pre><div class="com">// the NSImageInterpolation... constants that are defined in
+</div><pre></pre><div class="com">// NSGraphicsContext.h.  The first form of this initializer simply calls the
+</div><pre></pre><div class="com">// second form with imageInterpolation set to NSImageInterpolationHigh, which
+</div><pre></pre><div class="com">// produces highly smoothed thumbnails.
+</div><pre>
+- initWithThumbnailsOfImage:(NSImage*)image;
+- initWithThumbnailsOfImage:(NSImage*)image usingImageInterpolation:(NSImageInterpolation)imageInterpolation;
+
+</pre><div class="com">// Writes the icon family to an .icns file.
+</div><pre>
+- (BOOL) writeToFile:(NSString*)path;
+
+</pre><div class="com">// Sets the image data for one of the icon family's elements from an
+</div><pre></pre><div class="com">// NSBitmapImageRep.  The &quot;elementType&quot; parameter must be one of the icon
+</div><pre></pre><div class="com">// family element types listed below, and the format of the &quot;bitmapImageRep&quot;
+</div><pre></pre><div class="com">// must match the corresponding requirements specified below.  Regardless of
+</div><pre></pre><div class="com">// the elementType, the bitmapImageRep must also be non-planar and have 8 bits
+</div><pre></pre><div class="com">// per sample.
+</div><pre></pre><div class="com">//
+</div><pre></pre><div class="com">//  elementType           dimensions   format
+</div><pre></pre><div class="com">//  -------------------   ----------   ---------------------------------------
+</div><pre></pre><div class="com">//  kThumbnail32BitData    128 x 128   32-bit RGBA, 32-bit RGB, or 24-bit RGB
+</div><pre></pre><div class="com">//  kThumbnail8BitMask     128 x 128   32-bit RGBA or 8-bit intensity
+</div><pre></pre><div class="com">//  kLarge32BitData         32 x  32   32-bit RGBA, 32-bit RGB, or 24-bit RGB
+</div><pre></pre><div class="com">//  kLarge8BitMask          32 x  32   32-bit RGBA or 8-bit intensity
+</div><pre></pre><div class="com">//  kLarge1BitMask          32 x  32   32-bit RGBA, 8-bit intensity, or 1-bit
+</div><pre></pre><div class="com">//  kSmall32BitData         16 x  16   32-bit RGBA, 32-bit RGB, or 24-bit RGB
+</div><pre></pre><div class="com">//  kSmall8BitMask          16 x  16   32-bit RGBA or 8-bit intensity
+</div><pre></pre><div class="com">//  kSmall1BitMask          16 x  16   32-bit RGBA, 8-bit intensity, or 1-bit
+</div><pre></pre><div class="com">//
+</div><pre></pre><div class="com">// When an RGBA image is supplied to set a &quot;Mask&quot; element, the mask data is
+</div><pre></pre><div class="com">// taken from the image's alpha channel.
+</div><pre></pre><div class="com">//
+</div><pre></pre><div class="com">// NOTE: Setting an IconFamily's kLarge1BitMask seems to damage the IconFamily
+</div><pre></pre><div class="com">//       for some as yet unknown reason.  (If you then assign the icon family
+</div><pre></pre><div class="com">//       as a file's custom icon using -setAsCustomIconForFile:, the custom
+</div><pre></pre><div class="com">//       icon doesn't appear for the file in the Finder.)  However, both
+</div><pre></pre><div class="com">//   custom icon display and mouse-click hit-testing in the Finder seem to
+</div><pre></pre><div class="com">//       work fine when we only set the other four elements (thus keeping the
+</div><pre></pre><div class="com">//       existing kLarge1BitMask from the valid icon family from which we
+</div><pre></pre><div class="com">//       initialized the IconFamily via -initWithContentsOfFile:, since
+</div><pre></pre><div class="com">//       IconFamily's -init method is currently broken...), so it seems safe
+</div><pre></pre><div class="com">//       to just leave the kLarge1BitMask alone.
+</div><pre>
+- (BOOL) setIconFamilyElement:(OSType)elementType
+           fromBitmapImageRep:(NSBitmapImageRep*)bitmapImageRep;
+
+</pre><div class="com">// Gets the image data for one of the icon family's elements as a new, 32-bit
+</div><pre></pre><div class="com">// RGBA NSBitmapImageRep.  The specified elementType should be one of
+</div><pre></pre><div class="com">// kThumbnail32BitData, kLarge32BitData, or kSmall32BitData.
+</div><pre></pre><div class="com">//
+</div><pre></pre><div class="com">// The returned NSBitmapImageRep will have the corresponding 8-bit mask data
+</div><pre></pre><div class="com">// in its alpha channel, or a fully opaque alpha channel if the icon family
+</div><pre></pre><div class="com">// has no 8-bit mask data for the specified alpha channel.
+</div><pre></pre><div class="com">//
+</div><pre></pre><div class="com">// Returns nil if the requested element cannot be retrieved (e.g. if the
+</div><pre></pre><div class="com">// icon family has no such 32BitData element).
+</div><pre>
+- (NSBitmapImageRep*) bitmapImageRepWithAlphaForIconFamilyElement:(OSType)elementType;
+
+</pre><div class="com">// Creates and returns an NSImage that contains the icon family's various
+</div><pre></pre><div class="com">// elements as its NSImageReps.
+</div><pre>
+- (NSImage*) imageWithAllReps;
+
+</pre><div class="com">// NOTE: Planned method -- not yet implemented.
+</div><pre></pre><div class="com">//
+</div><pre></pre><div class="com">// Gets the image data for one of the icon family's elements as a new
+</div><pre></pre><div class="com">// NSBitmapImageRep.  The specified elementType should be one of
+</div><pre></pre><div class="com">// kThumbnail32BitData, kThumbnail32BitMask, kLarge32BitData, kLarge8BitMask,
+</div><pre></pre><div class="com">// kLarge1BitMask, kSmall32BitData, kSmall8BitMask, or kSmall1BitMask.
+</div><pre>
+</pre><div class="com">// - (NSBitmapImageRep*) bitmapImageRepForIconFamilyElement:(OSType)elementType;
+</div><pre>
+</pre><div class="com">// Writes the icon family to the resource fork of the specified file as its
+</div><pre></pre><div class="com">// kCustomIconResource, and sets the necessary Finder bits so the icon will
+</div><pre></pre><div class="com">// be displayed for the file in Finder views.
+</div><pre>
+- (BOOL) setAsCustomIconForFile:(NSString*)path;
+- (BOOL) setAsCustomIconForFile:(NSString*)path withCompatibility:(BOOL)compat;
+
+</pre><div class="com">// Same as the -setAsCustomIconForFile:... methods, but for folders (directories).
+</div><pre>
+- (BOOL) setAsCustomIconForDirectory:(NSString*)path;
+- (BOOL) setAsCustomIconForDirectory:(NSString*)path withCompatibility:(BOOL)compat;
+
+</pre><div class="com">// Removes the custom icon (if any) from the specified file's resource fork,
+</div><pre></pre><div class="com">// and clears the necessary Finder bits for the file.  (Note that this is a
+</div><pre></pre><div class="com">// class method, so you don't need an instance of IconFamily to invoke it.)
+</div><pre>
++ (BOOL) removeCustomIconFromFile:(NSString*)path;
+
+&#64;end
+
+</pre><div class="com">// Methods for interfacing with the Carbon Scrap Manager (analogous to and
+</div><pre></pre><div class="com">// interoperable with the Cocoa Pasteboard).
+</div><pre>&#64;interface IconFamily (ScrapAdditions)
++ (BOOL) canInitWithScrap;
++ (IconFamily*) iconFamilyWithScrap;
+- initWithScrap;
+- (BOOL) putOnScrap;
+&#64;end
+</pre>
+</body>
+</html>
+<!--XHTML generated by highlight 2.0-19, http://www.andre-simon.de/-->

@@ -1,0 +1,101 @@
+/* bprint bug */
+p code {
+	white-space: normal;
+}
+
+.container, h1, h2, h3, h4, h5 {
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	color: #2f3c21;
+}
+
+.container {
+	font-size: 130%;
+}
+
+body {
+	background-color: #E8FFCF;
+}
+
+#weblog-name img {
+	width: 467px;
+	height: 85px;
+	position: relative;
+	left: -2px;
+}
+
+#weblog-photo img{
+	margin-top: 6px;
+}
+
+#weblog-photo img {
+	padding-bottom: 4px;
+	border-bottom: 3px solid #E8FFCF;
+	height: 216px;
+}
+
+.normal a, a, a:hover, a:active, a:visited {
+	text-decoration: none;
+	color: #323F23;
+	border-bottom: 3px solid #EFD1C2;
+}
+
+a:hover, a:hover span#weblog-photo img, 
+ span.image-wrapper.linked:hover, .byline a:hover {
+	border-bottom: 3px dashed #E9601A;
+	color: #323F23;
+}
+
+a.arrow {
+	border: none;
+}
+
+.post p img {
+	border: 2px white solid;
+}
+
+.post p + p {
+	text-indent:1.5em; 
+	margin-top:-1.5em;
+}
+
+.post p.break {
+	margin-top: 1.5em;
+	text-indent: 0;
+}
+
+.post p.out {
+	position: absolute;
+	height: 0;
+	margin: 0;
+	text-indent: 0;
+	margin-top: 0;
+}
+
+.post p.out img {
+	left: 485px;
+	position: relative;
+	top: 0.25em;
+}
+
+.post p.borderless img {
+	border:none;
+}
+
+.byline, .byline a {
+	color: #7F8F6B;
+}
+
+.post .byline {
+	margin-top: -1.6em;
+} 
+
+/* archive animator styles */
+.invisible {
+  color: #E8FFCF;
+  border-color: #E8FFCF;
+}
+
+.normal {
+  color: #323F23;
+  border-color: #EFD1C2;
+}

@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Java vs. Ruby on Rails: a deathmatch?</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id2563" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Java vs. Ruby on Rails: a deathmatch?" width="607" class="title" src="../../../resources/net.databinder.components.RenderedLabel/67f67a37"/><span class="title">Java vs. Ruby on Rails: a deathmatch?</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on November 18, 2005</span></span>
+			<span id="id2564" class="tags">
+					{&nbsp;<span><a href="../../../code/tag/rails/#selected-tag"><span>rails</span></a><span id="id2565">, </span></span><span><a href="../../../code/tag/java/#selected-tag"><span>java</span></a><span id="id2566">, </span></span><span><a href="../../../code/tag/wicket/#selected-tag"><span>wicket</span></a><span id="id2567">, </span></span><span><a href="../../../code/tag/oop/#selected-tag"><span>oop</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>I made a little progress this week in my <a href="/n8/articles/2005/10/10/i-promise-not-to-call-it-phoenix">play project</a> that aims to do something interesting with <a href="http://www.freedb.org/">freedb</a> and <a href="http://www.rubyonrails.org/">Rails</a>.</p>
+
+
+	<p>So I was <em>just</em> thinking, as I threw together a simple webapp in 30 minutes last night, how easy it would be to rewrite the the user facing side of my  work&#8217;s Web site (the read only pages, anyway) in Rails. It would be <strong>cake</strong>. I&#8217;m cheerfully working on rewriting much of our administration site in <a href="http://wicket.sourceforge.net/">Wicket</a>, enjoying all the benefits of a component programming, but also seeing how inappropriate its heavy-duty abstraction is for simple content display. The session overhead is excessive for a high volume site, and the <span class="caps">URL</span> issues will <strong>never</strong> be solved. (The <span class="caps">URL</span> can&#8217;t contain all the information needed to render a page when most of your state is on the server.)</p>
+
+
+	<p>Then today I came across <a href="http://www.onjava.com/pub/a/onjava/2005/11/16/ruby-the-rival.html">this O&#8217;Reilly article</a> trying to make sense of the whole Rails disruption. James Duncan Davidson&#8217;s comments resonated the most with me:</p>
+
+
+	<blockquote>
+		<p>And I think that&#8217;s the real win from the recent attention on Ruby on Rails and the breakaway from viewing the world with Java-colored glasses. It&#8217;s not that Ruby on Rails is going to be the next Java. Far from it. It&#8217;s that Ruby on Rails helps to break this idea that there is &#8220;One True Way.&#8221; There&#8217;s not. There are many different ways to solve a problem. And really, none of them is the clear-cut winner. There&#8217;s just places where one solution has advantages.</p>
+	</blockquote>
+
+
+	<p>Indeed, that&#8217;s the Java dogmatism that has driven me to <a href="/n8/pages/tier">rail against tiers</a>. So, I like this guy, but here&#8217;s where I disagree:</p>
+
+
+	<blockquote>
+		<p>The strengths of Java could be applied to a brand new framework in interesting and amazing ways. It&#8217;s just that nobody has done that yet.</p>
+	</blockquote>
+
+
+	<p>I think Wicket <em>is</em> that framework, the one that takes advantage of Java&#8217;s strengths and makes all the cartwheels we have to turn for the language worthwhile. Web components that render themselves, profit from inheritence, and don&#8217;t die at the end of the request cycle are done brilliantly in Wicket. Maybe Davidson just hasn&#8217;t tried it yet.</p>
+
+
+	<p>So where does this all lead? The O&#8217;Reilly panel mostly dodges the question, or maintains that &#8220;the enterprise&#8221; will still be better off with Java. Some answer! It&#8217;s not the size of the company that determines the best technology to use&#8212;it&#8217;s the application you&#8217;re building. Use Ruby for one and Java for another. (If Java programmers could drop their fetish for &#8220;e,&#8221; they might be able to think more clearly.)</p>
+
+
+	<p>For high volume sites with working URLs, you need a <em>stateless framework</em>. Java has always been a bad choice for a stateless framework (<a href="http://struts.apache.org/">Struts</a>, please die) because there&#8217;s little payoff for the object palace you&#8217;re required to build your apps in. In days past the best bet was <span class="caps">PHP</span>, but Ruby on Rails is the clear winner now: it&#8217;s practical object orientation.</p>
+
+
+	<p>On the other hand, if you&#8217;re supporting a limited number of users in a fairly complicated system that you want to work like a desktop application, then you can benefit from  a <em>stateful framework</em>. Go ahead pour a few hours into this or that component, because it won&#8217;t have packed up and left you 1, 2, or 3 requests later. Java + Wicket is the best thing going in this department.</p>
+
+
+	<p>Two classes of frameworks, and two front-runners. You can learn both, or you can just be a fanboy.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id2568">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-1051"><p>I&#8217;m not sure what you mean by &#8220;URL issues&#8221;. Do you know about URL mounting and eelco&#8217;s request cycle refactorings in 1.2 HEAD?</p>
+
+<p>State reduction in Wicket is a matter of adding effort (inasmuch as you care to reduce state):</p>
+
+<ol>
+<li>make your models detachable</li>
+
+<li>make your pages bookmarkable (and therefore often stateless) where possible</li>
+
+<li>implement custom IPageMapEntrys to reduce size of page state in session</li>
+
+<li>we can actually implement client side state fairly easily. and with cystom IPageMapEntry implementaions, that state could be made efficient.</li>
+</ol></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Jonathan Locke</span></span>
+  				<span>on November 18, 2005</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1052"><p>Yes, I&#8217;m aware of efforts to make bookmarkable URLs more palatable. It&#8217;s a great thing that in Wicket 1.2, we&#8217;ll be able to (easily) have, e.g. /weblog/article/2342 like rails instead of the current /weblog?bookmarkablePage=com.whoever.Article&amp;id=2342 .</p>
+
+<p>That&#8217;s nice for bookmarkable actions, but the more you depend on that, the less you benefit from Wicket&#8217;s statefulness, right? There&#8217;s all sorts of information on the server (or client) about my current application state that isn&#8217;t and shouldn&#8217;t be coded into the URL.</p>
+
+<p>So the &#8220;URL issue&#8221; that I see is that in standard use, a Wicket application presents the user with URLs that can&#8217;t be reused (path=x). I don&#8217;t think there will be a solution to that, and I think that&#8217;s fine for a lot of apps, but not, obviously, some amazon.com.</p>
+
+<p>I suppose one <em>could</em> code up a Wicket application that&#8217;s hybrid: in the amazon example you would keep all links bookmarkable until you started to make a purchase, at which point it doesn&#8217;t matter so much. That would also correspond with the point where things get more complicated (checkout wizards have foiled many a Web programmer) and would benefit from statefulness.</p>
+
+<p>But let&#8217;s be realistic. For a Web site that isn&#8217;t very interactive, and whose URLs need be stable, there is no point in using Wicket with only bookmarkable pages. You&#8217;re just better off with scripting.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8han</span></span>
+  				<span>on November 18, 2005</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1053"><p>Yes. If you are not building an interactive web application, Wicket will not be that useful.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Jonathan Locke</span></span>
+  				<span>on November 18, 2005</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id2569">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id256a" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id256a_hf_0" id="id256a_hf_0" /><input type="hidden" name="wicket:interface" value=":1366:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id256b" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id256c" name="add" value="Add a comment" onclick="wicketShow('id256c--ajax-indicator');var wcall=wicketSubmitFormById('id256a', '../../../?wicket:interface=:1366:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id256c--ajax-indicator');}.bind(this),function() { ;wicketHide('id256c--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id256a')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id256c--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Gratin dauphinois</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id9c3" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Gratin dauphinois" width="274" class="title" src="../../../resources/net.databinder.components.RenderedLabel/e2fb3190"/><span class="title">Gratin dauphinois</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on February 26, 2007</span></span>
+			<span id="id9c4" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>I&#8217;m entering what might be a Richard Olney phase in the kitchen right now, ever since I got my mitts on his <a href="http://www.amazon.com/exec/obidos/ASIN/0020100604/eat0e-20"><em>Simple French Food</em></a>, a highly addictive, splendidly entertaining cookbook and manifesto. If you can get past headnotes that contain statements such as this one, &#8220;Dipped in batter and deep fried, they are exquisite,&#8221; which refers to lambs&#8217; balls, then this is a book worth owning. I&#8217;ve never read anything that made me want to get up from the couch and get my hands dirty the way this book does. The recipes and lifestyle it describes are so simple, so rustic, so appealing to my computer-abused, city-weary eyes.</p>
+
+
+	<p>Each recipe is entertaining and vivid, like a short story. In the headnote for scalloped potatoes, Olney discusses the aura of mystery the dish has acquired from so many variations. &#8220;Nearly every reputed restaurant has its celebrated <em>gratin dauphinois</em> and each is willing to divulge its recipe, usually incomprehensible and conceived in the interest of mystification.&#8221; Richard&#8217;s mission is to remove the mystery from these dishes, for the benefit of regular American cooks such as myself. He tells you what&#8217;s important (treating good ingredients with respect) and what isn&#8217;t (just about everything else).</p>
+
+
+	<p><img src="/pictures/gratin.jpg" alt="" /></p>
+
+
+	<p>For this gratin, I sliced three potatoes thinly in the food processor. I simmered them in milk just to cover for about ten minutes (adding a bit of salt) before pouring them into a glass pie plate that I had rubbed aggressively with a split garlic clove (you&#8217;re supposed to butter the dish, but I forgot this step). I poured about 1/4 cup of heavy cream on top, sprinkled a few shavings of cold butter, and put them into the 375ºF oven for about an hour, until well browned and very soft under the crust.</p>
+
+
+	<p>It&#8217;s a delicious, simple winter lunch, and fit for company with a green salad and a bit of wine.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id9c5">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3435"><p>Your gratin lovely. Perfect for any meal. I so enjoy reading your blog. Jan</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">jan</span></span>
+  				<span>on February 26, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3436"><p>This looks really delicious &#8211; I&#8217;ve been pondering Olney&#8217;s words ever since I read your post and wondering just what, exactly, would constitute treating good ingredients with <strong>disrespect</strong>? At first I thought maybe deep-frying everything, but then I reread your second sentence about lambs&#8217; balls.</p>
+<p>Upon further reflection I wondered if the <a href="http://www.goldarths.com/Columns/KohYL/Molecular_Gastronomy/">molecular gastronomy</a> fad might qualify. If creating foams out of chocolate, fish, olive oil, and perfectly good cheeses isn&#8217;t disrespect I don&#8217;t know what is.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on February 26, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3437"><p>ugggghhh my weakness, butter and potatoes. baked no less! sounds so perfect.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">jeannie</span></span>
+  				<span>on February 26, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3438"><p>I love the simplicity of this. I&#8217;m always trying to &#8220;perk up&#8221; scalloped potatoes with bacon, caramelized onions and whatnot. They&#8217;re good, but I find that I prefer pure potatoes, butter and cream with a hint of garlic. Perfect!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://goodamericanwife.blogspot.com"><span class="alias">Anne</span></a>
+  				<span>on February 26, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3439"><p>I love the potatoes &#8211; and the book too! Did you know that Richard Olney wrote all the of Time Lifes Good Cook series? I am in the middle of collecting the whole series, cooking geek that I am!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://zombiesnack.blogspot.com"><span class="alias">Freya</span></a>
+  				<span>on February 26, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3440"><p>Thank you, Jan, and thank you for reading!</p>
+<p>I agree, Mommy. I can&#8217;t stand all that foam crap, although experimentation may eventually give way to something useful for regular cooks. Deep-frying, though, doesn&#8217;t seem too harsh to me. Lambs&#8217; balls and other items develop a crust right away and then cook pretty quickly. It must be gentler than boiling in plain water, or roasting.</p>
+<p>Thanks, Jeannie! It&#8217;s right up your alley.</p>
+<p>I do the same thing, Anne. I&#8217;m planning a post about how I tried to jazz up the onion soup I made last week and ended up with a bowl full of boring.</p>
+<p>I did know that, Freya, and that&#8217;s a wonderful set of books. I only have the fish one now, but I&#8217;ve glanced through all of them in the library. Do you have the variety meats? With the pig-face platter? That gave me nightmares!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on February 26, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id9c6">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id9c7" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id9c7_hf_0" id="id9c7_hf_0" /><input type="hidden" name="wicket:interface" value=":362:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id9c8" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id9c9" name="add" value="Add a comment" onclick="wicketShow('id9c9--ajax-indicator');var wcall=wicketSubmitFormById('id9c7', '../../../?wicket:interface=:362:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id9c9--ajax-indicator');}.bind(this),function() { ;wicketHide('id9c9--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id9c7')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id9c9--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Zucchini, bacon, and Gruyère quiche</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../eat">
+			
+			<img alt="Eat" src="../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../eat">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id146e" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Zucchini, bacon, and Gruyère quiche" width="574" class="title" src="../../resources/net.databinder.components.RenderedLabel/d9b4b435"/><span class="title">Zucchini, bacon, and Gruyère quiche</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on February 28, 2006</span></span>
+			<span id="id146f" class="tags">
+					{&nbsp;<span><a href="../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>I made my first quiche tonight with zucchini, bacon, and Gruyère, using an excellent <a href="http://www.epicurious.com/recipes/recipe_views/views/233259">recipe</a> I found on epicurious.</p>
+
+
+	<p style="float:center"><img src="/pictures/quiche.jpg" alt="" /></p>
+
+
+	<p>As n8 pointed out to his mother, I was the only person in New York that hadn&#8217;t made a quiche. I think it&#8217;s because I grew up eating them at home on a regular basis, and for whatever reason I wasn&#8217;t a huge fan. Mom, what kind of quiche did you used to make for us? I&#8217;m sure it was delicious, but I was too young to enjoy all the eggy goodness.</p>
+
+
+	<p>I know I should be rolling out my own crusts at this point, but frankly I don&#8217;t even know where to begin. So I ordered FreshDirect&#8217;s <a href="http://www.freshdirect.com/product.jsp?productId=dghcrst_crst&#38;catId=bak_pie_fd&#38;trk=srch">quiche shells</a>. They are $3.99 for two, and I was pleased with the flakiness and flavor.</p>
+
+
+	<p>People always talk about quiches as though they are the easiest meals in the world, but I was slaving away in the kitchen for a solid thirty minutes before I had anything in the oven. That&#8217;s <a href="http://technically.us/eat/articles/2006/02/01/quick-cooking-from-cooks-illustrated">fine</a> with me, but is there a faster way?</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1470">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-1566"><p>We made two quiches for your birthday and they DO have a lot of prep work because you must cook everything before you assemble it. I find that cooking the bacon for 3.5 minutes and the veggies for 2 minutes in the microwave can speed up the process.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Uncle Teddy</span></span>
+  				<span>on February 28, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1567"><p>Thirty minutes? You call that slaving? I&#8217;m guessing that includes frying the bacon, scrubbing the zucchini and sauteéing that (did you use the bacon fat or wipe the skillet and replace it with butter or olive oil?), and grating the cheese. Additionally, you had the pleasure of getting to slice the zucchini with your new Global knife! Any onions?</p>
+<p>Since you kids refused to eat mushrooms (I believe you have a post on that) or spinach I mostly confined myself to the standard bacon/onion/swiss cheese quiche, and even at that you and Jon frequently picked through and just ate the bacon. Do you remember how I often served canned peaches with that meal? That was your favorite part.</p>
+<p>Mommy</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">beckyleeprice@mac.com</span></span>
+  				<span>on February 28, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1568"><p><span class="caps">BTW</span>, those Fresh Direct pie crusts look really good, judging by the ingredients, and the price isn&#8217;t bad, either. If they delivered in Pittsburgh I would probably keep a few in my freezer for emergencies.</p>
+<p>Mom</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">beckyleeprice@mac.com</span></span>
+  				<span>on February 28, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1569"><p>I agree with Mom- thirty minutes isn&#8217;t slaving- it&#8217;s just prep work!</p>
+<p>Did you spread the bottom of the crust with dijon mustard before putting all the goodies and egg mixture over it? Always a subtle and delicious flavor for quiches.</p>
+<p>Beautiful for your first quiche. Pretty soon you&#8217;ll find you won&#8217;t need a recipe- just throw in whatever you have around the kitchen!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Emily</span></span>
+  				<span>on February 28, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1570"><p>I love that mustard idea! And another use for my small, offset frosting spatula. Do you have one of those, Leland? They really come in handy. And don&#8217;t take up any counter space!</p>
+<p>Mom</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Beckyleeprice@mac.com</span></span>
+  				<span>on February 28, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1571"><p>Look ladies, I know that&#8217;s not slaving. I&#8217;m happy to spend four hours making a meal. All I&#8217;m saying is that people talk about a quiche like they throw it together in 10 minutes, and like it&#8217;s the easiest thing they can make. I&#8217;ve made daubes that involved less prep.</p>
+<p>Mom: yes, I sautéed the zucchini in the delicious bacon fat, and I did enjoy slicing the hell out of the zucchini with my Global. I do sort of remember those peaches. I still love canned peaches, and canned fruit in general. Except cherries.</p>
+<p>No, Emily, I forgot about your Dijon trick, but I&#8217;ll try it next time.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on February 28, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1572"><p>I guess you got told!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">beckyleeprice@mac.com</span></span>
+  				<span>on February 28, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1573"><p>By the way, Uncle Ted&#8217;s quiches, that he made for me on my birthday, <em>ruled</em>.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on February 28, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id1471">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id1472" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id1472_hf_0" id="id1472_hf_0" /><input type="hidden" name="wicket:interface" value=":742:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id1473" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id1474" name="add" value="Add a comment" onclick="wicketShow('id1474--ajax-indicator');var wcall=wicketSubmitFormById('id1472', '../../?wicket:interface=:742:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id1474--ajax-indicator');}.bind(this),function() { ;wicketHide('id1474--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id1472')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id1474--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="../../../blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="../../../blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet.css"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Build your own builder</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code.html">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code.html">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id256d" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Build your own builder" width="360" class="title" src="../../../resources/net.databinder.components.RenderedLabel/971f9301"/><span class="title">Build your own builder</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on October 25, 2009</span></span>
+			<span id="id256e" class="tags">
+					{&nbsp;<span><a href="../../tag/spde/index.html#selected-tag"><span>spde</span></a><span id="id256f">, </span></span><span><a href="../../tag/sbt/index.html#selected-tag"><span>sbt</span></a><span id="id2570">, </span></span><span><a href="../../tag/scala/index.html#selected-tag"><span>scala</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>If you&#8217;ve ever coded using the <a href='http://wicket.apache.org/'>Wicket</a> framework, you know there is almost no overhead in it to create a custom component with an anonymous subclass. This practice is so normal that some of the standard components are abstract classes. And because you are always extending components for one-off customizations, it&#8217;s easy to factor these into your own reusable component classes. A natural progression occurs from anonymous classes to nested, then static, and finally top-level classes. That is, for custom components that are broadly applicable. Those that remain one-off, or useful only within a particular scope, stop evolving at the appropriate stage.</p>
+
+<p>The design of the Scala builder <a href='http://code.google.com/p/simple-build-tool/'><strong>simple-build-tool</strong></a> similarly anticipates extension of its project traits and classes. When invoked in a project, sbt looks for a top-level concrete project class to process. Any behavior overrides in that class are executed when compiling and packaging the project. But you&#8217;re not limited to patching the default build process; entirely new tasks defined in the project become available in sbt&#8217;s <a href='http://code.google.com/p/simple-build-tool/wiki/RunningSbt'>interactive mode</a> and help screens, making even the user interface of the build environment extensible.</p>
+
+<h3 id='building_blocks_for_building'>Building blocks for building</h3>
+
+<p class='break'>Most of sbt&#8217;s actual functionality exists in the traits and classes in its project hierarchy, which you are free to combine and use or not use. This makes your project definition&#8212;your own software&#8212;a peer of the builder itself. Aside from its launcher and the environment in which it invokes your project, the builder is effectively a library that you&#8217;re using to to write your own project builder.</p>
+
+<p>Sounds like overkill, right? It would seem that most projects don&#8217;t need to implement their own builder, just like most webapp pages should not need to customize components. But once you have the ability, it turns out that you use it. Writing code is what we do, after all. The alternative—using a library that treats customization as a special case—is like trading a fishing pole for a fish. So a project built by sbt that may have started out relying on the default build definition tends to gain tasks for things that would have ended up in external scripts (or not automated at all) with a less easily extensible builder.</p>
+
+<p class='break'>But no sooner do you write some useful building code than you want to reuse it in other projects. Fortunately, sbt supports reuse through <a href='http://technically.us/git?p=spde-sbt.git;a=summary'>plug-in modules</a>. These are, really, just a way to add software to the builder&#8217;s classpath. That software can be project traits and base classes, or it could be a cookie recipe; sbt does not care as long as it&#8217;s bytecode or raw Scala.</p>
+
+<p>So a project&#8217;s runtime classpath includes three categories of software peers: your project source, any referenced plug-ins, and sbt itself. Just by using the builder you&#8217;re potentially writing a future plug-in, or prototyping something that could find its way into the sbt core. Once again, it&#8217;s a natural progression from getting today&#8217;s work done to helping yourself and others in the future. The environment is highly productive both for the programmer and the sbt ecosystem as a whole.</p>
+
+<h3 id='processing_with_spdesbt'>Processing with spde-sbt</h3>
+
+<p><a href='../runaway-processing/index.html'>Once upon a time</a> there was a <a href='http://processing.org/'>Processing</a> Development Environment fork. It was called <a href='http://technically.us/spde/'><strong>Spde</strong></a>, a play on the PDE abbreviation that is pronounced &#8220;speed&#8221; in order to confuse you. The original PDE is—bear with me here—is <em>like a dragonfly in amber</em>. It&#8217;s small, fast, beautiful, and relatively frozen in time. It&#8217;s a minimalistic labor of love in a class of software (IDEs) that is dominated by awkward behemoths relentlessly bulked up by armies of programmers. The feature-sets of those IDEs have started to resemble a surrealist prank. But on the other hand, they still do things that users want and that the PDE&#8217;s embedded version of jEdit can not approximate.</p>
+
+<p>The main problem for Spde however had nothing to do with Eclipse envy, but rather the limited potential of coding for the PDE&#8217;s walled garden. The forked environment, which we can now call Spde Classic, <a href='../flocking-with-spde/index.html'>has for example</a> a very handy ability to export <a href='http://proguard.sourceforge.net/'>Proguard</a>-shrunk applets. Any applet using Scala practically needs this, otherwise it forces the client browser to download several megabytes of Scala jars. These JAR optimizers are generally no fun to configure, but in the end it worked. The only problem was that this broadly applicable software was bound up in an expressly limited environment.</p>
+
+<p class='break'>It&#8217;s hard enough to be motivated to write free software, but to write it for the currently tiny intersection of Scala and Processing programming proved too difficult. Especially when a much better option became available a half year later in the form of sbt plug-ins. And so <a href='http://technically.us/git?p=spde-sbt.git;a=summary'>spde-sbt</a> was born and that is essentially what Spde is today: a collection of sbt project traits and classes that facilitate coding in Scala against the standard Processing libraries.</p>
+
+<p>Aside from spde-sbt&#8217;s potentially larger audience, it&#8217;s also nice just to be <a href='http://www.javaworld.com/javaworld/jw-12-2007/jw-12-outside-the-ide.html'>outside of an IDE</a> again, even a tasteful one like the PDE. Now if you want to create your Proguard-compressed applet on a remote terminal instead in a desktop application, you can do that. You can have automated builds. You can customize builds. You&#8217;ve got the powah.</p>
+
+<p>The most basic feature of the Spde plug-in, residing in the <code>SpdeProject</code>, is a transitive dependency on the Spde and Processing libraries. A client project that implements this trait doesn&#8217;t have to concern itself with the corresponding library versions. Beyond that the trait supports source wrapping similar to that done by Spde Classic; it combines the <code>*.spde</code> files in the project base directory into a &#8220;glob&#8221; proxy drawing class. (The proxy is necessary to avoid running the class initialization code too early.) This process produces a standard Scala source file under <code>src_managed</code> that is added to sbt and handled normally from that point on.</p>
+<iframe src='../../../spde-sbt/0.2.0/SpdeProject.scala.html%3Fid=13154.html' width='638' height='385' frameborder='0'> </iframe>
+<p>There are also traits to add OpenGL, and video playback through GStreamer. Projects need only extend the traits containing features they want to use. To show how this all fits together, the <a href='http://github.com/n8han/spde-examples'>spde-examples</a> project on GitHub uses the different project traits and base classes in subprojects. Old favorites like <a href='../flocking-with-spde/index.html'>Flocking</a> appear there, as well as some mathy <a href='http://www.scala-lang.org/node/3391'>new contributions</a> from the folks at EPFL.</p>
+
+<p>The only downside is that Spde&#8217;s new environment is not so easy to use as Spde Classic. To be productive with sbt you need to have command line know-how, and perhaps that is not a strength of all computer artists. So there is a <a href='../../../spde/Download.html'>Spde Graft</a> that gives you some icons to double-click on, but not a lot of encouragement or feedback in general. Improving this situation will be interesting work, to say the least! But whatever comes of it will be useful across the sbt community.</p>
+
+<p class='break'>Also, here is a video for anyone that doesn&#8217;t like the new Spde.</p>
+<object width='425' height='344'><param name='movie' value='http://www.youtube.com/v/FPxY8lpYAUM&hl=en&fs=1&' /><param name='allowFullScreen' value='true' /><param name='allowscriptaccess' value='always' /><embed src='http://www.youtube.com/v/FPxY8lpYAUM&hl=en&fs=1&' type='application/x-shockwave-flash' allowscriptaccess='always' allowfullscreen='true' width='425' height='344' /></object></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='../../../resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id2571">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-6506"><p>mmmmm&#8230; cookies&#8230;</p>
+
+<p>Trending is an awesome example.</p>
+
+<p>-Mark</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mark Harrah</span></span>
+  				<span>on October 26, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6507"><p>Thanks! Trending was the pièce de résistance for my Spde talk at ITP, and I think it did succeed in elevating a few heads.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on October 26, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6508"><p>Prince55ing&#8230; ;)</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">gll</span></span>
+  				<span>on October 26, 2009</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id2572">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id2573" action="../../../index.html" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id2573_hf_0" id="id2573_hf_0" /><input type="hidden" name="wicket:interface" value=":1367:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id2574" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id2575" name="add" value="Add a comment" onclick="wicketShow('id2575--ajax-indicator');var wcall=wicketSubmitFormById('id2573', '../../../?wicket:interface=:1367:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id2575--ajax-indicator');}.bind(this),function() { ;wicketHide('id2575--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id2573')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id2575--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

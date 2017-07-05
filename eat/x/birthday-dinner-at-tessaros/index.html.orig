@@ -1,0 +1,244 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Birthday dinner at Tessaro&#039;s</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id10ea" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Birthday dinner at Tessaro's" width="434" class="title" src="../../../resources/net.databinder.components.RenderedLabel/98fa986"/><span class="title">Birthday dinner at Tessaro&#039;s</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on July 25, 2006</span></span>
+			<span id="id10eb" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/restaurants:%20pittsburgh/#selected-tag"><span>restaurants: pittsburgh</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p style="float:right"><img src="/eat/files/tesburg.jpg" alt="" /></p>
+
+
+	<p>Yesterday was our youngest, Calvin&#8217;s, 17th birthday, and we took him, his friend Sam, Jon, and our daughter Valerie out for burgers at <a href="http://www.post-gazette.com/food/20000401tessaro2.asp">Tessaro&#8217;s</a> in <a href="http://en.wikipedia.org/wiki/Bloomfield_%28Pittsburgh%29">Bloomfield</a>. Although Monday is Mexican night at Tessaro&#8217;s, is there really any good reason to eat anything other than a burger there? If you read the link, you will see that they grind their own beef and hand-shape the 8-ounce patties before cooking them on a hard-wood grill. Hamburger perfection, served with dark and crusty home fries, or house-made cole slaw or potato salad. I always get my burger topped with blue cheese, as pictured here, but the other toppings are equally good &#8211; fried onions and/or peppers, sauteed mushrooms, other cheeses, barbecue sauce, etc.</p>
+
+
+	<p style="float:left"><img src="/eat/files/cal.jpg" alt="" /></p>
+
+
+	<p><span class="caps">BTW</span>, click on this link for an <a href="http://www.pittsburghcitypaper.ws/archive.cfm?type=Art%20Briefs&#38;action=getComplete&#38;ref=6444">article</a> from the <a href="http://www.pittsburghcitypaper.ws/main.cfm">Pittsburgh City Paper</a> in which Calvin is quoted in connection with a class he is taking at Carnegie Mellon this summer called <em>From the Beats to Hip-Hop</em>. We clearly neglected his education if he thought that <a href="http://en.wikipedia.org/wiki/Allen_Ginsberg">Allen Ginsberg</a> was an important figure in the hip-hop world; you think you&#8217;ve covered all the bases as a mother and something comes at you from left field! But it&#8217;s true that I did discourage him from reading <a href="http://en.wikipedia.org/wiki/Charles_Bukowski">Charles Bukowski</a> when he was younger, thinking that an acquaintance with Bukowski&#8217;s works would surely be unhealthy for the sensibilities of a young person. There are times I wake up screaming in the middle of the night wishing I had never read Bukowski myself. Here&#8217;s a photo of the birthday boy, looking every inch like someone who can&#8217;t wait to get to New York and begin taking film classes. Too bad he has to finish high school and get his undergraduate degree first.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id10ec">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-2472"><p>What a birthday dinner! Happy Birthday, Calvin. And what a cool class at <span class="caps">CMU</span>&#8212;enjoy it!</p>
+<p>As an undergrad at Pitt I took a wonderful course from the late, great Ted Windt titled &#8220;Rhetoric of the Counterculture.&#8221; Here&#8217;s the story of our final exam. He handed out blue books and speaking not a word, pointed at the blackboard where he had written the following:</p>
+<p>1. Write your name on the cover of the blue book.</p>
+<p>2. Turn to the second page, and list five things worth loving and five things worth living for. Elaborate on why those things are worth loving or living for.</p>
+<p>3. When you are finished, put down your pencil and await further instruction.</p>
+<p>When we&#8217;d all finished, he asked us to read what we had written, grade ourselves based on how honest we were, and write the grade on the cover of the blue book. We all did so. He then said. &#8220;OK. Tear the cover off of your blue book, turn it in to me, and keep the rest to do with whatever you choose. If you were truly honest, I have no right to read your truth. If you lied and wrote what you thought would please me, I have no desire to read your bullshit.&#8221;</p>
+<p>Loved that man.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Marcy</span></span>
+  				<span>on July 25, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2473"><p>Bastards could have at least checked the spelling poor Calvin&#8217;s last name!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on July 25, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2474"><p>That is too funny, Marcy! My husband is debating whether to teach a class in the English department at <span class="caps">CMU</span> this winter, but the thought of the time involved in grading all the papers is giving him pause. Perhaps he should think about adopting Ted Windt&#8217;s method&#8230;</p>
+<p>I agree, Leland, and Uncle Buddy said the same thing; how hard is it to get the &#8220;c&#8221; out of Pollak?!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on July 25, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2475"><p>Oh, teaching at the English Dept. at <span class="caps">CMU</span> would be so rewarding! I got my <span class="caps">MAPW</span> there 12 years ago and I return periodically to do lunch and learns, helping the students choose career paths. What a bunch of smart, motivated people&#8230;gives me hope!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Marcy</span></span>
+  				<span>on July 25, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2476"><p>What a coincidence, Marcy &#8211; that&#8217;s exactly what my husband got, his <span class="caps">MAPW</span> at <span class="caps">CMU</span>, only closer to 16 or 17 years ago, when we realized that we would never be able to put four children through college on a musician&#8217;s earnings, even with what I was bringing in as a therapist, also not a highly paid profession (at least not at my level). He has actually already taught there two or three years, and it&#8217;s a lot of work for not much pay as an adjunct professor.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on July 25, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2477"><p>Small world! (But I wouldn&#8217;t want to paint it, or so said Steven Wright.) Come to think of it, all technical writers should probably marry therapists! :o)</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Marcy</span></span>
+  				<span>on July 25, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2478"><p>So should musicians; we&#8217;re the only ones who are codependent enough to put up with them.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on July 25, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2479"><p>All your boys are so lovely and clever.</p>
+<p>Me, I went to law school when we  had the big &#8220;who&#8217;s going to get a real job first&#8221; thing.(I previously supported the painting by being a low-wage picture framer by day). But I&#8217;ve been &#8220;putting up with&#8221; musicians from birth..my father was one, too.</p>
+<p>The (late) musician husband eventually got a day bank job and a corresponding degree, too.</p>
+<p>Why are these stories so similar?</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.lindystoast.com"><span class="alias">lindy</span></a>
+  				<span>on July 25, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2480"><p>Maybe musicians just gravitate to women who will feed them. They do need a lot of care and feeding and some women are honored to do it. Robertson Davies describes the phenomenon really well in &#8220;A Mixture of Frailties&#8221;, the last book of &#8220;The Salterton Trilogy&#8221;, where the heroine routs a nubile groupy with a display of her cooking and housekeeping skills. If you haven&#8217;t read this book yet Lindy I advise you to do so forthwith as I think it would appeal to your dry sense of humor. Davies is a brilliant writer whom I think is a little underappreciated, in this country at least.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on July 25, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2481"><p>Happy birthday to Calvin who both looks and sounds older than his years. As for Alan Ginsberg being a hip-hop figure, I&#8217;m sure Alan Ginsburg would have been thrilled to be described as such were he still alive.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://kitchenography.typepad.com"><span class="alias">Julie</span></a>
+  				<span>on July 25, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2482"><p>HA! I am a Robertson Davies fanatic. I&#8217;ve pretty much read everything-including the essays.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">lindy</span></span>
+  				<span>on July 25, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2483"><p>Then you must know the book I mean, the one about the opera singer; don&#8217;t you think &#8220;The Salterton Trilogy&#8221; is laugh out loud funny?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on July 25, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2484"><p>Mom, I read that Mixture of Frailties and remember liking it very much. I don&#8217;t think I realized it was the third in a trilogy. Did you have me read the others as well? It was a long time ago.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on July 25, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2485"><p>If you can&#8217;t remember then it&#8217;s time to reread them; I&#8217;ll bring them along when I come for my visit next month. Davies bears rereading every time he grows dim in the memory, his writing is so fine.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on July 25, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2486"><p>I so agree. And I think it&#8217;s time for me to read them again too.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.lindystoast.com"><span class="alias">lindy</span></a>
+  				<span>on July 25, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id10ed">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id10ee" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id10ee_hf_0" id="id10ee_hf_0" /><input type="hidden" name="wicket:interface" value=":616:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id10ef" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id10f0" name="add" value="Add a comment" onclick="wicketShow('id10f0--ajax-indicator');var wcall=wicketSubmitFormById('id10ee', '../../../?wicket:interface=:616:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id10f0--ajax-indicator');}.bind(this),function() { ;wicketHide('id10f0--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id10ee')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id10f0--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

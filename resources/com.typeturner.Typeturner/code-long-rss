@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><atom:link rel="hub" href="http://tumblr.superfeedr.com/" xmlns:atom="http://www.w3.org/2005/Atom"/><description></description><title>Coderspiel</title><generator>Tumblr (3.0; @coderspiel)</generator><link>http://code.technically.us/</link><item><title>"Pick any country that is currently doing well, China is a perfect example. In China the Intellectual..."</title><description>“Pick any country that is currently doing well, China is a perfect example. In China the Intellectual Property Laws are so weak that someone thought it was a good idea to completely replicate Apple retail stores. Compare their economy to ours. As much as I hate to compare other economies to ours, it’s worth taking a look .”&lt;br/&gt;&lt;br/&gt; - &lt;em&gt;&lt;a href="http://blogmaverick.com/2011/08/07/my-suggestion-on-patent-law/"&gt;My Suggestion on Patent Law (end all software patents)&lt;/a&gt;&lt;/em&gt;</description><link>http://code.technically.us/post/8647279135</link><guid>http://code.technically.us/post/8647279135</guid><pubDate>Mon, 08 Aug 2011 12:00:06 -0400</pubDate><category>Software</category><category>Patents</category><category>Dumb Property</category><category>China</category><category>Economy</category></item><item><title>"I do think that any programmer who cooperates in getting a baseless patent should be ashamed of..."</title><description>“I do think that any programmer who cooperates in getting a baseless patent should be ashamed of themselves. It shows the kind of lack of responsibility that undermines any justification we have to be treated as professionals.”&lt;br/&gt;&lt;br/&gt; - &lt;em&gt;&lt;a href="http://martinfowler.com/bliki/SoftwarePatent.html"&gt;Martin Fowler — SoftwarePatent&lt;/a&gt;&lt;/em&gt;</description><link>http://code.technically.us/post/8525071258</link><guid>http://code.technically.us/post/8525071258</guid><pubDate>Fri, 05 Aug 2011 16:00:06 -0400</pubDate><category>Programming</category><category>Patents</category><category>Responsibility</category><category>Innovation</category><category>Martin Fowler</category></item><item><title>"This Meetup is devoted to exploring how Spotify’s technology stack works and to the hackers..."</title><description>“This Meetup is devoted to exploring how Spotify’s technology stack works and to the hackers who use Spotify’s APIs. We’ll get together to meet both Spotify engineers and business leaders and anyone who takes the time to do something cool with Spotify’s APIs.”&lt;br/&gt;&lt;br/&gt; - &lt;em&gt;&lt;a href="http://www.meetup.com/NYC-Spotify-Tech-Group/?gj=wg2_ej1b&amp;a=wg2.1_l1"&gt;NYC Spotify Tech Group (New York, NY)&lt;/a&gt;&lt;/em&gt;</description><link>http://code.technically.us/post/8491711758</link><guid>http://code.technically.us/post/8491711758</guid><pubDate>Thu, 04 Aug 2011 20:00:06 -0400</pubDate><category>Spotify</category><category>Meetups</category><category>NYC</category><category>Music</category><category>Patents</category></item><item><title>Google Should Publicly Oppose Software Patents</title><description>&lt;a href="http://blogs.forbes.com/timothylee/2011/08/03/google-should-publicly-oppose-software-patents/"&gt;Google Should Publicly Oppose Software Patents&lt;/a&gt;: &lt;blockquote&gt;
+  &lt;p&gt;Conspicuously missing here is any mention of patent reform. Congress is currently working on a patent overhaul called the America Invents Act. Google is one of the world’s largest and most prominent victims of our innovation-taxing patent system, so lobbying for better patent laws seems like an obvious way to fight back.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Constructive criticism, +1! (Or is that patented?)&lt;/p&gt;</description><link>http://code.technically.us/post/8481966791</link><guid>http://code.technically.us/post/8481966791</guid><pubDate>Thu, 04 Aug 2011 16:00:06 -0400</pubDate><category>Software Freedom</category><category>Patents</category><category>Google</category><category>Android</category><category>Mobile</category></item><item><title>"But Android’s success has yielded something else: a hostile, organized campaign against Android by..."</title><description>“But Android’s success has yielded something else: a hostile, organized campaign against Android by Microsoft, Oracle, Apple and other companies, waged through bogus patents.”&lt;br/&gt;&lt;br/&gt; - &lt;em&gt;&lt;a href="http://googleblog.blogspot.com/2011/08/when-patents-attack-android.html"&gt;Official Google Blog: When patents attack Android&lt;/a&gt;&lt;/em&gt;</description><link>http://code.technically.us/post/8448749781</link><guid>http://code.technically.us/post/8448749781</guid><pubDate>Wed, 03 Aug 2011 20:00:05 -0400</pubDate><category>Patents</category><category>Apple</category><category>Google</category><category>Mobile</category><category>Software Freedom</category><category>Competition</category></item><item><title>"We’ve always wanted to add this real time updating awesomeness to the web app, and with the..."</title><description>“We’ve always wanted to add this real time updating awesomeness to the web app, and with the help of Scala, Akka, Netty and Unfiltered, we’re excited to announce that real time updates are finally here.”&lt;br/&gt;&lt;br/&gt; - &lt;em&gt;&lt;a href="http://blog.rememberthemilk.com/2011/08/real-time-updating-comes-to-the-remember-the-milk-web-app/"&gt;Real time updating comes to the Remember The Milk web app&lt;/a&gt;&lt;/em&gt;</description><link>http://code.technically.us/post/8392475732</link><guid>http://code.technically.us/post/8392475732</guid><pubDate>Tue, 02 Aug 2011 14:46:27 -0400</pubDate><category>Scala</category><category>Unfiltered</category><category>Akka</category><category>Streaming</category><category>Async</category><category>Milk</category></item><item><title>"We have noticed as well that the flagship ‘Books’ app has not implemented text..."</title><description>“We have noticed as well that the flagship ‘Books’ app has not implemented text selection, and by the images split across pages in landscape mode, we thought perhaps it is using a WebView as well? (Very pretty page turning though…) Help? :)”&lt;br/&gt;&lt;br/&gt; - &lt;em&gt;&lt;a href="http://code.google.com/p/android/issues/detail?id=4549#c10"&gt;Issue 4549 - android - In webkit/webview touchmove/touchstart/touchend events get queued and don’t fire until touch ends&lt;/a&gt;&lt;/em&gt;</description><link>http://code.technically.us/post/8174106078</link><guid>http://code.technically.us/post/8174106078</guid><pubDate>Thu, 28 Jul 2011 12:00:06 -0400</pubDate><category>Glaring Bugs</category><category>Android</category><category>Web</category><category>Mobile</category></item><item><title>For Supposed Journalists, a Sense of Repulsed Detachment</title><description>&lt;p&gt;Were you wondering what cliches, stereotypes, and distortions the
+elite media establishment would use when it tried to suss out the latest
+“hacker” arrests? Wait no longer!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.nytimes.com/2011/07/26/technology/for-suspected-hackers-a-sense-of-social-protest.html"&gt;For Suspected Hackers, a Sense of Social Protest (&lt;em&gt;NYT&lt;/em&gt;)&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The F.B.I.’s arrests of 14 people last week were the most ambitious crackdown yet on a loose-knit group of hackers called Anonymous…&lt;/p&gt;
+  
+  &lt;p&gt;But at least some of the suspects are not your typical
+    hard-core hackers, judging from interviews with two of them and
+    the online traces of others.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Whatever they base their idea of typical hard-core hackers on (&lt;a href="http://3.bp.blogspot.com/-gWhG5RbW-28/Tfp6uQaSTkI/AAAAAAAAAm4/v5-6r80ilRc/s1600/Hackers22.jpg"&gt;Acid Burn&lt;/a&gt;?) we’ll never know.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Some did not bother to cover their digital tracks as they
+    participated in what they saw as an online protest. And some
+    say they were unaware that their feverish clicks on a home
+    computer may have been against the law.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Ignoring the author’s futile attempt to jazz up the story with
+overwrought language, we see here that every statement is
+cloaked in &lt;strong&gt;pedantically skeptical reportage&lt;/strong&gt; to the absurd point that
+we’re unsure if someone was truly &lt;em&gt;unaware&lt;/em&gt; that something &lt;em&gt;may
+have been&lt;/em&gt; against the law. What does that even mean?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;While federal law enforcement officials are clearly keen to
+    quash the notion that online attacks are a form of social
+    protest…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Since this “notion” is an &lt;a href="http://pastebin.com/RA15ix7S"&gt;easily verifiable fact&lt;/a&gt;, it will be
+difficult to quash. There are many forms of social protest,
+even violent ones. Riots are illegal pretty much 
+everywhere, but the fact that some of them are
+protests is never in dispute. If someone says their disruptive
+activity is a protest, it’s a protest.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Drew Phillips, a wry, serious 26-year-old programmer with a
+    paunch that testifies to hours spent hunched over a computer…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Three years later, &lt;strong&gt;the word “hunch”&lt;/strong&gt; is &lt;a href="http://technically.us/code/x/posturing-about-programming/"&gt;still required by the &lt;em&gt;NYT&lt;/em&gt;
+style guide&lt;/a&gt; for stories about the people who make
+everyone else’s computers workie. Yes, the computers
+that almost everyone else is also sitting in front of all day long.&lt;/p&gt;
+
+&lt;p&gt;And maybe that is partly why &lt;a href="http://www.usatoday.com/news/health/weightloss/2010-01-13-obesity-rates_N.htm"&gt;one third of Americans are
+obese&lt;/a&gt;. That’s right, not just one third of 
+programmer-Americans—but one third of regular &lt;em&gt;human&lt;/em&gt; Americans. It
+must be shocking to the newshounds at the &lt;em&gt;Times&lt;/em&gt;, whose
+respectable friends stay slim on a diet of
+Jamba Juice, pilates, and cocaine, but yes—outside their circles
+having a small belly is a testament that you need another KFC Double Down,
+not that you are an exotic “computer user”.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;admits to joining one of those chat rooms when the attack was
+    being discussed, and to tinkering with the program used in the
+    attack. He said he could have obscured his Internet Protocol
+    address, which can be used to identify a computer, had he
+    thought that anyone was interested in what he was doing.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;So he &lt;em&gt;admits&lt;/em&gt; to joining a chat room!&lt;/strong&gt; What great times we live in guys.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Mr. Phillips admits he was sympathetic to the strike against
+    PayPal, but he maintains he did not actually participate.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Thoughtcrime, check.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Federal agents were interested in what he was doing with the
+    Low Orbit Ion Cannon software. Mr. Phillips, who works for a
+    solar energy company, said he used it to test the endurance of
+    his employer’s computer systems.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;He says all he did was &lt;strong&gt;write some code and talk about
+it&lt;/strong&gt;.  That is, he didn’t participate in the DDOS attacks. If he
+had, he would have taken the trouble to disguise his IP address,
+because duh. If this is true (prediction: it is), then the
+prosecutors have no evidence that he participated in the actual
+attacks. Nevertheless…&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;They left with all his equipment: a server he had built
+    himself, a desktop, two laptops and several flash
+    drives. Federal agents returned last week to arrest him,
+    charging him with causing damage to a protected computer and a
+    related conspiracy charge. He says wryly that he suspects the
+    government needed to make an example out of him.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;How very wry! His arrest must be such a light topic, for this “wry,
+serious” (?) programmer who was supposedly unaware that writing 
+load testing software and talking about it is definitely maybe
+against some law.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A federal law enforcement official, who would not be named
+    because he was not authorized to speak about an active case,
+    argued that denial-of-service attacks like the one against
+    PayPal were costly and illegal: “These things are costing
+    companies millions of dollars.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Being costly is irrelevant. &lt;strong&gt;Boycotts are costly&lt;/strong&gt;, but are legal
+and even praiseworthy. The legality of DOS is only relevant to
+the extent that there is evidence this person carried out a DOS
+attack. None has been presented. In other words, this useless 
+anonymously sourced paragraph seems to have been dropped
+into the story from a great height, with no connection to
+anything that came before it.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The official acknowledged that some of those arrested “used
+    unsophisticated techniques.” But when asked if the authorities
+    were overreacting, he said, “No, it’s never heavy-handed to
+    address violations of law, particularly in this arena of
+    cybersecurity, where the threat is so pervasive.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So they &lt;em&gt;admit&lt;/em&gt; to making an example of people! How wry.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In Jacksonville, Fla., another self-taught programmer named
+    Keith Downey was also angered last December by PayPal’s stance
+    toward WikiLeaks.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Teaching yourself programming—bypassing the institutions charged
+with dispensing such education for merely $50,000 a year or
+whatever—is very suspicious indeed. If people can teach
+themselves the most useful knowledge in the modern world, who
+will subsidize the education of hack reporters?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;And in general, he was dismayed at what he saw as increasing
+    government control over the Internet.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;He said, she said. Who can definitively state that &lt;strong&gt;government is
+increasing its control of the internet&lt;/strong&gt; when it has started
+&lt;a href="http://torrentfreak.com/u-s-government-shuts-down-84000-websites-by-mistake-110216/"&gt;seizing domain names&lt;/a&gt;, advising private companies &lt;a href="http://www.rawstory.com/rs/2010/12/07/mastercard-shuts-donations-wikileaks-calling-site-illegal/"&gt;to cut
+off certain accounts&lt;/a&gt; based on no law at all, and is
+plotting to grant itself the power to &lt;a href="http://news.cnet.com/8301-31921_3-20029282-281.html"&gt;shutdown the
+internet&lt;/a&gt; and/or create a &lt;a href="http://www.alternet.org/story/148377/congress_has_plans_for_an_internet_blacklist_in_the_works__lets_stop_this_now"&gt;blacklist&lt;/a&gt;?  Certainly
+not the even-keeled &lt;em&gt;New York Times&lt;/em&gt;! They report a mishmash of
+subjectively qualified facts wrapped in snide cliches, you decide
+whether or not the guy with the paunch is a weirdo.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;He logged on from home, also without bothering to use tools
+    that would help shield his identity.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And then this dude actually did participate in the DOS, but he
+thinks it should be legal or he thinks it should be a minor
+offense.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;He likened it to “the college sit-ins of the ’70s” and even to
+    Gandhi’s civil disobedience movement against British rule. No
+    one in the chat rooms apparently bothered to explain that
+    Gandhi spent a lot of time in jail, as did antiwar protesters
+    in the 1970s. Mr. Downing wasn’t prepared to be arrested last
+    week. Nor is he financially prepared to travel across the
+    country for his court appearance in San Jose, Calif., in
+    September.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And no one has bothered to explain to the editors of this piece
+that neither Gandhi nor those &lt;strong&gt;legendary boomer hippies&lt;/strong&gt; were
+required to travel 2,700 miles at their own expense to stand
+trial. That’s because it’s a new, &lt;em&gt;innovative&lt;/em&gt; way for government to undermine
+the presumption of innocence, by making all sorts of loosely defined nonviolent acts
+into federal offenses with big numbers attached.&lt;/p&gt;
+
+&lt;p&gt;And is anyone really “prepared” to go to jail, and happy about
+it when interviewed? It’s unclear where the comparison with
+protesters of yore is supposed to break down, according to this
+stupidly aloof newspaper article. Is it that Gandhi didn’t
+have a paunch?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Mr. Downey, who had a small business installing and maintaining
+  computer hardware for local music studios, lost his computer
+  equipment during an F.B.I. raid in January. He lives with his
+  widowed mother, who was laid off from her job earlier this
+  year. Mr. Downey says he is patching together construction work
+  to make ends meet.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Ah. Now it all makes sense. He had been using the equipment to
+support himself and his recently laid off mother, one of our
+country’s &lt;strong&gt;9% unemployed&lt;/strong&gt;. As he waits to stand trial, the
+government has seized all the tools that he needs to
+be productive in this economy.&lt;/p&gt;
+
+&lt;p&gt;And that’s what we call… &lt;em&gt;&lt;a href="http://www.whitehouse.gov/winning-the-future/"&gt;WINNING THE FUTURE&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;</description><link>http://code.technically.us/post/8108116332</link><guid>http://code.technically.us/post/8108116332</guid><pubDate>Tue, 26 Jul 2011 21:00:00 -0400</pubDate><category>NYT</category><category>Hacktivism</category><category>Hack Reporters</category><category>Anonymous</category></item><item><title>Community Management</title><description>&lt;p&gt;Were you annoyed because the &lt;a href="http://databinder.3617998.n2.nabble.com/"&gt;old&lt;/a&gt; Dispatch and Unfiltered forums did not have a Google+ notification bar at the top of every screen?&lt;/p&gt;
+
+&lt;p&gt;Fixed that for ya!&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;&lt;a href="https://groups.google.com/forum/#!forum/dispatch-scala"&gt;Dispatch Google Group&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://groups.google.com/forum/#!forum/unfiltered-scala"&gt;Unfiltered Google Group&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><link>http://code.technically.us/post/8078991962</link><guid>http://code.technically.us/post/8078991962</guid><pubDate>Tue, 26 Jul 2011 04:00:05 -0400</pubDate><category>Dispatch</category><category>Unfiltered</category><category>Scala</category><category>Community</category></item><item><title>Callbacks, synchronous and asynchronous</title><description>&lt;a href="http://blog.ometer.com/2011/07/24/callbacks-synchronous-and-asynchronous/"&gt;Callbacks, synchronous and asynchronous&lt;/a&gt;: &lt;blockquote&gt;
+  &lt;p&gt;In the end it works, but imag­ine what hap­pens if callback-based APIs become pop­u­lar and every jar you use with a call­back in its API has to have its own thread pool. Kind of sucks. That’s prob­a­bly why Netty punts on the issue. Too hard to make pol­icy deci­sions about this in a low-level net­work­ing library.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;/cc Waffle, who &lt;a href="http://waffle.wootest.net/2010/12/15/spielfeel/"&gt;said some of this&lt;/a&gt; before.&lt;/p&gt;</description><link>http://code.technically.us/post/8055583228</link><guid>http://code.technically.us/post/8055583228</guid><pubDate>Mon, 25 Jul 2011 16:55:49 -0400</pubDate><category>JVM</category><category>cps</category><category>Callbacks</category><category>Async</category><category>Scala</category><category>Event Loops</category></item><item><title>Resting on Laurels</title><description>&lt;img src="http://24.media.tumblr.com/tumblr_loszmaRYt21qb6dplo1_500.jpg"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Resting on Laurels&lt;/p&gt;</description><link>http://code.technically.us/post/7981526558</link><guid>http://code.technically.us/post/7981526558</guid><pubDate>Sat, 23 Jul 2011 16:30:00 -0400</pubDate><category>Lenovo</category><category>Apple</category><category>Engineering</category><category>Design</category></item><item><title>"I don’t think it’s easy to dabble in programming and it takes a long time to teach yourself...."</title><description>“I don’t think it’s easy to dabble in programming and it takes a long time to teach yourself. However, once you learn the basics and begin to love programming, it changes you forever.”&lt;br/&gt;&lt;br/&gt; - &lt;em&gt;&lt;a href="http://www.women2.org/3-startup-lessons-learned-from-convores-leah-culver/"&gt;Convore’s Leah Culver&lt;/a&gt;&lt;/em&gt;</description><link>http://code.technically.us/post/7887712071</link><guid>http://code.technically.us/post/7887712071</guid><pubDate>Thu, 21 Jul 2011 12:01:05 -0400</pubDate><category>Truths</category><category>Programming</category><category>Ladies</category><category>Convore</category></item><item><title>Mixed Metaphors</title><description>&lt;p&gt;Another day, another &lt;a href="http://www.nytimes.com/2011/07/20/us/20compute.html"&gt;&lt;strong&gt;federal indictment&lt;/strong&gt;&lt;/a&gt; against someone
+for being naughty with a computer. It’s almost as if governments
+are having an existential crisis, now that most of our economic,
+cultural, intellectual, and political activity occurs in the
+electronic realm. They’re grumpy and confused, having failed so far
+to establish their accustomed monopoly on violence here.&lt;/p&gt;
+
+&lt;p&gt;Washington’s various kill switch and blacklist bills are an
+attempt to do just that, but most people—to the dismay of
+bought-off politicians and avid authoritarians—like the
+internet pretty much as it is. It’s not that we don’t have &lt;em&gt;any&lt;/em&gt;
+problems with information security. It’s that the measures they
+are desperate to enact do nothing for the problems we do have.&lt;/p&gt;
+
+&lt;p&gt;The government is evidently too busy plotting various &lt;a href="http://freethoughtmanifesto.blogspot.com/2011/06/cyberwar-stuxnet-people-in-glass-houses.html"&gt;cyber and non-cyber wars&lt;/a&gt;;
+it does have the time or interest to deal with the sloppy companies we entrust
+with our personal data and actual money, who constantly violate that trust by &lt;strong&gt;failing
+at basic security&lt;/strong&gt;. Most of our consumer transactions are
+secured by nothing more than a fifteen digit number and a four digit date,
+as they have been since the disco era.&lt;/p&gt;
+
+&lt;p&gt;Incidentally! A few months ago some joker charged a cool five
+grand to one of my credit cards, though the final cost to me
+personally was just a few hours on the phone. During one of those
+conversations I learned that someone had previously called and
+changed my account’s email address, a classic social engineering
+attack. Even after this revelation, which no one I spoke with
+fully appreciated, they continued to refer to the incident as a
+mere “disputed charge”. I am certain that no one will be held
+accountable for it.&lt;/p&gt;
+
+&lt;p&gt;If only Barack Obama could just &lt;strong&gt;shut off the internet&lt;/strong&gt; every
+time a credit card is used fraudulently, that would solve the
+problem, &lt;em&gt;riiiiight?&lt;/em&gt; Or put the credit card company’s site on a
+blacklist. Those are such great, practical solutions to the
+pervasive failures of our insecure financial systems. Ha.&lt;/p&gt;
+
+&lt;p&gt;What &lt;em&gt;would&lt;/em&gt; help are permanent financial incentives for securing
+those systems. We could easily create such
+incentives by charging fines for allowing any exploit to occur. (If you want,
+it could be revenue neutral, where the more secure companies would
+get a payout of the fines collected.) So for example, there should be an
+official web site to easily report your sloppy credit card company for giving up your
+account. Imagine that.&lt;/p&gt;
+
+&lt;p&gt;But our government’s priorities are manifestly elsewhere. They
+are with jailing open-access advocates like Aaron Swartz:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;He faces up to 35 years in prison and $1 million in fines for
+    charges related to wire fraud, computer fraud and unlawfully
+    obtaining information from a protected computer.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;As a programmer, you have to wonder why crimes in your area of
+expertise carry penalties that are at least &lt;strong&gt;an order of magnitude&lt;/strong&gt;
+greater than old fashioned crimes. How many years do you go to
+prison if you steal a book?&lt;/p&gt;
+
+&lt;p&gt;Speaking of “stealing”…&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;United States attorney, Carmen M. Ortiz, said: “Stealing is
+    stealing, whether you use a computer command or a crowbar, and
+    whether you take documents, data or dollars.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If only that were at all true! If stealing were stealing, Ortiz
+would not be using the word stealing to talk about what is
+otherwise called “copying”. He would not be constructing
+elaborate metaphors about crowbars when the more fitting
+antiquated device of his comprehension is &lt;strong&gt;a zerox machine&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;But you know what they say: to imprison a political activist who’s 
+fighting to preserve the open and decentralized internet, you’ve got
+to break a few metaphors. And as is proper, his defenders
+are no more restrained in their rhetoric:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;David Segal, executive director of Demand Progress, an activist
+    group that Mr. Swartz founded, said in a statement that the
+    arrest “makes no sense,” comparing the indictment to “trying to
+    put someone in jail for allegedly checking too many books out
+    of the library.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I’m calling B.S on that. It is more like trying to put someone in jail for copying too
+many books at the library and using a copier that was &lt;em&gt;for librarians
+only&lt;/em&gt;. LOCK ’IM UP!&lt;/p&gt;
+
+&lt;p&gt;~~~&lt;/p&gt;
+
+&lt;p&gt;For a lot of people the incriminating detail in this story is that Swartz
+is alleged to have entered a room he wasn’t supposed to be in, to
+copy those files &lt;em&gt;even faster&lt;/em&gt;. He was caught on tape holding a
+bicycle helmet to cover his face, which is extra naughty.&lt;/p&gt;
+
+&lt;p&gt;But trespassing is a violation of &lt;strong&gt;different laws altogether&lt;/strong&gt;, laws
+they didn’t even bother charging him with—probably because those
+misdemeanors would look ridiculous compared to the super-sized
+penalties of the trumped up computer crime charges.&lt;/p&gt;
+
+&lt;p&gt;Prosecutors are playing a bait and switch game in this case, &lt;a href="http://code.technically.us/post/7381180099/the-art-of-surprise"&gt;as
+with others&lt;/a&gt;. You’re sold on a seemingly legitimate if
+minor crime, but what you get is a dubious criminal prosecution
+for electronic crimes carrying hugely disproportionate penalties.&lt;/p&gt;
+
+&lt;p&gt;Since the government chooses who to prosecute, federal contractors
+like HBGary may &lt;a href="http://arstechnica.com/tech-policy/news/2011/02/black-ops-how-hbgary-wrote-backdoors-and-rootkits-for-the-government.ars/1"&gt;intentionally and repeatedly violate scores of statutes&lt;/a&gt;
+without fear of punishment, while common people may be prosecuted at any
+time by some guy who thinks a crowbar is exactly like a “computer command”.
+Unfortunately it seems the arbitrary application of government power wasn’t permanently curtailed
+&lt;a href="http://en.wikipedia.org/wiki/Magna_Carta"&gt;800 years ago&lt;/a&gt;: those limits must be reestablished by every generation.&lt;/p&gt;
+
+&lt;p&gt;If you think Swartz’s real crime was trespassing, then your
+disagreement is not with Segal or Demand Progress. It’s with the
+federal prosecutors trying to lock him up for everything else.&lt;/p&gt;</description><link>http://code.technically.us/post/7883552030</link><guid>http://code.technically.us/post/7883552030</guid><pubDate>Thu, 21 Jul 2011 09:01:00 -0400</pubDate><category>Computers</category><category>Politics</category><category>Laws</category><category>Information</category><category>Dumb Property</category></item><item><title>Federal Government Indicts Former Demand Progress Executive Director For Downloading Too Many Journal Articles</title><description>&lt;a href="http://demandprogress.org/aaron"&gt;Federal Government Indicts Former Demand Progress Executive Director For Downloading Too Many Journal Articles&lt;/a&gt;: &lt;blockquote&gt;
+  &lt;p&gt;Moments ago, Aaron Swartz, former executive director and founder of Demand Progress, was indicted by the US government. As best as we can tell, he is being charged with allegedly downloading too many scholarly journal articles from the Web. The government contends that downloading said articles is actually felony computer hacking and should be punished with time in prison.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Demand Progress is a prominent organizer of civil opposition to US government efforts to curtail freedom of information on the internet, including the &lt;a href="http://news.cnet.com/8301-31921_3-20029282-281.html"&gt;kill switch&lt;/a&gt; and &lt;a href="http://www.wired.com/threatlevel/2011/05/protect-act/"&gt;blacklist&lt;/a&gt; bills. They are political threat to a paranoid, cynical, and technologically ignorant worldview—and nothing else. If a member of their leadership has indeed been arrested on trumped up charges, it is disturbing to say the least.&lt;/p&gt;
+
+&lt;p&gt;Update: here’s &lt;a href="http://about.jstor.org/news-events/news/jstor-statement-misuse-incident-and-criminal-case"&gt;what JSTOR says happened&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Last fall and winter, JSTOR experienced a significant misuse of our database. A substantial portion of our publisher partners’ content was downloaded in an unauthorized fashion using the network at the Massachusetts Institute of Technology, one of our participating institutions.  The content taken was systematically downloaded using an approach designed to avoid detection by our monitoring systems.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So that’s their side of the story. What constitutes “unauthorized” here, and what legal penalties apply for accessing data in a way that was not anticipated remains to be seen. It’s hard to know if this aggressive prosecution is targeted, since aggressive prosecution of anything computer related is the norm. But the laws that enable such disproportionate use of government power are of course exactly the ones Demand Progress organizes democratic opposition to.&lt;/p&gt;</description><link>http://code.technically.us/post/7811368600</link><guid>http://code.technically.us/post/7811368600</guid><pubDate>Tue, 19 Jul 2011 15:05:00 -0400</pubDate><category>US</category><category>Internet Freedom</category><category>Demand Progress</category></item><item><title>Announcing Baitha: The Scala/Android toolkit</title><description>&lt;a href="http://www.deepbluelambda.org/programs/baitha/announcing-baitha--the-scala-android-toolkit"&gt;Announcing Baitha: The Scala/Android toolkit&lt;/a&gt;: &lt;p&gt;&lt;em&gt;Finally!&lt;/em&gt;&lt;/p&gt;</description><link>http://code.technically.us/post/7771612651</link><guid>http://code.technically.us/post/7771612651</guid><pubDate>Mon, 18 Jul 2011 15:53:37 -0400</pubDate><category>Scala</category><category>Android</category><category>Libraries</category></item><item><title>Talking trash, no doubt</title><description>&lt;img src="http://27.media.tumblr.com/tumblr_lohwyp2uUj1qb6dplo1_500.jpg"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Talking trash, no doubt&lt;/p&gt;</description><link>http://code.technically.us/post/7734937157</link><guid>http://code.technically.us/post/7734937157</guid><pubDate>Sun, 17 Jul 2011 16:59:13 -0400</pubDate><category>Scalathon</category></item><item><title>How to preinstall Scala on your (rooted) Android phone</title><description>&lt;a href="http://zegoggl.es/2011/07/how-to-preinstall-scala-on-your-android-phone.html"&gt;How to preinstall Scala on your (rooted) Android phone&lt;/a&gt;: &lt;blockquote&gt;
+  &lt;p&gt;One of the main problems when developing Scala on Android is the fairly heavy runtime — Scala adds a few megabytes which need to be converted to Dalvik bytecode during the build process (slow!). The common workaround is to use tools like proguard or treeshaker to shrink the code before dexing it.&lt;/p&gt;
+  
+  &lt;p&gt;However if this is still to slow there is another option which works on rooted devices and the Android emulator: predex the Scala libraries and add them to the Android runtime, on the device itself.&lt;/p&gt;
+  
+  &lt;p&gt;Android has the concept of a boot classpath (similar to the JVM) which contains all the system framework classes…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And you could replace the busted old HttpClient libraries while you’re in there! But then no one else would be able to run your app.&lt;/p&gt;</description><link>http://code.technically.us/post/7730185424</link><guid>http://code.technically.us/post/7730185424</guid><pubDate>Sun, 17 Jul 2011 14:30:58 -0400</pubDate><category>Scala</category><category>Android</category><category>Classpaths</category><category>Hell</category></item><item><title>Brendan McAdams and Pony, learning Scala without really trying</title><description>&lt;img src="http://29.media.tumblr.com/tumblr_lohp2trsya1qb6dplo1_500.jpg"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Brendan McAdams and Pony, learning Scala without really trying&lt;/p&gt;</description><link>http://code.technically.us/post/7729507257</link><guid>http://code.technically.us/post/7729507257</guid><pubDate>Sun, 17 Jul 2011 14:08:52 -0400</pubDate><category>Scalathon</category><category>Ponies</category></item><item><title>Runar, on missile launching and other side effects</title><description>&lt;img src="http://27.media.tumblr.com/tumblr_lohjskclHj1qb6dplo1_500.jpg"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Runar, on missile launching and other side effects&lt;/p&gt;</description><link>http://code.technically.us/post/7726340420</link><guid>http://code.technically.us/post/7726340420</guid><pubDate>Sun, 17 Jul 2011 12:14:43 -0400</pubDate><category>Scalathon</category></item><item><title>Implicits without the import tax, Josh Suereth’s famous NE...</title><description>&lt;iframe src="http://player.vimeo.com/video/20308847" width="400" height="225" frameborder="0"&gt;&lt;/iframe&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Implicits without the import tax, Josh Suereth’s famous &lt;a href="http://www.nescala.org/2011/"&gt;NE Scala&lt;/a&gt; talk&lt;/p&gt;</description><link>http://code.technically.us/post/7725809740</link><guid>http://code.technically.us/post/7725809740</guid><pubDate>Sun, 17 Jul 2011 11:53:36 -0400</pubDate><category>Scala</category><category>Implicits</category><category>Scoping</category><category>Types</category></item></channel></rss>

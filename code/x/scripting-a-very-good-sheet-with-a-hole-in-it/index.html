@@ -1,0 +1,194 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="../../../blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="../../../blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet.css"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Scripting: a very good sheet with a hole in it</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code.html">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code.html">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id2550" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Scripting: a very good sheet with a hole in it" width="703" class="title" src="../../../resources/net.databinder.components.RenderedLabel/5781b02e"/><span class="title">Scripting: a very good sheet with a hole in it</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on August 8, 2006</span></span>
+			<span id="id2551" class="tags">
+					{&nbsp;<span><a href="../../tag/rails/index.html#selected-tag"><span>rails</span></a><span id="id2552">, </span></span><span><a href="../../tag/java/index.html#selected-tag"><span>java</span></a><span id="id2553">, </span></span><span><a href="../../tag/oop/index.html#selected-tag"><span>oop</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p style="float:right"><img src="../../../pictures/umbrella-fire.jpg" alt="" /></p>
+
+
+	<p class="break"><strong>IT Manager:</strong> What’s this “Ruby on Rails” I keep hearing so much about? Will it help with our 3-month-late portal project?</p>
+
+
+	<p class="break"><strong>Enterprise Architect:</strong> It is all hype. The Ruby on the Rails does not have the transactional integrity needed for the enterprise. <span class="caps">J2EE</span> is much more robust.</p>
+
+
+	<p class="break">[<em>Two months pass.</em>]</p>
+
+
+	<p class="break"><strong>IT Manager:</strong> Great job, people. Only five months late for a slow, buggy app. Learn Rails or you’re all fired.</p>
+
+
+	<p class="break"><strong>Enterprise Architect:</strong> This is exactly as I was going to suggest. We need to move forward and deploy <span class="caps">SOA</span> across the enterprise. Only today morning I was <a href="http://www.enterprise-soa.com/index.php?option=com_content&task=view&id=15&Itemid=1">researching this</a>.</p>
+
+
+	<p class="break">[<em>Rimshot—curtain falls.</em>]</p>
+
+
+	<p class="break">Over the past few months we’ve seen enterprise blowhards finally abandon the <span class="caps">J2EE</span> positions they’d dug themselves into so many years ago. (Incredibly, some of the same people <a href="http://searchwebservices.techtarget.com/originalContent/0,289142,sid26_gci1198211,00.html">leading</a> the defection <a href="http://www.amazon.com/exec/obidos/ASIN/059600978X/eat0e-20">helped deliver</a> that ugly baby.) The gap in time, simplicity, and cost between scripted and <a href="https://blueprints.dev.java.net/">BluePrints</a> style apps can no longer be ignored simply by covering your ears and repeating “stateless session bean.”</p>
+
+
+	<p>Most Java programmers (and those parasites who only lecture them) lend half their brains to best-practices thinking. When Microsoft <a href="http://www.gotdotnet.com/team/compare/petshop.aspx">roundly humiliated</a> the BluePrints pet store, the common retort was that the .NET approach was <a href="http://en.wikipedia.org/wiki/Anti-pattern">anti-pattern</a>, and therefore illegitimate. Practically any technique can fall out of fashion and be condemned as “anti-pattern,” even a tenet of object-oriented programming like <a href="http://en.wikipedia.org/wiki/BaseBean">factoring common logic into base classes</a>.</p>
+
+
+	<p>The genius of Rails is that it flaunts the best practices it chooses to follow, while camoflauging the ones it tramples upon:</p>
+
+
+	<blockquote>
+		<p>Rails is a full-stack framework for developing database-backed web applications according to the Model-View-Control [sic] pattern. From the Ajax in the view, to the request and response in the controller, to the domain model wrapping the database…</p>
+	</blockquote>
+
+
+	<p>This is the familiar <a href="http://java.sun.com/blueprints/guidelines/designing_enterprise_applications_2e/web-tier/web-tier5.html">Model 2</a>  design, the “MVC variant” that has smalltalk programmers spinning in their object-oriented graves. For <span class="caps">JSP</span> programmers, it’s about as controversial as getting a Dell.</p>
+
+
+	<p>But Rails is sneaky. Its analogue for POJOs are neither plain nor old; they extend from an <a href="http://api.rubyonrails.org/classes/ActiveRecord/Base.html">ActiveRecord</a> base class that… [insert <em>Jaws</em> theme] talks to the database! In Java this is the deadliest of sins. And yet former <span class="caps">J2EE</span>-lovers have no problem doing it with Rails. Why?</p>
+
+
+	<p>Ego is one big reason. After dogmatically insisting on certain rules, it’s easier to pretend that Ruby is different in a way that makes  those rules unnecessary than it is to admit you were wrong and change course with Java. It’s also easier to go with the pack than against it, and the Rails pack says DB in the base is okay;  that particular hell hasn’t frozen over (yet) in Java EE.</p>
+
+
+	<p>Personally, I’d have no problem with even a Java ActiveRecord. It’s a rather obvious solution to the problem of persistence, once you get the “rules” out of your head. But I think <a href="http://www.hibernate.org/247.html">Hibernate Annotations</a> is an even better solution, not because it follows any particular rules but because it’s more powerful without being more complicated.</p>
+
+
+	<p>And there are a few other good things about Java. We all know that <a href="http://wicket.sourceforge.net/">Wicket</a> beats the pants off any other Web UI framework, including ActionController/View. And sometimes, compiling programs is a pretty good thing. Finally, don’t forget that you know Java much better than you know Ruby.</p>
+
+
+	<p>So try to figure out if your attraction to Rails is more about jettisoning unnecessary and constrictive rules than anything in Ruby itself (like <a href="http://jroller.com/page/wireframe/?anchor=findertemplate">syntax</a>). If that’s the case, you’d do better to skip right to programming more freely in Java. Creative programming is not something to be ashamed of!</p>
+
+
+	<blockquote>
+		<p><strong>Memo to Rails</strong></p>
+	</blockquote>
+
+
+	<blockquote>
+		<p>Those enterprise people you’re courting and starting to win over, just watch your back. They are toxic—that’s all I’m saying. Sure, they’re all curious and nice at first, but once they get their tentacles in, it’s nothing but “this isn’t good programming practice” and “that should be declaratively configured elsewhere.” You’ll see.</p>
+	</blockquote>
+
+
+	<blockquote>
+		<p>Actually, you know what? You can have them. Yeah, that’s right, take those friggin’ diagram-pushers. We can move a lot faster in Java once they’re gone.</p>
+	</blockquote>
+
+
+	<blockquote>
+		<p>Sincerely, <a href="http://databinder.net/">Databinder</a></p>
+	</blockquote></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='../../../resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id2554">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-1148"><p>&#8217;&#8230;can no longer be ignored simply by covering your ears and repeating “stateless session bean&#8221; &#8230;&#8217; <br /></p>
+
+<p>LOL!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Gustavo</span></span>
+  				<span>on August 8, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1149"><p>Got the hiccups? Try some &#8220;Stateless Session Bean Soup&#8221;:http://databinder.net/recipe/app/show/id/64.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8han</span></span>
+  				<span>on August 8, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id2555">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id2556" action="../../../index.html" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id2556_hf_0" id="id2556_hf_0" /><input type="hidden" name="wicket:interface" value=":1364:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id2557" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id2558" name="add" value="Add a comment" onclick="wicketShow('id2558--ajax-indicator');var wcall=wicketSubmitFormById('id2556', '../../../?wicket:interface=:1364:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id2558--ajax-indicator');}.bind(this),function() { ;wicketHide('id2558--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id2556')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id2558--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

@@ -1,0 +1,244 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Mom makes pot pie</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../eat">
+			
+			<img alt="Eat" src="../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../eat">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id202" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Mom makes pot pie" width="311" class="title" src="../../resources/net.databinder.components.RenderedLabel/27494740"/><span class="title">Mom makes pot pie</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on March 7, 2007</span></span>
+			<span id="id203" class="tags">
+					{&nbsp;<span><a href="../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Outside of a roast chicken with gravy, I don&#8217;t know of a more surefire way to make men and children happy at the dinner table than to feed them home made pot pie. It is a little bit of trouble to make, even if you start with a deli-roasted chicken, like I did today, and boxed chicken stock. You still have to make <a href="http://technically.us/eat/articles/2006/10/05/cooking-101-moms-pie-crust">pie crust</a>, prepare and cook the vegetables, cut or tear the chicken into chunks, make the sauce, roll out the pastry and fit it into the casserole, mix the filling all together and pour it into the casserole and top it with the top crust, crimp the pastry, and bake.</p>
+
+
+	<p>Here is another recipe from Marion Cunningham&#8217;s edition of the <em>Fanny Farmer Cookbook</em>, slightly adapted. I added some seasonings to the sauce and squeezed some lemon juice into it as well. If you&#8217;re ever making a cream sauce and it needs brightening up, try a few drops of lemon; it makes a big difference.</p>
+
+
+	<p>Note: We like crust so I put a bottom crust as well as a top crust on our pie; as long as you bake in a hot enough oven it gets nice and brown on the bottom.</p>
+
+
+	<p><strong>Chicken Pot Pie</strong>, <em>Fanny Farmer Cookbook</em>, by Marion Cunningham, 1990 edition</p>
+
+
+	<p>(serves six)</p>
+
+
+	<p style="float:right"><img src="/eat/files/potpie.jpg" alt="" /></p>
+
+
+	<ul>
+	<li>8 tablespoons flour</li>
+		<li>8 tablespoons butter</li>
+		<li>1/4 cup finely chopped onion</li>
+		<li>1/2 teaspoon nutmeg</li>
+		<li>4 cups chicken stock</li>
+		<li>1 cup heavy cream</li>
+		<li>salt and pepper to taste</li>
+		<li>2-3 tablespoons fresh lemon juice</li>
+		<li>1 teaspoon thyme, fresh or dried</li>
+		<li>4-6 cups large chunks cooked chicken</li>
+		<li>1 cup baby or sliced carrots, cooked</li>
+		<li>1 cup diced potatoes</li>
+		<li>1 cup frozen peas, thawed</li>
+		<li>8 oz. mushroom, cleaned, thickly sliced, sauteed in butter</li>
+		<li>handful of dried cranberries</li>
+		<li>1 recipe <a href="http://technically.us/eat/articles/2006/10/05/cooking-101-moms-pie-crust">Mom&#8217;s Pie Crust</a> or any pastry for a double-crust pie</li>
+	</ul>
+
+
+	<p>Make pie pastry and put in refrigerator to chill while preparing other ingredients. Put chicken stock in large saucepan and heat to simmering; add carrots and after about 5 minutes add diced potatoes. Cook them until just tender, testing frequently; don&#8217;t overcook as they will cook a bit more while pie is in the oven. When done, drain in colander set over a bowl to catch the stock. Meanwhile, prepare the mushrooms by washing (yes, it&#8217;s okay to wash mushrooms!), slicing thickly, and frying in butter. While they are in the skillet sprinkle with salt, pepper, and a bit of lemon juice. Don&#8217;t let them get too brown; you just want to get the juice out of them so they don&#8217;t make the sauce watery. Set all the vegetables aside with the chicken.</p>
+
+
+	<p>Melt the butter and add the finely chopped onion. Cook until translucent but do not brown. Add nutmeg to butter, then whisk in the flour and cook, stirring with whisk, for 2 minutes. Slowly add the stock, cream, thyme, and salt and pepper to taste. Cook for 5 minutes, until thickened and smooth. Add lemon juice, taste again and add more salt if it needs it, remembering all those bland vegetables. Fold sauce into large bowl with chicken and vegetables, along with cranberries, using rubber spatula to gently combine all ingredients.</p>
+
+
+	<p>Turn oven on to 400º. If you&#8217;re using a bottom crust, divide pastry into 2/3, 1/3, the larger portion will be rolled out for the bottom. If you just want a top crust, divide it in half and save the other half in a plastic bag for a quiche or something. For the double crust pot pie, roll out the larger piece of dough and fit it into the casserole, pressing it firmly onto the sides so the sauce doesn&#8217;t seep underneath. Pour filling into it, then roll out top crust and place over filling, crimping all around the edges. Cut several vents in top crust so steam can escape. Bake for 45-60 minutes, or until the crust is nicely browned and the filling is bubbling up through the vents (and onto your oven floor).</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id204">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3494"><p>this sounds so delicious. i&#8217;ve always wanted to make my own pot pie. how essential are the cranberries? just because I think i have all the ingredients besides the berries and wonder if i could just go ahead without them&#8230;</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">jeannie</span></span>
+  				<span>on March 7, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3495"><p>You can put anything you want in the pie, some recipes call for sliced celery and/or tiny onions. Just remember that vegetables like that need to be cooked first. Frozen vegetables generally just need to be thawed. The cranberries are strictly my own whimsical addition; I like the contrast of flavor, color, and hint of Thanksgiving they provide.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca (Mommy)</span></span>
+  				<span>on March 7, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3496"><p>That looks delicious&#8230; I&#8217;m really hungry now! :)</p>
+<p>If I were to make that, I would have to omit the carrots because I&#8217;m quite allergic to them.  Could you suggest something as a replacement?</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://colinwetherbee.com/"><span class="alias">Colin</span></a>
+  				<span>on March 7, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3497"><p>I have never heard of vinegar in pie crust and have never seen such long instructions to make a pie crust, but I must admit, my curiosity is peaked. I love pot pies.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">jancd</span></span>
+  				<span>on March 7, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3498"><p>Colin, you could try substituting cubed sweet potatoes or one of the winter squashes since I think they would replace carrots in sweetness and color. You might want to omit the regular potatoes in that case because the whole thing would start to get too starchy, and just increase the amounts of the other vegetables.</p>
+<p>Jan, I think the vinegar makes the crust tender or something, but I should have said any pie pastry can be used here. My instructions are long because I was gearing the pastry recipe toward first-time pastry-makers.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca (Mommy)</span></span>
+  				<span>on March 7, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3499"><p>I love the double crust too! The pie looks delicious!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://zombiesnack.blogspot.com"><span class="alias">Freya</span></a>
+  				<span>on March 7, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3500"><p>Oh, this looks wonderful.. I have such a time with pot pies.. Sometimes the liquid consistency is too much. Other times, it&#8217;s nonexistant. I can never get it just right..</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://madisonandmayberry.typepad.com"><span class="alias">Andrea</span></a>
+  				<span>on March 7, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3501"><p>Hi, Andrea! My preference is always for more sauce rather than less, especially if you use a double crust. If you make too much, add it until it looks nice and saucy, then just save the rest and use it as a sauce for broccoli or asparagus the next night; I actually had about 1/2 cup I didn&#8217;t use last night.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca (Mommy)</span></span>
+  				<span>on March 7, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3502"><p>Potpies are gorgeous, and this one is brilliant. I do think M. Cunningham is a genius at American food.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://lindystoast.com"><span class="alias">lindy</span></a>
+  				<span>on March 7, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3503"><p>I&#8217;ve never made a chicken pot pie. It always seems sort of daunting. You make it sound so easy though.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://kitchenography.typepad.com"><span class="alias">Julie</span></a>
+  				<span>on March 7, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3504"><p>Lindy&#8212;Don&#8217;t you love those little breakfast and supper books she put out? I have gotten a lot of recipes out of the supper book.</p>
+<p>Julie&#8212;None of the steps are hard but there are a lot of them. You can simplify a little by using a biscuit topping, or even easier with store-bought puff pastry, both of which are still delicious. And backing up, you can add a step by poaching your own chicken, which I often do.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on March 7, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id205">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id206" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id206_hf_0" id="id206_hf_0" /><input type="hidden" name="wicket:interface" value=":98:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id207" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id208" name="add" value="Add a comment" onclick="wicketShow('id208--ajax-indicator');var wcall=wicketSubmitFormById('id206', '../../?wicket:interface=:98:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id208--ajax-indicator');}.bind(this),function() { ;wicketHide('id208--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id206')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id208--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

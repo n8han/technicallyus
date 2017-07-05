@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Summer salad</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="idb5d" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Summer salad" width="225" class="title" src="../../../resources/net.databinder.components.RenderedLabel/73e81041"/><span class="title">Summer salad</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on July 30, 2006</span></span>
+			<span id="idb5e" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>After spending nearly an hour exploring the greenmarket yesterday morning, which I&#8217;ve finally started doing every weekend, I returned home with a bounty of corn, tomatoes, peaches, bacon, and the biggest bunch of basil these eyes have ever seen (reminiscent of the famous <a href="https://technically.us/eat/articles/2006/01/28/collard-greens-from-freshdirect">collard greens episode</a>):</p>
+
+
+	<p style="float:center"><img src="/pictures/bigbasil.jpg" alt="" /></p>
+
+
+	<p>At $1.50, who could resist? I don&#8217;t know how I&#8217;m going to get through it, but I suppose I should make a ton of pesto and freeze it in an ice cube tray the way Emily B&#8217;s dad does. Has anyone here made pesto without their food processor? I have a mortar and pestle and some knives, but I have no machines that blend, except my hand mixer. In the meantime, I&#8217;m putting basil in everything, including the refreshing summer salad I made last night:</p>
+
+
+	<p style="float:center"><img src="/pictures/summersalad.jpg" alt="" /></p>
+
+
+	<p>The health benefits of that salad were probably erased by the bacon in it and the gruyère omelette next to it, but we did eat the leftovers for lunch today, so I can feel good about that. Anyway, the salad contained: two chopped tomatoes; four strips of the famous &#8220;really good bacon&#8221; from the market (which isn&#8217;t really good at all), cut into lardons and cooked; the shaved kernels from three steamed ears of corn; one caramelized onion; and chopped basil leaves. It needed no dressing, because the juice from the tomatoes carried the bacon flavor throughout the bowl.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="idb5f">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-2508"><p>I sometimes make pesto on the cutting board, basically just chopping the basil and garlic together with some salt until it forms a paste and then slowly adding oil to moisten. This probably isn&#8217;t the best way to make a large quantity but you certainly could freeze a few cubes&#8217; worth this way.  Marcella Hazan instructs you to add the cheese after defrosting and I certainly wouldn&#8217;t cross her.  I would do the same with the nuts, but you could add them to mixture on the board too.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://haverchuk.blogspot.com"><span class="alias">michael</span></a>
+  				<span>on July 30, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2509"><p>Recently on Fast Food My Way, Jacques Pepin delineated a great way to freeze pesto &#8211; he blanches basil leaves before processing them with nuts and garlic, then freezes that in little portions. You add fresh cheese when you defrost the pesto and sauce the pasta with it. Apparently, blanching keeps the basil bright green, even in the freezer.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://wednesdaychef.typepad.com/"><span class="alias">Luisa</span></a>
+  				<span>on July 30, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2510"><p>The consensus is definitely to add the cheese at serving time. Thanks to both of you for that. Michael: I will try that method, although I&#8217;m sure I&#8217;ll make a mess and get tired.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on July 30, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="idb60">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="idb61" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="idb61_hf_0" id="idb61_hf_0" /><input type="hidden" name="wicket:interface" value=":418:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="idb62" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="idb63" name="add" value="Add a comment" onclick="wicketShow('idb63--ajax-indicator');var wcall=wicketSubmitFormById('idb61', '../../../?wicket:interface=:418:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('idb63--ajax-indicator');}.bind(this),function() { ;wicketHide('idb63--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('idb61')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="idb63--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

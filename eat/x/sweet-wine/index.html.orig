@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Sweet wine</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="idfb3" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Sweet wine" width="181" class="title" src="../../../resources/net.databinder.components.RenderedLabel/c6d103e8"/><span class="title">Sweet wine</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on July 19, 2006</span></span>
+			<span id="idfb4" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/theory/#selected-tag"><span>theory</span></a><span id="idfb5">, </span></span><span><a href="../../../eat/tag/dessert/#selected-tag"><span>dessert</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Eric Asimov&#8217;s <a href="http://www.nytimes.com/2006/07/19/dining/19pour.html?pagewanted=all">wine piece</a> today verifies what I have been afraid of and what Nathan has been claiming for years—that California wines are intentionally sweetened for the American market, whose &#8220;palate is shaped by the sugary soft drinks, ketchup and breakfast cereals of the childhood pantry.&#8221; Asimov says that Pinot Noir has gotten too sweet to enjoy with dinner in the last ten years.</p>
+
+
+	<p>The first time I noticed this American sweetness phenomenon was when I ate a Snickers bar in England. Instead of tasting the sugar first, I tasted peanuts and caramel. It was less a candy bar than a substantial snack, as the commercials have always promised. I now make it a point to ask travelers to England to return with Snickers bars.</p>
+
+
+	<p>I have never been into sweet things the way other kids are. I liked tart candy as a child: Jolly Ranchers, Starburst, Warheads, Fruit Roll-Ups, etc. I still do. I now like my wine bone-dry, my greens bitter, and my dinner salty. I like ice cream that tastes like its flavor, and I occasionally put salt on it. I check the ingredients for sugar on something savory like pasta sauce, which I rarely buy anyway but when I do it had better be a salt bomb.</p>
+
+
+	<p>And everyone I know seems to feel the same way. But then Asimov quotes another wine critic who says that Americans talk dry but drink sweet, so maybe we&#8217;re all liars.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="idfb6">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-2379"><p>oh me too.</p>
+<p>that is, either i&#8217;m a liar OR i like dry wines.  every once in a while i find someone (&#8220;American&#8221; or not) who i think (based on eating together a few times) has the same palate as me &#8211; bitter, sour, metallic, fishy, lemony, and no American wines.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://ihatethenyer.blogspot.com"><span class="alias">zp</span></a>
+  				<span>on July 19, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2380"><p><span class="caps">OTOH</span>, when I put curry on the table you would start to cry!</p>
+<p>I don&#8217;t think I ate a Snickers in Europe, but I did get a KitKat from a vending machine at Heathrow and noticed that it was much more delicious than our KitKats-the chocolate coating was a lot thicker and more intensely flavored (or should I say &#8220;flavoured&#8221;?).</p>
+<p>I, too, have always loved sour and salty things, even as a child, and we didn&#8217;t even have sugared drinks or cereals in the house, but when I bought my first wine I went for sweet ones-Boone&#8217;s Farm Apple, and a vile decoction called Spanada, possibly made by Gallo back in the late 60s. Other baby boomers might remember that one. Of course that&#8217;s probably just the developing taste of a teenager. I never really got a chance to develop much of a wine palate before I needed rehab&#8230;</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on July 19, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2381"><p>Sorry for my initial (off-blog) reaction that Asimov was being Queen Snob in claiming to be <em>so over</em> pinot noir&#8212;ten years ago! Actually that&#8217;s not what he says&#8230; he liked it ten years back, but he&#8217;s not specific about when he thinks it became sweeter. The p.n. bandwagon didn&#8217;t really start rolling until about five years back, so it wouldn&#8217;t have been before that.</p>
+<p>Anyway, I&#8217;m as down with his argument as you said I would be. American wine culture blows. And I don&#8217;t doubt that he was a pinot noir fan in 96. Then it got big, sold out&#8230; you know my sister was into Alanis Morissette <em>way</em> before anyone else. It was totally a black fly in our chardonnay when every single song on the album became a hit, a year after we&#8217;d memorized them.</p>
+<p>So, like, I can relate.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://technically.us/doc"><span class="alias">Nathan</span></a>
+  				<span>on July 19, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="idfb7">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="idfb8" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="idfb8_hf_0" id="idfb8_hf_0" /><input type="hidden" name="wicket:interface" value=":572:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="idfb9" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="idfba" name="add" value="Add a comment" onclick="wicketShow('idfba--ajax-indicator');var wcall=wicketSubmitFormById('idfb8', '../../../?wicket:interface=:572:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('idfba--ajax-indicator');}.bind(this),function() { ;wicketHide('idfba--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('idfb8')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="idfba--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

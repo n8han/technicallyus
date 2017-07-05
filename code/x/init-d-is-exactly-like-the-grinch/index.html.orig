@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / init.d is exactly like the grinch</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id224b" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="init.d is exactly like the grinch" width="478" class="title" src="../../../resources/net.databinder.components.RenderedLabel/f277905a"/><span class="title">init.d is exactly like the grinch</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on February 28, 2007</span></span>
+			<span id="id224c" class="tags">
+					{&nbsp;<span><a href="../../../code/tag/scripting/#selected-tag"><span>scripting</span></a><span id="id224d">, </span></span><span><a href="../../../code/tag/java/#selected-tag"><span>java</span></a><span id="id224e">, </span></span><span><a href="../../../code/tag/ubuntu/#selected-tag"><span>ubuntu</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>We&#8217;ve hit the dreaded seven day mark here so I guess I&#8217;ll run my rainy-day story about <code>init.d</code>.</p>
+
+<p><em>This is an amateur&#8217;s guide to getting a freaking app server to start automatically when your Debian-based (Ubuntu) box reboots.</em></p>
+
+<p>Surprisingly, a lot of Java programmers have convinced themselves that starting good ol&#8217; Tomcat manually is good enough. Perhaps their Java webapps are <a href="http://www.javalobby.org/java/forums/m92040551.html">so poorly written</a> they need human intervention to human intervention every few days to keep running anyway. Or maybe they want to give the three guys paid to keep the application running something to do.</p>
+
+<p>Neither of those applied to me but I still slacked for over a year on sorting out my own start-up configuration. <em>technically.us</em> runs for months on end without a hick-up, so who cares about rebooting? NYC electrical service is remarkably stable, being underground, and I&#8217;ve even taken international vacations without worrying about it too much.</p>
+
+<p>Not that I didn&#8217;t try to learn. I would search around, find some really complicated discussion using the word <em>daemon</em> way too much, and just drop it. (Q: Whatever happened to <code>autoexec.bat</code>? A: <code>rc.local</code>, and don&#8217;t use it.) But when I was setting up <a href="http://www.alvinandsparky.com/">this site</a> with <a href="http://rimuhosting.com/javahosting.jsp">RimuHosting</a>, they tell you plainly that you&#8217;re crazy if you don&#8217;t configure your server such that it can be rebooted and restored to service without your frantically typing fingers. What kind of animals are we Java programmers that they have to tell us such an obvious thing? The idea is too make <em>lots</em> of sites, sell them to people, and then basically forget about them administratively. Anything else is not worth the trouble.</p>
+
+<h3>Step 1: Understand what&#8217;s in <code>/etc/init.d</code></h3>
+
+<p>I had figured this much out already. The scripts in <code>/etc/init.d</code> control your services. They are very handy. You call them (usually with superuser privileges) followed by a command like <code>start</code> or <code>stop</code>. The better ones support <code>reload</code> to read configuration files without interrupting service; you can usually get a list of options by running the script with no parameters.</p>
+
+<p>All Debian packages that include services install an <code>init.d</code> script. Since  Tomcat is available with Ubuntu, yes, it has the script in place. But the server itself is configured like a crazy old New Yorker&#8217;s apartment door with security measures that will definitely prevent your app from running until you figure out how to turn them off. Also, it&#8217;s Tomcat. As great as Ubuntu-supplied packages are, you&#8217;re better off not depending on them completely; who knows when you may need cook up something thoroughly home-grown (a slave Ruby service for <a href="/n8/articles/2007/01/16/jewel-thief">Databinder dispatch</a>, perhaps?).</p>
+
+<h3>Step 2: Ignore what&#8217;s in <code>/etc/init.d</code></h3>
+
+<p>The package provided <code>init.d</code> scripts are great to use, but they aren&#8217;t a good models for the script you need. You only need to support <code>start</code> and <code>stop</code>. If you don&#8217;t do a lot of shell scripting, that sounds just annoying enough to induce procrastination, but the bare minimum init.d script is dead simple to type. (Yes, type. It&#8217;s like twenty characters.)</p>
+
+<pre><code>#!/bin/sh
+
+case "$1" in
+    start)
+        /usr/local/geronimo/bin/geronimo.sh start
+        ;;
+    stop)
+        /usr/local/geronimo/bin/geronimo.sh stop --user system --password manager
+        ;;
+esac
+
+exit 0
+</code></pre>
+
+<p>This little ditty calls <a href="http://geronimo.apache.org/">Geronimo</a>&#8217;s management script (which would be a fine <code>init.d</code> script on its own if it didn&#8217;t require you to login to stop it). I have no idea if it&#8217;s optimal, but it works.</p>
+
+<p>The only other thing it do is get links installed in the <code>/etc/rc?.d</code> directories. Again, <em>Coderspiel</em> neither knows nor cares about the specifics here, but <code>update-rc.d &lt;myscriptname&gt; defaults</code> does the trick. I rebooted. Server started, yay.</p>
+
+<p>And I have a great excuse for lagging on weblog posts. I&#8217;m writing weblog <em>software</em>. </p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id224f">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-6134"><p>Nice article, spot on about the reality of Java web apps ;)</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.dangarland.co.uk"><span class="alias">Dan Garland</span></a>
+  				<span>on February 24, 2009</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id2250">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id2251" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id2251_hf_0" id="id2251_hf_0" /><input type="hidden" name="wicket:interface" value=":1283:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id2252" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id2253" name="add" value="Add a comment" onclick="wicketShow('id2253--ajax-indicator');var wcall=wicketSubmitFormById('id2251', '../../../?wicket:interface=:1283:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id2253--ajax-indicator');}.bind(this),function() { ;wicketHide('id2253--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id2251')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id2253--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

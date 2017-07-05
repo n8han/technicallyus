@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="../../../blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="../../../blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet.css"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Deconstructing generic components</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code.html">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code.html">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id2346" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Deconstructing generic components" width="584" class="title" src="../../../resources/net.databinder.components.RenderedLabel/104a8ef4"/><span class="title">Deconstructing generic components</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on February 2, 2007</span></span>
+			<span id="id2347" class="tags">
+					{&nbsp;<span><a href="../../tag/databinder/index.html#selected-tag"><span>databinder</span></a><span id="id2348">, </span></span><span><a href="../../tag/cocoa/index.html#selected-tag"><span>cocoa</span></a><span id="id2349">, </span></span><span><a href="../../tag/interfaces/index.html#selected-tag"><span>interfaces</span></a><span id="id234a">, </span></span><span><a href="../../tag/wicket/index.html#selected-tag"><span>wicket</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Eelco <a href="http://chillenious.wordpress.com/2006/05/12/a-word-about-custom-components/">posted</a> almost a year ago about how important it is that components are easy to write in Wicket, and how greater prospects for pre-fab component libraries are a poor reason to favor any other framework. (The components in them are often worthless.) I knew he was right, but I guess I had to learn on my own <em>why</em> it is that generic components are so troublesome.</p>
+
+
+	<p>To be clear, what I&#8217;m calling components for the moment are chunky user interface controls that do more than manipulate or represent a single variable; in Wicket this is usually a <a href="http://wicket.sourceforge.net/apidocs/wicket/markup/html/panel/Panel.html">Panel</a> subclass with markup. You could have calculator component, a calendar component, or (if you believe your salesperson) a weblog-in-a-box component.</p>
+
+
+	<p>Making specific components in Wicket <em>is</em> easy. My own informal method is not to worry about them until I&#8217;m making a new page with some visual element repeated from an old page. Snip, snip: take code from the old page class and <acronym title="">HTML</acronym> from its template to make a new Panel subclass. Resolve anonymous subclass dependencies or any other ties back to the page&#8217;s structure and you&#8217;re done. The component looks exactly the same on both pages and everyone is happy.</p>
+
+
+	<p>But generic components are different. They&#8217;re expected to be flexible. Customizable. They&#8217;re supposed to be able to do everything a user might reasonably expect. And what they can&#8217;t do, client programmers should be able to extend them to do.</p>
+
+
+	<p>That would be a tall order even if we were talking about code alone. But we&#8217;re talking about a visual representation too. What if I provide a component that internally arranges elements A, B, and C in a column and you <em>really</em> want to add something between A and B but the only extension point I see fit to provide is at the end? Too bad for everyone I guess.</p>
+
+
+	<p style="float:right"><img src="../../../pictures/cocoa-controls.png" alt="" /></p>
+
+
+	<p>Maybe there&#8217;s some really great way to resolve this for <acronym title="">HTML</acronym> that we haven&#8217;t hit upon it yet, but I doubt it. Consider Cocoa and its Interface Builder, a best in class framework for a problem domain (bitmapped interfaces) that predates <acronym title="">HTML</acronym>. Notice something in this image? The controls available on the palette are <em>extremely</em> basic. (There&#8217;s a column view and color picker on other pages, but you get the point.) Cocoa gives you the building blocks&#8212;you make the widget.</p>
+
+
+	<p>It&#8217;s not that decent generic components are impossible. They&#8217;re just very time consuming to make. Why should Apple spend its own programmers&#8217; time building complicated, business-y components so that lazy, uncreative programmers can snap them together into mediocre applications? That would do nothing for the platform. Instead, Apple spends its resources improving the <em>small</em> building blocks (adding things like <a href="http://en.wikipedia.org/wiki/Core_Animation">Core Animation</a>) so that talented and motivated programmers can make innovative new applications.</p>
+
+
+	<p>Similarly, it would&#8217;t seem to be worth my time in Databinder or the Wicket programmers&#8217; time in Wicket to make Panel subclasses. No matter what we say in the documentation, users will expect them to be flexible. And indeed they should! The components are provided as if they might be good for something. In Databinder I have the AuthDataPage and its panels; Wicket has the <a href="http://wicketframework.org/wicket-extensions/apidocs/wicket/extensions/markup/html/repeater/data/table/DataTable.html">DataTable</a> panel in extensions. People write to the forum and listserv asking how to customize these things <em>all the time</em> and the answer is almost always &#8220;just don&#8217;t use it.&#8221; What were we thinking, including them in first place?</p>
+
+
+	<p>I suppose we were thinking that panels are really great, which they are, and that we can show people how great they are by including some in the libraries. But that doesn&#8217;t show how great panels are, it actually makes them look opaque and confusing. Worse, because Java programmers have been conditioned to expect do-everything magic-bullet components, they see these <acronym title="">JAR</acronym>ed panels and make all the wrong assumptions. The point of Wicket, its innate flexibility and genius, is lost to them (or at least delayed).</p>
+
+
+	<p>Within Wicket, a calendar widget for date fields is the only generic component I would make an exception for, mostly because people reviewing the framework will freak out if it&#8217;s not there. Unfortunately the quirky <a href="http://wicketframework.org/wicket-extensions/apidocs/wicket/extensions/markup/html/datepicker/DatePicker.html">DatePicker</a> is further proof that no open source programmer wants to improve generic components beyond the minimum that works for that programmer. Not that I&#8217;m complaining, I could contribute to it myself&#8212;but then it works well enough for me too.</p>
+
+
+	<p>In Databinder I&#8217;m going to extract AuthDataPage and its panels from the library. I can almost as easily generate those as project sources in a Maven archetype, and the result will be much more useful for everyone. As I&#8217;ve threatened to do before, I <em>will</em> someday rewrite the <a href="http://databinder.net/site/show/baseball-players">baseball example</a> without DataTable. As for the ajax <a href="http://databinder.net/javadoc/net/databinder/components/SearchPanel.html">SearchPanel</a>, perhaps it&#8217;s small and simple enough to survive the culling.</p>
+
+
+	<p>Also, I&#8217;m cancelling the planned Databinder guerilla marketing campaign involving green folders outlined by <acronym title="">LED</acronym>s. Please do not call the police.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='../../../resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id234b">
+  		
+  		
+  	</div>
+  	<div id="id234c">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id234d" action="../../../index.html" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id234d_hf_0" id="id234d_hf_0" /><input type="hidden" name="wicket:interface" value=":1307:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id234e" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id234f" name="add" value="Add a comment" onclick="wicketShow('id234f--ajax-indicator');var wcall=wicketSubmitFormById('id234d', '../../../?wicket:interface=:1307:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id234f--ajax-indicator');}.bind(this),function() { ;wicketHide('id234f--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id234d')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id234f--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

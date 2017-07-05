@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Resourceful caching</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id2644" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Resourceful caching" width="328" class="title" src="../../../resources/net.databinder.components.RenderedLabel/7a06c009"/><span class="title">Resourceful caching</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on July 7, 2008</span></span>
+			<span id="id2645" class="tags">
+					{&nbsp;<span><a href="../../../code/tag/web/#selected-tag"><span>web</span></a><span id="id2646">, </span></span><span><a href="../../../code/tag/efficiency/#selected-tag"><span>efficiency</span></a><span id="id2647">, </span></span><span><a href="../../../code/tag/wicket/#selected-tag"><span>wicket</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>One of the strengths of the Wicket framework is that while it enables sky-high feats of abstraction on the trapeze of application state, <a href='http://www.javaworld.com/javaworld/jw-06-2008/jw-06-wicket1.html'>a tire swing is available</a> when you need a state closer to the ground. For stateless <strong>resources</strong>, on the other hand, all you&#8217;ll ever need is a caching safety net.</p>
+
+<p class='break'>The original, and still conceptually dominant, model of web resources is a filesystem hierarchy exposed as a <abbr>URL</abbr> path. The Java servlet specification follows this tradition, requiring that the servlet container serve files in directories found under the application root. However, many users bypass the servlet container for this task and use a plain web server, because the servlet container adds no value and may be slower.</p>
+
+<p>Wicket doesn&#8217;t follow the traditional resource model of serving a filesystem hierarchy to the web; it uses the Java namespace for organization. That is, classes and packages. Consider some of the resources linked from this page:</p>
+
+<pre><code>/resources/com.typeturner.pages.Home/typeturner.css
+/resources/com.typeturner.Typeturner/image?name=ganymede
+/resources/com.typeturner.Typeturner/code-rss</code></pre>
+
+<p>The first is a stylesheet. Before compilation it is a plain file that lives in the source hierarchy. At runtime, it is a classpath resource. While that resolution mechanism is straightforward, it is entirely foreign to Apache and other web servers. There is no way to serve <code>typeturner.css</code> but through Wicket and you can&#8217;t, therefore, bypass Wicket or the servlet container.</p>
+
+<p>Why does Wicket offer this funky organization scheme? Firstly, there are some organizational advantages to keeping resources near the UI classes that use them—if you disagree you can always nest them in folders below the app root and refer to them the old fashioned way. But that&#8217;s missing the context: this is only the simplest case of Wicket&#8217;s larger resource scheme, which enables an application to serve any kind of resource dynamically. For dynamic resources there is no filesystem arrangement to harken back to. (<code>cgi-bin</code>?) Using a Java namespace is the most natural option available.</p>
+
+<p>The second resource listed above is an uploaded photo for this weblog, which is mounted at <code>image</code> in the Typeturner namespace and referred to with a selected identifier. It is a blob in the database, so, it&#8217;s slow. The third resource is the <abbr>RSS</abbr> feed, generated on the fly using Rome. These are far from flat files that Apache could serve, but at the same time, they&#8217;re web resources that take some time to produce that we would really like to optimize (even on today&#8217;s wonderful hardware).</p>
+
+<p class='break'> Let&#8217;s assume you&#8217;ve added correct <code>Last-Modified</code> headers to your custom Wicket resources. (i.e., Let&#8217;s assume you&#8217;ve done the hard part already. But whatever. If you care about web performance you need to set those anyway, so git ’er done!) Wicket does it for you for the static package resources, so, <em>check</em>. Let&#8217;s also assume you&#8217;re using Apache to serve by reverse proxy, <abbr title='Apache JServ Protocol'>AJP</abbr> or just <abbr>HTTP</abbr>, because <a href='http://databinder.net/site/show/deployment#ol-apache'>that is really easy</a>.</p>
+
+<p>Okay, then, it turns out that Apache has been experimenting with a caching module for a while and in version 2.2 (like you have in Hardy Heron) it is quite stable. So, while, <em>Coderspiel</em> has actually <a href='http://technically.us/code/x/caching-in/'>told this story before</a> in the context of the fiendish Varnish cache, having it solidly built into Apache makes it worth adding to any reasonably busy Wicket application.</p>
+
+<p class='break'> <a href='http://httpd.apache.org/docs/2.2/caching.html'>Apache offers separate disk and memory caches</a>, and although the memory cache is probably great and all, if your main concern is huge images that bog down the MySQL and Java pipeline you should probably start with the disk cache. Then, the resource size does not much matter and, magically, it&#8217;s like you implemented an annoying-to-maintain filesystem-based image upload system instead of a database-based one. (And don&#8217;t ever come down—freebase!)</p>
+
+<p>Um, code&#8230; there is not much of that. In Ubuntu after you <code>a2enmod</code> <code>cache</code> and <code>disk_cache</code>, the cache is rashly enabled for all requests. That might not be a great idea if your application is mostly dynamic, like most Wicket applications. It shouldn&#8217;t cause failure, because Wicket sets a bunch of cache busting headers, but you may as well restrict the cache to requests that it may be able to help with. That is, <em>resources</em>. So in <code>mods-available/disk_cache.conf</code>, make it so:</p>
+
+<pre><code>CacheEnable disk /resources/</code></pre>
+
+<p class='liner'>Bug alert! Apache&#8217;s mod_cache seems to <a href='https://issues.apache.org/bugzilla/show_bug.cgi?id=45341'>mishandle some <code>304 Not Modified</code> responses</a> that are not accompanied by an <code>Expires</code> header, and Wicket isn&#8217;t setting <code>Expires</code> for unmodified resources. This mostly affects Safari, which sends a <code>max-age=0</code> with no <code>If-Modified-Since</code> for its reload operations. The Apache cache then checks Wicket for updated content, but it returns the brief <code>304</code> response back to Safari which isn&#8217;t expecting it, since the request was unconditional. Bah! <em>Coderspiel</em> will do what it can to see that this is <a href='https://issues.apache.org/jira/browse/WICKET-1748'>fixed</a>.</p>
+
+<p class='break'>Restart Apache and start <code>curl -I</code> ng headers. The first request will fetch the resource like always, but after that (given the same request headers) you should see an <code>Age</code> header reporting the seconds the item has been in the cache. If that&#8217;s not there, it&#8217;s not being cached for whatever reason. Also, if using <abbr title='Apache JServ Protocol'>AJP</abbr> you&#8217;ll be used to seeing your Jetty or other container listed as the server, but when Apache serves a cached resource it lists itself as the server.</p>
+
+<p>This should be faster even for static package resources, because the request won&#8217;t have to snake its way through the <abbr>JVM</abbr>, but it would be an unremarkable difference. The real boon is a shortcut to data from the database, and to an even greater extent, transformations of that data.</p>
+
+<p class='break'> With timestamps and caching, finally you can serve web resources by trapeze without fear of neck breakage.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id2648">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-5550"><p>if you say to wicket that the resource is cache able then wicket already also does lastmodified checks and so on.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Johan Compagner</span></span>
+  				<span>on July 9, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5551"><p>But Wicket doesn&#8217;t (and can&#8217;t) know the last modified time of database blobs, or an RSS feed, unless the application tracks and returns it in <code>lastModifiedTime</code>.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on July 9, 2008</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id2649">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id264a" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id264a_hf_0" id="id264a_hf_0" /><input type="hidden" name="wicket:interface" value=":1390:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id264b" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id264c" name="add" value="Add a comment" onclick="wicketShow('id264c--ajax-indicator');var wcall=wicketSubmitFormById('id264a', '../../../?wicket:interface=:1390:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id264c--ajax-indicator');}.bind(this),function() { ;wicketHide('id264c--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id264a')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id264c--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

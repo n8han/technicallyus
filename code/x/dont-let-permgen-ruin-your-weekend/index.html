@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="../../../blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="../../../blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet.css"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Don&#039;t let PermGen ruin your weekend</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code.html">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code.html">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id236d" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Don't let PermGen ruin your weekend" width="597" class="title" src="../../../resources/net.databinder.components.RenderedLabel/ea0d2eba"/><span class="title">Don&#039;t let PermGen ruin your weekend</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on January 9, 2007</span></span>
+			<span id="id236e" class="tags">
+					{&nbsp;<span><a href="../../tag/hibernate/index.html#selected-tag"><span>hibernate</span></a><span id="id236f">, </span></span><span><a href="../../tag/databinder/index.html#selected-tag"><span>databinder</span></a><span id="id2370">, </span></span><span><a href="../../tag/jvm/index.html#selected-tag"><span>jvm</span></a><span id="id2371">, </span></span><span><a href="../../tag/web/index.html#selected-tag"><span>web</span></a><span id="id2372">, </span></span><span><a href="../../tag/java/index.html#selected-tag"><span>java</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>I spent most of Sunday fighting with Tomcat (the application server, not the celebrity newlyweds). That is the last of all ways I would like to spend a day (except, perhaps, with celebrity newlyweds). Java app servers, when they don’t work, make you think seriously whether Java’s abstraction advantage over <acronym title="">PHP</acronym>, or paper and pencil for that matter, is worth it after all.</p>
+
+
+	<p>My problem was that reloading application contexts at <a href="http://databinder.net/"><em>databinder.net</em></a> was causing Tomcat to become unresponsive, jump on the couch, and monopolize the <acronym title="">CPU</acronym>. I took this as a challenge, since the ability to reload individual apps without bringing down the entire server is the <em>only</em> reason I had switched to Tomcat from plain <a href="http://jetty.mortbay.org/">Jetty</a> a few weeks back. Unfortunately for my Sunday, no amount of <tt>antiJARLocking</tt> / <tt>antiResourceLocking</tt>-fu produced reliable reloading.</p>
+
+
+<p class="out"><img src="../../../pictures/couple.jpg" alt="" /></p>
+
+	<p>Deciding that Tomcat was a worthless pile of doggie doo, today I tried out <a href="http://geronimo.apache.org/">Geronimo</a> (previously avoided on account of its terrifying list of useless <acronym title="">J2EE</acronym> features). To my surprise, Geronimo is a joy to install and use. And it’s got Jetty! And configuration pages that don’t appear to be coded for <a href="http://en.wikipedia.org/wiki/Mosaic_%28web_browser%29">Mosaic</a>! Geronimo is the bomb.</p>
+
+
+	<p>But my crush met with grim reality as I eventually determined that Geronimo suffered the same dreadful reloading problem as Tomcat. So—wait—it’s <em>my</em> code at fault? Bullshit. Then I tried the app server’s 2.0-M1 (?) release, which also failed but finally spat out a useful clue: out of PermGen space. Oh.</p>
+
+
+	<p>Of course I’ve seen this problem before. Our production servers at work have all kinds of memory limits boosted. It just didn’t seem like a problem for lil’ old <em>databinder.net</em>. It’s one of those Java gotchas, where you do everything right according to whatever documentation you can find, yet nothing works. You’re just supposed to <em>know</em>, as I did but had forgotten, that Hibernate or anything else that uses cglib heavily will blow past the standard PermGen limit. (You’d think that app servers would boost the minimum in their own scripts since it’s affected by their reload features.)</p>
+
+
+	<p>I’ve long been planning to write a <em>101</em> section for deploying a Databinder application. The only thing holding me back was the lack of a setup that met any minimum standard of simplicity and reliability. Finally with this change and my belated discovery of the lovely Geronimo 1.1, I have some information worth sharing. <em>Coming soon.</em></p>
+
+
+	<p>In the mean time, don’t forget to eat your <code>-XX:MaxPermSize=128m</code>.</p>
+
+
+	<p><strong>Update:</strong> You can increase PermGen, but you’re only postponing inevitable, unpredictable failure. A few months after writing this I gave up on context reloading and Geronimo. Now I’m running <a href="http://technically.us/code/x/to-jettison-geronimo">separate Jetty contexts in separate JVMs</a>.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='../../../resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id2373">
+  		
+  		
+  	</div>
+  	<div id="id2374">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id2375" action="../../../index.html" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id2375_hf_0" id="id2375_hf_0" /><input type="hidden" name="wicket:interface" value=":1311:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id2376" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id2377" name="add" value="Add a comment" onclick="wicketShow('id2377--ajax-indicator');var wcall=wicketSubmitFormById('id2375', '../../../?wicket:interface=:1311:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id2377--ajax-indicator');}.bind(this),function() { ;wicketHide('id2377--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id2375')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id2377--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

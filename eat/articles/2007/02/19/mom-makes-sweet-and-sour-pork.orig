@@ -1,0 +1,203 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Mom makes sweet and sour pork</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../eat">
+			
+			<img alt="Eat" src="../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../eat">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id2dc" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Mom makes sweet and sour pork" width="523" class="title" src="../../resources/net.databinder.components.RenderedLabel/757ea407"/><span class="title">Mom makes sweet and sour pork</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on February 19, 2007</span></span>
+			<span id="id2dd" class="tags">
+					{&nbsp;<span><a href="../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Last night I made a couple of pork tenderloins and we only ate one of them. (They were awfully good, too, simply coated with smoked paprika and ground cumin, browned on the stovetop, then finished off inside the oven for about a half hour. I served them with a sauce made by deglazing the pan with a bit of beef stock and balsamic vinegar, cooked down until syrupy.) Anyway, I had one whole tenderloin left over and didn&#8217;t want to run the risk of throwing it away in two or three days. One can only eat so many pork sandwiches.</p>
+
+
+	<p>I sought help from the place I so often turn to when faced with large chunks of surplus protein &#8211; my <em>Fannie Farmer Cookbook</em>, the 1990 edition by Marion Cunningham. She has lots of suggestions for using leftover pork, but this is one of my favorites. My husband really loves it, too. It is very unsophisticated as written, and unabashedly American. Tonight I threw in a handful of raw cashews with the peppers and onions, and added some fresh garlic, and because we like our food a bit spicy I used hot pepper sesame oil as part of the oil for stir frying the vegetables. I also used chicken stock instead of water in the sauce mixture, but in the past I have prepared the recipe exactly as it is in the book and it is still darn tasty.</p>
+
+
+	<p><strong>Pork Sweet and Sour</strong>, from the <em>Fannie Farmer Cookbook</em>, 1990 edition</p>
+
+
+	<p style="float:right"><img src="/eat/files/swsour.jpg" alt="" /></p>
+
+
+	<ul>
+	<li>1 1/2 pounds cooked pork</li>
+		<li>3/4 cup soy sauce</li>
+		<li>3 tablespoons oil</li>
+		<li>3 green peppers, cut in narrow strips</li>
+		<li>1 onion, cut in narrow strips</li>
+		<li>1-pound 4-ounce can pineapple tidbits</li>
+	</ul>
+
+
+	<p>Sauce</p>
+
+
+	<ul>
+	<li>3 tablespoons cornstarch</li>
+		<li>1 tablespoon soy sauce</li>
+		<li>3 tablespoons vinegar</li>
+		<li>1/3 cup sugar</li>
+		<li>1/3 cup water</li>
+	</ul>
+
+
+	<p>Trim the pork of excess fat and slice into strips. Put the pork in a shallow dish and cover with the 3/4 cup soy sauce. Let stand for 1 hour, turning the meat often so it thoroughly marinates. Heat the oil in a sauté pan, add the peppers and onion, and cook over high heat for just a minute, stirring constantly. Remove from the pan and set aside. Drain the pork, add to the skillet along with the juice from the pineapple tidbits, and bring to a boil. Lower the heat and simmer for 5 minutes. Add the pineapple, peppers, and onion, stir to mix and simmer a minute. Combine thoroughly the sauce ingredients and add to the pork mixture, stirring constantly. Cook until sauce thickens.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id2de">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3397"><p>Reading about what to do with leftover cooked meats in the Fannie Farmer cookbook is one of my favorite pastimes.  I love those sandwich ideas.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">zp</span></span>
+  				<span>on February 19, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3398"><p>sounds totally yummy!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Grandma</span></span>
+  				<span>on February 19, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3399"><p>I <span class="caps">LOVE</span> that edition of the Fannie Farmer!  (I collect multiple editions of that one and Joy of Cooking &#8211; I got my grandmother&#8217;s 1930-something Joy when she died.  I rarely cook out of it, but I <span class="caps">LOVE</span> to read it.)</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://trivialissimo.blogspot.com"><span class="alias">Heath</span></a>
+  				<span>on February 19, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3400"><p>I also have the 1965 edition of <em>Fannie Farmer</em> and still use it for several things, such as the gingerbread I posted on here a month or so ago.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on February 19, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3401"><p>Thank you for the recipe. Have 2 lbs of leftover pork to use &amp; will try this recipe tonight for me &amp; hubby. I&#8217;m also adding 3 sliced carrots &amp; a can of sliced water chestnuts.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">alison</span></span>
+  				<span>on February 19, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3402"><p>Dinner was quite good last night! Thanks again~!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">alison</span></span>
+  				<span>on February 19, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3403"><p>You&#8217;re welcome, Alison, and welcome to the blog! This dish could be varied with lots of different vegetables; have you ever tried peeled and sliced broccoli stems in place of water chestnuts?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on February 19, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id2df">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id2e0" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id2e0_hf_0" id="id2e0_hf_0" /><input type="hidden" name="wicket:interface" value=":128:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id2e1" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id2e2" name="add" value="Add a comment" onclick="wicketShow('id2e2--ajax-indicator');var wcall=wicketSubmitFormById('id2e0', '../../?wicket:interface=:128:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id2e2--ajax-indicator');}.bind(this),function() { ;wicketHide('id2e2--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id2e0')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id2e2--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

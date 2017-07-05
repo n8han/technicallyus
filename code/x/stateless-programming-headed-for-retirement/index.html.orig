@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Stateless programming headed for retirement</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id2559" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Stateless programming headed for retirement" width="737" class="title" src="../../../resources/net.databinder.components.RenderedLabel/2f751173"/><span class="title">Stateless programming headed for retirement</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on May 4, 2006</span></span>
+			<span id="id255a" class="tags">
+					{&nbsp;<span><a href="../../../code/tag/markup/#selected-tag"><span>markup</span></a><span id="id255b">, </span></span><span><a href="../../../code/tag/rails/#selected-tag"><span>rails</span></a><span id="id255c">, </span></span><span><a href="../../../code/tag/java/#selected-tag"><span>java</span></a><span id="id255d">, </span></span><span><a href="../../../code/tag/wicket/#selected-tag"><span>wicket</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p style="float:right"><img src="/pictures/baa.jpg" alt="" /></p>
+
+
+	<p>The potential of object oriented programming for graphical desktop applications was realized over two decades ago in the <a href="http://en.wikipedia.org/wiki/NeXTSTEP">NeXTSTEP</a> API for Objective-C, and later by <a href="http://en.wikipedia.org/wiki/BeOS">BeOS</a> &#8217;s C++ <span class="caps">API</span>, <a href="http://en.wikipedia.org/wiki/Swing_%28Java%29">Swing</a> for Java, and (finally!) <a href="http://en.wikipedia.org/wiki/.NET_Framework">.NET</a> in C#.</p>
+
+
+	<p>Using any of these frameworks, the value of the &#8220;object&#8221; abstraction in your very own code becomes abundantly clear. <span class="caps">OOP</span> is more than <code>myString.lastIndexOf("boring")</code>. It&#8217;s more than a <a href="http://technically.us/n8/pages/tier">glorified categorization of functions</a>. It&#8217;s about building up your own little object army, organized in a class hierarchy, that responds to user interaction in intelligent and predictable ways.</p>
+
+
+	<p>When the Internet took over the world in the ’90s, NeXT wasn&#8217;t sitting around staring at <span class="caps">HTML</span> and taking potshots at it with an inline script pee-shooter. Nooo sir-ee. They built the first stateful, <span class="caps">OOP</span> framework for Web applications, <a href="http://en.wikipedia.org/wiki/WebObjects">WebObjects</a>, and released it in 1996. Like their previous endeavors its success was limited by an obscenely high price. Then the company itself was actually bought for an obscenely high price by Apple Computer, and all hands were called on deck to turn NeXTSTEP into Mac <span class="caps">OS X</span>. So WebObjects mostly sat around waiting for <a href="http://howardlewisship.com/blog/">enterprising programmers</a> to take notice and copy it.</p>
+
+
+	<p style="float:left"><img src="/pictures/ducks.jpg" alt="" /></p>
+
+
+	<p>Ten years later we have stateful, WebObjects-inspired frameworks popping up all over the place.  <a href="http://www.wicketframework.org/">Wicket</a>  is the swan of the brood, if you ask me. But the hotshot on the block, Ruby on Rails, has a stateless lineage. What&#8217;s up with that?</p>
+
+
+	<p>The last time I touched on <a href="http://technically.us/n8/articles/2005/11/18/java-vs-ruby-on-rails-deathmatch">stateless vs. stateful</a>, I concluded that the two models were suited for different tasks, and specifically, &#8220;For high volume sites with working URLs, you need a stateless framework [i.e. Rails].&#8221; I further marginalized Wicket by observing that mainstream Web sites are stateless (and not highly interactive) and wouldn&#8217;t benefit from it terribly much.</p>
+
+
+	<p>Six Wicket-months later, I&#8217;ve reached a different conclusion: <strong>stateless Web programming is goin&#8217; down.</strong> Sure, it executes faster, and it&#8217;s better for some tasks. So is machine language. Fortunately, we didn&#8217;t settle for the once-mainstream text-based interfaces that assembly was capable of producing.</p>
+
+
+	<p>Likewise, now, we shouldn&#8217;t ponder how to replicate a scripted site like <a href="http://www.slate.com/">Slate Magazine</a> just as efficiently in Wicket. We should be aiming much higher: rich, personalized interfaces, and the best tool to make them is a stateful Web framework whose components live beyond one request cycle.</p>
+
+
+	<p>The famous sore thumb of Wicket&#8217;s persistent component implementation is that static, permanent links are not the default (or ideal) link. But with <span class="caps">URL</span> mounting in Wicket 1.2, it&#8217;s a lot more fun putting them in. I don&#8217;t mind descending from the ivory tower of long-living components as much if I&#8217;m rewarded with a nice <code>/app/mything/34</code> URL.</p>
+
+
+	<p style="float:right"><img src="/pictures/army.jpg" alt="" /></p>
+
+
+	<p>Every Web site that hopes to attract users should have both interactive, stateful components and ample static links to its content. But even if that weren&#8217;t true, and even if every link in a site had to be static, I&#8217;d want to do it in Wicket for its support of <strong>real <span class="caps">HTML</span> templates</strong>.</p>
+
+
+	<p>Like WebObjects and most of its offspring, Wicket gingerly binds markup to server-side components using <span class="caps">HTML</span> attributes.  Compared to inline scripts that choke (or at least hamper) browser and <span class="caps">WYSIWYG</span> editor rendering, templates win hands down.</p>
+
+
+	<p>Some day Rails will probably implement <span class="caps">HTML</span> component templating, and maybe even persist components between requests, but really&#8212;<em>why wait for them?</em></p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id255e">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-1110"><p>What&#8230; you mean like &#8220;this&#8221;:http://amrita.sourceforge.jp/?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">twifkak</span></span>
+  				<span>on May 4, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1111"><p>Not really, but it looks cool. The examples are awfully quick to inline templates in Ruby code, negating the benefit of pure-HTML templates (previewability). And you can only go so far hitching to elements&#8217; <code>id</code> attributes; why not use an <code>amrita:id</code>?</p>
+
+<p>I <em>am</em> glad to see pure HTML templating for Ruby, but that&#8217;s just one building block of Wicket (&amp; co.). You need a view-component hierarchy to mediate models that don&#8217;t map perfectly to the display (which is usually, in my exp.)</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8han</span></span>
+  				<span>on May 4, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id255f">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id2560" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id2560_hf_0" id="id2560_hf_0" /><input type="hidden" name="wicket:interface" value=":1365:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id2561" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id2562" name="add" value="Add a comment" onclick="wicketShow('id2562--ajax-indicator');var wcall=wicketSubmitFormById('id2560', '../../../?wicket:interface=:1365:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id2562--ajax-indicator');}.bind(this),function() { ;wicketHide('id2562--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id2560')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id2562--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

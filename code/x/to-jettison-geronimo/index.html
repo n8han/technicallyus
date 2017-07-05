@@ -1,0 +1,345 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="../../../blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="../../../blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet.css"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / To jettison Geronimo</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code.html">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code.html">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id26ad" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="To jettison Geronimo" width="339" class="title" src="../../../resources/net.databinder.components.RenderedLabel/7f93e608"/><span class="title">To jettison Geronimo</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on May 19, 2007</span></span>
+			<span id="id26ae" class="tags">
+					{&nbsp;<span><a href="../../tag/hosting/index.html#selected-tag"><span>hosting</span></a><span id="id26af">, </span></span><span><a href="../../tag/jvm/index.html#selected-tag"><span>jvm</span></a><span id="id26b0">, </span></span><span><a href="../../tag/jetty/index.html#selected-tag"><span>jetty</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>The <em>techincally.us</em> server hosts a number of Java webapps, including the Typeturner software that runs this weblog. It&#8217;s a decent proving ground because while it&#8217;s a real server that runs continuously for months, but downtime does not result in angry phone calls from paying clients. Brisk e-mails for charity work are at bad as it gets.</p>
+
+<p>Several months back I <a href='http://technically.us/n8/articles/2007/01/09/dont-let-permgen-ruin-your-weekend'>fell hard for Apache Geronimo</a>, that Java EE app server that no one uses for some reason. I didn&#8217;t want an EE app server either, but I was looking for something that supported context reloading. Jetty didn&#8217;t in its standard configuration, and reloading in Tomcat had given me trouble. Plus, Tomcat&#8217;s admin screens feel unsettlingly like 1998.</p>
+
+<h3 id='lock_and_reload'>Lock and reload</h3>
+
+<p>Context reloading makes a lot of sense. If you&#8217;re running multiple contexts on one server&#8212;what they are billed to be <em>for</em>&#8212;rolling out an update to one application context should not disrupt service to the rest. But since its inception, this important feature has been effectively broken in every servlet container: reloads leak memory and unpredictably swamp the server and <em>all</em> servlet contexts.</p>
+
+<p>And since <a href='http://mail-archives.apache.org/mod_mbox/tomcat-dev/200005.mbox/%3C391C35A5.971BA059@costin.dnt.ro%3E'>the year 2000</a> at least, container programmers have been excusing that failure by reprimanding users for daring to use the context reloading feature <em>in production</em>. As if reloading had any great purpose <em>in development</em>! Rarely does one need to code or debug more than one application context at a time, and the overhead for bouncing the entire server versus only the context is negligible (if not negative). And for that matter, who wants memory leaks and unpredictable behavior in development, either?</p>
+
+<p>Despite my problems with reloading under Tomcat, I was determined to find a container that could do it reliably. So I tried out Geronimo (despite its <abbr>J2EE</abbr> horn-blowing) and was immediately pleased to see that it could run Jetty internally, reload contexts, and present a 21st century web interface. I switched over to it for all my home Java serving, and even wrote up <a href='http://databinder.net/site/show/deployment'>Databinder deployment instructions</a> recommending Geronimo.</p>
+
+<p>It took me a while to get back to reality. The first step was in setting up permanent hosting for <a href='http://technically.us/code/x/fleet-footed-databinder'>a client site</a>, I soon found that even Geronimo&#8217;s &#8220;Little G&#8221; variant consumed significantly more memory than plain Jetty. It&#8217;s foolish to waste any when you only have 128MB total. The second step was realizing that no amount of maximum PermGen would be enough to permit daily context rollouts (that I do for Typeturner when I add features) without eventually crashing the entire app server. New face, old problems.</p>
+
+<h3 id='garbage_version_20'>Garbage, Version 2.0</h3>
+
+<p>Foolishly, I assumed that the latest, greatest Geronimo pre-release would have solved this pesky PermGen problem once and for all. I&#8217;m not sure why I thought that after ten years of the problem languishing it would have been solved without any announcement. We all have a weakness for higher version numbers, and mine kicked in. So I spent hours installing Geronimo JEE5 Jetty6 2.0 M5 (and a shot of non-fat milk, please!) because I have faith in projects tackling the tough, important problems <em>because they&#8217;re there</em>.</p>
+
+<p>This new version of Geronimo was so slow I could not believe it. Starting all my contexts under 1.1.1 used to take a little over a minute. Now, it took over <em>ten minutes</em>. I&#8217;m not kidding. And once they finally started, the web-apps performed noticeably slower than inside any other container. Why bother releasing anything with such crippling performance regressions? I can only guess that in their effort to incorporate every capital E coming out of Santa Clara, the Geronimo programmers neglected job number one of their container: running applications at an acceptable speed.</p>
+
+<p>I should have known that being in the same execution space as Java EE would have a price, even if I avoided those features myself. My assumption that a motivated, capable project like Geronimo could toss off the enterprise curse was naive: that devil has been stalking through computing in various forms since long before Java and it&#8217;s stronger than any of us. Invoked by those who neither understand nor respect programming, it bogs down, suffocates, and sucks the soul out of any software it gets near.</p>
+
+<h3 id='application_server_deconstructed'>Application server, deconstructed</h3>
+
+<p>Container context reloading is never going to <em>work</em> in any meaningful sense. Perhaps if the <abbr>JVM</abbr> were largely rewritten&#8212;but no one cares enough for that. It&#8217;s somehow viewed as a childish feature, as if there were something wrong with updating applications on a live server more often than scheduled monthly corporate releases. Most likely, the context reloading problem will someday retire <em>with Java itself</em>. But we don&#8217;t have to suffer with it until then.</p>
+
+<p>There&#8217;s a trick answer to the problem: if contexts do not work, do not use them. Serve applications that need to be regularly updated in their own containers and <abbr>JVM</abbr>s. Then you can &#8220;reload&#8221; all day long and no one will come along to slap your wrist. There are obvious redundancies in this setup&#8212;having multiple instances of the servlet container and the <abbr>JVM</abbr> itself&#8212;but in the practical sense they&#8217;re irrelevant.</p>
+
+<p>My five Jetty 6.1 servers running now are featherweight compared to a single instance of that awful Geronimo millstone (oops&#8212;I mean <em>milestone</em>!), and even compared to the 1.1.1 this seems faster. Certainly it&#8217;s more stable and predictable for replacing, adding, and removing contexts, which is something we just have to do in real life. I&#8217;m not sure how we started going down the path of a monolithic server <abbr>JVM</abbr>. Those mythical Java desktop applications we&#8217;re supposed to be running would execute in their own virtual machines; why not run servers that are each intended for many users in separate environments too?</p>
+
+<h3 id='nuts_and_bolts'>Nuts and bolts</h3>
+
+<p>Instructions for this arrangement will eventually replace those for Geronimo over at <em>databinder.net</em>, but here&#8217;s the gist: you run each app server on different ports and proxy those out through an Apache web server. (This is common with <a href='http://mongrel.rubyforge.org/'>Mongrel</a> configurations, and others too I&#8217;m sure.) Applications can run on named contexts or the root context; as a bonus, you can run root contexts on different virtual domains with no special configuration for servlet containers.</p>
+
+<p>I have a single <code>/etc/jetty.xml</code> file, and an <code>/etc/jetty.conf</code> file that contains the string <code>/etc/jetty.xml</code>. Inside my <code>jetty.xml</code>, I&#8217;ve only made a few changes from the <code>jetty.xml</code> distributed with Jetty: <strong>1.</strong> I commented out the context deployer. None of my apps need anything beyond the web-app deployer. <strong>2.</strong> Inside the web-app deployer, on a single line:</p>
+
+<pre><code>&lt;Set name=&quot;webAppDir&quot;&gt;/usr/local/webapps/
+&lt;SystemProperty name=&quot;my.webapps&quot; default=&quot;../jetty/webapps&quot;/&gt;
+&lt;/Set&gt;</code></pre>
+
+<p>This allows me to set a <abbr>JVM</abbr> property for the webapp directory and thus use the same <code>jetty.xml</code> for all applications. If <code>my.webapps</code> is not specified, the supplied default points back to Jetty&#8217;s regular webapps dir (though I&#8217;m not using it for anything). <strong>3.</strong> I commented out the request logger because Apache is taking care of that.</p>
+
+<p class='break'>In an <code>/etc/default/jetty</code> script we put variables that are the same for every Jetty instance:</p>
+
+<pre><code>LANG=en_US.UTF-8
+JAVA_HOME=/usr/lib/jvm/java-6-sun
+JETTY_HOME=&quot;/usr/local/jetty&quot;
+JAVA_OPTIONS=&quot;$JAVA_OPTIONS -Dwicket.configuration=deployment \
+	-Xms128m -Xmx512m -XX:MaxPermSize=64m&quot;</code></pre>
+
+<p>I only made one change inside the Jetty directory tree, so upgrades will be a cinch, to the file <code>resources/log4j.properties</code>. The default configuration outputs to <code>stdout</code>, which on my headless server is the same as trees falling in forests when no one is around. I set it to log to a rotating file, but I can do even better (and was never able to get this to work under Geronimo) with errors by e-mail:</p>
+
+<pre><code>log4j.rootLogger=info, R, email
+
+log4j.appender.R=org.apache.log4j.RollingFileAppender
+log4j.appender.R.File=/var/log/jetty/app.log
+
+log4j.appender.R.MaxFileSize=100KB
+# Keep one backup file
+log4j.appender.R.MaxBackupIndex=1
+
+log4j.appender.R.layout=org.apache.log4j.PatternLayout
+log4j.appender.R.layout.ConversionPattern=%p %t %c - %m%n
+
+log4j.appender.email=org.apache.log4j.net.SMTPAppender
+log4j.appender.email.SMTPHost=localhost
+log4j.appender.email.From=webmaster@technically.us
+log4j.appender.email.To=nathan@technically.us
+log4j.appender.email.Subject=Error at technically.us
+
+log4j.appender.email.layout=org.apache.log4j.PatternLayout
+log4j.appender.email.layout.ConversionPattern=%p %t %c - %m%n
+log4j.appender.email.Threshold=WARN</code></pre>
+
+<p>Don&#8217;t forget to create a <code>/var/log/jetty/</code> directory, and leave out any <code>log4j.properties</code> from your application archive. If your application uses mail internally, you also need to exclude the <code>javax.mail</code> dependency from the archive file so Jetty will use the one from its own classpath. Setting that Maven dependency to &#8220;optional&#8221; does the trick.</p>
+
+<p>Web applications themselves go into their own subdirectories of <code>/usr/local/webapps</code>, so for a root context you could have <code>/usr/local/webapps/typeturner/ROOT.war</code>. Each application gets its own control script, such as the following <code>/etc/init.d/typeturner</code> :</p>
+
+<pre><code>#!/bin/sh
+JETTY_PID=&quot;/var/run/typeturner.jetty.pid&quot;
+JETTY_PORT=&quot;8283&quot;
+JAVA_OPTIONS=&quot;$JAVA_OPTIONS \
+        -Dmy.webapps=typeturner&quot;
+. /usr/local/jetty/bin/jetty.sh</code></pre>
+
+<p>This script passes run, start, stop and other control commands to <code>jetty.sh</code>. Try <code>run</code> first since the output goes right to the console.</p>
+
+<p>The last step is to configure Apache to proxy the different applications. My typeturner&#8217;s proxy configuration is a little convoluted; it&#8217;s a root context but shares that <abbr>URL</abbr> space with non-Java apps. The <em>databinder.net</em> setup is more typical:</p>
+
+<pre><code>ProxyRequests Off
+&lt;Proxy *&gt;
+	Order deny,allow
+	Allow from all
+&lt;/Proxy&gt;
+
+ProxyPass /site/ http://localhost:8282/site/
+ProxyPass /baseball/ http://localhost:8281/baseball/
+ProxyPass /directory/ http://localhost:8281/directory/
+[...]
+ProxyPassReverse / http://localhost:8281/
+ProxyPassReverse / http://localhost:8282/</code></pre>
+
+<p>All of the Databinder examples (baseball, directory, &#8230;) run on different contexts in the same servlet container, as they aren&#8217;t updated often and when they are it&#8217;s usually as a group.</p>
+
+<p>This setup uses an <abbr>HTTP</abbr> reverse proxy instead of <abbr>AJP</abbr>; if I ever get tired of its simplicity and reliability I might try adapting it. For now, I&#8217;m happy to have something that just works perfectly.</p>
+
+<p class='break'> Geronimo was going to be the platform for testing Databinder&#8217;s theoretical generic <abbr>JPA</abbr> support on something besides Hibernate EntityManager; now it certainly won&#8217;t be. Our <abbr>JPA</abbr> support will have to exist in some alternate universe where &#8220;enterprise&#8221; means something besides wasted time, satisfied airheads, and paperwork over performance.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='../../../resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id26b1">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-481"><p>I still have one last hope to achieve complete separation between web apps: OSGI. What I&#8217;ve read about it sounded like it&#8217;s going to solve many Java problems we face today. I suggest you take a look at it, at least before throwing the towel for good&#8230;</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Zenrique Steckelberg</span></span>
+  				<span>on May 19, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-482"><p>Thanks for pointing that out. Maybe some day OSGi modules will replace (or just fix) servlet contexts? Seeing as I have a work-around that I&#8217;m very happy with I won&#8217;t be spending any more time on it for now, but I can always &#8220;retrieve the towel&#8221; and jump back in the ring later.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8han</span></span>
+  				<span>on May 20, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-512"><p>Jetty&#8217;s ContextDeployer will do the hot redeploy for you. Have you tried it out?</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.webtide.com"><span class="alias">Jan</span></a>
+  				<span>on June 5, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-513"><p>Yes, I think that&#8217;s been built in since 6.1? I tried it but quickly ran into the same problem I&#8217;ve had with any hot redeployer, gradual consumption of PermGen space. Jetty rules, regardless; I&#8217;m sure this multi-instance setup would be ugly in anything else.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8han</span></span>
+  				<span>on June 5, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-623"><p>Hi n8han,</p>
+
+<p>I&#8217;ve been running into the Tomcat &#8220;out of memory&#8221; problems due reloading of webapps for quite some time, and your solution is about the closest I&#8217;ve seen to what I would consider &#8220;helpful isolation&#8221;. It should also allow you to identify memory leaks or issues, since there is no way to get this info on a context level from Tomcat. I&#8217;m looking forward to trying it out.</p>
+
+<p>At any rate, you might want to update your other Geronimo link to say &#8220;Update: I&#8217;ve abandoned Geronimo in favor of &#8230; see this article.&#8221;</p>
+
+<p>Thanks again,</p>
+
+<p>Josh</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Joshua Hansen</span></span>
+  				<span>on June 28, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-624"><p>Good idea! I&#8217;ve updated the old post. (The Databinder docs will have to wait until I can rewrite them.)</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8han</span></span>
+  				<span>on June 28, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-672"><p>Nice post, Nathan.</p>
+
+<p>It&#8217;s funny that despite I didn&#8217;t read your post before, I&#8217;ve came to almost the same conclusion than you. I run 4 jetty servers to power the xoocode.org dynamic sites, all behind a single apache server (also serving static stuff), and I&#8217;m very happy with memory usage and applications isolation.</p>
+
+<p>The only thing I do differently is that I do not even deploy my apps, I make them plain regular java applications, embedding a jetty web server among other stuff (derby server, mule server, spring container, depending on my needs). This works very well in development, you don&#8217;t need any specific plugin or complex deployment script or startup script, you can run the app by launching a Main class, that&#8217;s all. Keep it simple :-)</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://xhab.blogspot.com/"><span class="alias">Xavier</span></a>
+  				<span>on July 10, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-674"><p>Yay, the Jetty secret weapon squad. I&#8217;ve been meaning to use Jetty embedding for the Databinder examples, to make running them inside any <abbr>IDE</abbr> automatic (click &#8220;go&#8221;). I may as well use it for deployment too.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8han</span></span>
+  				<span>on July 10, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-708"><p>Excellent post like always Nathan!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://chillenious.wordpress.com/"><span class="alias">Eelco Hillenius</span></a>
+  				<span>on July 20, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4323"><p>What about using mod_jk to avoid the extra HTTP traffic? This could improve performance.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">dacc</span></span>
+  				<span>on September 8, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4324"><p>I&#8217;ve started using <abbr>AJP</abbr> in some places, to make the proxy invisible to code. The performance difference isn&#8217;t apparent, though I don&#8217;t doubt it&#8217;s there.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on September 8, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4820"><p>Heya,</p>
+
+<p>Have you considered enabling PermGen sweeping?</p>
+
+<p>-XX:+UseConcMarkSweepGC \ -XX:+CMSPermGenSweepingEnabled \ -XX:+CMSClassUnloadingEnabled</p>
+
+<p>Supposedly ends the PermGen nightmare&#8230;</p>
+
+<p>Cheers, Dan</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://firesyde.com"><span class="alias">Dan</span></a>
+  				<span>on December 11, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4821"><p>Hadn&#8217;t considered or heard of those parameters! I see <a href='http://www.danwalmsley.com/2007/12/11/end-the-wicket-permgen-issue/'>your post</a> about them from yesterday. Big servlet containers that reload contexts should really update their scripts to save people some headaches. Me, I&#8217;m not going back either way. That version of Geronimo was seriously slow, and my Jetty servers have been kicking butt since I switched over. Actually now I&#8217;m embedding them the way Xavier suggests in his comment, and it rules.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on December 12, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4916"><p>excellent post, nathan!</p>
+
+<p>just in case you only use apache for reverse proxying, did you ever consider using a load balancer such as <a href='http://www.apsis.ch/pound/'>pound</a>? it&#8217;s simple and extremely lightweight, avoiding apache&#8217;s overhead.</p>
+
+<p>cheers,</p>
+
+<p>francisco</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">francisco treacy</span></span>
+  				<span>on January 4, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4917"><p>I do serve some plain HTML and PHP, but thanks for the link.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on January 4, 2008</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id26b2">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id26b3" action="../../../index.html" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id26b3_hf_0" id="id26b3_hf_0" /><input type="hidden" name="wicket:interface" value=":1402:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id26b4" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id26b5" name="add" value="Add a comment" onclick="wicketShow('id26b5--ajax-indicator');var wcall=wicketSubmitFormById('id26b3', '../../../?wicket:interface=:1402:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id26b5--ajax-indicator');}.bind(this),function() { ;wicketHide('id26b5--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id26b3')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id26b5--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

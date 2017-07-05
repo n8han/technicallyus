@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/city-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>City Slicking / If we give up arithmetic, the Scientologists have won</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../city">
+			
+			<img alt="City Slicking" src="../../../resources/org.apache.wicket.Application/city-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../city">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/city-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id194f" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="If we give up arithmetic, the Scientologists have won" width="622" class="title" src="../../../resources/net.databinder.components.RenderedLabel/92b4af55"/><span class="title">If we give up arithmetic, the Scientologists have won</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Doctor Barnett</span>, <span>on December 11, 2006</span></span>
+			<span id="id1950" class="tags">
+					{&nbsp;<span><a href="../../../city/tag/math/#selected-tag"><span>math</span></a><span id="id1951">, </span></span><span><a href="../../../city/tag/beer/#selected-tag"><span>beer</span></a><span id="id1952">, </span></span><span><a href="../../../city/tag/shopping/#selected-tag"><span>shopping</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p><a href="http://technically.us/eat/articles/2006/09/04/garden-of-cheatin-strikes-again">Grocery store overcharging</a> is a regular topic over at <em>technically.us</em>&#8217;s star weblog, <em>Eat</em>. MrLittlePants and I have the apparently outré opinion that the practice is reprehensible and (actually, yes) a big deal.</p>
+
+
+	<p>On Saturaday I was picking up some beer at the <a href="http://doctorbarnett.blogspot.com/2005/07/beer-aid.html">usually reliable</a> Rite Aid at 13th Street and 6th Avenue. As usual, I made a point of memorizing the marked price. Also as usual, in the flurry of  ID-checking that accompanies purchasing drugs, I didn&#8217;t look at the rung-up price until I had paid. Oops, overcharged by a dollar.</p>
+
+
+	<p>So I point that out, and after two trips to the back and lots of waiting &#8220;my turn&#8221; at the checkout line, it was unapologetically established that I was overcharged by a dollar. So the store manager and sales clerk do about two minutes of cash-register voodoo before sliding a few coins across the counter.</p>
+
+
+	<p>I say, &#8220;I&#8217;m sorry, but that can&#8217;t possibly be right. I was overcharged by a dollar plus tax.&#8221; She says, &#8220;Next! Step <em>down!</em>&#8221; I say, &#8220;No, really, you have to give me back the right amount.&#8221;</p>
+
+
+	<p>So the manager was summoned once again, and it took me several minutes to convince him that he had possibly made an error. (At some point a Vietnamese woman appeared and asked a question in French, which the apparently Haitian manager answered. Ha ha!—“only in New York!&#8221;) The facts were simple enough: beer labled at $12.99, charged at $13.99 plus regular bullshit. Bottle deposit is constant, tax increases with value, so my refund would be a dollar plus the tax on a dollar, not the sad four non-quarters handed over.</p>
+
+
+	<h4>I repeated this about three times.</h4>
+
+
+	<p>Some schoolhouse flashback must have come to the manager, as he eventually agreed to perform the cash-register voodoo once again. Basically, it involved refunding the entire cost and charging the correct price, except this time I made sure he handed over the money and let me pay it back myself. The math worked! The universe did not explode.</p>
+
+
+	<p>I think I may have taught this guy a little math. But what he taught me is a lot more valuable: our civilization is screwed. We are so bad off that the manager of a <em>retail store</em> does not understand subtraction. It&#8217;s one one thing to get stumped on the mechanics of it, but what troubles me is his denial of <em>any</em> means to solve the problem not involving the cash register. We are eventually going to be dominated by computers. It&#8217;s not something people will fight against, because we are so incredibly lazy that we don&#8217;t <em>want</em> to think for ourselves.</p>
+
+
+	<h4>But I&#8217;m not giving up just yet. You want to overcharge me on beer, that total had better involve a damn <a href="http://en.wikipedia.org/wiki/Eigenvalue%2C_eigenvector_and_eigenspace">eigenvector</a>.</h4></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about'>About</h3>
+
+<p><em>City Slicking</em> is about urban life, transportation, energy, liberty, and language.</p>
+
+<h3 id='haunts'>Haunts</h3>
+
+<p><a href='http://twitter.com/n8han/'>Twitter</a><br /><a href='http://technically.us/code/'>Coderspiel</a><br /><a href='http://www.streetsblog.org/'>Streetsblog</a><br /><a href='http://gawker.com/people/alexpareene/posts/'>Pareene</a><br /><a href='http://www.copenhagenize.com/'>Copenhagenize</a><br /><a href='http://itre.cis.upenn.edu/~myl/languagelog/'>Language Log</a><br /><a href='http://t4america.org/'>Trans. for America</a></p>
+
+<h3 id='wire_service'>Wire Service</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/city-rss' title='All in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-short-rss' title='Left column, frequent links and notes'>Quickies</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-long-rss' title='Main column, occasional extended posts'>Treatise</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1953">
+  		<div><h3 id='backtalk'>Backtalk</h3></div>
+  		<div>
+  			<div id="item-966"><p>I think I can top this one. I was at a run of the mill chain restaurant (I will not mention it by name so as not to offend the highly developed palates of our friends over at Eat) and the bill came to $15.54 As one who always seems to carry around an abundance of change, I handed the waitress $20.54 She then returned to the table with $4.50 As I politely attempted to inform her that she had given me incorrect change, she assured me that it was alright, it was only $.04, I could keep it. Even after I tried explaining to her the most basic of math equations, she could not be convinced that she owed me an additional $.50 I eventually gave up trying, for fear that I might make her head explode with all that thinking and the like. Never did get my $.50</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Carly</span></span>
+  				<span>on December 11, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-967"><p>Yikes! I was using the same method out of habit after returning from France (where you&#8217;re guillotiné if you <em>don&#8217;t</em> pay part of the change). After a while I got tired of clerks looking at me like I was crazy, and the people in line who assume you&#8217;re destitute (or worse, slow) if you do anything but plunk down a twenty, accept whatever change is offered, and disappear.</p>
+
+<p>All hail the mound of idiot pennies on the end table.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Doc B</span></span>
+  				<span>on December 11, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id1954">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id1955" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id1955_hf_0" id="id1955_hf_0" /><input type="hidden" name="wicket:interface" value=":989:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id1956" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id1957" name="add" value="Add a comment" onclick="wicketShow('id1957--ajax-indicator');var wcall=wicketSubmitFormById('id1955', '../../../?wicket:interface=:989:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id1957--ajax-indicator');}.bind(this),function() { ;wicketHide('id1957--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id1955')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id1957--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

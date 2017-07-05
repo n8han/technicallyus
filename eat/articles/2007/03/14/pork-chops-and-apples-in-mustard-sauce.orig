@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Pork chops and apples in mustard sauce</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../eat">
+			
+			<img alt="Eat" src="../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../eat">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id2c6" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Pork chops and apples in mustard sauce" width="636" class="title" src="../../resources/net.databinder.components.RenderedLabel/156255ca"/><span class="title">Pork chops and apples in mustard sauce</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on March 14, 2007</span></span>
+			<span id="id2c7" class="tags">
+					{&nbsp;<span><a href="../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p><img src="/pictures/applepork.jpg" alt="" /></p>
+
+
+	<p>Recipes involving pork, apples, cream, and mustard jump out at me from any book, especially Richard Olney&#8217;s <a href="http://www.amazon.com/exec/obidos/ASIN/0020100604/eat0e-20">book</a>. When I see a dish called &#8220;Pork chops and apples in mustard sauce,&#8221; I roll up my sleeves. This is an excellent and simple little dinner, and you can do it in just over thirty minutes, including the prep work.</p>
+
+
+	<p>I bought my pork chops at the Union Square Greenmarket, a mistake I&#8217;ll never make again. The guy rang up four pork chops—at $31. I gasped, and decided to only make two. He helpfully told me that I could use a credit card if I didn&#8217;t have enough cash, and I replied that I couldn&#8217;t afford his meat. And I know we all lament the loss of fat in pork, but this pork was so fatty that there was hardly any meat on it. For $17, I think we got about ten good bites of pork. Greenmarket meat is <em>overpriced bullshit</em>. (That&#8217;s my first curse word on Eat, so I must be serious. <a href="http://www.epifurious.com">Barletta</a> told me a story of paying $20 for two chicken thighs at the Greenmarket. They can keep it!)</p>
+
+
+	<p>Anyway. The next time I make this dish, it will be with pork sausages, because that will be equally delicious on top of these amazingly creamy and mustardy apples. I may even flambé them with calvados, since I finally learned how to do that in class tonight. But the dish is worth making as it is, and your guests will be more interested in what&#8217;s underneath the meat than the meat itself. Serve it with plenty of cold white wine. Our <a href="http://www.johnmonteith.com">friend the painter</a> brought a sweet German riesling that was perfect.</p>
+
+
+	<p>2 pounds apples, quartered, peeled, sliced thinly <br> 1 tablespoon butter <br> 4 pork loin chops about 3/4 inch thick <br> 1/4 cup dry white wine <br> 1 cup heavy cream <br> 1/3 cup Dijon mustard, or to taste</p>
+
+
+	<p>Butter a gratin dish (big enough for the chops), spread the apples in it, and bake at 400ºF for 15 minutes. During that time, brown the chops well on both sides in the butter. (Let the pan get very hot, and then let the butter get very hot. Don&#8217;t touch the pork for at least three minutes, or you&#8217;ll screw up the browning.)</p>
+
+
+	<p>Arrange the chops on top of the apples, and deglaze the pan with the wine. Reduce the wine by half while scraping up the browned bits, and dribble this liquid over the chops.</p>
+
+
+	<p>Mix the cream and mustard, adding as much mustard as is needed to please your palate. Season it lightly with salt and pepper, and pour it over the chops and apples, shaking the dish so the cream penetrates the apples. Bake for another 15 minutes.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id2c8">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3518"><p>It&#8217;s funny you should be complaining about paying too much for pork, because I just got my weekly email from Gourmet.com in which Ruth Reichl is rhapsodizing about a small pork roast she bought from <a href="https://www.dartagnan.com/item.asp?item=FPORC002">D&#8217;Artagnan</a> and paid $382! She says the meat is so good that it&#8217;s well worth it. I was reading about D&#8217;Artagnan somewhere else recently &#8211; was it you, Leland? But I don&#8217;t know, I splurged on a beef tenderloin awhile back; I think I paid about $75 or $80 for it and that&#8217;s the most I have ever paid for a piece of meat in my life. I can&#8217;t imagine paying in the triple digits for something I&#8217;m cooking at home.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on March 14, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3519"><p>You&#8217;re killing me with the Richard Olney stuff &#8211; I love him. This recipe sounds so good and just perfect for that not-yet-spring weather. Stick to your ribs, but not too much.</p>
+<p>As for the Greenmarket stuff &#8211; my take on it is that you pay a lot because of the way the animals are raised and slaughtered. Voting with your dollars, you know? If more people buy their meat from sustainable, clean farms, the larger corporations will be forced to change too.</p>
+<p>Who knows. Anyway, I sympathize with the sticker shock. I wanted to buy 5 pounds of oxtail from the Greenmarket a few months ago and literally was agape when he told me the price. I made half a recipe instead ;)</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://wednesdaychef.typepad.com"><span class="alias">Luisa</span></a>
+  				<span>on March 14, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3520"><p>Mommy: $382! That&#8217;s ridiculous! She must mean the <a href="https://www.dartagnan.com/item.asp?item=FPORC002">milk-fed very young half pig</a>, which at least is slightly reasonable when you think of it per pound (about $13). D&#8217;Artagnan points out that the animals are &#8220;processed&#8221; just &#8220;one week after weaning.&#8221; Oh, and you were reading about D&#8217;Artagnan because they <a href="http://www.lindystoast.com/2007/01/fair_play.html">stole Toast&#8217;s picture</a> back in January.</p>
+<p>Luisa: I remember <a href="http://wednesdaychef.typepad.com/the_wednesday_chef/2006/12/jennifer_mclaga.html">that post</a> of yours. I totally agree with you about the importance of setting an example, even if it&#8217;s an expensive example. And I do spend much more on food than is necessary (I could get all of my produce and meat in Chinatown, but I don&#8217;t, and I spend plenty of money at Murray&#8217;s, etc.). But $10 pork chops are out of my middle-class reach.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on March 14, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id2c9">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id2ca" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id2ca_hf_0" id="id2ca_hf_0" /><input type="hidden" name="wicket:interface" value=":125:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id2cb" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id2cc" name="add" value="Add a comment" onclick="wicketShow('id2cc--ajax-indicator');var wcall=wicketSubmitFormById('id2ca', '../../?wicket:interface=:125:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id2cc--ajax-indicator');}.bind(this),function() { ;wicketHide('id2cc--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id2ca')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id2cc--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

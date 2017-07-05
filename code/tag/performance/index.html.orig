@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / performance</title>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container tag-listing">
+
+<div id="lead">
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-11">
+		<div class="tag-columns">
+	<div>
+		<span class="elem"><a href="../../../code/tag/actors/#selected-tag"><span>actors</span></a></span><span class="elem"><a href="../../../code/tag/databinder/#selected-tag"><span>databinder</span></a></span><span class="elem"><a href="../../../code/tag/http/#selected-tag"><span>http</span></a></span><span class="elem"><a href="../../../code/tag/maven/#selected-tag"><span>maven</span></a></span><span class="elem"><a href="../../../code/tag/python/#selected-tag"><span>python</span></a></span><span class="elem"><a href="../../../code/tag/software/#selected-tag"><span>software</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../code/tag/ajax/#selected-tag"><span>ajax</span></a></span><span class="elem"><a href="../../../code/tag/dispatch/#selected-tag"><span>dispatch</span></a></span><span class="elem"><a href="../../../code/tag/interfaces/#selected-tag"><span>interfaces</span></a></span><span class="elem"><a href="../../../code/tag/meetup/#selected-tag"><span>meetup</span></a></span><span class="elem"><a href="../../../code/tag/quirks/#selected-tag"><span>quirks</span></a></span><span class="elem"><a href="../../../code/tag/spam/#selected-tag"><span>spam</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../code/tag/android/#selected-tag"><span>android</span></a></span><span class="elem"><a href="../../../code/tag/droid/#selected-tag"><span>droid</span></a></span><span class="elem"><a href="../../../code/tag/internet/#selected-tag"><span>internet</span></a></span><span class="elem"><a href="../../../code/tag/models%20inc/#selected-tag"><span>models inc</span></a></span><span class="elem"><a href="../../../code/tag/rails/#selected-tag"><span>rails</span></a></span><span class="elem"><a href="../../../code/tag/spde/#selected-tag"><span>spde</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../code/tag/apple/#selected-tag"><span>apple</span></a></span><span class="elem"><a href="../../../code/tag/dvcs/#selected-tag"><span>dvcs</span></a></span><span class="elem"><a href="../../../code/tag/iphone/#selected-tag"><span>iphone</span></a></span><span class="elem"><a href="../../../code/tag/mysql/#selected-tag"><span>mysql</span></a></span><span class="elem"><a href="../../../code/tag/rendering/#selected-tag"><span>rendering</span></a></span><span class="elem"><a href="../../../code/tag/spring/#selected-tag"><span>spring</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../code/tag/applets/#selected-tag"><span>applets</span></a></span><span class="elem"><a href="../../../code/tag/education/#selected-tag"><span>education</span></a></span><span class="elem"><a href="../../../code/tag/it/#selected-tag"><span>it</span></a></span><span class="elem"><a href="../../../code/tag/networking/#selected-tag"><span>networking</span></a></span><span class="elem"><a href="../../../code/tag/rpc/#selected-tag"><span>rpc</span></a></span><span class="elem"><a href="../../../code/tag/swing/#selected-tag"><span>swing</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../code/tag/awesome/#selected-tag"><span>awesome</span></a></span><span class="elem"><a href="../../../code/tag/effects/#selected-tag"><span>effects</span></a></span><span class="elem"><a href="../../../code/tag/jargon/#selected-tag"><span>jargon</span></a></span><span class="elem"><a href="../../../code/tag/next/#selected-tag"><span>next</span></a></span><span class="elem"><a href="../../../code/tag/rss/#selected-tag"><span>rss</span></a></span><span class="elem"><a href="../../../code/tag/templating/#selected-tag"><span>templating</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../code/tag/browsers/#selected-tag"><span>browsers</span></a></span><span class="elem"><a href="../../../code/tag/efficiency/#selected-tag"><span>efficiency</span></a></span><span class="elem"><a href="../../../code/tag/java/#selected-tag"><span>java</span></a></span><span class="elem"><a href="../../../code/tag/nyt/#selected-tag"><span>nyt</span></a></span><span class="elem"><a href="../../../code/tag/ruby/#selected-tag"><span>ruby</span></a></span><span class="elem"><a href="../../../code/tag/threads/#selected-tag"><span>threads</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../code/tag/buildr/#selected-tag"><span>buildr</span></a></span><span class="elem"><a href="../../../code/tag/friday/#selected-tag"><span>friday</span></a></span><span class="elem"><a href="../../../code/tag/javascript/#selected-tag"><span>javascript</span></a></span><span class="elem"><a href="../../../code/tag/oauth/#selected-tag"><span>oauth</span></a></span><span class="elem"><a href="../../../code/tag/sbt/#selected-tag"><span>sbt</span></a></span><span class="elem"><a href="../../../code/tag/typeturner/#selected-tag"><span>typeturner</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../code/tag/bzr/#selected-tag"><span>bzr</span></a></span><span class="elem"><a href="../../../code/tag/functional/#selected-tag"><span>functional</span></a></span><span class="elem"><a href="../../../code/tag/jetty/#selected-tag"><span>jetty</span></a></span><span class="elem"><a href="../../../code/tag/oop/#selected-tag"><span>oop</span></a></span><span class="elem"><a href="../../../code/tag/scala/#selected-tag"><span>scala</span></a></span><span class="elem"><a href="../../../code/tag/typography/#selected-tag"><span>typography</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../code/tag/cocoa/#selected-tag"><span>cocoa</span></a></span><span class="elem"><a href="../../../code/tag/git/#selected-tag"><span>git</span></a></span><span class="elem"><a href="../../../code/tag/jvm/#selected-tag"><span>jvm</span></a></span><span class="elem"><a href="../../../code/tag/open%20source/#selected-tag"><span>open source</span></a></span><span class="elem"><a href="../../../code/tag/screencast/#selected-tag"><span>screencast</span></a></span><span class="elem"><a href="../../../code/tag/ubuntu/#selected-tag"><span>ubuntu</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../code/tag/cocuhdb/#selected-tag"><span>cocuhdb</span></a></span><span class="elem"><a href="../../../code/tag/gnome/#selected-tag"><span>gnome</span></a></span><span class="elem"><a href="../../../code/tag/learning/#selected-tag"><span>learning</span></a></span><span class="elem"><a href="../../../code/tag/outsourcing/#selected-tag"><span>outsourcing</span></a></span><span class="elem"><a href="../../../code/tag/scripting/#selected-tag"><span>scripting</span></a></span><span class="elem"><a href="../../../code/tag/web/#selected-tag"><span>web</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../code/tag/couchdb/#selected-tag"><span>couchdb</span></a></span><span class="elem"><a href="../../../code/tag/google/#selected-tag"><span>google</span></a></span><span class="elem"><a href="../../../code/tag/lift/#selected-tag"><span>lift</span></a></span><span class="elem"><span><em><span>performance</span></em></span></span><span class="elem"><a href="../../../code/tag/services/#selected-tag"><span>services</span></a></span><span class="elem"><a href="../../../code/tag/wicket/#selected-tag"><span>wicket</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../code/tag/cpu/#selected-tag"><span>cpu</span></a></span><span class="elem"><a href="../../../code/tag/hardware/#selected-tag"><span>hardware</span></a></span><span class="elem"><a href="../../../code/tag/macintosh/#selected-tag"><span>macintosh</span></a></span><span class="elem"><a href="../../../code/tag/processing/#selected-tag"><span>processing</span></a></span><span class="elem"><a href="../../../code/tag/shopping/#selected-tag"><span>shopping</span></a></span><span class="elem"><a href="../../../code/tag/windows/#selected-tag"><span>windows</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../code/tag/cryptography/#selected-tag"><span>cryptography</span></a></span><span class="elem"><a href="../../../code/tag/hibernate/#selected-tag"><span>hibernate</span></a></span><span class="elem"><a href="../../../code/tag/markdown/#selected-tag"><span>markdown</span></a></span><span class="elem"><a href="../../../code/tag/programming/#selected-tag"><span>programming</span></a></span><span class="elem"><a href="../../../code/tag/sling/#selected-tag"><span>sling</span></a></span><span class="elem"><a href="../../../code/tag/xml/#selected-tag"><span>xml</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../code/tag/database/#selected-tag"><span>database</span></a></span><span class="elem"><a href="../../../code/tag/hosting/#selected-tag"><span>hosting</span></a></span><span class="elem"><a href="../../../code/tag/markup/#selected-tag"><span>markup</span></a></span><span class="elem"><a href="../../../code/tag/publishing/#selected-tag"><span>publishing</span></a></span><span class="elem"><a href="../../../code/tag/slinky/#selected-tag"><span>slinky</span></a></span>
+	</div>
+</div>
+
+	<div id="selected-tag"><img height="47" alt="performance" width="209" src="../../../resources/net.databinder.components.RenderedLabel/dba60f17"/></div>
+		
+	<div>
+		<h4><a href="../../../code/x/caching-in/"><span>Caching in</span></a></h4>
+		<div class="byline">
+			By <span class="alias">n8han</span>, <span>February 12, 2007</span>
+		</div>
+	</div>
+
+	<div><form id='searchbox_014353926172616456646:eqlflrkh8mu' action='http://www.google.com/cse'>
+    <input type='hidden' name='cx' value='014353926172616456646:eqlflrkh8mu' />
+    <input type='hidden' name='cof' value='FORID:0' />
+<p><a href='/code/archive'>Browse by calendar</a>, or <input name='q' type='text' />
+    <input type='submit' name='sa' value='Search' />
+</p>
+</form></div>
+
+</div>
+	
+</div> <!-- container -->
+
+<div id="target-padder"></div>
+
+
+
+
+</body>
+</html>

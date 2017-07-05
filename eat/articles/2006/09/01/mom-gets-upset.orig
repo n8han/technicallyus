@@ -1,0 +1,226 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Mom gets upset</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../eat">
+			
+			<img alt="Eat" src="../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../eat">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id13f7" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Mom gets upset" width="254" class="title" src="../../resources/net.databinder.components.RenderedLabel/1de9d288"/><span class="title">Mom gets upset</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on September 1, 2006</span></span>
+			<span id="id13f8" class="tags">
+					{&nbsp;<span><a href="../../eat/tag/grocery/#selected-tag"><span>grocery</span></a><span id="id13f9">, </span></span><span><a href="../../eat/tag/food%20products/#selected-tag"><span>food products</span></a><span id="id13fa">, </span></span><span><a href="../../eat/tag/dessert/#selected-tag"><span>dessert</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p style="float:right"><img src="/eat/files/wholefoods.bmp" alt="" /></p>
+
+
+	<p>I just came from a shopping trip to <a href="http://www.wholefoodsmarket.com/">Whole Foods</a>, where I tried in vain for the third time to obtain a half gallon of their house brand of chocolate ice cream. I like the Whole Foods ice cream because it tastes good, it is the only brand I have found besides the <a href="http://www.breyersicecream.ca/home.html">Breyer&#8217;s</a> original flavors that doesn&#8217;t contain <a href="http://www.sfgate.com/cgi-bin/article.cgi?f=/chronicle/archive/2004/02/18/FDGS24VKMH1.DTL">high-fructose corn syrup</a> as an ingredient, and it still comes in actual half-gallon containers, not the 1.75 quart containers that all the other brands have down-sized to.</p>
+
+
+	<p>So I finally asked the cashier why I haven&#8217;t been able to find the chocolate and he called someone in the frozen foods department to inquire. Much to my horror the reply to my query is that the manufacturer has discontinued that flavor altogether! I don&#8217;t know if they have local, regional, or national suppliers of products like ice cream, so I&#8217;m not sure if this will affect the whole country, just our region, the east coast, or what, but if you like the Whole Foods chocolate ice cream and you see some in the freezer compartment of your local WF, I suggest you snatch it up forthwith.</p>
+
+
+	<p><strong>Saturday update from Leland</strong></p>
+
+
+	<p>Whole Foods in New York does <em>not</em> have chocolate ice cream. They have a new flavor, Rocky Road, but no chocolate in sight. This is a sad day.</p>
+
+
+	<p><strong>Addendum to chocolate ice cream story from Mom</strong></p>
+
+
+	<p>I sent an email to WF directly to ask them what was up with the chocolate ice cream and to find out if we would be seeing it again in the store. This is the reply I received today:</p>
+
+
+	<p>&#8220;Rebecca,
+The 365 Everyday Value Chocolate Ice Cream was slated for discontinuation due to slow sales.  The sales results were due to other 365 Everyday Value and Whole Treat brand ice cream flavors dominating most of the sales in our ice cream line. As of this date, there are no plans to resource the chocolate ice cream to another vendor.&#8221;</p>
+
+
+	<p>So I guess you folks just weren&#8217;t eating enough chocolate ice cream!</p>
+
+
+	<p><strong>Continuing the saga&#8230;</strong></p>
+
+
+	<p>An envelope arrived two days ago, a mysteriously <strong>thick</strong> envelope, and what should it contain but a $10 gift card from Whole Foods! I guess the squeaky wheel gets the oil, however I did try the new Rocky Road flavor mentioned above by Leland, and while the chocolate ice cream part is okay, and there are little crunchy bits in it that must be nuts (I hope!), the big pockets of rubbery marshmallow it is larded with make it virtually inedible; it seems to have a lot more marshmallow than other brands&#8217; Rocky Roads have. Some might think that&#8217;s a good thing but I am not one of them.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id13fb">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-2678"><p>They&#8217;ve discontinued <span class="caps">CHOCOLATE</span> ice cream? That&#8217;s just wrong. Chocolate is a basic staple of ice cream. You <span class="caps">NEED</span> chocolate in your ice cream stash.</p>
+<p>I feel your pain, Rebecca. Boo.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.metakathryn.com"><span class="alias">Kathryn</span></a>
+  				<span>on September 1, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2679"><p>Ditto to what Kathryn said.  Appalling!!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Gerda</span></span>
+  				<span>on September 1, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2680"><p>That&#8217;s really too bad. Whole Foods chocolate ice cream is usually the only ice cream I buy. At $3.99, it&#8217;s much cheaper than anything else. It also tastes and smells really good and chocolaty, and it&#8217;s dense. I&#8217;ll check out the Manhattan situation this weekend and report back.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on September 1, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2681"><p>I feel your pain.  Every store should stock plenty of good chocolate ice cream.</p>
+<p>Just curious, though, about the container down-sizing.  Is this to gouge more money out of us or is it for some other reason, e.g., people feel too guilty about buying larger portions of food that&#8217;s not so good for you?</p>
+<p>One more thing: <span class="caps">HFCS</span> is surely the devil&#8217;s candy and I don&#8217;t blame you for avoiding it, but in ice cream it might offer the benefit of smooth texture.  (Please don&#8217;t hate me for saying something halfway nice about the stuff.)</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://haverchuk.blogspot.com"><span class="alias">michael</span></a>
+  				<span>on September 1, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2682"><p>I don&#8217;t think there&#8217;s any question that the smaller container size is purely a question of a bigger profit; the same thing happened to coffee and I don&#8217;t think anyone felt &#8220;guilty&#8221; about buying a 3-lb. can of coffee.</p>
+<p>As far as defending <span class="caps">HFCS</span> goes &#8211; NO <span class="caps">SOUP</span> <span class="caps">FOR</span> <span class="caps">YOU</span>!!! Yes, it may make the ice cream slightly &#8220;creamier&#8221;, although I think it&#8217;s just a shortcut to creaminess, but I&#8217;m not willing to trade creaminess for obesity. I realize some might say if I&#8217;m talking about eating ice cream obesity just goes with the territory, but I firmly believe that <span class="caps">HFCS</span> is the culprit behind the obesity problem in this country. <span class="caps">BTW</span>, real Italian gelato is plenty creamy and it doesn&#8217;t have <span class="caps">HFCS</span> in it.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on September 1, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2683"><p>Rebecca,</p>
+<p>Kopp&#8217;s ships: http://www.kopps.com/shop/home.aspx  :) Just in case you want some good chocolate ice cream&#8230;</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://yulinkacooks.blogspot.com"><span class="alias">Yulinka</span></a>
+  				<span>on September 1, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2684"><p>Discontinued chocolate ice cream&#8230;unbelievable.  What&#8217;s next, are they going to stop carrying eggs and milk?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Carly</span></span>
+  				<span>on September 1, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2685"><p>What is <span class="caps">HFCS</span>??</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Sam</span></span>
+  				<span>on September 1, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2686"><p>Hi, Sam &#8211; welcome to the blog! <span class="caps">HFCS</span> is high fructose corn syrup; see the link in the original post above. I probably shouldn&#8217;t use so much jargon, or at least spell things out once in awhile so folks who are new to the phraseology can catch up! I have been trying to eliminate products containing <span class="caps">HFCS</span> from my pantry shelves and finding it&#8217;s in almost all packaged foods, like crackers, cold cereal, cookies, granola bars, yogurt &#8211; basically anything that has been sweetened, in fact try finding bottled barbecue sauce without it, or Worcestershire sauce.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on September 1, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2687"><p>I can&#8217;t believe it! My kids think it the best chocolate ice crean ever. How do I tell them. Bring it back.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Nancy</span></span>
+  				<span>on September 1, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id13fc">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id13fd" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id13fd_hf_0" id="id13fd_hf_0" /><input type="hidden" name="wicket:interface" value=":728:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id13fe" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id13ff" name="add" value="Add a comment" onclick="wicketShow('id13ff--ajax-indicator');var wcall=wicketSubmitFormById('id13fd', '../../?wicket:interface=:728:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id13ff--ajax-indicator');}.bind(this),function() { ;wicketHide('id13ff--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id13fd')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id13ff--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

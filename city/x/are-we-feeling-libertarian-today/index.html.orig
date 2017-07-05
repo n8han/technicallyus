@@ -1,0 +1,209 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/city-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>City Slicking / Are we feeling libertarian today?</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../city">
+			
+			<img alt="City Slicking" src="../../../resources/org.apache.wicket.Application/city-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../city">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/city-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id1c02" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Are we feeling libertarian today?" width="382" class="title" src="../../../resources/net.databinder.components.RenderedLabel/5614fa2c"/><span class="title">Are we feeling libertarian today?</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Doctor Barnett</span>, <span>on November 21, 2006</span></span>
+			<span id="id1c03" class="tags">
+					{&nbsp;<span><a href="../../../city/tag/politics/#selected-tag"><span>politics</span></a><span id="id1c04">, </span></span><span><a href="../../../city/tag/libertarianism/#selected-tag"><span>libertarianism</span></a><span id="id1c05">, </span></span><span><a href="../../../city/tag/slate/#selected-tag"><span>slate</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Despite my enthusiasm for picking apart <a href="http://technically.us/doc/articles/2006/07/30/compromised-logic">self-contradictory liberal positions</a>, I’m obviously a raving liberal queen who votes entirely for Democratic candidates and thinks that “voting for the person, not the party” is a childish delusion.</p>
+
+
+	<p style="float:right"><img src="/pictures/trash.jpg" alt="" /></p>
+
+
+	<p>And yet, there’s always that rhetorically beautiful tug of libertarianism. Come on, who can get through <a href="http://www.lp.org/issues/platform_all.shtml">the Libertarian platform</a> without reading themselves in there?</p>
+
+
+	<p>I had mostly forgotten about this nettlesome ideological internal conflict until I started reading the <a href="http://www.homelandstupidity.us/">Homeland Stupidity</a> weblog. (My obsession with <a href="http://technically.us/doc/articles/tag/flying">hating the <acronym title="">TSA</acronym></a> made this inevitable.)</p>
+
+
+	<p>So of course I cherished their every word, until they started <a href="http://www.homelandstupidity.us/2006/09/05/california-communists-pass-single-payer-health-care/">ranting about California Communists passing single-payer health care</a>. Yikes. I kind of automatically disagree with that sentiment, because I detest whatever you want to call the way we do things now.</p>
+
+
+	<p>As a working person with “good” insurance and all that, it’s hard enough for me to see a doctor that I just don’t. Phone calls, paperwork, rules, co-pays… wtfe. Don’t even get me started about the dentist. The whole thing is a disgusting and incompetent cash pit beloved only to the people it enriches.</p>
+
+
+	<p>My opinion on medicine isn’t any more developed than that, but fortunately Tim Noah’s thinking is <a href="http://www.slate.com/id/2153275/">fully baked</a> :</p>
+
+
+	<blockquote>
+		<p>The problem isn’t the science; it’s the boring stuff, like the size and variety of the cohort that’s insured, and the availability of computerized medical records, and the price tag for a visit to the doctor. Writ large, it’s the inability of the health care system to benefit economically from improving the long-term health of its customers. This is a job private industry can’t do.</p>
+	</blockquote>
+
+
+	<p>Short of somehow altering human psychology such that we live healthier lives and demand fewer elaborate and unnecessary procedures from the “best” doctors, I don’t see another way out of it either. We are not cool-headed shoppers when it comes to our health, we are <acronym title="">CAT</acronym> scan–demanding, McNugget-popping idiots. Bring on the government!</p>
+
+
+	<p>I guess I’ll never be a good libertarian, no matter how much I want to see the Department of <a href="http://www.slate.com/id/2066978/">Homeland</a> security torn tentacle from tentacle, or <a href="http://www.lewrockwell.com/rockwell/drunkdriving.html">drunk driving legalized</a>. The best I can do is like the programs I like and hate the ones I hate, like everyone else.</p>
+
+
+	<p>Yes, I did just say legalize drunk driving.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about'>About</h3>
+
+<p><em>City Slicking</em> is about urban life, transportation, energy, liberty, and language.</p>
+
+<h3 id='haunts'>Haunts</h3>
+
+<p><a href='http://twitter.com/n8han/'>Twitter</a><br /><a href='http://technically.us/code/'>Coderspiel</a><br /><a href='http://www.streetsblog.org/'>Streetsblog</a><br /><a href='http://gawker.com/people/alexpareene/posts/'>Pareene</a><br /><a href='http://www.copenhagenize.com/'>Copenhagenize</a><br /><a href='http://itre.cis.upenn.edu/~myl/languagelog/'>Language Log</a><br /><a href='http://t4america.org/'>Trans. for America</a></p>
+
+<h3 id='wire_service'>Wire Service</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/city-rss' title='All in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-short-rss' title='Left column, frequent links and notes'>Quickies</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-long-rss' title='Main column, occasional extended posts'>Treatise</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1c06">
+  		<div><h3 id='backtalk'>Backtalk</h3></div>
+  		<div>
+  			<div id="item-958"><p>And you didn&#8217;t read my latest stuff about drunk driving? :)</p>
+
+<p>As for health care, the mostly successful attempts over the past several decades to put government in charge of health care are how we got into this mess in the first place. California&#8217;s new system, along with Massachusetts, are just going to make matters worse for everyone involved—doctors and patients alike.</p>
+
+<p>If you want to see real progress on making health care affordable and accessible, you&#8217;re going in entirely the wrong direction. Freeing it from the government bureaucracy which currently drives up its prices, implements tons of needless paperwork, and invades all of our privacy, is the only thing that will accomplish that goal.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.homelandstupidity.us/"><span class="alias">Michael Hampton</span></a>
+  				<span>on November 21, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-959"><p>Yes, I stole that link from your drunk driving post. I read it and thought, &#8220;me too!&#8221; and so finally got around to posting this one where I disagree with you.</p>
+
+<p>I can see that government interference has increased the cost of providing care. But even if that increase were 30%, I don&#8217;t think that health care is 30% too expensive; I think it&#8217;s in another world. Insurance, private and public, distorts the market to where it&#8217;s no longer a market at all. It&#8217;s a free for all, at least for patients who are covered and able to jump through the hoops, and for doctors who can charge practically whatever they want.</p>
+
+<p>I&#8217;m interested in whatever market-driven solutions you want to post to <em>H.S.</em> How do we bring the reasonable pricing of plastic surgery, LASIK, and other procedures that aren&#8217;t covered by insurance to things that <em>must</em> be covered by insurance?</p>
+
+<p>(This is not something I want to debate here, tho, as I said I&#8217;m not really that up on it, and I have to pack for Thanksgiving. But the Tim Noah article is a good read if you haven&#8217;t read it yet. And keep up the good work of dismantling DHS!)</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Doc Barnett</span></span>
+  				<span>on November 21, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-960"><p>I had a writer who did excellent work on health care, who&#8217;s no longer with Homeland Stupidity. But I&#8217;ll see if I can put something together soon.</p>
+
+<p>In the meantime, here&#8217;s a point to ponder:</p>
+
+<p>Insurance causes people to overconsume health care, driving up the prices. Giving everyone state-provided or state-mandated health insurance seems as though it would simply magnify this problem further. And indeed, we&#8217;ve seen in Canada and the U.K. that in order to control costs, those countries have had to resort to rationing. So good health care becomes impossible to get at any price in the state health care system.</p>
+
+<p>People won&#8217;t make intelligent health care decisions unless they <em>directly</em> see the prices they pay for a given procedure, even if they don&#8217;t have to pay them directly. The LASIK provider will tell you exactly how much it costs up-front; try that with the provider of an MRI! A good start would be bringing this information out into the open.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.homelandstupidity.us/"><span class="alias">Michael Hampton</span></a>
+  				<span>on November 21, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-961"><p>A woman brought a very limp duck into a veterinary surgeon. As she laid her pet on the table, the vet pulled out his stethoscope and listened to the bird&#8217;s chest.</p>
+
+<p>After a moment or two, the vet shook his head sadly and said, &#8221;I&#8217;m so sorry, your duck Cuddles has passed away.&#8221;</p>
+
+<p>The distressed owner wailed, &#8220;Are you sure?&#8221;</p>
+
+<p>&#8220;Yes, I am sure. The duck is dead,&#8221; he replied.</p>
+
+<p>&#8220;How can you be so sure,&#8221; she protested. &#8220;I mean, you haven&#8217;t done any testing on him or anything. He might just be in a coma or something.&#8221;</p>
+
+<p>The vet rolled his eyes, turned around and left the room, and returned a few moments later with a black Labrador Retriever.</p>
+
+<p>As the duck&#8217;s owner looked on in amazement, the dog stood on his hind legs, put his front paws on the examination table and sniffed the duck from top to bottom. He then looked at the vet with sad eyes and shook his head.</p>
+
+<p>The vet patted the dog and took it out, and returned a few moments later with a cat.</p>
+
+<p>The cat jumped up on the table and also sniffed delicately at the bird from head to foot. The cat sat back on its haunches, shook its head, meowed softly and strolled out of the room.</p>
+
+<p>The vet looked at the woman and said, &#8221;I&#8217;m sorry, but as I said, this is most definitely, 100% certifiably a dead duck.&#8221;</p>
+
+<p>With that, the vet turned to his computer terminal, hit a few keys and produced a bill, which he handed to the woman.</p>
+
+<p>The duck&#8217;s owner, still in shock, took the bill. &#8220;$150!&#8221;, she cried, &#8220;just to tell me my duck is dead!&#8221;</p>
+
+<p>The vet shrugged. &#8221;I&#8217;m sorry. If you&#8217;d taken my word for it, the bill would have been $20, but with the Lab report and the Cat scan, it&#8217;s now $150.&#8221;</p>
+<em>(In a free market the vet would not have deceived his patient in such a way, because she could have readily refused to pay, noting that she had not expressly agreed to the diagnostic procedure or its cost. In a government-pay health care system, however, the dead-duck trick is exactly what is pulled: the patient may not know what's being done and has little financial incentive to find out or to complain.)</em></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.homelandstupidity.us/"><span class="alias">Michael Hampton</span></a>
+  				<span>on November 21, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id1c07">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id1c08" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id1c08_hf_0" id="id1c08_hf_0" /><input type="hidden" name="wicket:interface" value=":1071:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id1c09" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id1c0a" name="add" value="Add a comment" onclick="wicketShow('id1c0a--ajax-indicator');var wcall=wicketSubmitFormById('id1c08', '../../../?wicket:interface=:1071:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id1c0a--ajax-indicator');}.bind(this),function() { ;wicketHide('id1c0a--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id1c08')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id1c0a--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

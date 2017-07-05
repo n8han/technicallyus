@@ -1,0 +1,224 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Runaway processing</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id25a6" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Runaway processing" width="327" class="title" src="../../../resources/net.databinder.components.RenderedLabel/ffc6429d"/><span class="title">Runaway processing</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on August 10, 2008</span></span>
+			<span id="id25a7" class="tags">
+					{&nbsp;<span><a href="../../../code/tag/spde/#selected-tag"><span>spde</span></a><span id="id25a8">, </span></span><span><a href="../../../code/tag/git/#selected-tag"><span>git</span></a><span id="id25a9">, </span></span><span><a href="../../../code/tag/processing/#selected-tag"><span>processing</span></a><span id="id25aa">, </span></span><span><a href="../../../code/tag/scala/#selected-tag"><span>scala</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Once upon a time there was a graphical programming princess named <a href='http://processing.org/'><strong>Processing</strong></a>. She conjured the most beautiful animations and interactive art in all the world! Every artist wanted to work with her. But the princess&#8217;s castle lay within a vast colony of millworkers that, excepting her own court, had little appreciation for her talents. Indeed, she was better known outside the colony than inside. The few millworkers that did request an audience with the princess required her to wear <a href='http://www.eclipse.org/'>their tool-laden overalls</a> instead of her own <a href='http://processing.org/reference/environment/'>elegant and simple gown</a>. As time passed, the exotic artists and artisans grew weary the journey to the mill, and to avoid this displeasure they they contrived <a href='http://ejohn.org/blog/processingjs/'>a replica of the princess</a> in papier-mâché. Meanwhile, a promising new land was being cultivated&#8230;</p>
+
+<h3 id='retrofitting_the_processing_development_environment_for_scala'>Retrofitting the Processing Development Environment for Scala</h3>
+
+<p>Processing is both a language and environment. While in this case <em>language</em> refers also to the <abbr title='Application Programming Interface'>API</abbr>, Processing has a distinct syntax known internally as p5 that is converted into Java by a preprocessor. This syntax dispenses with some qualities of Java that may be irksome to new programmers (or old programmers) with the help of an <abbr>ANTLR</abbr> generated parser.</p>
+
+<p>Where the specialized syntax has benefits, it also has costs. The build is more complicated, as <abbr>ANTLR</abbr> must first run against the grammar to generate Java sources to parse p5. This process is automated by shell scripts. Additionally, the number of people that are comfortable working on language grammars is small; the p5 grammar has yet to be <a href='http://dev.processing.org/bugs/show_bug.cgi?id=598'>updated</a> to Java 1.5 generics and loops.</p>
+
+<p>The Processing language and environment are being held back, presently, by the depth of their original ambition. Writing a customized Java grammar was the right thing to do at the time of Processing&#8217;s conception, with the <abbr title='Java Virtual machine'>JVM</abbr> as the best cross-platform virtual machine and Java as its only fully realized language. But now only the first of those things is true. Basing Processing on the standard version of a more modern language would free it from a complicated build process and the need for regular attention from language wizards.</p>
+
+<p>The language proposed here for that job is Scala, which ships off boatloads of Java cruft on sails of type inference. Beyond that it allows <abbr title='Application Programming Interface'>API</abbr> designers to vacuum remaining code hairballs with implicit conversions, first-class functions, and object mix-ins. All of the syntax substitutions made by <a href='http://dev.processing.org/reference/everything/javadoc/processing/app/preproc/PdePreprocessor.html'>p5&#8217;s preprocessor</a> are either unnecessary in Scala or can be equivalently performed by an underlying interface and implicit conversions. One pioneer has <a href='http://hipstersinc.com/blog/2008/1/23/scala_and_processing/'>blazed this trail</a> to the point of calling the core library from Scala, but bringing the language into the environment is the key to preserving—and even improving—the remarkable student-friendliness of Processing.</p>
+
+<h3 id='showing_not_telling'>Showing, not telling</h3>
+
+<p>Once you get into Git, you become a fork terrorist. Ohh ho ho&#8230; what will we fork next? Web frameworks with inadequate support for <abbr>RFC</abbr> 2616 section 13? Probably! But this week it was the Processing Development Environment.</p>
+
+<p>The fork started off as an attempt to replace the Eclipse Compiler for Java, used by the <abbr title='Processing Development Environment'>PDE</abbr>, with Scala&#8217;s. But then one thing lead to another and both the <abbr title='Eclipse Compiler for Java'>ECJ</abbr> and <abbr>ANTLR</abbr> dependencies were on the cutting room floor. The result:</p>
+
+<p class='break borderless' style='position: relative; left:-38px'><img src='http://technically.us/resources/com.typeturner.Typeturner/image?name=explode-scala' alt='Explode, in Scala' /></p>
+
+<p class='out borderless shadowed' style='position: relative; left:-20px'><img src='http://technically.us/resources/com.typeturner.Typeturner/image?name=explode-demo' alt='Explode running' /></p>
+
+<p class='break'>That&#8217;s a translation of <a href='http://processing.org/learning/3d/explode.html'>a basic Processing example</a>. The only structural change is the dispersal of <code>setup</code> code. In p5&#8217;s <em>active</em> mode, operations like <code>size</code> must be performed inside a method like <code>setup</code>. But in Scala the <a href='http://technically.us/git?p=processing.git;a=blob;f=app/src/processing/app/Sketch.java;h=afc345f8cb093604ce185f34d531d563120ad5c2;hb=refs/heads/scala#l1465'>wrapped</a> top-level code becomes the base constructor, which is nested here in a <em>draw proxy</em> that is constructed in <a href='http://technically.us/git?p=processing.git;a=blob;f=core/src/processing/core/scala/SApplet.java;h=41040e2f5b50991b7f1e49ac376620ed4a3cb463;hb=HEAD'><code>SApplet</code>&#8217;s setup method</a>.</p>
+
+<p>This conceit frees the user from needing to know the difference between construction and setting up, and allows global values to be initialized using methods that are not otherwise available until after construction (eliminating a few lines of code in this case). It&#8217;s half-way to the simplicity of Processing&#8217;s <em>static</em> mode and could eliminate the need for it, particularly since you can replace the blank template for new files with one that defines a blank <code>draw</code> method.</p>
+
+<h3 id='after_the_fork'>After the fork</h3>
+
+<p>For the moment the base <code>SApplet</code> class is still in Java, and lives in a forked core module. If this experiment becomes anything serious it would be smarter to work with a completely stock core and build a separate module for Scala extensions, written in Scala. The forked development environment will need a distinct name (Spde?) and branding graphics (???). That all sounds really time consuming, but also fun, and not that difficult since a lot of old stuff can be discarded. Instead of running sketches in a separate process it might be faster to do it directly and with some live reloading potential thanks to Scala&#8217;s interpreter-concious compiler and/or JavaRebel&#8217;s free Scala license.</p>
+
+<p class='liner'> Hello! Now the fork has been converted to Buildr and is in a <a href='http://technically.us/git?p=spde.git'>fresh, tiny repository</a>. The original clone will be used to merge upstream changes but won&#8217;t be published.<br />Hello again! Now <a href='http://technically.us/spde/'>Spde has a site</a> with downloads so you can skip all this building business.</p>
+
+<p>Does anyone want to help with this? Is processing.org itself interested in moving to Scala? Whatever works! Probably what wouldn&#8217;t work so well is for a lot of people to try to clone this branch from <code>technically.us</code>, which is technically on a <abbr>DSL</abbr> connection. Many jars, and old versions of jars, are embedded therein. Once the fork is converted to <a href='http://incubator.apache.org/'>Buildr</a> (oh, yes) those can be burned from the history (or maybe it is easier to just have github serve the ancient jars and everything else). But if you really want to play with it now <em class='smcp'>and make improvements</em> then you can try a <strike>shallow clone</strike> (see note):</p>
+
+<pre><code>git clone git://technically.us/git/spde</code></pre>
+
+<p class='break'> And as for JavaScript: this ain&#8217;t over yet.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id25ab">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-5648"><p>Wow! Good demonstration of what Scala is capable of in terms of domain-specific languages. The critical point now is to be able to integrate the expressiveness of Processing with standard Java/Scala. That may be something shown in the example you gave, but I haven&#8217;t had a chance to clone the repo yet (crazy iPhone <em>still</em> doesn&#8217;t have git).</p>
+
+<p>Anyway, I personally quite like working on grammars in languages like ANTLR, but a scala DSL is certainly easier to adapt and integrate. Nice work!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.codecommit.com"><span class="alias">Daniel Spiewak</span></a>
+  				<span>on August 11, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5649"><p>Thanks! A Scala API on top of core will be awesome. Just need to rework the build process to support it.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on August 11, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5650"><p>I&#8217;d love to help, as I&#8217;ve been mixing scala and processing via HipsterIncs method for a while now.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.praytothemachine.com/"><span class="alias">TylerWeir</span></a>
+  				<span>on August 11, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5651"><p>I know, I linked! Would love to see any code you&#8217;ve been working on since that post. Hm I just looked at github and rediscovered that the free account is limited to 100MB. I&#8217;ll get the blobs out of my branch as soon as I can so it will be easier to share this.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on August 11, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5652"><p>Cool, I&#8217;ll clone at home&#8230; (that sounds weird)</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.praytothemachine.com/"><span class="alias">TylerWeir</span></a>
+  				<span>on August 11, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5785"><p>Great posts! I managed to adapt your Flocking code to work with Scala and Processing in Eclipse, and then was able to export it as a single jar with the Fat Jar plugin, but the file size included the 3.5mb for scala-library.jar.</p>
+
+<p>I then tried to use ProGuard on my own, but it kept failing, I think on this line: <code>Warning: flocking.Flock$$anonfun$1: can't find referenced field 'processing.core.PApplet flocking$Flock$$parent' in class flocking.Flock</code> Do you have the options file for ProGuard that SPDE uses? Any other thoughts?</p>
+
+<p>zip file is <a href='lehrburger.com/icm/Flocking.zip'>here</a></p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://lehrblogger.com"><span class="alias">Steven</span></a>
+  				<span>on October 1, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5786"><p>ah, bad href for the zip file, try <a href='http://lehrburger.com/icm/Flocking.zip'>this</a></p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://lehrblogger.com"><span class="alias">Steven</span></a>
+  				<span>on October 1, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5787"><p>Hi Steven, the ProGuard config is <a href='http://technically.us/git?p=spde.git;a=blob;f=app/src/main/java/processing/app/Sketch.java;h=a1d4c2beab8edd05f555b12ba63fada773d01fbe;hb=HEAD#l1688'>in Sketch</a>. Also <a href='http://technically.us/git?p=spde.git;a=blob;f=core-scala/src/main/scala/processing/core/scala/SApplet.scala;hb=HEAD'>SApplet</a> may be of interest. The way Spde works currently is, the sketch is inserted as a DrawProxy implementation within SApplet. There are just a few things to change if you&#8217;re embedding directly in a PApplet, which I think you have discovered.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on October 1, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5800"><p>Thanks for the response! And sorry it took me so long, it&#8217;s been a busy week.</p>
+
+<p>I did a Clean in Eclipse, and that seems to have resolved that specific ProGuard warning - it now completes, but when I try to launch the jar, it gives an &#8220;Exception in thread &#8220;main&#8221; java.lang.NoSuchMethodError: main&#8221;</p>
+
+<p>I&#8217;m explicitly keeping processing.core.PApplet though, and I thought main was in that?</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://lehrblogger.com"><span class="alias">Steven</span></a>
+  				<span>on October 6, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5825"><p>(I&#8217;m going to reply on Steven&#8217;s blog.)</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on October 13, 2008</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id25ac">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id25ad" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id25ad_hf_0" id="id25ad_hf_0" /><input type="hidden" name="wicket:interface" value=":1373:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id25ae" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id25af" name="add" value="Add a comment" onclick="wicketShow('id25af--ajax-indicator');var wcall=wicketSubmitFormById('id25ad', '../../../?wicket:interface=:1373:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id25af--ajax-indicator');}.bind(this),function() { ;wicketHide('id25af--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id25ad')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id25af--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

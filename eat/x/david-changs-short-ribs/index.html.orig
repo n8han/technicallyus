@@ -1,0 +1,235 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / David Chang&#039;s short ribs</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="idc4c" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="David Chang's short ribs" width="382" class="title" src="../../../resources/net.databinder.components.RenderedLabel/53a3e926"/><span class="title">David Chang&#039;s short ribs</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on April 23, 2006</span></span>
+			<span id="idc4d" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/ethnic%20cooking/#selected-tag"><span>ethnic cooking</span></a><span id="idc4e">, </span></span><span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Just thinking of these short ribs a few hours after dinner is driving me wild with the urge to open the fridge and eat the leftovers. I first <a href="http://technically.us/eat/articles/2005/10/21/cafe-habana-and-momofuku-noodle-bar">ate</a> at Momofuku Noodle Bar in October and loved it. I went <a href="http://technically.us/eat/articles/2005/11/09/l%C3%89cole-and-momofuku-noodle-bar-part-ii">again</a> with my parents the following month, and I&#8217;ve been thinking about it ever since. After making this recipe, which was part of the New York Times&#8217;s several-part feature on David Chang, Momofuku&#8217;s chef and owner, I&#8217;m determined to make my way over there again as soon as I can. <a href="http://acadeka-and-that-rum-cake.blogspot.com/">Sabena</a> is obsessed with having their crawfish, so maybe a trip is in order this week or next.</p>
+
+
+	<p>I haven&#8217;t made short ribs since <a href="http://technically.us/eat/articles/2005/12/01/daube-of-short-ribs">December</a>, when I made an orange-cumin daube of them twice. The dish I made this weekend reminded me  what a great cut of beef the short rib is: it&#8217;s cheap, it&#8217;s easy to cook well, and it can be as tender as butter.</p>
+
+
+	<p>David Chang&#8217;s recipe involved several ingredients I hadn&#8217;t used in a stew before, like mirin, sake, and pear juice. I wasn&#8217;t sure what to expect. It ended up looking just like any other beef stew, but the aroma and taste were exotic. And the meat&#8230;the meat was meltingly tender and flavorful with a delicious, crisp crust. I reduced the sauce to almost a syrup.</p>
+
+
+	<p style="float:center"><img src="/pictures/shortribs.jpg" alt="" /></p>
+
+
+	<p>Despite its excellent results, I think the Times&#8217;s recipe for this dish is poorly written and weird, and halfway through it I started to get nervous. Step 3 tells you to strain the liquid and, if you like, to refrigerate it overnight. However, it doesn&#8217;t tell you what to do with the vegetables, nor does it tell you to put the meat and sauce back together before refrigerating. That tells me that I should refrigerate the meat and sauce and vegetables separately, which I know doesn&#8217;t end well. So, I didn&#8217;t strain it at all; I just let it cool off the heat and then stuck it in the fridge. Before reheating it tonight I lifted off a thick layer of fat, and I simmered it for about an hour while I finished the rice and vegetables.</p>
+
+
+	<p><strong>Braised Short Ribs, Adapted from David Chang</strong></p>
+
+
+	<p>1½ cups pear or apple juice <br> 1 cup sake <br> 1 cup mirin <br> ½ cup sugar <br> 1 cup soy sauce <br> Salt and freshly ground black pepper <br> 2 tablespoons chopped garlic <br> 10 cloves crushed garlic <br> 1 tablespoon sesame oil <br> 2 tablespoons neutral oil, like corn or 
+grapeseed <br> 4 to 5 pounds short ribs <br> 2 large onions, peeled and roughly chopped <br> 1 pound carrots, peeled and cut into chunks <br> 2 tablespoons butter <br> 8 to 12 small potatoes, preferably fingerlings, trimmed <br> ½ cup chopped scallions <br> 4 cups cooked white rice.</p>
+
+
+	<ol>
+	<li>Preheat oven to 350 degrees. In a saucepan, combine juice, sake,
+mirin, sugar, soy sauce, about 20 grinds of pepper, both forms of
+garlic, sesame oil and 1½ cups water. Bring to a boil, then simmer.</li>
+		<li>Put corn or grapeseed oil in a large ovenproof braising pan or
+skillet over medium-high heat and add ribs, seasoning them liberally
+with salt and pepper. Brown well on one side, moving them around to
+promote even browning. Turn, add onions and half the carrots, and
+brown other side, stirring vegetables occasionally.</li>
+		<li>Carefully pour braising liquid over meat and bake, bone-side up and
+submerged in liquid (add water or juice if necessary), for 3 to 4
+hours, until meat falls from bones. Cool ribs in liquid for 1 hour,
+then remove; strain liquid. At this point, ribs and liquid can be
+covered and refrigerated overnight.</li>
+		<li>Remove bones from ribs. In a pot, combine meat with braising
+liquid; heat to a boil then simmer, reducing liquid until syrupy. If
+it seems too thick, thin with a bit of water.</li>
+		<li>About ½ hour before you are ready to serve, put butter in a skillet
+and add potatoes and remaining carrots. Cook, stirring occasionally
+and seasoning with salt and pepper, until browned and nearly tender,
+about 20 minutes. Add to meat. Taste mixture and adjust seasonings if
+necessary, then garnish with scallions and serve on rice.</li>
+	</ol></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="idc4f">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-1926"><p>Wow! They look amazing. The picture is making me crave short ribs and it&#8217;s only 10:00 in the morning!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.creampuffsinvenice.ca"><span class="alias">Ivonne</span></a>
+  				<span>on April 23, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1927"><p>Do you think these would be <strong>too</strong> inappropriate to serve in June? I&#8217;m thinking a Father&#8217;s Day dinner since short ribs are <a href="http://www.billyprice.com">Poppy&#8217;s</a> favorite dish.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on April 23, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1928"><p>I don&#8217;t think so. The Asian flavors make it seem kind of summery, compared to other stews anyway. I certainly intend to make them again before summer is over.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on April 23, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1929"><p>Did you follow the direction to remove the meat from the bone? My instinct would be not to do this because we like to kind of pick up our short ribs and knaw on them. Also, do you think you could serve these on the day you made them or do you think the sauce would be too greasy? I wanted to make them today. (And eat them tonight.)</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on April 23, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1930"><p>Your photo and descriptions makes me want to eat some of these immediately.  And I feel very sorry that I left New York before visiting Momofuku.</p>
+<p>Glad to find your site, though!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://littlebouffe.blogspot.com/"><span class="alias">Little bouffe</span></a>
+  				<span>on April 23, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1931"><p>Momofuku will be here for a long time. Thanks for reading! You should give the ribs a try.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on April 23, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1932"><p>Good for you for trying this. I took one look at the recipe and said no thanks.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Luisa</span></span>
+  				<span>on April 23, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1933"><p>Thanks, Luisa. Not a short rib fan? Or did something else about the recipe turn you off?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on April 23, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1934"><p>I love this recipe, I&#8217;m going to try it right now in my pressure cooker and I bet it&#8217;s going to take about 1/2 an hour for falling-off-the-bone deliciousness. I&#8217;ll let you know how it goes.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">http://blissfullywanting.blogspot.com/</span></span>
+  				<span>on April 23, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6576"><p>I have made and <span class="caps">LOVED</span> Chang&#8217;s Short Ribs. When I first made them I also did not strain the liquid; I refrigerated them overnight, removed a lot of congealed fat (sorry for that word, sounds icky); and served the potatoes and carrots separately.  Wonderful!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Norma Johnson</span></span>
+  				<span>on January 4, 2010</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="idc50">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="idc51" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="idc51_hf_0" id="idc51_hf_0" /><input type="hidden" name="wicket:interface" value=":450:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="idc52" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="idc53" name="add" value="Add a comment" onclick="wicketShow('idc53--ajax-indicator');var wcall=wicketSubmitFormById('idc51', '../../../?wicket:interface=:450:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('idc53--ajax-indicator');}.bind(this),function() { ;wicketHide('idc53--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('idc51')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="idc53--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

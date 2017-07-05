@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Cesare Casella&#039;s Tuscan fries</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../eat">
+			
+			<img alt="Eat" src="../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../eat">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id39c" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Cesare Casella's Tuscan fries" width="458" class="title" src="../../resources/net.databinder.components.RenderedLabel/65dbdd38"/><span class="title">Cesare Casella&#039;s Tuscan fries</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on December 28, 2005</span></span>
+			<span id="id39d" class="tags">
+					{&nbsp;<span><a href="../../eat/tag/ethnic%20cooking/#selected-tag"><span>ethnic cooking</span></a><span id="id39e">, </span></span><span><a href="../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>I made french fries for the first time tonight. Actually, Tuscan fries, in the manner of Cesare Casella. Jeffrey Steingarten gave me the recipe in the book I just finished, and I think I&#8217;ll just make them every night from now until I&#8217;m dead.</p>
+
+
+	<p style="float:center"><img src="/pictures/tuscanfries.jpg" alt="" /></p>
+
+
+	<p>What&#8217;s unique about these fries—at least to me—is that all of the herbs are fried in the oil with the potatoes, as are the salt and pepper. Mommy says that everyone is frying sage leaves these days, but this was the first time I&#8217;d seen it. The result is so addictively delicious: crispy, salty, oily but in a good way. n8 and I sat around them and cleaned the plate of all but the herb stems.</p>
+
+
+	<p>To make these Tuscan fries, get a few big <strong>potatoes</strong> (I used, and strongly recommend, <a href="http://www.freshdirect.com/product.jsp?productId=orgveg_pot_yukgld&#38;catId=orgnat_veg_root&#38;trk=snav">Yukon Gold</a>). Heat at least one inch of peanut or vegetable <strong>oil</strong> (enough to completely cover the potatoes) to 360ºF (a deep-fry thermometer is indispensable here. I know that because I just got mine yesterday, and all of my frying experiments up to now have been utter failures). Add the potatoes all at once, and watch the temperature drop by about 100º. Stir those bad boys. After a few minutes, add a few <strong>garlic cloves</strong> and a couple sprigs of <strong>rosemary</strong>, and keep stirring. A few minutes later, add a bunch of <strong>thyme</strong>, <strong>oregano</strong>, and <strong>sage</strong>, stirring all the while. Add one or two tablespoons of <strong>sea salt</strong>. After 9 or 10 minutes, when the fries are good and golden, take one out and taste it. If the outside is crisp and the inside creamy, they are done. Grind in a bunch of <strong>black pepper</strong> and remove the fries and herbs with your skimmer or a slotted spoon. Place them on paper towels or in a slow oven if you plan to make more. I added extra Maldon and pepper once I took them out.</p>
+
+
+	<p>A few turns of the parmesan cheese grinder wouldn&#8217;t be amiss here either, come to think of it.</p>
+
+
+	<p>It seems so decadent having four different kinds of fresh herbs in the house, what with the cost, but I try to follow recipes to the letter the first time I try them. In the future I may just use rosemary and thyme, or rosemary and sage. Oregano isn&#8217;t too strong in flavor, although it is pretty to look at.</p>
+
+
+	<p>This wasn&#8217;t all we had for dinner, by the way. I also pan-roasted a giant split chicken breast and served it with an excellent tart sauce from Cook&#8217;s Illustrated made of red wine, red wine vinegar, chicken broth, butter, and a minced shallot. (Ok, so I used onion. Do <em>you</em> have shallots on hand all the time?)</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id39f">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-1337"><p>Well, aren&#8217;t <strong>we</strong> in the know.</p>
+<p>(It was all so good, I&#8217;m going to cry.)</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">DoctorBarnett</span></span>
+  				<span>on December 28, 2005</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1338"><p>Glad to see Steingarten&#8217;s recipe worked- I had read his book awhile back and was curious about the recipe.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://chezchristine.typepad.com/"><span class="alias">Chez Christine</span></a>
+  				<span>on December 28, 2005</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1339"><p>It&#8217;s the first recipe of his I&#8217;ve tried. His style of writing them is so unique&#8212;they read more like short stories than recipes. Anyway this one worked out excellently!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">MrLittlePants</span></span>
+  				<span>on December 28, 2005</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id3a0">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id3a1" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id3a1_hf_0" id="id3a1_hf_0" /><input type="hidden" name="wicket:interface" value=":154:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id3a2" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id3a3" name="add" value="Add a comment" onclick="wicketShow('id3a3--ajax-indicator');var wcall=wicketSubmitFormById('id3a1', '../../?wicket:interface=:154:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id3a3--ajax-indicator');}.bind(this),function() { ;wicketHide('id3a3--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id3a1')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id3a3--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

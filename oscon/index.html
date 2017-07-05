@@ -1,0 +1,681 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+      
+        <title>Rewiring Android with Scala</title>
+        <link href="android-scala_files/show.css" type="text/css" 
+rel="stylesheet">
+        <script type="text/javascript" src="android-scala_files/jquery-1.js"></script>
+        <script type="text/javascript" src="android-scala_files/show.js"></script>
+        <link href="android-scala_files/custom.css" type="text/css" 
+rel="stylesheet">
+      </head><body>
+        <div style="display: none;" id="instructions">
+          arrow ← to go left, arrow → to go right
+        </div>
+        <div style="height: 752px; width: 1163px;" id="slides">
+        <div style="margin-left: 0px;" id="reel">
+          <div style="height: 752px; width: 1163px;" class="content" 
+id="slide-0">
+       <div class="container">
+        <h1>Rewiring Android <br> with Scala</h1><p>by Nathan Hamblen
+</p><p><a href="http://code.technically.us/">http://code.technically.us/</a>
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-1">
+       <div class="container">
+        <p>The Android platform provides a set of well designed, 
+object-oriented APIs.
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-2">
+       <div class="container">
+        <p>These interfaces are written in Java, for Java.
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-3">
+       <div class="container">
+        <p>So: Why use another language?
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-4">
+       <div class="container">
+        <p>Let’s say I want to run some code.
+</p><p><img src="android-scala_files/code.jpg" alt="code">
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-5">
+       <div class="container">
+        <p>Like in this <code>DialogInterface.OnShowListener</code>:
+</p><blockquote><p>Interface used to allow the creator of a dialog to <strong>run
+ some code</strong> when the dialog is shown.
+</p></blockquote>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-6">
+       <div class="container">
+        <p>Here we go!
+</p><pre><code>dialog.setOnShowListener(
+  new DialogInterface.OnShowListener() {
+    public void onShow(DialogInterface interface) {
+      runSomeCode();
+    }
+  }
+);
+</code></pre>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-7">
+       <div class="container">
+        <p>I also need to run some code in a background thread:
+</p><pre><code>new AsyncTask&lt;MyObject, Integer, Integer&gt; () {
+  protected Integer doInBackground(MyObject... objs) {
+    runSomeCode(objs[0]);
+  }
+}.execute(myObject);
+</code></pre>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-8">
+       <div class="container">
+        <p>And post code back to the UI thread:
+</p><pre><code>handler.post(new Runnable() {
+  public void run() {
+    runSomeUICode();
+  }
+});
+
+</code></pre>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-9">
+       <div class="container">
+        <p>Oh, geez. Can’t I just—
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-10">
+       <div class="container">
+        <p>RUN SOME CODE?
+</p><pre><code>dialog.setOnShowListener { di: DialogInterface =&gt; 
+  runSomeCode() 
+}
+
+future { runSomeCode(myObject) }
+
+post { runSomeUICode() }
+
+</code></pre>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-11">
+       <div class="container">
+        <p>Not in Java. :(
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-12">
+       <div class="container">
+        <h2>Java’s evil twin</h2>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-13">
+       <div class="container">
+        <p>Scala can stand in for Java in almost any situation.
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-14">
+       <div class="container">
+        <p>Including Android programming.
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-15">
+       <div class="container">
+        <p>Before you sneak code into a virtual machine, you can do 
+whatever you want.
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-16">
+       <div class="container">
+        <p>You want closures, mix-ins, even generic type reification?
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-17">
+       <div class="container">
+        <p>Scala’s compiler is an eager conspirator.
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-18">
+       <div class="container">
+        <p>But once the runtime show starts, Scala won’t pull anything 
+fancy.
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-19">
+       <div class="container">
+        <p>Live compilation, or open classes?
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-20">
+       <div class="container">
+        <p>That would be a dead giveaway.
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-21">
+       <div class="container">
+        <p>Those tricks may blur away on desktop hardware.
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-22">
+       <div class="container">
+        <p>But on a mobile device, such artifice revealed in slow 
+motion.
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-23">
+       <div class="container">
+        <p>Scala’s advanced techniques compile to JVM primitives that 
+are executed normally.
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-24">
+       <div class="container">
+        <p>So that neither the JVM, nor Android’s Dalvik VM
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-25">
+       <div class="container">
+        <p>—or more importantly their users—
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-26">
+       <div class="container">
+        <p>know the difference.
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-27">
+       <div class="container">
+        <p>Scala blends in to Android like a Russian spy at Microsoft.
+</p><p><img src="android-scala_files/scala-spy.jpg" alt="spy"></p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-28">
+       <div class="container">
+        <h2>Scala niceties</h2>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-29">
+       <div class="container">
+        <p>Traits let you mix behavior into base Android classes.
+</p><pre><code>trait ScalaActivity extends Activity {
+</code></pre>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-30">
+       <div class="container">
+        <p>Like a direct path to the UI thread:
+</p><pre><code>lazy val handler = new Handler
+def post(block: =&gt; Unit) { 
+  handler.post(new Runnable{
+    def run { block }
+  })
+}
+</code></pre>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-31">
+       <div class="container">
+        <p>To take care of business in one line.
+</p><pre><code>post { dlg.dismiss() }
+</code></pre>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-32">
+       <div class="container">
+        <p>Implicit conversions extend APIs <em>statically</em>.
+</p><pre><code>implicit def f2cancel(block: DialogInterface =&gt; Unit) = 
+  new DialogInterface.OnCancelListener {
+    def onCancel(dialog: DialogInterface) { 
+      block(dialog) 
+    }
+  }
+</code></pre>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-33">
+       <div class="container">
+        <p>So your code doesn’t have to.
+</p><pre><code>new AlertDialog.Builder(this)
+  .setOnCancelListener { 
+    di: DialogInterface =&gt; finish() 
+  }
+</code></pre>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-34">
+       <div class="container">
+        <p>We can even add “automatic resource block management.”
+</p><pre><code>def editor(
+  block: SharedPreferences.Editor =&gt; Unit
+) = {
+  val editor = sp.edit()
+  block(editor)
+  editor.commit()
+}
+</code></pre>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-35">
+       <div class="container">
+        <p>And commit behind the scenes.
+</p><pre><code>sp.editor { e =&gt;
+  e.putString("oauth_token", token.value)
+  e.putString("oauth_token_secret", token.secret)
+}
+</code></pre>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-36">
+       <div class="container">
+        <p>Plus, you can use your favorite Scala libraries!
+</p><pre><code>future { 
+  http(some_url &gt;&gt; { stm =&gt;
+    val bitmap = BitmapFactory.decodeStream(stm)
+    post { some_image.setImageBitmap(bitmap) }
+  } )
+}
+</code></pre>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-37">
+       <div class="container">
+        <p>So what’s the catch?</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-38">
+       <div class="container">
+        <h2>Bad casting</h2>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-39">
+       <div class="container">
+        <p>Scala isn’t just statically typed <em>like Java</em>.
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-40">
+       <div class="container">
+        <p>It’s statically typed <em>better than Java</em>.
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-41">
+       <div class="container">
+        <p>And because Scala’s type system is more powerful than Java’s,
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-42">
+       <div class="container">
+        <p>expectations for type safety in application code are higher.
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-43">
+       <div class="container">
+        <p>Scala makes us picky.
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-44">
+       <div class="container">
+        <p>Things start off all right.
+</p><pre><code>&lt;Button id="@+id/my_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/my_button_text"/&gt;
+</code></pre>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-45">
+       <div class="container">
+        <p>But then—ew.
+</p><pre><code>Button myButton = 
+  (Button) findViewById(R.id.my_button);
+</code></pre>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-46">
+       <div class="container">
+        <p>And then—no.
+</p><pre><code>val myButton = 
+  findViewById(R.id.my_button).asInstanceOf[Button]
+
+</code></pre>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-47">
+       <div class="container">
+        <p>Why does it return just a <code>View</code>?
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-48">
+       <div class="container">
+        <p>We declared the subtype in the layout.
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-49">
+       <div class="container">
+        <p>But <code>aapt</code> dumbed it down to this:
+</p><pre><code>public final class R {
+  ...
+  public static final class id {
+    public static final int my_button=0x7f060003;
+</code></pre>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-50">
+       <div class="container">
+        <p>By the time our code is compiled, the crucial type 
+information has been discarded.
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-51">
+       <div class="container">
+        <p>It can’t be restored by any coding trickery.
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-52">
+       <div class="container">
+        <p>If only there were <em>some way</em> to add our own step to 
+the build process.</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-53">
+       <div class="container">
+        <h2>sbt-android-plugin</h2>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-54">
+       <div class="container">
+        <p>This sbt plugin works with Android SDK tools to build 
+applications in a controlled, predictable, and flexible process.
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-55">
+       <div class="container">
+        <p>And you can hack it.
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-56">
+       <div class="container">
+        <p>You can add a pre-compilation step to generate a file <code>TR.scala</code>
+ that is like <code>R.java</code>, but with types.
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-57">
+       <div class="container">
+        <p>Lookup <a href="http://code.technically.us/post/824974287/rewiring-android-for-type-safe-layout-resources">this blog post</a> if you want to know how it works ↓
+</p><p><img src="android-scala_files/coderspiel.png" alt="coderspiel">
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-58">
+       <div class="container">
+        <p>To just use it, you need to have Simple Build Tool installed.
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-59">
+       <div class="container">
+        <p>Then you declare the plugin dependency in your sbt project, 
+and mix a <code>TypedResources</code> trait into the project definition.
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-60">
+       <div class="container">
+        <p>Perhaps an example would help?</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-61">
+       <div class="container">
+        <h2>Meetabout</h2><p><img 
+src="android-scala_files/meetabout.png" alt="icon">
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-62">
+       <div class="container">
+        <p>Meetabout turns web sites into meetups.
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-63">
+       <div class="container">
+        <p>(Or, it will when it’s finished.)
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-64">
+       <div class="container">
+        <p>Let’s clone it from github:
+</p><pre><code>$ git clone git://github.com/meetup/meetabout.git
+</code></pre>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-65">
+       <div class="container">
+        <p>And start sbt:
+</p><pre><code>$ sbt
+</code></pre>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-66">
+       <div class="container">
+        <p>It’s downloading the plugin! Why?
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-67">
+       <div class="container">
+        <p>Because in <code>project/plugins/Plugins.scala</code>, we 
+have this:
+</p><pre><code>import sbt._
+
+class Plugins(info: ProjectInfo) 
+    extends PluginDefinition(info)
+{
+  val android = "org.scala-tools.sbt" % 
+      "sbt-android-plugin" % "0.5.0"
+}
+</code></pre>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-68">
+       <div class="container">
+        <p>Now we’re in the sbt console. We need to update the 
+application’s dependencies first:
+</p><pre><code>&gt; update
+</code></pre>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-69">
+       <div class="container">
+        <p>And then compile:
+</p><pre><code>&gt; compile
+
+</code></pre>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-70">
+       <div class="container">
+        <p>Uh oh!
+</p><pre><code>You need to set ANDROID_SDK_HOME or ANDROID_SDK_ROOT
+
+</code></pre>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-71">
+       <div class="container">
+        <pre><code>&gt; ^D
+
+$ export ANDROID_SDK_HOME=/usr/local/android-sdk/
+
+$ sbt
+</code></pre>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-72">
+       <div class="container">
+        <p>Now it will work.
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-73">
+       <div class="container">
+        <p>This project has been enhanced with our 
+obsessive-compulsive-typing trait:
+</p><pre><code>class MeetaboutProject(info: ProjectInfo) 
+  extends AndroidProject(info: ProjectInfo) 
+  with MarketPublish with TypedResources {
+</code></pre>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-74">
+       <div class="container">
+        <p>So it generates an extra source before compilation, <code>TR.scala</code>.
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-75">
+       <div class="container">
+        <p>Now in app code, we can do this cool stuff:
+</p><pre><code>class SomeActivity extends Activity with TypedActivity {
+  val name = findView(TR.namefield).getText
+</code></pre>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-76">
+       <div class="container">
+        <p>Build and put into the emulator:
+</p><pre><code>&gt; install-emulator
+</code></pre>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-77">
+       <div class="container">
+        <p>Load up a sweet web site.
+</p><p><img src="android-scala_files/scala-lang.png" alt="scala-lang">
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-78">
+       <div class="container">
+        <p>Share it with some installed apps.
+</p><p><img src="android-scala_files/share.png" alt="share">
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-79">
+       <div class="container">
+        <p>Somebody’s meeting up about this page!
+</p><p><img src="android-scala_files/meetup.png" alt="share">
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-80">
+       <div class="container">
+        <p>Meetabout queried the Meetup Everywhere API to find content 
+tagged with that URL.
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-81">
+       <div class="container">
+        <p>Now we just need to find or create one one near us, sign up 
+for it, etc...
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-82">
+       <div class="container">
+        <p>It’s going to take a little while to build all this into the 
+app.
+</p><p><img src="android-scala_files/scala-meetups.png" 
+alt="scala-meetups">
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-83">
+       <div class="container">
+        <p>But this is the general idea!
+</p><p><img src="android-scala_files/pdxscala.jpg" alt="scala-meetups">
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-84">
+       <div class="container">
+        <p>Forks welcome.</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-85">
+       <div class="container">
+        <h2>In conclusion</h2>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-86">
+       <div class="container">
+        <p>Scala’s structural similarities to Java allow it to work as 
+normal on Android.
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-87">
+       <div class="container">
+        <p>Scala language constructs can be implicitly added to Java 
+APIs that don’t know anything about them.
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-88">
+       <div class="container">
+        <p>Simple Build Tool can build whatever crazy idea you come up 
+with.
+</p>
+       </div>
+      </div><div style="height: 752px; width: 1163px;" class="content" 
+id="slide-89">
+       <div class="container">
+        <p>So get to work.
+</p><p><img src="android-scala_files/workers.jpg" alt="workers"></p>
+       </div>
+      </div>
+        </div> 
+       </div>
+      </body></html>

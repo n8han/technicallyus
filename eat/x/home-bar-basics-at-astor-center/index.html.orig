@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Home Bar Basics at Astor Center</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="ida3" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Home Bar Basics at Astor Center" width="518" class="title" src="../../../resources/net.databinder.components.RenderedLabel/a9f23221"/><span class="title">Home Bar Basics at Astor Center</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on October 4, 2008</span></span>
+			<span id="ida4" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/school/#selected-tag"><span>school</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>I recently spent a very enjoyable Friday evening at the <a href="http://www.astorcenternyc.com/about.ac">Astor Center</a> taking a two-hour class called Home Bar Basics. It was taught by two bartenders from <a href="http://www.pdtnyc.com/"><span class="caps">PDT</span></a>, a fancy and secretive cocktail bar somewhere downtown. The idea of the class was to teach people how to start making nice cocktails at home. According to them, it&#8217;s cheap and easy to make a drink that would cost $12, even if you use the very best ingredients. The class made six cocktails in total: three in each row, all of which we shared with the person sitting behind or in front of us. The class was $95; buying all six of those cocktails at the bar would probably cost about the same.</p>
+<p>The room was gorgeous:</p>
+<p><img src="http://technically.us/resources/com.typeturner.Typeturner/image?name=bar1" title="bar1" alt="bar1" /></p>
+<p>Everything was so well organized. Each station had its own sink and was decked out with an array of shiny bar tools and glasses. I was a little concerned when we got started 15 minutes late, but we finished late too and made up for the lost time. We began with a lecture about ingredients. Fresh is the ticket to good cocktails, said the teachers. We smelled and tasted two liquids to compare their flavors. One was sour mix, the other fresh lemon juice. Of course these guys hate sour mix, and I agree wholeheartedly that to call your liquor at a bar is a waste of money if the bartender will poison it with corn syrup and other chemicals. That&#8217;s one reason I usually get a simple drink with soda or just a beer.</p>
+<p><img src="http://technically.us/resources/com.typeturner.Typeturner/image?name=bar2" title="bar2" alt="bar2" /></p>
+<p>The most neglected ingredient in bars around the world is ice. Most bars use what&#8217;s called shell ice, which is what I&#8217;m used to seeing. It&#8217;s those smallish cubes with big divots in the middle. They are cheaper to make but they melt so fast and shatter so easily that you can&#8217;t make a proper shaken cocktail with them. The ice we use at home is some of the best there is: it&#8217;s in big cubes that are frozen all the way through. So, you already have the most important ingredient! Another neglected but necessary component is bitters. At the very least, you should have a bottle of <a href="http://www.angostura.com/">Angostura</a> in your pantry. You can get it at any grocery store for about $7, and it lasts forever.</p>
+<p><img src="http://technically.us/resources/com.typeturner.Typeturner/image?name=bar3" title="bar3" alt="bar3" /></p>
+<p>We made drinks from the three main families of cocktails: sours, martinis/Manhattans, and <a href="http://en.wikipedia.org/wiki/Old_Fashioned">old-fashioneds</a>. They explained to us that just about every cocktail is a variation on a basic formula. In the case of sours, you have the base liquor, the sweetener, and the sour part. Margaritas, daiquiris, cosmopolitans, sidecars: all sours. The first drink that my row made was the daiquiri: 2 ounces of rum, 3/4 ounce lime juice, 3/4 ounce simple syrup (a note on the syrup: there&#8217;s no need to boil it! Just put equal parts sugar and water in a jar and shake it vigorously, and there&#8217;s your syrup.). We made these drinks in <a href="http://www.unicahome.com/p43353/manhattan-boston-shaker-by-wmf.html">Boston shakers</a>, which are awesome. We spent a good deal of the evening learning how to use the shaker: getting the proper seal, breaking the seal, and how to shake safely and correctly.</p>
+<p>I had never actually had a daiquiri before, because it seemed like such a cheeseball drink. But it&#8217;s fast and easy, and it&#8217;s going to be a regular in our house:</p>
+<p><img src="http://technically.us/resources/com.typeturner.Typeturner/image?name=daiquiri" title="daiquiri" alt="daiquiri" /></p>
+<p>We went on to make Manhattans, martinis, and both varieties of old-fashioneds (with muddled sugar and muddled fruit). We learned to stir with a cocktail spoon (harder than it looks) and how to muddle (easier than it looks). The most surprising drink of the night for me was the martini. I had absolutely no idea how smooth and wonderful a well-made martini could be. It doesn&#8217;t have to burn!</p>
+<p>If you have any interest at all in fancy cocktails, this class will be well worth your time and money. It will <a href="http://www.astorcenternyc.com/class-pdt-presents-home-bar-basics.ac">run again in December</a>.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="ida5">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-5794"><p>Dear Leland,</p>
+<p>Sounds like a great class ~ Mike and I are looking forward to trying one of your martinis the next time we&#8217;re in NY!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Peggy Lyons</span></span>
+  				<span>on October 4, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5795"><p>It would be my pleasure to serve you!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on October 5, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5797"><p>You&#8217;re on!  We&#8217;re actually coming up on the 11th for three weeks ~ we&#8217;ll provide the place, you provide the martinis!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Peggy Lyons</span></span>
+  				<span>on October 5, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5798"><p>Hey!  Lesley here, Director of Astor Center.  Just wanted to thank you for such a lovely write-up!  I hope you come back and visit us again soon.  And definitely introduce yourself next time!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Lesley</span></span>
+  				<span>on October 6, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5799"><p>Thanks Lesley, I will! And thanks for visiting Eat.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on October 6, 2008</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="ida6">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="ida7" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="ida7_hf_0" id="ida7_hf_0" /><input type="hidden" name="wicket:interface" value=":49:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="ida8" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="ida9" name="add" value="Add a comment" onclick="wicketShow('ida9--ajax-indicator');var wcall=wicketSubmitFormById('ida7', '../../../?wicket:interface=:49:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('ida9--ajax-indicator');}.bind(this),function() { ;wicketHide('ida9--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('ida7')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="ida9--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

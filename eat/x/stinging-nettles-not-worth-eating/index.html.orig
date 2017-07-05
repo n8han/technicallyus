@@ -1,0 +1,290 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Stinging nettles: not worth eating</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id933" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Stinging nettles: not worth eating" width="510" class="title" src="../../../resources/net.databinder.components.RenderedLabel/d04fade2"/><span class="title">Stinging nettles: not worth eating</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on June 28, 2007</span></span>
+			<span id="id934" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/theory/#selected-tag"><span>theory</span></a><span id="id935">, </span></span><span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>I didn&#8217;t even know you could eat <a href="http://en.wikipedia.org/wiki/Stinging_nettle">stinging nettles</a> until I moved to New York. Living here, you hear about all kinds of seasonal produce that you didn&#8217;t know about growing up in Pittsburgh or wherever else. My only experience with stinging nettles was getting stuck in fields of them on my grandparents&#8217; land in Maryland, and running as fast as I could to get out, usually just ending up deeper than I already was. (That&#8217;s kind of how this meal turned out.) I liked the idea of eating them, and a recent <a href="http://nymag.com/restaurants/recipes/inseason/31788/">recipe</a> in New York Magazine sounded simple and good.</p>
+
+
+	<p><img src="/pictures/nettles.jpg" alt="" /></p>
+
+
+	<p>But this is exactly the kind of food that I have come to view as a complete waste of my time. It&#8217;s a recipe for the sake of the main ingredient, which is utterly unappealing, not to mention a pain in the neck to prepare. It&#8217;s Greenmarket, &#8220;foodie&#8221; food, and I don&#8217;t like it. I stood there for twenty minutes with plastic bags on my hands (I don&#8217;t have dish gloves), pulling hundreds of leaves from their stems, hoping it would all result in a simple, fabulous meal. But nettles taste like something you shouldn&#8217;t be eating, like a disgusting, homeless weed. And to think I used full amounts of everything <span class="caps">BUT</span> the nettles, of which I only used about half the amount called for. This dish has more nettles than you could eat in your life.</p>
+
+
+	<p>I added a couple tablespoons of crème fraîche just to make it palatable, but I wish I had used any other green leaf: spinach, basil, chard, <em>lettuce</em>; anything would have been better. What a waste of the fresh penne! What a wasted meal! I&#8217;m all for simple, three-ingredient dishes, but let them be good, please. Let them be <a href="http://technically.us/eat/articles/2006/08/06/tomates-à-la-crème"><em>tomates à la crème</em></a>, or <a href="http://technically.us/eat/articles/2007/02/26/gratin-dauphinois"><em>gratin dauphinois</em></a>. I want ramps, nettles, and other such weeds out of my kitchen; I just have to remember not to be wooed by romantic, attractive recipes.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id936">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3941"><p>I&#8217;m glad you tried the stinging nettles so that we don&#8217;t have to. I checked out that recipe and it looks to me like it needs some garlic or something to make it any good. Tomates </p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.ceresandbacchus.com"><span class="alias">Mary</span></a>
+  				<span>on June 28, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3942"><p>Well I suppose back in the day if you were a hillbilly and ramps and nettles were the only things that stood between you and losing your teeth you would be happy to have them. I have enjoyed ramps in their various guises but they definitely aren&#8217;t worth the $10/lb or whatever Whole Foods charges for them. If I saw a bunch in the wild I&#8217;d probably pick them, though.</p>
+<p>As for the nettles, however, I agree with Mary; I&#8217;m glad you tried this so we don&#8217;t have to. I&#8217;ll leave them next to the Antietam at Grandma&#8217;s cabin.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca (Mommy)</span></span>
+  				<span>on June 28, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3943"><p>So funny.  Maybe this is why poor Eeyore is always so grumpy?</p>
+<p>As for weeds generally, I ate dandelion all spring (readily avail &#8220;wild&#8221; in Pittsburgh), usually in eggs. I found that the taste ranged from strong to mild, not in direct proportion to the size of the leaf, nor the time in the season, but at random.  Mild was great, the strong bitter leaves spoiled the eggs&#8217; flavor entirely.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">zp</span></span>
+  				<span>on June 28, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3944"><p>The same thing happened to me when I made dandelion greens! I was equally disheartened and pissed off to find I made something completely inedible.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://gezellig-girl.com"><span class="alias">Kristen</span></a>
+  				<span>on June 28, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3945"><p>Nettles are great in gardening: leaving the leaves to soak in water for up to 2 weeks results in a potent (but stinky&#8230;) brew, perfect as plant food or to guard against insects. Judging from your experience, gardening, not cooking, is just where this plant belongs. I have such bad childhood memories of the stuff (and the crazy itches it causes) that I have to admit I was never tempted to try and eat any. I&#8217;m sorry to hear about your wasted meal.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Christine</span></span>
+  				<span>on June 28, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3946"><p>I&#8217;m sad you didn&#8217;t like them!  I once had a delicious nettle pizza at Chez Panisse and have been meaning to experiment with cooking them myself ever since.  It was so delicious and gave one such a sense of energetic well-being that it made me and two friends sure that there must be some psychoactive compound in nettles.  Hmmm&#8230; maybe the nettles are different on the West Coast?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Ulrike Meinhof</span></span>
+  				<span>on June 28, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3947"><p>What a funny post Leland!  I love it when you make me laugh out loud.  Sorry your dish was so bad though!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Aunt Sue</span></span>
+  				<span>on June 28, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3948"><p>i often find myself not liking an ingredient that is supposed to be hip or trendy or a &#8220;delicacy&#8221;&#8230; and them some snotty &#8220;foodie&#8221; friend says i just didn&#8217;t prepare them right or something so now it&#8217;s MY fault and i&#8217;m just not cool enough.  like i can&#8217;t just <span class="caps">NOT</span> <span class="caps">LIKE</span> a certain ingredient!   just because it can be cooked &amp; it showed up on food network doesn&#8217;t mean i have to like it!</p>
+<p>ooops, excuse the rant :)  great post!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://eatheregetgas.bravejournal.com"><span class="alias">candy</span></a>
+  				<span>on June 28, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3949"><p>Leland, Once when your Mom was expecting you we had nettles for Easter dinner.  they smelled like sulphur when they were cooking, they were still quite young, but supposed to be loaded with a vitamin good for expectant mothers.  We decided you could have them!  Not worth the trouble, though we didn&#8217;t pull the leaves off, just cooked the whole mess.  They were edible, but again, not worth the trouble.  And I&#8217;m always fighting them inching into my garden.  By the way, they are supposed to be very good for arthritis.  Just grab a bunch, with a glove on, and swish them back and forth across your pain.  Some way that works.  Love &#8217;ya!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">grandma</span></span>
+  				<span>on June 28, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3950"><p>What a hilarious post. I have never tried nettles myself but they sound awful. Perhaps they are better used in herbal teas and things like that.</p>
+<p>Sometimes when we go to the Greenmarket, my husband says the farmers are mocking us when they charge exorbitant prices for what he calls &#8220;a bunch of weeds&#8221;!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.izzyeats.blogspot.com"><span class="alias">izzy&#039;s mama</span></a>
+  				<span>on June 28, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3951"><p>I purchased fresh stinging nettle yesterday from the organic farm in Bolinas that Prince Charles visited last year.  I simply sauteed them in a premium olive oil (McCovoy) and added salt and pepper.  I ate them as is and they are wonderful.  I think it&#8217;s one of the best green vegetables I have eaten and the health benefits are enormous.  Perhaps you should try stinging nettles again from a professional chef.  It&#8217;s possible that the west coast nettles are different, as someone else has suggested?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">West Marin </span></span>
+  				<span>on June 28, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3952"><p>Boy, if only I could afford some premium olive oil in which to sauté my nettles!</p>
+<p>Thanks, everyone, for understanding my troubles. I think it&#8217;s okay to decide that certain foods are not worth eating. Spinach is a pain to get clean, but it <em>is</em> worth eating. Fresh pasta is a killer, but it&#8217;s more than worth the labor.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on June 28, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3953"><p>I must say I have been tempted to try nettle, as we have many growing down by the creeks, but the prep hasa really put me off. Although, I just tried dandelion as a pesto and it turned out really really well!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.taryndomingos.com"><span class="alias">Taryn </span></a>
+  				<span>on June 28, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6044"><p><span class="caps">YUCK</span> :S.<br />
+x</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">chantelle</span></span>
+  				<span>on January 12, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6084"><p>I fully agree with this article.  I&#8217;ve been told how my Granny used to gather nettles for putting in the soup, but that was because they were incredibly poor in those days.  Nobody was proud of eating nettles, or glad to do it.  They also used to get up at first light and go to bed when the sun went down, not because it was a cool thing to do.  They just had to do it.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Judy</span></span>
+  				<span>on February 3, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6168"><p>Leland, I&#8217;m sorry your dish didn&#8217;t turn out well.  Maybe you just don&#8217;t like nettles.  I think they are the finest greens on the face of the earth!  And I am not one of those organic food types.  I don&#8217;t buy any organic foods!  But I do pick tons of nettles in the spring and stew them up with onions, garlic and bacon.  And there is NO other green that can compare to them.  I love collards, kale, chard and mustard.  Spinnach is ok but it tends to be slippery and bland.  There is no question about it, nettles are the best, hands down.  They have a meaty texture and a slight flavor of shellfish.  When stewed they make a dark brown broth that is rich and delicious.  Some say they are loaded with vitamins and are a great tonic which detoxifies the body.  Personally I don&#8217;t care about any of that.  I just love them because they taste so <span class="caps">GOOD</span>!!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Keith</span></span>
+  				<span>on March 5, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6215"><p>I made nettle beer once. I have a fairly cast iron palate, but nettles &#8211; crikey &#8211; they are revolting&#8230;..the taste haunted me for days and days afterwards. I think that historically nettles were used for dying ( when you steep them you get a deep red water ), and that&#8217;s as much use as you can get out of them. If you want cheap greens to eat, use dandelions leaves.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">DrSting</span></span>
+  				<span>on April 3, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6219"><p>Who are you people?!  <br />
+Nettles are delicious and very nutritious.<br />
+Don&#8217;t put gloves on and do all that work. Simply boil a pot of water, pick up with your tongs and blanch them.  Then toss them with some olive oil and garlic and you have a great side dish.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">anne</span></span>
+  				<span>on April 5, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6331"><p>I don&#8217;t understand the big fuss.  I regularly drink nettle tea, and am experimenting this year with eating them fresh. This is the first time in all my research that I&#8217;ve found anything negative about them.  If you&#8217;ve been raised on a typical North American diet, I suppose these tastes would be quite a change, though I find it interesting that dandelion has been preferred.  I love it, but it&#8217;s a very bitter plant compared to nettle.  <br />
+We have become spoiled by our food selections.  Sugar, salt and fat are not natural as daily foods, and definitely not in the forms we eat them.  It&#8217;s unfortunate that we have lost the taste for the best foods for us and the planet.  <br />
+In these times of food scarcity, and developing distrust towards manufactured foods, I suggest developing a taste for these highly nutritious &#8220;weed&#8221; foods.  They will beat out almost anything in the grocery store and could even save your life one day.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Weed Lover</span></span>
+  				<span>on June 21, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6332"><p>I don&#8217;t know what you mean by a &#8220;typical North American diet&#8221; but I can assure you that Leland was not raised on a diet high in sugar, fat, and salt. We regularly ate Swiss chard, kale, rapini, mustard greens, and a wide variety of other vegetables and fruits. Leland has always been, and continues to be, an adventurous eater, so you can take your superior attitude and shove it.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca (Mom)</span></span>
+  				<span>on June 21, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6477"><p>Sorry about your experience. My personal experience with nettles has been wonderful. A big plant came up with my container herbs and vegetables and it sits on my front porch. I eat the leaves raw&#8212;fold it like a taco and put it between molars and the biting action cancels histamine in the needles&#8212;and they are extremely high in vitamins and antihistamine (in the leaves themselves).</p>
+<p>One other thing to do is to put leaves in a blender and whir. The chopping action releases the anithistamine in the leaves which cancels the histamine in the needles. Make pesto or tea or soup. Don&#8217;t overcook. They really taste good.</p>
+<p>Suppose it&#8217;s important where you get them. From a market standI would think would not be palatable unless they were just picked that morning. Certainly you never want to get them from roadside where chemicals, pollution or pesticides will ruin them. Pick your own.</p>
+<p>They do hurt like crazy if stung, but it&#8217;s really good to eat raw. Give the leaves themselves a try raw. They&#8217;re a very powerful antiinflammatory and give you a remarkable sense of well-being after eating or drinking.</p>
+<p>Good luck in your food adventures!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Missy</span></span>
+  				<span>on September 26, 2009</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id937">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id938" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id938_hf_0" id="id938_hf_0" /><input type="hidden" name="wicket:interface" value=":342:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id939" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id93a" name="add" value="Add a comment" onclick="wicketShow('id93a--ajax-indicator');var wcall=wicketSubmitFormById('id938', '../../../?wicket:interface=:342:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id93a--ajax-indicator');}.bind(this),function() { ;wicketHide('id93a--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id938')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id93a--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

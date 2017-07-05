@@ -1,0 +1,201 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="../../../blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="../../../blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet.css"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Funny face</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code.html">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code.html">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id2427" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Funny face" width="175" class="title" src="../../../resources/net.databinder.components.RenderedLabel/c1128e74"/><span class="title">Funny face</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on July 15, 2006</span></span>
+			<span id="id2428" class="tags">
+					{&nbsp;<span><a href="../../tag/databinder/index.html#selected-tag"><span>databinder</span></a><span id="id2429">, </span></span><span><a href="../../tag/typography/index.html#selected-tag"><span>typography</span></a><span id="id242a">, </span></span><span><a href="../../tag/wicket/index.html#selected-tag"><span>wicket</span></a><span id="id242b">, </span></span><span><a href="../../tag/rendering/index.html#selected-tag"><span>rendering</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p style="float:right"><img src="../../../pictures/funnyface.jpg" alt="" /></p>
+
+
+	<p>Last week I <a href="http://technically.us/n8/articles/2006/07/08/web-deprogramming">delved into</a> a little-known <a href="http://wicketframework.org/apidocs/index.html">corner</a> of Wicket that can crank out custom button images on the fly.</p>
+
+
+	<p>Good stuff. But if it’s so easy to render text on the server, why stop with buttons? You could use this trick to render dynamic text, with any available font.</p>
+
+
+	<p>Similar functionality is a low-tech but liberating feature of Apple’s <a href="http://www.apple.com/ilife/iweb/">iWeb</a> page creation app. You can use any typeface you want while editing and it’s transparently rendered into an image as you export to <span class="caps">HTML</span>. Some people consider this an <a href="http://xurble.org/weblog/2006/02/textify.html">abomination</a>, and assume its users will cede to the childish whim to pick a <strong>crazy</strong> font.</p>
+
+
+	<p>And yet I’ve never worked with a grown-up designer who thought that typography ended with Georgia, Arial, and Verdana. There’s a whole world of faces out there, and the technology for rendering them has been <a href="http://en.wikipedia.org/wiki/Ligature_%28typography%29">improving</a> everywhere <em>but</em> the Web. It’s time to change that.</p>
+
+
+	<p>In that spirit, I’m adding <a href="http://databinder.net/wsvn/Databinder/databinder/trunk/src/main/java/net/databinder/components/RenderedLabel.java?op=file">RenderedLabel</a> to <a href="http://databinder.net">Databinder</a>. It’s like a <a href="http://wicketframework.org/apidocs/index.html">Label</a>, but its model is rendered as an image (with <tt>alt</tt> attribute) using any typeface available to the <span class="caps">JVM</span>.</p>
+
+
+	<p>I’ve written a new example application around this feature—partly because I think it’s so rad and partly because I think <a href="http://technically.us/code/x/funny-face/is">bookmarks</a> a tad too complicated for people who’ve never seen Wicket. (It’s hard to resist the temptation to pile on features to rudimentary examples.)</p>
+
+
+	<p>The new app is called <strong>graffiti</strong>, and I’ve set out to fulfill the worst fears of those who hate image-rendered type by choosing the zaniest possible typeface. Its page class is <a href="http://databinder.net/wsvn/Databinder/graffiti/trunk/src/main/java/example/TheWall.java?op=file">TheWall</a>. Normally I don’t host running examples until the Databinder revision they’re attached to is released, but this is just too cool.</p>
+
+
+	<p><a href="http://databinder.net/graffiti/app">Scrawl away</a>.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='../../../resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id242c">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-1131"><p>Good stuff! I would be very interested to have a component like that in our extensions (or maybe even core) project. What about that? I think it would get better exposure.</p>
+
+<p>Oh, and if you have more nice ideas/ components that are not directly data(binder) related, please don&#8217;t hesitate to suggest them for wicket-extensions/core</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://chillenious.wordpress.com/"><span class="alias">Eelco</span></a>
+  				<span>on July 15, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1132"><p>Anything you want from net.databinder.components you can have. I&#8217;m about to give word-wrapping for this component a go. Not for paragraphs or anything (even <em>I</em> think that would be an abomination) but for long headlines.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on July 15, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1133"><p>Nice, that&#8217;s good to know. However, I&#8217;d like to leave the initiative of proposing components like that with you. You could send a patch to dev or attach it to a feature request. It&#8217;d be awesome if you would get through the trouble.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Eelco</span></span>
+  				<span>on July 15, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1134"><p>Speaking of abominations&#8230; SourceForge&#8217;s bug tracker&#8230;</p>
+
+<p>But, fine, I&#8217;ll quit making excuses. When I think this thing is as good as it can possibly be, I&#8217;ll propose it for inclusion. The only other thing I want from it is alpha-transparency, but I don&#8217;t think Java 5 is gonna give it to me.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on July 15, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1135"><p>Cheers Nathan</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Eelco</span></span>
+  				<span>on July 15, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1136"><p>Nice job!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Jonathan Locke</span></span>
+  				<span>on July 15, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1137"><p>Thanks!</p>
+
+<p>I added alpha transparency, but turned it off by default since IE does its ugly old gray thing with it.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on July 15, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1138"><p>Either I missed it, or you added it recently, but an Ajax preview? Man, you&#8217;re one wild dude! :)</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Eelco</span></span>
+  				<span>on July 15, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1139"><p>Yeah, I added that at some point. Glad you like it!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on July 15, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id242d">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id242e" action="../../../index.html" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id242e_hf_0" id="id242e_hf_0" /><input type="hidden" name="wicket:interface" value=":1331:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id242f" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id2430" name="add" value="Add a comment" onclick="wicketShow('id2430--ajax-indicator');var wcall=wicketSubmitFormById('id242e', '../../../?wicket:interface=:1331:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id2430--ajax-indicator');}.bind(this),function() { ;wicketHide('id2430--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id242e')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id2430--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

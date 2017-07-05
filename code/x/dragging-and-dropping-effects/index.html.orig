@@ -1,0 +1,344 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Dragging (and dropping) effects</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id2615" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Dragging (and dropping) effects" width="514" class="title" src="../../../resources/net.databinder.components.RenderedLabel/c5803fcd"/><span class="title">Dragging (and dropping) effects</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on April 9, 2007</span></span>
+			<span id="id2616" class="tags">
+					{&nbsp;<span><a href="../../../code/tag/javascript/#selected-tag"><span>javascript</span></a><span id="id2617">, </span></span><span><a href="../../../code/tag/effects/#selected-tag"><span>effects</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>For Typeturner&#8217;s comment submission form I elected to use an ajax submit button. Not just to <em>use ajax</em>&#8212;I&#8217;m over that affliction&#8212;but because it provides a handy solution to the problem of transient (non-bookmarkable) Wicket <abbr>URL</abbr>s. If you submit and update by ajax, the location bar retains its pristine reference to the current address.</p>
+
+<p>The downside is that non-ajax browsers (whatever <em>those</em> are) will be unable to post comments. But even on my <a href='http://technically.us/n8/articles/'>old Typo-running weblog</a> I&#8217;d turned on ajax-only comments just to reduce spam. Most people (and practically everyone you would <em>want</em> to comment) have ajax-capable browsers. Since this trade provides a real benefit to everyone by preserving permanent <abbr>URL</abbr>s, I decided to go with it.</p>
+
+<p>[<em>Update:</em> never mind that hand-wringing. I forgot that Wicket&#8217;s ruby slippers would have my form working with JavaScript off without me lifting a finger.]</p>
+
+<p>The bumpy part is updating to display the user&#8217;s comment. In the layout I&#8217;m using (an unconventional but promising one if you ask me) comments appear along the left column starting from the top, so it&#8217;s essential to scroll up to show that a comment was added. [<em>Update:</em> not anymore, see note at end.] My first attempt updated the document&#8217;s location to the new comment anchor, using JavaScript calls tagged onto the same ajax request. That worked in some browsers, but others were apparently not ready to reference a node immediately after its ajax-creation.</p>
+
+<h2 id='bringing_in_the_hired_help'>Bringing in the hired help</h2>
+
+<p>At that point I thought, maybe I should use some expertly created JavaScript library that will smoothly scroll any element <abbr>ID</abbr> into view, work across all browsers in all conditions, and do my laundry.</p>
+
+<p>The first library I considered was <a href='http://www.dojotoolkit.org/'>Dojo</a>, because its <a href='http://wicketstuff.org/confluence/display/STUFFWIKI/wicket-contrib-dojo/'>Wicket integration</a> package is &#8220;not dead.&#8221; In fact you can get a 1.3.0 snapshot-compatible version from the Wicket Stuff <a href='http://wicketstuff.org/maven/repository/wicket-stuff/wicket-contrib-dojo/1.3.0-incubating-SNAPSHOT/'>repository</a>, which is much more &#8220;alive&#8221; than <em>Coderspiel</em> is used to.</p>
+
+<p>So that&#8217;s all very great, but let me tell you what is not so great: lots of things on Dojo&#8217;s site. First of all, there are the words &#8220;3.7mb tar.gz&#8221; on the download link. This is too big. I don&#8217;t care if it comes with Flash and Java integration. I didn&#8217;t download from that link since I was using the integration package, but still. 3.7mb <em>compressed</em>?</p>
+
+<p>The second not-so-great thing on their site is its <a href='http://www.dojotoolkit.org/api'><abbr>API</abbr> browser</a>. Don&#8217;t click on the link in the preceding sentence unless you are really bored. I&#8217;ve never had it render in under thirty seconds, and it doesn&#8217;t work at all in Opera Linux. That monstrosity of JavaScript is supposed to show how great their library is, I guess, but it serves instead as a warning against going overboard with client side code. Compared to a traditional alternative like <a href='http://databinder.net/javadoc/'>static Javadocs</a>, their showcase <abbr>API</abbr> browser is slow, confusing, and unreliable.</p>
+
+<p>Nevertheless I found what I was looking for with it. I would link to the relevant &#8220;page&#8221;&#8212;but that&#8217;s not possible! Anyway, Dojo has a function called <code>scrollIntoView</code> that sounds like it would do what I want (though not with any animation). So I tried to use it from the Wicket integration package, but nothing happened other than my page taking longer to load. Turns out, the scroll function is not in the package. (I grepped.) That&#8217;s odd, since it&#8217;s only one point release behind the one advertised on the site. Who knows when the function was added to the <abbr>API</abbr> or even what version of the API is rendered in the API browser, because none of that information is provided. So ended my visit to the Dojo.</p>
+
+<p>jQuery is another, newer, JavaScript toolkit that people talk about. It has a cool, innovative, compact syntax, says everyone. If you go to its <a href='http://jquery.com/'>front page</a>, you&#8217;ll see a snippet of code and a run button. As I clicked on the run button and a hidden paragraph slowly, ostentatiously expanded onto the screen, I had a realization: no one cares about this crap anymore.</p>
+
+<p>Ajax is a huge, Web-changing technology. JavaScript effects are not. The only people ever impressed by them were programmers who recognized their novel use of the browser. For everyone else, bombarded by Flash nonsense all day long and not knowing or caring about the difference, JavaScript effects either go unnoticed or are just another annoying distraction. At this point, as a programmer, I&#8217;ve seen enough of the library-driven effects that I don&#8217;t care if I ever see one again.</p>
+
+<p>And when I looked for a something in jQuery to help me scroll to a newly-created element, I couldn&#8217;t find anything anyway.</p>
+
+<h2 id='back_to_the_workshop'>Back to the workshop</h2>
+
+<p>All I needed were two basic functions: one to get the coordinates of an element, and one to get/set the current top-of-viewport scroll position. I quickly found the former in a <code>findPos(obj)</code> function <a href='http://www.quirksmode.org/js/findpos.html'>at Quirksmode</a>. It worked perfectly on all browsers (once it dawned on me to call it from a 50ms timer callback so the DOM could settle in after the ajax update).</p>
+
+<p>I assumed that the scrolling functions would be standard JavaScript, so I googled for them. I&#8217;ve since decided that googling for low-rent JavaScript and <abbr>CSS</abbr> is a trap. You end up at suspiciously dated sites; they reference Netscape 4 and other things one doesn&#8217;t bring up in polite conversation, while cheerfully offering code that isn&#8217;t at all cross-platform. After a frustrating hour I&#8217;d crafted a function from their detritus that was cross-platform. Then I stumbled on Quirksmode&#8217;s page on <a href='http://www.quirksmode.org/viewport/compatibility.html'>exactly my problem</a>. Harumph.</p>
+
+<p>To get back at the man, I decided to animate the scrolling the way <em>I&#8217;d</em> imagined it should be. Tweening functions are easy and fun to code, as I was reminded in <a href='http://technically.us/n8/articles/2006/09/29/databinder-at-your-web-service'>toying in Processing</a>. You just pick an update interval and plot a path with a mathematical function. I decided to move the viewport one quarter of whatever distance remained at each interval, rounding up to whole pixels. So it moves quickly at first and slows down for the kill. Enough talking&#8212;<em>recurse!</em></p>
+
+<pre><code>function scrollToPosition(y) {
+	cur = getPosition(); // boring!
+	dy = Math.ceil((y - cur) / 4);
+	window.scrollBy(0, dy);
+	if (cur != getPosition())
+		setTimeout(function() { scrollToPosition(y); }, 50);
+}</code></pre>
+
+<p>That&#8217;s it, no Ph.D. required. You can also browse the scripts: {&#160;<a href='http://databinder.net/wsvn/Databinder/typeturner/trunk/src/main/scala/com/typeturner/pages/WeblogPage.js?op=file'>A</a>, <a href='http://databinder.net/wsvn/Databinder/typeturner/trunk/src/main/scala/com/typeturner/pages/PostShow.js?op=file'>B</a>&#160;}.</p>
+
+<h2 id='ninja_turtles_laugh_at_the_end_of_every_episode'>Ninja turtles laugh at the end of every episode</h2>
+
+<p>There are a few things I&#8217;m taking away from this exercise. Firstly, don&#8217;t be intimidated by fancy shmancy effects. You can write that code in your sleep, and make it do exactly what you want instead of choosing from a library&#8217;s cheeky overplayed presets. Bonus: your code will be a thousand times smaller than the library&#8217;s&#8212;maybe even a million! (Seriously&#8230; Dojo.)</p>
+
+<p>And for your own safety, start all future client-side missions at the <a href='http://www.quirksmode.org/'>Quirksmode</a> headquarters. There&#8217;s a book too, <em>ppk on JavaScript</em>, but those old school book-things are even harder for me to use than Dojo&#8217;s <abbr>API</abbr> browser.</p>
+
+<p class='break'>Wanna see the scrolling animation in action? <strike>You know what to do.</strike> <strong>Too bad!</strong> The comments no longer appear in the left column, because that proved to be annoying for longer comments. So there&#8217;s no need for the effect here, and this post is kind of pointless now unless you need to do smooth viewport scrolling for some reason.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id2618">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-180"><p>Hah&#8230; first to see the scrolling in action (using safari for the tasting).</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://martijndashorst.com/"><span class="alias">Martijn</span></a>
+  				<span>on April 10, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-181"><p>And it works as advertised. Perhaps a bit too fast for my taste, didn&#8217;t know what hit me.</p>
+
+<p>Another quirk is that you get the comment aligned at the top of the viewport, with half an article to the right. It might be something to get used to though.</p>
+
+<p>Great article (again). I was starting to miss the longer articles. This one made me smile.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://martijndashorst.com"><span class="alias">martijn</span></a>
+  				<span>on April 10, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-182"><p>Do I want to see the scrolling?</p>
+
+<p>I tried, and was redirected to this page: [&#8230;]</p>
+
+<p>Ubuntu 6.10, Firefox 2.0.0.3, Javascript enabled.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">katre</span></span>
+  				<span>on April 10, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-183"><p>Okay, the second try worked. Very wacky.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">katre</span></span>
+  				<span>on April 10, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-184"><p>My session timeout was too short&#8212;sorry about that. I think it&#8217;s fixed now.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on April 10, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-188"><p>Nice article. :)</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Jess Sightler</span></span>
+  				<span>on April 10, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-189"><p>Yeah, the quick jump to the top is a bit disconcerting if you aren&#8217;t expecting it (and who would be?). Still a neat looking trick, though.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Jess Sightler</span></span>
+  				<span>on April 10, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-190"><p>Gosh, I&#8217;d better put up an epileptic seizure warning, at least until I get a chance to bump up the callback timer to 75ms. ;)</p>
+
+<p>I do have the session timeout set to one hour now, at the cost of me not being able to edit anything here (because <code>ModalWindow</code> is broken in the current snapshot). A stable Wicket 1.3 beta, whenever it arrives, will be much appreciated in these parts!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on April 10, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-191"><p>where is my scrolling animation? and why didnt you use ajaxfallback button?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">test</span></span>
+  				<span>on April 10, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-192"><p>Well, test, maybe I&#8217;ll do just that! At the moment I&#8217;m using the indicating button and I don&#8217;t think (?) there&#8217;s one with both fallback and indicating built in, though yes I can toss it together myself. I take it one feature at a time, or else I&#8217;d never finish anything.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on April 10, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-197"><p>Thanks for the article, n8. It&#8217;s always interesting and rewarding to read your stuff. An inspiration for us wanna-be&#8217;s out there. :-)</p>
+
+<p>Typeturner looks very promising. Maybe it&#8217;s time for me to get rid of that php-based monster I have now&#8230;</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.ejeklint.se"><span class="alias">Per Ejeklint</span></a>
+  				<span>on April 11, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-198"><p>Oooh, and the scroll function is quite tasty. I&#8217;ll buy you a dinner at Nobu next time I&#8217;m in NY. :D</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Per Ejeklint</span></span>
+  				<span>on April 11, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-206"><p>Just wanted to see the scroll effect. Nice article, btw. =D</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Sean</span></span>
+  				<span>on April 11, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-207"><p>You&#8217;re all much too kind. I&#8217;ll take heart in your support if Dojo devotees ever show up here and start throwing karate chops, or whatever it is they do.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on April 11, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-216"><p>The other issue with all these JavaScript libraries is what to use if you actually write frameworks for other people to use (like, say, Wicket).</p>
+
+<p>Scriptaculous with Prototype, the Mootools code, Dojo and the Yahoo stuff stomp all over each other. If you use any of them in your component library, woe betide you if your users wish to use another JS library on the same page. You end up just snipping out the bits you need and namespacing them, which is probably how it should be anyway.</p>
+
+<p>It would be nice if we could sort this out properly. We could take mootools, for example, chop it up into much smaller snippets of functionality, and have Wicket decide which bits to dynamically include in the page. You&#8217;d serve the JS up as a single <code>&lt;link&gt;</code> to a Wicket resource, with only the code you actually need. To call effects / whatever, you&#8217;d write Java code (new Effect.Highlight(Component, TimeUnit.SECONDS, 1) or similar).</p>
+
+<p>Of course, it would be rather a lot of work implementing it in the first place and subsequently keeping it all in sync. :-/</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://herebebeasties.com"><span class="alias">Al Maw</span></a>
+  				<span>on April 12, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-217"><p>And actually writing Databinder for other people to use, I face the same issue. I was considering adding some integration with jQuery, but now I don&#8217;t think it&#8217;s worth the trouble whether you&#8217;re talking about jQuery or mootools or whatever comes out next. These kits just aren&#8217;t that impressive in what they can do (vs. what one could code up oneself) and there will always be Flash (or even Java applets using <a href='http://processing.org/'>Processing</a>) if you want to do serious effects.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on April 12, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-238"><p>I must say that I&#8217;m starting to like TypeTurner. Great work and keep it up!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mats</span></span>
+  				<span>on April 16, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-242"><p>Thanks&#8212;one of these days I will have to give Typeturner a website of its own to encourage other people to use it. But probably not until its build and setup process is reasonably simple, and it&#8217;s based on less than seventy-five percent pre-release dependencies! Not to worry though, <code>typeturner.com</code> is already mine.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on April 16, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-251"><p>Hehe, I know exactly what you mean about Dojo. I seriously thought my browser was broken the first 3 times I (re)opened Dojo&#8217;s website. Now let&#8217;s see how my comment gets added.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Robbert</span></span>
+  				<span>on April 17, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-305"><p>The scrolling :)</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Just wanna see</span></span>
+  				<span>on April 25, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-332"><p>Nice site! Just bookmarked, and awayting my return..</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://grandars.net"><span class="alias">Grandars</span></a>
+  				<span>on May 1, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-338"><p>What a great way to get extra comments on your site? I hear turtles with swords laughing.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rod</span></span>
+  				<span>on May 3, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-340"><p>I know! Except it&#8217;s not so much extra comments as <em>any</em> comments. I will take what I can get though. Next week: add a comment, get a free copy of the <abbr>HD-DVD</abbr> decryption code!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on May 3, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4358"><p>just wanted to see effect&#8230;</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Ljubo</span></span>
+  				<span>on September 16, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id2619">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id261a" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id261a_hf_0" id="id261a_hf_0" /><input type="hidden" name="wicket:interface" value=":1385:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id261b" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id261c" name="add" value="Add a comment" onclick="wicketShow('id261c--ajax-indicator');var wcall=wicketSubmitFormById('id261a', '../../../?wicket:interface=:1385:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id261c--ajax-indicator');}.bind(this),function() { ;wicketHide('id261c--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id261a')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id261c--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

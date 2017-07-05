@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Homemade pasta with mushrooms</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id79b" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Homemade pasta with mushrooms" width="546" class="title" src="../../../resources/net.databinder.components.RenderedLabel/cbc4cb4f"/><span class="title">Homemade pasta with mushrooms</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on May 22, 2007</span></span>
+			<span id="id79c" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/techniques/#selected-tag"><span>techniques</span></a><span id="id79d">, </span></span><span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>It had been three months since my <a href="http://technically.us/eat/articles/2007/02/27/italian-pot-roast-over-homemade-pasta">last attempt</a> at homemade pasta, and if you don&#8217;t use your pasta machine often enough, you&#8217;ll never use it at all. As it was, mine had gotten thoroughly dusty. I&#8217;m on a dough kick recently, and I decided it was time to try pasta by hand rather than in the food processor. If I can handle puff pastry, surely I could handle non-melting egg pasta dough.</p>
+
+
+	<p>So I sifted three cups of flour onto my stainless steel counter. Sifting flour onto a workspace is by far my favorite kitchen activity these days. Seeing it fall like snow, blanketing an otherwise clean space, and knowing that it will soon become part of a beautiful, smooth dough&#8230;for me, it&#8217;s the best. When Nathan looks up from his computer and sees a flour shower in the kitchen, he says &#8220;Yay!&#8221; So, I formed a nice wide well in my flour and cracked three (Greenmarket!) jumbo eggs into the center, along with a pinch of salt and a splash of olive oil, and I went to work with a fork.</p>
+
+
+	<p>Mixing three or four eggs into flour with a fork is definitely hard by hand, but I was able to break the well after about five minutes without unleashing a river of egg. Once I could make use of my scraper, the dough was kneadable in less than a minute. After five minutes of kneading, I let the dough rest an hour in refrigerator while I went to Whole Foods to buy semolina.</p>
+
+
+	<p>Semolina makes a huge difference in the rolling and cutting. I used flour in my earlier attempts, but that gets absorbed too quickly. Semolina keeps everything nice and dry. Rolling and cutting was still tedious, but I didn&#8217;t get any sticking this time.</p>
+
+
+	<p><img src="/pictures/mushroompasta1.jpg" alt="" /></p>
+
+
+	<p>I served my pasta with a simple sauce of butter, mushrooms, garlic, lemon juice, and thyme. I would have liked it a bit saucier, but that&#8217;s just my American habit. Mario Batali is always saying that the pasta should be the main attraction, and I can understand that from the work that goes into it.</p>
+
+
+	<p>If you live in New York, or in another city where you can buy a pound of fresh pasta for less than three dollars, it&#8217;s not worth it to make your own unless you&#8217;re interested in the process. It&#8217;s more than an hour of labor if working by yourself (it would be faster with two people&#8230;hint, hint), and the results aren&#8217;t much better than what I would get with pasta from Murray&#8217;s or Garden of Eden. But it is special to know that you made the pasta on your plate by hand, and it will impress your guests.</p>
+
+
+	<p>In my final class last night, our teacher had an extra large version of the manual pasta machine, which I&#8217;m totally coveting. Anyway, he showed us how to make ravioli between two large sheets of dough, and it looked easy enough to attempt at home. I will <em>not</em> be doing it with medallions of lobster meat, as he did, since I&#8217;ve killed enough crustaceans for one year. But they would be wonderful with braised short ribs, or with swiss chard and mushrooms.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id79e">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3784"><p>I&#8217;m terribly impressed! Making pasta by hand like that is something I&#8217;ve never done and probably never will do. In fact, I&#8217;ve gotten too lazy to use my Cuisinart electric pasta machine, even, and am thinking about getting rid of it. But fresh pasta is so delicious and not as easy to come by here in Pittsburgh. And I agree, knowing you made it yourself adds another dimension to your enjoyment of it.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on May 22, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3785"><p>Fresh pasta is such a revelation. You are so right about it being something easy when there are two people (Nathan, get on the ball!). My husband makes the dough and I make the sauce (or with ravioli, I make the filling) and we finish it together (insert lewd comment here). Have you tried making lasagna with fresh pasta? We make a big batch of pasta, make two dishes of it and freeze one of them. We also make tons of ravioli at a time and freeze those, too. Your mushroom sauce looks delicious.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.ceresandbacchus.com"><span class="alias">Mary</span></a>
+  				<span>on May 22, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3786"><p>Thanks, Mommy! We&#8217;ll do it together next time you&#8217;re here if you&#8217;re interested.</p>
+<p>Mary: that&#8217;s great that your man helps you. And no, I haven&#8217;t tried lasagna yet, but I plan on doing it soon. The mushroom sauce kind of left me cold, but I guess it was ok.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on May 22, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id79f">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id7a0" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id7a0_hf_0" id="id7a0_hf_0" /><input type="hidden" name="wicket:interface" value=":289:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id7a1" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id7a2" name="add" value="Add a comment" onclick="wicketShow('id7a2--ajax-indicator');var wcall=wicketSubmitFormById('id7a0', '../../../?wicket:interface=:289:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id7a2--ajax-indicator');}.bind(this),function() { ;wicketHide('id7a2--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id7a0')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id7a2--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

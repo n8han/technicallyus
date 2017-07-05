@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/city-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>City Slicking / Myspace is for losers</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../city">
+			
+			<img alt="City Slicking" src="../../resources/org.apache.wicket.Application/city-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../city">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/city-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id1c75" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Myspace is for losers" width="256" class="title" src="../../resources/net.databinder.components.RenderedLabel/94e93394"/><span class="title">Myspace is for losers</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Doctor Barnett</span>, <span>on April 1, 2006</span></span>
+			<span id="id1c76" class="tags">
+					{&nbsp;<span><a href="../../city/tag/web/#selected-tag"><span>web</span></a><span id="id1c77">, </span></span><span><a href="../../city/tag/youth/#selected-tag"><span>youth</span></a><span id="id1c78">, </span></span><span><a href="../../city/tag/grammar/#selected-tag"><span>grammar</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p style="float:right"><img src="/pictures/bud-select.jpg" alt="" /></p>
+
+
+	<p>Hosting fun images like this can of  beer, <strong>technically.us</strong> naturally attracts youthful Google image searchers. Some of these thirsty hellions are rude (or ignorant) enough to point to the images directly from their own w3b s1t3z.</p>
+
+
+	<p>Thanks to server logs you can see when this happens. Some people call it &#8220;stealing bandwidth&#8221;&#8212;I don&#8217;t take it that seriously. There are technical solutions you can apply if it starts to drain your resources. Or, you can swap out the image with something that&#8217;s insulting to the person who borrowed it without asking. I&#8217;m a mean old nerd, so I chose the latter.</p>
+
+
+	<p><a href="http://myspace.com/babeenohoe">This profile</a> is the culprit. I wouldn&#8217;t recommend <em>clicking there</em>, unless you want to bog down your computer with a web page so obnoxiously bad it has a soundtrack. My beer image is placed oddly and I&#8217;m sure most people don&#8217;t even see it, though it&#8217;s loaded from our servers regardless. [<em>Update: evil plan worked, the image is gone.</em>]</p>
+
+
+	<p>Reading through the profile of &#8220;babeenohoe&#8221; as much as I could tolerate, I discovered a philosopher of incredible insight, and astoundingly bad grammar. I thought that if only her words were tidied up a bit, the power of her ideas would would resonate with humanity and spread around the globe. In that spirit, I have done my best to <strong>clean up this mess:</strong></p>
+
+
+	<blockquote>
+		<p>I am honestly sick of all the drama that goes on. Seriously. It&#8217;s like we&#8217;re on a god damn soap opera. I have caused a lot of drama in the past but it&#8217;s getting really old. [<em>So, you stopped? Pls advise.</em>]  Let people be <del>whoever</del> <em>whomever</em> they want to be, let them listen to the music they like and dress however they want. Everyone is <del>there</del> <em>her</em> own person and you shouldn&#8217;t let anyone tell you otherwise, and if <del>someone doesn&#8217;t</del> <em>others don&#8217;t</em> like it then they should keep it to themselves. Why make someone feel shittier just to make yourself feel better? [<em>Are you talking to me? I&#8217;m trying to encourage proofreading, not excrement.</em>] Put yourself in someone <del>elses</del> <em>else&#8217;s</em> place then actually think about it. People make mistakes and people fuck up, guess what.. It&#8217;s not the end of the world. So really, stop wasting your time worrying about what other people are doing with <del>there lifes</del> <em>their lives</em>. Make your own decisions and don&#8217;t <del>critisize</del> <em>criticize</em> anyone else for <del>there&#8217;s</del> <em>theirs</em>. Too bad if you don&#8217;t like it, get the fuck over it. Shit happens so don&#8217;t dwell on the past when you have the rest of your life ahead of you. You only live once so why bother ruining it? [<em>You&#8217;re getting a little cliché here, ’nohoe.</em>] Grow up, Stop being immature, Respect people, and Forget about everyone that&#8217;s ever treated you like shit. If they&#8217;re still doing it now, <del>there</del> <em>they&#8217;re</em> just not happy with themselves and they never will be.</p>
+	</blockquote>
+
+
+	<p>On second thought, maybe I should have left &#8220;critisize&#8221;&#8212;perhaps it&#8217;s a neologism, a play on &#8220;size.&#8221; You never can tell with precocious, non-whoring philosophers.</p>
+
+
+	<p><strong>Update</strong>: Oh, look. <a href="http://profile.myspace.com/index.cfm?fuseaction=user.viewprofile&#38;friendid=24873119">Another one</a>. Cans of beer are just so cool! (You have to be Stevo&#8217;s fried to see the pic. If you are, sorry for you.)</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about'>About</h3>
+
+<p><em>City Slicking</em> is about urban life, transportation, energy, liberty, and language.</p>
+
+<h3 id='haunts'>Haunts</h3>
+
+<p><a href='http://twitter.com/n8han/'>Twitter</a><br /><a href='http://technically.us/code/'>Coderspiel</a><br /><a href='http://www.streetsblog.org/'>Streetsblog</a><br /><a href='http://gawker.com/people/alexpareene/posts/'>Pareene</a><br /><a href='http://www.copenhagenize.com/'>Copenhagenize</a><br /><a href='http://itre.cis.upenn.edu/~myl/languagelog/'>Language Log</a><br /><a href='http://t4america.org/'>Trans. for America</a></p>
+
+<h3 id='wire_service'>Wire Service</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/city-rss' title='All in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-short-rss' title='Left column, frequent links and notes'>Quickies</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-long-rss' title='Main column, occasional extended posts'>Treatise</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1c79">
+  		
+  		
+  	</div>
+  	<div id="id1c7a">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id1c7b" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id1c7b_hf_0" id="id1c7b_hf_0" /><input type="hidden" name="wicket:interface" value=":1082:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id1c7c" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id1c7d" name="add" value="Add a comment" onclick="wicketShow('id1c7d--ajax-indicator');var wcall=wicketSubmitFormById('id1c7b', '../../?wicket:interface=:1082:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id1c7d--ajax-indicator');}.bind(this),function() { ;wicketHide('id1c7d--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id1c7b')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id1c7d--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

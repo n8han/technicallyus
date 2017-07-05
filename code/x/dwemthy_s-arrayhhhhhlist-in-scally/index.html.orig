@@ -1,0 +1,478 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / DWEMTHY_S ARRAY^H^H^H^H^HLIST IN SCALLY</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id260c" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="DWEMTHY_S ARRAY^H^H^H^H^HLIST IN SCALLY" width="734" class="title" src="../../../resources/net.databinder.components.RenderedLabel/1da044d"/><span class="title">DWEMTHY_S ARRAY^H^H^H^H^HLIST IN SCALLY</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on July 24, 2008</span></span>
+			<span id="id260d" class="tags">
+					{&nbsp;<span><a href="../../../code/tag/awesome/#selected-tag"><span>awesome</span></a><span id="id260e">, </span></span><span><a href="../../../code/tag/functional/#selected-tag"><span>functional</span></a><span id="id260f">, </span></span><span><a href="../../../code/tag/scala/#selected-tag"><span>scala</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Last week the satanic <a href='http://poignantguide.net/dwemthy/'>Dwemthy&#8217;s Array</a> was released into the quiet, pious town of Java programming. { <a href='http://www.iam.unibe.ch/%7Eakuhn/blog/2008/07/the-rabbit-will-die-in-java/'><em>A</em></a>, <a href='http://clintonbegin.com/dwemthy/'><em>B</em></a> } Both Java permutations used reflection to emulate some dynamic properties of the original, a recipe for sad exception handling if there ever was one. But it was helpful to be reminded of a few techniques to fight the clutter beast in Java code, even if defeating it is impossible.</p>
+
+<p class='break'>The crux of the Ruby original is probably that <code>method_missing</code> can make an array act as one of its elements, which is the sort of thing Ruby is good at. An interesting topic to explore! But the game itself is cool, and after seeing the comment</p>
+
+<pre><code># lettuce will build your strength and extra ruffage 
+# will fly in the face of your opponent!!</code></pre>
+
+<p>it became pretty impossible not to translate it into the house favorite language, <strong>Scala</strong>.</p>
+
+<p>There is no sense in imitating the dynamic typing pirouettes of the original using Scala, but this Dwemthy permutation will try to make up for the lost dynamic awesome with other kinds of awesome that Scala is good at, like functional programming and mostly painless typing.</p>
+
+<p>And, Scala <em>like</em> Ruby allows you to define methods that look like operators, declare multiple base types in one file, and it has an interpreter. That way the player can load a single source and play within the interpreter, which is the real ultimate power of Dwemthy. The Java implementations, with their class source file ensembles and keyboard input loops, have shown up at the beach wearing business casual yet again.</p>
+
+<pre><code>// clock-seeded pseudorandom sequences are for sharing!
+object Random extends Random
+
+trait Creature {
+  val life: Int
+  val strength: Int
+  val charisma: Int
+  val name: String
+
+  // abstract type to escape from square braces[][][][]
+  type Copy &lt;: Creature
+  def copy(life: Int): Copy
+
+  def rand(until: Int) = Random.nextInt(until)
+
+  def hit(damage: Int) = copy(
+    (rand(charisma) match {
+      case p_up if p_up % 9 == 7 =&gt; 
+        printf(&quot;[%s magick powers up %d!]\n&quot;, name, p_up)
+        p_up / 4
+      case _ =&gt; 0
+    }) + life - damage match {
+      case death if death &lt;= 0 =&gt; 
+        printf(&quot;[%s has died.]\n&quot;, name)
+        death
+      case l =&gt; l
+    }
+  )
+}</code></pre>
+
+<p>A Creature is something that can be hit with damage and that has certain attributes. <em class='smcp'>Note that these are immutable</em>. The <code>hit</code> method returns a new copy of the Creature with a new life value, thus it requires an abstract method to produce this copy and an <em>abstract type</em> to say what that copy will be. Otherwise, the value returned by hit would simply be a Creature and we could no longer use the wonderful weapons that only the rabbit possesses. You can do the same thing with type parameters, but the abstract type is self-documenting and doesn&#8217;t clutter up the class/trait introduction with distracting symbols.</p>
+
+<p>Pattern matching! If you want to know why it&#8217;s used here instead of a plain old <code>if</code>s, the answer is that <code>match</code> gives you a nicely scoped reference to its input object. That makes it easier to write functions that evaluate to a single expression instead of a series of expressions and a bunch of values for things that you need to use just twice. Although, it seems like there may be an even more awesome way to do this kind of thing; if you know one, please don&#8217;t keep it to yourself!</p>
+
+<pre><code>trait Enemy extends Creature {
+  // enemies beget enemies
+  type Copy = Enemy
+  // and hold one (1) weapon
+  val weapon: Int
+}</code></pre>
+
+<p>Yep. In the Ruby version, rabbit has a weapon value that isn&#8217;t used in normal gameplay, so here in pedantic typing land we will just put that right in Enemy where it belongs. Also now the <code>Copy</code> type is set once and for all enemies with this trait.</p>
+
+<pre><code>case class Rabbit(rem_life: Int, bombs: Int) extends Creature {
+  // and rabbits make... MORE RABBITS
+  type Copy = Rabbit
+  val life = rem_life
+  val strength = 2
+  val charisma = 44
+  val name = &quot;Rabbit&quot;
+
+  def fight(enemy: Enemy, weapon: Int) =
+    if (life &lt;= 0) {
+      printf(&quot;[%s is too dead to fight!]\n&quot;, name)
+      (this, enemy)
+    } else {
+
+      // Attack the opponnent
+      val your_hit = rand(weapon + strength)
+      printf(&quot;[You hit with %d points of damage!]\n&quot;, your_hit)
+      val damaged_enemy = enemy hit your_hit
+  
+      //Retaliation
+      println(damaged_enemy)
+      ( if (damaged_enemy.life &gt; 0) {
+          val enemy_hit = rand(damaged_enemy.weapon + damaged_enemy.strength)
+          printf(&quot;[Your enemy hit with %d points of damage!]\n&quot;, enemy_hit)
+          this hit enemy_hit
+        } else this
+      , damaged_enemy)
+    }
+
+  def copy(life: Int) = new Rabbit(life, bombs)
+
+  // little boomerang
+  def ^ (enemy: Enemy) = fight(enemy, 13)
+
+  // the hero&#39;s sword is unlimited!!
+  def / (enemy: Enemy) =
+    fight(enemy, rand(4 + (enemy.life % 10) * (enemy.life % 10)))
+
+  // lettuce will build your strength and extra ruffage
+  // will fly in the face of your opponent!!
+  def % (enemy: Enemy) = {
+    val lettuce = rand(charisma)
+    printf(&quot;[Healthy lettuce gives you %d life points!!]\n&quot;, lettuce)
+    Rabbit(life + lettuce, bombs).fight(enemy, 0)
+  }
+
+  // bombs, but you only have three!!
+  def * (enemy: Enemy) =
+    if (bombs &lt;= 0) {
+      println(&quot;[UHN!! You&#39;re out of bombs!!]&quot;)
+      (this, enemy)
+    } else
+      Rabbit(life, bombs-1).fight(enemy, 86)
+}
+
+object Rabbit extends Rabbit(
+    10, // life
+    3)  // bombs</code></pre>
+
+<p>(Ruffage is condensed roughage.) This is pretty self explanatory maybe. All case classes get a halfway decent automatic <code>toString</code> that prints their constructor values. The deal with <code>fight</code> and all the weapon-specifc methods is, they return a tuple made up of your guy and the enemy. We need this because both usually change in one turn, thanks to retaliation.</p>
+
+<pre><code>// the P is for &#39;&#39;&#39;&#39;PRIME&#39;&#39;&#39;&#39;
+case class EnemyP(life:Int, strength:Int, charisma: Int, weapon: Int, 
+    name: String) extends Enemy {
+  // https://lampsvn.epfl.ch/trac/scala/ticket/321 grrr!!!
+  def copy(life: Int): Enemy = EnemyP(life, strength, charisma, weapon, name)
+}
+
+// Critters are easy to define
+trait Critter extends Enemy {
+  def copy(life: Int): Enemy = EnemyP(life, strength, charisma, weapon, name)
+}</code></pre>
+
+<p>Done! Now we can conjure ScubaArgentine.</p>
+
+<pre><code>object ScubaArgentine extends Critter {
+  val life = 46
+  val strength = 35
+  val charisma = 91
+  val weapon = 2
+  val name = &quot;Scuba Argentine&quot;
+}</code></pre>
+
+<p>And have an interpretive fight.</p>
+
+<pre><code>scala&gt; var play = Rabbit / ScubaArgentine
+[You hit with 5 points of damage!]
+EnemyP(41,35,91,2,Scuba Argentine)
+[Your enemy hit with 27 points of damage!]
+[Rabbit has died.]
+play: (Rabbit, Enemy) = (Rabbit(-17,3),EnemyP(41,35,91,2,Scuba Argentine))</code></pre>
+
+<p>Aw. You can see that <code>toString</code> is not ideal. We&#8217;ll get back to that, and the names. For now, replay the match until rabbit survives a round. <code>play</code> is the only variable in this game, so that it can be updated and reused with each turn.</p>
+
+<pre><code>scala&gt; play = Rabbit / ScubaArgentine
+[You hit with 2 points of damage!]
+EnemyP(44,35,91,2,Scuba Argentine)
+[Your enemy hit with 0 points of damage!]
+play: (Rabbit, Enemy) = (Rabbit(10,3),EnemyP(44,35,91,2,Scuba Argentine))</code></pre>
+
+<p>Now we&#8217;re talking. And to play the next turn:</p>
+
+<pre><code>scala&gt; play = play._1 % play._2</code></pre>
+
+<p><em>Or</em></p>
+
+<pre><code>scala&gt; play = play match { case (r, e) =&gt; r % e }</code></pre>
+
+<p>And so on! (The interpreter&#8217;s input history is helpful.) Now for the evil DwemthysList.</p>
+
+<pre><code>// is-NOT-a-list-but-*has*-one and that will have to do
+class DwemthysList(head: Enemy, tail: List[Enemy]) extends EnemyP(
+    head.life, head.strength, head.charisma, head.weapon, head.name) {
+
+  override def copy(life: Int) =
+    if (life &lt;= 0) {
+      if (tail.isEmpty) {
+        println(&quot;[Whoa.  You decimated Dwemthy&#39;s Array!]&quot;)
+        head.copy(life)
+      } else {
+        printf(&quot;[Get ready. %s has emerged.]\n&quot;, tail.head.name)
+        new DwemthysList(tail.head, tail.tail)
+      }
+    } else new DwemthysList(head.copy(life), tail)
+}
+
+// but can-construct-as-a-list!
+implicit def list2dwemthy(list: List[Enemy]) = new DwemthysList(list.head, list.tail)</code></pre>
+
+<p class='liner'>The awesome dynamicy implicit <a href='#item-5608'>was J. I.&#8217;s idea</a>.</p>
+
+<p class='break'>That <code>list2dwemthy</code> will turn a regular list into a <code>DwemthysList</code> whenever one is required. And finally, code is data or whatever.</p>
+
+<pre><code>object IndustrialRaverMonkey extends Critter {
+  val life = 46
+  val strength = 35
+  val charisma = 91
+  val weapon = 2
+  val name = &quot;IndustrialRaverMonkey&quot;
+}
+
+object DwarvenAngel extends Critter {
+  val life = 540
+  val strength = 6
+  val charisma = 144
+  val weapon = 50
+  val name = &quot;DwarvenAngel&quot;
+}
+
+object AssistantViceTentacleAndOmbudsman extends Critter {
+  val life  = 320
+  val strength = 6
+  val charisma = 144
+  val weapon = 50
+  val name = &quot;AssistantViceTentacleAndOmbudsman&quot;
+}
+
+object TeethDeer extends Critter {
+  val life = 655
+  val strength = 192
+  val charisma = 19
+  val weapon = 109
+  val name = &quot;TeethDeer&quot;
+}
+
+object IntrepidDecomposedCyclist extends Critter {
+  val life  = 901
+  val strength = 560
+  val charisma = 422
+  val weapon = 105
+  val name = &quot;IntrepidDecomposedCyclist&quot;
+}
+
+object Dragon extends Critter {
+  val life = 1340     // tough scales
+  val strength = 451  // bristling veins
+  val charisma = 1020 // toothy smile
+  val weapon = 939    // fire breath
+  val name = &quot;Dragon&quot;
+}
+
+val dwlist = List(IndustrialRaverMonkey,
+                  DwarvenAngel,
+                  AssistantViceTentacleAndOmbudsman,
+                  TeethDeer,
+                  IntrepidDecomposedCyclist,
+                  Dragon)</code></pre>
+
+<p>Now you can attack the list.</p>
+
+<pre><code>scala&gt; var play = Rabbit / dwlist</code></pre>
+
+<p>Maybe you will win&#8212;anything is possible! <em class='smcp'>Hint</em>, try not to forget the game is played in a programming environment. Dwemthy didn&#8217;t say anything about writing recursive functions, so, why not. Simple algorithms have been known to get <em>to</em> the dragon, but probably can&#8217;t beat him <em class='smcp'>without overflowing int</em>. Yeah it&#8217;s that serious.</p>
+
+<h4 id='dwemthyscala'><a href='http://technically.us/git?p=sand.git;a=blob;f=dwemthy.scala'>dwemthy.scala</a></h4>
+
+<p>And about that <code>toString</code>&#8212;lame. Ruby has a much nicer display of the attributes than the case class is giving, at least the way it&#8217;s used here. Lamer still is the fact that we&#8217;re naming the creatures with Strings instead of using type information, but, that&#8217;s harder than it looks. Can you even get that information at construction time? In a trait? Maybe a <code>lazy val</code> would work, but then the case class won&#8217;t output it? There has got to a way to improve the name and status printing without a bunch of uglycode. And since the source above is hosted at the new <code>technically.us</code> git node, you can totally clone and branch.</p>
+
+<p class='break'>But whatever you do, do <em class='smcp'>not</em> put a variable in there or Dwemthy will personally show you a whole new world of hurt.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id2610">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-5601"><p>I&#8217;m not sure that I agree with the decision to make creatures immutable. I mean, I like immutable data as much as the next guy, but some things are just naturally statefull (that&#8217;s why Scala has var). It just seems like it would be more natural if you didn&#8217;t have to keep worrying about managing the creature by hand-ish.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.codecommit.com"><span class="alias">Daniel Spiewak</span></a>
+  				<span>on July 25, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5603"><p>That is the kind of thinking that will talk you out of ever using immutable state! In theory it&#8217;s appropriate for everything; the more state to be maintained, the greater the clarity and reliability advantage. Not that I buy that necessarily, but it worked nicely in this trial. And otherwise it would have been boringly too much like the Ruby version.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on July 25, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5604"><p>Actually, immutable data is even better for a game than for everything else.</p>
+
+<p>Want a nice display of the game&#8217;s history at the end? No problem, just keep all of the data objects and iterate over them to tell the story (mostly).</p>
+
+<p>Want a magic weapon that rewinds time? With immutable state, you just hang onto the old objects for a bit. With mutable state, you have to keep enough data to reverse whatever you did.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">katre</span></span>
+  				<span>on July 25, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5605"><p>Yeah, having a state history is sweet. If you play this game in the Scala interpreter and <em>don&#8217;t</em> assign a play variable, you get automatic incremental references to character snapshots. But then you also have to increment your input for the next turn.</p>
+
+<p>Does anybody know of good immutable examples around the web, preferably in a language that most people can read? I couldn&#8217;t find squat. Mostly I wanted to know the typical names for functions and values that would have to be common in this kind of programming, but I&#8217;m sure there&#8217;s also a lot of techniques I didn&#8217;t arrive at on my own.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on July 25, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5608"><p>The best examples of advanced immutable programming are going to be in languages like Haskell, ML, and Scheme. That kind of design isn&#8217;t as well used in any of the more popular languages. But that&#8217;s okay, learning those languages builds even more strength and ruffage than eating lettuce.</p>
+
+<p>A thought: instead of object DwemthysList {def apply&#8230;}, how &#8216;bout this?</p>
+
+<pre><code>implicit def list2Enemy(enemies:List[Enemy]) = new DwemthysList(enemies.head, enemies.tail)
+
+val dwlist = List(ScubaArgentine,...)
+var play = r / dwlist</code></pre>
+
+<p>Seems to capture some of the spirit of the original <code>method_missing</code>.</p>
+
+<p>As for getting names of classes and properties and such, Scala doesn&#8217;t currently offer a better answer than Java reflection. You can &#8220;pimp&#8221; the reflection library a bit to make it a little cleaner to use, but it&#8217;s still reflection in the end.</p>
+
+<p>Perhaps some day Scala will offer template meta-programming or at least something along the lines of Haskell&#8217;s SYB.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://james-iry.blogspot.com"><span class="alias">James Iry</span></a>
+  				<span>on July 25, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5609"><p>Hi James, I suppose it would at least be worth learning to read those languages. Maybe then I will understand MONADS. (I did enjoy your series on them, but my brief, partial cognizance of <code>flatMap</code> has since evaporated.)</p>
+
+<p>I love the implicit List conversion idea, will definitely make that change.</p>
+
+<p>The thing with using reflection for the name is it can&#8217;t produce a value for the case class.</p>
+
+<pre><code>scala&gt; case class A(val name: String)
+defined class A
+
+scala&gt; class NamedThing extends A(getClass.getName)
+defined class NamedThing
+
+scala&gt; new NamedThing
+res29: NamedThing = A()</code></pre>
+
+<p>I guess Scala makes a fake <code>this</code> for the constructor and the class it gives back is nameless. Fine. I mean, I wouldn&#8217;t expect that work anyway. <code>:\</code></p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on July 25, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5610"><p>What you&#8217;re doing there is equivalent to val name = getClass.getName class NamedThing extends A(name)</p>
+
+<p>It is interesting that the interpreter&#8217;s top level object has a class with no name. I had never even thought to look.</p>
+
+<p>Anyway, to achieve the desired effect would require overriding toString with a bunch of reflective stuff. So it&#8217;s right back to the Java solution :(</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://james-iry.blogspot.com"><span class="alias">James Iry</span></a>
+  				<span>on July 26, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5611"><p>Yes, I suppose that&#8217;s how it&#8217;s interpreted. Dwemthy is going to have to be satisfied with this for the time being. If a reflective class and property pretty-printer (like Ruby&#8217;s) ever shows up in stdlib, that would be cool. Or some way to do <code>classOf</code> on abstract types/type parameters. (I don&#8217;t see why those can&#8217;t be statically inserted by the compiler.)</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on July 26, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5618"><p>That is a fun read, n8! Thanks for sharing.</p>
+
+<p>Regarding state, one place where it helps is when you want to have references between the objects and you always want to point to the current version. For example, imagine if you had an arena that had pointers to all the fighters. If you insist on no state, then whenever any fighter changes, you have to update the whole arena. This can require a lot of boilerplate code, plus if you leave out an update, you can end up using the wrong version of something without even getting any error from the runtime system at all.</p>
+
+<p>So, long story short, my instinct matches some others and I&#8217;d suggest making the creatures statefull but have as many as possible of their fields being vals or at least referencing data that is itself immutable.</p>
+
+<p>For run-time type information, a pattern that is often used is to have a TypeDescriptor hierarchy and then to pass these around as implicit parameters. In this case, though, nothing should prevent you from writing some toString() methods, but I admit I haven&#8217;t thought about what the implementation of those methods would look like.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.lexspoon.org"><span class="alias">Lex Spoon</span></a>
+  				<span>on July 29, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5621"><p>Hey, Lex, thanks for <em>Programming in Scala</em>!</p>
+
+<p>I see what you&#8217;re saying about the arena. I guess the question with immutable state is always going to be, where does it stop? Here I think it works out the way it is, but it would be interesting to compare it to a less aggressively immutable version. (The LoC would go down a little I bet.)</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on July 29, 2008</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id2611">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id2612" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id2612_hf_0" id="id2612_hf_0" /><input type="hidden" name="wicket:interface" value=":1384:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id2613" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id2614" name="add" value="Add a comment" onclick="wicketShow('id2614--ajax-indicator');var wcall=wicketSubmitFormById('id2612', '../../../?wicket:interface=:1384:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id2614--ajax-indicator');}.bind(this),function() { ;wicketHide('id2614--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id2612')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id2614--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

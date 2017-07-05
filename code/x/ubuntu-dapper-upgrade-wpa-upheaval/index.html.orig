@@ -1,0 +1,151 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Ubuntu Dapper upgrade, WPA upheaval</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id20eb" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Ubuntu Dapper upgrade, WPA upheaval" width="629" class="title" src="../../../resources/net.databinder.components.RenderedLabel/2c5f8be4"/><span class="title">Ubuntu Dapper upgrade, WPA upheaval</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on June 4, 2006</span></span>
+			<span id="id20ec" class="tags">
+					{&nbsp;<span><a href="../../../code/tag/networking/#selected-tag"><span>networking</span></a><span id="id20ed">, </span></span><span><a href="../../../code/tag/ubuntu/#selected-tag"><span>ubuntu</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p><strong>wpa_supplicant</strong> fans like myself may have found the Dapper upgrade a little more jarring than they expected.</p>
+
+
+	<p>Though it&#8217;s not mentioned in Dapper&#8217;s <a href="http://www.ubuntu.com/download/releasenotes/606">release notes</a>, the upgrade includes significant changes to wpa_suppulicant&#8217;s configuration model, causing an exiting configuration to be disabled without warning.</p>
+
+
+	<p>If you&#8217;re using the newfangled Network Manager for a roaming setup it&#8217;s very easy to reconnect to your base station. But for stationary servers like <a href="http://technically.us/n8/articles/2006/04/06/can-ubuntu-wap-with-airport-express">my own</a>, you need to rewrite your wpa_supplicant configuration in <a href="http://wiki.debian.org/WPA">the new style</a>.</p>
+
+
+	<p><em>Don&#8217;t</em> try to resuscitate your renamed configuration files (as I did at first). Just transfer everything into /etc/network/interfaces and delete the old files. This is my new <span class="caps">WPA</span> configuration for talking to an Airport Express:</p>
+
+
+<pre>
+iface ath0 inet static
+        pre-up sleep 10
+        wpa-driver madwifi
+        wpa-ssid 11
+        wpa-scan-ssid 1
+        wpa-eapol-version 2
+        wpa-key-mgmt WPA-PSK
+        wpa-psk H3XC0D3C1TYH3R3
+        hostname mini
+        address 192.168.3.1
+        netmask 255.255.255.0
+</pre>
+
+	<p>Good luck with your own upgrade!</p>
+
+
+	<p><strong><span class="caps">UPDATE</span>:</strong> Though my setup was working perfectly on a manual <tt>ifup ath0</tt>, it wasn&#8217;t initializng on boot until I added the &#8220;pre-up sleep 10&#8221; line.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id20ee">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-5626"><p>Kudos for your &#8220;pre-up sleep 10&#8221; tip. It solved the problem in my EEE PC 701. Thanks!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://muriloq.com"><span class="alias">Murilo Queiroz</span></a>
+  				<span>on July 31, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6391"><p>Found this tip more than three years after you posted it. Solved my problem &#8211; thanks!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">srage</span></span>
+  				<span>on July 23, 2009</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id20ef">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id20f0" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id20f0_hf_0" id="id20f0_hf_0" /><input type="hidden" name="wicket:interface" value=":1256:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id20f1" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id20f2" name="add" value="Add a comment" onclick="wicketShow('id20f2--ajax-indicator');var wcall=wicketSubmitFormById('id20f0', '../../../?wicket:interface=:1256:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id20f2--ajax-indicator');}.bind(this),function() { ;wicketHide('id20f2--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id20f0')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id20f2--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

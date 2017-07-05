@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/city-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>City Slicking / Don&#039;t be so groovy</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../city">
+			
+			<img alt="City Slicking" src="../../../resources/org.apache.wicket.Application/city-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../city">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/city-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id1b0b" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Don't be so groovy" width="232" class="title" src="../../../resources/net.databinder.components.RenderedLabel/f9701dcc"/><span class="title">Don&#039;t be so groovy</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Doctor Barnett</span>, <span>on March 2, 2006</span></span>
+			<span id="id1b0c" class="tags">
+					{&nbsp;<span><a href="../../../city/tag/movies/#selected-tag"><span>movies</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p><a href="/eat/">MrLittlePants</a> and I watched the recent <span class="caps">DVD</span> release of <a href="http://www.amazon.com/exec/obidos/ASIN/B000BBOU5O/eat0e-20">Raise the Red Lantern</a> last night. He had seen it some time ago, but I was a red lantern virgin.</p>
+
+
+	<p style="float:right"><img src="/pictures/groovy.jpg" alt="" /></p>
+
+
+	<p>The quality was shockingly bad. We thought at the beginning that it was some kind of ironic Quentin Tarantino treatment, but eventually realized we were in for two hours of scratchy video.</p>
+
+
+	<p>Wow! I had forgotten such a thing was possible. Other <span class="caps">DVD</span> transfers I&#8217;ve seen have been flawless, all the way back to <a href="http://www.amazon.com/exec/obidos/ASIN/B000063URD/eat0e-20">Sorry, Wrong Number</a>. And of course any Chinese movie since <a href="http://www.amazon.com/exec/obidos/ASIN/B00003CXR4/eat0e-20">Crouching Tiger</a> has nary a flickering frame in it.</p>
+
+
+	<p>Is there really no better copy of this 1991 Oscar-nominated movie in <em>the whole world?</em> Did the Chinese government burn them all? I didn&#8217;t mind it too much (and still enjoyed the movie), but it&#8217;s hard to understand how such a widely respected work hasn&#8217;t been treated better.</p>
+
+
+	<p>The English in the subtitles was just as tattered as the video, often hilariously. Our favorite line: * &#8220;Don&#8217;t be so groovy / Look at me, I try to be happy.&#8221; *</p>
+
+
+	<p>This should be set to music, made into tee-shirts, and <del>- obviously -</del> spread around the Web. So far, Google only knows of one <a href="http://books.guardian.co.uk/departments/referenceandlanguages/story/0,6000,515676,00.html">reference</a> to &#8220;don&#8217;t be so groovy,&#8221; one that astoundingly attests to its correctness.</p>
+
+
+	<blockquote>
+		<p class="http://books.guardian.co.uk/departments/referenceandlanguages/story/0,6000,515676,00.html">Before the second world war, however-<del>and this is verifiable in novels of the period</del>-[groovy] meant &#8220;stuck in a groove&#8221;, with old-fashioned people instructed: &#8220;Don&#8217;t be so groovy.&#8221;</p>
+	</blockquote>
+
+
+	<p>Silly me, I had assumed they meant to type &#8220;gloomy.&#8221; Turns out they were just working with a fifty year old copy of English.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about'>About</h3>
+
+<p><em>City Slicking</em> is about urban life, transportation, energy, liberty, and language.</p>
+
+<h3 id='haunts'>Haunts</h3>
+
+<p><a href='http://twitter.com/n8han/'>Twitter</a><br /><a href='http://technically.us/code/'>Coderspiel</a><br /><a href='http://www.streetsblog.org/'>Streetsblog</a><br /><a href='http://gawker.com/people/alexpareene/posts/'>Pareene</a><br /><a href='http://www.copenhagenize.com/'>Copenhagenize</a><br /><a href='http://itre.cis.upenn.edu/~myl/languagelog/'>Language Log</a><br /><a href='http://t4america.org/'>Trans. for America</a></p>
+
+<h3 id='wire_service'>Wire Service</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/city-rss' title='All in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-short-rss' title='Left column, frequent links and notes'>Quickies</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-long-rss' title='Main column, occasional extended posts'>Treatise</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1b0d">
+  		<div><h3 id='backtalk'>Backtalk</h3></div>
+  		<div>
+  			<div id="item-878"><p>I thought &#8220;moody,&#8221; but gloomy makes more sense. It&#8217;s too bad that such a beautiful movie has been given the B-movie treatment.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on March 2, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-879"><p>that is one of my favorite movies, but i believe i watched it on VHS.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">*dots*</span></span>
+  				<span>on March 2, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id1b0e">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id1b0f" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id1b0f_hf_0" id="id1b0f_hf_0" /><input type="hidden" name="wicket:interface" value=":1041:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id1b10" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id1b11" name="add" value="Add a comment" onclick="wicketShow('id1b11--ajax-indicator');var wcall=wicketSubmitFormById('id1b0f', '../../../?wicket:interface=:1041:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id1b11--ajax-indicator');}.bind(this),function() { ;wicketHide('id1b11--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id1b0f')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id1b11--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

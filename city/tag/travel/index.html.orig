@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/city-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>City Slicking / travel</title>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container tag-listing">
+
+<div id="lead">
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../city">
+			
+			<img alt="City Slicking" src="../../../resources/org.apache.wicket.Application/city-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../city">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/city-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-11">
+		<div class="tag-columns">
+	<div>
+		<span class="elem"><a href="../../../city/tag/alarms/#selected-tag"><span>alarms</span></a></span><span class="elem"><a href="../../../city/tag/college/#selected-tag"><span>college</span></a></span><span class="elem"><a href="../../../city/tag/freedom/#selected-tag"><span>freedom</span></a></span><span class="elem"><a href="../../../city/tag/math/#selected-tag"><span>math</span></a></span><span class="elem"><a href="../../../city/tag/publishing/#selected-tag"><span>publishing</span></a></span><span class="elem"><a href="../../../city/tag/the%20nanny/#selected-tag"><span>the nanny</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../city/tag/amtrak/#selected-tag"><span>amtrak</span></a></span><span class="elem"><a href="../../../city/tag/comedy/#selected-tag"><span>comedy</span></a></span><span class="elem"><a href="../../../city/tag/french/#selected-tag"><span>french</span></a></span><span class="elem"><a href="../../../city/tag/military/#selected-tag"><span>military</span></a></span><span class="elem"><a href="../../../city/tag/punctuation/#selected-tag"><span>punctuation</span></a></span><span class="elem"><a href="../../../city/tag/the%20poor/#selected-tag"><span>the poor</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../city/tag/apple/#selected-tag"><span>apple</span></a></span><span class="elem"><a href="../../../city/tag/computers/#selected-tag"><span>computers</span></a></span><span class="elem"><a href="../../../city/tag/gays/#selected-tag"><span>gays</span></a></span><span class="elem"><a href="../../../city/tag/movies/#selected-tag"><span>movies</span></a></span><span class="elem"><a href="../../../city/tag/quality/#selected-tag"><span>quality</span></a></span><span class="elem"><a href="../../../city/tag/tipping/#selected-tag"><span>tipping</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../city/tag/art/#selected-tag"><span>art</span></a></span><span class="elem"><a href="../../../city/tag/consumerism/#selected-tag"><span>consumerism</span></a></span><span class="elem"><a href="../../../city/tag/gender/#selected-tag"><span>gender</span></a></span><span class="elem"><a href="../../../city/tag/music/#selected-tag"><span>music</span></a></span><span class="elem"><a href="../../../city/tag/religion/#selected-tag"><span>religion</span></a></span><span class="elem"><a href="../../../city/tag/transportation/#selected-tag"><span>transportation</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../city/tag/autos/#selected-tag"><span>autos</span></a></span><span class="elem"><a href="../../../city/tag/culture/#selected-tag"><span>culture</span></a></span><span class="elem"><a href="../../../city/tag/grammar/#selected-tag"><span>grammar</span></a></span><span class="elem"><a href="../../../city/tag/nighttime/#selected-tag"><span>nighttime</span></a></span><span class="elem"><a href="../../../city/tag/scams/#selected-tag"><span>scams</span></a></span><span class="elem"><span><em><span>travel</span></em></span></span>
+	</div><div>
+		<span class="elem"><a href="../../../city/tag/bars/#selected-tag"><span>bars</span></a></span><span class="elem"><a href="../../../city/tag/drivers/#selected-tag"><span>drivers</span></a></span><span class="elem"><a href="../../../city/tag/guns/#selected-tag"><span>guns</span></a></span><span class="elem"><a href="../../../city/tag/nyt/#selected-tag"><span>nyt</span></a></span><span class="elem"><a href="../../../city/tag/school/#selected-tag"><span>school</span></a></span><span class="elem"><a href="../../../city/tag/tv/#selected-tag"><span>tv</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../city/tag/beer/#selected-tag"><span>beer</span></a></span><span class="elem"><a href="../../../city/tag/economy/#selected-tag"><span>economy</span></a></span><span class="elem"><a href="../../../city/tag/health/#selected-tag"><span>health</span></a></span><span class="elem"><a href="../../../city/tag/organic/#selected-tag"><span>organic</span></a></span><span class="elem"><a href="../../../city/tag/science/#selected-tag"><span>science</span></a></span><span class="elem"><a href="../../../city/tag/typography/#selected-tag"><span>typography</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../city/tag/bicycles/#selected-tag"><span>bicycles</span></a></span><span class="elem"><a href="../../../city/tag/english/#selected-tag"><span>english</span></a></span><span class="elem"><a href="../../../city/tag/homemaking/#selected-tag"><span>homemaking</span></a></span><span class="elem"><a href="../../../city/tag/outdoors/#selected-tag"><span>outdoors</span></a></span><span class="elem"><a href="../../../city/tag/security/#selected-tag"><span>security</span></a></span><span class="elem"><a href="../../../city/tag/video/#selected-tag"><span>video</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../city/tag/boutin/#selected-tag"><span>boutin</span></a></span><span class="elem"><a href="../../../city/tag/entertainment/#selected-tag"><span>entertainment</span></a></span><span class="elem"><a href="../../../city/tag/internet/#selected-tag"><span>internet</span></a></span><span class="elem"><a href="../../../city/tag/parking/#selected-tag"><span>parking</span></a></span><span class="elem"><a href="../../../city/tag/services/#selected-tag"><span>services</span></a></span><span class="elem"><a href="../../../city/tag/weather/#selected-tag"><span>weather</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../city/tag/branding/#selected-tag"><span>branding</span></a></span><span class="elem"><a href="../../../city/tag/environment/#selected-tag"><span>environment</span></a></span><span class="elem"><a href="../../../city/tag/jargon/#selected-tag"><span>jargon</span></a></span><span class="elem"><a href="../../../city/tag/photography/#selected-tag"><span>photography</span></a></span><span class="elem"><a href="../../../city/tag/shopping/#selected-tag"><span>shopping</span></a></span><span class="elem"><a href="../../../city/tag/web/#selected-tag"><span>web</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../city/tag/bush/#selected-tag"><span>bush</span></a></span><span class="elem"><a href="../../../city/tag/fashion/#selected-tag"><span>fashion</span></a></span><span class="elem"><a href="../../../city/tag/language/#selected-tag"><span>language</span></a></span><span class="elem"><a href="../../../city/tag/pittsburgh/#selected-tag"><span>pittsburgh</span></a></span><span class="elem"><a href="../../../city/tag/slate/#selected-tag"><span>slate</span></a></span><span class="elem"><a href="../../../city/tag/weblogs/#selected-tag"><span>weblogs</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../city/tag/celebrity/#selected-tag"><span>celebrity</span></a></span><span class="elem"><a href="../../../city/tag/flying/#selected-tag"><span>flying</span></a></span><span class="elem"><a href="../../../city/tag/libertarianism/#selected-tag"><span>libertarianism</span></a></span><span class="elem"><a href="../../../city/tag/politics/#selected-tag"><span>politics</span></a></span><span class="elem"><a href="../../../city/tag/surveillance/#selected-tag"><span>surveillance</span></a></span><span class="elem"><a href="../../../city/tag/weddings/#selected-tag"><span>weddings</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../city/tag/censorship/#selected-tag"><span>censorship</span></a></span><span class="elem"><a href="../../../city/tag/foley/#selected-tag"><span>foley</span></a></span><span class="elem"><a href="../../../city/tag/luxury/#selected-tag"><span>luxury</span></a></span><span class="elem"><a href="../../../city/tag/privacy/#selected-tag"><span>privacy</span></a></span><span class="elem"><a href="../../../city/tag/suvs/#selected-tag"><span>suvs</span></a></span><span class="elem"><a href="../../../city/tag/youth/#selected-tag"><span>youth</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../city/tag/cleaning/#selected-tag"><span>cleaning</span></a></span><span class="elem"><a href="../../../city/tag/food/#selected-tag"><span>food</span></a></span><span class="elem"><a href="../../../city/tag/marketing/#selected-tag"><span>marketing</span></a></span><span class="elem"><a href="../../../city/tag/proofreading/#selected-tag"><span>proofreading</span></a></span><span class="elem"><a href="../../../city/tag/television/#selected-tag"><span>television</span></a></span>
+	</div>
+</div>
+
+	<div id="selected-tag"><img height="45" alt="travel" width="68" src="../../../resources/net.databinder.components.RenderedLabel/1d271993"/></div>
+		
+	<div>
+		<h4><a href="../../../city/x/crossing-the-rhine/"><span>Crossing the Rhine</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Nathan</span>, <span>September 27, 2009</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../city/x/dear-zipcar-dont-let-them-play-you/"><span>Dear Zipcar, don’t let them play you</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Doctor Barnett</span>, <span>September 16, 2008</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../city/x/dear-amtrak-americas-rail-road/"><span>Dear Amtrak, America’s rail-road</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Doctor Barnett</span>, <span>July 14, 2008</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../city/x/back-it-up-like-a-u-haul-truck/"><span>Back it up, like a u-haul truck</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Doctor Barnett</span>, <span>October 6, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../city/x/optimistically-flying/"><span>Optimistically flying</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Doctor Barnett</span>, <span>June 13, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../city/x/copy-edit-for-continental/"><span>Copy edit for Continental</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Doctor Barnett</span>, <span>June 1, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../city/x/bamboozled-in-berlin/"><span>Bamboozled in Berlin</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Doctor Barnett</span>, <span>May 21, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../city/x/relaxed-elegance-in-the-great-white-north/"><span>Relaxed elegance in the great white north</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Doctor Barnett</span>, <span>December 19, 2005</span>
+		</div>
+	</div>
+
+	<div><form id='searchbox_014353926172616456646:yf89rgzuxbk' action='http://www.google.com/cse'>
+    <input type='hidden' name='cx' value='014353926172616456646:yf89rgzuxbk' />
+    <input type='hidden' name='cof' value='FORID:0' />
+<p><a href='/city/archive'>Browse by calendar </a>, or <input name='q' type='text' />
+    <input type='submit' name='sa' value='Search' /></p>
+  </form></div>
+
+</div>
+	
+</div> <!-- container -->
+
+<div id="target-padder"></div>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="../../../blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="../../../blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet.css"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Getting out of Maven&#039;s way</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code.html">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code.html">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id2417" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Getting out of Maven's way" width="431" class="title" src="../../../resources/net.databinder.components.RenderedLabel/633fe4cc"/><span class="title">Getting out of Maven&#039;s way</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on July 31, 2006</span></span>
+			<span id="id2418" class="tags">
+					{&nbsp;<span><a href="../../tag/databinder/index.html#selected-tag"><span>databinder</span></a><span id="id2419">, </span></span><span><a href="../../tag/maven/index.html#selected-tag"><span>maven</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p style="float:right"><img src="../../../pictures/street-cleaner.jpg" alt="" /></p>
+
+
+	<p>I&#8217;ve complained here in the past about the process of adding new Databinder versions to the central Maven repository. For 0.5 I waited over two incredulous weeks for it to show up.</p>
+
+
+	<p>That normally wouldn&#8217;t be a big deal, but unlike most projects outside of Maven plugins, Databinder is wholly dependant upon Maven for its distribution. I do all I can to convince people to put aside whatever <a href="http://jroller.com/page/fate/">bile</a> they may have ingested about Maven and just give it a try.</p>
+
+
+	<p>To date I&#8217;ve had one (potential) user criticize Databinder&#8217;s Maven-heavy approach. First he complained that the download links were too hard to find. I responded that that was intentional, since learning Databinder with Maven is easier than without it. This prompted, &#8220;the idea for hiding the download link to force people to do something that you find a good idea is a rather bad idea.&#8221;</p>
+
+
+	<p>Uhh, what? The whole Databinder project is something I &#8220;find a good idea&#8221; and no one is forced to use it. I suppose it&#8217;s a rite of passage in an open source project to receive indignant criticism from those who profit from it. It feels icky. I broke off the conversation.</p>
+
+
+	<p>The wrongness of that complaint is coming back to me now as I cheerfully report that <strong>Databinder&#8217;s Maven integration has taken another step forward</strong>. Maven has accepted Databinder&#8217;s repository as a feeder for the central repo. This means I won&#8217;t have to submit carefully worded pleas to Maven&#8217;s bug tracker each time I release a new version. And more importantly, the sync delay will be hours instead of weeks.</p>
+
+
+	<p>This brings us into a small network of software distribution that, I think, is going to significantly improve open source programming. I release a package on my server (<tt>mvn deploy</tt>); hours later it shows up on ibiblio and other mirrors around the world; in a cave somewhere, a programmer increments the version attribute in a <tt>pom.xml</tt>, triggering a download of the new version and any new dependencies.</p>
+
+
+	<p>This is good technology, people.</p>
+
+
+	<p>Okay, here&#8217;s your reward for reading or skimming to the bottom: <strong>the Databinder snapshot repository has moved</strong>. This was required for the main repository&#8217;s promotion to a central feeder repo. Please see the <a href="http://databinder.net/faq.html#uptodate">updated <span class="caps">FAQ</span></a> for a clip to copy &#38; paste into your <tt>pom.xml</tt>.</p>
+
+
+	<p>And remember: friends don&#8217;t let friends compile without Maven.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='../../../resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id241a">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-1142"><p>Congratulations, Nathan! This is great news. &#8220;Sometimes you have to force people to get lucky&#8221; a saying here in germany goes and in the case of maven I totally agree with that. BTW - you must tell us more about that &#8220;deloy&#8221; goal ;-)</p>
+
+<p>roland</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">rkaercher</span></span>
+  				<span>on July 31, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1143"><p>Isn&#8217;t it great when your typos are in large, monospaced type and you still can&#8217;t see them? Thanks for the heads-up.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8han</span></span>
+  				<span>on July 31, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1144"><p>&#8220;To date I’ve had one (potential) user criticize Databinder’s Maven-heavy approach&#8221;</p>
+
+<p>We are more than one.<br /> Maybe we don&#8217;t speak becouse of your clear statement on the subject right on Databinder&#8217;s home page. It&#8217;s your software after all&#8230;<br /> We don&#8217;t like the Maven thing.<br /> Not that you care, but if you force me to use Maven, I won&#8217;t try Databinder.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Gustavo</span></span>
+  				<span>on July 31, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1145"><p>Oh, I care. But let&#8217;s be clear: you <em>aren&#8217;t</em> forced to use Maven with Databinder.</p>
+
+<p>I understand that for projects with heavy ties to Ant, even thinking about Maven is unpleasant. But for Wicket beginners, such migration concerns are premature. Their first days or weeks will be spent learning the framework with demos and prototypes.</p>
+
+<p>In that setting, half an hour for the installation of Maven is trivial. Figuring out how to make unmanaged &#8220;quickstart&#8221; examples work can be just as difficult, and the payoff is only a single working example. Besides, I <em>can&#8217;t</em> provide a quickstart that includes Wicket, Hibernate, and every other dependency.</p>
+
+<p>So you could think of Maven as just a quickstart distribution and configuration mechanism. Or not. I mean, if people hate Maven so much they&#8217;d rather learn Wicket without Databinder&#8217;s help, that&#8217;s fine too.</p>
+
+<p>Happy programming, Gustavo.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8han</span></span>
+  				<span>on July 31, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id241b">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id241c" action="../../../index.html" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id241c_hf_0" id="id241c_hf_0" /><input type="hidden" name="wicket:interface" value=":1329:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id241d" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id241e" name="add" value="Add a comment" onclick="wicketShow('id241e--ajax-indicator');var wcall=wicketSubmitFormById('id241c', '../../../?wicket:interface=:1329:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id241e--ajax-indicator');}.bind(this),function() { ;wicketHide('id241e--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id241c')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id241e--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

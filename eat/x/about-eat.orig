@@ -1,0 +1,184 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / About EAT</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../eat">
+			
+			<img alt="Eat" src="../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../eat">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id6b" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="About EAT" width="172" class="title" src="../../resources/net.databinder.components.RenderedLabel/23696cb4"/><span class="title">About EAT</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on August 12, 2005</span></span>
+			
+		</span></div>
+		<div><p><img src="/pictures/us.jpg" alt="" /></p>
+<h3>Mom</h3>
+<p class="out"><img src="/pictures/mom.jpg" alt="" /></p>
+<p>I learned a lot about cooking from my mother, a great cook in her own right. I further honed my skills by spending a couple of years in an apprentice program in which I went to school and at the same time worked at the <a href="http://www.watergatehotel.com/">Watergate Hotel</a> in Washington, D.C. This was back in the early 70s and was one of the first programs to train young Americans in the culinary arts; I don&#8217;t know if it&#8217;s still in existence. My budding career was cut short when I became pregnant with Leland&#8217;s older brother&#8212;standing on your feet for ten hours in a restaurant kitchen and lifting 50-pound stockpots do not mix with pregnancy.</p>
+<p>So that&#8217;s how I wound up in <a href="http://en.wikipedia.org/wiki/Pittsburgh">Pittsburgh</a>, where Jon and Leland were born, and the home town of their father. Since then I have had a diverse professional life, including working for many years in the field of mental health and chemical dependency treatment. I never lost my love of cooking, though, and I always cooked for friends and family.</p>
+<p>When I &#8216;retired&#8217; from the mental health field I got back into cooking a little bit by working in a small kitchenware store, catering off and on, teaching a few cooking classes, taking some classes myself, and continuing to cook for fun.</p>
+<p>I am remarried to Pittsburgh singer/songwriter <a href="http://www.billyprice.com">Billy Price</a>. We have four great kids&#8212;Jon, Leland, Valerie, and Calvin. Bill and I volunteer for an organization called <a href="http:www.helpourmarriage.com">Retrouvaille</a> and I&#8217;m proud of our efforts on the behalf of the hurting couples who get help from us. For fun I am an avid reader with eclectic tastes. I love to shop, especially bargain-hunting, and travel. We just returned from our 20-year anniversary trip to Spain in November where we had a great time, mostly eating and touring various markets; in two weeks I think we went to one museum! The highlight of 2006, aside from the trip, was our holiday open house. We entertained over 120 people, and Leland and I did all the cooking ourselves! The whole family pulled together to make the party a success, moving furniture, decorating, greeting the guests, hanging up coats, and just making sure everything went as smoothly as possible when there&#8217;s that kind of crush in the house. It was a lot of fun.</p>
+<h3>Leland</h3>
+<p class="out"><img src="/pictures/leland1.jpg" alt="" /></p>
+<p>I started Eat in October 2005, shortly after <a href="http://technically.us/n8">Nathan</a> began running a server out of our tiny New York apartment. I had been on blogger, but I was tired of having such little control and being subject to blogger&#8217;s technical problems. I like to have my tech support under the same roof. Mom started posting at the end of February 2006, and it&#8217;s been a fun way for us to do something together even though we live far apart.</p>
+<p>As a child and teenager, I was a typical momma&#8217;s boy, spending as much time in the kitchen with her as she would allow me to. I learned a lot just by watching her, and sometimes she&#8217;d let me help with a dinner party. Of course now that I&#8217;m grown up, I regret not learning more. This blog is a way to rectify that situation.</p>
+<p>When I was in <a href="http://en.wikipedia.org/wiki/Schenley_High_School">high school</a> and <a href="http://en.wikipedia.org/wiki/Carnegie_mellon">college</a>, I worked in a number of restaurants. I even did a stint making crêpes at Crêpes Parisiennes in Shadyside. But I never harbored any dreams of cooking professionally, and I still don&#8217;t.</p>
+<p>I have lived with <a href="http://technically.us/doc">Nathan</a> in the <a href="http://maps.google.com/maps?f=q&amp;hl=en&amp;q=east+11th+street+and+university+place+10003&amp;ie=UTF8&amp;z=17&amp;ll=40.7333,-73.993317&amp;spn=0.006106,0.011523&amp;om=1">Central</a> <a href="http://en.wikipedia.org/wiki/Greenwich_Village">Village</a> since the summer of 2004.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id6c">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-4409"><p>Love you blog.  Keep up the good work.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Ryan</span></span>
+  				<span>on September 26, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4807"><p>Hello!</p>
+<p>I am Jiayun, a final year student at the London College of Communication.  For one of my final year projects I am working on an editorial compilation of soups from all around the world to represent all the different cultures and people&#8217;s tastes.</p>
+<p>I chanced upon your blog and thought it would be great if you could spare some time to send me photos of soup and if I publish yours in my book, your name will be in it too! :)</p>
+<p>It could be any kind of soup, even soup your friend is having, a stranger&#8217;s soup, soups could be savoury, sweet, thick, watery, hot, cold, instant, anything really, as long as it&#8217;s <span class="caps">SOUP</span>!</p>
+<p>send the photos along with information like:<br />
+name of soup<br />
+source (name of restaurant/made by XX/came from a can)<br />
+rough ingredients<br />
+any interesting facts/quotes (eg.&#8220;mum&#8217;s specialty!&#8221;)</p>
+<p>feel free to send in more than one entry by mid-February 2007 and I look forward to your reply! :)</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">jiayun</span></span>
+  				<span>on December 7, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6614"><p>Hi there! I couldn&#8217;t locate contact info so I thought I&#8217;d pass along the word here. :) <br />
+   My name is Sean Needles &amp; I am the Casting associate to the senior casting producer for Fox TV&#8217;s hit shows &#8220;Kitchen Nightmares&#8221; &amp; &#8220;Hell&#8217;s Kitchen&#8221; starring Gordon Ramsay. <br />
+   We are again casting &#8220;Kitchen Nightmares&#8221; so I wanted to reach out to you personally in hopes that you could please <span class="caps">HELP</span> us spread the word regarding the casting to your many loyal readers. Love your blog!<br />
+   We know that presently with the economy and the normal drama of restaurants, there are many restaurants that may need &#8220;<span class="caps">HELP</span>.&#8221; We are looking for lots of restaurants that may need Gordon&#8217;s help.  <br />
+   In case you don&#8217;t know the show, it is a <span class="caps">FOX</span> network show where each week acclaimed Chef Gordon Ramsay goes into different restaurants (big or small) and helps them fix their varying problems. <br />
+   Please feel free to call Lisa Ganz, the Senior Casting Producer with any questions you may have. &amp; <span class="caps">HAPPY</span> <span class="caps">JULY</span> 4TH!!!!!!!!! <br />
+   Any help would be greatly appreciated. I have included the general info below. (If you have any personal referrals as well, that would be great.)</p>
+<p>Thanks,<br />
+Sean Needles <br />
+Lisa Ganz<br />
+917-678-9996<br />
+===========</p>
+<p>FOX&#8217;s TV’s Hit Show &#8220;<span class="caps">KITCHEN</span> <span class="caps">NIGHTMARES</span>&#8221; is Back!<br />
+Casting immediately for its next season!<br />
+   If your restaurant is having problems and you want Chef Gordon Ramsay to come into your establishment, troubleshoot your problems, and try to get you back on the road to success, contact us <span class="caps">NOW</span>!</p>
+<p>To be considered: <br />
+<span class="caps">EMAIL</span>: Twinsworld1@aol.com <br />
+Place </p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Sean Needles</span></span>
+  				<span>on July 2, 2010</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6617"><p>Love your blog. So many nice recipes. Surtout Poulet en Cocotte. Thank you to your mom and you too.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Eileen Westgate</span></span>
+  				<span>on August 13, 2010</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id6d">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id6e" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id6e_hf_0" id="id6e_hf_0" /><input type="hidden" name="wicket:interface" value=":17:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id6f" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id70" name="add" value="Add a comment" onclick="wicketShow('id70--ajax-indicator');var wcall=wicketSubmitFormById('id6e', '../../?wicket:interface=:17:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id70--ajax-indicator');}.bind(this),function() { ;wicketHide('id70--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id6e')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id70--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

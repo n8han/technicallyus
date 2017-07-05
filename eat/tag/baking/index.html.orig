@@ -1,0 +1,240 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / baking</title>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container tag-listing">
+
+<div id="lead">
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-11">
+		<div class="tag-columns">
+	<div>
+		<span class="elem"><span><em><span>baking</span></em></span></span><span class="elem"><a href="../../../eat/tag/drink/#selected-tag"><span>drink</span></a></span><span class="elem"><a href="../../../eat/tag/grocery/#selected-tag"><span>grocery</span></a></span><span class="elem"><a href="../../../eat/tag/restaurants/#selected-tag"><span>restaurants</span></a></span><span class="elem"><a href="../../../eat/tag/techniques/#selected-tag"><span>techniques</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../eat/tag/books/#selected-tag"><span>books</span></a></span><span class="elem"><a href="../../../eat/tag/entertaining/#selected-tag"><span>entertaining</span></a></span><span class="elem"><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span><span class="elem"><a href="../../../eat/tag/restaurants:%20new%20york/#selected-tag"><span>restaurants: new york</span></a></span><span class="elem"><a href="../../../eat/tag/theory/#selected-tag"><span>theory</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../eat/tag/cooking%20with%20fruit/#selected-tag"><span>cooking with fruit</span></a></span><span class="elem"><a href="../../../eat/tag/ethnic%20cooking/#selected-tag"><span>ethnic cooking</span></a></span><span class="elem"><a href="../../../eat/tag/kitchen%20equipment/#selected-tag"><span>kitchen equipment</span></a></span><span class="elem"><a href="../../../eat/tag/restaurants:%20pittsburgh/#selected-tag"><span>restaurants: pittsburgh</span></a></span><span class="elem"><a href="../../../eat/tag/travel/#selected-tag"><span>travel</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../eat/tag/dessert/#selected-tag"><span>dessert</span></a></span><span class="elem"><a href="../../../eat/tag/food%20products/#selected-tag"><span>food products</span></a></span><span class="elem"><a href="../../../eat/tag/party/#selected-tag"><span>party</span></a></span><span class="elem"><a href="../../../eat/tag/school/#selected-tag"><span>school</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../eat/tag/desserts/#selected-tag"><span>desserts</span></a></span><span class="elem"><a href="../../../eat/tag/freshdirect/#selected-tag"><span>freshdirect</span></a></span><span class="elem"><a href="../../../eat/tag/produce%20alerts/#selected-tag"><span>produce alerts</span></a></span><span class="elem"><a href="../../../eat/tag/shopping/#selected-tag"><span>shopping</span></a></span>
+	</div>
+</div>
+
+	<div id="selected-tag"><img height="45" alt="baking" width="103" src="../../../resources/net.databinder.components.RenderedLabel/a82d30e7"/></div>
+		
+	<div>
+		<h4><a href="../../../eat/x/butter-cake-with-chocolate-frosting/"><span>Butter cake with chocolate frosting</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>January 27, 2008</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/pound-cake-troubles/"><span>Pound cake troubles</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>January 24, 2008</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-makes-brownie-cheesecake/"><span>Mom makes brownie cheesecake</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>July 22, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/everybody-loves-cookies/"><span>Everybody loves cookies</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>June 21, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/e-dehillerin-and-square-tarts/"><span>E. Dehillerin and square tarts</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>June 9, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-bakes-peanut-cake/"><span>Mom bakes peanut cake</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>May 30, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-loves-rhubarb/"><span>Mom loves rhubarb</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>May 9, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/another-cherry-pie/"><span>Another cherry pie</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>April 27, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/how-can-you-mend-a-broken-tart/"><span>How can you mend a broken tart?</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>April 22, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/easter-dinner/"><span>Easter dinner</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>April 10, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/apple-tart/"><span>Apple tart</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>April 8, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-makes-banana-cake/"><span>Mom makes banana cake</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>April 2, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/i-knew-i-liked-brownies/"><span>I knew I liked brownies</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>March 18, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/marthas-chocolate-chip-cookies/"><span>Martha&#039;s chocolate chip cookies</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>March 10, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-makes-lazy-daisy-cake/"><span>Mom makes lazy daisy cake</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>March 7, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/leland-conquers-muffins/"><span>Leland conquers muffins</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>February 19, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-bakes-a-valentines-day-cake/"><span>Mom bakes a Valentine&#039;s Day cake</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>February 14, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/amazon-cake/"><span>Amazon cake</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>February 9, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/nigellas-fruity-banana-bread/"><span>Nigella&#039;s fruity banana bread</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>February 5, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-makes-apple-cake/"><span>Mom makes apple cake</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>February 4, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/the-brownie-files/"><span>The brownie files</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>February 1, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/blueberry-yogurt-muffins/"><span>Blueberry-yogurt muffins</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>January 25, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/cupcakes-and-brownies/"><span>Cupcakes and brownies</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>January 14, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-makes-stollen/"><span>Mom makes stollen</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>December 21, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-makes-biscotti/"><span>Mom makes biscotti</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>December 13, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-makes-gingerbread/"><span>Mom makes gingerbread</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>December 6, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/no-knead-bread-redux/"><span>No-knead bread redux</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>December 5, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-bakes-and-she-cooks/"><span>Mom bakes and she cooks</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>December 4, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-makes-an-apple-tart/"><span>Mom makes an apple tart</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>November 29, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/lelands-baking-disaster/"><span>Leland’s baking disaster</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>November 28, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/no-knead-bread-part-1/"><span>No-knead bread, part 1</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>November 10, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-learns-her-lesson/"><span>Mom learns her lesson</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>October 11, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/apple-pie-saves-the-day/"><span>Apple pie saves the day</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>September 20, 2006</span>
+		</div>
+	</div>
+
+	<div><form id="searchbox_014353926172616456646:1qois_andhs" action="http://www.google.com/cse">
+<input type="hidden" name="cx" value="014353926172616456646:1qois_andhs" />
+<input type="hidden" name="cof" value="FORID:0" />
+<p><a href="/eat/archive/2007/10/">Browse by calendar </a>, or     <input name="q" type="text" /><br />
+    <input type="submit" name="sa" value="Search" /></p>
+</form></div>
+
+</div>
+	
+</div> <!-- container -->
+
+<div id="target-padder"></div>
+
+
+
+
+</body>
+</html>

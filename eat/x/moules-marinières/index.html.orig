@@ -1,0 +1,194 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Moules marinières</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="idd6b" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Moules marinières" width="281" class="title" src="../../../resources/net.databinder.components.RenderedLabel/7bfd1446"/><span class="title">Moules marinières</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on February 11, 2006</span></span>
+			<span id="idd6c" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>This has been a weekend of inexpensive and simple cooking. Ever since n8 <a href="http://technically.us/eat/articles/2005/12/19/catch-up-weblogging">made me mussels</a> for my birthday, I have been wanting to have them again. <em>Moules marinières</em> seemed like the easiest recipe in the world, so I gave that a try with moderate success.</p>
+
+
+	<p style="float:center"><img src="/pictures/moules.jpg" alt="" /></p>
+
+
+	<p>All you do is simmer some onion, shallot, and garlic in a couple cups of white wine in a large pot for five or ten minutes, then throw in the rinsed mussels in their shells (figure one pound per person), cover the pot, and cook it over high heat for five minutes, shaking frequently. Add a few tablespoons of butter, chopped parsley, salt, and pepper, and you&#8217;re good to go. I wish I had added more salt earlier, and I longed for a big hunk of good bread, but it was a satisfying meal nonetheless. And when mussels are only <a href="http://www.freshdirect.com/product.jsp?catId=smus&#38;productId=smus_frmdpei&#38;trk=feat">$2.50 per pound</a>, it&#8217;s cheaper than pizza and ten times more special. Especially with champagne!</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="idd6d">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-1489"><p>About the mussels; is rinsing really enough? I haven&#8217;t dealt with mussels since my catering days, but I remember having to scrub them and pull their beards off!</p>
+<p>I agree that brioche makes heavenly french toast; in Julia Child&#8217;s baking book, I forget the title&#8212;Baking with Julia or something&#8212;one of her guest chefs contributes a wonderfully decadent recipe for sticky buns made with brioche dough.</p>
+<p>What an elegant dinner, the pork roast with yams and watercress, and so colorful! A little homemade applesauce on the side would have been good; a really tart one made from all McIntosh apples, unsweetened.</p>
+<p>Mommy</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">beckyleeprice@mac.com</span></span>
+  				<span>on February 11, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1490"><p>When I made the birthday mussels I scrubbed and de-bearded them. Good thing I did too, since we slurped  the mussel-breadcrumb mixture directly from the shells.</p>
+<p>In Leland&#8217;s dish I didn&#8217;t notice any undesired artifacts with the shells, but wasn&#8217;t really looking either. I mean, I&#8217;d rather have bearded mussels than no mussels at all.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://technically.us/doc/"><span class="alias">Doctor Barnett</span></a>
+  				<span>on February 11, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1491"><p>Hmm, mussel beard sounds very unappetizing. Ruth Reichl told me that mussels these days are much cleaner than they used to be, and that a good rinse is really all they need. Either way, I rinsed these guys for five minutes or less, and I didn&#8217;t notice anything wrong.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on February 11, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1492"><p>Spectacular! The simplest food is always the best!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.creampuffsinvenice.ca"><span class="alias">Ivonne</span></a>
+  				<span>on February 11, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1493"><p>Did you peel the roasted sweet potatoes?  Did you roll them in a bit of olive oil?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">grandma</span></span>
+  				<span>on February 11, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1494"><p>Yes, I peeled them, and I tossed them olive oil, salt, and pepper!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on February 11, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1495"><p>I love those roasted yams also.  I just started making them about 4 months ago.  I put them in my broiler pan with olive oil, sea salt &amp; pepper.  They cook so fast and they&#8217;re so yummy we have them a couple times a week!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Aunt Sue</span></span>
+  				<span>on February 11, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1496"><p>Did you ever try making Cuban sandwiches with your leftover roast pork? We can&#8217;t get them here in Pittsburgh and I&#8217;m obsessed with them; they sound so delicious.</p>
+<p>Mom</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">beckyleeprice@mac.com</span></span>
+  				<span>on February 11, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1497"><p>Mmm, I <em>love</em> Cuban sandwiches. We&#8217;ll get them here next time you visit. I haven&#8217;t tried that yet but maybe I will.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on February 11, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="idd6e">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="idd6f" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="idd6f_hf_0" id="idd6f_hf_0" /><input type="hidden" name="wicket:interface" value=":490:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="idd70" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="idd71" name="add" value="Add a comment" onclick="wicketShow('idd71--ajax-indicator');var wcall=wicketSubmitFormById('idd6f', '../../../?wicket:interface=:490:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('idd71--ajax-indicator');}.bind(this),function() { ;wicketHide('idd71--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('idd6f')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="idd71--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

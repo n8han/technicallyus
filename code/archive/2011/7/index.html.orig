@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../../resources/org.apache.wicket.Application/code-stylesheet"/>
+
+<script language="JavaScript" src="../../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / July 2011</title>
+
+		<script src="../../../../resources/com.typeturner.pages.Archive/animator.js" type="text/javascript"></script>
+		<script src="../../../../resources/com.typeturner.pages.Archive/Archive.js" type="text/javascript"></script>
+<script type="text/javascript" src="../../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" ><!--/*--><![CDATA[/*><!--*/
+Wicket.Event.add(window, "load", function() { highlightTarget()  ;});
+/*-->]]>*/</script>
+
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div id="lead">
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../../code">
+			
+			<img alt="Coderspiel" src="../../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../../code">
+		<span id="weblog-photo"><img alt="" src="../../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="span-14 last">
+	<h1 class="period" id="navigation">
+		<span class="arrow"><a class="arrow" href="../../../../code/archive/2011/6/#navigation"><img height="47" alt="<" width="24" src="../../../../resources/net.databinder.components.RenderedLabel/7c651f1b"/></a></span>
+		<span class="month-year"><img height="47" alt="July 2011" width="136" src="../../../../resources/net.databinder.components.RenderedLabel/b4240e1"/></span>
+		<span class="arrow"><a class="arrow" href="../../../../code/archive/2011/8/#navigation"><img height="47" alt=">" width="24" src="../../../../resources/net.databinder.components.RenderedLabel/7c651f19"/></a></span>
+	</h1>
+</div>
+
+<div class="prepend-1 span-12 append-1 last calendar" id="calendar">
+	<div id="id26ce" class="span-3 sidebar">
+		<h3>1 &ndash; 8</h3>
+		
+	</div><div id="id26cf" class="span-3 sidebar">
+		<h3>9 &ndash; 16</h3>
+		
+	</div><div id="id26d0" class="span-3 sidebar">
+		<h3>17 &ndash; 24</h3>
+		
+	</div><div id="id26d1" class="span-3 sidebar last left-overlay">
+		<h3>25 &ndash; 31</h3>
+		
+	</div>
+</div>
+	
+
+
+</div> <!-- container -->
+
+<div id="target-padder"></div>
+
+
+
+</body>
+</html>

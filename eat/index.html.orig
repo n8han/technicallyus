@@ -1,0 +1,429 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat</title>
+
+	<link title="RSS" rel="alternate" type="application/rss+xml" href="resources/com.typeturner.Typeturner/eat-rss"/>
+	<link rel="openid.server" href="http://technically.us/openid"/>
+	<meta content="Listen to your mother." name="description"/>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container" id="home">
+
+<div class="prepend-3 span-11 last lead">
+  <div id="weblog-name"><img alt="Eat" class="trans-png" src="resources/org.apache.wicket.Application/eat-nameImage.png"/></div>
+	<div id="weblog-photo"><img alt="" src="resources/org.apache.wicket.Application/eat-photo"/></div>
+</div>
+
+<div class="span-3 sidebar">
+	<div id="notes-col">
+		<div id="id1">
+			<div class="note-edit-line"></div>
+			<div><h3>Graze</h3></div>
+			
+			<div>
+				<div id="item-6416">
+				<div class="note-edit-line"></div>
+				<div id="id2"><p>Despite all my recent gushing about Brooklyn Fare, it should be noted that in my most recent shopping trip, I ended up with rotten carrots, rotten onions, rotten garlic, and a couple of d&#8217;Artagnan duck breasts that were on verge of being inedible, despite their expiration date of August 9.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Leland</span>
+							<span>on August 3, 2009</span>
+							<a href="eat/archive/2009/8/#item-6416">#</a>
+					</span>
+				</div>
+</div>
+			</div><div>
+				<div id="item-6261">
+				<div class="note-edit-line"></div>
+				<div id="id3"><p><a href="http://www.ilovepeanutbutter.com/nostirinfo.html">This is very upsetting news</a>. I&#8217;m not sure they&#8217;ll keep making the original kinds. I&#8217;ve sent them an email to get the scoop. The new &#8220;no-stir&#8221; variety is terribly sweet, like Jif.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Leland</span>
+							<span>on April 26, 2009</span>
+							<a href="eat/archive/2009/4/#item-6261">#</a>
+					</span>
+				</div>
+</div>
+			</div><div>
+				<div id="item-5944">
+				<div class="note-edit-line"></div>
+				<div id="id4"><p>FreshDirect is offering six months of free delivery until December 15 with the code FDDELIVERSWB3. They&#8217;re including free peak-season produce with every order for people who use this code. I, for one, am miffed, since I&#8217;m not eligible. (It&#8217;s only for new DeliveryPass customers.) I sent them a whiney note; we&#8217;ll see what they offer me, if anything. (<em>Update: they won&#8217;t do anything for me. They won&#8217;t even let me cancel my current DeliveryPass and buy a new one! Grr.</em>)</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Leland</span>
+							<span>on November 24, 2008</span>
+							<a href="eat/archive/2008/11/#item-5944">#</a>
+					</span>
+				</div>
+</div>
+			</div><div>
+				<div id="item-5830">
+				<div class="note-edit-line"></div>
+				<div id="id5"><p>Whole Foods is <a href="http://www.wholefoodsmarket.com/products/wholedeal/index.php">offering $5 coupons</a> on its website for the next week for purchases over $25.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Leland</span>
+							<span>on October 15, 2008</span>
+							<a href="eat/archive/2008/10/#item-5830">#</a>
+					</span>
+				</div>
+</div>
+			</div><div>
+				<div id="item-5773">
+				<div class="note-edit-line"></div>
+				<div id="id6"><p>The new <a href="http://racked.com/archives/2008/09/26/trader_joensing_well_this_is_rather_anticlimactic.php">Trader Joe&#8217;s in Brooklyn</a> has a surprisingly decent selection of well-priced beer. Example: $8.49 for Brooklyn sixers, compared to $10.99 from FreshDirect. They even sell some <a href="http://www.anchorbrewing.com/">Anchor</a> beers at decent prices. The store still seems to <a href="http://technically.us/eat/x/trader-joes-a-rant/">have nothing real to eat</a>, but I&#8217;ll be back for beer and dairy items.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Leland</span>
+							<span>on September 27, 2008</span>
+							<a href="eat/archive/2008/9/#item-5773">#</a>
+					</span>
+				</div>
+</div>
+			</div><div>
+				<div id="item-5762">
+				<div class="note-edit-line"></div>
+				<div id="id7"><p>Be careful opening these <a href="http://www.amazon.com/Illy-medium-roast-ground-coffee/dp/B000TM1EAE">pressurized cans of ground coffee</a>. Make sure to open them <em>away</em> from your face. I had one explode all over my kitchen yesterday. I ran to the bathroom and found that my eyeballs were coated with ground coffee. I wouldn&#8217;t wish this situation on my worst enemy.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Leland</span>
+							<span>on September 22, 2008</span>
+							<a href="eat/archive/2008/9/#item-5762">#</a>
+					</span>
+				</div>
+</div>
+			</div><div>
+				<div id="item-5727">
+				<div class="note-edit-line"></div>
+				<div id="id8"><p><a href="http://www.stonyfield.com/">Stonyfield Farm</a> yogurt is absolutely disgusting. I thought I would try it since my European yogurts are so expensive, but never again. Flavorless and horrible!</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Leland</span>
+							<span>on September 14, 2008</span>
+							<a href="eat/archive/2008/9/#item-5727">#</a>
+					</span>
+				</div>
+</div>
+			</div><div>
+				<div id="item-5706">
+				<div class="note-edit-line"></div>
+				<div id="id9"><p>FreshDirect is offering <a href="http://www.freshdirect.com/newsletter.jsp?catId=picks_love">two months of free deliveries plus $10 off your next order</a>. I&#8217;d act fast.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Leland</span>
+							<span>on September 5, 2008</span>
+							<a href="eat/archive/2008/9/#item-5706">#</a>
+					</span>
+				</div>
+</div>
+			</div><div>
+				<div id="item-5658">
+				<div class="note-edit-line"></div>
+				<div id="ida"><p>This might be old news to most people, but FreshDirect is <a href="http://www.freshdirect.com/department.jsp?deptId=usq&amp;trk=snav">now carrying</a> wines <em>and liquors</em> from Union Square Wines &amp; Spirits. I intend to take advantage of this development.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Leland</span>
+							<span>on August 12, 2008</span>
+							<a href="eat/archive/2008/8/#item-5658">#</a>
+					</span>
+				</div>
+</div>
+			</div><div>
+				<div id="item-5564">
+				<div class="note-edit-line"></div>
+				<div id="idb"><p>Thanks, Wednesday, for sharing this excellent <a href="http://www.thewednesdaychef.com/the_wednesday_chef/2008/05/liz-pearsons-yo.html">roast chicken</a> recipe! I know it&#8217;s crazy to be roasting a bird in July, but it wasn&#8217;t that hot today, and I&#8217;ve been wanting to turn on my new oven and use the convection fan (which works great!).</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Leland</span>
+							<span>on July 13, 2008</span>
+							<a href="eat/archive/2008/7/#item-5564">#</a>
+					</span>
+				</div>
+</div>
+			</div><div>
+				<div id="item-5536">
+				<div class="note-edit-line"></div>
+				<div id="idc"><p>Courtesy reminder: it&#8217;s <a href="http://technically.us/eat/x/cold-brewed-iced-coffee">cold-brewed coffee</a> time.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Leland</span>
+							<span>on July 7, 2008</span>
+							<a href="eat/archive/2008/7/#item-5536">#</a>
+					</span>
+				</div>
+</div>
+			</div><div>
+				<div id="item-5350">
+				<div class="note-edit-line"></div>
+				<div id="idd"><p>Peanut Butter &amp; Co.&#8216;s <a href="http://www.ilovepeanutbutter.com/detail_17010002__4.html">Crunch Time</a> is the best peanut butter I&#8217;ve ever had. I graduated from my beloved Jif about a year ago, and when I taste it now I find it sickeningly sweet. Most natural peanut butters, however, taste like wet dirt, or they are overly salty. PB&amp;C&#8217;s is wet but manageable, with just the right amount of salt, and no sugar added or needed. <a href="http://www.creamnut.com/">Cream Nut</a> can win all the awards it wants, but this is the real deal. Oh, and FreshDirect just began <a href="http://www.freshdirect.com/category.jsp?catId=gro_peanu_peanu&amp;prodCatId=gro_peanu_peanu&amp;productId=spe_pbco_crunch&amp;trk=srch">carrying it</a>, presumably at my suggestion. (If you buy this product, I recommend turning it on its head a day before you open it to redistribute the oil.)</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Leland</span>
+							<span>on April 13, 2008</span>
+							<a href="eat/archive/2008/4/#item-5350">#</a>
+					</span>
+				</div>
+</div>
+			</div><div>
+				<div id="item-5283">
+				<div class="note-edit-line"></div>
+				<div id="ide"><p>FreshDirect is offering two months of Delivery Pass for free. I haven&#8217;t ordered from them in ages, but this is worth taking advantage of, especially with $30 minimum orders. The code is FDDELIVERSFT1. Just in time for Easter!</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Leland</span>
+							<span>on March 21, 2008</span>
+							<a href="eat/archive/2008/3/#item-5283">#</a>
+					</span>
+				</div>
+</div>
+			</div><div>
+				<div id="item-5245">
+				<div class="note-edit-line"></div>
+				<div id="idf"><p>I know I sound like a broken record here, but I can&#8217;t believe how well the recipes in this new Alice Waters book work. Her egg pasta ratio is the only one you&#8217;ll ever need: 2 cups of flour, 2 eggs, 2 yolks. A dough made with these proportions comes together beautifully. I rolled it out without even sprinkling flour on it. I&#8217;m serving the noodles tonight in a little chicken broth with celery and carrots.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Leland</span>
+							<span>on March 8, 2008</span>
+							<a href="eat/archive/2008/3/#item-5245">#</a>
+					</span>
+				</div>
+</div>
+			</div><div>
+				<div id="item-5149">
+				<div class="note-edit-line"></div>
+				<div id="id10"><p>Thanks to David Lebovitz via Simply Recipes for this <a href="http://www.elise.com/recipes/archives/004377coffee_ice_cream.php">coffee ice cream recipe</a>. It took me two tries, as I accidentally curdled the eggs the first time, but it was worth the frustration. This is an ice cream that tastes strongly of nothing other than sweet cream and coffee. It amazed me and my dinner guests.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Leland</span>
+							<span>on February 17, 2008</span>
+							<a href="eat/archive/2008/2/#item-5149">#</a>
+					</span>
+				</div>
+</div>
+			</div><div>
+				<div id="item-5026">
+				<div class="note-edit-line"></div>
+				<div id="id11"><p>Mom: <a href="http://www.nytimes.com/2008/01/23/dining/23coff.html?ex=1358744400&amp;en=031f5c6438fa946b&amp;ei=5124&amp;partner=permalink&amp;exprod=permalink">this coffee maker</a> is a lot like the one I originally saw in France that inspired me to want the <a href="http://technically.us/eat/x/appliance-adventures-part-2/">Bodum Santos</a>. We&#8217;ll have to try a cup from the machine in Chelsea when you visit New York in April!</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Leland</span>
+							<span>on January 23, 2008</span>
+							<a href="eat/archive/2008/1/#item-5026">#</a>
+					</span>
+				</div>
+</div>
+			</div><div>
+				<div id="item-4958">
+				<div class="note-edit-line"></div>
+				<div id="id12"><p>The Marshalls in Harlem, at 125th and Lenox, has the best selection of cookware I&#8217;ve ever seen in such a store, including an impressive cache of Marco Pierre White&#8217;s <a href="http://www.amazon.com/s/ref=nb_ss_gw/103-0817027-8092667?url=search-alias%3Daps&amp;field-keywords=beka&amp;x=0&amp;y=0">line of Beka</a> pots and pans, as well as a ton of Calphalon, All-Clad, Le Creuset, etc. If you&#8217;re not afraid to go above 96th Street, it&#8217;s worth the trek!</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Leland</span>
+							<span>on January 12, 2008</span>
+							<a href="eat/archive/2008/1/#item-4958">#</a>
+					</span>
+				</div>
+</div>
+			</div><div>
+				<div id="item-4811">
+				<div class="note-edit-line"></div>
+				<div id="id13"><p>I&#8217;m grateful to AG for <a href="http://www.amateurgourmet.com/2007/12/two_worlds.html">this piece</a> , in which he defends the idea of eating in, after Josh Ozersky <a href="http://nymag.com/daily/food/2007/12/face_it_bon_appetit_youre_neve.html">criticized</a> <em>Bon Appétit</em> for being a &#8220;repository for recipes,&#8221; and &#8220;for people who eat in.&#8221; AG smartly points out some of the differences between writing about restaurants and writing about cooking, and how his blog, as it&#8217;s focused more and more on cooking, has become friendlier and elicited more constructive and polite comments. The restaurant crowd in New York may think that we avid home cooks are lame, but the cooks I know wouldn&#8217;t trade their abilities for anything.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Leland</span>
+							<span>on December 9, 2007</span>
+							<a href="eat/archive/2007/12/#item-4811">#</a>
+					</span>
+				</div>
+</div>
+			</div><div>
+				<div id="item-4763">
+				<div class="note-edit-line"></div>
+				<div id="id14"><p>I&#8217;m glad that <em>New York Magazine</em> has launched a <a href="http://nymag.com/daily/food/2007/11/cook_like_your_favorite_chefs.html">recipe database</a>, but it would be better if their website weren&#8217;t such a fright show. It seems that no amount of <span class="caps">RAM</span> and no speed of internet can handle all of their ads and other shenanigans.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Leland</span>
+							<span>on November 29, 2007</span>
+							<a href="eat/archive/2007/11/#item-4763">#</a>
+					</span>
+				</div>
+</div>
+			</div><div>
+				<div id="item-4723">
+				<div class="note-edit-line"></div>
+				<div id="id15"><p>Just in time for a long, cold weekend: a <a href="http://www.nytimes.com/2007/11/21/dining/21brea.html?ex=1353301200&amp;en=981b61782a1df842&amp;ei=5124&amp;partner=permalink&amp;exprod=permalink">technique for bread</a> even easier than last year&#8217;s <a href="http://technically.us/eat/x/no-knead-bread-part-2">no-knead bread</a>, which briefly took over the world.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Leland</span>
+							<span>on November 21, 2007</span>
+							<a href="eat/archive/2007/11/#item-4723">#</a>
+					</span>
+				</div>
+</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="span-8 append-3 last">
+
+	
+	
+	<div class="post">
+		<h2 class="title"><span class="image-wrapper linked"><a href="eat/x/dinner-at-brooklyn-fare/"><img height="45" alt="Dinner at Brooklyn Fare" width="364" class="title" src="resources/net.databinder.components.RenderedLabel/f5e1eef8"/><span class="title">Dinner at Brooklyn Fare</span></a></span></h2>
+		<div class="byline">
+  		<span>
+  		  By <span class="alias">Leland</span>, <span>on August 1, 2009</span>
+  			
+      </span>
+		</div>
+		<div><p>When the grocery store <a href="http://www.brooklynfare.com">Brooklyn Fare</a> opened a few months ago, I was unreasonably excited, and I was one of the first people through the door at 8:30 a.m. This neighborhood is somewhat lacking in the grocery department, and at the time we were relying heavily on the Fairway in Red Hook and occasionally on FreshDirect. I thought Brooklyn Fare would be the perfect solution. Sadly, it was little more than an overgrown deli in those early days. Plenty of convenience foods, a sad selection of fish and meat, and precious little produce. I could have better luck at Trader Joe&#8217;s.</p>
+<p>A few months later, the store has improved remarkably, and I believe this is thanks to the work and influence of Chef <a href="http://www.brooklynfare.com/ourchef.php?page=3,1">César Ramirez</a>, who is running the kitchen adjacent to the store along with a small, hard-working staff. César and his team oversee the production of the store&#8217;s excellent prepared foods, and they run the <a href="http://www.brooklynfare.com/classes.php?page=3,2">three-nights-per-week restaurant</a> in that kitchen. I went in a group of ten friends and colleagues for an eight-course tasting menu last night. At $70, and with a <span class="caps">BYOB</span> policy, it&#8217;s one of the city&#8217;s great dining values. Chef César (a former executive chef of Bouley) and his assistant Juan prepared and served us course after course of four-star dishes. It was somewhat bizarre to enjoy this level of cuisine on an otherwise ugly block of Schermerhorn Street (my street!), but in such an intimate and even elegant setting. César told us that he gets the best of everything for these dinners, from the food to the plates and Riedel glassware.</p>
+<p>Here are the boys at work, and did they ever work!</p>
+<p><img src="http://technically.us/resources/com.typeturner.Typeturner/image?name=chefs" title="chefs" alt="chefs" /></p>
+<p>And here, in order is most of what we ate. (I have dozens more pictures in <a href="http://www.new.facebook.com/album.php?aid=109263&amp;id=734946005&amp;l=a1ffc3eac3">this photo album</a>.) After doing a shot of of hibiscus juice, we were served a bite of creamy, fried calf&#8217;s brains with sauce <a href="http://en.wikipedia.org/wiki/Sauce_gribiche">gribiche</a>:</p>
+<p><img src="http://technically.us/resources/com.typeturner.Typeturner/image?name=brain" title="brain" alt="brain" /></p>
+<p>Up next was my favorite course of the night, César&#8217;s beautiful interpretation of a caprese salad, consisting of tomato mousse, mozzarella mousse, and a slow-cooked candied tomato over there on the right:</p>
+<p><img src="http://technically.us/resources/com.typeturner.Typeturner/image?name=tomatocap" title="tomatocap" alt="tomatocap" /></p>
+<p>Kona kampachi with ponzu sauce:</p>
+<p><img src="http://technically.us/resources/com.typeturner.Typeturner/image?name=kona" title="kona" alt="kona" /></p>
+<p>Roasted scallop with bacon and chervil mousse:</p>
+<p><img src="http://technically.us/resources/com.typeturner.Typeturner/image?name=scallop" title="scallop" alt="scallop" /></p>
+<p>I&#8217;m not a big fan of foie gras, but this little bite of it with tofu in dashi sauce was more than tolerable. César had us use a spoon to get as much sauce as we could with the liver. Good advice.</p>
+<p><img src="http://technically.us/resources/com.typeturner.Typeturner/image?name=foie" title="foie" alt="foie" /></p>
+<p>The Maine lobster with beets was one of the prettiest dishes of the night:</p>
+<p><img src="http://technically.us/resources/com.typeturner.Typeturner/image?name=lobster" title="lobster" alt="lobster" /></p>
+<p>Even after all of the courses and dessert, I didn&#8217;t feel stuffed. Each course was pretty light, and the pace was relaxed. The set-up of the dinner is highly conducive to socializing and conversation. They set up a drink station for you but you serve yourself, giving you a chance to get up and walk around.</p>
+<p><img src="http://technically.us/resources/com.typeturner.Typeturner/image?name=bfare" title="bfare" alt="bfare" /></p>
+<p>There&#8217;s plenty of time between courses (since the guys are cooking most of it to order), so you can visit the other side of the table, or stand up and chat with the chefs while they work, or just explore the immaculate kitchen, admiring the organization and fancy equipment. It feels like an elaborate, <a href="http://www.eatmedaily.com/2009/07/brooklyn-fares-packaging-and-graphic-design/">well-branded</a> dinner party.</p>
+<p>There was general confusion in our group about how this deal can continue. No way are they making enough money at $70 a head to pay for this exquisite food and skilled labor. Maybe it&#8217;s just an introductory price that will go up substantially if the dinners catch on. Right now, César says, most of the customers are industry people, other chefs, and former customers of his from Bouley and Danube. I&#8217;m convinced that you will not find better food and a more enjoyable experience at this price in New York, and I urge you to make a reservation now before it gets overrun by foodie types or becomes more expensive.</p></div>
+		<p class="comment-links">
+			
+			<a href="eat/x/dinner-at-brooklyn-fare/#comments"><span>Six</span> <span>comments</span></a>
+		</p>
+	</div><div class="post">
+		<h2 class="title"><span class="image-wrapper linked"><a href="eat/x/mom-makes-cucumber-salad/"><img height="45" alt="Mom makes cucumber salad" width="451" class="title" src="resources/net.databinder.components.RenderedLabel/ddaa8226"/><span class="title">Mom makes cucumber salad</span></a></span></h2>
+		<div class="byline">
+  		<span>
+  		  By <span class="alias">Mom</span>, <span>on June 25, 2009</span>
+  			
+      </span>
+		</div>
+		<div><p>I have always been fond of pickled, sour, and sweet &amp; sour foods. My mother used to make all sorts of piccalillis, chow-chows, relishes, and pickles. My favorite pie was, and still is, sour cherry, and my favorite candy was the sublime <a href="http://bit.ly/tl56R">Regal Crown Sour Lemon</a> , unfortunately no longer available. My kids used to eat <a href="http://bit.ly/11FG9d">Lemonheads</a> but they were a poor substitute for Regal Crown Sours, as they were basically sweet drops of hard candy dusted with ascorbic acid. Once you licked the sour coating off they didn&#8217;t even taste lemony.</p>
+<p>Sweet and sour cucumber salad is an easy and refreshing summer side dish which gives you an opportunity to use your <a href="http://bit.ly/38M5C5">mandoline</a> . You don&#8217;t really need a recipe but I&#8217;ll give you one anyway.</p>
+<p><img src="http://technically.us/resources/com.typeturner.Typeturner/image?name=cukes" alt="" /></p>
+<p><strong>Sweet and Sour Cucumbers</strong></p>
+<ul>
+	<li>2 or 3 cucumbers (I used 1 1/2 long English cucumbers; 3 or 4 pickling cukes would also work)</li>
+	<li>1 teaspoon or so kosher salt</li>
+	<li>1 cup vinegar (I like Spanish sherry vinegar, cider vinegar is also good; don&#8217;t use balsamic)</li>
+	<li>1/2 cup sugar</li>
+	<li>freshly ground black pepper</li>
+	<li>chopped fresh parsley</li>
+</ul>
+<p>Thinly slice cucumbers using sharp knife or a mandoline. Layer in a colander, sprinkling lightly with kosher salt. Don&#8217;t use too much salt or the salad will be salty. If you don&#8217;t have a lot of time you can skip this step but it&#8217;s helpful when using homegrown cucumbers which can be bitter. Put a weight on top and leave to drain for about an hour. I used a salad plate topped with a filled teakettle to weigh them down, and after yoga class they had exuded about a half cup of liquid. Spread the cucumbers out on a clean kitchen towel or paper towels and blot them off.</p>
+<p>Meanwhile, in bowl large enough to hold all ingredients, mix vinegar, sugar, and pepper and whisk until sugar is dissolved. Add cucumbers and gently fold with rubber spatula until all slices are moistened. Place in refrigerator for at least an hour before serving, folding once or twice to blend flavors. Add chopped parsley and pour some of the dressing off before placing in serving bowl. Serve with slotted spoon or fork. If you have any left over these are good piled onto a sandwich or burger.</p></div>
+		<p class="comment-links">
+			
+			<a href="eat/x/mom-makes-cucumber-salad/#comments"><span>Six</span> <span>comments</span></a>
+		</p>
+	</div><div class="post">
+		<h2 class="title"><span class="image-wrapper linked"><a href="eat/x/whoopie-pies/"><img height="45" alt="Whoopie pies" width="215" class="title" src="resources/net.databinder.components.RenderedLabel/27e7f6bd"/><span class="title">Whoopie pies</span></a></span></h2>
+		<div class="byline">
+  		<span>
+  		  By <span class="alias">Leland</span>, <span>on June 21, 2009</span>
+  			<span id="id16" class="tags">
+  					{&nbsp;<span><a href="eat/tag/school/#selected-tag"><span>school</span></a></span>&nbsp;}
+  			</span>
+      </span>
+		</div>
+		<div><p>I&#8217;m about six weeks from the end of <a href="http://www.frenchculinary.com/course-classic-culinary-arts.htm">culinary school</a>, and I&#8217;m in the part of the program now where I cook in the school&#8217;s restaurant. I wasn&#8217;t prepared for how different class would be in the professional kitchen compared to the classroom kitchens of earlier levels, and at the beginning of this portion I seriously considered withdrawing. Of course I&#8217;ve since become accustomed to the pace and the pressure, but I felt a little waylaid at the beginning, as the service hour approached and I was a dozen tasks away from being ready and set up.</p>
+<p>But I survived entremetier, garde manger, poissonnier, and the hardest, saucier, before finally arriving in what&#8217;s generally considered (somewhat misleadingly) to be the easiest station, pâtissier. People only think it&#8217;s the easiest because it&#8217;s not hot back there and because you get an extra hour to set up, since no one orders dessert until after their meal ends. But the pastry station has its challenges, especially for a salt-oriented cook such as myself. I don&#8217;t have a delicate hand&#8212;-I&#8217;m lousy at plating and making things beautiful. My own idea of beauty is quite a bit less refined than a French chef&#8217;s, and the learning curve is steep. A perfect quenelle of ice cream, which seems to flow naturally off the ends of other students&#8217; spoons, takes me five or six tries to get right. I guess all things take practice. Witness my attempt at piping my name, with the chef&#8217;s version below. She can write in chocolate better than I can write in pencil. I never even learned cursive!</p>
+<p><img src="http://technically.us/resources/com.typeturner.Typeturner/image?name=piping" title="piping" alt="piping" /></p>
+<p>Last Thursday, the chef let our group devise a dessert special, which we were to prepare in addition to the rhubarb consommé and white chocolate parfaits that were on the menu. My friend Kim had once made some delicious peanut butter whoopie pies from a <a href="http://www.marthastewart.com/recipe/peanut-butter-whoopie-pies">Martha Stewart recipe</a> at one of her legendary brunches, and I thought it would be hilarious to serve them in a French restaurant.</p>
+<p><img src="http://technically.us/resources/com.typeturner.Typeturner/image?name=whoopie" title="whoopie" alt="whoopie" /></p>
+<p>The recipe is as easy as can be, especially if you have a stand mixer and use piping bags for the cookies and the filling. We teamed our whoopie pies with a quenelle of vanilla ice cream (which we also made) sitting on sliced strawberries (I didn&#8217;t want these but I had no choice), garnished with a mint sprig.</p>
+<p><img src="http://technically.us/resources/com.typeturner.Typeturner/image?name=whoopie1" title="whoopie1" alt="whoopie1" /></p>
+<p>Only six or seven people ordered them, which surprised me, since who doesn&#8217;t want a peanut butter whoopie pie? But we sent out a bunch of extras, and the chefs and students milling around cleaned off the trays pretty quickly.</p></div>
+		<p class="comment-links">
+			
+			<a href="eat/x/whoopie-pies/#comments"><span>Three</span> <span>comments</span></a>
+		</p>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-11 last">
+	<div id="below-posts">
+		<h3><em>Eat</em> Archive</h3>
+		<div><form id="searchbox_014353926172616456646:1qois_andhs" action="http://www.google.com/cse">
+<input type="hidden" name="cx" value="014353926172616456646:1qois_andhs" />
+<input type="hidden" name="cof" value="FORID:0" />
+<p><a href="/eat/archive/2007/10/">Browse by calendar </a>, or     <input name="q" type="text" /><br />
+    <input type="submit" name="sa" value="Search" /></p>
+</form></div>
+		<div class="tag-columns">
+	<div>
+		<span class="elem"><a href="eat/tag/baking/#selected-tag"><span>baking</span></a></span><span class="elem"><a href="eat/tag/drink/#selected-tag"><span>drink</span></a></span><span class="elem"><a href="eat/tag/grocery/#selected-tag"><span>grocery</span></a></span><span class="elem"><a href="eat/tag/restaurants/#selected-tag"><span>restaurants</span></a></span><span class="elem"><a href="eat/tag/techniques/#selected-tag"><span>techniques</span></a></span>
+	</div><div>
+		<span class="elem"><a href="eat/tag/books/#selected-tag"><span>books</span></a></span><span class="elem"><a href="eat/tag/entertaining/#selected-tag"><span>entertaining</span></a></span><span class="elem"><a href="eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span><span class="elem"><a href="eat/tag/restaurants:%20new%20york/#selected-tag"><span>restaurants: new york</span></a></span><span class="elem"><a href="eat/tag/theory/#selected-tag"><span>theory</span></a></span>
+	</div><div>
+		<span class="elem"><a href="eat/tag/cooking%20with%20fruit/#selected-tag"><span>cooking with fruit</span></a></span><span class="elem"><a href="eat/tag/ethnic%20cooking/#selected-tag"><span>ethnic cooking</span></a></span><span class="elem"><a href="eat/tag/kitchen%20equipment/#selected-tag"><span>kitchen equipment</span></a></span><span class="elem"><a href="eat/tag/restaurants:%20pittsburgh/#selected-tag"><span>restaurants: pittsburgh</span></a></span><span class="elem"><a href="eat/tag/travel/#selected-tag"><span>travel</span></a></span>
+	</div><div>
+		<span class="elem"><a href="eat/tag/dessert/#selected-tag"><span>dessert</span></a></span><span class="elem"><a href="eat/tag/food%20products/#selected-tag"><span>food products</span></a></span><span class="elem"><a href="eat/tag/party/#selected-tag"><span>party</span></a></span><span class="elem"><a href="eat/tag/school/#selected-tag"><span>school</span></a></span>
+	</div><div>
+		<span class="elem"><a href="eat/tag/desserts/#selected-tag"><span>desserts</span></a></span><span class="elem"><a href="eat/tag/freshdirect/#selected-tag"><span>freshdirect</span></a></span><span class="elem"><a href="eat/tag/produce%20alerts/#selected-tag"><span>produce alerts</span></a></span><span class="elem"><a href="eat/tag/shopping/#selected-tag"><span>shopping</span></a></span>
+	</div>
+</div>
+	</div>
+	
+</div>	
+
+</div> <!-- contianer -->
+
+
+
+</body>
+</html>

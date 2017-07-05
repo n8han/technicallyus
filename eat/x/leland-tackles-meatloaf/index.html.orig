@@ -1,0 +1,202 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Leland tackles meatloaf</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="idcb1" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Leland tackles meatloaf" width="367" class="title" src="../../../resources/net.databinder.components.RenderedLabel/c4f8549b"/><span class="title">Leland tackles meatloaf</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on April 3, 2006</span></span>
+			<span id="idcb2" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>I hadn&#8217;t had a proper meatloaf since leaving home years ago, and I was happy when mom posted her <a href="http://technically.us/eat/articles/2006/03/23/favorite-meat-loaf">recipe</a> last month. It&#8217;s one of the few things I regretted not learning how to make reliably well while still living at home, and I never dared try it on my own or from a random recipe.</p>
+
+
+	<p>What is it about meatloaf that is so appealing? It&#8217;s such an odd dish. My spellchecker marks it as incorrect (although &#8220;spellchecker&#8221; gets no red underline, and how long has that word been around?). As far as I know, there is no equivalent word or dish in French. But in my opinion, it&#8217;s up there with roast chicken as one of the ultimate comfort foods, and possibly my favorite one. A well-prepared loaf is more than a giant hamburger. It can be full of wonderful flavors and not at all greasy or overwhelming. I would choose meatloaf over steak any day (a possible exception being Poppy&#8217;s marinated flank steak&#8212;perhaps we can get that recipe on here this summer, folks? Not that I have a grill.). I can consume more meatloaf than any other meat.</p>
+
+
+	<p>So, on Sunday night, after accumulating the various condiments and getting three pounds of 85/15 ground beef, I made mom&#8217;s favorite meatloaf.</p>
+
+
+	<p style="float:center"><img src="/pictures/meatloaf.jpg" alt="" /></p>
+
+
+	<p>Hers looked better, and I think I know where I messed up: I didn&#8217;t chop my onions finely enough, and I didn&#8217;t mix the meat well enough. Mom, what&#8217;s the best way to get it more homogenized without packing it? You say to &#8220;cut and fold the beef in with the fork,&#8221; but I still ended up with crevasses here and there. They didn&#8217;t harm the finished product, but there were a few spots of slightly undercooked meat where it was still packed tightly, presumably from its original form. It was also difficult to cut without having it fall off in large chunks. Should I take a pair of forks and cut it up while mixing it with the add-ins? I&#8217;d like to hear your mixing technique in the comment section, if you please.</p>
+
+
+	<p>Crevasses and all, the aroma and flavor of this loaf brought me back to my various childhood homes. It&#8217;s one of the few dishes mom makes that has looked and tasted the same my entire life, and I wouldn&#8217;t want it any other way.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="idcb3">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-1773"><p>As you say, the onions are chopped way too coarsely; that&#8217;s apparent from the photo. It also looks like you used more onion than I did, but that could just be an effect of the difference in the fineness of the chopping.</p>
+<p>I only use one fork for the mixing, but I do mix the crumb/onion/egg/seasoning mixture really well before adding the meat. I may mix the meat and seasonings a little more thoroughly than I indicated in the recipe; then when I shape the loaf I use a rubber spatula to help sculpt it, pressing it somewhat firmly into shape. I don&#8217;t want it too dense, but I don&#8217;t want it to crumble all over the place when I try to slice it.</p>
+<p>Also, letting it sit for 5-10 minutes in a warm spot in the kitchen on the heated platter before slicing will help it firm up a little. That&#8217;s a good idea with all meat.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on April 3, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1774"><p>Thanks mommy! Nathan&#8217;s enjoying meatloaf sandwiches for work every day.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on April 3, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1775"><p>If you made a 3 pound meatloaf for two people he&#8217;s going to be eating a lot of sandwiches!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on April 3, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1776"><p>I always cook my onion (and green pepper if I use it) in olive oil before I add it to the meat because I never think it gets done enough otherwise.  I always make it in a loaf pan- is that bad?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Aunt Sue</span></span>
+  				<span>on April 3, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1777"><p>Sue, if you read my original <a href="http://technically.us/eat/articles/2006/03/23/favorite-meat-loaf">recipe</a> you will see why I don&#8217;t like to use a loaf pan to cook my meatloaf in, but I suppose that&#8217;s just a matter of individual taste&#8212;I like the crust brown and crispy all the way down the sides and I think using a loaf pan prevents that. I like your idea of sautéeing the onions and green peppers first, though. I&#8217;ll have to try that next time.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on April 3, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1778"><p>Yes, I see now that my onions look ridiculously large in that picture. Next time I&#8217;ll use your sister&#8217;s idea, and maybe I&#8217;ll let them cook nice and long. I bet that would add a delicate sweetness to the finished loaf. I don&#8217;t want to mess with your recipe too much though, since it&#8217;s perfect when you make it.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on April 3, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1779"><p>Hi &#8212; I think I might be the only non-family member to post a comment here but I just wanted to say that I made your meatloaf recipe two nights ago and it&#8217;s great.  I had a couple of stale pieces of Japanese white bread that I threw in the Cuisinart with the onion.  Next time I think I&#8217;ll use a little less salt.  It was great cooked on the broiler pan &#8212; got a nice crust on the outside.  Here&#8217;s a little pic of it&#8230;</p>
+<p>http://tinyurl.com/lrf85</p>
+<p>Thanks again!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">abby</span></span>
+  				<span>on April 3, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1780"><p>Abby: All people are welcome to comment here! I&#8217;m so glad the meatloaf worked well for you&#8212;it looks scrumptious. Thanks for reading and trusting our crazy family recipes!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on April 3, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1781"><p>I should have stated in the meat loaf recipe that I am a salt lover, and the amount of salt should be adjusted according to taste. Especially with the additional soy sauce some people might find it too salty, or those who need to watch their salt intake for medical reasons. Fortunately neither <a href="http://www.billyprice.com">Poppy</a> nor I have to worry about our blood pressure.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on April 3, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="idcb4">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="idcb5" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="idcb5_hf_0" id="idcb5_hf_0" /><input type="hidden" name="wicket:interface" value=":464:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="idcb6" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="idcb7" name="add" value="Add a comment" onclick="wicketShow('idcb7--ajax-indicator');var wcall=wicketSubmitFormById('idcb5', '../../../?wicket:interface=:464:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('idcb7--ajax-indicator');}.bind(this),function() { ;wicketHide('idcb7--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('idcb5')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="idcb7--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

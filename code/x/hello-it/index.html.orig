@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Hello, IT?</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id24f7" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Hello, IT?" width="147" class="title" src="../../../resources/net.databinder.components.RenderedLabel/6bc83629"/><span class="title">Hello, IT?</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on September 22, 2006</span></span>
+			<span id="id24f8" class="tags">
+					{&nbsp;<span><a href="../../../code/tag/software/#selected-tag"><span>software</span></a><span id="id24f9">, </span></span><span><a href="../../../code/tag/it/#selected-tag"><span>it</span></a><span id="id24fa">, </span></span><span><a href="../../../code/tag/outsourcing/#selected-tag"><span>outsourcing</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>I haven’t always had the best things to say here about my cousins working in IT. Perhaps it’s that their work requires nothing beyond an aptitude for PC software, yet they make a whole lot of bank. No, that’s not it. It’s that they’re mean.</p>
+
+
+	<p class="out"><img src="/pictures/torch.jpg" alt="" /></p>
+
+
+	<p>It’s one thing when a razor-sharp Hibernate programmer <a href="http://forum.hibernate.org/viewtopic.php?p=2313895#2313895">abuses forum noobs</a>. At least he contributes something to the computing world. But so many of those whose jobs are (nothing but) keeping office computers running find it necessary to sneer at and lord over their co-workers. They apply the “dumb user” stereotype to everyone—they’re probably <em>still</em> laughing at the coffee-cup-in-CD-tray joke.</p>
+
+
+	<p>But most users aren’t that dumb anymore. They manage to browse the web, install software, send e-mail, shop online, and produce hideous MySpace pages <strong>all by themselves at home</strong>. They do these things without the encumbrance of anti-virus software reminiscent of <span class="caps">HAL 9000</span>, <a href="http://www.spectorsoft.com/">corporate-mandated spyware</a>, or Microsoft Outlook (the stability destroyer).</p>
+
+
+	<p>It’s by design that employees need help getting anything done on office computers; they aren’t just idiots. I bristle when I hear my friends complaining about the rude tech guys in their offices, and bristle twice as much when programming is assumed to be in the same despised category.</p>
+
+
+	<p>But my own office is lucky to have a very nice fellow in charge of keeping the boxes humming. Never insulting, always patient. His son wasn’t too patient though; he entered the world one month early and right on top of another co-worker’s vacation.</p>
+
+
+	<p>Thanks to that confluence, this week <em>I</em> was the IT department.</p>
+
+
+	<p>As luck would have it, our outsourced Exchange services went out cold on day one. (Did you hear that “a major fiber line was cut in the Denver area” on Tuesday? Me neither.) As soon as the first concerned reports of “my Outlook isn’t working” came drifting over the wall, I knew that my next few hours would be spent looking busy, attending to a problem I couldn’t possibly fix. I jokingly told everyone to “reboot.”</p>
+
+
+	<p>Our e-mail provider’s phone support? Busy. Web support? No response. I may as well have gone out to a long lunch along with the rest of the e-mail-dependent office, but instead I dutifully redialed (which, on our fancy IP phones, requires <em>two</em> keypresses) until I was eventually connected to support. Yes, they were aware of the problem. (Actually I didn’t ask such a stupid question, but it was answered.) No, there was no “ETA.” Okey dokey.</p>
+
+
+	<p>E-mail services returned later, having been out for over four hours. I learned that everyone who had heard me joshing to “reboot” actually had rebooted. Oh, the power. The feeling of superiority. I could let it go to my head.</p>
+
+
+	<p>Or I could recognize that 13-year-olds know more about configuring stupid Windows XP than I ever want to.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id24fb">
+  		
+  		
+  	</div>
+  	<div id="id24fc">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id24fd" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id24fd_hf_0" id="id24fd_hf_0" /><input type="hidden" name="wicket:interface" value=":1355:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id24fe" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id24ff" name="add" value="Add a comment" onclick="wicketShow('id24ff--ajax-indicator');var wcall=wicketSubmitFormById('id24fd', '../../../?wicket:interface=:1355:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id24ff--ajax-indicator');}.bind(this),function() { ;wicketHide('id24ff--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id24fd')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id24ff--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/city-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>City Slicking / ‘Terrible’ means awesome in French</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../city">
+			
+			<img alt="City Slicking" src="../../../resources/org.apache.wicket.Application/city-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../city">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/city-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id1899" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="‘Terrible’ means awesome in French" width="424" class="title" src="../../../resources/net.databinder.components.RenderedLabel/4d449aad"/><span class="title">‘Terrible’ means awesome in French</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Doctor Barnett</span>, <span>on February 19, 2007</span></span>
+			<span id="id189a" class="tags">
+					{&nbsp;<span><a href="../../../city/tag/politics/#selected-tag"><span>politics</span></a><span id="id189b">, </span></span><span><a href="../../../city/tag/nyt/#selected-tag"><span>nyt</span></a><span id="id189c">, </span></span><span><a href="../../../city/tag/security/#selected-tag"><span>security</span></a><span id="id189d">, </span></span><span><a href="../../../city/tag/language/#selected-tag"><span>language</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Just how dangerous is the political manipulation of language? I got scared around the time newscasters started using &#8220;homeland&#8221; as if were an American English word rather than an unknown Bush staffer&#8217;s <a href="http://www.slate.com/?id=2066978">bizarre German import</a>. With both the Department of <em>Heimat</em> Security and the <acronym title="Uniting and Strengthening America by Providing Appropriate Tools Required to Intercept and Obstruct Terrorism">PATRIOT</acronym> Act getting uncritical play, it seemed we had completely and permanently ceded control of our language to a repressive government.</p>
+
+
+	<p>Fortunately, some instinctual social mechanisms are smarter than others. It is impossible for hysteria-enabled poisoning of the language to do permanent damage because language changes at the same pace as the society using it. Smart counter-phrases like <a href="http://en.wikipedia.org/wiki/Security_">security theatre</a> enter the vernacular, driven by intuitive logic. What feelings do we now associate with the <acronym title="">PATRIOT</acronym> Act? Criticism of it once seemed unpatriotic (yielding to its namers&#8217; intent), but today it&#8217;s widely understood that the law was reactionary, overreaching, and in conflict with any historical idea of American patriotism. What of it the judiciary has left intact, lawmakers will eventually (and quietly) reverse.</p>
+
+
+	<p>And what about &#8220;defending the homeland?&#8221; Buffoonish rhetoric that would hardly get a rise out of anyone in 2007. And the <acronym title="">DHS</acronym> itself is a laughingstock, best known for developing protection strategies for <a href="http://www.nytimes.com/2006/07/12/washington/12assets.html?ex=1310356800&#38;en=cc3091801be419b5&#38;ei=5088&#38;partner=rssnyt&#38;emc=rss">petting zoos</a> and generally wasting billions of dollars securing the never-threatened <em>heart</em> land. It will take decades to undo the bureaucratic damage, but the days of unquestioned allocations (and stripped freedoms) in the invented name of the homeland are over.</p>
+
+
+	<p style="float:right"><img src="/pictures/terror.png" alt="" /></p>
+
+
+	<p>With &#8220;homeland&#8221; and &#8220;<acronym title="">PATRIOT</acronym>&#8221; taken care of, I&#8217;m adding one more word to the manipulation of language deathwatch: <strong>terror</strong>, as a back-formation of &#8220;terrorism&#8221; used rhetorically for &#8220;acts of terrorism.&#8221; The newspaper yields to the <em>terror</em> temptation all too frequently, causing some confusion as the word&#8217;s original meaning, fear, is still very much in use. Is the city defending against terror—a post-terrorism panic that might kill more people than the act itself? I guess not! The newspaper would rather flourish the stale &#8220;terror = terrorism&#8221; metaphor a few more times than consider that possibility.</p>
+
+
+	<p>It&#8217;s unfortunate, because the correct meaning of &#8220;terror&#8221; really is worth defending against. Had we not been so terrified, and in such a disorganized state of shock, perhaps someone would have thought to interview a skyscraper structural engineer on the morning of September 11, 2001, as the two of the tallest buildings in the country burned furiously. In hindsight the potential for collapse is obvious, but in our government&#8217;s (and live news organizations&#8217;) state of terror that logical half-step was not made, or not made definitively enough, to save lives.</p>
+
+
+	<p class="break">And that, as the Frenchies say, is not awesome.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about'>About</h3>
+
+<p><em>City Slicking</em> is about urban life, transportation, energy, liberty, and language.</p>
+
+<h3 id='haunts'>Haunts</h3>
+
+<p><a href='http://twitter.com/n8han/'>Twitter</a><br /><a href='http://technically.us/code/'>Coderspiel</a><br /><a href='http://www.streetsblog.org/'>Streetsblog</a><br /><a href='http://gawker.com/people/alexpareene/posts/'>Pareene</a><br /><a href='http://www.copenhagenize.com/'>Copenhagenize</a><br /><a href='http://itre.cis.upenn.edu/~myl/languagelog/'>Language Log</a><br /><a href='http://t4america.org/'>Trans. for America</a></p>
+
+<h3 id='wire_service'>Wire Service</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/city-rss' title='All in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-short-rss' title='Left column, frequent links and notes'>Quickies</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-long-rss' title='Main column, occasional extended posts'>Treatise</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id189e">
+  		
+  		
+  	</div>
+  	<div id="id189f">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id18a0" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id18a0_hf_0" id="id18a0_hf_0" /><input type="hidden" name="wicket:interface" value=":969:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id18a1" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id18a2" name="add" value="Add a comment" onclick="wicketShow('id18a2--ajax-indicator');var wcall=wicketSubmitFormById('id18a0', '../../../?wicket:interface=:969:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id18a2--ajax-indicator');}.bind(this),function() { ;wicketHide('id18a2--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id18a0')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id18a2--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Wash those pots and pans</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id1f1" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Wash those pots and pans" width="420" class="title" src="../../../resources/net.databinder.components.RenderedLabel/78fcf73c"/><span class="title">Wash those pots and pans</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on August 4, 2006</span></span>
+			<span id="id1f2" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/school/#selected-tag"><span>school</span></a><span id="id1f3">, </span></span><span><a href="../../../eat/tag/techniques/#selected-tag"><span>techniques</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p style="float:right"><img src="/eat/files/girls.jpg" alt="" /></p>
+
+
+	<p>I did something different today: I volunteered as assistant at the <a href="http://www.sewickleycookingstudio.com/home.php">Sweetwater Cooking Institute</a> on E. Carson Street. It was the last day of a week-long intensive cooking series, and today the class covered roasting. In addition to learning how to truss chickens for the oven (something I don&#8217;t normally do) the class learned how to make stock, deglaze the roasting pan and make sauce to serve with the chicken, remove grease from the top of stock or sauce, and carve chicken for serving. They also made two kinds of clafoutis, cherry and nectarine, as well as spinach salad with bacon and mushrooms dressed with an unusual curry vinaigrette, and baked stuffed tomatoes. In addition to everything else, the class learned how to make avgolemono soup, using the chicken stock they made themselves.</p>
+
+
+	<p>I was a little disappointed that I didn&#8217;t get to help more with the cooking, or actually at all. Assisting basically consisted of washing vast amounts of dishes and helping to keep the work areas clear so the class members could have what they needed to keep cooking. Gaynor Grant, the chef/owner of the school is very nice and seems quite talented. She obviously works hard to think of new ideas for classes, like couples&#8217; nights, singles&#8217; classes, girls&#8217; nights out, a class she calls &#8220;Frozen Assets&#8221; where she teaches class members some basic dishes they can prepare on the weekends when they have time to cook,  freeze them, and then pull them out for dinner during the work week.</p>
+
+
+	<p style="float:left"><img src="/eat/files/claf.jpg" alt="" /></p>
+
+
+	<p>The best part of the day was sitting down to a lovely lunch that comprised all the dishes cooked by these darling young people. Here&#8217;s a photo of the desserts; they were very tasty. I&#8217;m really not sure I&#8217;d want to do this again, though, it was an awful lot of work for a plate of roast chicken and some salad, and if the class had been larger there would have been so many more dishes to wash. (While I was there my contractor called to say they would not be working on the kitchen today because his grandmother died. &#8220;She must have been young,&#8221; I said. Because he&#8217;s pretty young. But no, she was 87. Um, not to seem callous, but do <strong>all</strong> his employees have to take the day off, too? It&#8217;s been three weeks now, and the kitchen still looks like a bomb went off in it; I think he could have sent someone over to do some painting even if he couldn&#8217;t work himself.)</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1f4">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-2527"><p>It sounds like a lot of work for a plate of roast chicken but it also sounds fun.</p>
+<p>Have you reached a point where you&#8217;re suffering from home-cooked meal withdrawal? It&#8217;s hard not to have a kitchen and based on the stories one hears, kitchen renovations all seem to drag on forever. Although hopefully, you&#8217;re coming down the home stretch &#8212; despite the fact that the entire crew had funeral leave today.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://kitchenography.typepad.com"><span class="alias">Julie</span></a>
+  				<span>on August 4, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2528"><p>Sounds like a fun time at this class even if your work was dull.</p>
+<p>Re degreasing: my mother serves roast chicken with the drippings from the pan as &#8220;gravy,&#8221; no degreasing or deglazing.  Sometimes she&#8217;ll just spoon pure schmaltz over your chicken and potatoes.  It&#8217;s soooo good.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://haverchuk.blogspot.com"><span class="alias">michael</span></a>
+  				<span>on August 4, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2529"><p>Sounds like so much fun! Probably more fun taking the class than washing their dishes, but still.</p>
+<p>I&#8217;m sorry about the kitchen crew all getting the day off. Hopefully they&#8217;ll try to make up for the day by being really productive.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.metakathryn.com"><span class="alias">Kathryn</span></a>
+  				<span>on August 4, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2530"><p>Hot work in a heat wave, that.<br />
+ <br />
+It is churlish, I know, but I tend towards suspecting  the death of a grandmother, offered as an excuse for non-appearance or lateness.You hear it as frequently as &#8220;the dog ate my homework.&#8221; , or &#8220;there was a pileup on the parkway.&#8221; Admitedly, many people nowadays have more than 3 grandmothers, but still&#8230;.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">lindy</span></span>
+  				<span>on August 4, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id1f5">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id1f6" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id1f6_hf_0" id="id1f6_hf_0" /><input type="hidden" name="wicket:interface" value=":96:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id1f7" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id1f8" name="add" value="Add a comment" onclick="wicketShow('id1f8--ajax-indicator');var wcall=wicketSubmitFormById('id1f6', '../../../?wicket:interface=:96:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id1f8--ajax-indicator');}.bind(this),function() { ;wicketHide('id1f8--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id1f6')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id1f8--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

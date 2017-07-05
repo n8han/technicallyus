@@ -1,0 +1,182 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Seafood stew with the Lyonses</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="idafc" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Seafood stew with the Lyonses" width="486" class="title" src="../../../resources/net.databinder.components.RenderedLabel/1cc75ed7"/><span class="title">Seafood stew with the Lyonses</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on September 26, 2006</span></span>
+			<span id="idafd" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p style="float:center"><img src="/pictures/emily2.jpg" alt="" /></p>
+
+
+	<p>Emily and her Mom: Co-chefs</p>
+
+
+	<p>First of all Leland, a special thanks for suggesting that we blog on your site. We had a lot of fun both planning and preparing dinner together and even more fun serving it to four special people.</p>
+
+
+	<p>OK, lesson learned: never <a href="http://technically.us/eat/articles/2006/09/14/a-teaser-and-an-invitation">divulge</a> what’s for dinner until you’re carrying it to the table. Although we had hoped to serve soft-shell crabs, we quickly discovered while shopping on Saturday that the season was over. The only ones we were able to find on the whole Upper East Side were at <a href="http://www.citarella.com/">Citarella</a>, and they looked small and sickly.</p>
+
+
+	<p style="float:left"><img src="/pictures/agata.jpg" alt="" /></p>
+
+
+	<p>Undaunted, we backtracked to <a href="http://newyork.citysearch.com/profile/11350351">Agata &#38; Valentina</a>, deciding to keep crab on the menu by making a seafood stew. Besides the crab, shrimp, and mussels for the stew, we also picked up some fresh salad greens (the “no spinach included” sign calmed any fears we had and, yes, we did wash them thoroughly once we got home), a wedge of blue cheese from Agata’s overwhelming cheese selection, and a <a href="http://technically.us/pictures/emily4.jpg">rich chocolate cake</a> we had enjoyed many times before from the bakery department. Our next goal was to find some fresh figs for an appetizer. The local produce men who dot just about every corner were no longer carrying them. We decided to try Food Emporium since we needed olive oil. The produce man in Food Emporium, however, told us that they didn’t have any either but suggested we try Gristedes. He worked there as well, he explained, and told us exactly where to find them. Apparently Gristedes isn’t aware of what the going rate for figs is&#8212;they charged us just 99 cents for a full basket!</p>
+
+
+	<p style="float:right"><img src="/pictures/emily1.jpg" alt="" /></p>
+
+
+	<p>Finally, after a fun afternoon of grocery shopping, we headed home to start cooking. Making the stew was a lot of fun, as we had no specific recipe to work from. The only ingredient besides the shell fish that we knew we had to use was Old Bay Seasoning. This combination of spices and peppers is an absolute must in any <a href="http://en.wikipedia.org/wiki/Delmarva_Peninsula">Delmarva</a> recipe involving crab. We decided to steam the seafood liberally sprinkled with Old Bay separately in order to insure that the pungent flavor didn’t get lost in the sauce. While the shrimp and mussels bubbled away on the back burner, we created a roasted tomato sauce with garlic, parsley, and a little bit of sugar. Just before our guests arrived we put together our salad. Emily bathed the figs in olive oil and cut an &#8220;X&#8221; on the top of each one. After roasting them in a 350º oven for about 15 minutes, she stuffed each one with a small hunk of blue cheese. We poured yellow rice into the boiling water, tossed together our secret salad dressing, and washed our strawberries. We were ready!</p>
+
+
+	<p style="float:center"><img src="/pictures/emily3.jpg" alt="" /></p>
+
+
+	<p>Rob had arrived earlier. He and Dad had been encouraging us while enjoying some gouda cheese and crackers, but they were more than ready for dinner when Leland and Nathan arrived at eight o’clock. It was great fun to see them again. While modesty prevents us from saying how good dinner was, everyone seemed to enjoy the evening. We both concluded later that cooking for family and friends is really a wonderful way to spend a Saturday. It’s so much better than going out to a restaurant&#8212;you know exactly what you’re eating, you’re not served by a surly waiter, and you’re not rushed out the door. So, thanks again, Leland, for the suggestion. You and Nathan are welcome anytime.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="idafe">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-2835"><p>wow the produce guy works at both Food Emporium and Gristedes? my mind is officially blown.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://velvet-sea.blogspot.com"><span class="alias">JMoney</span></a>
+  				<span>on September 26, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2836"><p>Wow! What a great Delmarva feast! &#8212;and the figs sound easy and scrumptious!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Uncle Teddy</span></span>
+  				<span>on September 26, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2837"><p>The whole meal sounds wonderful, but I know what you mean about not being able to deliver on a menu; that has happened to me more than once, even simple things that I thought would be easy to obtain, like decent peppers for stuffed peppers, for example.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on September 26, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2838"><p>I love any and all variations on seafood stew and this one, over yellow rice, sounds really lovely.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">zp</span></span>
+  				<span>on September 26, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2839"><p><em>Eat</em> readers are so supportive and friendly! Yes, Emily and Mom, it was a delicious meal&#8212;beautifully executed and presented. Thanks again!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on September 26, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="idaff">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="idb00" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="idb00_hf_0" id="idb00_hf_0" /><input type="hidden" name="wicket:interface" value=":405:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="idb01" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="idb02" name="add" value="Add a comment" onclick="wicketShow('idb02--ajax-indicator');var wcall=wicketSubmitFormById('idb00', '../../../?wicket:interface=:405:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('idb02--ajax-indicator');}.bind(this),function() { ;wicketHide('idb02--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('idb00')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="idb02--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

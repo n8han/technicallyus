@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+        <link href="/css/blueprint/screen.css" type="text/css" rel="stylesheet" media="screen, projection"></link>
+        <link href="/css/blueprint/print.css" type="text/css" rel="stylesheet" media="print"></link> 
+        <link href="style.css" type="text/css" rel="stylesheet"></link> 
+        <title> Spde → About </title>
+      </head>
+      <body>
+        <div id="content">
+      <div class="container">
+        <h2>Spde → About</h2>
+        <h4><ul class="toc"> <li> About </li><li> <a href="Download">Download</a> </li><li> <a href="See">See</a> </li><li> <a href="Talk">Talk</a> </li> </ul></h4>
+        <p><strong>Spde</strong> is an offshoot of the <a href="http://processing.org/">Processing</a> environment to support sketches written in <a href="http://www.scala-lang.org/">Scala</a>, a powerfully object-oriented and functional language.</p>
+
+<p>In contrast to the <a href="http://processing.org/reference/environment/">PDE</a>, Spde is a <em>deconstructed toolkit</em>. For starters that means you bring your own editor and Spde will compile and run a sketch whenever you save it &mdash; that&rsquo;s one option. The entire process is controlled by Scala code you can use or override. This structure should make Spde easy to extend and customize. But who knows, for now it is just a scrappy little thing with big ideas.</p>
+
+<p>Because Scala runs on the Java Virtual Machine and can interface directly with Java code, Spde is able to work with  unmodified Processing libraries. Its sketches will look similar to those in the p5 dialect of Java if written in an imperative style, while an embrace of immutability and other functional concepts will lead to entirely different sketches. Please experiment.</p>
+
+<p>Like Processing, Spde is free software under the LGPL. The full sources to its Processing <a href="http://github.com/n8han/spde">extension library</a> and <a href="http://github.com/n8han/spde-sbt">sketch-builder</a> are on github.</p> 
+        
+      </div>
+    </div>
+      </body>
+    </html>

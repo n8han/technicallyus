@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Pork Chops Rebecca</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../eat">
+			
+			<img alt="Eat" src="../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../eat">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id2d5" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Pork Chops Rebecca" width="334" class="title" src="../../resources/net.databinder.components.RenderedLabel/de1bab61"/><span class="title">Pork Chops Rebecca</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on March 11, 2006</span></span>
+			<span id="id2d6" class="tags">
+					{&nbsp;<span><a href="../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Tonight I made the pork chops <a href="http://technically.us/eat/articles/2006/03/04/pork-chops-and-colston-bassett">described</a> by mom in her comment on my last chops. I have dubbed the dish Pork Chops Rebecca, and it&#8217;s an excellent method of preparing today&#8217;s <a href="http://www.wineloverspage.com/wineadvisor1/tsfl051110.phtml">extremely lean</a> pig flesh.</p>
+
+
+	<p style="float:center"><img src="/pictures/porkchopsrebecca.jpg" alt="" /></p>
+
+
+	<p>Here are mom&#8217;s directions:</p>
+
+
+	<blockquote>
+		<p>First I season them with lots of salt, pepper, and cumin and brown them well on both sides in a skillet in plenty of olive oil. Then I quarter some lemons and squeeze the juice on the chops and leave the squeezed lemons in the pan. I mince about 5 or 6 large cloves of fresh garlic and sprinkle it all over the contents of the skillet, pour a little chicken stock in, cover, turn the heat down to low and simmer for about 2 hours or so, until the meat is so tender that you can cut it with a fork. About 1/2 hour before they are done I season them with some dried oregano. I add more stock as needed so there is always some liquid in the bottom of the pan. I serve this with rice and it’s another man-pleaser. The lemony, garlicky drippings are really good on the rice. Make sure you use plenty of salt.</p>
+	</blockquote>
+
+
+	<p>The cumin, garlic, and lemon cooking together in olive oil is torturous during those two hours, and all you want to do is stop cooking and eat, but it is worth the wait.  I recommend serving the cooked lemon wedges alongside, the meat of which turns into a delicious marmalade, perfect for mixing with your rice or spreading on a fresh baguette.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id2d7">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-1656"><p>What a terrific idea for the lemon rinds&#8212;I always just discard them before even putting the chops on the table but I will try that next time. I got the idea for this dish originally from the book <em>The Mambo Kings Sing Songs of Love</em> or whatever the title was that the movie <em>The Mambo Kings</em> was based on. The main character of that book talked a lot about food and his love for salty, garlicky, pork dishes cooked in lots of olive oil. He missed Cuba and the food his mother cooked for him. I developed this recipe based on his description of something she made.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on March 11, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1657"><p>The cumin is genius.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on March 11, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1658"><p>steak loves steak, but i also love pork chops. hint hint.<br />
+also, i saw this link and thought you might want to invest in a blog book www.blurb.com<br />
+sorry that made me sound like a spam comment.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">steak</span></span>
+  				<span>on March 11, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1659"><p>Spamming and inviting yourself to dinner in the same comment. Well done, steak! Let&#8217;s move forward on this dinner business, because I haven&#8217;t seen you since August (the restaurant, not the month)!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on March 11, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1660"><p>Do you ever brine today&#8217;s lean, lean pork chops?  I find this really keeps them juicy</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">grandma</span></span>
+  				<span>on March 11, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1661"><p>I haven&#8217;t yet but I hear it works well. Someone told me to soak them in buttermilk.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on March 11, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id2d8">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id2d9" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id2d9_hf_0" id="id2d9_hf_0" /><input type="hidden" name="wicket:interface" value=":127:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id2da" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id2db" name="add" value="Add a comment" onclick="wicketShow('id2db--ajax-indicator');var wcall=wicketSubmitFormById('id2d9', '../../?wicket:interface=:127:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id2db--ajax-indicator');}.bind(this),function() { ;wicketHide('id2db--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id2d9')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id2db--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Mac does Java... again</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id25c3" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Mac does Java... again" width="355" class="title" src="../../../resources/net.databinder.components.RenderedLabel/855e0f71"/><span class="title">Mac does Java... again</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on April 21, 2006</span></span>
+			<span id="id25c4" class="tags">
+					{&nbsp;<span><a href="../../../code/tag/apple/#selected-tag"><span>apple</span></a><span id="id25c5">, </span></span><span><a href="../../../code/tag/macintosh/#selected-tag"><span>macintosh</span></a><span id="id25c6">, </span></span><span><a href="../../../code/tag/java/#selected-tag"><span>java</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p class="out"><img src="/pictures/system-6.png" alt="" /></p>
+
+
+	<p class="break">Mac users have become accustomed to an unhappy pattern when it comes to technologies not prioritized by Apple Computer.</p>
+
+
+	<p>The first stage is—as always—denial. Color monitors? Just a fad. An <span class="caps">MP3</span> player as good as WinAMP? I <em>buy</em> my music. Snappy, standards-compliant web browsing? Who needs that, when you have Netscape 3?</p>
+
+
+	<p>Eventually the value of a technology (and its vacancy on Macintosh) becomes too obvious to ignore. Someone besides Apple creates a pretty good product that Mac users will adamantly insist is better than what’s available on other platforms. <a href="http://en.wikipedia.org/wiki/Internet_Explorer_for_Mac">Internet Explorer for Mac</a> and <a href="http://en.wikipedia.org/wiki/SoundJam_MP">SoundJam MP</a> were two such products.</p>
+
+
+	<p class="break">In the final stage, Apple reveals that their deflector shields are <em>quite operational</em> and annihilates the competition.  (Rarely, they’re nice enough to <em>buy</em> the competition first.) And for a short time, we really do have it better than Windows users.</p>
+
+	<p class="out"><img src="/pictures/d-star.jpg" alt="" /></p>
+
+	<p>Unfortunately for us, though, Death Stars just don’t dominate for that long. Safari, we love you, but honestly—where <strong>is</strong> your incremental find function? And your Flash blocker? Have you guys seen the Web lately? That stuff is essential! And iTunes? How many useful new features  have <strong>you</strong> given us in your past <strong>six versions</strong>? (No, <span class="caps">DRM</span> reinforcements do not count.)</p>
+
+
+	<p>Because it’s hard for Mac users to jump ship when half their net worth is invested in the platform, it’s easy for Apple to slack off on established products. And they certainly don’t have to worry about new competition on their turf—you’re better off trying to index the Web better than Google than taking on iPhoto.</p>
+
+
+	<p class="break">So it has been with Java on the Macintosh. First we didn’t need it. Then we didn’t need it to be fast. Then Apple took over for Sun with the <acronym title="Macintosh Runtime for Java">MRJ</acronym> and we were sittin’ pretty for a few months with an up-to-date Java as fast as on Windows.</p>
+
+	<p class="out"><img src="/pictures/mrj.gif" alt="" /></p>
+
+	<p>After that we entered the cycle of mediocrity, where every new <span class="caps">API</span> feature and every <span class="caps">JVM</span> optimization would take months (or years) to travel from Santa Clara to Cupertino. It’s great when an Apple-polished <span class="caps">JVM</span> is new, but that thrill lasts only until the next rollout from Sun.</p>
+
+
+	<p>Time to break out the Champagne, folks! This week <a href="http://docs.info.apple.com/article.html?artnum=302983">Apple’s <span class="caps">J2SE</span> Release 4</a> arrived via Software Update, the first version they deemed good enough to be the “default.” Now you can run Maven, Netbeans, Eclipse, or just plain <code>java -version</code> in the latest <span class="caps">JVM</span> without having to  specially configure each one. For me that meant deleting a few lines from the <a href="http://databinder.net/pre-reqs.html">Databinder Prerequisites</a>. In general it means that Mac users can be happy on Java without having to fake it.</p>
+
+
+	<p class="break">At least, until Sun cruises up in the <a href="https://mustang.dev.java.net/">Mustang <span class="caps">SE 6</span></a>. Feel free to take your time with that one, guys.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id25c7">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-1104"><p>Well, Apple released a first version of Java 6 a few days ago, so the future might be here already. :-)</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Per Ejeklint</span></span>
+  				<span>on April 21, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1105"><p>Wow, <a href='http://jroller.com/page/gfx/?anchor=java_se_6_on_the'>you&#8217;re right</a>. But where is the download link? I looked all over ADC and can&#8217;t find it. (Not that I have an Intel Mac to run it on.) Perhaps up-to-date Java finally is a priority at Apple. Certainly there weren&#8217;t Mac betas of Java 5 this early in its release cycle.</p>
+
+<p>I see you responded to my related comments over at <a href='http://chillenious.wordpress.com/2006/05/09/rant-on-windows-only-software/'>Eelco&#8217;s</a>, too. I still say that Eclipse disappoints on Mac. Maybe it&#8217;s no worse than Eclipse on Windows, but it&#8217;s clunky compared to Mac-only software. Whatever Apple is doing to help Mac-SWT along, they need to do more of it.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on April 21, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id25c8">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id25c9" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id25c9_hf_0" id="id25c9_hf_0" /><input type="hidden" name="wicket:interface" value=":1376:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id25ca" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id25cb" name="add" value="Add a comment" onclick="wicketShow('id25cb--ajax-indicator');var wcall=wicketSubmitFormById('id25c9', '../../../?wicket:interface=:1376:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id25cb--ajax-indicator');}.bind(this),function() { ;wicketHide('id25cb--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id25c9')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id25cb--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

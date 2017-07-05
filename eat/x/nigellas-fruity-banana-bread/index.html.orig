@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Nigella&#039;s fruity banana bread</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id5ee" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Nigella's fruity banana bread" width="439" class="title" src="../../../resources/net.databinder.components.RenderedLabel/2349f9d"/><span class="title">Nigella&#039;s fruity banana bread</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on February 5, 2007</span></span>
+			<span id="id5ef" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/baking/#selected-tag"><span>baking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p><img src="/pictures/bananabread.jpg" alt="" /></p>
+
+
+	<p>Thanks to Nigella by way of Barletta for this delicious banana bread recipe, the first one I&#8217;ve made. Banana bread has always been one of my favorite treats, whether with peanut butter, cream cheese, nutella, or just plain.</p>
+
+
+	<p>I&#8217;m not experienced enough to know how this bread compares to other recipes. The three I have in front of me are all pretty different. This one uses melted butter, orange zest, and orange juice–soaked apricots (which I left out). Mark Bittman uses a mixture of white and whole wheat flour, and he adds coconut. The Moosewood Cookbook has you soak bananas in strong, black coffee before incorporating them into the dough. Everyone wants to add something special to make the bread unique. Mom&#8217;s version has been reliably simple and perfect, and I don&#8217;t remember any extra junk in it other than the requisite nuts.</p>
+
+
+	<p>If you enjoy banana bread, this variation is worth trying, although after eating more than half the loaf, I&#8217;m getting a little disgusted with the faint odor of the melted butter. That&#8217;s probably in my head, however, because butter always melts. If you use the apricots, you are unlikely to notice the butter. I used roasted almonds because it&#8217;s all I had; walnuts would probably be better. The baking time is pretty close to accurate, a first for a Nigella recipe in my experience.</p>
+
+
+	<h3>Fruity banana bread</h3>
+
+
+	<p>Time: About 1 1/2 hours, plus 1 hour for soaking apricots</p>
+
+
+	<p>4 ounces (1/2 cup, packed) dried apricots <br> 1/3 cup orange juice <br> Nonstick cooking spray or vegetable oil, for greasing pan <br> 1/4 pound (1 stick) unsalted butter <br> 1 1/3 cups all-purpose flour <br> 2 teaspoons baking powder <br> 1/2 teaspoon baking soda <br> 1/2 teaspoon salt <br> 3/4 cup sugar <br> Finely grated zest of 1 orange <br> 2 large eggs <br> 1 cup (about 3 medium) mashed very ripe bananas <br> 1/2 cup mixed nuts, chopped <br> 1 tablespoon turbinado sugar or granulated white sugar</p>
+
+
+	<p>Using kitchen shears, cut each apricot in half lengthwise. Holding halves together, cut four or five times crosswise. In a small saucepan, combine apricot pieces and orange juice. Bring to a boil, then remove from heat. Allow to rest until apricots have absorbed most of the liquid, about 1 hour.</p>
+
+
+	<p>Heat oven to 325ºF. Place a baking sheet in oven. Spray or oil a 9-by-5-inch loaf pan, and if desired, line with parchment paper. Melt butter in a microwave oven or small saucepan; reserve.</p>
+
+
+	<p>In a mixing bowl, combine flour, baking powder, baking soda, and salt; set aside. In a large bowl, blend together reserved butter, 3/4 cup sugar, and orange zest. Mix in eggs one at a time, then mashed bananas, apricots, and nuts. Stir in flour mixture one-third at a time, stirring well after each addition.</p>
+
+
+	<p>Scrape dough into pan, and sprinkle with turbinado sugar. Bake until a toothpick inserted into center comes out clean, 1 to 1 1/4 hours. Place pan on a rack to cool. To serve, remove from pan, and slice thinly. Serve at room temperature.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id5f0">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3348"><p>I use the Bittman recipe with the whole wheat flour and generally use extra nuts and no coconut. Of course, since I don&#8217;t eat anything with banana in it I have no idea how it actually tastes, but folks seem to like it.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on February 5, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3349"><p>Mmm&#8230; banana bread. I just made a loaf myself, but I just stick to the classic Joy of Cooking recipe. On a frigid day like today, I hardly need an excuse to use my oven. But for banana bread&#8230; oh yes, please.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.metakathryn.com"><span class="alias">Kathryn</span></a>
+  				<span>on February 5, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id5f1">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id5f2" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id5f2_hf_0" id="id5f2_hf_0" /><input type="hidden" name="wicket:interface" value=":232:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id5f3" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id5f4" name="add" value="Add a comment" onclick="wicketShow('id5f4--ajax-indicator');var wcall=wicketSubmitFormById('id5f2', '../../../?wicket:interface=:232:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id5f4--ajax-indicator');}.bind(this),function() { ;wicketHide('id5f4--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id5f2')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id5f4--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

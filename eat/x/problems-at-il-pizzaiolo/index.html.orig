@@ -1,0 +1,228 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Problems at il pizzaiolo</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id10f1" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Problems at il pizzaiolo" width="353" class="title" src="../../../resources/net.databinder.components.RenderedLabel/2d603bc4"/><span class="title">Problems at il pizzaiolo</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on July 24, 2006</span></span>
+			<span id="id10f2" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/restaurants:%20pittsburgh/#selected-tag"><span>restaurants: pittsburgh</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>The dinner dilemma continues; last night we had to wedge a meal in between my <a href="http://www.billyprice.com">husband</a> performing an afternoon concert at a <a href="http://www.bordersstores.com/index.jsp">Borders</a> in <a href="http://en.wikipedia.org/wiki/Monroeville,_Pennsylvania">Monroeville</a> and having to be at a 6:30 PM meeting of <a href="http://www.retrouvaille.org/">Retrouvaille</a> in the South Hills.</p>
+
+
+	<p style="float:right"><img src="/eat/files/ilpiz.jpg" alt="" /></p>
+
+
+	<p>I remembered that we had enjoyed a couple of meals at <em>Il Pizzaiolo</em>, in Mt. Lebanon, not too far from the location of our meeting, and reasoned that if we got there at 5:30 we would be among the earliest customers and likely to be served quickly, enabling us to get to our next destination on time. And at first it looked like my plan was working; we walked into an empty restaurant, were seated immediately, and had our orders taken within minutes.</p>
+
+
+	<p style="float:left"><img src="/eat/files/rupiz.jpg" alt="" /></p>
+
+
+	<p>Then it all started to go wrong. The waiter brought our salads and some bread and olive oil (they serve the bread with good olive oil, and don&#8217;t add vinegar to it which is a good thing, in my opinion; I don&#8217;t like dipping my bread in vinegar). I had ordered a pasta dish and my husband one of their signature pizzas. Il Pizzaiolo was one of Pittsburgh&#8217;s first restaurants to get a wood-fired pizza oven, and they turn out  good, thin-crust, crispy pizzas. We ate our salads and a few minutes later they brought my pasta. It was so cold in the restaurant I thought I better start eating it, plus Bill eats so much faster than I do that it never hurts when I have a little head start. But we waited and waited, and I was starting to slow down and get full, when our waiter came to the table and said, &#8220;The pizza baker just arrived so your pizza will just be a few minutes more; you&#8217;re first in line!&#8221; in a cheery tone of voice.</p>
+
+
+	<p>Pizza baker just arrived? Um, why didn&#8217;t he alert us to the fact that the pizza baker wasn&#8217;t there when my husband ordered pizza, or why didn&#8217;t they hold my pasta, for at least a little while longer? Actually, the waiter was right, and the pizza did arrive just a few minutes later. I was afraid that they might skimp on the baking time, but it seemed to be baked sufficiently. If I had a complaint, it was that some of the arugola wasn&#8217;t fresh, and was yellowed. He had gotten a pizza with fresh mozzarella and prosciutto topped with arugula, a great combination. I love the way the pepperiness of the arugula contrasts with the oiliness of the ham and the creaminess of the cheese. My farfalle with grilled chicken and creamy pesto was good, but then I  had terrible indigestion later on that night, so I don&#8217;t know if something in the dish was off or I was just getting sick.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id10f3">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-2454"><p>I get very very anxious when eating out, esp. in Pittsburgh because I feel that any moment things could begin to &#8220;go wrong&#8221; as you say . . . and then I might cry.  Or get indigestion.</p>
+<p>What was so amazing about this post, though, was how intensely I experienced the anxiety even though I was just reading and not eating!!!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">zp</span></span>
+  				<span>on July 24, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2455"><p>Zp, I&#8217;ll take that as a compliment, if my writing was so vivid that you were able to &#8220;feel my pain&#8221;!</p>
+<p>Actually, my husband tends to get more anxious than I do when we eat out, possibly thinking that he needs to somehow fix these &#8220;restaurant incidents&#8221; as he calls them, which do happen fairly frequently, although usually to me and not to him what with my motto being, &#8220;Life is too short to eat bad food.&#8221;</p>
+<p><span class="caps">BTW</span>, did you notice that we are categorizing our restaurants according to which city they&#8217;re in, at your suggestion?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on July 24, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2456"><p>feel your pain, life&#8217;s too short, both, yes, totally.</p>
+<p>i hadn&#8217;t noticed your new restaurant categories, but i love it. for my purposes, the practical and the fantastical.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">zp</span></span>
+  				<span>on July 24, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2457"><p>Skimp on baking time?  Wood fired ovens are used for baking Neapolitan style pizzas because they are capable of extreme high temperatures, some approaching 1000 degrees.  It is not uncommon for a pizza to be done cooking in 60 seconds, and 20 seconds too little or too much would cause the pie to &#8220;go wrong.&#8221;  I hope future dining experiences are met with less anxiety, because as you say, life is too short.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Eric</span></span>
+  				<span>on July 24, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2458"><p>Thanks for the lesson, Eric; that would explain how quickly the pizza got to us after the pizza baker arrived, but I still maintain that our waiter should have held back my order so that we could have eaten our dinners at the same time, or told us the pizza baker wasn&#8217;t in the building when my husband ordered pizza.</p>
+<p>And I said that life is too short to eat bad food, not to get anxious about bad service or being served bad food. Although if you&#8217;re saying in the grand scheme of things that&#8217;s a petty thing to get anxious about of course you&#8217;re right, but then, this IS a food blog. It might be different if it were a blog about politics or world health;  there are plenty of blogs about serious world issues for you to read if you&#8217;re so inclined.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on July 24, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2459"><p>The problem is they hire teenage waitresses who are rude and have no idea what they are doing. I was there with my sister and my dad.I ordered pasta, he ordered pizza, and my sister ordered a bianca pizza. My dad and I got our dinners on time, and the waitress said the bianca was just coming out of the oven. That was a lie. We waited at least 20 minutes and she came back and we said we hadn&#8217;t gotten the pizza yet. She said she&#8217;d take care of it but she didn&#8217;t. We waited and waited for it and finally we just asked her to put it in a box. Then we waited another 20 minutes for the check another waitress asked her to give us. She was rude giving it to us. We left no tip and she said nothing about the pizza or that she was sorry when we left. They did take it off the bill though. We won&#8217;t be back anytime soon as long as that girl is there. I can&#8217;t even tell you about her attitude.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">PizzaLover</span></span>
+  				<span>on July 24, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2460"><p>I work at that restaurant, and you have to accept the fact that sometimes people are late to work.  I can tell you now that the owner (Ron) <span class="caps">HATES</span> people who get pesto, seeing as it is one of the least authentic dishes there.<br />
+       And to you, (Comment #6, PizzaLover) Do you know the girl&#8217;s name?  Becuase it seems ot me that you left large parts of the story out.  It isn&#8217;t her fault that hte pizza wasn&#8217;t ready, and I doubt yo uwaited over an hour for it.  It sounds to me like you are just one of the people who bitches constantly because your food isn&#8217;t &#8220;perfect&#8221;.  Well guess what, she works hard 7 hours straight and makes jack shit money.  So shut the hell up and deal with it, and you deserve to be punched in the face for not leaving a tip.  That affects the majority of the people who work there, including me, becuase I, the hostess, and the waiter all get a portion of the tip.  Learn to think about people other than yourself.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">RJ (Busser)</span></span>
+  				<span>on July 24, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2461"><p>Hi, RJ &#8211; Welcome to the blog! Your comment is very intriguing for several reasons. First let me say that I, too, worked in restaurants, both in front of the house and in the kitchen, for many years, so I&#8217;m not just a picky customer and I have a sense of what they should be responsible for and what really isn&#8217;t their fault, like when they get slammed with a rush or run out of something.</p>
+<p>However, I don&#8217;t accept that &#8220;sometimes people are just late&#8221;. If you order a dish and the person who is supposed to make it isn&#8217;t there, you should be informed so you can change your order or know there will be a wait. And if two people are dining together one shouldn&#8217;t get their dinner way before the other, at least without being given an explanation, and an apology.</p>
+<p>And as far as the owner hating people who order pesto because it&#8217;s inauthentic, I don&#8217;t know what you mean. I have Marcella Hazan&#8217;s Classic Italian Cookbook from the 1970s and it includes a recipe for pesto. Maybe Ron&#8217;s recipe is inauthentic, but why doesn&#8217;t he fix it or take it off the menu? I think an owner having contempt for his customers will contaminate his staff, and perhaps that&#8217;s what we&#8217;re seeing here.</p>
+<p>I agree that in general if a customer is unhappy with a restaurant experience they shouldn&#8217;t express themselves by not leaving a tip because so often it&#8217;s really not the fault of the waitperson, although it sounds like commenter #6 thought their waitress could have been more courteous. They should have still left the minimum tip and written a letter, or asked to speak to the manager before they left.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on July 24, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2462"><p>i can&#8217;t decide which is most shameful &#8211; the pettyness of &#8220;moms&#8221; gripes, the stiffing of the waitress, the health risk inferences or the disparaging title of the article. it&#8217;s really quite a toss-up.</p>
+<p>for the record, il pizzaiolo is a wonderful eatery and a fantastic addition to the local dining scene &#8211; a wonderful eatery that is the result of an enormous amount of hard work, dedication and expense. and it deserves better than this internet blog rubbish.</p>
+<p>frankly, i&#8217;m wondering if &#8220;mom&#8221; even had the common sense to alert the staff to her time constraints or the decency and maturity to discuss her issues with the owner prior to publicly flogging his/her business in such a graceless manner. i guess playing make believe food critic on the internet is more fun.</p>
+<p>and, fwiw, i am not associated with il pizzaiolo is any shape or form other than having had the pleasure of dining there on several occassions.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">livie@horizoncable.com</span></span>
+  				<span>on July 24, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2463"><p>Wow, Livie! First of all, if you&#8217;re going to drop such a bomb on this blog, please try to use proper spelling, punctuation, and capitalization, so that we can read your comment without snickering.</p>
+<p>Second of all, &#8220;mom&#8221; is my mom, and I won&#8217;t have some shill questioning her common sense and insulting her as you are. If you don&#8217;t appreciate &#8220;internet blog rubbish,&#8221; don&#8217;t read it!</p>
+<p>Finally, neither Mom nor I take criticism lightly, and she wouldn&#8217;t have written the post if she didn&#8217;t feel that her experience was indicative of serious problems at your precious <em>eatery</em>.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on July 24, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2464"><p>Hi, Livie &#8211; Thanks for your comment, and thank you, Leland, for your loyal defense!</p>
+<p>Livie, I believe I do give Il Pizzaiolo credit several times in my post for things I say they do well. As for the &#8220;pettiness&#8221; of my complaints, I&#8217;m baffled; don&#8217;t diners have a right to expect their meals to be delivered at the same time when they&#8217;re eating together? Shouldn&#8217;t we have at least gotten an apology in this situation? And where in my post did I say I stiffed the waiter, because we didn&#8217;t, even though he was arrogant, we don&#8217;t believe in stiffing the waitstaff.</p>
+<p>Il Pizzaiolo is in general a good restaurant but they need to do a little more work and train their waitstaff in better customer service and make sure their cooks show up on time.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca (Mommy)</span></span>
+  				<span>on July 24, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id10f4">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id10f5" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id10f5_hf_0" id="id10f5_hf_0" /><input type="hidden" name="wicket:interface" value=":617:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id10f6" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id10f7" name="add" value="Add a comment" onclick="wicketShow('id10f7--ajax-indicator');var wcall=wicketSubmitFormById('id10f5', '../../../?wicket:interface=:617:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id10f7--ajax-indicator');}.bind(this),function() { ;wicketHide('id10f7--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id10f5')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id10f7--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

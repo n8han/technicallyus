@@ -1,0 +1,355 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="../../../blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="../../../blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet.css"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Sling shot to CouchDB</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code.html">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code.html">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id2691" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Sling shot to CouchDB" width="359" class="title" src="../../../resources/net.databinder.components.RenderedLabel/93ce51"/><span class="title">Sling shot to CouchDB</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on January 19, 2009</span></span>
+			<span id="id2692" class="tags">
+					{&nbsp;<span><a href="../../tag/slinky/index.html#selected-tag"><span>slinky</span></a><span id="id2693">, </span></span><span><a href="../../tag/sbt/index.html#selected-tag"><span>sbt</span></a><span id="id2694">, </span></span><span><a href="../../tag/couchdb/index.html#selected-tag"><span>couchdb</span></a><span id="id2695">, </span></span><span><a href="../../tag/web/index.html#selected-tag"><span>web</span></a><span id="id2696">, </span></span><span><a href="../../tag/scala/index.html#selected-tag"><span>scala</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Dang. Are we seeing the <em>n</em> signs of apocalypse in the world of computing lately, or what? Just weeks ago, Cocoa Touch seemed to have a lead in software that no one could catch up to unless they went back in a time machine to the mid-90s and persuaded Sun <a href='../tales-from-the-desktop-java-crypt/index.html'>not to gut</a> the AppKit-ish Internet Foundation Classes to make way for Swing, and then later use those as a base for a touchscreen <abbr>API</abbr> like Apple did with Cocoa&#8212;but it turns out that the Pre can do all of those multitouch acrobatics <a href='http://developer.palm.com/'>in a kiosk-mode web browser</a>. Who knew that <a href='http://en.wikipedia.org/wiki/Palm_webOS'>its &#8216;OS&#8217;</a> would be a <a href='http://blogs.webtide.com/adam/entry/jetty_in_palm_s_webos'>Java freaking webapp</a>, probably the least auspicious software tech a few years ago? Crazy stuff.</p>
+
+<p>It&#8217;s the internet doing its disruptive thing again. Maybe there isn&#8217;t a need for beautiful user-interface libraries like Cocoa when millions of people are hacking away in JavaScript and the best code bubbles up until one day <a href='http://daringfireball.net/2006/11/colligan_head_stuck'>clueless old Palm</a> is <a href='http://waffle.wootest.net/2009/01/11/pre-conceived/'>beating Apple at their own game</a> with a decent <a href='http://i.gizmodo.com/5126702/palm-pre-preview-simply-amazing?skyline=true&amp;s=x'>multitasking interface</a> that Apple couldn&#8217;t be bothered to invent. (Like <a href='http://en.wikipedia.org/wiki/MultiFinder#Switcher'>Switcher</a>?)</p>
+
+<p>And that&#8217;s on the &#8216;desktop&#8217;. The best thing a <em>web</em> webapp&#8217;s server-side code can do is stay out of the browser interface&#8217;s way. Forget duplicating the features of JavaScript libraries elsewhere&#8212;you can&#8217;t even build bridges to them fast enough. For an application to keep pace with the web, it must splice itself with the rapidly evolving JavaScript genome.</p>
+
+<h3 id='but_dont__too_comfortable'>But don&#8217;t <code>GET</code> too comfortable</h3>
+
+<p>That&#8217;s not to say that application servers have no place. Even though <strong>CouchDB</strong> enables <a href='http://jan.prima.de/~jan/plok/archives/108-Programming-CouchDB-with-Javascript.html'>cool client-only applications</a>, you do often need to alter a document before serving it. News feeds can not expect a JavaScript runtime. And there&#8217;s no telling with Google&#8217;s crawler, but resource locations that hide their content behind ajax requests aren&#8217;t exactly begging for a top pagerank.</p>
+
+<p class='break'> CouchDB developers are <a href='http://jchris.mfdz.com/posts/128'>aware of this</a>:</p>
+
+<blockquote>
+<p>By taking advantage of these characteristics pure-CouchDB applications can reach near parity with traditional server-heavy approaches. Notable exceptions include the ability to render dynamic text that isn’t <abbr>JSON</abbr>, or return results that require multiple queries against CouchDB.</p>
+</blockquote>
+
+<p>And so there is <code>_external</code> for server-side document processing, which evaluates JavaScript on the server that is stored in CouchDB documents. Thus, applications with these highly typical needs can remain &#8216;pure&#8217; CouchDB, be entirely JavaScript, be deployed with only one big moving part, and be easily cloned from top to bottom with database replication. It&#8217;s all about extending the JavaScript copy-hack-share ecosystem onto the server.</p>
+
+<p>Which is swell, but if the word pure doesn&#8217;t give you pause you can&#8217;t have been watching computing history for very long. Technologies that strive for purity tend to live clean, short lives. Purity doesn&#8217;t permit integration with other languages and runtimes&#8212;where innovation has not stopped, by the way. User experience is only one facet of computing, and JavaScript is uncompetitive in many others. The pure application that eschews any process outside client and server JavaScript VMs may look and act pretty, but it will lose to the application that does those things but also benefits from some amazing new data synthesis library, or whatever. As long as the <em>impure</em> application also swims in the waters of client-side JavaScript, its only disadvantage is a more complex configuration.</p>
+
+<h3 id='a_more_complex_configuration'>A more complex configuration</h3>
+
+<p>So we want a web application that does some work on the server, but that also allows unlimited client activity <em>including direct access to the datastore</em>. Why? Because if you&#8217;re not doing that you&#8217;re not benefiting from the true ultimate power of CouchDB. It is necessary to do this, for giggles. Even if you do something like accessing the <abbr>REST</abbr>-base through ssh port forwarding (a poor programmer&#8217;s admin login), you&#8217;re still having fun while keeping your data safe.</p>
+
+<p>There&#8217;s a problem with this approach, however! Can you guess it? Or, like this writer, would you have gotten all the way to testing it before palm smacking your forehead? Well, is your get out of palm-smacking free card: <a href='http://en.wikipedia.org/wiki/Same_origin_policy'>same origin policy</a>.</p>
+
+<p>In most browsers you can&#8217;t even <code>PUT</code> to a different port from the one the page loaded on, can&#8217;t even kick things around on localhost. For a webapp to talk to CouchDB or anything else, it has to appear to the browser that everything is on the same machine and port. So you need a reverse-proxy. Which almost everyone does for live sites anyway, but for development? That seems cruel and unusual! It&#8217;s <a href='http://technically.us/git?p=sling.git;a=blob;f=src/main/apache/dev.conf;hb=HEAD'>not that bad tho</a>:</p>
+
+<pre><code>&lt;IfModule proxy_http_module&gt;
+	ProxyPass /couch/ http://127.0.0.1:5984/
+	ProxyPass /script/ http://127.0.0.1:5984/_utils/script/
+	ProxyPass / http://127.0.0.1:8080/
+&lt;/IfModule&gt;</code></pre>
+
+<p>On recent versions of Mac OS or Ubuntu (et al.), Apache and the needed modules are only a few commands away. A hybrid webapp serves itself on port 8080 and you access it on 80, including Couch (under <code>/couch</code>) and the JavaScript it comes with (under <code>/script</code>). Set it and forget it.</p>
+
+<h3 id='ready_aim_fire'>Ready, aim, fire?</h3>
+
+<p>This is all for a <a href='http://technically.us/git?p=sling.git;a=summary'><strong>Scala</strong> application called <strong>Sling</strong></a>. It presents a tranformed view of a CouchDB database. For an incoming request such as <code>GET /friday/About</code> it presents the same document that its CouchDB would, but formatted for passive rendering. The document must have a <code>body</code> property, which is converted from Markdown to <abbr>HTML</abbr>. The database is expected to have a document named <code>style.css</code>, to customize its appearance. Before the body content Sling lists and links all the documents in the database other than the stylesheet.</p>
+
+<h4 id='sling_the_friday_site'><a href='http://technically.us/friday/'>Sling the Friday site</a></h4>
+
+<p>Sling&#8217;s toolchain is wack. Requests from the client are handled in a <strong><a href='http://code.google.com/p/slinky2/'>Slinky</a></strong> application, which talks to Couch through <a href='http://databinder.net/dispatch/'>Databinder Dispatch</a>&#8217;s HttpClient wrapper and converts Markdown to <abbr>HTML</abbr> with <a href='http://attacklab.net/showdown/'>Showdown</a> interpreted by <a href='http://www.mozilla.org/rhino/'>Rhino</a>. The code is <a href='http://technically.us/git?p=sling.git;a=blob;f=src/main/scala/net/databinder/sling/App.scala;hb=HEAD'>also crazy looking</a>:</p>
+
+<pre><code>request match {
+  case Path(DbId(db, id)) =&gt;
+    val couched = [...]
+    
+    couched(id) {
+      case (OK.toInt, ri, Some(entity)) =&gt;
+        id match {
+          case (&quot;style.css&quot;) =&gt;
+            Some(cache_heds(ri, OK(ContentType, &quot;text/css; charset=UTF-8&quot;)) &lt;&lt; 
+              new Store(entity.getContent())(PageDoc.body).mkString(&quot;&quot;).toList
+            )
+          [...]
+          case (id) =&gt;
+            Some(cache_heds(ri, OK(ContentType, content_type)) &lt;&lt; strict &lt;&lt; doc(
+              Some(couched), id, md2html(new Store(entity.getContent())(PageDoc.body).mkString(&quot;&quot;))
+            ))
+        }
+      case (NotModified.toInt, ri, _) =&gt; Some(cache_heds(ri, NotModified))
+      case (NotFound.toInt, _, _) =&gt; None 
+}</code></pre>
+
+<p>A Slinky app can pattern-match incoming requests against anything, which should be flexible enough hm? <code>DbId</code> is an object with an <code>unapply</code> function that attempts to pull the database name and document id from the requested path, also converts underscores to spaces in the id. The <code>couched</code> value is set to a Databinder Dispatch request wrapper, in some (ugly&#8212;pls fix) code that passes along any <code>IfNoneMatch</code> header. CouchDB apparently does everything with ETags, which is annoying because they&#8217;re not as <a href='https://issues.apache.org/bugzilla/show_bug.cgi?id=39727'>well supported</a> or easy to use as Last-Modified, but they&#8217;ll have to do.</p>
+
+<p>Then <code>couched(id)</code> executes the <code>GET</code> and passes the response code and some HttpClient stuffs to our pattern matching function. When CouchDB replies <code>OK</code> and it was the stylesheet, we pull that from the <abbr>JSON</abbr> with some Databinder Dispatch code and send it out the wire. If it&#8217;s any other document it is passed through <code>md2html</code> (which calls Showdown) and then passed to a <code>doc</code> function which just piles some <abbr>HTML</abbr> around it in an uninteresting way. If the request had an ETag we may get <code>NotModified</code> back from Couch, in which case that is passed along, or <code>None</code> if it was <code>NotFound</code>.</p>
+
+<p>In the end it&#8217;s just a regular web page and nobody knows you are a crazy person for serving it this way, unless you write about it on a blog. Because it speaks in cache headers, the speed of fetching the document and transforming it is practically irrelevant; <a href='http://simple-build-tool.googlecode.com/svn/artifacts/0.3.5/api/sbt/BasicScalaProject.html#mainClass'>shove it behind <code>mod_cache</code></a> and it may as well be a static html file.</p>
+
+<h3 id='so_why_not_just_use_html_files_fool'>So why not just use <abbr>HTML</abbr> files, fool?</h3>
+
+<p>No kidding, this is pretty silly so far! Who cares if you can serve pages like this if they are still a pain to edit. But what if they are a joy to edit?</p>
+
+<h4 id='edit_the_friday_site'><a href='http://technically.us/friday/About?edit'>Edit the Friday site</a></h4>
+
+<p>(Click on the ship to blast off to editing space. <em class='smcp'>Do it</em>.)</p>
+
+<p class='break'> How does that work? Basicamente it&#8217;s the same page as before but it inserts the <abbr>JSON</abbr> straight from Couch (view the marked-down source) and the client does the transformation with Showdown and <strong>JQuery</strong>&#8212;which is the last element of the Sling toolchain, unmentioned until now so as not to <a href='http://www.hulu.com/watch/39816/saturday-night-live-engagement-surprise'>spoil the surprise</a>. JQuery powers the fancy trip to editing space, keeps the content in sync with the textbox, and finally puts the changes back on CouchDB <a href='http://technically.us/git?p=sling.git;a=blob;f=src/main/webapp/js/edit.js;hb=HEAD'>as directed by <code>edit.js</code></a>:</p>
+
+<pre><code>$(function() {
+  $(&#39;#body&#39;).val(doc.body);
+  $(&#39;#body-preview&#39;).html(makeHtml(doc.body));
+  $(&#39;#body&#39;).keyup(function() {
+    $(&#39;#body-preview&#39;).html(makeHtml($(this).val()));
+  });
+  $(&#39;#shade&#39;).click(function() {
+    if ($(&#39;#edit&#39;).is(&#39;:hidden&#39;)) {
+      $(&#39;#edit, #fixed&#39;).slideDown(function() {
+        $(&#39;#shade&#39;).attr(&#39;src&#39;, &#39;/css/ship-left.gif&#39;);
+      });
+    }
+    else {
+      $(&#39;#edit, #fixed&#39;).slideUp(function() {
+        $(&#39;#shade&#39;).attr(&#39;src&#39;, &#39;/css/ship-up.gif&#39;);
+      });
+    }
+  });
+  $(&#39;#form&#39;).submit(function() {
+    doc.body = $(&#39;#body&#39;).val();
+    $.ajax( {
+      type: &#39;PUT&#39;,
+      url: doc_url,
+      dataType: &#39;json&#39;, 
+      data: JSON.stringify(doc),
+      error: function(XMLHttpRequest, textStatus, errorThrown) {
+        alert(&#39;Save failed: &#39; + textStatus);
+      },
+      complete: function(req) {
+        doc._rev = $.httpData(req, &#39;json&#39;).rev;
+      }
+    } );
+    $(&#39;#shade&#39;).click();
+    return false;
+  } );
+});</code></pre>
+
+<p>Anyone can view the edit page, so someone could type in something bad, preview the hilarious results, and save it for all the world to enjoy right? Ha ha no in the <a href='http://technically.us/git?p=sling.git;a=blob;f=src/main/apache/live.conf;hb=HEAD'>live server config</a> <code>/couch</code> is protected:</p>
+
+<pre><code>ProxyPass /{database} ajp://localhost:{sling-port}/{database}
+&lt;Location /couch/&gt;
+  AuthName &quot;{domain name}&quot;
+  AuthUserFile /etc/apache2/htpass
+  AuthType Digest
+  Require valid-user
+&lt;/Location&gt;
+ProxyPass /couch/ http://127.0.0.1:5984/
+ProxyPass /script/ http://127.0.0.1:5984/_utils/script/</code></pre>
+
+<p>When JQuery tries to <code>PUT</code> the browser will ask for a name and password. Sorry. But at least you got to play on the edit page! If handled entirely on the client, with JavaScript fetching the <abbr>JSON</abbr> instead of it being served inline, the authentication rules would have to be a little more precise to allow unauthorized play. But the code was already written to pull the doc on the server side so why not.</p>
+
+<h3 id='static_shock'>Static shock</h3>
+
+<p>This application doesn&#8217;t do anything amazing with <abbr>JVM</abbr> libraries so why isn&#8217;t it written for Couch&#8217;s <code>_external</code>, in JavaScript? It certainly could have been. If JavaScript is your favorite language that is the way to go. But a lot of people prefer other languages, even languages that can be statically compiled.</p>
+
+<p>Build scripts are one area where everyone seems resigned to dynamic interpretation. From <code>makefiles</code> to Ant&#8217;s <code>build.xml</code>, builders work off instructions they don&#8217;t check out very much until actually trying to execute them. Non-experts don&#8217;t know for sure if they&#8217;ve coded something the right way until they see some clean builds and a couple kinds of partial builds.</p>
+
+<p>But now there is a tool for programmatically defining a project build in Scala, called <strong><a href='http://code.google.com/p/simple-build-tool/'>sbt</a></strong> for &#8220;simple build tool.&#8221; Sling is <a href='http://technically.us/git?p=sling.git;a=blob;f=project/build/src/SlingProject.scala;h=fe54591262ccde492b9ec61180034341d12e5435;hb=HEAD'>built by sbt</a>. It&#8217;s a pretty demanding build, jumping through <a href='../how-to-buildr-showdownjs-into-java/index.html'>these hoops</a> and more, but sbt handles it with aplomb. (It&#8217;s also fast, which deserves a post of its own.)</p>
+
+<p>You guys aren&#8217;t even ready for how much easier sbt is than dynamic build tools. It&#8217;s not so much that your build definition is type-checked, but that the structure forces the <abbr>API</abbr> itself to be explicit. Rather than having entrypoints that accept any key-value pair you want to pass it (which may result in something, nothing, or fail), sbt has to declare exactly what it can handle. This leads to many entrypoints and&#8212;so it feels to <em>Coderspiel</em>&#8212;shockingly better usability. If you&#8217;re wondering how to specify a main class for the <code>run</code> action, when you come across <a href='http://simple-build-tool.googlecode.com/svn/artifacts/0.3.5/api/sbt/BasicScalaProject.html#mainClass'><code>def mainClass</code></a> the mystery is over. It&#8217;s the only and best way to do it. Using overridable methods for configuration, paired with Scala&#8217;s mandatory <code>override</code> keyword, is foolproof.</p>
+
+<p>That is to say, applied type theory seems to be finally coming into its own; this is no time to throw down our type declarations and surrender to JavaScript everywhere.</p>
+
+<p class='break'> By the way the <em>n + 1</em> sign of the apocalypse is Sun getting its client-side <abbr>JVM</abbr> act together, so, no worries there.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='../../../resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id2697">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-6056"><p>Just to be clear, the greatness of the Pré is not that it runs things written in HTML, CSS and JavaScript. It&#8217;s the interface. If Apple just up and up stole the card switcher, notification area, gestures and multiple-cards-per-app possibility for Cocoa Touch, they&#8217;d be winning again because you could write better UIs in it.</p>
+
+<p>Pré&#8217;s not good <em>because</em> you can write everything in HTML, CSS and JavaScript. It&#8217;s good <em>despite</em> writing everything in HTML, CSS and JavaScript, because it heavily scopes the meaning of &#8220;everything&#8221;. No useful 3D, no native (or native-like) code. Doing Rolando might be possible at about 7 fps with some serious canvas element chops, but Super Monkey Ball or Crayon Physics? No.</p>
+
+<p>Also, the email address validator in this form apparently isn&#8217;t validating email addresses, because I&#8217;ve got one and it&#8217;s got a &#8217;+&#8217; in it and it&#8217;s not accepted.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://waffle.wootest.net/"><span class="alias">Jesper</span></a>
+  				<span>on January 20, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6057"><p>Sure, whatever. This is a postmodernist weblog.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on January 20, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6058"><p>Heh, I worked on something similar with XForms and eXist.</p>
+
+<p>A couple of days ago you had a non sequitur of &#8220;damn you FCKEditor&#8221; &#8230; I totally feel your pain :)</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://dustinwhitney.blogspot.com"><span class="alias">Dustin Whitney</span></a>
+  				<span>on January 20, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6059"><p>Oh, but the eventual defeat of wysinwyg web editors has everything to do with showdown.js!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on January 20, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6060"><p>oh&#8230; uh&#8230; I didn&#8217;t bother to read the entry :) Yes that would have been useful to me 3 years ago.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://dustinwhitney.blogspot.com"><span class="alias">Dustin Whitney</span></a>
+  				<span>on January 20, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6069"><p>Probably not 100% accurate or complete, but as an appendix:</p>
+
+<p>36 lines of javascript 32 lines of configuration 62 lines of Scala (build) 168 lines of Scala (main) 30 lines of css 13 dependencies (jars)</p>
+
+<p>key-value pairs? Like -Dexec.mainClass=net.databinder.sling.Server?</p>
+
+<p>Anyway, thanks for the mention! I&#8217;m glad you found sbt suitable for your purposes.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mark Harrah</span></span>
+  				<span>on January 26, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6070"><p>Key value pairs, like</p>
+
+<pre><code>:java_args =&gt; [&#39;net.databinder.sling.Server&#39;]</code></pre>
+
+<p>Do you think this application is too&#8230; complicated?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on January 27, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6071"><p>Ah, a buildr thing. You&#8217;re right. I agree!</p>
+
+<p>It was intended to be a positive comment; I like to see neat things done with a small amount of code and reusing a lot of work done by others.</p>
+
+<p>Perhaps neat is relative, but each technology was new to me. (I&#8217;m not a web developer, although I put together toy webapps occasionally.) My point was that I think you got a lot out of your lines of code. Well-leveraged.</p>
+
+<p>Oh, and yes, the rocket ship was cool.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mark Harrah</span></span>
+  				<span>on January 27, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6072"><p>Thanks very much! I would like to get some of those numbers down, still. App.scala has room for improvement, in l.o.c. and clarity. And dependency wise, HttpClient brings in a number of jars, it being so aggressively modularized. This app could get by with a plain URLConnection, but my own HTTP wrapper uses HttpClient for its more advanced features (digest authentication) in other apps. And, eventually, I expect CouchDB will support digest auth as well. So, maybe 13 jars is the magic number.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on January 27, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6109"><p>This quote is Old News: &#8220;Notable exceptions include the ability to render dynamic text that isn’t JSON, or return results that require multiple queries against CouchDB.&#8221;</p>
+
+<p>It was true at the time, but now there are integrated functional approaches for rendering views and documents via any language supported by a design document.</p>
+
+<p>My site http://jchrisa.net is just a CouchDB proxied to port 80. Works halfway decent even with JS turned off.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://jchrisa.net"><span class="alias">J Chris Anderson</span></a>
+  				<span>on February 13, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6110"><p>Three Months Old, yes, but it was the only prose I could find on the subject! At 25 Days Old, even this post is no spring chicken. But if you write about these new integrated functional approaches, I&#8217;ll try to link to them while they are still New News.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on February 13, 2009</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id2698">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id2699" action="../../../index.html" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id2699_hf_0" id="id2699_hf_0" /><input type="hidden" name="wicket:interface" value=":1399:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id269a" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id269b" name="add" value="Add a comment" onclick="wicketShow('id269b--ajax-indicator');var wcall=wicketSubmitFormById('id2699', '../../../?wicket:interface=:1399:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id269b--ajax-indicator');}.bind(this),function() { ;wicketHide('id269b--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id2699')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id269b--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

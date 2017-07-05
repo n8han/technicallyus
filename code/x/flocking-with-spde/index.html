@@ -1,0 +1,360 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="../../../blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="../../../blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet.css"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Flocking with Spde</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code.html">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code.html">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id259c" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Flocking with Spde" width="305" class="title" src="../../../resources/net.databinder.components.RenderedLabel/ff1a126e"/><span class="title">Flocking with Spde</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on September 15, 2008</span></span>
+			<span id="id259d" class="tags">
+					{&nbsp;<span><a href="../../tag/spde/index.html#selected-tag"><span>spde</span></a><span id="id259e">, </span></span><span><a href="../../tag/processing/index.html#selected-tag"><span>processing</span></a><span id="id259f">, </span></span><span><a href="../../tag/git/index.html#selected-tag"><span>git</span></a><span id="id25a0">, </span></span><span><a href="../../tag/scala/index.html#selected-tag"><span>scala</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p><a href='../runaway-processing/index.html'>Last month</a> (how time flies) we were talking about how fun it was to write code for the graphical <a href='http://processing.org/'>Processing</a> library using Scala <em>inside</em> the Processing Development Environment. Well look, it has gotten even more fun!</p>
+<!--[if !IE]> --><object classid='java:Flockingspiel.class' type='application/x-java-applet' archive='http://technically.us/pictures/Flockingspiel.jpgz' width='455' height='300' standby='Loading Processing software...'>
+
+<param name='archive' value='http://technically.us/pictures/Flockingspiel.jpgz' />
+
+<param name='mayscript' value='true' />
+<param name='scriptable' value='true' />
+
+<param name='image' value='loading.gif' />
+<param name='boxmessage' value='Loading Processing software...' />
+<param name='boxbgcolor' value='#E8FFCF' />
+
+<param name='test_string' value='outer' />
+<!--<![endif]-->
+
+<object classid='clsid:8AD9C840-044E-11D1-B3E9-00805F499D93' codebase='http://java.sun.com/update/1.5.0/jinstall-1_5_0_15-windows-i586.cab' width='455' height='300' standby='Loading Processing software...'>
+
+<param name='code' value='Flockingspiel' />
+<param name='archive' value='http://technically.us/pictures/Flockingspiel.jpgz' />
+
+<param name='mayscript' value='true' />
+<param name='scriptable' value='true' />
+
+<param name='image' value='loading.gif' />
+<param name='boxmessage' value='Loading Processing software...' />
+<param name='boxbgcolor' value='#E8FFCF' />
+
+<param name='test_string' value='inner' />
+
+<p>
+<strong>
+This browser does not have a Java Plug-in.
+<br />
+<a href='http://java.sun.com/javase/downloads/index.jsp' title='Download Java Plug-in'>
+Get the latest Java Plug-in here.
+</a>
+</strong>
+</p>
+
+</object>
+
+<!--[if !IE]> -->
+</object><!--<![endif]-->
+<p class='liner'>Thanks to a <a href='index.html#item-5736'>tip</a> in the comments, the applet has been reduced to a disturbing 19,992 <em>bytes</em> with <a href='http://java.sun.com/j2se/1.5.0/docs/tooldocs/share/pack200.html'>Pack200</a> compression.</p>
+
+<p class='break'> This applet weighs in at 56 KB, smaller than a lot of JavaScript libraries and even some big boring old jpegs. The secret of its slimness is the <a href='http://proguard.sourceforge.net/'>ProGuard</a> class optimizer which the Scala fork of the Processing environment, <a href='http://technically.us/spde/'>Spde</a>, invokes as a final step in exporting an applet.</p>
+
+<p>The <a href='http://technically.us/git?p=spde.git;a=blob;f=examples/src/main/resources/examples/Topics/Simulate/Flocking/Flocking.pde;h=9361e5c31a62a0bf94a66d9def9ee7e34587ab40;hb=HEAD'>code itself</a> is a fairly straight translation of Daniel Shiffman&#8217;s <a href='http://processing.org/learning/topics/flocking.html'>Flocking example</a> for Processing. (It has been formatted to fit this screen.) If you haven&#8217;t tried clicking, please click now. Every click creates a new bird—it&#8217;s a fun little simulation!</p>
+
+<h3 id='learning_processing'>Learning Processing</h3>
+
+<p>Shiffman recently wrote a <a href='http://www.learningprocessing.com/'>book</a> about Processing that seems to be selling rather well—Amazon can&#8217;t decide if it&#8217;s <a href='http://www.shiffman.net/2008/08/28/learning-processing-available-now/'>in stock or out</a>. <em>Learning Processing</em> begins with a very appealing description of itself:</p>
+
+<blockquote>
+<p>This book tells a story. It’s a story of liberation, of taking the first steps towards understanding the foundations of computing, writing your own code, and creating your own media without the bonds of existing software tools. This story is not reserved for computer scientists and engineers. This story is for you.</p>
+</blockquote>
+
+<p>Yayyy. That is what this weblog is all about (and also, hello, why Apple&#8217;s Cocoa Touch <abbr>DRM</abbr> has been a disgusting idea from the beginning). The next section goes on to say that the book may not be for you if you&#8217;re already a programmer. (Too late!) It <em>does</em> start off at the very basics of writing software, but that&#8217;s fine because some of us are interested in how people teach and learn that stuff anyway.</p>
+
+<p>There&#8217;s also a funny section that could only have been prompted by annoying undergraduates demanding why they should learn something that they heard was based on the tragically unhip language of Java. Shiffman delivers a spirited overview of the programming language trendscape, the fact that no language is perfect, that there is no competition for the PDE, and that Processing just plain gets the job done. Finally:</p>
+
+<blockquote>
+<p>I would suggest that you stop worrying about what it is you should be using and focus on learning the fundamentals with Processing. That knowledge will take you above and beyond this book to any language you want to tackle.</p>
+</blockquote>
+
+<p>Excellent advice for this year&#8217;s class! But maybe not for 2010&#8217;s.</p>
+
+<h3 id='the_fundamentals_of_programming'>The fundamentals of programming</h3>
+
+<p>All of us almost certainly learned our programming skills in a similar order: statements, variables, conditionals, loops, then procedures. We learned procedural programming and internalized it to the point that now, when solving a software problem, our minds immediately start declaring variables and acting on them in loops. Sorry guys, but—<em class='smcp'>this is not normal human behavior</em>. Variable declaration and loops are noise that turns most well-balanced people away from programming.</p>
+
+<p>Once you start programming functionally (snobbism alert), you stop turning problems into variables and loops and start getting really beefed at languages like Java that give you no other choice (or the functional option is verbose and sticks out like a bauble). Here is a parallel idea in a <a href='http://www-cs-students.stanford.edu/~blynn/gitmagic/ch04.html#id2546423'>completely different technology</a>:</p>
+
+<blockquote>
+<p>The equivalent of branching and cloning in centralized version control systems, when it exists, requires network communication. … these operations will be slower to some degree, usually to the point where users won&#8217;t bother using them unless absolutely necessary. … I experienced these phenomena first-hand. Git was the first version control system I used, and I grew accustomed to it, taking many features for granted. I did not know what centralized systems were like, and assumed they were similar. Later, I was forced to use one&#8230;</p>
+</blockquote>
+
+<p>Just having a feature is not good enough: it has to be convenient. And also, isn&#8217;t it trippy to think about someone learning Git first, then struggling with Subversion or whatever, while the rest of us are struggling up a steep learning curve in the opposite direction (uphill both ways) to learn Git? Don&#8217;t you wish <em>you</em> had learned Git first?</p>
+
+<p>So here is the theory: if you teach people functional programming first, not only will they learn a better form of programming, but they&#8217;ll learn it more readily. Human brains are not composed of registers and logic units. And even though we aren&#8217;t all mathletes, the concept of the function was developed by humans, for humans, long before anybody thought about updating variables in instruction loops that repeat thousands of times—an idea that is almost oppressively mechanical in the abstract.</p>
+
+<h3 id='functional_programming_is_more_humane'>Functional programming is more humane</h3>
+
+<p>From the original Flocking example, a method of the <code>Boid</code> class:</p>
+
+<pre><code>// Separation
+// Method checks for nearby boids and steers away
+Vector3D separate (ArrayList boids) {
+  float desiredseparation = 25.0f;
+  Vector3D sum = new Vector3D(0,0,0);
+  int count = 0;
+  // For every boid in the system, check if it&#39;s too close
+  for (int i = 0 ; i &lt; boids.size(); i++) {
+    Boid other = (Boid) boids.get(i);
+    float d = loc.distance(loc,other.loc);
+    // If the distance is greater than 0 and less than an arbitrary amount
+    // (0 when you are yourself)
+    if ((d &gt; 0) &amp;&amp; (d &lt; desiredseparation)) {
+      // Calculate vector pointing away from neighbor
+      Vector3D diff = loc.sub(loc,other.loc);
+      diff.normalize();
+      diff.div(d);        // Weight by distance
+      sum.add(diff);
+      count++;            // Keep track of how many
+    }
+  }
+  // Average -- divide by how many
+  if (count &gt; 0) {
+    sum.div((float)count);
+  }
+  return sum;
+}</code></pre>
+
+<p>It&#8217;s no coincidence that the method we use to understand procedural code (aside from reading the comments and just pretending to understand it) is to become, temporarily, a very slow and crappy computer. Step through it and make a table of the value of variables in succeeding statements and iterate—gruellingly—multiple times through any loop until it is clear how the machine will interpret the instructions.</p>
+
+<p>Once you see what&#8217;s going on in this <code>separate</code> function, it&#8217;s possible to translate it into a very opaque, single expression in Scala. But keeping MacIver&#8217;s recent post in mind, <a href='http://www.drmaciver.com/2008/08/functional-code-not-equal-good-code/'>the one with title crafted to trick the logically lazy</a>, let&#8217;s break things into a few smaller blocks:</p>
+
+<pre><code>// is the other bird within a certain distance
+def within(dist: Float) = { other: Boid =&gt;
+  val d = loc distance other.loc
+  d &gt; 0 &amp;&amp; d &lt; dist
+}
+
+// Sum, and divide by size
+def avg(l: List[Vector]) = (l :\ new Vector)(_ + _) / (l.size max 1)</code></pre>
+
+<p>You can work through those if you know the wacky Scala gang signs. If not, they&#8217;re fun to learn. Note that Scala allows our version of <code>Vector</code> (defined elsewhere) to use symbols for its arithmetic. Using these blocks, it&#8217;s easy to write a <code>separate</code> that, honestly, returns the same results as the one above:</p>
+
+<pre><code>// Separation
+// Method checks for nearby boids and steers away
+def separate (boids: List[Boid]) = 
+  avg(boids.filter(within(25.0)).map { other =&gt;
+    (loc - other.loc).normalized / (loc distance other.loc)
+  })</code></pre>
+
+<p>Nice? But here&#8217;s the kicker. In Flocking there are two other functions that do similar things. In the original, quite reasonably, the loop and conditional structures are entirely repeated for each one. (Check <a href='http://processing.org/learning/topics/flocking.html'>the source</a> if you want to see them.) Why not factor out some logic? Because that&#8217;s a pain and probably wouldn&#8217;t save any lines of code. Which isn&#8217;t meant to be a criticism of the original, at all. It&#8217;s good procedural code written for easy student digestion. And let&#8217;s face it: if you work in Java, you know you are always writing loops that do similar things as other loops because it&#8217;s just easier that way. But what if it were easier to do it the right way?</p>
+
+<pre><code>// Alignment
+// For every nearby boid in the system, calculate the average velocity
+def align (boids: List[Boid]) = avg(boids.filter(within(50.0)).map(_.vel)) max maxforce
+
+// Cohesion
+// For the average location (i.e. center) of all nearby boids, 
+// calculate steering vector towards that location
+def cohesion (boids: List[Boid]) = boids.filter(within(50.0)) match {
+  case Nil =&gt; new Vector
+  case nearby =&gt; steer(avg(nearby.map(_.loc)), false)
+}</code></pre>
+
+<p>Gosh, extracting <code>within</code> and <code>avg</code> for the first function sure paid some dividends in the second two! It&#8217;s times like these when the excitement surrounding functional programming seems muted, if anything. You might have thought, with graphical programming being all about arrays and loops, that translating some of it into Scala would mean fewer semi-colons and not much else. But then something awesome like this happens.</p>
+
+<p>If you wanted to learn functional programming, say, in your spare time, there can&#8217;t be a more fun way to do it than with interactive graphical programming. So just merge <a href='http://www.learningprocessing.com/'>this book</a> and <a href='http://www.artima.com/shop/programming_in_scala'>that book</a> (Git, a little help?) and off you go. And if someone did write a book on functional graphical programming for absolute beginners, how totally sweet would that be for the next generation of programmers? Maybe they could even be <a href='../the-nerd-factor-is-huge/index.html'>less exclusively male</a>? (Oops, hobbyhorse.)</p>
+
+<h3 id='what_the_flock'>What the flock</h3>
+
+<p>Sorry, this post isn&#8217;t going to cover drawing the birds and the program setup business. You&#8217;ll have to study the full example sources for that, and to play with this Scala version, you&#8217;ll need Spde. The good news is that with the right software it&#8217;s easy to run. Um, how large is the intersection of the installed bases of <a href='http://incubator.apache.org/buildr/'>Buildr</a>, <a href='http://www.scala-lang.org/'>Scala</a>, and <a href='http://git.or.cz/'>Git</a>? Anyone out there? Just type this in:</p>
+
+<p class='liner'> Or you can just download the <a href='../../../spde/Download.html'>application package</a>.</p>
+
+<pre><code>git clone git://technically.us/git/spde</code></pre>
+
+<p>Tic tic tic (the repository is now fun sized). Then:</p>
+
+<pre><code>cd spde
+buildr run</code></pre>
+
+<p>And Flocking will be under the Examples menu! It is not hard to find because there are only three examples.</p>
+
+<p class='break'>Fly fly away, birdies.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='../../../resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id25a1">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-5733"><p>Awesome post! Am really excited to see the Flocking example repurposed in this way! And thanks for the mention of the book too.</p>
+
+<p>Going to have to try out this scala fork myself&#8230;</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.learningprocessing.com"><span class="alias">Daniel Shiffman</span></a>
+  				<span>on September 15, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5735"><p>Most impressive! The applet starts almost instantly on Java 6uN. Well, not <em>instantly</em>, but a lot faster than any similar flash or Silverlight I&#8217;ve ever seen. The only downside is Google Reader seems to choke on it&#8230;</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.codecommit.com/blog"><span class="alias">Daniel Spiewak</span></a>
+  				<span>on September 15, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5736"><p>If you pack200 the example, it drops from the svelte 56k down to a near anorexic 19. If you&#8217;re willing to require Java 5 or greater, the Java plugin will happily use pack200&#8217;d code as long as your web server tacks on the right ContentType and Encoding.</p>
+
+<pre><code>AddEncoding pack200-gzip .jpgz
+AddType application/x-java-archive .jpgz</code></pre>
+
+<p>does it for Apache.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Charlie Groves</span></span>
+  				<span>on September 15, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5737"><p>omg</p>
+
+<p>Processing already requires Java 5 so I&#8217;ll do that!</p>
+
+<p>Daniel1: you sure found this post quickly! Please <a href='mailto:nathan@technically.us'>write me</a> if you have any trouble getting Spde running. Or there is <a href='http://processing.org/discourse/yabb_beta/YaBB.cgi?board=implementations;action=display;num=1219975973'>a thread I started in Discourse</a>.</p>
+
+<p>Daniel2: Starts faster than Flash? Cooool. I tested on XP and it did seem to run even better there than in Safari or FF Mac.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on September 15, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5738"><p>There&#8217;s a Haskell book, &#8220;The Haskell School of Expression: Learning Functional Programming through Multimedia&#8221;, that practices what you preach:</p>
+
+<p>&#8221;<span>&#8230;</span> the author uses examples drawn from multimedia applications, including graphics, animation, and computer music, <span>&#8230;</span>&#8221;</p>
+
+<p>But it&#8217;s a Haskell book. Processing &amp; Scala is a nicer mix if you ask me and your book combo is a perfect fit.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://machinelake.com"><span class="alias">gavin</span></a>
+  				<span>on September 15, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5742"><p><a href='http://books.google.com/books?id=lQbth9j5j9oC&amp;printsec=frontcover&amp;source=gbs_summary_r&amp;cad=0'>Awesome cover</a>! It does sound like the same idea, but yeah Processing is where the art and design action is.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on September 15, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5748"><p>Hey, it has killed my ubuntu !</p>
+
+<p>Otherwise, looks good and&#8230; thanks as usual for your posts !</p>
+
+<p>++ joseph</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Joseph</span></span>
+  				<span>on September 17, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5749"><p><a href='http://technically.us/code/archive/2008/9/#item-5743'>I know</a>! As a past and future Ubuntu user (actually right now I&#8217;m installing it on a VirtualBox to see this carnage for myself), and also knowing that a decent percentage of this weblog&#8217;s readers use Ubuntu, I feel kinda bad. BUT, it is just ridiculous that this bug got through. Come on guys. We finally have applets running great on Windows, well enough on Mac, and then <em>after</em> Sun partners with Ubuntu we have the whole OS going down because of a 20K applet? I&#8217;m not going to settle for that. The applet stays!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on September 17, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5766"><p>i was just thinking about my own scala/p5 fork&#8230; and you did it, tops dude! =)</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.marcuswendt.com"><span class="alias">Marcus Wendt</span></a>
+  				<span>on September 22, 2008</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id25a2">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id25a3" action="../../../index.html" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id25a3_hf_0" id="id25a3_hf_0" /><input type="hidden" name="wicket:interface" value=":1372:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id25a4" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id25a5" name="add" value="Add a comment" onclick="wicketShow('id25a5--ajax-indicator');var wcall=wicketSubmitFormById('id25a3', '../../../?wicket:interface=:1372:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id25a5--ajax-indicator');}.bind(this),function() { ;wicketHide('id25a5--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id25a3')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id25a5--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

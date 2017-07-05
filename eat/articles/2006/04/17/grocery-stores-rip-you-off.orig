@@ -1,0 +1,170 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Grocery stores rip you off</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../eat">
+			
+			<img alt="Eat" src="../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../eat">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id140e" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Grocery stores rip you off" width="395" class="title" src="../../resources/net.databinder.components.RenderedLabel/3df7d43d"/><span class="title">Grocery stores rip you off</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on April 17, 2006</span></span>
+			<span id="id140f" class="tags">
+					{&nbsp;<span><a href="../../eat/tag/grocery/#selected-tag"><span>grocery</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>This is a public service announcement for New Yorkers, although it probably applies to everyone else everywhere in the world as well. Grocery stores in this city have a big problem with charging prices that are higher (very rarely lower) than the ones marked in the aisles. This is against the law, and in certain states there are <a href="http://www.sloda.com/Economic_Crime/consumer_protection/albertson.htm">serious fines</a> for overcharging. According to an <a href="http://www.nytimes.com/2006/01/28/business/28overcharge.html?ei=5090&#38;en=c5ebc6260c7cd42a&#38;ex=1296104400&#38;partner=rssuserland&#38;emc=rss&#38;pagewanted=all">article</a> in the New York Times, consumers lose more than $1 billion every year because of errors in the checkout line.</p>
+
+
+	<p>It&#8217;s important to know what something is supposed to cost when you get to the register. Today, for example, I bought a two-pound bag of onions at Gristede&#8217;s. A giant sign on the basket of onions said $1.49, but they rang up as $1.69. After I verified that I was correct, I alerted the cashier. She had no idea what to do, and she used the defense that &#8220;it rang up $1.69.&#8221; I told her I didn&#8217;t care, and that I wasn&#8217;t bothered by the twenty cents. I was bothered by the false advertising. She had to get a manager.</p>
+
+
+	<p>This happens almost every time I go to Gristedes or d&#8217;Agostino, and I always make sure I get the correct price. I may seem too thrifty, but New York is expensive enough as it is. I don&#8217;t need some crappy grocery store stealing twenty cents from me every time I buy a few onions. Sometimes I think, forget it, I won&#8217;t bother. But then I remember that everyone else who buys those onions will lose twenty cents, and by the end of the day Gristede&#8217;s will have stolen several dollars from hard-working people.</p>
+
+
+	<p>To make matters worse, sometimes they don&#8217;t have a price on something at all. I&#8217;ve been to known to leave a carton of milk at the register if I&#8217;m offended by the price. In fact, there always seems to be a pile of random groceries near the registers in these lowbrow stores; this pile is no doubt made up of items rejected by savvy consumers.</p>
+
+
+	<p>If you know that you&#8217;re being overcharged in a grocery store, a bar, or a restaurant, you have to bring it to the store&#8217;s attention. It&#8217;s probably an accident in most cases, although I think Gristedes does it on purpose considering how frequently it happens in that establishment. We can&#8217;t let people get away with ripping us off. Think of your fellow citizens!</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1410">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-1868"><p>I don&#8217;t think Gristedes puts price stickers on any items (the ones by me don&#8217;t).  If the item or shelf label is not where it should be, you have no idea what something costs.  I&#8217;ve definitely left a few things at Gristedes registers when I saw the price- most memorably the $17 bottle of Sam Adams chocolate stout.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://velvet-sea.blogspot.com"><span class="alias">JMoney</span></a>
+  				<span>on April 17, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1869"><p>$17! Typical. Just think of the old people shopping in there who have no idea.</p>
+<p>The Gristedes downtown have stickers on about half their items, I&#8217;d say.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on April 17, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1870"><p>It isn&#8217;t the prices (although finding out I overpaid for something when I get home drives me wild, even if it&#8217;s just a few cents) in Pittsburgh grocery stores that bothers me so much, it&#8217;s the service. I won&#8217;t shop at the Giant Eagle, which is pretty much our &#8216;company store&#8217;, since it has the lion&#8217;s share of the market, for that reason.<br />
+I have been patronizing a Shop &amp; Save which opened near my house and been pretty happy with it, just for the basics and necessities, and going to WF and MacGinnis Sisters for meat and luxuries, as well as our city farmer&#8217;s markets in the summer for produce, but recently the staff at the Shop &amp; Save seems to have been taking lessons from their peers at the Giant Eagle in customer relations. Long lines at too few open registers, exacerbated by the baggers and cashiers carrying on intense conversations in unintelligible dialect and completely ignoring their customers. When I ventured the opinion, the last time I was there, that the bagger didn&#8217;t need to double bag because the bags I had brought were very thick plastic, and strong, he stared at me really insolently, and asked, &#8220;What do you want me to put in which bag?&#8221; and began to bag the groceries deliberately slowly.<br />
+I have spent a lot of money at that store since they opened, but now that an Aldi is opening nearby I&#8217;m thinking I&#8217;ll transfer my allegiance there for the basics.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on April 17, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1871"><p>I&#8217;m sure they count on the fact that most people don&#8217;t bother looking at the prices when they put it in their cart or don&#8217;t remember if they did look.  And when it&#8217;s only 20 cents or so they look at you like you&#8217;re crazy to be making such a big deal out of a few cents!  That really makes me mad.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Aunt Sue</span></span>
+  				<span>on April 17, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1872"><p>Yes, it&#8217;s infuriating. They look at you like you&#8217;re a bum when in fact they should be embarassed and apologetic.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on April 17, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id1411">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id1412" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id1412_hf_0" id="id1412_hf_0" /><input type="hidden" name="wicket:interface" value=":731:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id1413" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id1414" name="add" value="Add a comment" onclick="wicketShow('id1414--ajax-indicator');var wcall=wicketSubmitFormById('id1412', '../../?wicket:interface=:731:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id1414--ajax-indicator');}.bind(this),function() { ;wicketHide('id1414--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id1412')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id1414--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

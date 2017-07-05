@@ -1,0 +1,182 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Boiling vortex eggs with wild salmon caviar</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="iddbb" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Boiling vortex eggs with wild salmon caviar" width="662" class="title" src="../../../resources/net.databinder.components.RenderedLabel/c06e287b"/><span class="title">Boiling vortex eggs with wild salmon caviar</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on January 14, 2006</span></span>
+			<span id="iddbc" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>After a horrendous non-travel experience last night, or travel non-experience, I decided to make eggs with caviar at 1 am to make us feel better about life.</p>
+
+
+	<p style="float:center"><img src="/pictures/caviar.jpg" alt="" /></p>
+
+
+	<p>It worked. Stressful situations like this one always call for something good to eat. We had spent the whole night on edge because of Delta&#8217;s lack of organization. The flight to Atlanta was originally at 9 pm, then it was 9:30, then it was 9:55, then it was 10:30, then 11, then they told us there was no co-pilot and the time went to 12:50 am. Nathan&#8217;s poor parents were up way past their bedtime for nothing. After the first delay, I asked them to put us on the 6 am flight on Saturday, which they would only do for $50 per ticket. They were happy to switch the ticket for free after the final delay, but they would not put us in a hotel or provide a car service. So I demanded a refund, and we went right home and bought tickets on American for a few weeks from now.</p>
+
+
+	<p>Delta sucks. If my mom were there, she would have said to the agent: &#8220;Poor planning on your part does not necessarily constitute a crisis on my part.&#8221;</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="iddbd">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-1376"><p>I&#8217;m sorry you were disappointed, Leelee, although I&#8217;m sorrier for n8&#8217;s poor parents. They probably killed the fatted calf and everything.</p>
+<p>But these vortex eggs fascinate me. Your little brother wonders if you don&#8217;t miss the flavor of cooking them in melted butter. But you definitely don&#8217;t have to worry about salmonella with the egg residue in the strainer. You are correct that the boiling water, not to mention that the heat from the cooked eggs, would cook the raw egg and remove the danger of salmonella unless you were severely immune-compromised. After all, look at recipes for pasta carbonara; they rely on the heat from cooked pasta to cook an entire raw egg to make the sauce and no one blinks an eye. And then there&#8217;s old-fashioned ceasar salad dressing, etc.-Mom</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">beckyleeprice@mac.com</span></span>
+  				<span>on January 14, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1377"><p>Right on! We grew up watching bodybuilders drinking raw eggs on tv. I don&#8217;t seek them out, but they don&#8217;t bother me the way raw chicken does.</p>
+<p>You can always put melted butter on these eggs if you want to, or olive oil, or cheese, or whatever. I think I&#8217;m just a lousy egg scrambler, because I&#8217;m rarely pleased with the result. And the softness of these is luxurious. Calvin has healthy young teeth and probably prefers harder, crispier foods.</p>
+<p>Have you tried it yet? When I made them last night, in a larger quantity, I noticed that it&#8217;s a bit harder to get all the water out, so let them sit in the strainer for a good thirty seconds and press them with a spoon.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on January 14, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1378"><p>In that case you would definitely want to heat the plates since the eggs would already be cooling off. No, I haven&#8217;t tried them yet&#8212;I guess I&#8217;m a bit &#8220;set in my ways.&#8221; har-har! Seriously, folks, I think I need to print the instructions and have someone else in the kitchen reading them out loud while I&#8217;m doing it, at least the first time. I&#8217;m a bit daunted by the physics of it all.</p>
+<p>Mommy</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">beckyleeprice@mac.com</span></span>
+  				<span>on January 14, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1379"><p>Just remember to count to twenty once they&#8217;re in there, and nothing can go wrong. :)</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on January 14, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1380"><p>Hope the 1 a.m. indulgence made you feel better. Now I must try eggs and caviar!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.creampuffsinvenice.ca"><span class="alias">Ivonne</span></a>
+  				<span>on January 14, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1381"><p>So, was the recipe from last week&#8217;s NY Times Magazine? Am intrigued to hear how it turned out for you.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://wednesdaychef.typepad.com"><span class="alias">Luisa</span></a>
+  				<span>on January 14, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1382"><p>Yes! I detailed my love for this recipe a few days ago in a post called &#8220;Boiling vortex eggs.&#8221; Not with the caviar, etc., but just the eggs themselves. Have you tried it yet?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on January 14, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="iddbe">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="iddbf" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="iddbf_hf_0" id="iddbf_hf_0" /><input type="hidden" name="wicket:interface" value=":501:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="iddc0" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="iddc1" name="add" value="Add a comment" onclick="wicketShow('iddc1--ajax-indicator');var wcall=wicketSubmitFormById('iddbf', '../../../?wicket:interface=:501:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('iddc1--ajax-indicator');}.bind(this),function() { ;wicketHide('iddc1--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('iddbf')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="iddc1--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

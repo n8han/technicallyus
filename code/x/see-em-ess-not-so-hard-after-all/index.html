@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="../../../blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="../../../blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet.css"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / See, Em -- ess not so hard after all</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code.html">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code.html">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id2381" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="See, Em -- ess not so hard after all" width="561" class="title" src="../../../resources/net.databinder.components.RenderedLabel/df4c9d72"/><span class="title">See, Em -- ess not so hard after all</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on December 11, 2006</span></span>
+			<span id="id2382" class="tags">
+					{&nbsp;<span><a href="../../tag/databinder/index.html#selected-tag"><span>databinder</span></a><span id="id2383">, </span></span><span><a href="../../tag/web/index.html#selected-tag"><span>web</span></a><span id="id2384">, </span></span><span><a href="../../tag/wicket/index.html#selected-tag"><span>wicket</span></a><span id="id2385">, </span></span><span><a href="../../tag/publishing/index.html#selected-tag"><span>publishing</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p><acronym title="Content Management System">CMS</acronym> is a rather awkward abbreviation for a technology that is both simple and important: the means to <em>publish</em> online. I’ve heard of some people’s efforts at writing a generic <acronym title="">CMS</acronym> for Wicket, and while I’m curious what they’ll come up with and applaud anyone’s work towards the common Wicket good, I can’t say I’ve felt the lack of such a beast myself.</p>
+
+
+	<p style="float:right"><img src="../../../pictures/portal.jpg" alt="" /></p>
+
+
+	<h3>A portal to hell</h3>
+
+
+	<p>The ongoing enthusiasm for “content management” software reminds me a popular idea in the mid-90s, that Visual Basic was going to eliminate the need for expensive and smelly programmers. Trade magazines suggested that somehow non-programmers could draw crap on the screen and it would fill itself with magically delicious data. It never  happened, unfortunately for everyone’s olfactory nerves.</p>
+
+
+	<p>And on the Internet, I’ve noticed that no one wants to visit crappy “portal” sites built from a bunch of crappy pre-fab blocks. No one cares about “news flashes” or “callouts.” And they certainly don’t go for unfashionable site design, a consequence of layouts and module structures assembled months or years prior to <acronym title="">CMS</acronym> deployment.</p>
+
+
+	<p>Your best toolkit for publishing something that people besides the marketing department will want to read is not a set of big blocks, but a set of small ones. You need a solid <acronym title="">HTML</acronym>-only templating  system, like Wicket’s. And you need easy access to persistent storage (ahem).</p>
+
+
+	<p>Consider the Databinder <a href="http://databinder.net/site/show/recipe-book">recipe book example</a>. It does exactly what it needs to do, with no compromises in its user interface or database schema. Building it in a generic <acronym title="">CMS</acronym> would have taken just as long, introduced a bunch of clumsy bells and whistles, and ultimately produced a cookbook shoehorned into a marketing portal.</p>
+
+
+	<h3>The non-<abbr>CMS</abbr></h3>
+
+
+	<p>Once you have the precision tools you need, it’s very easy to throw together a content-only site that looks and works exactly as it should. Being of the practice-what-you-preach persuasion, I’ve decided to rewrite Databinder’s  home (currently static pages produced by Maven’s mediocre site generator) as a Databinder application.</p>
+
+
+	<p>It’s been <a href="http://issues.apache.org/jira/browse/WICKET-149?page=all">fruitful</a> work already. The user-facing side of it is entirely query-cached, so that repeat loads don’t hit the database at all. I’m also setting the last-modified header and allowing browser caching, so performance should be in the static <abbr>HTML</abbr> ballpark. It’s not quite ready to take over the root redirect, but you can check out <a href="http://databinder.net/site/">this sneak preview</a>.</p>
+
+
+	<p>I’ll be folding its caching stuff into the recipe book example, and possibly adding a new optimization section to Databinder 101. But I <em>won’t</em> be releasing the source to this new app, because there is nothing clever about putting persisted data on the screen. If there were, it would mean that Databinder wasn’t doing a very good job.</p>
+
+
+	<p class="break">And you know how Databinder gets when you talk trash about its work.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='../../../resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id2386">
+  		
+  		
+  	</div>
+  	<div id="id2387">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id2388" action="../../../index.html" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id2388_hf_0" id="id2388_hf_0" /><input type="hidden" name="wicket:interface" value=":1313:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id2389" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id238a" name="add" value="Add a comment" onclick="wicketShow('id238a--ajax-indicator');var wcall=wicketSubmitFormById('id2388', '../../../?wicket:interface=:1313:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id238a--ajax-indicator');}.bind(this),function() { ;wicketHide('id238a--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id2388')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id238a--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

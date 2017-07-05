@@ -1,0 +1,277 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Easter dinner</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../eat">
+			
+			<img alt="Eat" src="../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../eat">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id1375" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Easter dinner" width="206" class="title" src="../../resources/net.databinder.components.RenderedLabel/d2b83379"/><span class="title">Easter dinner</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on April 10, 2007</span></span>
+			<span id="id1376" class="tags">
+					{&nbsp;<span><a href="../../eat/tag/baking/#selected-tag"><span>baking</span></a><span id="id1377">, </span></span><span><a href="../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p style="float:left"><img src="/eat/files/2_cooks.jpg" alt="" /></p>
+
+
+	<p>I&#8217;ve been pretty intimidated by the Easter dinners I&#8217;ve been reading about in the world of food blogs, like this <a href="http://www.ceresandbacchus.com/archive.php?name=20070408">one</a> on <a href="http://www.ceresandbacchus.com/">Ceres &#38; Bacchus</a> , a truly lovely collection of sophisticated dishes and twists on the classics. I wasn&#8217;t going to post on our meal at all, but then thought, well, I have a lot to be grateful for, like the fact that I was lucky enough to have both my parents and three of my four children at the table with me, as well as my dear husband of twenty years and two new friends, so there were nine of us. I cooked enough for an army and couldn&#8217;t have done it without Mom. We put the scalloped potatoes together as a team; I peeled and sliced the spuds and assembled all the ingredients and she layered everything in the casserole. Mom made her special pie crust for the winter cherry pie (more on that later) and I mixed the filling and put it together, and she brought her home made applesauce, and rolls she got from the Mennonites. To the left is a photo of Mom passing her secrets on to the next generation, my niece Thayer.</p>
+
+
+	<p style="float:right"><img src="/eat/files/easter7.jpg" alt="" /></p>
+
+
+	<p>Here&#8217;s a picture of the table, with my <a href="http://www.youtube.com/watch?v=szHsaOjGvfk">husband</a> carving the roast chickens (I thought we needed two!) Don&#8217;t the scalloped potatoes look delicious? They had lots of brown crust, both on top and all around the sides and bottom, the very best part. I guess we didn&#8217;t really <strong>need</strong> gravy, since there wasn&#8217;t any rice or mashed potatoes to put it on, just the chicken itself, and it was quite moist, but I made some anyway and it tasted great because of the smoked paprika/garlic paste I rubbed all over the chicken. It may be hard to tell from the photo, but we had about four pounds of asparagus, enough for everyone to have seconds if they wanted. I got the fat kind and peeled them, then spread them on a sheet pan, sprayed them with an olive oil spray and roasted them until just tender and they were perfect.</p>
+
+
+	<p style="float:center"><img src="/eat/files/cocopie.jpg" alt="" /></p>
+
+
+	<p>And for the desserts, I made three: Toasted Coconut Cream Pie in Chocolate Crumb Crust, Winter Cherry Pie, and <a href="http://technically.us/eat/articles/2006/06/22/nigellas-dense-chocolate-cake">Nigella Lawson&#8217;s Dense Chocolate Cake</a>. For now I&#8217;m only giving the recipe for the cherry pie, partly because I tweaked the coconut pie recipe so much that I&#8217;m not sure I could reproduce it, and partly because it&#8217;s so long that I don&#8217;t feel like typing it. The cherry pie came from a <a href="http://www.pittsburghpostgazette.com/">Pittsburgh Post-Gazette</a> recipe that I clipped awhile back, intrigued because it purported to offset the sweetness of frozen sweet cherries with frozen tart blackberries and I thought it was worth trying. If any of my readers know of a source for frozen tart pie cherries I would be happy to hear of it, because as far as I know, except for the one or two weeks a year that pie cherries are in season, those of us who love cherry pie are stuck with canned tart cherries unless we buy huge quantities of tart cherries to pit and freeze ourselves.</p>
+
+
+	<p><strong>Winter Cherry-Blackberry Pie</strong></p>
+
+
+	<p>PG tested</p>
+
+
+	<p>Make a double crust for this one.  When the pie has cooled, give it a good dusting with confectioner&#8217;s sugar.</p>
+
+
+<div style="float:right"><img src="/eat/files/winterpie.jpg" alt="" /></div>
+	<ul>
+	<li>Note- Instead of the nutmeg and ginger I used 1 teaspoon vanilla extract.</li>
+	</ul>
+
+
+	<ul>
+	<li>Pastry for a 9-inch pie with double crust</li>
+		<li>1-pound bag individually frozen pitted sweet cherries (not packed in syrup), partially thawed</li>
+		<li>1-pound bag individually frozen blackberries (not packed in syrup), partially thawed</li>
+		<li>1/2 cup plus 2 tablespoons sugar</li>
+		<li>1 tablespoon fresh lemon juice</li>
+		<li>Grated zest of 1 lemon</li>
+		<li>3 tablespoons cornstarch</li>
+		<li>1/4 teaspoon ground nutmeg</li>
+		<li>1/4 teaspoon ground ginger</li>
+	</ul>
+
+
+	<p>Line the pie plate with pastry. Preheat the oven to 425 degrees. Combine remaining ingredients. Transfer filling to the pie shell. Add the top crust, seal and crimp the edge. Place the pie on a drip pan.</p>
+
+
+	<p>Bake the pie for 30 minutes. Reduce the oven temperature to 375 degrees and continue to bake until the top is golden brown and the pie filling has bubbled for 10 or 15 minutes, about 20 to 30 minutes longer. Makes 6 servings.</p>
+
+
+	<p><em>Pie</em> by Ken Haedrich</p>
+
+
+	<p>My opinion of this pie is that it tasted pretty good; I mean it was <strong>pie</strong> and I wouldn&#8217;t kick it out of bed, but it was no substitute for cherry pie by any means. If I want cherry pie out of season, which is most of the year, I will stick to canned tart cherries, like I have posted about on here <a href="http://technically.us/eat/articles/2006/03/09/can-she-bake-a-cherry-pie">before</a>. My son Calvin, who loves cherry pie as much as I do, agrees with me. The coconut pie knocked everyone&#8217;s socks off. The short version of how I made it is to substitute coconut milk for regular milk in the custard, in a custard pie recipe, then fold in toasted coconut, and use a crust made from chocolate wafer crumbs, and top the whole thing with lightly sweetened whipped cream sprinkled with additional toasted coconut. Even people who think they don&#8217;t like coconut love this pie.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1378">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3626"><p>Sheesh.  I don&#8217;t know if I could trust someone who said they didn&#8217;t like coconut.  It sounds great!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.daintycooking.blogspot.com"><span class="alias">Susan</span></a>
+  				<span>on April 10, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3627"><p>I&#8217;m so sad that I missed it! Everything looks wonderful. Are we ever going to get Grandma&#8217;s pie crust on here?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on April 10, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3628"><p>Oh my goodness, Rebecca &#8211; that is a serious <span class="caps">FEAST</span>! What an amazing meal (having had nothing but stir-fried greens and Chinese noodles on Easter Sunday, I am extra envious ;). And the desserts! Yow. Thanks for the recipe &#8211; I&#8217;d never heard of a Winter Cherry Pie before.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://wednesdaychef.typepad.com"><span class="alias">Luisa</span></a>
+  				<span>on April 10, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3629"><p>I&#8217;m seriously red in the face here over your telling people to check out my Easter <strong>doubleblush</strong>. Yours looks like it was delicious. I <span class="caps">LOVE</span> <span class="caps">SCALLOPED</span> <span class="caps">POTATOES</span>. There, I&#8217;ve said it. The all caps don&#8217;t really do justice to my enthusiasm though. I also really like cherry pie and yours looks divine.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.ceresandbacchus.com"><span class="alias">Mary</span></a>
+  				<span>on April 10, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3630"><p>Roast chicken, scalloped potatoes, and asparagus with pie for dessert sounds like a perfect Easter diinner &#8212; especially an Easter as cold as<br />
+the one we had this year.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://kitchenography.typepad.com"><span class="alias">Julie</span></a>
+  				<span>on April 10, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3631"><p>Where was I when that pie recipe appeared in the PG???  Geez, if I don&#8217;t pick up on this kind of recipe my Mom usually clips it out for me.  Someone&#8217;s not doing their job!  :)</p>
+<p>It looks wonderful, as do those scalloped potatoes.  A perfect meal for a winter holiday celebration (alas).</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://victoriasdays.blogspot.com"><span class="alias">Vicci</span></a>
+  				<span>on April 10, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3632"><p>Gee, Susan, maybe down south everyone loves coconut but up north you would have to make some adjustments; it&#8217;s very common to hear folks say they don&#8217;t like coconut (until they eat this pie, that is).</p>
+<p>I tried to watch what she was doing, Leland, but she lost me when she started using that old-fashioned water-displacement method for measuring the Crisco&#8230;What a mess!</p>
+<p>Luisa, we will always have a place set for you, but meanwhile, those greens and noodles you made sounded terrific!</p>
+<p>Mary, you deserve every kudo; my hat is off to you and I am a new and devoted reader.</p>
+<p>Thanks, Julie! Was the snow flying down there, too?</p>
+<p>Hi, Vicci! You must be a neighbor! Welcome to the world of Pittsburgh and vicinity food blogs!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on April 10, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3633"><p>You give hope that there is good food in Pittsburgh. A dear friend hails from there and every time she visits she complains about the lack of decent food. Or maybe you are proof that there is none to be had so you need to make it at home. Where do you shop?</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://izzyeats.blogspot.com"><span class="alias">izzy&#039;s mama</span></a>
+  				<span>on April 10, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3634"><p>Hi, Izzy&#8217;s Mama! Well, you probably know we have a Whole Foods and a Trader Joe&#8217;s here now, but I like to shop at a local store called McGinnis Sisters; they sell Amish chickens and local beef and grind their own hamburger on the premises, also patronize local farms for produce. And in the summers we have the Citiparks farmers markets, although this year I subscribed to a <span class="caps">CSA</span> Farm Box for the first time so probably won&#8217;t be going to the farmers markets all that often. Of course, we don&#8217;t have the variety you have there in the city, but we do have a couple of good Italian markets, too, also Asian, in the Strip District.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on April 10, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3635"><p>Rebecca,<br />
+In reference to the discussion of where to get cherries &#8211; I don&#8217;t know if they ship their frozen tart cherries, but I know a place that has some of the most amazing fruit I&#8217;ve ever eaten. It&#8217;s called Tree-Mendus fruit: http://www.treemendus-fruit.com/. They do ship some of their products, including heirloom apples that are to die for. I&#8217;ve been to the farm and the people there are amazingly nice, knowledgeable and dedicated to what they do. And their tart cherries make the best pies ever. They remind me of my great grandmother&#8217;s cherries (but she was from near there, so it&#8217;s not a big surprise). You should contact them to see if they&#8217;ll ship you some cherries.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.ceresandbacchus.com"><span class="alias">Mary</span></a>
+  				<span>on April 10, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3636"><p>Rebecca didn&#8217;t mention the divine chocolate cake she made for Easter dinner.  That is what I am making with my little Grandaughter after we left Pittsburgh and went to visit son and family in Cincinnati.  Their family all Loved the delicious chocolate cake.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Grandma</span></span>
+  				<span>on April 10, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3637"><p>Thanks for the tip, Mary &#8211; I just emailed them!</p>
+<p>Hi, Mom! I guess the cake turned out okay for you; that&#8217;s a great recipe, isn&#8217;t it? We have Leland to thank for it. He made that for me when he was here for my birthday in February.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca (Mommy)</span></span>
+  				<span>on April 10, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3638"><p>Good blog</p>
+<p>I hope everybody read this article.</p>
+<p>thanks for informations.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.minikperi.com"><span class="alias">oyunlar</span></a>
+  				<span>on April 10, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id1379">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id137a" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id137a_hf_0" id="id137a_hf_0" /><input type="hidden" name="wicket:interface" value=":711:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id137b" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id137c" name="add" value="Add a comment" onclick="wicketShow('id137c--ajax-indicator');var wcall=wicketSubmitFormById('id137a', '../../?wicket:interface=:711:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id137c--ajax-indicator');}.bind(this),function() { ;wicketHide('id137c--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id137a')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id137c--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

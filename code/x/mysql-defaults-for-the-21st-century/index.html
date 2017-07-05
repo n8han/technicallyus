@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="../../../blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="../../../blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet.css"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / MySQL defaults for the 21st century</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code.html">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code.html">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id240e" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="MySQL defaults for the 21st century" width="563" class="title" src="../../../resources/net.databinder.components.RenderedLabel/a9a0a40d"/><span class="title">MySQL defaults for the 21st century</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on August 3, 2006</span></span>
+			<span id="id240f" class="tags">
+					{&nbsp;<span><a href="../../tag/databinder/index.html#selected-tag"><span>databinder</span></a><span id="id2410">, </span></span><span><a href="../../tag/hibernate/index.html#selected-tag"><span>hibernate</span></a><span id="id2411">, </span></span><span><a href="../../tag/mysql/index.html#selected-tag"><span>mysql</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>A minor annoyance when using MySQL with Hibernate is that, unless you say otherwise, everything defaults to Latin1 and MyISAM. This isn&#8217;t an ideal setup for most of us.</p>
+
+
+	<p>Until recently, I assumed that since Databinder&#8217;s <a href="http://databinder.net/examples">examples</a> are served in <span class="caps">UTF</span>-8, they were capable of accepting and storing any input. Once upon a time this seemed to be true in <span class="caps">PHP</span> (don&#8217;t ask); <span class="caps">UTF</span>-8 would go into the tables and come out intact even if the tables thought they were in a Latin character set. But for whatever reason (probably the connection character set), high characters in the Databinder examples were yielding the dreaded &#8217;?&#8217;.</p>
+
+
+	<p>There are other ways to ensure that your connection, database, and tables are all in <span class="caps">UTF</span>-8, but my favorite is to change the defaults for MySQL so I can just forget about it forever. Oddly, I really had to dig to come up with these lines for <tt>my.cnf</tt>:</p>
+
+
+<pre>
+[mysqld]
+default-character-set=utf8
+default-table-type=InnoDB
+</pre>
+
+	<p>There&#8217;s more info (and a caveat) in Databinder&#8217;s <a href="http://databinder.net/workspace.html#MySQL">workspace optimization tips</a>.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='../../../resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id2412">
+  		
+  		
+  	</div>
+  	<div id="id2413">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id2414" action="../../../index.html" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id2414_hf_0" id="id2414_hf_0" /><input type="hidden" name="wicket:interface" value=":1328:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id2415" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id2416" name="add" value="Add a comment" onclick="wicketShow('id2416--ajax-indicator');var wcall=wicketSubmitFormById('id2414', '../../../?wicket:interface=:1328:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id2416--ajax-indicator');}.bind(this),function() { ;wicketHide('id2416--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id2414')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id2416--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

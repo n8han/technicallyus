@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Tony’s di Napoli</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="ide73" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Tony’s di Napoli" width="251" class="title" src="../../../resources/net.databinder.components.RenderedLabel/d544973b"/><span class="title">Tony’s di Napoli</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on September 4, 2006</span></span>
+			<span id="ide74" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/restaurants:%20new%20york/#selected-tag"><span>restaurants: new york</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p style="float:left"><img src="/pictures/tonys.jpg" alt="" /></p>
+
+
+	<p>I spend my life avoiding big restaurants that specialize in feeding large groups of people, especially in New York where you&#8217;re more than likely to be ripped off. The night that I had <a href="http://technically.us/eat/articles/2006/03/19/le-souk">the worst meal of my life at Le Souk</a>, we originally discussed eating at <a href="http://www.tonysnyc.com/">Tony&#8217;s di Napoli</a> on the Upper East Side, which to me sounded like the burning pit of hell.</p>
+
+
+	<p>If only I had done more research. Eight of us had a birthday dinner for a friend at Tony&#8217;s last night, and it couldn&#8217;t have been more enjoyable. We were seated right away at a huge table. It wasn&#8217;t too dark or too loud, and the room was appropriately tacky. Our waiter was effective and polite, although Mom would have despised and mocked him from the moment he mispronounced her favorite word, <em>bruschetta</em>. The table shared four appetizers and three mains, and it was may more than we could eat. I never felt that someone was trying to jack up our check, which ended up being only $193. That&#8217;s for eight people, and we each had a drink (without the drinks it would have barely broken $100).</p>
+
+
+	<p>None of the food was outstanding, but everything was okay. All platters are supposed to serve two to three people, but we decided that two to three wolves couldn&#8217;t finish these huge portions. For appetizers, we had cold antipasta (my favorite), mozzarella and tomato salad (hard to screw up at this time of year), fried zucchini (which were cut like potato chips), and fried calamari. For mains, we had an overly sweet ravioli bolognese, four pounds of chicken cacciatore, and rigatoni with vodka sauce. Everyone was satisfied, and Tony&#8217;s will be on my short list for these nerve-racking events from now on.</p>
+
+
+	<p><em>Tony&#8217;s, 1606 Second Avenue @ 83rd Street, (212) 861-8686</em></p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="ide75">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-2699"><p>I agree- it was a great place for dinner for a group&#8212;especially the beautifully lightly fried zucchini!&#8212;not the big doughy zuchini strips you get other places.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Uncle Teddy</span></span>
+  				<span>on September 4, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2700"><p>Tony&#8217;s is very solid for big groups. I&#8217;d also recommend Sambuca on the <span class="caps">UWS</span> across from the Dakota.. I think their food is better but they don&#8217;t have the huge round tables like Tony&#8217;s.  Darker/louder/worse service.  Tough tradeoffs.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">JMoney</span></span>
+  				<span>on September 4, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="ide76">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="ide77" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="ide77_hf_0" id="ide77_hf_0" /><input type="hidden" name="wicket:interface" value=":527:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="ide78" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="ide79" name="add" value="Add a comment" onclick="wicketShow('ide79--ajax-indicator');var wcall=wicketSubmitFormById('ide77', '../../../?wicket:interface=:527:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('ide79--ajax-indicator');}.bind(this),function() { ;wicketHide('ide79--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('ide77')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="ide79--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

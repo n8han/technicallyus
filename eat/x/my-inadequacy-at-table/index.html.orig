@@ -1,0 +1,173 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / My inadequacy at table</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id850" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="My inadequacy at table" width="360" class="title" src="../../../resources/net.databinder.components.RenderedLabel/113e11c6"/><span class="title">My inadequacy at table</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on August 1, 2006</span></span>
+			<span id="id851" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/books/#selected-tag"><span>books</span></a><span id="id852">, </span></span><span><a href="../../../eat/tag/theory/#selected-tag"><span>theory</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p><a href="http://en.wikipedia.org/wiki/A.J._Liebling">A.J. Liebling</a> makes me feel inadequate. So do <a href="http://www.amazon.com/exec/obidos/ASIN/0375727124/eat0e-20">Jeffrey Steingarten</a> and <a href="http://www.amazon.com/exec/obidos/ASIN/0897331346/eat0e-20">Joseph Wechsberg</a> and every other older or deceased male food writer. In fact, the women do, too, including <a href="http://www.nytimes.com/books/98/01/18/home/fisher.html?_r=1&#38;oref=slogin"><span class="caps">MFK</span></a> and <a href="http://www.amazon.com/exec/obidos/ASIN/086547575X/eat0e-20">Elizabeth David</a>. And this is just about everything I&#8217;ve read; I have a long way to go in the genre.</p>
+
+
+	<blockquote>
+		<p>The primary requisite for writing well about food is a good appetite. Without this, it is impossible to accumulate, within the allotted span, enough experience of eating to have anything worth setting down. Each day brings only two opportunities for field work, and they are not to be wasted minimizing the intake of cholesterol&#8230;A good appetite gives an eater room to turn around in.</p>
+	</blockquote>
+
+
+	<p>That passage comes from the first chapter of <em>Between Meals</em>, and I can&#8217;t help but feel that it&#8217;s directed at me. But even Liebling, who came of age in Paris in the 1920s, wrote romantically of the previous generation who could eat even more than he did, people with an &#8220;unblemished appetite and unfailing good humor&#8230;free of the ulcers that come from worrying about a balanced diet.&#8221; Liebling died young, but he lived well and is still <a href="http://www.slate.com/id/2105627/">worshiped</a> as a writer.</p>
+
+
+	<p>Every book I read about food is full of the author and the author&#8217;s friends eating outrageous quantities of food and drinking magnum after magnum of wine (think Bill and Mario in <a href="http://technically.us/eat/articles/2006/07/05/bill-bufords-heat">Heat</a>). Elizabeth David writes of drinking a bottle of wine for breakfast, and of hiking up a mountain with her friend and sharing a liter at the summit. Steingarten visits a fruit farm in California and eats several pounds of fruit before sitting down to lunch (and then he eats candy and chocolate for the rest of the day until dinnertime).</p>
+
+
+	<p>Is there something wrong with me? I don&#8217;t have room in my body or my day to <em>start</em> a meal with a gross of oysters and a bottle of wine. I consider myself an eater, and I can make it through a multi-course meal, but I&#8217;m not a bottomless pit like many of our most celebrated food writers. It&#8217;s rare for me to have a second helping of a main course, and Nathan and I can&#8217;t drink more than a bottle of wine between us without regretting it. Are we so concerned with our livers that we aren&#8217;t living fully? Did these pre–liver era eaters honestly relish eating such gluttonous repasts? I have a hard time believing they ate this way regularly and took the endless pleasure in it that their books describe.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id853">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-2513"><p>Meanwhile, the average person is getting fatter. What gives? (Becky might say, &#8220;corn syrup.&#8221;)</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://technically.us/doc"><span class="alias">Nathan</span></a>
+  				<span>on August 1, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2514"><p>How do you think I feel when I can&#8217;t even drink? Try going to Italy and not drinking wine; they look at you like you&#8217;re a freak, not to mention all the emphasis on &#8220;wine pairings&#8221; that we&#8217;ve had in the culinary world in the last few years.</p>
+<p>I believe Craig Claiborne was quite a trencherman when he was younger but as he aged his body couldn&#8217;t  take it anymore and he had to moderate. A lot of chefs/food writers/cookbook authors are thin as whips and I don&#8217;t believe they are eating and drinking vast quantities; I think they just taste lots of things and leave the rest. And drink lots of sparkling water.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on August 1, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2515"><p>Great post. I’d guess that food writers write about their very best experiences—the multi-course dinners, the memorable wine-filled evenings—but not about their everyday eating. Also: if a food writer’s tab is picked up by, say, the magazine he’s writing for, the writer is more likely to indulge. I’m pretty sure I could eat several pounds of organic fruit before lunch if Vogue was funding my trip to California.</p>
+<p>Food lit usually irritates me—either the writing is too flowery (</p>
+<p>(mzn of Haverchuk did an amusing write up of food lit clichés a while back.)</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://yulinkacooks.blogspot.com"><span class="alias">yulinka</span></a>
+  				<span>on August 1, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2516"><p>On the other hand, I&#8217;d have an easier time leaving the rest if Vogue was funding my trip.  Despite the fact that food is the least of my expenses I have a hard time letting food go to waste.  Irrational, unhealthy, but there it is.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">zp</span></span>
+  				<span>on August 1, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2517"><p>Thanks, everyone, for your comments. Writers do seem to taste it and leave it these days, and I bet the huge meals weren&#8217;t as frequent as the books would lead us to believe. In our little food blogging world you never see that kind of big eating. We all seem to be avid home cooks or restaurant-goers who enjoy researching, preparing, and eating balanced meals. Even in decadent meals, we look for reasonable portions and something healthy to cling to.</p>
+<p>Yulinka: I know what you mean. I feel that way when I read Ruth Reichl (&#8220;the piece of sashimi made me feel like I was swimming in the sea of Japan&#8221; or whatever). But the older writers are much more direct and practical. Have you read any <span class="caps">MFK</span>? Try <em>How to Cook a Wolf</em>, which is about cooking and eating in desperate times. Not a flower in sight, and there&#8217;s nothing to be jealous of (except her sharp wit!).</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on August 1, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id854">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id855" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id855_hf_0" id="id855_hf_0" /><input type="hidden" name="wicket:interface" value=":312:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id856" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id857" name="add" value="Add a comment" onclick="wicketShow('id857--ajax-indicator');var wcall=wicketSubmitFormById('id855', '../../../?wicket:interface=:312:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id857--ajax-indicator');}.bind(this),function() { ;wicketHide('id857--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id855')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id857--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

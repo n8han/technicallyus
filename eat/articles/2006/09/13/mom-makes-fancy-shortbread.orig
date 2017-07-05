@@ -1,0 +1,209 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Mom makes fancy shortbread</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../eat">
+			
+			<img alt="Eat" src="../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../eat">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id4b0" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Mom makes fancy shortbread" width="463" class="title" src="../../resources/net.databinder.components.RenderedLabel/ad13cfb2"/><span class="title">Mom makes fancy shortbread</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on September 13, 2006</span></span>
+			<span id="id4b1" class="tags">
+					{&nbsp;<span><a href="../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a><span id="id4b2">, </span></span><span><a href="../../eat/tag/dessert/#selected-tag"><span>dessert</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>For dessert tonight I baked a bar cookie from <em>Baking With Julia</em>, which is actually written by Dorie Greenspan. She calls this &#8220;Hungarian Shortbread&#8221;, and it is basically two layers of egg-enriched shortbread, sandwiched with homemade rhubarb jam. I halved the recipe, partly because I only had a few sad stalks of late-season rhubarb in the back yard, and partly because, for reasons I won&#8217;t go into, I need to be <strong>extremely skinny</strong> this weekend and didn&#8217;t want to have any left over after dinner was finished.</p>
+
+
+	<p>Now Ms. Greenspan rhapsodizes about how easy this recipe is, but the way she makes it is not easy! She has you freezing the cookie dough and then grating it into the pan. I made it that way the first time, and then thought &#8220;Why?!&#8221; It made a mess all over the counter and wasn&#8217;t any better than making shortbread the traditional way. What I do is make it in two batches in the food processor, just until crumbly, then pat the crumbs into the pan, more firmly for the first layer and leaving the top layer quite crumbly. I&#8217;ll copy the recipe as given in the cookbook, though, and you can judge for yourself.</p>
+
+
+	<p><strong>Hungarian Shortbread</strong></p>
+
+
+	<p><em>The Jam</em></p>
+
+
+	<ul>
+	<li>1 pound rhubarb, trimmed and cut into 1-inch pieces</li>
+		<li>1/2 cup sugar</li>
+		<li>1/2 cup water (I used orange juice)</li>
+		<li>1/2 vanilla bean (I didn&#8217;t have one and just used vanilla)</li>
+	</ul>
+
+
+	<p>Place the rhubarb, sugar, and water in medium saucepan. Split vanilla bean, scrape the seeds into the pan, and toss in the pod. Bring to a simmer over low heat, and cook, stirring often, until the  rhubarb softens and almost seems to melt. This should take about 10 minutes depending on the rhubarb. Remove the pan from heat and discard the vanilla bean. Cool jam to room temperature. Jam may be made ahead of time and refrigerated; bring to room temperature before using. You may substitute a cup of good-quality jam or preserves but it won&#8217;t be the same.</p>
+
+
+	<p style="float:right"><img src="/eat/files/shbr.jpg" alt="" /></p>
+
+
+	<p><em>The Shortbread</em></p>
+
+
+	<ul>
+	<li>4 cups all-purpose flour</li>
+		<li>2 teaspoons baking powder</li>
+		<li>1/4 teaspoon salt</li>
+		<li>4 sticks (1 pound) butter, at room temperature</li>
+		<li>4 large egg yolks</li>
+		<li>2 cups sugar (I think this is too much and use less)</li>
+		<li>1 teaspoon vanilla (my addition)</li>
+	</ul>
+
+
+	<p>Whisk the dry ingredients together in a bowl and set aside. In a mixer fitted with the paddle attachment beat the butter on high speed until it is pale and fluffy. Add the yolks, sugar, and vanilla and beat until the sugar is dissolved and the mixture is light. Reduce the mixer speed to low and add the dry ingredients, mixing only until incorporated.</p>
+
+
+	<p>Turn the dough out onto a work surface and cut in half. Shape each half into a ball and wrap in plastic. Freeze for about 30 minutes, until firm.</p>
+
+
+	<p>Preheat oven to 350º. Remove one ball of dough from freezer and using the side of box grater with largest holes, grate into 9X12-inch baking pan. Pat the dough gently just to get it into the corners. Spread with jam. Grate the remaining dough over the jam and press it lightly to distribute it evenly. Bake the shortbread for about 40 minutes, or until golden brown.</p>
+
+
+	<p>As soon as you remove it from the oven, dust the top of the shortbread heavily with confectioner&#8217;s sugar. Cool to room temperature before cutting into bars, squares, or rectangles.</p>
+
+
+	<p>If you like shortbread you will love this; the addition of the egg yolk makes it extra rich and delicious, and the tartness of the jam is the perfect counterpoint.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id4b3">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-2750"><p>Wow, that looks wonderful. I&#8217;m currently trying to keep myself from buying a Kitchenaid stand mixer that is amazingly priced on Amazon (and free shipping!). But everyone posting wonderful recipes like this one that should have a mixer aren&#8217;t helping.</p>
+<p>I&#8217;m so conflicted!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.metakathryn.com"><span class="alias">Kathryn</span></a>
+  				<span>on September 13, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2751"><p>Amazon does have great prices on appliances and other kitchen ware. They currently have a blender for $39 I have my eye on. I got my mother a stand mixer from them for Christmas last year, one of the artisan ones, in a really pretty red, for a great price, with no tax or shipping, plus a rebate of $25.</p>
+<p>For this recipe I used my Cuisinart food processor, but I use the stand mixer whenever I make cookies, cakes, and some breads. If you have the room in your kitchen you won&#8217;t regret it. (You have a Cuisinart, right?)</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on September 13, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2752"><p>I make this just as Rebecca does as I have the same cookbook with the same ridiculous directions, but I have replaced the rhubarb jam filling with one from Rita Newell, innkeeper at Reading House in Watkins Glen, NY, which is so amazing you may not even get it onto the cookie crust but end up eating it with a spoon at the counter. Warm it&#8217;s a compote, chilled it&#8217;s jam. Either way, it&#8217;s fabulous.</p>
+Rhubarb-Ginger Jam (makes about 3 cups)
+<p>2 lbs rhubarb, washed, trimmed, &amp; cut crosswise into 1&quot; pieces</p>
+<p>2 to 2 1/2 cups sugar, to your taste</p>
+<p>1/2 cup crystallized ginger</p>
+<p>zest of 1 lemon</p>
+<p>Combine the ingredients in a medium, heavy-bottomed saucepan over medium high heat. Bring to a boil, stirring till the sugar has dissolved.  Reduce heat to medium &amp; cook at least 20 min. (it may take as long as 40 min.), stirring often, till the mixture thickens &amp; mounds on a spoon.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">April</span></span>
+  				<span>on September 13, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2753"><p>Yum, that jam does sound good, April! I do replace the water in the Dorie Greenspan recipe with orange juice, but otherwise follow it as written, but I love the sound of the ginger in yours.</p>
+<p>But reading your comment reminded me that I must have a container of rhubarb jam lurking in the back of the fridge somewhere, since you only need about half of what you make for the shortbread. I should unearth and use it before it&#8217;s covered with green fuzz&#8230;</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on September 13, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id4b4">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id4b5" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id4b5_hf_0" id="id4b5_hf_0" /><input type="hidden" name="wicket:interface" value=":191:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id4b6" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id4b7" name="add" value="Add a comment" onclick="wicketShow('id4b7--ajax-indicator');var wcall=wicketSubmitFormById('id4b5', '../../?wicket:interface=:191:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id4b7--ajax-indicator');}.bind(this),function() { ;wicketHide('id4b7--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id4b5')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id4b7--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Mom makes curried chicken salad</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id1725" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Mom makes curried chicken salad" width="530" class="title" src="../../../resources/net.databinder.components.RenderedLabel/4e3a750d"/><span class="title">Mom makes curried chicken salad</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on August 20, 2007</span></span>
+			
+		</span></div>
+		<div><p>Because I was out of town for most of July, Leland&#8217;s two brothers, Jon and <a href="http://www.cmoneyandkarlkash.com/">Calvin</a>, didn&#8217;t get proper birthday dinners and were anxiously awaiting my return so I could prepare their favorites. You may remember that last year I wasn&#8217;t able to cook due to the kitchen remodeling and we had to go <a href="http://technically.us/eat/x/birthday-dinner-at-tessaros">out</a> for their dinner. They were born three days apart in July so we sometimes try to combine the dinner, even though their tastes are very different. Getting the whole family together around the table can sometimes be tricky, not to mention cooking and baking in the heat. I think I told you about the year Calvin wanted fried chicken, linguine with pesto, corn on the cob, and blueberry pie, on one of the hottest days of the summer.</p>
+<p>Jon&#8217;s favorite dinner for years has been a curried chicken salad from <em>The Frog Commissary Cookbook</em>. This is a great little cookbook if you&#8217;ve never seen it, and has a wonderful recipe for carrot cake. I also like the orzo salad with sesame dressing.</p>
+<p>Calvin loves pasta with pesto, which I realize doesn&#8217;t really go with curried chicken salad but I made it anyway. I had a small bag of green beans from my <a href="http://www.kretschmannfarm.com/"><span class="caps">CSA</span></a> box so I threw those in with the pasta. Then I thought I might as well be hung for a sheep as a lamb (my husband had never heard this expression before so I try to use it as often as possible) and I boiled up a saucepan full of beets and pickled them; I had a summer&#8217;s worth of beets languishing in the crisper drawer and they are favorites of my daughter.</p>
+<p>So we had a rather odd combination of curried chicken salad, pesto pasta, pickled beets, and peach pie for the birthday dinner. It looked pretty on the plate, though!</p>
+<p><img src="http://technically.us/resources/com.typeturner.Typeturner/image?name=curry" title="curry" alt="curry" /></p>
+<p><strong>Curried Chicken Salad</strong> from <em>The Frog Commissary Cookbook</em>, 1985 edition</p>
+<p><em>serves 5-6</em></p>
+<p><span class="caps">CREAMY</span> <span class="caps">CURRIED</span> <span class="caps">DRESSING</span></p>
+<ul>
+	<li>1 egg</li>
+	<li>1 cup corn oil</li>
+	<li>1/4 cup vinegar</li>
+	<li>1 1/2 teaspoons salt</li>
+	<li>1 teaspoon pepper</li>
+	<li>1 teaspoon minced garlic</li>
+	<li>1/2 teaspoon sugar</li>
+	<li>1/2 teaspoon turmeric</li>
+	<li>1/2 teaspoon coriander</li>
+	<li>1/4 teaspoon cinnamon</li>
+	<li>1/4 teaspoon nutmeg</li>
+	<li>1/4 teaspoon dry mustard</li>
+	<li>1/4 teaspoon cardamom</li>
+	<li>1/4 teaspoon ground ginger</li>
+	<li>1/8 teaspoon ground cloves</li>
+	<li>1/8 teaspoon ground cumin</li>
+	<li>1/8 teaspoon cayenne pepper</li>
+</ul>
+<p><span class="caps">SALAD</span></p>
+<ul>
+	<li>2 pounds boneless, skinless chicken breast (for 3 1/2-4 cups cooked and cubed meat)</li>
+	<li>1 1/4 cups celery, sliced 1/4 &quot; thick on the diagonal</li>
+	<li>2 cups cubed fresh pineapple (I used seedless red grapes)</li>
+	<li>1/2 cup dark raisins</li>
+	<li>3/4 cup salted roasted cashews or peanuts</li>
+	<li>mixed greens or romaine</li>
+</ul>
+<p><span class="caps">DRESSING</span>: Whiz the egg in a food processor or blender, or whisk by hand until light-colored. Gradually add the corn oil so that it is well homogenized and thick. Add the remaining ingredients. Store in fridge while preparing salad. <span class="caps">NOTE</span>: You are mixing your own curry here, and if you don&#8217;t have all the spices called for, just add a little prepared curry powder if you have that. In fact, we like a strong curry flavor and I always add about a tablespoon or so of commercial curry powder on top of the other spices anyway. And if you are pregnant or have a weakened immune system this may not be the dressing for you, or you may want to add the seasonings to jarred mayonnaise, since this recipe calls for a raw egg.</p>
+<p><span class="caps">SALAD</span>: Preheat the oven to 350º. Lay the chicken breasts on a rimmed baking sheet and cover tightly with foil. Bake for 20-25 minutes until cooked through but still moist and juicy. Cool to room temperature. Cut or tear into bite-size pieces. Combine with fruit and nuts, but if using pineapple don&#8217;t add until just before serving because it will get mushy. Fold in dressing with rubber spatula, but you may not need all of it. Try garnishing with toasted coconut.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1726">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-4153"><p>I love the Frog Commissary Cookbook.  I inherited mine from my grandmother, who wasn&#8217;t much of a cook but loved eating at the Commissary and so bought the book thinking she might just make something out of it someday.  I don&#8217;t think she ever actually did, as it was perfect when I got it.  It&#8217;s not perfect anymore, as it taught me to make salad dressing and cole slaw, two items that involve some splashing, at least for beginners.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.apartment2024.com"><span class="alias">Marisa</span></a>
+  				<span>on August 20, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4235"><p>could you tell me where the great market you visited in Paris is located?  near the Bastille I believe you said. I am going to France next week and would love to visit it.  thanks, J</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">jean</span></span>
+  				<span>on August 26, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4236"><p>Yes, the market is just off the Bastille, continuing on for several blocks to the west (I think). Enjoy!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on August 26, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4261"><p>good stuff</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">patti</span></span>
+  				<span>on August 29, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id1727">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id1728" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id1728_hf_0" id="id1728_hf_0" /><input type="hidden" name="wicket:interface" value=":840:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id1729" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id172a" name="add" value="Add a comment" onclick="wicketShow('id172a--ajax-indicator');var wcall=wicketSubmitFormById('id1728', '../../../?wicket:interface=:840:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id172a--ajax-indicator');}.bind(this),function() { ;wicketHide('id172a--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id1728')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id172a--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

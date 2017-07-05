@@ -1,0 +1,201 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Butternut squash race</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="idcf2" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Butternut squash race" width="345" class="title" src="../../../resources/net.databinder.components.RenderedLabel/d76a866e"/><span class="title">Butternut squash race</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on March 19, 2006</span></span>
+			<span id="idcf3" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Responding to this <a href="http://technically.us/eat/articles/2006/03/07/trader-joes-a-rant">challenge</a> from my mother: &#8220;Three minutes to peel, seed, and chop a butternut squash?! As if!! Even the <strong>Iron Chef</strong> can’t do it that fast!&#8221;—which was in response to my saying that I could prep a butternut squash in three minutes, and that it would taste better than buying it cut up from Trader Joe&#8217;s—I decided to put my money where my mouth was.</p>
+
+
+	<p>Pictured below are the 2.5-pound enemy and my tools:</p>
+
+
+	<p style="float:center"><img src="/pictures/squash1.jpg" alt="" /></p>
+
+
+	<p><em>Tell the kind folks don&#8217;t worry—that ain&#8217;t nothin&#8217; but my <a href="http://www.cowboylyrics.com/lyrics/cash-johnny/legend-of-john-henrys-hammer-779.html">hammer</a> suckin&#8217; wind—it keeps me breathing.</em></p>
+
+
+	<p style="float:center"><img src="/pictures/squash2.jpg" alt="" /></p>
+
+
+	<p>Two minutes and fifty-seven seconds later (ok, a few seconds longer to get the trimmings organized), we have:</p>
+
+
+	<p style="float:center"><img src="/pictures/squash3.jpg" alt="" /></p>
+
+
+	<p>Forty-five minutes later, we have <a href="http://mrlittlepants.blogspot.com/2005/10/nuts-for-butternut.html">butternut squash risotto</a> with slightly overtoasted pine nuts:</p>
+
+
+	<p style="float:center"><img src="/pictures/squash4.jpg" alt="" /></p>
+
+
+	<p>Next!</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="idcf4">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-1689"><p>You showed that butternut squash who&#8217;s boss!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.creampuffsinvenice.ca"><span class="alias">Ivonne</span></a>
+  				<span>on March 19, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1690"><p>I guess I&#8217;ve been told! You should make Ruth Reichl&#8217;s lasagne now, the one with the squash and hazelnuts. It&#8217;s perfect company food because you can make it in advance and it&#8217;s really impressive, plus it&#8217;s vegetarian (although not vegan) but at the same time quite satisfying since men love pasta and it has a rich sauce. All you need to complete the menu is a salad&#8212;I like some kind of bitter greens to offset the unctuousness of the main course and bread. The only problem is coming up with dessert; with all that dairy in the lasagne you don&#8217;t want anything creamy for dessert, or anything too starchy, either, with the pasta.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on March 19, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1691"><p>Yes, I want to make that lasagna in a bad way. Maybe I&#8217;ll do it this weekend and invite some menfolk over!</p>
+<p>Your turn to post, Mommy. I&#8217;m making pierogies tonight!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on March 19, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1692"><p>I know it&#8217;s my turn to post but <a href="http://www.billyprice.com">Poppy</a> and I are dieting and I&#8217;m just not inspired to cook much of anything interesting.</p>
+<p>I have a question about the squash preparation, though&#8212;did you peel the whole thing with your peeler before cutting it up? I usually cut it into smaller pieces and then remove the tough peel with a paring knife. That&#8217;s what makes it take so long. My mother never cooked it and I had an aunt who taught me how to prepare it that way. But the preparation was so tedious that I was fairly disinclined to do it very often, if you see what I mean.</p>
+<p>Are you making homemade pierogies? With all those leftover wonton wrappers?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on March 19, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1693"><p>No homemade rogies yet, I&#8217;m still a Mrs. T&#8217;s queen.</p>
+<p>Yes, I peel the whole thing before cutting it. I chop off the top and bottom, then just run the peeler up and down the length of it. Once I&#8217;m done with that, I chop it in the middle and dig out the seeds and fibers.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on March 19, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1694"><p>I guess this proves that you&#8217;re never too old to learn something new in the kitchen!</p>
+<p>Meanwhile I just started some brown rice in my new Zojirushi fuzzy logic rice cooker, the one I <em>had</em> to have, that&#8217;s been sitting in the box for 2 weeks since it was delivered, and I&#8217;m quite upset to read in the instruction book that I can expect it to take at least 82 minutes to get done! Why?! It would only take 45 minutes on the stovetop!! It&#8217;s 5:30 and we are supposed to be at a meeting at 7:00&#8230;</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">mommy</span></span>
+  				<span>on March 19, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1695"><p>Hmm&#8230;sounds post-worthy to me! :D</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on March 19, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="idcf5">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="idcf6" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="idcf6_hf_0" id="idcf6_hf_0" /><input type="hidden" name="wicket:interface" value=":473:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="idcf7" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="idcf8" name="add" value="Add a comment" onclick="wicketShow('idcf8--ajax-indicator');var wcall=wicketSubmitFormById('idcf6', '../../../?wicket:interface=:473:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('idcf8--ajax-indicator');}.bind(this),function() { ;wicketHide('idcf8--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('idcf6')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="idcf8--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

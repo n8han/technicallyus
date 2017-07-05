@@ -1,0 +1,173 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Pierogies and collard greens</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../eat">
+			
+			<img alt="Eat" src="../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../eat">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id170e" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Pierogies and collard greens" width="439" class="title" src="../../resources/net.databinder.components.RenderedLabel/2b7e3368"/><span class="title">Pierogies and collard greens</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on February 1, 2006</span></span>
+			<span id="id170f" class="tags">
+					{&nbsp;<span><a href="../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>At my table tonight, it was as if the Civil War never happened. The North met the South in a peaceful and delicious manner&#8212;on the plate. Pittsburgh and Gainesville, GA were united in the form of pierogies and collard greens:</p>
+
+
+	<p style="float:center"><img src="/pictures/pierogies2.jpg" alt="" /></p>
+
+
+	<p>As some of you know, I&#8217;ve been cooking <a href="http://technically.us/eat/articles/2006/01/28/collard-greens-from-freshdirect">collards</a> all week. This gave me the opportunity to appreciate and experiment. As far as I can tell, the best way to enjoy collards is to cook them on the stovetop, covered and with plenty of liquid, for at least an hour. Anything less and they are too tough to enjoy. I&#8217;ve looked at recipes that say to cook them for just fifteen minutes. Umm, no thanks.</p>
+
+
+	<p>Tonight I braised my greens in butter, homemade veal stock, port, and Whole Foods brand chicken stock ($1.99 per carton, incidentally, and my mother swears by it). While they cooked, I fried the pierogies with onions in butter and oil, and then I kept them in a warm oven until the greens were done. It was totally simple, supremely satisfying with the softness of the greens contrasting with the crispy skin of the pierogies, and it all cost less than $5.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1710">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-1468"><p>You get a 6.0 for creative use of collards and for creating peace and harmony on a plate.</p>
+<p>Oh yes and a 6.0 for making pierogies &#8230; one of my favourites!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.creampuffsinvenice.ca"><span class="alias">Ivonne</span></a>
+  				<span>on February 1, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1469"><p>How do they do them in Canada, Ivonne?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on February 1, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1470"><p>Port?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">beckyleeprice@mac.com</span></span>
+  				<span>on February 1, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1471"><p>You got a problem with port? I put port or vermouth in everything!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on February 1, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1472"><p>I guess it would sort of take the place of the traditional vinegar in the collards.</p>
+<p>We had some wonderful greens for my birthday dinner tonight, cooked nice and soft with onion and ham hocks and a touch of vinegar. Poppy got them from a new take out barbecue joint down in Wilkinsburg called Gramma Anna&#8217;s, along with ribs, corn bread, sweet potatoes.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on February 1, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1473"><p>We actually had collards for lunch at work yesterday (with fried chicken, etc.). Am I supposed to eat those ham hocks? I had one on my plate and I had to hide it under a chicken bone because it made me want to throw up. Looked like a chopped off finger!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on February 1, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id1711">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id1712" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id1712_hf_0" id="id1712_hf_0" /><input type="hidden" name="wicket:interface" value=":836:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id1713" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id1714" name="add" value="Add a comment" onclick="wicketShow('id1714--ajax-indicator');var wcall=wicketSubmitFormById('id1712', '../../?wicket:interface=:836:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id1714--ajax-indicator');}.bind(this),function() { ;wicketHide('id1714--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id1712')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id1714--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

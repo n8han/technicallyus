@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="../../../blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="../../../blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet.css"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / If by agile you mean slower</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code.html">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code.html">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id264d" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="If by agile you mean slower" width="441" class="title" src="../../../resources/net.databinder.components.RenderedLabel/e50f4f99"/><span class="title">If by agile you mean slower</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on January 28, 2008</span></span>
+			<span id="id264e" class="tags">
+					{&nbsp;<span><a href="../../tag/java/index.html#selected-tag"><span>java</span></a><span id="id264f">, </span></span><span><a href="../../tag/jvm/index.html#selected-tag"><span>jvm</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Ted Neward <a href='http://blogs.tedneward.com/2008/01/29/Highlights+Of+The+LangNET+Symposium+Day+One.aspx'>reporting from the Lang.NET Symposium</a>:</p>
+
+<blockquote>
+<p>I&#8217;m left with the impression that the JVM really needs something akin to the DLR, because I&#8217;m not convinced that just modifying the JVM itself (the recently-named <a href='http://openjdk.java.net/projects/mlvm/'>Da Vinci Machine</a>) will be the best road to take&#8212;if it&#8217;s implemented inside the VM, then modifications and enhancements will take orders of magnitude longer to work their way into production use, since there will be so much legacy (Java) code that will have to be regression-tested against those proposed changes. Doing it in a layer-on-top will make it easier and more agile, I believe.</p>
+</blockquote>
+
+<p>Orders of magnitude longer&#8212;what is <em>with</em> those guys? If improving the VM core is going to scare big and slow corporations into waiting ten times (or one hundred times!?) longer than they already do to &#8220;approve&#8221; it, that&#8217;s their damage. Let them run their old apps on their old VMs (secretly pleased to have another excuse to push back) while others enjoy better performance for dynamic languages.</p>
+
+<p>Good for Microsoft for building their brand new runtime mezzanine, but it still seems to run Python <a href='http://vistasmalltalk.wordpress.com/2007/05/17/speed-comparison-of-smalltalk-ironpython-c-and-actionscript/'>about four times slower</a> than ol&#8217; VisualWorks running Smalltalk. Can they ever catch it using a second-tier VM? Does 4x even matter? It will be interesting to see, with some competition from Sun.</p>
+
+<p class='break'> Sometimes it&#8217;s the foundation and not the front porch that needs attention. For the JVM, it&#8217;s that time. The surprising thing is that Sun has the gumption to do it.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='../../../resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id2650">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-5066"><p>Charles Nutter seems to think a DLR-like mechanism for the JVM won&#8217;t add much to performance: <a href='http://headius.blogspot.com/2008/01/langnet-2008-day-1-thoughts.html'>Lang.NET 2008: Day 1 Thoughts</a> (see &#8220;A Solid Base&#8221; heading)</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.codeodor.com"><span class="alias">Sammy Larbi</span></a>
+  				<span>on January 29, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5067"><p>Thanks for that very apropos link! I&#8217;m surprised to see this:</p>
+
+<blockquote>
+<p>The CLR, on the other hand, does not (yet) have the same level of dynamic optimization that the JVM does.</p>
+</blockquote>
+
+<p>And glad to hear this:</p>
+
+<blockquote>
+<p>We need the freedom to make the JVM &#8220;reborn&#8221;. Java is suffering from middle age (or old age, depending on who you ask) so making nontrivial changes to the JVM specification is generally met with stiff resistance. &#8230; I&#8217;ll be damned if I&#8217;m going to let it or the JVM die.</p>
+</blockquote></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on January 29, 2008</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id2651">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id2652" action="../../../index.html" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id2652_hf_0" id="id2652_hf_0" /><input type="hidden" name="wicket:interface" value=":1391:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id2653" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id2654" name="add" value="Add a comment" onclick="wicketShow('id2654--ajax-indicator');var wcall=wicketSubmitFormById('id2652', '../../../?wicket:interface=:1391:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id2654--ajax-indicator');}.bind(this),function() { ;wicketHide('id2654--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id2652')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id2654--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

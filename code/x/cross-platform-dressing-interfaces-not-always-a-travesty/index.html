@@ -1,0 +1,254 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="../../../blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="../../../blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet.css"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Cross-platform dressing not always a travesty</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code.html">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code.html">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id2576" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Cross-platform dressing not always a travesty" width="738" class="title" src="../../../resources/net.databinder.components.RenderedLabel/7a486a53"/><span class="title">Cross-platform dressing not always a travesty</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on December 2, 2008</span></span>
+			<span id="id2577" class="tags">
+					{&nbsp;<span><a href="../../tag/spde/index.html#selected-tag"><span>spde</span></a><span id="id2578">, </span></span><span><a href="../../tag/friday/index.html#selected-tag"><span>friday</span></a><span id="id2579">, </span></span><span><a href="../../tag/swing/index.html#selected-tag"><span>swing</span></a><span id="id257a">, </span></span><span><a href="../../tag/scala/index.html#selected-tag"><span>scala</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p><strong>Friday</strong> is a news reader that is fed by an obscure, non-Google service known as &#8220;NewsGator,&#8221; <a href='../friday-a-feed-reader-for-castaways/index.html'>as explained in last week&#8217;s post</a>. And so many things have happened since then! The technology that drives Friday&#8217;s visuals, <a href='http://processing.org/'>Processing</a>, had a splashy 1.0 release. The Thanksgiving holiday was observed in the United States and we proved once more that our domestic travel infrastructure <em>does not scale</em>. Then on &#8220;Black&#8221; Friday, a Wal-Mart employee was trampled to death in a stampede of discount shoppers. All the while <em>our</em> Friday related these stories with unflappable grace and charm.</p>
+
+<p class='break'> In celebration and exhaustion, let&#8217;s take this opportunity to write an easy post with lots of pictures.</p>
+
+<p class='break' style='text-align: center'> <img style='border:none' src='../../../resources/com.typeturner.Typeturner/image%3Fname=friday-win' alt='Friday on Windows XP' /></p>
+
+<h3 id='platform_swingers'>Platform swingers</h3>
+
+<p>In the opera of Java, the tragicomic figure of Swing is rivaled in pathos only by <a href='https://duke.dev.java.net/images/misc/SwingingDuke.png'>El Duque himself (riding a swing)</a>. Swing was conceived in the midst of an object-oriented resource-based interface revolution, but the toolkit somehow <a href='../tales-from-the-desktop-java-crypt/index.html'>managed to escape the paradigm</a> that would have made it an unmitigated success. Instead, it opted for interface definition in code, which is great for writing <em>Hello World</em> and terrible for <em>Usable Application</em>. Ten years later Swing is popular for internal corporate apps that employees must use, or be fired.</p>
+
+<p>Processing doesn&#8217;t advertise any support for traditional graphical user interface controls, because that is not its bag. The recommended way to do anything so boring is to embed the sketch inside a larger externally coded application, which is great for people that would rather work in an <abbr>IDE</abbr> anyway. But Friday and its Swing setup screen are developed entirely within the <abbr title='Processing Development Environment'>PDE</abbr> (the <a href='../runaway-processing/index.html'>Spde</a> fork of it), because why crash the party with an <abbr>IDE</abbr> for something so simple?</p>
+
+<p class='break' style='text-align: center'> <img style='border:none' src='../../../resources/com.typeturner.Typeturner/image%3Fname=friday-ubuntu' alt='Friday on Ubuntu XP' /></p>
+
+<p class='break'>One useful trick for apps with such a setup screen is to return false for <a href='http://dev.processing.org/reference/core/javadoc/processing/core/PApplet.html#displayable()'><code>displayable</code></a> in the main sketch class, so the sketch window won&#8217;t display until you tell it to. To pop up a separate Swing frame, it&#8217;s just a matter of instantiating the object and setting it to visible. Here is some <a href='http://www.scala-lang.org/docu/files/api/scala/swing$package.html'>scala-swing</a> code to lay out the first three elements of Friday&#8217;s setup frame:</p>
+
+<pre><code>contents = new GridBagPanel {
+  add(new Label(&quot;NewsGator Account&quot;) {
+    font = font.deriveFont(java.awt.Font.BOLD)
+  }, new Constraints {
+    gridwidth = 2
+    anchor = Anchor.West
+    insets = new Insets(0, 0, 30, 0)
+  })
+  add(new Label(&quot;Don’t have an account?&quot;), new Constraints {
+    gridwidth = 2
+    gridy = 1
+    anchor = Anchor.West
+    insets = new Insets(0, 0, 5, 0)
+  })
+  add(new Button(&quot;Sign Up…&quot;) {
+    reactions += {
+      case ButtonClicked(_) =&gt; 
+        link(&quot;http://www.newsgator.com/ngs/order1.aspx&quot;)
+        name_field.requestFocus()
+    }
+  }, new Constraints {
+    gridwidth = 2
+    gridy = 2
+    anchor = Anchor.West
+    insets = new Insets(0, 0, 30, 0)
+  })
+  ...</code></pre>
+
+<p>UGHHHHHH. Did you think that a Scala wrapper would make code-based interfaces breezy and fun? Sorry to disappoint! This is probably nicer than the equivalent in regular Java Swing, but it&#8217;s still pretty annoying. And boy, wasn&#8217;t it fun adjusting each <code>gridy</code> value to mock up different arrangements? (It was not fun.) That process should be done with an interface tool (an &#8220;interface builder&#8221;, one might call it) that produces resource files. <a href='http://www.netbeans.org/features/java/swing.html'>Generating Java code</a> is not the same and is particularly unhelpful in this circumstance where Java is not the language and the the code is not under any <abbr>IDE</abbr>&#8217;s obsessive control. No, an interface descriptor to go in <code>data/</code> along with the fonts and images would be a thousand times better.</p>
+
+<p>Anywho, this code-based layout is actually decent looking, even on practically abandoned Java platforms:</p>
+
+<p class='break' style='text-align: center'> <img style='border: none;' src='../../../resources/com.typeturner.Typeturner/image%3Fname=friday-mac' alt='Friday on Mac OS X' /></p>
+
+<p class='break'> So if you have some hours to kill, yes you can cajole Swing layouts into looking passably native. The problem is not the pixels (although they are not perfect or else <a href='http://www.randelshofer.ch/quaqua/index.html'>Quaqua</a> would not exist). The problem is that tweaking layouts is tedious and most programmers won&#8217;t bother with it, even with a good layout tool. And without one, nobody is willing to sit through the two hundred tweak-compile-run cycles that a typically complicated interface will require to get right.</p>
+
+<p>Don&#8217;t worry though, Friday&#8217;s simple setup screen only required fifteen head-smacking cycles.</p>
+
+<p class='break'> <a href='http://technically.us/friday/'><img alt='Get Friday' src='../../../resources/com.typeturner.Typeturner/image%3Fname=friday-bundle' style='border: none' /></a></p>
+
+<p class='break'> Please download in an orderly fashion.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='../../../resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id257b">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-5958"><p>&#60;rant mode=&#8221;maybetoolong&#8221;&#62;</p>
+
+<p>I would love to do GUI coding with Scala but just looking at a &#8220;Swing Ubuntu&#8221; theme makes me throw up. Wrong font anti-aliasing, no menu shadows, sluggish feel, wrong resizing behaviour. That is the reason why so many people I know hate Java - it just feels alien to the platform.</p>
+
+<p>SWT looks a lot better, and I scalaified it a little but there are no designers for it so it is awkward to use.</p>
+
+<p>I wish there was something as nice as GTK# for JVM/Scala :) But oh wait - GTK looks like Garbage on other platforms. Hrm Qt for Scala maybe? WxWidgets?</p>
+
+<p>There are so many choices but not a single one that looks really convincing to me. So back to Delphi for Windows for VirtualBox and feel like being in the stone age of computer languages - but at least there is a nice gui designer.</p>
+
+<p>&#60;/rant&#62;</p>
+
+<p>Oh nice post btw :)</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.visionarytools.com"><span class="alias">Daniel Lehmann</span></a>
+  				<span>on December 2, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5959"><p>Swing rendering on Ubuntu improved a lot with sun-java6 but I guess it is still not there for discerning eyes (I thought my screenshot looked <em>good</em>!). And without good tools, those quirks are likely just the icing on a sloppy layout cake. My impression is that GTK# and Glade are the closest that free software has come to doing it right, but like you say their output on non-free platforms lags. Still, at least a full solution is <em>possible</em> with that approach. You could very well make customized layout descriptors for targeted platforms, all bound to one executable codebase.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on December 2, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5960"><p>Well your swing screenshots certainly looks better and feels more natural than GTK+ on Windows (like in Gimp).</p>
+
+<p>What do you think about SWT? I tried it a little and thought it did quite well, but I am by no means a Java expert (did mostly Delphi, C# before and fell in love with Scala recently cause I was attracted by the portability and open-sourcyness of the JVM without the ugly Java language). Eclipse is based on SWT and looks fine (except for those ugly tabs ;) ).</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.visionarytools.com"><span class="alias">Daniel Lehmann</span></a>
+  				<span>on December 2, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5961"><p>You can turn off those hideous tabs! (Show traditional tabs, under Appearance.) It is the first thing I do with a new Eclipse configuration. As a mostly Mac user SWT has never been my favorite. It tends too look crammed together on anything but Windows; Swing will at least space things out in accordance with platform norms, as the different setup screenshots show pretty dramatically. As far as I know SWT, like Swing, doesn&#8217;t have any provision for separating layout from code. It&#8217;s the GUI special olympics.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on December 2, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5962"><p>Cool, the tabs look almost good now, thank you!</p>
+
+<p>I understand your concern about SWT, but still your Ubuntu picture looks at me and screams SWING :)</p>
+
+<p>I really don&#8217;t understand why all those toolkits are in such a sorry state. In my dream world there would be a way to &#8220;somehow&#8221; define the rules for the gui layout (like your code but - well - not via code ;) ) and the toolkit should adapt it to the specific UI guidelines. There are of course several platform specialties, for example on Gnome/Ubuntu:</p>
+
+<ul>
+<li>Standard buttons (Close, Ok, Cancel, Apply) should have the system defined icon/glyph</li>
+
+<li>Dialogs should usually not have OK,Cancel,Apply but instead just Close (and possibly revert if there are many settings). All settings apply instantly.</li>
+
+<li>Toolbar settings (Icons only, Icons with text, Text only) are defined system-wide and should be used everywhere.</li>
+</ul>
+
+<p>I am sure there are tons of those rules specifically for MacOS, as it cares more about consistency than any other OS. And for Windows we need theming and glass.</p>
+
+<p>Besides that, my dream ui library has hooks to implement platform specific stuff: tray icons, resizing widgets bla bla ;)</p>
+
+<p>So basically I want a more declarative variant of SWT with a nice UI designer that minimizes platform specific code as far as possible but allows it when necessary.</p>
+
+<p>/me goes to SourceForge and prepares the workspace&#8230; ;)</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.visionarytools.com"><span class="alias">Daniel Lehmann</span></a>
+  				<span>on December 2, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5964"><p>My dream is similar, but with pixel perfect redering lower on the list. (By the way my Ubuntu&#8217;s font settings may be contributing to that image looking foreign; I prefer autohinter over native.) I&#8217;d say the layout binding side of things is actually doable for a free software project, and that a Glade binding for Scala could be awesome. But nailing down rendering glitches across all platforms really is the pits and may never happen without a profit motive.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on December 2, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6225"><p>I think that with recent Nokia move to license QT under GPL we get new great alternative. QT looks good (IMO) on all supported platforms. I&#8217;m not sure the better way would be to use Jambi (QT java version) or get SWT to integrate with QT (kind of cross-platform SWT). So my dream would be: Scala DSL -&gt; SWT -&gt; QT. It would mean nice static API and cross-platform nice looking GUI-s (at least in theory).</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mateusz.F</span></span>
+  				<span>on April 7, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6226"><p>I was thinking that Jambi might be the way out, but trolltech pulled the plug on it right after I first heard of it. It seems like open-source, cross-platform, object-oriented, resource-based interfaces are not meant to be. (Or at least, are not meant to be popular. Libglade could fit the bill, but it&#8217;s not much used outside of c/c# and gnome.)</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on April 7, 2009</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id257c">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id257d" action="../../../index.html" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id257d_hf_0" id="id257d_hf_0" /><input type="hidden" name="wicket:interface" value=":1368:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id257e" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id257f" name="add" value="Add a comment" onclick="wicketShow('id257f--ajax-indicator');var wcall=wicketSubmitFormById('id257d', '../../../?wicket:interface=:1368:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id257f--ajax-indicator');}.bind(this),function() { ;wicketHide('id257f--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id257d')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id257f--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

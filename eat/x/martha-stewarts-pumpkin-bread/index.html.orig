@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Martha Stewart&#039;s pumpkin bread</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id12b" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Martha Stewart's pumpkin bread" width="509" class="title" src="../../../resources/net.databinder.components.RenderedLabel/b3c74a9a"/><span class="title">Martha Stewart&#039;s pumpkin bread</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on January 3, 2008</span></span>
+			<span id="id12c" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Christmas lasted almost a solid month for me this year, with the first gift exchange happening early in December with Nathan before he left for a business trip, and the last with Nathan&#8217;s parents in Georgia over New Year&#8217;s. I&#8217;m exhausted, and I&#8217;m not excited to be back at work, but I&#8217;m thrilled with my beautiful presents! Among them was an item that wouldn&#8217;t fit in the downtown kitchen, but that is well at home here in Harlem.</p>
+<p><img src="http://technically.us/resources/com.typeturner.Typeturner/image?name=mixer" title="mixer" alt="mixer" /></p>
+<p>I thought I wanted the <a href="http://www.cuisinartstandmixer.com">Cuisinart</a>, but that was mainly because I felt as though I had missed the boat with the Kitchen-Aid. I see so many of them that are never used, which must have left me with a weird impression of this particular appliance. But I couldn&#8217;t be happier that this was Mom&#8217;s choice! It&#8217;s small, it&#8217;s powerful, and it&#8217;s already made my baking life easier. I baptized it last night with Martha Stewart&#8217;s pumpkin bread (from my current <a href="http://www.amazon.com/Martha-Stewarts-Baking-Handbook-Stewart/dp/0307236722">favorite baking book</a>). Other than being underbaked by about five minutes (I&#8217;m still getting used to this surprisingly crappy new oven), it&#8217;s good, and it&#8217;s not so sweet that you can&#8217;t have a slice for breakfast, spread with some cream cheese.</p>
+<p><img src="http://technically.us/resources/com.typeturner.Typeturner/image?name=pumpkinbread" title="pumpkinbread" alt="pumpkinbread" /></p>
+<p><strong>Pumpkin bread</strong> (makes two 8.5&#8243; &#215; 4.5&#8243; loaves)</p>
+<ul>
+	<li>3 cups A-P flour</li>
+	<li>2 tsp baking powder</li>
+	<li>2 tsp baking soda</li>
+	<li>2.5 tsp ground cinnamon</li>
+	<li>.5 tsp nutmeg (I&#8217;ve been using fresh nutmeg for about a year now. If you have never tried it, you should.)</li>
+	<li>.25 tsp ground allspice</li>
+	<li>.25 tsp salt</li>
+	<li>2 cups canned pumpkin purée</li>
+	<li>1 cup granulated sugar</li>
+	<li>1 cup packed dark-brown sugar</li>
+	<li>4 large eggs</li>
+	<li>1/4 cup vegetable oil</li>
+	<li>1 2/3 cup buttermilk</li>
+</ul>
+<p>Preheat the oven to 350ºF and coat your pans with butter. Whisk together the flour, baking powder and soda, spices, and salt. In the bowl of an <strong>electric mixer</strong> (yay!) fitted with the paddle, combine the pumpkin and sugars. Mix until well combined, and then add the eggs and oil. Mix until incorporated, scraping down the sides as needed. With the mixer on low, add the flour in two batches, alternating with the buttermilk, and mix until just combined.</p>
+<p>Bake for about an hour, rotating the pans halfway through. A cake tester should come out clean. Cool the pans on a rack for ten minutes, remove the loaves from the pans, and cool completely.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id12d">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-4918"><p>This recipe looks perfect, especially the buttermilk part, it gives the best texture and flavor to breads like this.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.ceresandbacchus.com"><span class="alias">mary</span></a>
+  				<span>on January 4, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4927"><p>That bread looks delicious.  Even though fall is over I&#8217;m still craving pumpkin everything. Can I have a slice?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Emily</span></span>
+  				<span>on January 7, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4931"><p>A Kitchen-Aid mixer is a great present which is going to give you years of happy baking. I can&#8217;t imagine not having one.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://kitchenography.typepad.com"><span class="alias">Julie</span></a>
+  				<span>on January 8, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4972"><p>I like this blog is fantastic, is really good written. Congratulation. Great photos…this looks delicious ! :-)</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.plentyoffood.net"><span class="alias">Sorina</span></a>
+  				<span>on January 15, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5949"><p>We are going to give the pumkin bread a try. Thanks. Chy and Roy Frank Goester</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Chyrell Unruh</span></span>
+  				<span>on November 26, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6495"><p>Going to make your recipe however&#8230;I just want to make sure you have the amount of oil correct&#8230;1/4c for 2 loaves???<br />
+Thanks. looks yummy.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Alexandra</span></span>
+  				<span>on October 7, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6645"><p>Here is a marth recipe</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Pkin bread</span></span>
+  				<span>on January 29, 2011</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id12e">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id12f" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id12f_hf_0" id="id12f_hf_0" /><input type="hidden" name="wicket:interface" value=":69:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id130" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id131" name="add" value="Add a comment" onclick="wicketShow('id131--ajax-indicator');var wcall=wicketSubmitFormById('id12f', '../../../?wicket:interface=:69:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id131--ajax-indicator');}.bind(this),function() { ;wicketHide('id131--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id12f')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id131--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

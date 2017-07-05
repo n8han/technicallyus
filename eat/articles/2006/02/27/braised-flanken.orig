@@ -1,0 +1,189 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Braised flanken</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../eat">
+			
+			<img alt="Eat" src="../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../eat">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id157f" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Braised flanken" width="237" class="title" src="../../resources/net.databinder.components.RenderedLabel/4616c42a"/><span class="title">Braised flanken</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on February 27, 2006</span></span>
+			
+		</span></div>
+		<div><p>If you decide you can&#8217;t resist the combination of ancho chiles, chipotle chiles, coffee, maple syrup, and lime juice, as I couldn&#8217;t, and you decide to braise short ribs or flanken as per Gourmet&#8217;s <a href="http://www.epicurious.com/recipes/recipe_views/views/233545">recipe</a>, let me just make one suggestion:</p>
+
+
+	<p style="float:center"><img src="/pictures/flanken.jpg" alt="" /></p>
+
+
+	<p>Double the liquids called for the in the recipe, or even triple them. You&#8217;ll notice in the above photograph, even though it&#8217;s blurry, that this dish is grease city. I know&#8230;so gross. But when I went to remove the hardened fat after refrigerating this for a day, there was such a small amount of liquid left from the braising that it had <em>all</em> become fat, and removing it would have entailed removing every bit of sauce.</p>
+
+
+	<p>Please note that I halved the recipe but nearly doubled the liquids, adding coffee and water at the beginning, middle, and end of the cooking to prevent it from drying out. My flanken was in one short layer with the braising liquid approaching the top of the meat.</p>
+
+
+	<p>I only make beef dishes when I find a recipe that sounds especially delicious or unique, as this one did. Having such a small amount of liquid took all the appeal out of this dish. The meat was tender but hardly flavorful. The bed of polenta underneath it, which I flavored with maple syrup, was the highlight.</p>
+
+
+	<p>Mommy? You&#8217;re the beef queen. Please advise.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1580">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-1553"><p>Am I correct&#8212;flanken are basically boneless short ribs? If that is so, they are intrinsically a very fatty cut of beef; the fat is part of the fun of eating them! I like my short ribs on the bone, browned and then braised for a long time. I don&#8217;t attempt to remove the grease, just eat the sauce in all its greasy glory.</p>
+<p>I&#8217;m interested in the coffee part of your sauce; I have found that when I&#8217;ve used coffee in anything other than a dessert it seems to impart a bitterness I don&#8217;t like. Was your dish bitter?</p>
+<p>Mommy</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">beckyleeprice@mac.com</span></span>
+  				<span>on February 27, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1554"><p>No bitterness at all, but I couldn&#8217;t taste the coffee.</p>
+<p>Flanken, according to FreshDirect, are tiny, tender beef ribs. They had little bones on them that fell off in the pan, which was kind of cool.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on February 27, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1555"><p>When you think about how fatty pork ribs are it&#8217;s not surprising these would be greasy, too. Even more so, as the trend has been toward leaner pigs and fatter cattle for years now unless you&#8217;re in Tuscany where the steers must have to plunge up and down those mountainous hillsides if the toughness of the steaks is anything to go by. Flavorful, though. You should eat flanken there.</p>
+<p>Mom</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">beckyleeprice@mac.com</span></span>
+  				<span>on February 27, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1556"><p>Good point. I&#8217;ll remember that next time I&#8217;m under the Tuscan sun.</p>
+<p>Mommy, or anyone else, do you ever cook with chiles? I have a bunch of leftover chiles in the house and I don&#8217;t know what to do with them.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on February 27, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1557"><p>Are these dried chiles? If so, they should last a long time, although that reminds me that I have a jar of dried chiles that has been on the shelf since you were a little boy that should probably be emptied! The contents have surely lost their savor&#8230;</p>
+<p>Mommy</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">beckyleeprice@mac.com</span></span>
+  				<span>on February 27, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1558"><p>Mmmmmmmm&#8230;&#8230;.greezy short ribs (gargle and drool)</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Alex</span></span>
+  				<span>on February 27, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1559"><p>Yes, they are dried chiles, except for the chipotle chiles in adobo sauce, which I have in the fridge.</p>
+<p>Yes, Alex, they were greeeezy.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on February 27, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id1581">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id1582" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id1582_hf_0" id="id1582_hf_0" /><input type="hidden" name="wicket:interface" value=":778:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id1583" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id1584" name="add" value="Add a comment" onclick="wicketShow('id1584--ajax-indicator');var wcall=wicketSubmitFormById('id1582', '../../?wicket:interface=:778:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id1584--ajax-indicator');}.bind(this),function() { ;wicketHide('id1584--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id1582')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id1584--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

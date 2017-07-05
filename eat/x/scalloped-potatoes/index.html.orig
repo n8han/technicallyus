@@ -1,0 +1,162 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Scalloped potatoes</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="idd55" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Scalloped potatoes" width="302" class="title" src="../../../resources/net.databinder.components.RenderedLabel/45d28bd5"/><span class="title">Scalloped potatoes</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on February 22, 2006</span></span>
+			<span id="idd56" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>With nothing in the house to eat and various evening plans impeding my FreshDirect order this week, I decided to go rustic tonight and make scalloped potatoes, using a recipe from <a href="http://technically.us/eat/articles/2006/02/07/garlic-and-sapphires-by-ruth-reichl">Ruth Reichl&#8217;s book</a>.</p>
+
+
+	<p style="float:center"><img src="/pictures/scalloped.jpg" alt="" /></p>
+
+
+	<p>n8 was thrilled, since he loves anything that&#8217;s baked and creamy. I served it with a leftover hunk of raisin bread and some crispy bacon. Here&#8217;s how to make really good scalloped potatoes that will please your man:</p>
+
+
+	<p>Preheat the oven to 325ºF. Rub a 9&#215;13&#8221; baking dish, such as Pyrex, with a cut <strong>garlic clove</strong>, then coat it thickly with about a tablespoon of <strong>unsalted butter</strong>. Heat one cup of <strong>milk</strong> and 1.5 cups of <strong>heavy cream</strong> to just short of a boil, add <strong>salt and pepper</strong>, and remove from heat. Cut up about two pounds of <strong>potatoes</strong>, such as Russet or Yukon Gold, into 1/4&#8221; slices, such as you see in the picture, and layer them in the pan. Pour the cream mixture over the potatoes (it should come close to the top of them), and bake for about one and a half hours, or until the potatoes are very soft and browned on top.</p>
+
+
+	<p>Perhaps my mom or grandma has other ideas about scalloped potatoes, and I&#8217;d love to hear them, but I can&#8217;t imagine them being much better than these!</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="idd57">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-1528"><p>A dinner of butter, cream, cheese, potatoes and bacon.  Those were the days!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Carly</span></span>
+  				<span>on February 22, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1529"><p>I usually layer mine with cheese and onions but these look and sound delicious. I just have one question; did you use your new v-slicer to cut the potatoes?</p>
+<p>Mommy</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">beckyleeprice@mac.com</span></span>
+  				<span>on February 22, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1530"><p>Ooh, cheese and onions sound divine. Next time for sure! I wanted to put cheese in but I also wanted to follow Ruth&#8217;s directions.</p>
+<p>I didn&#8217;t use my v-slicer this time but I have used it a few times. It works amazingly well, although the sharpness of it scares me.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on February 22, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1531"><p>I also layer mine with cheese and onions, a tad of flour, salt and pepper.  I add the cold milk then but sometimes they curdle a bit and other times they are fantastic.  Can&#8217;t figure it out, so want to try your recipe. Sounds yummy!  and easier than mine.  Wondering whether to cook with lid on or not.  probably would cook a bit faster with lid on, but would not get crispy on top.  I add a layer of grated cheese last so they get a bit crispy.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">grandma</span></span>
+  				<span>on February 22, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="idd58">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="idd59" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="idd59_hf_0" id="idd59_hf_0" /><input type="hidden" name="wicket:interface" value=":487:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="idd5a" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="idd5b" name="add" value="Add a comment" onclick="wicketShow('idd5b--ajax-indicator');var wcall=wicketSubmitFormById('idd59', '../../../?wicket:interface=:487:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('idd5b--ajax-indicator');}.bind(this),function() { ;wicketHide('idd5b--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('idd59')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="idd5b--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

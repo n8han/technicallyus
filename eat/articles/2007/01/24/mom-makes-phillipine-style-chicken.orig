@@ -1,0 +1,211 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Mom makes Philippine-style chicken</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../eat">
+			
+			<img alt="Eat" src="../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../eat">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id23b" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Mom makes Philippine-style chicken" width="563" class="title" src="../../resources/net.databinder.components.RenderedLabel/58a937aa"/><span class="title">Mom makes Philippine-style chicken</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on January 24, 2007</span></span>
+			<span id="id23c" class="tags">
+					{&nbsp;<span><a href="../../eat/tag/ethnic%20cooking/#selected-tag"><span>ethnic cooking</span></a><span id="id23d">, </span></span><span><a href="../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>I have been in a rut lately in the kitchen, and I blame <a href="http://www.weightwatchers.com/templates/marketing/Landing_1col_nonav.aspx?PageId=1036481">Weight Watchers</a>&#8212;oh, they try to &#8220;jazz things up&#8221; by adding lemon to the ice water and herbs to the green beans, but you and I know we&#8217;re talking about abstaining from everything that makes life worth living, like butter, sugar, cream, bacon, and generous measures of olive oil, not to mention chocolate. And bread! Bread isn&#8217;t on the Weight Watchers diet, although you can save up your &#8220;points&#8221; and eat a slice of whole grain bread every once in awhile, unbuttered.</p>
+
+
+	<p>All this might be worth it if I were losing weight, and I really expected those Spanish pounds to just drop off with just a week or two of frugality, but no! The scale is stubbornly refusing to budge and I&#8217;m getting frustrated and ready to give up and just start buying larger sizes of clothing.</p>
+
+
+	<p>Anyway, tonight&#8217;s dinner was actually both relatively abstemious and really good. I was leafing through Ruth Reichl&#8217;s <em>Gourmet Cookbook</em> looking for something new to try and came across this recipe. I knew my favorite <a href="http://www.mcginnis-sisters.com/">grocery store</a> had whole chicken legs on special this week and I had the other ingredients in my pantry.</p>
+
+
+	<p><strong>Philippine-Style Chicken Adobo</strong></p>
+
+
+	<p style="float:right"><img src="/eat/files/adobo.jpg" alt="" /></p>
+
+
+	<ul>
+	<li>1/2 cup cider vinegar</li>
+		<li>1/4 cup soy sauce</li>
+		<li>1 tablespoon minced garlic</li>
+		<li>2 Turkish bay leaves or 1 California bay leaf</li>
+		<li>1/2 teaspoon ground black pepper</li>
+		<li>4 whole chicken legs, rinsed, patted dry, and cut into drumsticks and thighs</li>
+	</ul>
+
+
+	<p>Stir together vinegar, soy sauce, garlic, bay leaf, and pepper in a bowl, then pour marinade into a sealable plastic bag. (I just put everything into the bag right off the bat and shook it a bit.) Add chicken, seal bag, pressing out air, and turn to coat chicken thoroughly. Put bag in a baking pan and refrigerate, turning occasionally, for 2 hours.</p>
+
+
+	<p>Let chicken stand at room temperature for 45 minutes before baking. Put a rack in the middle of the oven and preheat oven to 425ºF.</p>
+
+
+	<p>Arrange chicken skin side up in one layer in a 13X9 inch baking pan and pour marinade over it. Bake until cooked through, 35-45 minutes. Transfer chicken, skin side up, to a broiler pan. Pour pan juices into a small saucepan.*</p>
+
+
+	<p>Turn oven to broil. Broil chicken about 4 inches from heat until skin is golden and crisp, 5-6 minutes.</p>
+
+
+	<p>While chicken broils, skim fat from pan juices (or *before pouring into saucepan, first pour into fat-skimming measuring cup and let fat rise to top) and bring to boil. Remove from heat and discard bay leaf.</p>
+
+
+	<p>Serve chicken and sauce with rice. Serves 4.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id23e">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3302"><p>My goodness, that grocery store is a long way from my house. Do you go there often? It seems like it&#8217;d be quite a trek.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.metakathryn.com"><span class="alias">Kathryn</span></a>
+  				<span>on January 24, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3303"><p>Hi, Kathryn! The Monroeville store really only takes about 15 minutes to get to, remember, I live in Point Breeze &#8211; it would be longer for you. And yes, I go often; they are way more reasonable than WF or TJ&#8217;s and I <strong>hate</strong> the Giant Eagle. I&#8217;m seriously considering taking Abby&#8217;s (zp&#8217;s) advice and subscribing to a farm box this summer, though.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on January 24, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3304"><p>Dude!  We&#8217;re totally on Weight Watchers too!  That&#8217;s why I haven&#8217;t been posting any recipes (well, that and the fact that there&#8217;s no food in the house b/c there&#8217;s no time to go to the grocery store&#8230;)</p>
+<p>But it&#8217;s hard to find good low-point recipes that are worth posting for non-WW-goers.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://trivialissimo.blogspot.com"><span class="alias">Heath</span></a>
+  				<span>on January 24, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3305"><p>Heath, did you see my <a href="http://technically.us/eat/articles/2007/01/12/mom-makes-chili">chili</a> post on here a couple of weeks ago? I think it was Core-compliant. Also, there&#8217;s another blogger, <a href="http://anapestic.blogspot.com/">Anapestic</a>, who is on WW and often posts Core-type recipes you might want to check out. Granted, not nearly as tasty as those on other blogs, but you can&#8217;t have everything!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on January 24, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3306"><p>That looks delicious, and I am always happy to have additions to my arsenal of recipes that are relatively low in fat.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://kitchenography.typepad.com"><span class="alias">Julie</span></a>
+  				<span>on January 24, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3307"><p>I love chicken adobo! I&#8217;ve been using <a href="http://allrecipes.com/recipe/grilled-chicken-adobo/detail.aspx">this recipe</a> for a couple years now </p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://gezellig-girl.com"><span class="alias">Kristen</span></a>
+  				<span>on January 24, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3308"><p>We&#8217;re not doing Core (yet) &#8211; we&#8217;re doing flex b/c I thought it would leave more room for smaller portions of real food. Which actually has not been the case, as I&#8217;m so hungry (and I get <span class="caps">TONS</span> of points for nursing &#8211; I&#8217;m breastfeeding that kid till he&#8217;s 5 to keep that extra 12 points!) that I eat all my points in normal things like oatmeal and cottage cheese and grilled chicken, then have little room for fun points.</p>
+<p>Drat.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Heath</span></span>
+  				<span>on January 24, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id23f">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id240" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id240_hf_0" id="id240_hf_0" /><input type="hidden" name="wicket:interface" value=":106:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id241" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id242" name="add" value="Add a comment" onclick="wicketShow('id242--ajax-indicator');var wcall=wicketSubmitFormById('id240', '../../?wicket:interface=:106:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id242--ajax-indicator');}.bind(this),function() { ;wicketHide('id242--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id240')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id242--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

@@ -1,0 +1,189 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Trader Joe&#039;s Wine Store</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id723" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Trader Joe's Wine Store" width="379" class="title" src="../../../resources/net.databinder.components.RenderedLabel/877a68a1"/><span class="title">Trader Joe&#039;s Wine Store</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on April 21, 2006</span></span>
+			<span id="id724" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/grocery/#selected-tag"><span>grocery</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>I know I&#8217;ve said some pretty harsh things about <a href="http://technically.us/eat/articles/2006/03/07/trader-joes-a-rant">Trader Joe&#8217;s</a> in the past, and I still stand by everything I said about the &#8220;grocery&#8221; store. I did, however, decide to give the wine store a chance the other night.</p>
+
+
+	<p>I get offended by the main store&#8217;s determination to shrink-wrap everything and completely disconnect human beings from produce, but I can&#8217;t make that argument about the wine store; it&#8217;s just bottles of wine. They have only a couple hundred, and almost all of them are less than $6.</p>
+
+
+	<p>The store is totally cheesy, but if you&#8217;re used to the Hawaiian shirt thing maybe it won&#8217;t bother you. Cheesiness and all, though, I like what they&#8217;re doing with wine. They are making it fun, affordable, and they are encouraging people to drink it without feeling bad, and without getting all stupid and pretentious. There were old ladies in there loading up on dozens of bottles.</p>
+
+
+	<p style="float:left"><img src="/pictures/tjwine.jpg" alt="" /></p>
+
+
+	<p>We bought this <span class="caps">AOC</span> bottle of Bordeaux for $5.99. It tasted okay. I wonder if wine from Bordeaux just isn&#8217;t supposed to cost less than $10, because you can do a lot better for your money than any of the low-end Bordeaux we&#8217;ve tasted. We both got weird hangovers, which isn&#8217;t normal. But I would probably try another few bottles from there. I&#8217;m open to recommendations.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id725">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-1917"><p>Even if we got a T.J.&#8216;s in Pittsburgh they wouldn&#8217;t sell wine due to Pennsylvania&#8217;s ridiculous liquor licensing laws and I don&#8217;t drink anyway, so all of this doesn&#8217;t interest me, but <a href="http://davidlebovitz.com/">David Lebovitz</a> mentions some wonderful chocolate you can get there, Chocovic&#8217;s Ocumare, which he says is the best he has ever tasted. For that reason, the other being to give W.F. some competition, I wish we would get a Trader Joe&#8217;s in Pittsburgh.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on April 21, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1918"><p>Do they only have good unknown wines or can you find the wine that you once said was your favorite in the world &#8220;Mas Gourdou?&#8221;</p>
+<p>Sounds like I&#8217;ll have to go!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Uncle Teddy</span></span>
+  				<span>on April 21, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1919"><p>No Mas Gourdou anywhere in the United States, tragically. They mostly have unknown wines&#8212;I only recognized one or two things. It&#8217;s a good place to stock up on $3 bottles to have for dinner parties.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on April 21, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1920"><p>I&#8217;m worried about these &#8216;old ladies loading up on dozens of bottles&#8217;. Maybe TJ&#8217;s is making it <em>too easy</em> for people to buy wine and not feel bad about it, and too inexpensive! Shouldn&#8217;t they be spending their money on medication or something?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on April 21, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1921"><p>You serve $3 wine at dinner parties??!!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Aunt Sue</span></span>
+  				<span>on April 21, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1922"><p>Hardly anyone can actually tell the difference, in my experience anyway. They&#8217;re happy to have wine at all.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on April 21, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1923"><p>Mom, out here in Palm Springs, CA, believe it or not we don&#8217;t have that much in the way of great grocery shopping, and TJ&#8217;s is considered a shopping Mecca.  I know, I know, it&#8217;s very limited, and yes, the produce is prepackaged, but I just will not live without my Trader Joe&#8217;s.  For us, they have the best selection of cheeses and a decent selection of wine, although we can do as well or better at Costco or Sam&#8217;s.  (Those of you from <span class="caps">NYC</span>, please do not laugh; this is all we have for God&#8217;s sake!)</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Harry</span></span>
+  				<span>on April 21, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1924"><p>Harry, I do find it hard to believe that you don&#8217;t have good grocery shopping in Palm Springs, but never having been there I will take your word for it. Here in Pittsburgh the situation is dire indeed! I would welcome a TJ&#8217;s with open arms, to provide some competition for WF if nothing else. We have one behemoth grocery chain called Giant Eagle and they seem to drive all the others out of business before they even get started. I won&#8217;t shop there just out of principle, aside from the fact that they are a lousy store.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on April 21, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id726">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id727" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id727_hf_0" id="id727_hf_0" /><input type="hidden" name="wicket:interface" value=":273:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id728" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id729" name="add" value="Add a comment" onclick="wicketShow('id729--ajax-indicator');var wcall=wicketSubmitFormById('id727', '../../../?wicket:interface=:273:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id729--ajax-indicator');}.bind(this),function() { ;wicketHide('id729--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id727')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id729--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

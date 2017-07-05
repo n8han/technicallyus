@@ -1,0 +1,1472 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE  html PUBLIC "-//W3C//DTD XHTML 1.1//EN"  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>IconFamily.m</title>
+	<link rel="stylesheet" type="text/css" href="highlight.css"/>
+</head>
+<body>
+<pre></pre><div class="com">// This file has been modified from the IconFamily version .5 source distribution with the additon of the initWithBitmaps method. - Nathan Hamblen
+</div><pre>
+</pre><div class="com">// IconFamily.m
+</div><pre></pre><div class="com">// IconFamily class implementation
+</div><pre></pre><div class="com">// by Troy Stephens, Thomas Schnitzer, David Remahl, Nathan Day and Ben Haller
+</div><pre></pre><div class="com">// version 0.5
+</div><pre></pre><div class="com">//
+</div><pre></pre><div class="com">// Project Home Page:
+</div><pre></pre><div class="com">//   http://homepage.mac.com/troy_stephens/software/objects/IconFamily/
+</div><pre></pre><div class="com">//
+</div><pre></pre><div class="com">// Problems, shortcomings, and uncertainties that I'm aware of are flagged
+</div><pre></pre><div class="com">// with &quot;NOTE:&quot;.  Please address bug reports, bug fixes, suggestions, etc.
+</div><pre></pre><div class="com">// to me at troy_stephens&#64;mac.com
+</div><pre></pre><div class="com">//
+</div><pre></pre><div class="com">// This code is provided as-is, with no warranty, in the hope that it will be
+</div><pre></pre><div class="com">// useful.  However, it appears to work fine on Mac OS X 10.1.5 and 10.2. :-)
+</div><pre>
+<span class="dir">#import </span><span class="dstr">&quot;IconFamily.h&quot;</span><span class="dir">
+</span><span class="dir">#import </span><span class="dstr">&quot;NSString+CarbonFSSpecCreation.h&quot;</span><span class="dir">
+</span>
+&#64;interface IconFamily (Internals)
+
++ (NSImage*) resampleImage:(NSImage*)image toIconWidth:(<span class="typ">int</span>)width usingImageInterpolation:(NSImageInterpolation)imageInterpolation;
+
++ (Handle) get32BitDataFromBitmapImageRep:(NSBitmapImageRep*)bitmapImageRep requiredPixelSize:(<span class="typ">int</span>)requiredPixelSize;
+
++ (Handle) get8BitDataFromBitmapImageRep:(NSBitmapImageRep*)bitmapImageRep requiredPixelSize:(<span class="typ">int</span>)requiredPixelSize;
+
++ (Handle) get8BitMaskFromBitmapImageRep:(NSBitmapImageRep*)bitmapImageRep requiredPixelSize:(<span class="typ">int</span>)requiredPixelSize;
+
++ (Handle) get1BitMaskFromBitmapImageRep:(NSBitmapImageRep*)bitmapImageRep requiredPixelSize:(<span class="typ">int</span>)requiredPixelSize;
+
+- (BOOL) addResourceType:(OSType)type asResID:(<span class="typ">int</span>)resID;
+
+&#64;end
+
+&#64;implementation IconFamily
+
++ (IconFamily*) iconFamily
+{
+    <span class="key">return </span>[[[IconFamily alloc] init] autorelease];
+}
+
++ (IconFamily*) iconFamilyWithContentsOfFile:(NSString*)path
+{
+    <span class="key">return </span>[[[IconFamily alloc] initWithContentsOfFile:path] autorelease];
+}
+
++ (IconFamily*) iconFamilyWithIconOfFile:(NSString*)path
+{
+    <span class="key">return </span>[[[IconFamily alloc] initWithIconOfFile:path] autorelease];
+}
+
++ (IconFamily*) iconFamilyWithIconFamilyHandle:(IconFamilyHandle)hNewIconFamily
+{
+    <span class="key">return </span>[[[IconFamily alloc] initWithIconFamilyHandle:hNewIconFamily] autorelease];
+}
+
++ (IconFamily*) iconFamilyWithSystemIcon:(<span class="typ">int</span>)fourByteCode
+{
+    <span class="key">return </span>[[[IconFamily alloc] initWithSystemIcon:fourByteCode] autorelease];
+}
+
++ (IconFamily*) iconFamilyWithThumbnailsOfImage:(NSImage*)image
+{
+    <span class="key">return </span>[[[IconFamily alloc] initWithThumbnailsOfImage:image] autorelease];
+}
+
++ (IconFamily*) iconFamilyWithThumbnailsOfImage:(NSImage*)image usingImageInterpolation:(NSImageInterpolation)imageInterpolation
+{
+    <span class="key">return </span>[[[IconFamily alloc] initWithThumbnailsOfImage:image usingImageInterpolation:imageInterpolation] autorelease];
+}
+
+</pre><div class="com">// This is IconFamily's designated initializer.  It creates a new IconFamily that initially has no elements.
+</div><pre></pre><div class="com">//
+</div><pre></pre><div class="com">// The proper way to do this is to simply allocate a zero-sized handle (not to be confused with an empty handle) and assign it to hIconFamily.  This technique works on Mac OS X 10.2 as well as on 10.0.x and 10.1.x.  Our previous technique of allocating an IconFamily struct with a resourceSize of 0 no longer works as of Mac OS X 10.2.
+</div><pre>- init
+{
+    self = [super init];
+    <span class="key">if </span>(self) {
+        hIconFamily = (IconFamilyHandle) NewHandle( <span class="num">0 </span>);
+        <span class="key">if </span>(hIconFamily == NULL) {
+            [self autorelease];
+            <span class="key">return </span>nil;
+        }
+    }
+    <span class="key">return </span>self;
+}
+
+- initWithContentsOfFile:(NSString*)path
+{
+    FSSpec fsSpec;
+    OSErr result;
+
+    self = [self init];
+    <span class="key">if </span>(self) {
+        <span class="key">if </span>(hIconFamily) {
+            DisposeHandle( (Handle)hIconFamily );
+            hIconFamily = NULL;
+        }
+    <span class="key">if </span>(![path getFSSpec:&amp;fsSpec createFileIfNecessary:NO]) {
+      [self autorelease];
+      <span class="key">return </span>nil;
+    }
+    result = ReadIconFile( &amp;fsSpec, &amp;hIconFamily );
+    <span class="key">if </span>(result != noErr) {
+      [self autorelease];
+      <span class="key">return </span>nil;
+    }
+    }
+    <span class="key">return </span>self;
+}
+
+- initWithIconFamilyHandle:(IconFamilyHandle)hNewIconFamily
+{
+    self = [self init];
+    <span class="key">if </span>(self) {
+        <span class="key">if </span>(hIconFamily) {
+            DisposeHandle( (Handle)hIconFamily );
+            hIconFamily = NULL;
+        }
+        </pre><div class="com">// NOTE: Do we have to somehow &quot;retain&quot; the handle
+</div><pre>        </pre><div class="com">//       (increment its reference count)?
+</div><pre>        hIconFamily = hNewIconFamily;
+    }
+    <span class="key">return </span>self;
+}
+
+- initWithIconOfFile:(NSString*)path
+{
+    IconRef  iconRef;
+    OSErr  result;
+    SInt16  label;
+    FSSpec  fileSpec;
+
+    self = [self init];
+    <span class="key">if </span>(self)
+    {
+        <span class="key">if </span>(hIconFamily)
+        {
+            DisposeHandle( (Handle)hIconFamily );
+            hIconFamily = NULL;
+        }
+
+        <span class="key">if</span>( ![path getFSSpec:&amp;fileSpec createFileIfNecessary:NO] )
+        {
+            [self autorelease];
+            <span class="key">return </span>nil;
+        }
+
+        result = GetIconRefFromFile(
+                                    &amp;fileSpec,
+                                    &amp;iconRef,
+                                    &amp;label );
+
+        <span class="key">if </span>(result != noErr)
+        {
+            [self autorelease];
+            <span class="key">return </span>nil;
+        }
+
+        result = IconRefToIconFamily(
+                                     iconRef,
+                                     kSelectorAllAvailableData,
+                                     &amp;hIconFamily );
+
+        <span class="key">if </span>(result != noErr || !hIconFamily)
+        {
+            [self autorelease];
+            <span class="key">return </span>nil;
+        }
+
+        ReleaseIconRef( iconRef );
+    }
+    <span class="key">return </span>self;
+}
+
+- initWithSystemIcon:(<span class="typ">int</span>)fourByteCode
+{
+    IconRef  iconRef;
+    OSErr  result;
+
+    self = [self init];
+    <span class="key">if </span>(self)
+    {
+        <span class="key">if </span>(hIconFamily)
+        {
+            DisposeHandle( (Handle)hIconFamily );
+            hIconFamily = NULL;
+        }
+
+        result = GetIconRef(kOnSystemDisk, kSystemIconsCreator, fourByteCode, &amp;iconRef);
+
+        <span class="key">if </span>(result != noErr)
+        {
+            [self autorelease];
+            <span class="key">return </span>nil;
+        }
+
+        result = IconRefToIconFamily(
+                                     iconRef,
+                                     kSelectorAllAvailableData,
+                                     &amp;hIconFamily );
+
+        <span class="key">if </span>(result != noErr || !hIconFamily)
+        {
+            [self autorelease];
+            <span class="key">return </span>nil;
+        }
+
+        ReleaseIconRef( iconRef );
+    }
+    <span class="key">return </span>self;
+}
+
+- initWithThumbnailsOfImage:(NSImage*)image
+{
+    </pre><div class="com">// The default is to use a high degree of antialiasing, producing a smooth image.
+</div><pre>    <span class="key">return </span>[self initWithThumbnailsOfImage:image usingImageInterpolation:NSImageInterpolationHigh];
+}
+
+- initWithThumbnailsOfImage:(NSImage*)image usingImageInterpolation:(NSImageInterpolation)imageInterpolation
+{
+    NSImage* iconImage128x128;
+    NSImage* iconImage32x32;
+    NSImage* iconImage16x16;
+    NSBitmapImageRep* iconBitmap128x128;
+    NSBitmapImageRep* iconBitmap32x32;
+    NSBitmapImageRep* iconBitmap16x16;
+    NSImage* bitmappedIconImage128x128;
+
+    </pre><div class="com">// Start with a new, empty IconFamily.
+</div><pre>    self = [self init];
+    <span class="key">if </span>(self == nil)
+        <span class="key">return </span>nil;
+
+    </pre><div class="com">// Resample the given image to create a 128x128 pixel, 32-bit RGBA
+</div><pre>    </pre><div class="com">// version, and use that as our &quot;thumbnail&quot; (128x128) icon and mask.
+</div><pre>    </pre><div class="com">//
+</div><pre>    </pre><div class="com">// Our +resampleImage:toIconWidth:... method, in its present form,
+</div><pre>    </pre><div class="com">// returns an NSImage that contains an NSCacheImageRep, rather than
+</div><pre>    </pre><div class="com">// an NSBitmapImageRep.  We convert to an NSBitmapImageRep, so that
+</div><pre>  </pre><div class="com">// our methods can scan the image data, using initWithFocusedViewRect:.
+</div><pre>    iconImage128x128 = [IconFamily resampleImage:image toIconWidth:<span class="num">128 </span>usingImageInterpolation:imageInterpolation];
+  [iconImage128x128 lockFocus];
+  iconBitmap128x128 = [[NSBitmapImageRep alloc] initWithFocusedViewRect:NSMakeRect(<span class="num">0</span>, <span class="num">0</span>, <span class="num">128</span>, <span class="num">128</span>)];
+  [iconImage128x128 unlockFocus];
+    <span class="key">if </span>(iconBitmap128x128) {
+        [self setIconFamilyElement:kThumbnail32BitData fromBitmapImageRep:iconBitmap128x128];
+        [self setIconFamilyElement:kThumbnail8BitMask  fromBitmapImageRep:iconBitmap128x128];
+    }
+
+    </pre><div class="com">// Create an NSImage with the iconBitmap128x128 NSBitmapImageRep, that we
+</div><pre>    </pre><div class="com">// can resample to create the smaller icon family elements.  (This is
+</div><pre>    </pre><div class="com">// most likely more efficient than resampling from the original image again,
+</div><pre>    </pre><div class="com">// particularly if it is large.  It produces a slightly different result, but
+</div><pre>    </pre><div class="com">// the difference is minor and should not be objectionable...)
+</div><pre>    bitmappedIconImage128x128 = [[NSImage alloc] initWithSize:NSMakeSize(<span class="num">128</span>,<span class="num">128</span>)];
+    [bitmappedIconImage128x128 addRepresentation:iconBitmap128x128];
+
+    </pre><div class="com">// Resample the 128x128 image to create a 32x32 pixel, 32-bit RGBA version,
+</div><pre>    </pre><div class="com">// and use that as our &quot;large&quot; (32x32) icon and 8-bit mask.
+</div><pre>    iconImage32x32 = [IconFamily resampleImage:bitmappedIconImage128x128 toIconWidth:<span class="num">32 </span>usingImageInterpolation:imageInterpolation];
+  [iconImage32x32 lockFocus];
+  iconBitmap32x32 = [[NSBitmapImageRep alloc] initWithFocusedViewRect:NSMakeRect(<span class="num">0</span>, <span class="num">0</span>, <span class="num">32</span>, <span class="num">32</span>)];
+  [iconImage32x32 unlockFocus];
+    <span class="key">if </span>(iconBitmap32x32) {
+        [self setIconFamilyElement:kLarge32BitData fromBitmapImageRep:iconBitmap32x32];
+        [self setIconFamilyElement:kLarge8BitData fromBitmapImageRep:iconBitmap32x32];
+        [self setIconFamilyElement:kLarge8BitMask fromBitmapImageRep:iconBitmap32x32];
+        [self setIconFamilyElement:kLarge1BitMask fromBitmapImageRep:iconBitmap32x32];
+    }
+
+    </pre><div class="com">// Resample the 128x128 image to create a 16x16 pixel, 32-bit RGBA version,
+</div><pre>    </pre><div class="com">// and use that as our &quot;small&quot; (16x16) icon and 8-bit mask.
+</div><pre>    iconImage16x16 = [IconFamily resampleImage:bitmappedIconImage128x128 toIconWidth:<span class="num">16 </span>usingImageInterpolation:imageInterpolation];
+  [iconImage16x16 lockFocus];
+  iconBitmap16x16 = [[NSBitmapImageRep alloc] initWithFocusedViewRect:NSMakeRect(<span class="num">0</span>, <span class="num">0</span>, <span class="num">16</span>, <span class="num">16</span>)];
+  [iconImage16x16 unlockFocus];
+    <span class="key">if </span>(iconBitmap16x16) {
+        [self setIconFamilyElement:kSmall32BitData fromBitmapImageRep:iconBitmap16x16];
+        [self setIconFamilyElement:kSmall8BitData fromBitmapImageRep:iconBitmap16x16];
+        [self setIconFamilyElement:kSmall8BitMask fromBitmapImageRep:iconBitmap16x16];
+        [self setIconFamilyElement:kSmall1BitMask fromBitmapImageRep:iconBitmap16x16];
+    }
+
+    </pre><div class="com">// Release all of the images that we created and no longer need.
+</div><pre>    [bitmappedIconImage128x128 release];
+    [iconBitmap128x128 release];
+    [iconBitmap32x32 release];
+    [iconBitmap16x16 release];
+
+    </pre><div class="com">// Return the new icon family!
+</div><pre>    <span class="key">return </span>self;
+}
+
+</pre><div class="com">// Added by Nathan Hamblen for support of small icons that are not the same representation
+</div><pre></pre><div class="com">// as large ones. The given bitmaps must have 128x128, 32x32, and 16x16 sizes.
+</div><pre>- initWithBitmaps:(NSArray *)bitmaps
+{
+  NSEnumerator *reps = [bitmaps objectEnumerator];
+  NSBitmapImageRep *currRep;
+
+  <span class="typ">unsigned long </span>datakeys128[<span class="num">4</span>] = {kThumbnail32BitData, kThumbnail8BitMask, (<span class="typ">unsigned long</span>)<span class="num">0</span>, (<span class="typ">unsigned long</span>)<span class="num">0</span>},
+    datakeys32[<span class="num">4</span>] = {kLarge32BitData, kLarge8BitData, kLarge8BitMask, kLarge1BitMask},
+    datakeys16[<span class="num">4</span>] = {kSmall32BitData, kSmall8BitData, kSmall8BitMask, kSmall1BitMask};
+  <span class="typ">unsigned long </span>*datakeys;
+
+  <span class="typ">unsigned short </span>i;
+
+  </pre><div class="com">// Start with a new, empty IconFamily.
+</div><pre>  self = [self init];
+  <span class="key">if </span>(self == nil)
+    <span class="key">return </span>nil;
+
+  <span class="key">while </span>(currRep = [reps nextObject])
+  {
+    <span class="key">switch </span>([currRep pixelsWide])
+    {
+      <span class="key">case </span><span class="num">128</span>:
+        datakeys = datakeys128;
+        <span class="key">break</span>;
+      <span class="key">case </span><span class="num">32</span>:
+        datakeys = datakeys32;
+        <span class="key">break</span>;
+      <span class="key">case </span><span class="num">16</span>:
+        datakeys = datakeys16;
+        <span class="key">break</span>;
+      <span class="key">default</span>:
+        <span class="key">continue</span>;
+    }
+    <span class="key">for </span>(i=<span class="num">0</span>; i&lt;<span class="num">4</span>; i++)
+      <span class="key">if </span>(datakeys[i] != <span class="num">0</span>)
+        [self setIconFamilyElement:datakeys[i] fromBitmapImageRep:currRep];
+  }
+  <span class="key">return </span>self;
+}
+
+- (<span class="typ">void</span>) dealloc
+{
+    DisposeHandle( (Handle)hIconFamily );
+    [super dealloc];
+}
+
+- (NSBitmapImageRep*) bitmapImageRepWithAlphaForIconFamilyElement:(OSType)elementType;
+{
+    NSBitmapImageRep* bitmapImageRep;
+    <span class="typ">int </span>pixelsWide;
+    Handle hRawBitmapData;
+    Handle hRawMaskData;
+    OSType maskElementType;
+    OSErr result;
+    <span class="typ">unsigned long</span>* pRawBitmapData;
+    <span class="typ">unsigned long</span>* pRawBitmapDataEnd;
+    <span class="typ">unsigned char</span>* pRawMaskData;
+    <span class="typ">unsigned char</span>* pBitmapImageRepBitmapData;
+
+    </pre><div class="com">// Make sure elementType is a valid type that we know how to handle, and
+</div><pre>    </pre><div class="com">// figure out the dimensions and bit depth of the bitmap for that type.
+</div><pre>    <span class="key">switch </span>(elementType) {
+  </pre><div class="com">// 'it32' 128x128 32-bit RGB image
+</div><pre>  <span class="key">case </span>kThumbnail32BitData:
+    maskElementType = kThumbnail8BitMask;
+    pixelsWide = <span class="num">128</span>;
+      <span class="key">break</span>;
+
+  </pre><div class="com">// 'il32' 32x32 32-bit RGB image
+</div><pre>  <span class="key">case </span>kLarge32BitData:
+    maskElementType = kLarge8BitMask;
+    pixelsWide = <span class="num">32</span>;
+      <span class="key">break</span>;
+
+  </pre><div class="com">// 'is32' 16x16 32-bit RGB image
+</div><pre>  <span class="key">case </span>kSmall32BitData:
+    maskElementType = kSmall8BitMask;
+    pixelsWide = <span class="num">16</span>;
+      <span class="key">break</span>;
+
+  <span class="key">default</span>:
+      <span class="key">return </span>nil;
+    }
+
+    </pre><div class="com">// Get the raw, uncompressed bitmap data for the requested element.
+</div><pre>    hRawBitmapData = NewHandle( pixelsWide * pixelsWide * <span class="num">4 </span>);
+    result = GetIconFamilyData( hIconFamily, elementType, hRawBitmapData );
+    <span class="key">if </span>(result != noErr) {
+        DisposeHandle( hRawBitmapData );
+        <span class="key">return </span>nil;
+    }
+
+    </pre><div class="com">// Get the corresponding raw, uncompressed 8-bit mask data.
+</div><pre>    hRawMaskData = NewHandle( pixelsWide * pixelsWide );
+    result = GetIconFamilyData( hIconFamily, maskElementType, hRawMaskData );
+    <span class="key">if </span>(result != noErr) {
+        DisposeHandle( hRawMaskData );
+        hRawMaskData = NULL;
+    }
+
+    </pre><div class="com">// The retrieved raw bitmap data is stored at 32 bits per pixel: 3 bytes
+</div><pre>    </pre><div class="com">// for the RGB color of each pixel, plus an extra unused byte.  We can
+</div><pre>    </pre><div class="com">// therefore fold the mask data into the color data in-place (though
+</div><pre>    </pre><div class="com">// getting the proper byte ordering requires some bit-shifting).
+</div><pre>    HLock( hRawBitmapData );
+    pRawBitmapData = (<span class="typ">unsigned long</span>*) *hRawBitmapData;
+    pRawBitmapDataEnd = pRawBitmapData + pixelsWide * pixelsWide;
+    <span class="key">if </span>(hRawMaskData) {
+        HLock( hRawMaskData );
+        pRawMaskData = *hRawMaskData;
+        <span class="key">while </span>(pRawBitmapData &lt; pRawBitmapDataEnd)
+            *pRawBitmapData++ = (*pRawBitmapData &lt;&lt; <span class="num">8</span>) | *pRawMaskData++;
+        HUnlock( hRawMaskData );
+    } <span class="key">else </span>{
+        <span class="key">while </span>(pRawBitmapData &lt; pRawBitmapDataEnd)
+            *pRawBitmapData++ = (*pRawBitmapData &lt;&lt; <span class="num">8</span>) | <span class="num">0xff</span>;
+    }
+
+    </pre><div class="com">// Create a new NSBitmapImageRep with the given bitmap data.  Note that
+</div><pre>    </pre><div class="com">// when creating the NSBitmapImageRep we pass in NULL for the &quot;planes&quot;
+</div><pre>    </pre><div class="com">// parameter.  This causes the new NSBitmapImageRep to allocate its own
+</div><pre>    </pre><div class="com">// buffer for the bitmap data (which it will own and release when the
+</div><pre>    </pre><div class="com">// NSBitmapImageRep is released), rather than referencing the bitmap
+</div><pre>    </pre><div class="com">// data we pass in (which will soon disappear when we call
+</div><pre>    </pre><div class="com">// DisposeHandle() below!).  (See the NSBitmapImageRep documentation for
+</div><pre>    </pre><div class="com">// the -initWithBitmapDataPlanes:... method, where this is explained.)
+</div><pre>    </pre><div class="com">//
+</div><pre>    </pre><div class="com">// Once we have the new NSBitmapImageRep, we get a pointer to its
+</div><pre>    </pre><div class="com">// bitmapData and copy our bitmap data in.
+</div><pre>    bitmapImageRep = [[[NSBitmapImageRep alloc]
+        initWithBitmapDataPlanes:NULL
+                      pixelsWide:pixelsWide
+                      pixelsHigh:pixelsWide
+                   bitsPerSample:<span class="num">8
+                 </span>samplesPerPixel:<span class="num">4
+                        </span>hasAlpha:YES
+                        isPlanar:NO
+                  colorSpaceName:NSDeviceRGBColorSpace </pre><div class="com">// NOTE: is this right?
+</div><pre>                     bytesPerRow:<span class="num">0
+                    </span>bitsPerPixel:<span class="num">0</span>] autorelease];
+    pBitmapImageRepBitmapData = [bitmapImageRep bitmapData];
+    <span class="key">if </span>(pBitmapImageRepBitmapData) {
+        memcpy( pBitmapImageRepBitmapData, *hRawBitmapData,
+                pixelsWide * pixelsWide * <span class="num">4 </span>);
+    }
+    HUnlock( hRawBitmapData );
+
+    </pre><div class="com">// Free the retrieved raw data.
+</div><pre>    DisposeHandle( hRawBitmapData );
+    <span class="key">if </span>(hRawMaskData)
+        DisposeHandle( hRawMaskData );
+
+    </pre><div class="com">// Return nil if the NSBitmapImageRep didn't give us a buffer to copy into.
+</div><pre>    <span class="key">if </span>(pBitmapImageRepBitmapData == NULL)
+        <span class="key">return </span>nil;
+
+    </pre><div class="com">// Return the new NSBitmapImageRep.
+</div><pre>    <span class="key">return </span>bitmapImageRep;
+}
+
+- (NSImage*) imageWithAllReps
+{
+    NSImage* image = NULL;
+    image = [[[NSImage alloc] initWithData:[NSData dataWithBytes:*hIconFamily length:GetHandleSize((Handle)hIconFamily)]] autorelease];
+
+    <span class="key">return </span>image;
+
+    </pre><div class="com">//investigate optimisations (dataWithBytesNoCopy:length: for example...)
+</div><pre>}
+
+- (BOOL) setIconFamilyElement:(OSType)elementType fromBitmapImageRep:(NSBitmapImageRep*)bitmapImageRep
+{
+    Handle hRawData = NULL;
+    OSErr result;
+
+    <span class="key">switch </span>(elementType) {
+  </pre><div class="com">// 'it32' 128x128 32-bit RGB image
+</div><pre>  <span class="key">case </span>kThumbnail32BitData:
+      hRawData = [IconFamily get32BitDataFromBitmapImageRep:bitmapImageRep requiredPixelSize:<span class="num">128</span>];
+      <span class="key">break</span>;
+
+  </pre><div class="com">// 't8mk' 128x128 8-bit alpha mask
+</div><pre>  <span class="key">case </span>kThumbnail8BitMask:
+      hRawData = [IconFamily get8BitMaskFromBitmapImageRep:bitmapImageRep requiredPixelSize:<span class="num">128</span>];
+      <span class="key">break</span>;
+
+  </pre><div class="com">// 'il32' 32x32 32-bit RGB image
+</div><pre>  <span class="key">case </span>kLarge32BitData:
+      hRawData = [IconFamily get32BitDataFromBitmapImageRep:bitmapImageRep requiredPixelSize:<span class="num">32</span>];
+      <span class="key">break</span>;
+
+  </pre><div class="com">// 'l8mk' 32x32 8-bit alpha mask
+</div><pre>  <span class="key">case </span>kLarge8BitMask:
+      hRawData = [IconFamily get8BitMaskFromBitmapImageRep:bitmapImageRep requiredPixelSize:<span class="num">32</span>];
+      <span class="key">break</span>;
+
+  </pre><div class="com">// 'ICN#' 32x32 1-bit alpha mask
+</div><pre>  <span class="key">case </span>kLarge1BitMask:
+      hRawData = [IconFamily get1BitMaskFromBitmapImageRep:bitmapImageRep requiredPixelSize:<span class="num">32</span>];
+      <span class="key">break</span>;
+
+  </pre><div class="com">// 'icl8' 32x32 8-bit indexed image data
+</div><pre>  <span class="key">case </span>kLarge8BitData:
+    hRawData = [IconFamily get8BitDataFromBitmapImageRep:bitmapImageRep requiredPixelSize:<span class="num">32</span>];
+    <span class="key">break</span>;
+
+  </pre><div class="com">// 'is32' 16x16 32-bit RGB image
+</div><pre>  <span class="key">case </span>kSmall32BitData:
+    hRawData = [IconFamily get32BitDataFromBitmapImageRep:bitmapImageRep requiredPixelSize:<span class="num">16</span>];
+    <span class="key">break</span>;
+
+  </pre><div class="com">// 's8mk' 16x16 8-bit alpha mask
+</div><pre>  <span class="key">case </span>kSmall8BitMask:
+      hRawData = [IconFamily get8BitMaskFromBitmapImageRep:bitmapImageRep requiredPixelSize:<span class="num">16</span>];
+      <span class="key">break</span>;
+
+  </pre><div class="com">// 'ics#' 16x16 1-bit alpha mask
+</div><pre>  <span class="key">case </span>kSmall1BitMask:
+      hRawData = [IconFamily get1BitMaskFromBitmapImageRep:bitmapImageRep requiredPixelSize:<span class="num">16</span>];
+      <span class="key">break</span>;
+
+  </pre><div class="com">// 'ics8' 16x16 8-bit indexed image data
+</div><pre>  <span class="key">case </span>kSmall8BitData:
+    hRawData = [IconFamily get8BitDataFromBitmapImageRep:bitmapImageRep requiredPixelSize:<span class="num">16</span>];
+    <span class="key">break</span>;
+
+  <span class="key">default</span>:
+      <span class="key">return </span>NO;
+    }
+
+  </pre><div class="com">// NSLog(&#64;&quot;setIconFamilyElement:%&#64; fromBitmapImageRep:%&#64; generated handle %p of size %d&quot;, NSFileTypeForHFSTypeCode(elementType), bitmapImageRep, hRawData, GetHandleSize(hRawData));
+</div><pre>
+    <span class="key">if </span>(hRawData == NULL)
+  {
+    NSLog(&#64;<span class="str">&quot;Null data returned to setIconFamilyElement:fromBitmapImageRep:&quot;</span>);
+    <span class="key">return </span>NO;
+  }
+
+    result = SetIconFamilyData( hIconFamily, elementType, hRawData );
+    DisposeHandle( hRawData );
+
+    <span class="key">if </span>(result != noErr)
+  {
+    NSLog(&#64;<span class="str">&quot;SetIconFamilyData() returned error %d&quot;</span>, result);
+    <span class="key">return </span>NO;
+  }
+
+    <span class="key">return </span>YES;
+}
+
+- (BOOL) setAsCustomIconForFile:(NSString*)path
+{
+    <span class="key">return</span>( [self setAsCustomIconForFile:path withCompatibility:NO] );
+}
+
+- (BOOL) setAsCustomIconForFile:(NSString*)path withCompatibility:(BOOL)compat
+{
+    FSSpec targetFileFSSpec;
+    FSRef targetFileFSRef;
+    FSRef parentDirectoryFSRef;
+    SInt16 file;
+    OSErr result;
+    FInfo finderInfo;
+    Handle hExistingCustomIcon;
+    Handle hIconFamilyCopy;
+  NSDictionary *fileAttributes;
+  OSType existingType = <span class="str">'????'</span>, existingCreator = <span class="str">'????'</span>;
+
+    </pre><div class="com">// Get an FSRef and an FSSpec for the target file, and an FSRef for its parent directory that we can use in the FNNotify() call below.
+</div><pre>    <span class="key">if </span>(![path getFSRef:&amp;targetFileFSRef createFileIfNecessary:NO])
+    <span class="key">return </span>NO;
+    result = FSGetCatalogInfo( &amp;targetFileFSRef, kFSCatInfoNone, NULL, NULL, &amp;targetFileFSSpec, &amp;parentDirectoryFSRef );
+    <span class="key">if </span>(result != noErr)
+        <span class="key">return </span>NO;
+
+    </pre><div class="com">// Get the file's type and creator codes.
+</div><pre>  fileAttributes = [[NSFileManager defaultManager] fileAttributesAtPath:path traverseLink:NO];
+  <span class="key">if </span>(fileAttributes)
+  {
+    existingType = [fileAttributes fileHFSTypeCode];
+    existingCreator = [fileAttributes fileHFSCreatorCode];
+    }
+
+    </pre><div class="com">// Make sure the file has a resource fork that we can open.  (Although
+</div><pre>    </pre><div class="com">// this sounds like it would clobber an existing resource fork, the Carbon
+</div><pre>    </pre><div class="com">// Resource Manager docs for this function say that's not the case.  If
+</div><pre>    </pre><div class="com">// the file already has a resource fork, we receive a result code of
+</div><pre>    </pre><div class="com">// dupFNErr, which is not really an error per se, but just a notification
+</div><pre>    </pre><div class="com">// to us that creating a new resource fork for the file was not necessary.)
+</div><pre>    FSpCreateResFile( &amp;targetFileFSSpec, existingCreator, existingType, smRoman );
+    result = ResError();
+    <span class="key">if </span>(!(result == noErr || result == dupFNErr))
+      <span class="key">return </span>NO;
+
+    </pre><div class="com">// Open the file's resource fork.
+</div><pre>    file = FSpOpenResFile( &amp;targetFileFSSpec, fsRdWrPerm );
+    <span class="key">if </span>(file == <span class="num">-1</span>)
+    <span class="key">return </span>NO;
+
+    </pre><div class="com">// Make a copy of the icon family data to pass to AddResource().
+</div><pre>    </pre><div class="com">// (AddResource() takes ownership of the handle we pass in; after the
+</div><pre>    </pre><div class="com">// CloseResFile() call its master pointer will be set to 0xffffffff.
+</div><pre>    </pre><div class="com">// We want to keep the icon family data, so we make a copy.)
+</div><pre>    </pre><div class="com">// HandToHand() returns the handle of the copy in hIconFamily.
+</div><pre>    hIconFamilyCopy = (Handle) hIconFamily;
+    result = HandToHand( &amp;hIconFamilyCopy );
+    <span class="key">if </span>(result != noErr) {
+        CloseResFile( file );
+        <span class="key">return </span>NO;
+    }
+
+    </pre><div class="com">// Remove the file's existing kCustomIconResource of type kIconFamilyType
+</div><pre>    </pre><div class="com">// (if any).
+</div><pre>    hExistingCustomIcon = GetResource( kIconFamilyType,  kCustomIconResource);
+    <span class="key">if</span>( hExistingCustomIcon )
+        RemoveResource( hExistingCustomIcon );
+
+    </pre><div class="com">// Now add our icon family as the file's new custom icon.
+</div><pre>    AddResource( (Handle)hIconFamilyCopy, kIconFamilyType,
+                 kCustomIconResource, <span class="str">&quot;</span><span class="esc">\p</span><span class="str">&quot;</span>);
+
+    <span class="key">if </span>(ResError() != noErr) {
+        CloseResFile( file );
+        <span class="key">return </span>NO;
+    }
+
+    <span class="key">if</span>( compat )
+    {
+        [self addResourceType:kLarge8BitData asResID:kCustomIconResource];
+        [self addResourceType:kLarge1BitMask asResID:kCustomIconResource];
+        [self addResourceType:kSmall8BitData asResID:kCustomIconResource];
+        [self addResourceType:kSmall1BitMask asResID:kCustomIconResource];
+    }
+
+    </pre><div class="com">// Close the file's resource fork, flushing the resource map and new icon
+</div><pre>    </pre><div class="com">// data out to disk.
+</div><pre>    CloseResFile( file );
+    <span class="key">if </span>(ResError() != noErr)
+    <span class="key">return </span>NO;
+
+    </pre><div class="com">// Now we need to set the file's Finder info so the Finder will know that
+</div><pre>    </pre><div class="com">// it has a custom icon.  Start by getting the file's current finder info:
+</div><pre>    result = FSpGetFInfo( &amp;targetFileFSSpec, &amp;finderInfo );
+    <span class="key">if </span>(result != noErr)
+    <span class="key">return </span>NO;
+
+    </pre><div class="com">// Set the kHasCustomIcon flag, and clear the kHasBeenInited flag.
+</div><pre>    </pre><div class="com">//
+</div><pre>    </pre><div class="com">// From Apple's &quot;CustomIcon&quot; code sample:
+</div><pre>    </pre><div class="com">//     &quot;set bit 10 (has custom icon) and unset the inited flag
+</div><pre>    </pre><div class="com">//      kHasBeenInited is 0x0100 so the mask will be 0xFEFF:&quot;
+</div><pre>    </pre><div class="com">//    finderInfo.fdFlags = 0xFEFF &amp; (finderInfo.fdFlags | kHasCustomIcon ) ;
+</div><pre>    finderInfo.fdFlags = (finderInfo.fdFlags | kHasCustomIcon ) &amp; ~kHasBeenInited;
+
+    </pre><div class="com">// Now write the Finder info back.
+</div><pre>    result = FSpSetFInfo( &amp;targetFileFSSpec, &amp;finderInfo );
+    <span class="key">if </span>(result != noErr)
+    <span class="key">return </span>NO;
+
+    </pre><div class="com">// Notify the system that the directory containing the file has changed, to give Finder the chance to find out about the file's new custom icon.
+</div><pre>    result = FNNotify( &amp;parentDirectoryFSRef, kFNDirectoryModifiedMessage, kNilOptions );
+    <span class="key">if </span>(result != noErr)
+        <span class="key">return </span>NO;
+
+    <span class="key">return </span>YES;
+}
+
++ (BOOL) removeCustomIconFromFile:(NSString*)path
+{
+    FSSpec targetFileFSSpec;
+    FSRef targetFileFSRef;
+    FSRef parentDirectoryFSRef;
+    SInt16 file;
+    OSErr result;
+    FInfo finderInfo;
+    Handle hExistingCustomIcon;
+
+    </pre><div class="com">// Get an FSRef and an FSSpec for the target file, and an FSRef for its parent directory that we can use in the FNNotify() call below.
+</div><pre>    <span class="key">if </span>(![path getFSRef:&amp;targetFileFSRef createFileIfNecessary:NO])
+    <span class="key">return </span>NO;
+    result = FSGetCatalogInfo( &amp;targetFileFSRef, kFSCatInfoNone, NULL, NULL, &amp;targetFileFSSpec, &amp;parentDirectoryFSRef );
+    <span class="key">if </span>(result != noErr)
+        <span class="key">return </span>NO;
+
+    </pre><div class="com">// Open the file's resource fork, if it has one.
+</div><pre>    file = FSpOpenResFile( &amp;targetFileFSSpec, fsRdWrPerm );
+    <span class="key">if </span>(file == <span class="num">-1</span>)
+        <span class="key">return </span>NO;
+
+    </pre><div class="com">// Remove the file's existing kCustomIconResource of type kIconFamilyType
+</div><pre>    </pre><div class="com">// (if any).
+</div><pre>    hExistingCustomIcon = GetResource( kIconFamilyType, kCustomIconResource );
+    <span class="key">if</span>( hExistingCustomIcon )
+        RemoveResource( hExistingCustomIcon );
+
+    </pre><div class="com">// Close the file's resource fork, flushing the resource map out to disk.
+</div><pre>    CloseResFile( file );
+    <span class="key">if </span>(ResError() != noErr)
+        <span class="key">return </span>NO;
+
+    </pre><div class="com">// Now we need to set the file's Finder info so the Finder will know that
+</div><pre>    </pre><div class="com">// it has no custom icon.  Start by getting the file's current finder info:
+</div><pre>    result = FSpGetFInfo( &amp;targetFileFSSpec, &amp;finderInfo );
+    <span class="key">if </span>(result != noErr)
+        <span class="key">return </span>NO;
+
+    </pre><div class="com">// Clear the kHasCustomIcon flag and the kHasBeenInited flag.
+</div><pre>    finderInfo.fdFlags = finderInfo.fdFlags &amp; ~(kHasCustomIcon | kHasBeenInited);
+
+    </pre><div class="com">// Now write the Finder info back.
+</div><pre>    result = FSpSetFInfo( &amp;targetFileFSSpec, &amp;finderInfo );
+    <span class="key">if </span>(result != noErr)
+        <span class="key">return </span>NO;
+
+    </pre><div class="com">// Notify the system that the directory containing the file has changed, to give Finder the chance to find out about the file's new custom icon.
+</div><pre>    result = FNNotify( &amp;parentDirectoryFSRef, kFNDirectoryModifiedMessage, kNilOptions );
+    <span class="key">if </span>(result != noErr)
+        <span class="key">return </span>NO;
+
+    <span class="key">return </span>YES;
+}
+
+- (BOOL) setAsCustomIconForDirectory:(NSString*)path
+{
+    <span class="key">return </span>[self setAsCustomIconForDirectory:path withCompatibility:NO];
+}
+
+- (BOOL) setAsCustomIconForDirectory:(NSString*)path withCompatibility:(BOOL)compat
+{
+    NSFileManager *fm = [NSFileManager defaultManager];
+    BOOL isDir;
+    BOOL exists;
+    NSString *iconrPath = [path stringByAppendingPathComponent:&#64;<span class="str">&quot;Icon</span><span class="esc">\r</span><span class="str">&quot;</span>];
+    FSSpec targetFileFSSpec, targetFolderFSSpec;
+    FSRef targetFolderFSRef;
+    SInt16 file;
+    OSErr result;
+    FInfo finderInfo;
+    FSCatalogInfo catInfo;
+    Handle hExistingCustomIcon;
+    Handle hIconFamilyCopy;
+
+    exists = [fm fileExistsAtPath:path isDirectory:&amp;isDir];
+
+    <span class="key">if</span>( !isDir || !exists )
+        <span class="key">return </span>NO;
+
+    <span class="key">if</span>( [fm fileExistsAtPath:iconrPath] )
+    {
+        <span class="key">if</span>( ![fm removeFileAtPath:iconrPath handler:nil] )
+            <span class="key">return </span>NO;
+    }
+
+    <span class="key">if </span>(![iconrPath getFSSpec:&amp;targetFileFSSpec createFileIfNecessary:YES])
+        <span class="key">return </span>NO;
+
+    <span class="key">if</span>( ![path getFSSpec:&amp;targetFolderFSSpec createFileIfNecessary:YES] )
+        <span class="key">return </span>NO;
+
+    <span class="key">if</span>( ![path getFSRef:&amp;targetFolderFSRef createFileIfNecessary:NO] )
+        <span class="key">return </span>NO;
+
+    </pre><div class="com">// Make sure the file has a resource fork that we can open.  (Although
+</div><pre>    </pre><div class="com">// this sounds like it would clobber an existing resource fork, the Carbon
+</div><pre>    </pre><div class="com">// Resource Manager docs for this function say that's not the case.)
+</div><pre>    FSpCreateResFile( &amp;targetFileFSSpec, <span class="str">'????'</span>, <span class="str">'????'</span>, smRoman );
+    <span class="key">if </span>(ResError() != noErr)
+        <span class="key">return </span>NO;
+
+    </pre><div class="com">// Open the file's resource fork.
+</div><pre>    file = FSpOpenResFile( &amp;targetFileFSSpec, fsRdWrPerm );
+    <span class="key">if </span>(file == <span class="num">-1</span>)
+        <span class="key">return </span>NO;
+
+    </pre><div class="com">// Make a copy of the icon family data to pass to AddResource().
+</div><pre>    </pre><div class="com">// (AddResource() takes ownership of the handle we pass in; after the
+</div><pre>    </pre><div class="com">// CloseResFile() call its master pointer will be set to 0xffffffff.
+</div><pre>    </pre><div class="com">// We want to keep the icon family data, so we make a copy.)
+</div><pre>    </pre><div class="com">// HandToHand() returns the handle of the copy in hIconFamily.
+</div><pre>    hIconFamilyCopy = (Handle) hIconFamily;
+    result = HandToHand( &amp;hIconFamilyCopy );
+    <span class="key">if </span>(result != noErr) {
+        CloseResFile( file );
+        <span class="key">return </span>NO;
+    }
+
+    </pre><div class="com">// Remove the file's existing kCustomIconResource of type kIconFamilyType
+</div><pre>    </pre><div class="com">// (if any).
+</div><pre>    hExistingCustomIcon = GetResource( kIconFamilyType, kCustomIconResource );
+    <span class="key">if</span>( hExistingCustomIcon )
+        RemoveResource( hExistingCustomIcon );
+
+    </pre><div class="com">// Now add our icon family as the file's new custom icon.
+</div><pre>    AddResource( (Handle)hIconFamilyCopy, kIconFamilyType,
+                 kCustomIconResource, <span class="str">&quot;</span><span class="esc">\p</span><span class="str">&quot;</span>);
+
+    <span class="key">if </span>(ResError() != noErr) {
+        CloseResFile( file );
+        <span class="key">return </span>NO;
+    }
+
+    <span class="key">if</span>( compat )
+    {
+        [self addResourceType:kLarge8BitData asResID:kCustomIconResource];
+        [self addResourceType:kLarge1BitMask asResID:kCustomIconResource];
+        [self addResourceType:kSmall8BitData asResID:kCustomIconResource];
+        [self addResourceType:kSmall1BitMask asResID:kCustomIconResource];
+    }
+
+    </pre><div class="com">// Close the file's resource fork, flushing the resource map and new icon
+</div><pre>    </pre><div class="com">// data out to disk.
+</div><pre>    CloseResFile( file );
+    <span class="key">if </span>(ResError() != noErr)
+        <span class="key">return </span>NO;
+
+    </pre><div class="com">// Make folder icon file invisible
+</div><pre>    result = FSpGetFInfo( &amp;targetFileFSSpec, &amp;finderInfo );
+    <span class="key">if </span>(result != noErr)
+        <span class="key">return </span>NO;
+    finderInfo.fdFlags = (finderInfo.fdFlags | kIsInvisible ) &amp; ~kHasBeenInited;
+    </pre><div class="com">// And write info back
+</div><pre>    result = FSpSetFInfo( &amp;targetFileFSSpec, &amp;finderInfo );
+    <span class="key">if </span>(result != noErr)
+        <span class="key">return </span>NO;
+
+    result = FSGetCatalogInfo( &amp;targetFolderFSRef,
+                               kFSCatInfoFinderInfo,
+                               &amp;catInfo, nil, nil, nil);
+    <span class="key">if</span>( result != noErr )
+        <span class="key">return </span>NO;
+
+    ((DInfo*)catInfo.finderInfo)-&gt;frFlags = ( ((DInfo*)catInfo.finderInfo)-&gt;frFlags | kHasCustomIcon ) &amp; ~kHasBeenInited;
+
+    FSSetCatalogInfo( &amp;targetFolderFSRef,
+                      kFSCatInfoFinderInfo,
+                      &amp;catInfo);
+    <span class="key">if</span>( result != noErr )
+        <span class="key">return </span>NO;
+
+    </pre><div class="com">// Notify the system that the target directory has changed, to give Finder the chance to find out about its new custom icon.
+</div><pre>    result = FNNotify( &amp;targetFolderFSRef, kFNDirectoryModifiedMessage, kNilOptions );
+    <span class="key">if </span>(result != noErr)
+        <span class="key">return </span>NO;
+
+    <span class="key">return </span>YES;
+}
+
+</pre><div class="com">/*- (BOOL) writeToFile:(NSString*)path
+{
+    FSSpec fsSpec;
+    OSErr result;
+
+    if (![path getFSSpec:&amp;fsSpec createFileIfNecessary:YES])
+  return NO;
+    result = WriteIconFile( hIconFamily, &amp;fsSpec );
+    if (result != noErr)
+  return NO;
+
+    return YES;
+} This method has a problem with files not representable as an FSSpec.*/</div><pre>
+
+- (BOOL) writeToFile:(NSString*)path
+{
+    NSData* iconData = NULL;
+
+    HLock((Handle)hIconFamily);
+
+    iconData = [NSData dataWithBytes:*hIconFamily length:GetHandleSize((Handle)hIconFamily)];
+    [iconData writeToFile:path atomically:NO];
+
+    HUnlock((Handle)hIconFamily);
+
+    <span class="key">return </span>YES;
+}
+
+&#64;end
+
+&#64;implementation IconFamily (Internals)
+
++ (NSImage*) resampleImage:(NSImage*)image toIconWidth:(<span class="typ">int</span>)iconWidth usingImageInterpolation:(NSImageInterpolation)imageInterpolation
+{
+    NSGraphicsContext* graphicsContext;
+    BOOL wasAntialiasing;
+    NSImageInterpolation previousImageInterpolation;
+    NSImage* newImage;
+</pre><div class="com">//    NSBitmapImageRep* newBitmapImageRep;
+</div><pre></pre><div class="com">//    unsigned char* bitmapData;
+</div><pre></pre><div class="com">//    NSImageRep* originalImageRep;
+</div><pre>    NSImage* workingImage;
+    NSImageRep* workingImageRep;
+    NSSize size, pixelSize, newSize;
+    NSRect iconRect;
+    NSRect targetRect;
+
+    </pre><div class="com">// Create a working copy of the image and scale its size down to fit in
+</div><pre>    </pre><div class="com">// the square area of the icon.
+</div><pre>    </pre><div class="com">//
+</div><pre>    </pre><div class="com">// It seems like there should be a more memory-efficient alternative to
+</div><pre>    </pre><div class="com">// first duplicating the entire original image, but I don't know what it
+</div><pre>    </pre><div class="com">// is.  We need to change some properties (&quot;size&quot; and &quot;scalesWhenResized&quot;)
+</div><pre>    </pre><div class="com">// of the original image, but we shouldn't change the original, so a copy
+</div><pre>    </pre><div class="com">// is necessary.
+</div><pre>    workingImage = [image copyWithZone:[image zone]];
+    [workingImage setScalesWhenResized:YES];
+    size = [workingImage size];
+    workingImageRep = [workingImage bestRepresentationForDevice:nil];
+    <span class="key">if </span>([workingImageRep isKindOfClass:[NSBitmapImageRep <span class="key">class</span>]]) {
+        pixelSize.width  = [workingImageRep pixelsWide];
+        pixelSize.height = [workingImageRep pixelsHigh];
+        <span class="key">if </span>(!NSEqualSizes( size, pixelSize )) {
+            [workingImage setSize:pixelSize];
+            [workingImageRep setSize:pixelSize];
+            size = pixelSize;
+        }
+    }
+    <span class="key">if </span>(size.width &gt;= size.height) {
+        newSize.width  = iconWidth;
+        newSize.height = floor( (<span class="typ">float</span>) iconWidth * size.height / size.width + <span class="num">0.5 </span>);
+    } <span class="key">else </span>{
+        newSize.height = iconWidth;
+        newSize.width  = floor( (<span class="typ">float</span>) iconWidth * size.width / size.height + <span class="num">0.5 </span>);
+    }
+    [workingImage setSize:newSize];
+
+<span class="dir">#if 1   </span></pre><div class="com">// This is the way that works.  It gives the newImage an NSCachedImageRep.
+</div><pre><span class="dir"></span>
+    </pre><div class="com">// Create a new image the size of the icon, and clear it to transparent.
+</div><pre>    newImage = [[NSImage alloc] initWithSize:NSMakeSize(iconWidth,iconWidth)];
+    [newImage lockFocus];
+    iconRect.origin.x = iconRect.origin.y = <span class="num">0</span>;
+    iconRect.size.width = iconRect.size.height = iconWidth;
+    [[NSColor clearColor] set];
+    NSRectFill( iconRect );
+
+    </pre><div class="com">// Set current graphics context to use antialiasing and high-quality
+</div><pre>    </pre><div class="com">// image scaling.
+</div><pre>    graphicsContext = [NSGraphicsContext currentContext];
+    wasAntialiasing = [graphicsContext shouldAntialias];
+    previousImageInterpolation = [graphicsContext imageInterpolation];
+    [graphicsContext setShouldAntialias:YES];
+    [graphicsContext setImageInterpolation:imageInterpolation];
+
+    </pre><div class="com">// Composite the working image into the icon bitmap, centered.
+</div><pre>    targetRect.origin.x = ((<span class="typ">float</span>)iconWidth - newSize.width ) / <span class="num">2.0</span>;
+    targetRect.origin.y = ((<span class="typ">float</span>)iconWidth - newSize.height) / <span class="num">2.0</span>;
+    targetRect.size.width = newSize.width;
+    targetRect.size.height = newSize.height;
+    [workingImageRep drawInRect:targetRect];
+
+    </pre><div class="com">// Restore previous graphics context settings.
+</div><pre>    [graphicsContext setShouldAntialias:wasAntialiasing];
+    [graphicsContext setImageInterpolation:previousImageInterpolation];
+
+    [newImage unlockFocus];
+
+    [workingImage release];
+
+<span class="dir">#else   </span></pre><div class="com">// This was an attempt at explicitly giving the NSImage an NSBitmapImageRep
+</div><pre><span class="dir"></span>        </pre><div class="com">// and drawing to that NSBitmapImageRep.  It doesn't work.  (See comments
+</div><pre>        </pre><div class="com">// in -initWithThumbnailsOfImage:)
+</div><pre>
+</pre><div class="com">//    // Create a new 32-bit RGBA bitmap that is width x width pixels.
+</div><pre>    originalImageRep = [image bestRepresentationForDevice:nil];
+    newImage = [[NSImage alloc] initWithSize:NSMakeSize(iconWidth,iconWidth)];
+    [newImage setDataRetained:YES];
+</pre><div class="com">//    [newImage setCachedSeparately:YES];
+</div><pre>    newBitmapImageRep = [[NSBitmapImageRep alloc] initWithBitmapDataPlanes:NULL
+  pixelsWide:iconWidth
+  pixelsHigh:iconWidth
+</pre><div class="com">//  bitsPerSample:8
+</div><pre></pre><div class="com">//  samplesPerPixel:4
+</div><pre>  bitsPerSample:[originalImageRep bitsPerSample]
+  samplesPerPixel:[(NSBitmapImageRep*)originalImageRep samplesPerPixel]
+  hasAlpha:[originalImageRep hasAlpha]
+  isPlanar:NO
+  colorSpaceName:[originalImageRep colorSpaceName]
+  bytesPerRow:<span class="num">0
+  </span>bitsPerPixel:<span class="num">0</span>];
+    [newImage addRepresentation:newBitmapImageRep];
+    [newImage setScalesWhenResized:YES];
+    [newBitmapImageRep release];
+</pre><div class="com">//    bitmapData = [newBitmapImageRep bitmapData];
+</div><pre></pre><div class="com">//    if (bitmapData)
+</div><pre></pre><div class="com">//        memset( bitmapData, 128, iconWidth * iconWidth * 4 );
+</div><pre>    </pre><div class="com">// Copy the original image into the new bitmap, rescaling it to fit.
+</div><pre></pre><div class="com">//    [newImage lockFocus];
+</div><pre>    [newImage lockFocusOnRepresentation:newBitmapImageRep];
+</pre><div class="com">//    [image compositeToPoint:NSZeroPoint operation:NSCompositeSourceOver];
+</div><pre></pre><div class="com">//    iconRect.origin.x = iconRect.origin.y = 0;
+</div><pre></pre><div class="com">//    iconRect.size.width = iconRect.size.height = iconWidth;
+</div><pre></pre><div class="com">//    [[NSColor clearColor] set];
+</div><pre></pre><div class="com">//    NSRectFill( iconRect );
+</div><pre>    [workingImage compositeToPoint:NSZeroPoint operation:NSCompositeSourceOver];
+    [newImage unlockFocus];
+
+    [workingImage release];
+<span class="dir">#endif
+</span>
+    </pre><div class="com">// Return the new image!
+</div><pre>    <span class="key">return </span>[newImage autorelease];
+}
+
++ (Handle) get32BitDataFromBitmapImageRep:(NSBitmapImageRep*)bitmapImageRep requiredPixelSize:(<span class="typ">int</span>)requiredPixelSize
+{
+    Handle hRawData;
+    <span class="typ">unsigned char</span>* pRawData;
+    Size rawDataSize;
+    <span class="typ">unsigned char</span>* pSrc;
+    <span class="typ">unsigned char</span>* pDest;
+    <span class="typ">int </span>x, y;
+    <span class="typ">unsigned char </span>alphaByte;
+    <span class="typ">float </span>oneOverAlpha;
+
+    </pre><div class="com">// Get information about the bitmapImageRep.
+</div><pre>    <span class="typ">int </span>pixelsWide      = [bitmapImageRep pixelsWide];
+    <span class="typ">int </span>pixelsHigh      = [bitmapImageRep pixelsHigh];
+    <span class="typ">int </span>bitsPerSample   = [bitmapImageRep bitsPerSample];
+    <span class="typ">int </span>samplesPerPixel = [bitmapImageRep samplesPerPixel];
+    <span class="typ">int </span>bitsPerPixel    = [bitmapImageRep bitsPerPixel];
+</pre><div class="com">//    BOOL hasAlpha       = [bitmapImageRep hasAlpha];
+</div><pre>    BOOL isPlanar       = [bitmapImageRep isPlanar];
+</pre><div class="com">//    int numberOfPlanes  = [bitmapImageRep numberOfPlanes];
+</div><pre>    <span class="typ">int </span>bytesPerRow     = [bitmapImageRep bytesPerRow];
+</pre><div class="com">//    int bytesPerPlane   = [bitmapImageRep bytesPerPlane];
+</div><pre>    <span class="typ">unsigned char</span>* bitmapData = [bitmapImageRep bitmapData];
+
+    </pre><div class="com">// Make sure bitmap has the required dimensions.
+</div><pre>    <span class="key">if </span>(pixelsWide != requiredPixelSize || pixelsHigh != requiredPixelSize)
+  <span class="key">return </span>NULL;
+
+    </pre><div class="com">// So far, this code only handles non-planar 32-bit RGBA and 24-bit RGB source bitmaps.
+</div><pre>    </pre><div class="com">// This could be made more flexible with some additional programming to accommodate other possible
+</div><pre>    </pre><div class="com">// formats...
+</div><pre>    <span class="key">if </span>(isPlanar)
+  {
+    NSLog(&#64;<span class="str">&quot;get32BitDataFromBitmapImageRep:requiredPixelSize: returning NULL due to isPlanar == YES&quot;</span>);
+    <span class="key">return </span>NULL;
+  }
+    <span class="key">if </span>(bitsPerSample != <span class="num">8</span>)
+  {
+    NSLog(&#64;<span class="str">&quot;get32BitDataFromBitmapImageRep:requiredPixelSize: returning NULL due to bitsPerSample == %d&quot;</span>, bitsPerSample);
+    <span class="key">return </span>NULL;
+  }
+
+  <span class="key">if </span>(((samplesPerPixel == <span class="num">3</span>) &amp;&amp; (bitsPerPixel == <span class="num">24</span>)) || ((samplesPerPixel == <span class="num">4</span>) &amp;&amp; (bitsPerPixel == <span class="num">32</span>)))
+  {
+    rawDataSize = pixelsWide * pixelsHigh * <span class="num">4</span>;
+    hRawData = NewHandle( rawDataSize );
+    <span class="key">if </span>(hRawData == NULL)
+      <span class="key">return </span>NULL;
+    pRawData = *hRawData;
+
+    pSrc = bitmapData;
+    pDest = pRawData;
+
+    <span class="key">if </span>(bitsPerPixel == <span class="num">32</span>) {
+      <span class="key">for </span>(y = <span class="num">0</span>; y &lt; pixelsHigh; y++) {
+        pSrc = bitmapData + y * bytesPerRow;
+          <span class="key">for </span>(x = <span class="num">0</span>; x &lt; pixelsWide; x++) {
+            </pre><div class="com">// Each pixel is 3 bytes of RGB data, followed by 1 byte of
+</div><pre>            </pre><div class="com">// alpha.  The RGB values are premultiplied by the alpha (so
+</div><pre>            </pre><div class="com">// that Quartz can save time when compositing the bitmap to a
+</div><pre>            </pre><div class="com">// destination), and we undo this premultiplication (with some
+</div><pre>            </pre><div class="com">// lossiness unfortunately) when retrieving the bitmap data.
+</div><pre>            *pDest++ = alphaByte = *(pSrc+<span class="num">3</span>);
+            <span class="key">if </span>(alphaByte) {
+              oneOverAlpha = <span class="num">255.0f </span>/ (<span class="typ">float</span>)alphaByte;
+              *pDest++ = *(pSrc+<span class="num">0</span>) * oneOverAlpha;
+              *pDest++ = *(pSrc+<span class="num">1</span>) * oneOverAlpha;
+              *pDest++ = *(pSrc+<span class="num">2</span>) * oneOverAlpha;
+            } <span class="key">else </span>{
+              *pDest++ = <span class="num">0</span>;
+              *pDest++ = <span class="num">0</span>;
+              *pDest++ = <span class="num">0</span>;
+            }
+            pSrc+=<span class="num">4</span>;
+        }
+      }
+    } <span class="key">else if </span>(bitsPerPixel == <span class="num">24</span>) {
+      <span class="key">for </span>(y = <span class="num">0</span>; y &lt; pixelsHigh; y++) {
+        pSrc = bitmapData + y * bytesPerRow;
+        <span class="key">for </span>(x = <span class="num">0</span>; x &lt; pixelsWide; x++) {
+          *pDest++ = <span class="num">0</span>;
+          *pDest++ = *pSrc++;
+          *pDest++ = *pSrc++;
+          *pDest++ = *pSrc++;
+        }
+      }
+    }
+  }
+  <span class="key">else
+  </span>{
+    NSLog(&#64;<span class="str">&quot;get32BitDataFromBitmapImageRep:requiredPixelSize: returning NULL due to samplesPerPixel == %d, bitsPerPixel == %&quot;</span>, samplesPerPixel, bitsPerPixel);
+    <span class="key">return </span>NULL;
+  }
+
+    <span class="key">return </span>hRawData;
+}
+
++ (Handle) get8BitDataFromBitmapImageRep:(NSBitmapImageRep*)bitmapImageRep requiredPixelSize:(<span class="typ">int</span>)requiredPixelSize
+{
+    Handle hRawData;
+    <span class="typ">unsigned char</span>* pRawData;
+    Size rawDataSize;
+    <span class="typ">unsigned char</span>* pSrc;
+    <span class="typ">unsigned char</span>* pDest;
+    <span class="typ">int </span>x, y;
+
+    </pre><div class="com">// Get information about the bitmapImageRep.
+</div><pre>    <span class="typ">int </span>pixelsWide      = [bitmapImageRep pixelsWide];
+    <span class="typ">int </span>pixelsHigh      = [bitmapImageRep pixelsHigh];
+    <span class="typ">int </span>bitsPerSample   = [bitmapImageRep bitsPerSample];
+    <span class="typ">int </span>samplesPerPixel = [bitmapImageRep samplesPerPixel];
+    <span class="typ">int </span>bitsPerPixel    = [bitmapImageRep bitsPerPixel];
+    BOOL isPlanar       = [bitmapImageRep isPlanar];
+    <span class="typ">int </span>bytesPerRow     = [bitmapImageRep bytesPerRow];
+    <span class="typ">unsigned char</span>* bitmapData = [bitmapImageRep bitmapData];
+
+    </pre><div class="com">// Make sure bitmap has the required dimensions.
+</div><pre>    <span class="key">if </span>(pixelsWide != requiredPixelSize || pixelsHigh != requiredPixelSize)
+        <span class="key">return </span>NULL;
+
+    </pre><div class="com">// So far, this code only handles non-planar 32-bit RGBA and 24-bit RGB source bitmaps.
+</div><pre>    </pre><div class="com">// This could be made more flexible with some additional programming...
+</div><pre>    <span class="key">if </span>(isPlanar)
+  {
+    NSLog(&#64;<span class="str">&quot;get8BitDataFromBitmapImageRep:requiredPixelSize: returning NULL due to isPlanar == YES&quot;</span>);
+    <span class="key">return </span>NULL;
+  }
+    <span class="key">if </span>(bitsPerSample != <span class="num">8</span>)
+  {
+    NSLog(&#64;<span class="str">&quot;get8BitDataFromBitmapImageRep:requiredPixelSize: returning NULL due to bitsPerSample == %d&quot;</span>, bitsPerSample);
+    <span class="key">return </span>NULL;
+  }
+
+  <span class="key">if </span>(((samplesPerPixel == <span class="num">3</span>) &amp;&amp; (bitsPerPixel == <span class="num">24</span>)) || ((samplesPerPixel == <span class="num">4</span>) &amp;&amp; (bitsPerPixel == <span class="num">32</span>)))
+  {
+    CGDirectPaletteRef cgPal;
+    CGDeviceColor cgCol;
+
+    rawDataSize = pixelsWide * pixelsHigh;
+    hRawData = NewHandle( rawDataSize );
+    <span class="key">if </span>(hRawData == NULL)
+      <span class="key">return </span>NULL;
+    pRawData = *hRawData;
+
+    cgPal = CGPaletteCreateDefaultColorPalette();
+
+    pSrc = bitmapData;
+    pDest = pRawData;
+    <span class="key">if </span>(bitsPerPixel == <span class="num">32</span>) {
+      <span class="key">for </span>(y = <span class="num">0</span>; y &lt; pixelsHigh; y++) {
+        pSrc = bitmapData + y * bytesPerRow;
+        <span class="key">for </span>(x = <span class="num">0</span>; x &lt; pixelsWide; x++) {
+          cgCol.red = ((<span class="typ">float</span>)*(pSrc)) / <span class="num">255</span>;
+          cgCol.green = ((<span class="typ">float</span>)*(pSrc+<span class="num">1</span>)) / <span class="num">255</span>;
+          cgCol.blue = ((<span class="typ">float</span>)*(pSrc+<span class="num">2</span>)) / <span class="num">255</span>;
+
+          *pDest++ = CGPaletteGetIndexForColor(cgPal, cgCol);
+
+          pSrc+=<span class="num">4</span>;
+        }
+      }
+    } <span class="key">else if </span>(bitsPerPixel == <span class="num">24</span>) {
+      <span class="key">for </span>(y = <span class="num">0</span>; y &lt; pixelsHigh; y++) {
+        pSrc = bitmapData + y * bytesPerRow;
+        <span class="key">for </span>(x = <span class="num">0</span>; x &lt; pixelsWide; x++) {
+          cgCol.red = ((<span class="typ">float</span>)*(pSrc)) / <span class="num">255</span>;
+          cgCol.green = ((<span class="typ">float</span>)*(pSrc+<span class="num">1</span>)) / <span class="num">255</span>;
+          cgCol.blue = ((<span class="typ">float</span>)*(pSrc+<span class="num">2</span>)) / <span class="num">255</span>;
+
+          *pDest++ = CGPaletteGetIndexForColor(cgPal, cgCol);
+
+          pSrc+=<span class="num">3</span>;
+        }
+      }
+    }
+
+    CGPaletteRelease(cgPal);
+  }
+  <span class="key">else
+  </span>{
+    NSLog(&#64;<span class="str">&quot;get8BitDataFromBitmapImageRep:requiredPixelSize: returning NULL due to samplesPerPixel == %d, bitsPerPixel == %&quot;</span>, samplesPerPixel, bitsPerPixel);
+    <span class="key">return </span>NULL;
+  }
+
+    <span class="key">return </span>hRawData;
+}
+
++ (Handle) get8BitMaskFromBitmapImageRep:(NSBitmapImageRep*)bitmapImageRep requiredPixelSize:(<span class="typ">int</span>)requiredPixelSize
+{
+    Handle hRawData;
+    <span class="typ">unsigned char</span>* pRawData;
+    Size rawDataSize;
+    <span class="typ">unsigned char</span>* pSrc;
+    <span class="typ">unsigned char</span>* pDest;
+    <span class="typ">int </span>x, y;
+
+    </pre><div class="com">// Get information about the bitmapImageRep.
+</div><pre>    <span class="typ">int </span>pixelsWide      = [bitmapImageRep pixelsWide];
+    <span class="typ">int </span>pixelsHigh      = [bitmapImageRep pixelsHigh];
+    <span class="typ">int </span>bitsPerSample   = [bitmapImageRep bitsPerSample];
+    <span class="typ">int </span>samplesPerPixel = [bitmapImageRep samplesPerPixel];
+    <span class="typ">int </span>bitsPerPixel    = [bitmapImageRep bitsPerPixel];
+</pre><div class="com">//    BOOL hasAlpha       = [bitmapImageRep hasAlpha];
+</div><pre>    BOOL isPlanar       = [bitmapImageRep isPlanar];
+</pre><div class="com">//    int numberOfPlanes  = [bitmapImageRep numberOfPlanes];
+</div><pre>    <span class="typ">int </span>bytesPerRow     = [bitmapImageRep bytesPerRow];
+</pre><div class="com">//    int bytesPerPlane   = [bitmapImageRep bytesPerPlane];
+</div><pre>    <span class="typ">unsigned char</span>* bitmapData = [bitmapImageRep bitmapData];
+
+    </pre><div class="com">// Make sure bitmap has the required dimensions.
+</div><pre>    <span class="key">if </span>(pixelsWide != requiredPixelSize || pixelsHigh != requiredPixelSize)
+    <span class="key">return </span>NULL;
+
+    </pre><div class="com">// So far, this code only handles non-planar 32-bit RGBA, 24-bit RGB and 8-bit grayscale source bitmaps.
+</div><pre>    </pre><div class="com">// This could be made more flexible with some additional programming...
+</div><pre>    <span class="key">if </span>(isPlanar)
+  {
+    NSLog(&#64;<span class="str">&quot;get8BitMaskFromBitmapImageRep:requiredPixelSize: returning NULL due to isPlanar == YES&quot;</span>);
+    <span class="key">return </span>NULL;
+  }
+    <span class="key">if </span>(bitsPerSample != <span class="num">8</span>)
+  {
+    NSLog(&#64;<span class="str">&quot;get8BitMaskFromBitmapImageRep:requiredPixelSize: returning NULL due to bitsPerSample == %d&quot;</span>, bitsPerSample);
+    <span class="key">return </span>NULL;
+  }
+
+  <span class="key">if </span>(((samplesPerPixel == <span class="num">1</span>) &amp;&amp; (bitsPerPixel == <span class="num">8</span>)) || ((samplesPerPixel == <span class="num">3</span>) &amp;&amp; (bitsPerPixel == <span class="num">24</span>)) || ((samplesPerPixel == <span class="num">4</span>) &amp;&amp; (bitsPerPixel == <span class="num">32</span>)))
+  {
+    rawDataSize = pixelsWide * pixelsHigh;
+    hRawData = NewHandle( rawDataSize );
+    <span class="key">if </span>(hRawData == NULL)
+      <span class="key">return </span>NULL;
+    pRawData = *hRawData;
+
+    pSrc = bitmapData;
+    pDest = pRawData;
+
+    <span class="key">if </span>(bitsPerPixel == <span class="num">32</span>) {
+      <span class="key">for </span>(y = <span class="num">0</span>; y &lt; pixelsHigh; y++) {
+        pSrc = bitmapData + y * bytesPerRow;
+        <span class="key">for </span>(x = <span class="num">0</span>; x &lt; pixelsWide; x++) {
+          pSrc += <span class="num">3</span>;
+          *pDest++ = *pSrc++;
+        }
+      }
+    }
+    <span class="key">else if </span>(bitsPerPixel == <span class="num">24</span>) {
+      memset( pDest, <span class="num">255</span>, rawDataSize );
+    }
+    <span class="key">else if </span>(bitsPerPixel == <span class="num">8</span>) {
+      <span class="key">for </span>(y = <span class="num">0</span>; y &lt; pixelsHigh; y++) {
+        memcpy( pDest, pSrc, pixelsWide );
+        pSrc += bytesPerRow;
+        pDest += pixelsWide;
+      }
+    }
+  }
+  <span class="key">else
+  </span>{
+    NSLog(&#64;<span class="str">&quot;get8BitMaskFromBitmapImageRep:requiredPixelSize: returning NULL due to samplesPerPixel == %d, bitsPerPixel == %&quot;</span>, samplesPerPixel, bitsPerPixel);
+    <span class="key">return </span>NULL;
+  }
+
+    <span class="key">return </span>hRawData;
+}
+
+</pre><div class="com">// NOTE: This method hasn't been fully tested yet.
+</div><pre>+ (Handle) get1BitMaskFromBitmapImageRep:(NSBitmapImageRep*)bitmapImageRep requiredPixelSize:(<span class="typ">int</span>)requiredPixelSize
+{
+    Handle hRawData;
+    <span class="typ">unsigned char</span>* pRawData;
+    Size rawDataSize;
+    <span class="typ">unsigned char</span>* pSrc;
+    <span class="typ">unsigned char</span>* pDest;
+    <span class="typ">int </span>x, y;
+    <span class="typ">unsigned char </span>maskByte;
+
+    </pre><div class="com">// Get information about the bitmapImageRep.
+</div><pre>    <span class="typ">int </span>pixelsWide      = [bitmapImageRep pixelsWide];
+    <span class="typ">int </span>pixelsHigh      = [bitmapImageRep pixelsHigh];
+    <span class="typ">int </span>bitsPerSample   = [bitmapImageRep bitsPerSample];
+    <span class="typ">int </span>samplesPerPixel = [bitmapImageRep samplesPerPixel];
+    <span class="typ">int </span>bitsPerPixel    = [bitmapImageRep bitsPerPixel];
+</pre><div class="com">//    BOOL hasAlpha       = [bitmapImageRep hasAlpha];
+</div><pre>    BOOL isPlanar       = [bitmapImageRep isPlanar];
+</pre><div class="com">//    int numberOfPlanes  = [bitmapImageRep numberOfPlanes];
+</div><pre>    <span class="typ">int </span>bytesPerRow     = [bitmapImageRep bytesPerRow];
+</pre><div class="com">//    int bytesPerPlane   = [bitmapImageRep bytesPerPlane];
+</div><pre>    <span class="typ">unsigned char</span>* bitmapData = [bitmapImageRep bitmapData];
+
+    </pre><div class="com">// Make sure bitmap has the required dimensions.
+</div><pre>    <span class="key">if </span>(pixelsWide != requiredPixelSize || pixelsHigh != requiredPixelSize)
+    <span class="key">return </span>NULL;
+
+    </pre><div class="com">// So far, this code only handles non-planar 32-bit RGBA, 24-bit RGB, 8-bit grayscale, and 1-bit source bitmaps.
+</div><pre>    </pre><div class="com">// This could be made more flexible with some additional programming...
+</div><pre>    <span class="key">if </span>(isPlanar)
+  {
+    NSLog(&#64;<span class="str">&quot;get1BitMaskFromBitmapImageRep:requiredPixelSize: returning NULL due to isPlanar == YES&quot;</span>);
+    <span class="key">return </span>NULL;
+  }
+
+  <span class="key">if </span>(((bitsPerPixel == <span class="num">1</span>) &amp;&amp; (samplesPerPixel == <span class="num">1</span>) &amp;&amp; (bitsPerSample == <span class="num">1</span>)) || ((bitsPerPixel == <span class="num">8</span>) &amp;&amp; (samplesPerPixel == <span class="num">1</span>) &amp;&amp; (bitsPerSample == <span class="num">8</span>)) ||
+    ((bitsPerPixel == <span class="num">24</span>) &amp;&amp; (samplesPerPixel == <span class="num">3</span>) &amp;&amp; (bitsPerSample == <span class="num">8</span>)) || ((bitsPerPixel == <span class="num">32</span>) &amp;&amp; (samplesPerPixel == <span class="num">4</span>) &amp;&amp; (bitsPerSample == <span class="num">8</span>)))
+  {
+    rawDataSize = (pixelsWide * pixelsHigh)/<span class="num">4</span>;
+    hRawData = NewHandle( rawDataSize );
+    <span class="key">if </span>(hRawData == NULL)
+      <span class="key">return </span>NULL;
+    pRawData = *hRawData;
+
+    pSrc = bitmapData;
+    pDest = pRawData;
+
+    <span class="key">if </span>(bitsPerPixel == <span class="num">32</span>) {
+      <span class="key">for </span>(y = <span class="num">0</span>; y &lt; pixelsHigh; y++) {
+        pSrc = bitmapData + y * bytesPerRow;
+        <span class="key">for </span>(x = <span class="num">0</span>; x &lt; pixelsWide; x += <span class="num">8</span>) {
+          maskByte = <span class="num">0</span>;
+          maskByte |= (*(<span class="typ">unsigned</span>*)pSrc &amp; <span class="num">0xff</span>) ? <span class="num">0x80 </span>: <span class="num">0</span>; pSrc += <span class="num">4</span>;
+          maskByte |= (*(<span class="typ">unsigned</span>*)pSrc &amp; <span class="num">0xff</span>) ? <span class="num">0x40 </span>: <span class="num">0</span>; pSrc += <span class="num">4</span>;
+          maskByte |= (*(<span class="typ">unsigned</span>*)pSrc &amp; <span class="num">0xff</span>) ? <span class="num">0x20 </span>: <span class="num">0</span>; pSrc += <span class="num">4</span>;
+          maskByte |= (*(<span class="typ">unsigned</span>*)pSrc &amp; <span class="num">0xff</span>) ? <span class="num">0x10 </span>: <span class="num">0</span>; pSrc += <span class="num">4</span>;
+          maskByte |= (*(<span class="typ">unsigned</span>*)pSrc &amp; <span class="num">0xff</span>) ? <span class="num">0x08 </span>: <span class="num">0</span>; pSrc += <span class="num">4</span>;
+          maskByte |= (*(<span class="typ">unsigned</span>*)pSrc &amp; <span class="num">0xff</span>) ? <span class="num">0x04 </span>: <span class="num">0</span>; pSrc += <span class="num">4</span>;
+          maskByte |= (*(<span class="typ">unsigned</span>*)pSrc &amp; <span class="num">0xff</span>) ? <span class="num">0x02 </span>: <span class="num">0</span>; pSrc += <span class="num">4</span>;
+          maskByte |= (*(<span class="typ">unsigned</span>*)pSrc &amp; <span class="num">0xff</span>) ? <span class="num">0x01 </span>: <span class="num">0</span>; pSrc += <span class="num">4</span>;
+          *pDest++ = maskByte;
+        }
+      }
+    }
+    <span class="key">else if </span>(bitsPerPixel == <span class="num">24</span>) {
+      memset( pDest, <span class="num">255</span>, rawDataSize );
+    }
+    <span class="key">else if </span>(bitsPerPixel == <span class="num">8</span>) {
+      <span class="key">for </span>(y = <span class="num">0</span>; y &lt; pixelsHigh; y++) {
+        pSrc = bitmapData + y * bytesPerRow;
+        <span class="key">for </span>(x = <span class="num">0</span>; x &lt; pixelsWide; x += <span class="num">8</span>) {
+          maskByte = <span class="num">0</span>;
+          maskByte |= *pSrc++ ? <span class="num">0x80 </span>: <span class="num">0</span>;
+          maskByte |= *pSrc++ ? <span class="num">0x40 </span>: <span class="num">0</span>;
+          maskByte |= *pSrc++ ? <span class="num">0x20 </span>: <span class="num">0</span>;
+          maskByte |= *pSrc++ ? <span class="num">0x10 </span>: <span class="num">0</span>;
+          maskByte |= *pSrc++ ? <span class="num">0x08 </span>: <span class="num">0</span>;
+          maskByte |= *pSrc++ ? <span class="num">0x04 </span>: <span class="num">0</span>;
+          maskByte |= *pSrc++ ? <span class="num">0x02 </span>: <span class="num">0</span>;
+          maskByte |= *pSrc++ ? <span class="num">0x01 </span>: <span class="num">0</span>;
+          *pDest++ = maskByte;
+        }
+      }
+    }
+    <span class="key">else if </span>(bitsPerPixel == <span class="num">1</span>) {
+      <span class="key">for </span>(y = <span class="num">0</span>; y &lt; pixelsHigh; y++) {
+        memcpy( pDest, pSrc, pixelsWide / <span class="num">8 </span>);
+        pDest += pixelsWide / <span class="num">8</span>;
+        pSrc += bytesPerRow;
+      }
+    }
+
+    memcpy( pRawData+(pixelsWide*pixelsHigh)/<span class="num">8</span>, pRawData, (pixelsWide*pixelsHigh)/<span class="num">8 </span>);
+  }
+  <span class="key">else
+  </span>{
+    NSLog(&#64;<span class="str">&quot;get1BitMaskFromBitmapImageRep:requiredPixelSize: returning NULL due to bitsPerPixel == %d, samplesPerPixel== %d, bitsPerSample == %d&quot;</span>, bitsPerPixel, samplesPerPixel, bitsPerSample);
+    <span class="key">return </span>NULL;
+  }
+
+    <span class="key">return </span>hRawData;
+}
+
+- (BOOL) addResourceType:(OSType)type asResID:(<span class="typ">int</span>)resID
+{
+    Handle hIconRes = NewHandle(<span class="num">0</span>);
+    OSErr err;
+
+    err = GetIconFamilyData( hIconFamily, type, hIconRes );
+
+    <span class="key">if</span>( !GetHandleSize(hIconRes) || err != noErr )
+        <span class="key">return </span>NO;
+
+    AddResource( hIconRes, type, resID, <span class="str">&quot;</span><span class="esc">\p</span><span class="str">&quot;</span> );
+
+    <span class="key">return </span>YES;
+}
+
+&#64;end
+
+</pre><div class="com">// Methods for interfacing with the Carbon Scrap Manager (analogous to and
+</div><pre></pre><div class="com">// interoperable with the Cocoa Pasteboard).
+</div><pre>
+&#64;implementation IconFamily (ScrapAdditions)
+
++ (BOOL) canInitWithScrap
+{
+    ScrapRef scrap = NULL;
+    ScrapFlavorInfo* scrapInfos = NULL;
+    UInt32 numInfos = <span class="num">0</span>;
+    <span class="typ">int </span>i = <span class="num">0</span>;
+    BOOL canInit = NO;
+
+    GetCurrentScrap(&amp;scrap);
+
+    GetScrapFlavorCount(scrap,&amp;numInfos);
+    scrapInfos = malloc( <span class="key">sizeof</span>(ScrapFlavorInfo)*numInfos );
+
+    GetScrapFlavorInfoList(scrap, &amp;numInfos, scrapInfos);
+
+    <span class="key">for</span>( i=<span class="num">0</span>; i&lt;numInfos; i++ )
+    {
+        <span class="key">if</span>( scrapInfos[i].flavorType == <span class="str">'icns'</span> )
+            canInit = YES;
+    }
+
+    free( scrapInfos );
+
+    <span class="key">return </span>canInit;
+}
+
++ (IconFamily*) iconFamilyWithScrap
+{
+    <span class="key">return </span>[[[IconFamily alloc] initWithScrap] autorelease];
+}
+
+- initWithScrap
+{
+    Handle storageMem = NULL;
+    Size amountMem = <span class="num">0</span>;
+    ScrapRef scrap;
+
+    self = [super init];
+
+    <span class="key">if</span>( self )
+    {
+        GetCurrentScrap(&amp;scrap);
+
+        GetScrapFlavorSize( scrap, <span class="str">'icns'</span>, &amp;amountMem );
+
+        storageMem = NewHandle(amountMem);
+
+        GetScrapFlavorData( scrap, <span class="str">'icns'</span>, &amp;amountMem, *storageMem );
+
+        hIconFamily = (IconFamilyHandle)storageMem;
+    }
+    <span class="key">return </span>self;
+}
+
+- (BOOL) putOnScrap
+{
+    ScrapRef scrap = NULL;
+
+    ClearCurrentScrap();
+    GetCurrentScrap(&amp;scrap);
+
+    HLock((Handle)hIconFamily);
+    PutScrapFlavor( scrap, <span class="str">'icns'</span>, kScrapFlavorMaskNone, GetHandleSize((Handle)hIconFamily), *hIconFamily);
+    HUnlock((Handle)hIconFamily);
+    <span class="key">return </span>YES;
+}
+
+&#64;end
+</pre>
+</body>
+</html>
+<!--XHTML generated by highlight 2.0-19, http://www.andre-simon.de/-->

@@ -1,0 +1,195 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Phyllo cups with puréed peas and ricotta salata</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../eat">
+			
+			<img alt="Eat" src="../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../eat">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id362" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Phyllo cups with puréed peas and ricotta salata" width="733" class="title" src="../../resources/net.databinder.components.RenderedLabel/c8e80be1"/><span class="title">Phyllo cups with puréed peas and ricotta salata</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on January 1, 2007</span></span>
+			<span id="id363" class="tags">
+					{&nbsp;<span><a href="../../eat/tag/party/#selected-tag"><span>party</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Another dish we made for the party that disappeared in a matter of minutes came from François Payard&#8217;s <a href="http://www.amazon.com/exec/obidos/ASIN/0060887222/eat0e-20"><em>Bite Size</em></a>, a book of beautiful little hors d&#8217;oeuvre taken from his New York catering company. Many of the book&#8217;s recipes are quite fussy and too expensive to make for a large group (scallops, truffles, caviar, etc.), but I found one for phyllo cups full of puréed peas and ricotta salata. They looked so pretty in the picture, with the grated ricotta on top making them look like snow-covered Christmas trees.</p>
+
+
+	<p>Making them was a snap, and you hardly need a recipe. Boil two bags of frozen peas for a minute or two to cook them, and immediately purée them in a food processor. Mill or strain them into a half cup of grated ricotta and a few tablespoons of crème fraîche. I think the recipe called for a bit of salt, but add this to taste, as the cheese is salty on its own.</p>
+
+
+	<p><img src="/pictures/peapuree.jpg" alt="" /></p>
+
+
+	<p>The milling was slightly tedious. I expected the entire purée to run through the holes, but I guess peas have a thick skin. I gave myself a little food mill blister, but that&#8217;s becoming a regular fact of life for me.</p>
+
+
+	<p>Mix it all together, and once you have a nice greenish white purée, use a pastry bag to pipe it into phyllo cups (these quantities made more than enough for sixty cups. I mixed what was left with more crème fraîche to make a dip). Sprinkle more grated ricotta on top, and you&#8217;re done.</p>
+
+
+	<p><img src="/pictures/peacups.jpg" alt="" /></p>
+
+
+	<p>I was surprised at how popular these were, since the taste is pretty delicate. They are exceedingly cute, though, and easy to eat in a single bite. In other words, perfect party food.</p>
+
+
+	<p>Happy new year!</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id364">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3213"><p>Did you make the phyllo cups or buy them?  And if you made them- how??  All the food you&#8217;ve posted so far looks amazing.  I&#8217;m in awe of inviting so many people into your home at one time!<br />
+Happy New Year!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Aunt Sue</span></span>
+  				<span>on January 1, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3214"><p>Hi, Sue! We bought the phyllo cups, although the cookbook Leland mentions does give directions for making them.</p>
+<p>Leland, in hindsight, don&#8217;t you think putting the peas through the food mill was unnecessary and actually counter-productive? The puree would have had a little more body if we hadn&#8217;t strained it and we wouldn&#8217;t have had to tinker with the recipe by adding the cream cheese. It&#8217;s not like we were feeding babies or diverticulitis patients who couldn&#8217;t digest pureed pea skins.</p>
+<p>And your post doesn&#8217;t stress the fact that these were extremely pretty and Christmassy, with the green filling topped with the snow-white sprinkle of fresh cheese.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on January 1, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3215"><p>Thanks, Aunt Sue! Pardon me, Mother, but what about when I say &#8220;They looked so pretty in the picture, with the grated ricotta on top making them look like snow-covered Christmas trees&#8221;?</p>
+<p>I forgot about the cream cheese addition, and you&#8217;re definitely right about the pea skins. Next time I&#8217;ll leave them in.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on January 1, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3216"><p>Oh, yes, you did say that&#8230;never mind!</p>
+<p>We just came from a New Year&#8217;s brunch where they served phyllo cups filled with chicken salad &#8211; good, but obviously not as festive as these!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on January 1, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3217"><p>100 times yum.  But I can never get frozen peas not to taste frozen.  I guess I could try <span class="caps">NOT</span> ageing them in the freezer for 6 months before eating . . .</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">zp</span></span>
+  				<span>on January 1, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3218"><p>ps.  Thought you all should know &#8211; my Mom bought Benj a salad spinner for his birthday.  I used to have much opposition and thought we could just wash spinach, etc by hand but after Leland&#8217;s extended pro-spinner prosthelytizing I relented and now our lives are changed.  Dramatically, and for the better.  I&#8217;m a total convert.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">zp</span></span>
+  				<span>on January 1, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3219"><p>Hmm&#8230;I must have missed the pro-spinner proselytizing, but I remember all the paper towels I used to waste way back when I washed lettuce by hand. I think I&#8217;ve had my spinner for 20 years or more now, maybe 30, the same one, and it still works just fine. It&#8217;s hard to imagine living without it although in the grand scheme of things I know that statement sounds absurd.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on January 1, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id365">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id366" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id366_hf_0" id="id366_hf_0" /><input type="hidden" name="wicket:interface" value=":146:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id367" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id368" name="add" value="Add a comment" onclick="wicketShow('id368--ajax-indicator');var wcall=wicketSubmitFormById('id366', '../../?wicket:interface=:146:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id368--ajax-indicator');}.bind(this),function() { ;wicketHide('id368--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id366')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id368--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

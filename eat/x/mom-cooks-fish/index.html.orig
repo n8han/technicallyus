@@ -1,0 +1,210 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Mom cooks fish</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id9d2" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Mom cooks fish" width="246" class="title" src="../../../resources/net.databinder.components.RenderedLabel/e836a733"/><span class="title">Mom cooks fish</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on February 22, 2007</span></span>
+			<span id="id9d3" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/theory/#selected-tag"><span>theory</span></a><span id="id9d4">, </span></span><span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Lent began yesterday and I couldn&#8217;t be happier. To me it means that spring is right around the corner, and more importantly, <a href="http://technically.us/eat/articles/2006/02/27/fish-for-lent">fish fries</a>! Most local parishes began serving up fish dinners on <a href="http://en.wikipedia.org/wiki/Ash_Wednesday">Ash Wednesday</a> but I had folks coming over so I decided to cook some fish myself, even though no one at the table was Catholic. I like the idea of celebrating food traditions, particularly when there are young people in the house. Traditions and rituals of all kinds are so important to family life.</p>
+
+
+	<p>Now, I don&#8217;t cook fish often, in fact almost never, not having grown up on it, being raised in the <a href="http://en.wikipedia.org/wiki/Chester_County,_Pennsylvania">hinterlands</a> the way I was. The one or two times I remember my mother serving it, my father asked for the peanut butter, we three kids began crying, and mom threw her napkin down on the table, ran upstairs, and slammed the bedroom door. Memories like these remind me that when I was little my parents were only in their 20s.</p>
+
+
+	<p>However, back to my dinner; I bought the February issue of <em>Gourmet</em> magazine, mainly because the cover promised a &#8220;week&#8217;s worth of wonderful soups&#8221; (where were they?) and although for the most part it was a disappointing issue and made me realize how much better <em>Cook&#8217;s Illustrated</em> is, I liked the sound of a fish recipe inside, which called for pistachios in the coating and thus would have the advantage of using up the pistachios that have been in the kitchen since my Christmas baking.</p>
+
+
+	<p style="float:left"><img src="/eat/files/pist.jpg" alt="" /></p>
+
+
+	<p>My experience with the recipe is that it didn&#8217;t work out as promised, or I did something wrong. I used a non-stick skillet, and still the coating stuck to the pan like Velcro, and even the coating that didn&#8217;t stick mostly fell off the fish. After all my work, crushing the nuts, mixing them with the cornmeal, and patting the coating all over the fish, it was  really maddening to have it come off like that. On the other hand, the spicy yogurt sauce was delicious, and would make a fine topping for grilled chicken or lamb, or dip for vegetables. Make sure you get the thick Greek yogurt to make it, or drain regular yogurt.</p>
+
+
+	<p><strong>Pistachio-Crusted Halibut With Spicy Yogurt</strong>, from <em>Gourmet</em>, February, 2007</p>
+
+
+	<p><em>serves 4</em></p>
+
+
+	<p>For fish</p>
+
+
+	<ul>
+	<li>4 (1 1/4-inch-thick) pieces skinless halibut fillet, about 6 oz each (I used orange roughy)</li>
+		<li>1 cup whole milk</li>
+		<li>1/3 cup shelled pistachios, finely chopped* see Note</li>
+		<li>3 tablespoons cornmeal</li>
+		<li>salt</li>
+		<li>black pepper</li>
+		<li>1/4 cup olive oil</li>
+	</ul>
+
+
+	<ul>
+	<li>Note: I needed about twice as much cornmeal and pistachios as the recipe called for to coat the fish.</li>
+	</ul>
+
+
+	<p>For spicy yogurt</p>
+
+
+	<ul>
+	<li>1 cup thick Turkish or Greek yogurt</li>
+		<li>1/2 cucumber, peeled, seeded, and finely diced (3/4 cup)</li>
+		<li>2 tablespoons chopped fresh dill (I used dried dill and it was still good)</li>
+		<li>1 tablespoon finely chopped onion</li>
+		<li>1 tablespoon fresh lemon juice</li>
+		<li>2 teaspoons dried <em>maras</em> pepper (I just used red pepper flakes)</li>
+		<li>1/2 teaspoon salt, or to taste</li>
+	</ul>
+
+
+	<p>Put fish in a shallow baking dish, pour milk over it, and chill, covered, turning over once, 30 minutes. Meanwhile, stir together nuts and cornmeal in a shallow bowl or pie plate. Remove fish from milk, letting excess drip off. Transfer to a plate and sprinkle all over with salt and pepper, then dredge lightly in cornmeal-pistachio mixture. Transfer to a clean plate as coated.</p>
+
+
+	<p>Heat oil in a 12-inch skillet over moderately high heat until hot but not smoking, then sauté fish, turning over once, until golden and just cooked through, 6 to 8 minutes total.</p>
+
+
+	<p>While fish cooks, stir together the all ingredients for spicy yogurt, or this can be done earlier. Serve fish with yogurt on the side.</p>
+
+
+	<p>If you can&#8217;t find Turkish or Greek yogurt, use regular, plain whole milk yogurt drained in a sieve or colander lined with a double thickness of paper towels, chilled, for 1 hour.</p>
+
+
+	<p>For dessert, of course, we enjoyed a <a href="http://technically.us/eat/articles/2006/03/09/can-she-bake-a-cherry-pie">cherry pie</a> in honor of <a href="http://en.wikipedia.org/w/index.php?title=Presidents_Day_%28United_States%29&#38;oldid=110112526">George Washington&#8217;s birthday</a>,  which it almost was, two food traditions in one meal!</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id9d5">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3422"><p>Personally, I&#8217;ve never been able to keep breaded fish breaded unless deep frying. And even then, one side usually gets stripped. It&#8217;s just one of those things that only a few people are destined to know the secret trick.</p>
+<p>I made fried catfish tacos last week and I lost most of my beer-batter. Sad.</p>
+<p>But that looks great. Mmm.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.metakathryn.com"><span class="alias">Kathryn</span></a>
+  				<span>on February 22, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3423"><p>I hate when you do all that work for the coating and it just sticks to the pan.. Now, I&#8217;ve been told my mistake is that the oil is not hot enough when I put the fish in the pan but I feel like I get it pretty hot.. <br />
+As for Gourmet &#8212; I grew up on the magazine and adore it. But I do think the recipes are becoming less and less reliable.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">http://madisonandmayberry.typepad.com/</span></span>
+  				<span>on February 22, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3424"><p>Hi, Kathryn and Madison &amp; Mayberry! The recipe called specifically for olive oil in the pan, which as you know cannot be heated terribly high before it starts smoking and breaking down, so my problem could have been the oil not being hot enough. If I make this again I might use peanut oil, or a combination of peanut and olive oil, so I can get the pan and oil good and hot before putting the fish in.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on February 22, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id9d6">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id9d7" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id9d7_hf_0" id="id9d7_hf_0" /><input type="hidden" name="wicket:interface" value=":364:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id9d8" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id9d9" name="add" value="Add a comment" onclick="wicketShow('id9d9--ajax-indicator');var wcall=wicketSubmitFormById('id9d7', '../../../?wicket:interface=:364:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id9d9--ajax-indicator');}.bind(this),function() { ;wicketHide('id9d9--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id9d7')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id9d9--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

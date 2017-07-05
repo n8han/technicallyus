@@ -1,0 +1,170 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Mom eats lunch at indica</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id10ff" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Mom eats lunch at indica" width="390" class="title" src="../../../resources/net.databinder.components.RenderedLabel/dcab41de"/><span class="title">Mom eats lunch at indica</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on July 19, 2006</span></span>
+			<span id="id1100" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/restaurants:%20pittsburgh/#selected-tag"><span>restaurants: pittsburgh</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>A recent <a href="http://www.post-gazette.com/pg/06082/674915-242.stm">review</a> of local Indian restaurants in the <a href="http://www.post-gazette.com/">Pittsburgh Post Gazette</a> completely omitted the bistro <a href="http://www.billyprice.com">Poppy</a> and I ate lunch in today, and when I emailed dining critic <a href="http://www.post-gazette.com/pg/06173/700047-34.stm">Elizabeth Downer</a> to ask her why, she replied that she doesn&#8217;t like <a href="http://www.indicabistro.com/">Indica</a> and may have even gone so far as to say that the place gives her hives. Or some kind of unpleasant physical reaction.</p>
+
+
+	<p style="float:right"><img src="/eat/files/indica.jpg" alt="" /></p>
+
+
+	<p>Be that as it may, we like it, and think they put on a fine luncheon buffet, albeit at $8.99/person perhaps a little pricey for lunch at an Indian restaurant, but the setting is handsome, in a restored Victorian house with beautiful woodwork and floors. So many Indian restaurants seem to be dank, dark, little hovels. The food is also a bit better than your run of the mill Indian buffet, fresher, and with more variety. They seem to feature different dishes from day to day; today I ate tandoori chicken along with some kind of spicy lentils and green beans stewed with garlic, with rice pilaf on the side, admittedly not original, but done well. The naan is warm with lots of charred bits, which I like. My only complaint today is that there was no chutney or lime pickle on the buffet table; got to have the condiments!</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1101">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-2383"><p>I just happened to drive by Indica yesterday and thought &#8220;what a nice looking place&#8221;!  I love the paint job(for a restaurant/business)and can&#8217;t for the life of me remember if this bldg used to be a business or personal residence.  Regardless&#8230;.I appreciated your review and have it on my &#8220;To Go&#8221; for lunch list.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Lea</span></span>
+  				<span>on July 19, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2384"><p>Hmmm&#8230;never tried it but now I will! On a somewhat related note, I really dislike the changes the P-G has made to the food pages. Elizabeth Downer&#8217;s restaurant reviews are &#8220;eh&#8221; (Mackenzie Carpenter did a better job when she was filling in, <span class="caps">IMO</span>), the new food editor, Amy Mc. S. seems to have mandated an unending series of boring articles, many of which seem to be focused on introducing us dumb yinzers to the cuisines of the world (wow, what&#8217;s a paella?), and all the sparkle and humor that Suzanne Martison brought to the (then) award-winning section is a distant memory. Maybe it&#8217;s just me&#8230;am I getting old and crotchety? :o)</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Marcy</span></span>
+  				<span>on July 19, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2385"><p>I do miss Suzanne Martinson with all her farm-girl lore and her clear love of cooking and eating.</p>
+<p><span class="caps">OTOH</span>, I read the article in today&#8217;s section about the Thermomix with interest. Ever since <a href="http://lobstersquad.blogspot.com/2006_06_01_lobstersquad_archive.html">Lobstersquad</a> described using one to make onion jam I&#8217;ve thought these things sounded great and wanted to learn more about them. The price will have to come down quite a bit before they will become a feasible purchase for the average cook, however!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on July 19, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2386"><p>I am a bit obsessed with the Thermomix, and I&#8217;ve been hearing little things about it for a year or so. Cook&#8217;s Illustrated endorsed it in their last issue, saying that it did a good job at everything, and that it was perfect for small apartments without room for tons of appliances. Hmm, ideas for my birthday&#8230;</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on July 19, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2387"><p>Ideas for your birthday&#8212;the darn thing costs over $600!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on July 19, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2388"><p>I haven&#8217;t been to Indica, but I agree with Marcy about the P-G food section. There was a time when I really looked forward to reading it. I find it boring and cheerless- condescending, yet unsophisicated. What&#8217;s the problem? Feels to me like the writers are putting in time and don&#8217;t much care?<br />
+I can&#8217;t remember the last time I got excited about something I read there.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://lindystoast.com"><span class="alias">lindy</span></a>
+  				<span>on July 19, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id1102">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id1103" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id1103_hf_0" id="id1103_hf_0" /><input type="hidden" name="wicket:interface" value=":619:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id1104" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id1105" name="add" value="Add a comment" onclick="wicketShow('id1105--ajax-indicator');var wcall=wicketSubmitFormById('id1103', '../../../?wicket:interface=:619:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id1105--ajax-indicator');}.bind(this),function() { ;wicketHide('id1105--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id1103')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id1105--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / La Cense ribeye</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../eat">
+			
+			<img alt="Eat" src="../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../eat">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id1546" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="La Cense ribeye" width="251" class="title" src="../../resources/net.databinder.components.RenderedLabel/c3467462"/><span class="title">La Cense ribeye</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on October 8, 2006</span></span>
+			<span id="id1547" class="tags">
+					{&nbsp;<span><a href="../../eat/tag/food%20products/#selected-tag"><span>food products</span></a><span id="id1548">, </span></span><span><a href="../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>My second attempt with <a href="http://technically.us/eat/articles/2006/10/03/grass-fed-beef-from-la-cense">La Cense grass-fed beef</a> was a much bigger success than my first. This time I made the ribeye, using the same method of searing and then finishing in the oven. I stopped the cooking when the inside registered just 120ºF on my instant-read thermometer, and it was perfectly just past rare.</p>
+
+
+	<p style="float:center"><img src="/pictures/steak3.jpg" alt="" /></p>
+
+
+	<p>Even at this low temperature, the texture of the steak was not as appealing as that of the strip, which was much more tender despite being overcooked. This was slightly chewy and also a bit&#8230;dusty, if that makes any sense. The meat kind of fell apart at the edges in my mouth, and it made me think of Barletta&#8217;s <a href="http://www.ifeelcrazy.com/epifurious/2006/09/hamstravaganza.html">bone dust</a>.</p>
+
+
+	<p>On the side are Swiss chard leaves (sorry, Mrs. Lyons!) that I sautéed for an hour with garlic and sherry, and carrots that I roasted (to huge applause from myself) with unpeeled garlic cloves, the chard stems, rosemary, and cumin (all tossed with olive oil, salt, and pepper).</p>
+
+
+	<p>This two-part experiment made me realize that I like cooking steak. Eating it doesn&#8217;t excite me as much as unwrapping the butcher paper and having a big hunk of beef on my counter. It feels very 1950s, in a way that chicken breasts and mussels never do.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1549">
+  		
+  		
+  	</div>
+  	<div id="id154a">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id154b" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id154b_hf_0" id="id154b_hf_0" /><input type="hidden" name="wicket:interface" value=":770:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id154c" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id154d" name="add" value="Add a comment" onclick="wicketShow('id154d--ajax-indicator');var wcall=wicketSubmitFormById('id154b', '../../?wicket:interface=:770:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id154d--ajax-indicator');}.bind(this),function() { ;wicketHide('id154d--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id154b')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id154d--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

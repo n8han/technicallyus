@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Cupcakes and brownies</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id60c" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Cupcakes and brownies" width="378" class="title" src="../../../resources/net.databinder.components.RenderedLabel/af7a03dc"/><span class="title">Cupcakes and brownies</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on January 14, 2007</span></span>
+			<span id="id60d" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/baking/#selected-tag"><span>baking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>As much as I&#8217;m <a href="https://technically.us/eat/articles/2007/01/10/easy-potato-gnocchi">enjoying</a> <a href="https://technically.us/eat/articles/2007/01/08/mark-bittmans-lamburgers">Mark</a> <a href="https://technically.us/eat/articles/2007/01/03/pancakes-and-english-muffins">Bittman&#8217;s</a> book, the two baking recipes I&#8217;ve tried were disappointing. First up was his simple recipe for chocolate cupcakes with buttercream frosting. Easy, and perfectly edible:</p>
+
+
+	<p><img src="/pictures/cupcake1.jpg" alt="" /></p>
+
+
+	<p>But boring. I realized halfway through the baking that I forgot to add the quarter teaspoon of salt (did I inherit this trait from my mother?), which may have made a difference, but the flavor was just a bit boring all around, and the frosting was sickeningly sweet. I&#8217;ve eaten buttercream many times, but this was the first time I saw exactly what goes into it. Perhaps that affected my judgment. All that butter! All that confectioner&#8217;s sugar! I don&#8217;t know what I thought was in there. I&#8217;m looking for a creamier, more mommy-tasting frosting, if anyone knows of one. One that&#8217;s as different as possible from Magnolia Bakery&#8217;s frosting in flavor, texture, and edibility.</p>
+
+
+	<p>This weekend was brownies, which were more of a success but still offered little excitement in their flavor, despite my addition of whiskey to the batter per one of Mark&#8217;s variations:</p>
+
+
+	<p><img src="/pictures/brownies.jpg" alt="" /></p>
+
+
+	<p>Is a full cup of sugar the norm for an 8&#215;8 pan of brownies? My problem might be a general dislike of sugar, but I find these brownies more sweet than chocolaty. The texture is good, but what I really want is a dense, deeply chocolaty brownie with a crackling crust on top (basically, brownies that taste like the Ghirardelli mix brownies that I used to make years ago). Anybody?</p>
+
+
+	<p>Neither of these recipes are worth typing out, but if you&#8217;re very eager, you can <a href="http://www.amazon.com/exec/obidos/ASIN/0471789186/eat0e-20">search inside the book</a> on Amazon. You actually should just buy the book if you don&#8217;t already have it. It&#8217;s only $14, and as much as I complain, you&#8217;ll find hundreds of things you want to make in it.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id60e">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3250"><p>Try the Barefoot Contessa&#8217;s brownies.  Very dense, very chocolately, and not all that sweet.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Carly</span></span>
+  				<span>on January 14, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3251"><p>You can find it online at <a href="http://www.foodnetwork.com/food/recipes/recipe/0,,FOOD_9936_32314,00.html?rsrc=search">foodtv.com</a>, (is this a blog no-no?), or you can find it in The Barefoot Contessa Cookbook.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Carly</span></span>
+  				<span>on January 14, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3252"><p>I make cupcake frosting using a boiled frosting recipe &#8211; like Italian meringue but doesn&#8217;t get baked. It&#8217;s gorgeous, holds its shape and doesn&#8217;t clog your arteries (much).</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">http://www.stitchedinholland.com/blog</span></span>
+  				<span>on January 14, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3253"><p>I looked up the Mark Bittman recipe and I&#8217;m not surprised you were dissatisfied with it &#8211; a niggardly 2 oz. of chocolate! I can&#8217;t believe they tasted like brownies at all!! I use a recipe from Cook&#8217;s Illustrated that calls for 7 oz. of chocolate in total, some unsweetened and some semi-sweet, plus several tablespoons of cocoa powder. And yes, a cup or more of sugar is standard for an 8 inch pan &#8211; brownies are sweet and the sugar helps make them fudgie. Or is that fudgy? Or fudgey? They all look funny.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on January 14, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id60f">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id610" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id610_hf_0" id="id610_hf_0" /><input type="hidden" name="wicket:interface" value=":236:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id611" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id612" name="add" value="Add a comment" onclick="wicketShow('id612--ajax-indicator');var wcall=wicketSubmitFormById('id610', '../../../?wicket:interface=:236:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id612--ajax-indicator');}.bind(this),function() { ;wicketHide('id612--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id610')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id612--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

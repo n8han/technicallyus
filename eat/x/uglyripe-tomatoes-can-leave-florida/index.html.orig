@@ -1,0 +1,172 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / UglyRipe tomatoes can leave Florida!</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id122e" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="UglyRipe tomatoes can leave Florida!" width="571" class="title" src="../../../resources/net.databinder.components.RenderedLabel/6a71e701"/><span class="title">UglyRipe tomatoes can leave Florida!</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on January 17, 2007</span></span>
+			<span id="id122f" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/produce%20alerts/#selected-tag"><span>produce alerts</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>The <a href="http://www.santasweets.com/product-display.php?productID=2003062711084604">UglyRipe tomato</a> is <a href="http://www.nytimes.com/2007/01/17/dining/17ugly.html?_r=1&#38;8dpc&#38;oref=slogin">coming to New York</a> (and probably the rest of the country) starting tomorrow! This is the tomato that Jeb Bush, among others, thought was too ugly to export, even though it remains delicious throughout the winter. Flavor is too subjective, detractors said, and tomatoes from Florida should be uniformly smooth and attractive.</p>
+
+
+	<p>Fools! They&#8217;d only have to spend five minutes on food blogs to realize that eaters around the country, both on farms and in cities, seek out and pay absurd prices for the &#8220;ugliest,&#8221; craziest-looking heirloom tomatoes (of which UglyRipe is one), which tend to be packed with flavor, and which are therefore beautiful. It&#8217;s just so annoying that Florida would stand in the way of commerce and happiness to protect its image, as if anyone would look at a piece of produce, find it ugly, and subsequently change his opinion about an entire state.</p>
+
+
+	<p>I&#8217;ll be looking for them at Whole Foods this weekend. If anyone else tries them, please report! They&#8217;re being sold under the name Santa Sweets and should cost around $3 per pound.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1230">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3266"><p>Maybe I can find them in Florida and ship them to you!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Aunt Sue</span></span>
+  				<span>on January 17, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3267"><p>It&#8217;s great news for foodies and tomato lovers!</p>
+<p>Just wanted to let you know that the creator of the UglyRipe has started a blog called &#8220;The Tasty Tomato.&#8221; <br />
+You can get to it from their website at santasweets.com.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leslie</span></span>
+  				<span>on January 17, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3268"><p>I am so intrigued by this tomato! Go buy one and tell us how it is.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://gezellig-girl.com"><span class="alias">Kristen</span></a>
+  				<span>on January 17, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3269"><p>Everybody, I&#8217;m glad for all the support and excitement i&#8217;ve been reading in blogs everywhere about the Uglyripes and USDA&#8217;s decision. <br />
+If you have any questions about where to find them or any other questions about them, feel free to email me or Chris Grallert. My email is Mrivera@santasweets.com. His email is cgrallert@santasweets.com.</p>
+<p>Enjoy!!!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">MRivera</span></span>
+  				<span>on January 17, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3270"><p>We&#8217;ve had UglyRipes at our Whole Foods (Chapel Hill, NC) for a while now &#8211; and they are <span class="caps">GOOD</span>. Not quite as good as an August tomato from the farmer&#8217;s market, but about one million times better than the little whitish things they normally call tomatoes in the wintertime.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://trivialissimo.blogspot.com"><span class="alias">Heath</span></a>
+  				<span>on January 17, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6654"><p>The Ugly Tomato is just fantastic.  The flavor is really delicious, far and above any other tomato.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">jill</span></span>
+  				<span>on April 19, 2011</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id1231">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id1232" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id1232_hf_0" id="id1232_hf_0" /><input type="hidden" name="wicket:interface" value=":662:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id1233" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id1234" name="add" value="Add a comment" onclick="wicketShow('id1234--ajax-indicator');var wcall=wicketSubmitFormById('id1232', '../../../?wicket:interface=:662:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id1234--ajax-indicator');}.bind(this),function() { ;wicketHide('id1234--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id1232')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id1234--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

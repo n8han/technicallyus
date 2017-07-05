@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Grease</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id7bb" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Grease" width="114" class="title" src="../../../resources/net.databinder.components.RenderedLabel/7b74cfc8"/><span class="title">Grease</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on February 13, 2007</span></span>
+			<span id="id7bc" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/techniques/#selected-tag"><span>techniques</span></a><span id="id7bd">, </span></span><span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p><img src="/pictures/grease.jpg" alt="" /></p>
+
+
+	<p>This is why <a href="http://www.amazon.com/exec/obidos/ASIN/B000FNJ5M6/eat0e-20">broiler pans</a> and roasting pans with racks are so essential. I made Mom&#8217;s <a href="http://technically.us/eat/articles/2007/02/06/moms-smoked-paprika-chicken">paprika chicken</a> tonight for a few guests, and since my roasting pan, for which I have no rack but which I use for meat all the time, was in use, I pulled out the broiler pan. Even after close to an hour in the oven and then five minutes under the broiler, the meat (legs and thighs, of course) was moist, smoky, and had a dark and crispy skin. The unappealing fat had almost all dripped down below, and everyone felt good about eating a second piece, and even picking up the bones with their fingers to extract the tender bits.</p>
+
+
+	<p>Tonight was full of repeated recipes, so I have nothing new to offer. We ate the paprika chicken, <a href="http://technically.us/eat/articles/2007/01/10/blistered-potatoes">blistered potatoes</a>, and a bunch of Swiss chard cooked into submission in red wine and chicken stock. I cooked the chard stems with the potatoes–they crisped up like chips and were a perfect foil to the soft tubers. For dessert, I threw together the absurdly easy Amazon cake and served it with freshly whipped cream (Mom: I used your technique of putting the bowl and beaters in the freezer first!).</p>
+
+
+	<p>One guest, a lovely French girl called Flo, was so taken with the smoked paprika that I hid the tin in her purse before she left. I&#8217;d already used more than half of it in just a week, and I was afraid of overdosing, and of her forgetting how much she liked it. Smoked Spanish paprika is about to <em>blow up</em>.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id7be">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3362"><p>I am delighted to post that I was one of those special guests last night for dinner and we were treated like royalty! Leland sure knows how to cook a great meal. The paprika chicken was to <span class="caps">DIE</span> for &#8211; perfectly cooked, moist, tasty- I had no problem going in for more. The blistered potatoes were also delicious (I personally had failed when I tried to make them), and the swiss chard was yummy.</p>
+<p>And then&#8230;the dessert. We couldn&#8217;t believe how delicious the tasty vegan Amazon cake was!! With homemade whipped cream and a hot cup of coffee, the perfect end to a scrumptious meal.</p>
+<p>Bravo Leland!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Emily</span></span>
+  				<span>on February 13, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3363"><p>That sounds like a wonderful meal and that&#8217;s a great picture. That red is so vivid.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://kitchenography.typepad.com"><span class="alias">Julie</span></a>
+  				<span>on February 13, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id7bf">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id7c0" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id7c0_hf_0" id="id7c0_hf_0" /><input type="hidden" name="wicket:interface" value=":293:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id7c1" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id7c2" name="add" value="Add a comment" onclick="wicketShow('id7c2--ajax-indicator');var wcall=wicketSubmitFormById('id7c0', '../../../?wicket:interface=:293:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id7c2--ajax-indicator');}.bind(this),function() { ;wicketHide('id7c2--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id7c0')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id7c2--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

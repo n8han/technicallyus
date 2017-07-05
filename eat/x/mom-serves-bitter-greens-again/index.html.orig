@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Mom serves bitter greens again</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="idbbe" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Mom serves bitter greens again" width="487" class="title" src="../../../resources/net.databinder.components.RenderedLabel/c3fe0d84"/><span class="title">Mom serves bitter greens again</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on June 21, 2006</span></span>
+			<span id="idbbf" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/food%20products/#selected-tag"><span>food products</span></a><span id="idbc0">, </span></span><span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>I went to the East Liberty location of the city <a href="http://www.city.pittsburgh.pa.us/parks/html/farmers_market.html">Farmers&#8217; Markets</a> again yesterday, and in keeping with my vow to try something new every time I go there I purchased some Russian red garlic and a variety of kale I had never tried before, the name of which I forgot almost as soon as the vendor told it to me. I also bought some arugula from the same fellow, an organic farmer named Mick Luber from Bluebird Farm in Cadiz, Ohio. He&#8217;s been very patient with me for two weeks in a row now.</p>
+
+
+	<p style="float:left"><img src="/eat/files/gargr.JPG" alt="" /></p>
+
+
+	<p>One thing I learned, and that is that fresh garlic is not the same thing as green garlic; this stuff was <strong>pungent</strong>! I bought two long stalks of it; Mr. Luber told me that every part of the stalk, from the roots to the leaves, are edible and taste of garlic. I had intended to use both of them in tonight&#8217;s recipe, but after cleaning and chopping one stalk quickly realized that one was enough if not too much. The following recipe is adapted from one on the <a href="http://www.epicurious.com/">Epicurious</a> website that originally called for sausage. That probably would have been better, but unfortunately my corner market didn&#8217;t have any sausage except bratwurst (gag!) so I substituted capicola. The garlic, onion, chilies, and arugula are all my own additions as well. My menfolk seem to have tolerated the taste of the bitter greens much better in this dish than in their previous presentation; I don&#8217;t know if it&#8217;s because this one has meat in it or because it&#8217;s spicy and they like that.</p>
+
+
+	<p><strong>Fettuccine with kale and ham</strong></p>
+
+
+	<p style="float:right"><img src="/eat/files/spfet.JPG" alt="" /></p>
+
+
+	<p>1/4 cup olive oil <br> 1 bulb fresh garlic, with stem and green leaves, cleaned and finely diced <br> 1-2 small fresh red chili peppers, cleaned and minced <br> 1 bunch arugula, washed, trimmed, and coarsely chopped <br> 1 small onion, chopped <br> 1/4-1/2 lb. capicola, sliced into julienne <br> 1 bunch kale, tough stems and center ribs discarded and leaves coarsely chopped <br> 12 oz. dried egg fettuccine—I used whole grain <br> 2/3 cup chicken broth <br> 1 oz finely grated pecorino romano (1/2 cup) plus additional for serving</p>
+
+
+	<p>Heat oil in a 12-inch heavy skillet over medium heat until hot, then cook garlic, chilies, arugula, onion, and ham. If your chillies aren&#8217;t spicy enough like mine weren&#8217;t you can add some red pepper flakes at this point and cook them in the oil as well.</p>
+
+
+	<p>Meanwhile, blanch kale in a 6-quart pot of boiling salted water, uncovered, 5 minutes or longer if you like it very tender the way we do. Remove kale with a large sieve and drain. Return cooking water in pot to a boil, then cook pasta in boiling water, uncovered, until al dente. Reserve 1 cup pasta-cooking water, then drain pasta in a colander.</p>
+
+
+	<p>While pasta cooks, add kale to ingredients in skillet and sauté, stirring frequently, until just tender, about 5 minutes. Add broth, stirring and scraping up any brown bits from bottom of skillet, then add pasta and 1/2 cup reserved cooking water to skillet, tossing until combined. Stir in cheese and thin with additional cooking water if desired.</p>
+
+
+	<p>Serve immediately, with additional cheese on the side.</p>
+
+
+	<p>*Just to clarify; I like bratwurst but think it would be revolting in this dish!</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="idbc1">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-2262"><p>I don&#8217;t think bratwurst would be good with this either but using capicolla sounds inspired. This is my kind of meal &#8212; pasta with bitter greens and spicy meat.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://kitchenography.typepad.com"><span class="alias">Julie</span></a>
+  				<span>on June 21, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2263"><p>This sounds similar to a pasta I made last year with kale and pancetta. The bitterness and saltiness work beautifully together.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on June 21, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2264"><p>I&#8217;m with Julie. The idea of the spicy cured meat with the bitter greens is a natural, albeit one I never thought of. It&#8217;s kind of an Italian version of greens and hamhocks&#8230;I love cappicola, too.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://lindystoast.com"><span class="alias">lindy</span></a>
+  				<span>on June 21, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="idbc2">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="idbc3" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="idbc3_hf_0" id="idbc3_hf_0" /><input type="hidden" name="wicket:interface" value=":431:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="idbc4" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="idbc5" name="add" value="Add a comment" onclick="wicketShow('idbc5--ajax-indicator');var wcall=wicketSubmitFormById('idbc3', '../../../?wicket:interface=:431:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('idbc5--ajax-indicator');}.bind(this),function() { ;wicketHide('idbc5--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('idbc3')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="idbc5--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

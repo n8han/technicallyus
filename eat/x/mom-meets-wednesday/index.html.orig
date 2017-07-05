@@ -1,0 +1,150 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Mom meets Wednesday</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="ide7a" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Mom meets Wednesday" width="380" class="title" src="../../../resources/net.databinder.components.RenderedLabel/c970055c"/><span class="title">Mom meets Wednesday</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on August 22, 2006</span></span>
+			<span id="ide7b" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/restaurants:%20new%20york/#selected-tag"><span>restaurants: new york</span></a><span id="ide7c">, </span></span><span><a href="../../../eat/tag/travel/#selected-tag"><span>travel</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>My visit to Leland in New York was too short, and all I could think while I was there was that there were too few meal times in the day to take advantage of the wonderful food in that city. As it was I gained three pounds, and we must have walked five miles every day!</p>
+
+
+	<p>Leland was at his <a href="http://technically.us/eat/articles/2006/08/20/bread-class-continued">bread-baking class</a> on Saturday when I arrived, so Nathan obligingly took me on a tour of the <a href="http://newyorkmetro.com/nymetro/news/anniversary/35th/n_8592/">Union Square greenmarket</a>. What an incredible bounty of fruits, vegetables, cheeses, meats, and baked goods! I would be there all the time if I lived nearby, although the crowds started to get to me after awhile. We bought some peaches and a couple of excellent cookies (I had to steer N8 away from the peanut butter cookie he wanted which was baked with Crisco.)</p>
+
+
+	<p style="float:center"><img src="/pictures/emilia.jpg" alt="" /></p>
+
+
+	<p>Saturday night we met Uncle Ted and Emily for dinner at <a href="http://nymag.com/listings/restaurant/via-emilia/index.html">Via Emilia</a> , where we shared a couple of appetizers and each ordered a different pasta dish. I had the tortelloni filled with pumpkin and they were superb. We also shared two desserts but were a bit disappointed with them; the flourless chocolate cake was a little grainy and the custard in the profiteroles seemed like it was made from a mix.</p>
+
+
+	<p style="float:right"><img src="/eat/files/luisa.jpg" alt="" /></p>
+
+
+	<p>Leland already posted on our Sunday <a href="http://technically.us/eat/articles/2006/08/20/caracas-arepas-bar">lunch</a> and for dinner he cooked a wonderful pasta dish at home. By far the highlight of the trip was meeting <a href="http://wednesdaychef.typepad.com/">The Wednesday Chef</a> for lunch at a restaurant called <a href="http://www.newyorkmetro.com/listings/restaurant/city_bakery/">The City Bakery</a>. I have long been a fan of her blog, so it was such an honor to meet her! And the restaurant was perfect for lunch; they have a sort of cafeteria-style buffet that they call a salad bar, as well as hot foods like grilled sandwiches and pizza. The salad bar has fried chicken, marinated grilled peppers, sesame green beans, cold sliced roast chicken with black sesame seeds, roasted beets, and lots of other yummy things I&#8217;m forgetting. I knew I wouldn&#8217;t be getting any dinner last night so I indulged in one of their signature chocolate chip cookies, although I thought it tasted a little too much of baking soda. Anyway, here is a photo of me and Luisa of the Wednesday Chef &#8211; she is the young gorgeous one on the right!</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="ide7d">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-2609"><p>Great picture! Sounds like a trip with much fantastic food.</p>
+<p>I feel very envious of those people whose weekly farmer&#8217;s market is the Union Square Greenmarket, although given the problems I have restraining myself from over-buying at my much smaller farmer&#8217;s market, maybe it&#8217;s a good thing I don&#8217;t live close enough to go there on a weekly basis.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://kitchenography.typepad.com"><span class="alias">Julie</span></a>
+  				<span>on August 22, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2610"><p>The highlight of your trip!?! I&#8217;m agog over here. How can I compete with the greenmarket? ;) It was so great to meet you, too &#8211; I&#8217;m glad we had a chance! And though I think it&#8217;s awfully sweet you called that photo of me gorgeous, I can&#8217;t stop staring in horror at the dark circles under my eyes &#8211; I&#8217;m blaming it on the red-eye from LA&#8230; ;)</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://wednesdaychef.typepad.com"><span class="alias">Luisa</span></a>
+  				<span>on August 22, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="ide7e">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="ide7f" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="ide7f_hf_0" id="ide7f_hf_0" /><input type="hidden" name="wicket:interface" value=":528:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="ide80" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="ide81" name="add" value="Add a comment" onclick="wicketShow('ide81--ajax-indicator');var wcall=wicketSubmitFormById('ide7f', '../../../?wicket:interface=:528:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('ide81--ajax-indicator');}.bind(this),function() { ;wicketHide('ide81--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('ide7f')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="ide81--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

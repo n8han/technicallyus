@@ -1,0 +1,192 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Onion pan bread and lamb shanks</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../eat">
+			
+			<img alt="Eat" src="../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../eat">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id276" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Onion pan bread and lamb shanks" width="537" class="title" src="../../resources/net.databinder.components.RenderedLabel/2aa12ae4"/><span class="title">Onion pan bread and lamb shanks</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on January 22, 2007</span></span>
+			
+		</span></div>
+		<div><p>Continuing my Mark Bittman recipe–following frenzy, I spent a frigid Saturday night making an onion pan bread and braised lamb shanks. The onion bread was a last-minute idea, decided upon when I realized that it was 9 p.m. and dinner preparations were barely underway; I knew we&#8217;d need something hot to nibble on as the shanks cooked.</p>
+
+
+	<p>So I browned <strong>two sliced onions</strong> in <strong>two tablespoons of butter</strong>, which took about 15 minutes. I greased a nine-inch pie plate and sprinkled in an alarming <strong>two tablespoons of brown sugar</strong>, which definitely could have been cut to one. I spread the onions around, and on top of them poured a dough of <strong>2 cups of flour</strong>, <strong>1 tablespoon of baking powder</strong>, <strong>1 teaspoon of salt</strong>, <strong>1 teaspoon of sugar</strong> (I omitted this because I was out of sugar, thank god), <strong>1 egg</strong>, <strong>1 cup of milk</strong>, and <strong>1/4 cup of neutral oil</strong> (I only had olive).</p>
+
+
+	<p>It was done after about forty minutes, as promised, and it looked great:</p>
+
+
+	<p><img src="/pictures/onionpie.jpg" alt="" /></p>
+
+
+	<p>It tasted good, too, despite being so sweet. It was so similar to the <a href="http://technically.us/eat/articles/2006/12/06/leland-copies-mom-makes-a-tomato-tart">upside-down tomato tart</a> that I almost flipped it over, but I resisted. Dishes like this are crowd pleasers, but I think we all want more filling and less bread. I&#8217;d like to cut the dough in half and have a much thinner, more flavorful tart.</p>
+
+
+	<p>The lamb shank, meanwhile, took two hours, but it&#8217;s definitely worth making, especially since the shank is a pretty inexpensive cut of the lamb. I make any braise I find with olives in it.</p>
+
+
+	<p><strong>Ingredients</strong> <br> 
+1 tablespoon olive oil <br> 4 lamb shanks <br> 2 cups sliced onions <br> 1 tablespoon minced garlic <br> 1/2 teaspoon thyme leaves, or a few sprigs, or 1/2 teaspoon dried thyme <br> 1/2 cup stock, wine, or water (I used red wine) <br> 1 cup cored, chopped tomatoes (I used a full can of Progresso tomatoes, because that&#8217;s my style) <br> 1 1/2 cups pitted olives (Kalamata were delicious)</p>
+
+
+	<p>Heat the oil over medium-high heat in a big pan that can be covered, such as a Dutch oven. Brown the shanks well on all sides, and season them as you&#8217;re doing it. Remove the shanks, make sure you have two tablespoons of fat in the pan, and cook the onions for about ten minutes.</p>
+
+
+	<p>Add the garlic and thyme, and cook for a minute. Add the liquid and stir in the tomatoes. Return the shanks to the pan, and get them wet by turning them. Turn the heat to low, cover the pan, and cook for 30 minutes. Add the olives, give a stir, and cook for another hour, stirring occasionally. The meat will rise up the bone and start to fall off, and it will be very tender.</p>
+
+
+	<p><img src="/pictures/lambshank.jpg" alt="" /></p>
+
+
+	<p>I like having the extra tomatoes, and I used extra olives too. The salty, acidic, sweet flavor of olives and tomatoes cooked together is wonderful, and it makes the dish for me. We ate the leftovers tonight, and like most stews it tasted better after a few days.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id277">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3295"><p>did you really feed your guests at 11pm?  even for manhattan, that seems a bit much&#8230;</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Carly</span></span>
+  				<span>on January 22, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3296"><p>Yes, but the guest was <a href="http://technically.us/doc">Nathan</a>!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on January 22, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3297"><p>Off-topic: I was just at Garden of Eden in Bklyn Hts today and it made me think of you.  They&#8217;re so rude there!  I was eyeing the cashier as she rang everything up but it all came out right.  On the upside, they had baby brussels sprouts, which I have been obsessed with since eating them at The Good Fork.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">abby</span></span>
+  				<span>on January 22, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3298"><p>Wait, what is that you say about cupcakes?  Funny you should mention them&#8230;</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Carlsbarls</span></span>
+  				<span>on January 22, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3299"><p>I love lambshanks. These look great, and I&#8217;m sure went well with the pan bread. I have discovered that lambshanks are a very good candidate for crockpot cooking-I like to brown them first, and cook them all day with veg and a little wine- maybe some white beans? You can come home from work, and it smells like you&#8217;ve got a Mom on the premises.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://lindystoast.com"><span class="alias">lindy</span></a>
+  				<span>on January 22, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3300"><p>Note to Lindy, the Greenfield Giant Eagle has some cheap free range lamb shoulder right now.</p>
+<p>I just made this recipe with it, totally delish.  I doubled the tomatoes too, and put in a few whole cloves of garlic (with the liquid) and some red pepper flakes (with the thyme).  We ate it with baked potatoes and then finished with some left over pasta and then thought, after the fact, that it would be perfect over gnocchi . . .</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">zp</span></span>
+  				<span>on January 22, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id278">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id279" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id279_hf_0" id="id279_hf_0" /><input type="hidden" name="wicket:interface" value=":114:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id27a" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id27b" name="add" value="Add a comment" onclick="wicketShow('id27b--ajax-indicator');var wcall=wicketSubmitFormById('id279', '../../?wicket:interface=:114:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id27b--ajax-indicator');}.bind(this),function() { ;wicketHide('id27b--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id279')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id27b--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

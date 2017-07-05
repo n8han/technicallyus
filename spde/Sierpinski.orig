@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+        <link href="/css/blueprint/screen.css" type="text/css" rel="stylesheet" media="screen, projection"></link>
+        <link href="/css/blueprint/print.css" type="text/css" rel="stylesheet" media="print"></link> 
+        <link href="style.css" type="text/css" rel="stylesheet"></link> 
+        <title> Spde → Sierpinski </title>
+      </head>
+      <body>
+        <div id="content">
+      <div class="container">
+        <h2>Spde → Sierpinski</h2>
+        <h4><ul class="toc"> <li> <a href="About">About</a> </li><li> <a href="Download">Download</a> </li><li> <a href="See">See</a> </li><li> <a href="Talk">Talk</a> </li> </ul></h4>
+        <p>This <a href="http://en.wikipedia.org/wiki/Sierpinski_triangle">Sierpinski Gasket</a> was <a href="http://www.scala-lang.org/node/3391">contributed by EPFL</a>:</p>
+
+<blockquote>
+  <p>For those of you who are mathematically minded or interested in self similar systems and fractals, Anthony Bagwell has provided us with the following code examples. The first is a concise way to create a representation of the popular Sierpinski gasket.</p>
+</blockquote>
+
+<!--[if !IE]> -->
+
+<object classid="java:Sierpinski_Gasket.class" 
+type="application/x-java-applet"
+archive="/pictures/Sierpinski_Gasket-applet-0.1.2.jpgz"
+width="400" height="400"
+standby="Loading Processing software..." >
+<param name="archive" value="/pictures/Sierpinski_Gasket-applet-0.1.2.jpgz" />
+<param name="mayscript" value="true" />
+<param name="scriptable" value="true" />
+<param name="image" value="loading.gif" />
+<param name="boxmessage" value="Loading Processing software..." />
+<param name="boxbgcolor" value="#FFFFFF" />
+<param name="test_string" value="outer" />
+<!--<![endif]-->
+
+<p><object classid="clsid:8AD9C840-044E-11D1-B3E9-00805F499D93" 
+codebase="http://java.sun.com/update/1.5.0/jinstall-1_5_0_15-windows-i586.cab"
+width="400" height="400"
+standby="Loading Processing software..."  >
+<param name="code" value="Sierpinski_Gasket" />
+<param name="archive" value="/pictures/Sierpinski_Gasket-applet-0.1.2.jpgz" />
+<param name="mayscript" value="true" />
+<param name="scriptable" value="true" />
+<param name="image" value="loading.gif" />
+<param name="boxmessage" value="Loading Processing software..." />
+<param name="boxbgcolor" value="#FFFFFF" />
+<param name="test_string" value="inner" /></p>
+
+<p>
+<strong>
+This browser does not have a Java Plug-in.
+<br />
+<a href="http://java.sun.com/products/plugin/downloads/index.html" title="Download Java Plug-in">
+Get the latest Java Plug-in here.
+</a>
+</strong>
+</p>
+
+</object>
+<!--[if !IE]> -->
+
+</object>
+<!--<![endif]-->
+
+<pre><code>val d= 200
+size(400, 400)
+background(0, 10, 20)
+var a=List(List(d/2,0,255,0,0),List(d,d,0,255,0),List(0,d,0,0,255))
+var p=List(d,0,255,0,0)
+def draw() {
+  for(i&lt;-1 to 10) {
+    p=p zip a.random map{case (x,y)=&gt;x/2+y}
+    stroke(p(2),p(3),p(4))
+    point(p(0), p(1))
+  }
+}
+</code></pre>
+
+<p><a href="See"><em>See More Examples</em></a></p> 
+        
+      </div>
+    </div>
+      </body>
+    </html>

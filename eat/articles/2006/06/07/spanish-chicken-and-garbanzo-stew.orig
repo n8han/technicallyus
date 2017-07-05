@@ -1,0 +1,211 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Spanish Chicken and Garbanzo Stew</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../eat">
+			
+			<img alt="Eat" src="../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../eat">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id251" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Spanish Chicken and Garbanzo Stew" width="583" class="title" src="../../resources/net.databinder.components.RenderedLabel/b87ec296"/><span class="title">Spanish Chicken and Garbanzo Stew</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Nathan</span>, <span>on June 7, 2006</span></span>
+			<span id="id252" class="tags">
+					{&nbsp;<span><a href="../../eat/tag/ethnic%20cooking/#selected-tag"><span>ethnic cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>I&#8217;ll be guest blogging here at <em>Eat</em> on Wednesday nights, while Leland is perfecting his ability to copy edit like nobody&#8217;s business at a weekly <span class="caps">NYU</span> course. The class goes until 9, so I get to make a mess of the kitchen (and likely this weblog) as if I actually knew how to cook something.</p>
+
+
+	<p>Mrs. P. must have some hope for my cooking as she gave me a cookbook for Christmas. (We&#8217;ll leave aside that it&#8217;s entitled <a href="http://www.amazon.com/exec/obidos/ASIN/0471482331/eat0e-20"><em>the simpler the better</em></a>.)</p>
+
+
+	<p>Seeing as Leland&#8217;s on a sherry kick lately I picked a recipe that calls for a half-cup of it. Then I divided the recipe by two, leaving us with less leftover food and more leftover alcohol (the kind of math I can do in my head).</p>
+
+
+	<p><img src="/pictures/spanish-chicken.jpg" alt="" /></p>
+
+
+	<p>Ingredients for 4 servings:</p>
+
+
+	<ul>
+	<li>2 medium onions</li>
+		<li>1 large red bell pepper</li>
+		<li>2 tablespoons olive oil</li>
+		<li>1 large chicken, cut into pieces</li>
+		<li>1 tablespoon sweet paprika</li>
+		<li>1/2 cup dry sherry</li>
+		<li>Two cans garbanzo beans, drained and rinsed</li>
+	</ul>
+
+
+	<p>I prepared the entire dish in a skillet, but the full recipe would require a larger pot. It calls for a dutch oven, but I haven&#8217;t seen one of those since I was in Boy Scouts. It was enormous. I can&#8217;t imagine placing such a thing on our tiny stovetop.</p>
+
+
+	<p style="float:right"><img src="/pictures/spanish-chicken-leland.jpg" alt="" /></p>
+
+
+	<p>Brown the chicken in olive oil for about five minutes (making sure to spatter oil across the stove, wall, and refrigerator). Place the chicken aside and discard most of the chicken fat in the pan. Add onions and pepper (diced) and cook until soft, then return the chicken to the pot, and season with paprika and salt. Mix, then add sherry.</p>
+
+
+	<p>(I did enjoy using Leland&#8217;s <a href="http://technically.us/eat/articles/2005/12/22/global-vegetable-cleaver">fancy vegetable cleaver</a> for this task. It&#8217;s like driving an <span class="caps">SUV</span> around Manhattan, except you&#8217;re intimidating onions instead of people, and the onions can&#8217;t run out of your way.)</p>
+
+
+	<p>Cover and cook for a half hour, add garbanzos and cook for another ten minutes. Serve in a bowl, though no one will be able to cut the chicken from that position. Photograph. Remove chicken from bowl, cut, and eat.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id253">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-2179"><p>Yes, don&#8217;t you hate the way browning the chicken causes spatters everywhere? I actually sometimes use my deep oval Le Creuset casserole, which is sort of like a dutch oven but a bit smaller, for something like this because it contains the spatters a bit.</p>
+<p>Very funny post, Nathan; you can guest on our blog anytime!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on June 7, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2180"><p>Aw, thanks. I see now why a deeper pot would have been better even if the stew isn&#8217;t spilling out of the pan. Leland  uses <a href="/eat/articles/2005/11/27/good-deal-on-calphalon-saucier">this thing</a> all the time.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Nathan</span></span>
+  				<span>on June 7, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2181"><p>That thing rules.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on June 7, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2182"><p>A very amusing post but one question remains unanswered: How did it taste?</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://kitchenography.typepad.com"><span class="alias">Julie</span></a>
+  				<span>on June 7, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2183"><p>Good point. You can tell I&#8217;m a novice with the food writing if I don&#8217;t report back on the taste.</p>
+<p>The stew was pleasant, especially in the <strong>cold</strong> weather we&#8217;ve been having lately (yes, on June 7th!), and I do appreciate the simplicity and purity of the recipe. With the paprika and sherry it was expectedly sweet, but not overly so.</p>
+<p>Leland has several half chicken recipes I&#8217;d prefer over this meal &#8212; but then, you have to consider the cook!</p>
+<p>Leland, any comments?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Nathan</span></span>
+  				<span>on June 7, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2184"><p>The stew was more than pleasant&#8212;it was excellent! And it&#8217;s a good recipe because you could easily manipulate it to your liking or your stock. Good job, honey.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on June 7, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2185"><p>here´s one possibility!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">greenlaurel@gmail.com</span></span>
+  				<span>on June 7, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id254">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id255" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id255_hf_0" id="id255_hf_0" /><input type="hidden" name="wicket:interface" value=":109:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id256" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id257" name="add" value="Add a comment" onclick="wicketShow('id257--ajax-indicator');var wcall=wicketSubmitFormById('id255', '../../?wicket:interface=:109:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id257--ajax-indicator');}.bind(this),function() { ;wicketHide('id257--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id255')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id257--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

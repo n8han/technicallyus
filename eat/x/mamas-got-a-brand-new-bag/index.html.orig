@@ -1,0 +1,202 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Mama&#039;s got a brand new bag</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id7ab" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Mama's got a brand new bag" width="458" class="title" src="../../../resources/net.databinder.components.RenderedLabel/99663481"/><span class="title">Mama&#039;s got a brand new bag</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on May 10, 2007</span></span>
+			<span id="id7ac" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/techniques/#selected-tag"><span>techniques</span></a><span id="id7ad">, </span></span><span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>I&#8217;ve had a huge roasting chicken clogging up my freezer for over a month now and yesterday was browsing through some cookbooks, looking for something a little different to do with it. I ran across a recipe in my old <em>New York Times</em> cookbook that I&#8217;ve seen elsewhere and have always been intrigued by, Chicken in a Brown Paper Bag. For some reason I&#8217;ve never gotten around to preparing chicken using this method, even though I&#8217;ve always wondered how it would turn out.</p>
+
+
+	<p>It seemed like a good day to do it; the weather was warm but not so hot that I couldn&#8217;t bear to turn on my oven, and the recipe calls for a fairly low oven temperature anyway, just 325º, for a longer cooking time than I usually roast a chicken for. Presumably a higher temperature might burn the bag, and the bag keeps the chicken moist enough that the long roasting time doesn&#8217;t adversely affect it.</p>
+
+
+	<p>My opinion of roasting a chicken this way? Eh&#8230;.   Is it just a gimmick? Probably. There did seem to be more flavorful juices collected in the bottom of the bag than you usually get with a standard roast chicken, I guess because it&#8217;s sort of covered so the juices don&#8217;t cook away the way they would normally do. They made a nice sauce with the fat skimmed off and boiled down a bit, while the chicken was resting. I&#8217;m not sure I liked this roast chicken better than the <a href="http://technically.us/eat/articles/2006/03/01/a-man-pleasing-dinner">one</a> I usually make, but we have some lovely leftovers for sandwiches and salad now.</p>
+
+
+	<p><strong>Chicken Roasted in a Bag</strong>, from the <em>New York Times Cookbook</em>, by Craig Claiborne, 1990 edition</p>
+
+
+	<p style="float:right"><img src="/eat/files/bag.jpg" alt="" /></p>
+
+
+	<ul>
+	<li>1 (5-pound) roasting chicken (mine weighed 6 pounds)</li>
+		<li>1 teaspoon salt</li>
+		<li>1/4 teaspoon pepper</li>
+		<li>1 teaspoon fresh rosemary or 1/2 teaspoon dried</li>
+		<li>1/2 teaspoon ground cumin</li>
+		<li>1/2 teaspoon paprika (I used my beloved <a href="http://www.fiery-foods.com/dave/pimenton.html">smoked paprika</a> )</li>
+		<li>1 garlic clove, minced or put through a press</li>
+		<li>1/4 cup olive oil</li>
+	</ul>
+
+
+	<p>1. Truss the chicken. (I never bother with trussing but you may do this if you like.)</p>
+
+
+	<p>2. Combine the olive oil with all the seasonings and set this mixture aside for 30 minutes to develop the flavor.</p>
+
+
+	<p>3. Preheat the oven to 325º F.</p>
+
+
+	<p>4. Rinse the chicken and pat dry. Rub the entire surface with the oil mixture. Put chicken into a heavy brown paper bag, close the bag, and put it into a roasting pan. I used a metal binder clip to hold my bag closed. Bake for 2 1/2 to 3 hours, or until done. My 6-pound chicken took about 3 1/2 hours.</p>
+
+
+	<p style="float:left"><img src="/eat/files/bagchick.jpg" alt="" /></p>
+
+
+	<p><em>Note:</em> If a well-browned chicken is desired, the paper bag may be removed for the last 30 minutes of roasting. I did this, and also saved a bit of the seasoned oil mixture to brush on for that final half hour.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id7ae">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3738"><p>Are you using that Trader Joe&#8217;s bag just to taunt me?</p>
+<p>What a funny recipe. It reminds me of the fish we cooked <em>en papillote</em> in class, where you surround the fillet with various items and then seal it in a parchment envelope for baking. Did the bag puff up?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on May 10, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3739"><p>Ha &#8211; I guess that does give our readers a mixed message, given all your ranting about TJ&#8217;s, but it was the cleanest, newest bag I had. And the truth is, with TJ&#8217;s so close to me I stop in pretty often, for dairy products, mainly.</p>
+<p>I guess it is a bit like cooking <em>en papillote</em>, but to answer your question, the bag didn&#8217;t puff up; it had a lot of room in it, though.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on May 10, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3740"><p>I&#8217;m not so hot on the paper bag idea, but smoked paprika on the roast chicken? Genius.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.ceresandbacchus.com"><span class="alias">Mary</span></a>
+  				<span>on May 10, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3741"><p>I have to say, something about using a bag that has writing (and therefore dye) all over it makes me a little uncomfortable. I&#8217;m not really sure why, to be quite honest. I&#8217;m not usually very sensitive about these things, but when I saw the bag it made me flinch a bit.</p>
+<p>Also, those bags cannot be clean.</p>
+<p>But your chicken does look tasty.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Kathryn</span></span>
+  				<span>on May 10, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3742"><p>Hi, Kathryn; you know, I never even gave a thought to the writing on the outside of the bag, I guess because it was on the outside, and there was no question of it bleeding into the inside or anything. Those TJ&#8217;s bags are quite thick, and in fact, knowing them and their emphasis on organics it wouldn&#8217;t surprise me if the dye were food-safe.</p>
+<p><span class="caps">OTOH</span>, I did think about the cleanliness factor as I am pretty squeamish about food safety. Even though the bag had only been used to carry groceries once, that very day, I realize that the outsides of packaging, that had been handled, came into contact with the inside of the bag and thus touched my chicken. But I ultimately decided that the heat would kill any germs and that I probably am exposed to far more germs on a daily basis from touching doorknobs and elevator buttons, etc., not to mention my new pet peeve, the lemon and lime wedges that get handled by half of the western hemisphere and then added, unwashed, into my ice water or club soda in most restaurants these days.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca (Mommy)</span></span>
+  				<span>on May 10, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id7af">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id7b0" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id7b0_hf_0" id="id7b0_hf_0" /><input type="hidden" name="wicket:interface" value=":291:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id7b1" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id7b2" name="add" value="Add a comment" onclick="wicketShow('id7b2--ajax-indicator');var wcall=wicketSubmitFormById('id7b0', '../../../?wicket:interface=:291:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id7b2--ajax-indicator');}.bind(this),function() { ;wicketHide('id7b2--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id7b0')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id7b2--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

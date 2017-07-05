@@ -1,0 +1,301 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Weaving tweed with Scala and Json</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id24c9" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Weaving tweed with Scala and Json" width="572" class="title" src="../../../resources/net.databinder.components.RenderedLabel/14cf6562"/><span class="title">Weaving tweed with Scala and Json</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on March 27, 2009</span></span>
+			<span id="id24ca" class="tags">
+					{&nbsp;<span><a href="../../../code/tag/sling/#selected-tag"><span>sling</span></a><span id="id24cb">, </span></span><span><a href="../../../code/tag/http/#selected-tag"><span>http</span></a><span id="id24cc">, </span></span><span><a href="../../../code/tag/cocuhdb/#selected-tag"><span>cocuhdb</span></a><span id="id24cd">, </span></span><span><a href="../../../code/tag/spde/#selected-tag"><span>spde</span></a><span id="id24ce">, </span></span><span><a href="../../../code/tag/scala/#selected-tag"><span>scala</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p><strong>Extractor objects</strong>, a secret feature of the Scala language described only in Chapter 24 of <a href='http://www.artima.com/shop/programming_in_scala'><em>Programming in Scala</em></a>, certainly hit it big time this spring. Everybody used to be contented with <code>case Some(thing) =&gt; kerpow(thing)</code>, but now you are not even allowed inside the #scala freenode unless you can produce your own extractor. If you try to cheat, the cutthroat Scala channel regulars will hack into your computer to make it play the astonishingly stupid <em>Dollhouse</em> on repeat (but skipping the coed shower scenes) until, like the show&#8217;s &#8220;actives&#8221;, you abandon consistent typing entirely.</p>
+
+<h3 id='this_extractor_may_pinch_a_little'>This extractor may pinch a little</h3>
+
+<p>Fleeing this terrible fate, <em>Coderspiel</em> has endeavored to apply extractor objects to any and all circumstances. E.g. Json objects, which are fancy strings that mean something to a JavaScript interpreter. With an extractor you can process them in <code>case</code> statements, like this:</p>
+
+<pre><code>import dispatch.json.Js
+val echo = Js(&quot;&quot;&quot;{&quot;acting&quot;: &quot;staring blankly ahead&quot;}&quot;&quot;&quot;)
+object Echo extends Js { val acting = &#39;acting ? str }
+echo match {
+  case Echo.acting(hmm) =&gt; hmm
+  case _ =&gt; &quot;pshaw&quot;
+}
+
+res0: String = staring blankly ahead</code></pre>
+
+<p>An extractor is created when you call <code>?</code> on the <code>&#39;acting</code> <a href='http://www.scala-lang.org/docu/files/api/scala/Symbol.html'>Symbol</a>, which doesn&#8217;t have a <code>?</code> method but can be implicitly converted into an object that does. And since we know that Echo is always acting, we can use the extractor for direct assignment:</p>
+
+<pre><code>val Echo.acting(a) = echo
+
+a: String = staring blankly ahead</code></pre>
+
+<p>Ha ha. So mean. Anyway, that is how you can leverage one of Scala&#8217;s odder features to extract Json data. A downside may be that extractors are expected to handle the entire input or nothing, so that the apply method reverses the extract&#8217;s unapply. Who knows if this is the case, the answer is probably in some PDF somewhere. But in code it is nice and compact to extract different things from the same object, so who cares.</p>
+
+<p class='break'> Extractors are not the only way to skin the Json cat, however. Sometimes you just want to get at a field that you know the name and type of, without creating a reusable extractor. We have an answer! for that! too!</p>
+
+<pre><code>import Js._
+(&#39;acting ! str)(echo)
+
+res0: String = staring blankly ahead</code></pre>
+
+<p>Under the hood this baby is using a <a href='http://technically.us/git?p=dispatch.git;a=blob;f=src/main/scala/dispatch/Json.scala;h=776da7b6c399d2985dfbed74bd31a197568360f9;hb=HEAD'>JsonParser</a> written by Jorge Ortiz, because it seems to be awesome. The extraction interface resting on top of that is pretty happy with itself for the moment, but please refer to <a href='http://technically.us/git?p=dispatch.git;a=tree;f=src/test/scala;hb=HEAD'>the ScalaTest specs</a> at any time to see interaction examples that are known and intended to work.</p>
+
+<h3 id='140_characters_cant_be_wrong'>140 characters can&#8217;t be wrong</h3>
+
+<p>Twitter is a fluttering, fragile messaging system with one ultimate purpsose: boosting Tim O&#8217;Reilly&#8217;s ego from the stratosphere into low earth orbit. And now that that&#8217;s been accomplished, Twitter will shortly be taken over by everyone you are trying to get away from on Facebook. But in this fleeting userland springtime, Twitter has some very charming HTTP interfaces that just waiting to be queried. <em>Let us query&#8230;</em></p>
+
+<p>First, here is what you need to follow along: <a href='http://code.google.com/p/simple-build-tool/'>simple-build-tool</a>, an unflappable Scala builder. Its new version 0.4 has <a href='http://code.google.com/p/simple-build-tool/wiki/Loader'>a sweet distributtion loader</a> that downloads the builder itself and whatever version of Scala you want to compile against when you first run it. Just <a href='http://code.google.com/p/simple-build-tool/wiki/Setup'>follow the setup instructions</a> to get <code>sbt</code> on your path. Then checkout <a href='http://databinder.net/dispatch/'>Databinder Dispatch</a>:</p>
+
+<pre><code>git clone git://technically.us/git/dispatch
+cd dispatch
+sbt     # download stuff, enter sbt console
+update  # Ivy, my dependencies please
+console # activate SCARA console
+import dispatch._
+import Http._
+Http(&quot;http://www.fox.com/dollhouse/&quot; &gt;&gt;&gt; System.out )
+
+[the horror]</code></pre>
+
+<p>(&#8220;I pitched it as Alias meets Quantum Leap.&#8221; No. Sydney Bristow is kicking your face right now for even thinking that, Whedon.) Communicating over HTTP with Dispatch is easy and fun! But we&#8217;ve <a href='http://technically.us/code/x/pour-some-sugar-on-httpclient/'>seen all that before</a>, and even <a href='http://technically.us/code/x/sling-shot/'>plugged it into CouchDB</a> with Dispatch&#8217;s old hooptie Json interface. Take a gander at the fancy new upscale API:</p>
+
+<pre><code>import dispatch.json.Js._
+val st = :/(&quot;search.twitter.com&quot;)
+Http(st / &quot;search.json?q=dollhouse%20gratuitous&quot; &gt;# {
+  &#39;results ! list } ) map { &#39;text ! str }
+
+res2: List[String] = List(More character development and less gratuitous [...]</code></pre>
+
+<p class='liner'> Sadly, the identifier <code>$</code> is valid yet forbidden in Scala, so we had to change it to <code>&gt;#</code> or face an attack from Switzerland. The following paragraph is left in respect for the <code>$</code>.</p>
+
+<p class='break'>The magical <code>$</code> transports you into Jsonwald, where you can assert any identifier and type that you want, and it&#8217;s yours! (Or maybe it just takes a function <code>JsValue =&gt; T</code>.) The dollar sign is a fun symbol for the operation, at least until the global super-inflationary cycle and/or collapse of the dollar kicks in.</p>
+
+<h3 id='watch_for_falling_restful_api_wrappers'>Watch for falling restful API wrappers</h3>
+
+<p>Falling from the uh&#8230; clouds. (Sigh.) <a href='http://technically.us/git?p=dispatch.git;a=tree;f=src/main/scala/dispatch;hb=HEAD'>Some of them are piling up here</a>. Step right up&#8212;we got your NYTimes, your CouchDB, your Twitter APIs! Or at least, we got a few of their calls mapped until we got bored, and moved on to another one! (If anyone likes this stuff and wants to expand it, please do fork and <a href='mailto:nathan@technically.us'>format-patch</a>.) This is what our search for unintelligent life looks like using Dispatch&#8217;s Twitter interface:</p>
+
+<pre><code>import dispatch.twitter._
+Http(Search(&quot;#dollhouse gratuitous&quot;).results) map Status.text
+
+res4: List[String] = List(More character development and less gratuitous [...]</code></pre>
+
+<p>Dope. But let&#8217;s try something more serious:</p>
+
+<pre><code>val User.followers_count(fc) = Http(User(&quot;timoreilly&quot;).show)
+
+fc: BigDecimal = ERROR OUT OF HEAP SPACE PERSON IS TOO BELOVED!!!</code></pre>
+
+<p>omg.</p>
+
+<h3 id='what_to_do_with_case_classes_if_you_arent_making_a_calculator'>What to do with case classes if you aren&#8217;t making a calculator</h3>
+
+<p>One criticism of Scala, which is not really a criticism of the infallible god-language but of us its unworthy programmers, is that conventions are not yet established so everyone is using it is different ways, just like our parents experimented with different drugs in the 60s and 70s. It is kind of cool though, the whole creative thing: some people&#8217;s Scala draws heavily from the canon of functional languages, others gorge themselves on the cloying DSLs first popularized in dynamic languages (<em>ahem</em>). But if you are writing a general purpose programming interface in Scala, the overall aim is to do it in a way that will be maximally understandable, timeless, and most of all sexy. It is hereby asserted that the surest way to do that is to use language primitives to their fullest extent, so that if something looks chintzy you can just blame Odersky.</p>
+
+<p>Thus Dispatch&#8217;s Json extraction occurs fundamentally in <em>extractor</em> objects that can implicitly convert to <em>function</em> objects. Even if the code that implements these operations is crappy (it has happened before!) it can usually be fixed without breaking application code relying on the basic hand-wavy structure.</p>
+
+<p>As it happens, the way that HTML was stitched together in the CouchDB-to-web application <strong>Sling</strong> server at the time of <a href='http://technically.us/code/x/sling-shot/'>its intro post</a> was downright embarrassing. (Which is why none of that code was quoted.) It is great that you can put XML right into your Scala code but that alone isn&#8217;t going to save you from tangling tags. For that you need &#8230; <a href='http://technically.us/git?p=sling.git;a=blob;f=src/main/scala/sling/Press.scala;h=6bc191af2f58e8de2c56f1e6e1831a22099d0fdc;hb=HEAD#l10'>template case classes</a>?</p>
+
+<pre><code>trait Press { val html: Elem }
+
+case class Page(content: Content) extends Press {
+  val html =
+    &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+      &lt;head&gt;
+        &lt;link rel=&quot;stylesheet&quot; href=&quot;/css/blueprint/screen.css&quot; type=&quot;text/css&quot; media=&quot;screen, projection&quot; /&gt;
+        &lt;link rel=&quot;stylesheet&quot; href=&quot;/css/blueprint/print.css&quot; type=&quot;text/css&quot; media=&quot;print&quot; /&gt; 
+        &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot; type=&quot;text/css&quot; media=&quot;screen, projection&quot; /&gt; 
+        { content.head }
+      &lt;/head&gt;
+      &lt;body&gt;
+        { content.body }
+      &lt;/body&gt;
+    &lt;/html&gt;
+}
+trait Content { def head: NodeSeq; def body: Elem }</code></pre>
+
+<p>Then you can define whatever concrete implementations of <code>Content</code> you need. Using case classes it is easy to pass in pieces of information that various levels of the template will act on, in one nested expression. <a href='http://technically.us/git?p=sling.git;a=blob;f=src/main/scala/sling/App.scala;h=bd97c9782bcce328edacc3225f2dc5a13b017e02;hb=HEAD#l115'>Here are some</a> to render Sling&#8217;s edit page</p>
+
+<pre><code>Page(EditDocument(TOC(couched, id, &quot;?edit&quot;), 
+  EntityUtils.toString(entity, UTF8)
+)).html</code></pre>
+
+<p>and display page</p>
+
+<pre><code>Page(ShowDocument(TOC(couched, id, &quot;&quot;), md, tweedy)).html</code></pre>
+
+<p>The value <code>tweedy</code>, in case you are wondering, is an <code>Option[(String, List[JsValue])]</code>, potentially containing a search term for Twitter as well as the results, only containing values if the CouchDB Json object this app is slinging to the web contains a String named &#8220;tweed&#8221; (a tweet-feed). The matching tweets will appear below the body content: It&#8217;s an insta-forum, floating in the clouds, and all you have to do is name your raindrop! <a href='http://technically.us/git?p=sling.git;a=blob;f=src/main/scala/sling/Press.scala;h=6bc191af2f58e8de2c56f1e6e1831a22099d0fdc;hb=HEAD#l63'>Here&#8217;s how it renders</a>:</p>
+
+<pre><code>&lt;h3&gt;{ tweed } tweed&lt;/h3&gt;
+&lt;ul class=&quot;tweed&quot;&gt; {
+  js map { js =&gt;
+    val Search.text(text) = js
+    val Search.from_user(from) = js
+    val Search.created_at(time) = js
+    val Search.id(id) = js
+    val from_pg = &quot;http://twitter.com/&quot; + from
+    &lt;li&gt;
+      &lt;a href={ from_pg }&gt;{ from }&lt;/a&gt;:
+      { Unparsed(text) }
+      &lt;div&gt;
+        &lt;em&gt; { time.replace(&quot; +0000&quot;, &quot;&quot;) } &lt;/em&gt;
+        &lt;a href={ &quot;http://twitter.com/home?&quot; + Http ? Map(
+            &quot;status&quot; -&gt; (&quot;@&quot; + from + &quot; &quot; + tweed + &quot; &quot;),
+            &quot;in_reply_to_status_id&quot; -&gt; id, &quot;in_reply_to&quot; -&gt; from
+          ) }&gt;Reply&lt;/a&gt;
+        &lt;a href={ from_pg + &quot;/statuses/&quot; + id }&gt;View Tweet&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+  }
+} &lt;/ul&gt;
+&lt;p&gt;
+  &lt;a href={ &quot;http://search.twitter.com/search?&quot; + Http ? Map(&quot;q&quot; -&gt; tweed) }&gt;
+    See all Twitter Search results for { tweed }
+  &lt;/a&gt;
+&lt;/p&gt;</code></pre>
+
+<p>Can you find the &#8220;loop&#8221; of tweets? It is the <code>map</code>. That is how you loop, when your templating language is <code>NodeSeq</code>. Which, incidentally, is not that conceptually different from a Wicket <code>ListView</code>. Both cases are a welcome, if initially mind-bending, departure from the <code>for</code> loops that so many template-scripting languages fall back on. We aren&#8217;t printing HTML in iterations, but projecting it from data structures. It&#8217;s predictable!</p>
+
+<h3 id='this_is_all_just_talk'>This is all just talk</h3>
+
+<p>No, it is madness at work. Just look at the <a href='http://technically.us/spde/Talk'>Spde → Talk</a> page, which repeats tweets tagged with #spde. That is sure to be easier to maintain than a forum or mailing list. If someone wants to spam there, it&#8217;s Twitter&#8217;s problem (sorry al3x).</p>
+
+<p><a href='http://dsandler.org/wp/archives/2009/03/15/twitter-comments-results'>A dude already did this for comments</a>, entirely with client side code which is cool. This Sling implementation is obviously server side and, being fully ETagged, shouldn&#8217;t require anybody&#8217;s server to work unduly. The max age is set to ten minutes, so within that interval plain requests are served by Apache&#8217;s <code>mod_cache_disk</code> without hassling the Sling server. If anyone presses reload (requests with <code>max-age=0</code>) the cache will GET at Sling, which will query Twitter to see if there are any new results and hit CouchDB with an <code>IfNoneMatch</code>. A 304 Not Modified is returned if nothing has in fact been modified. This is all made possible by a composite ETag containing everything that&#8217;s needed to determine content freshness.</p>
+
+<pre><code>curl -I http://technically.us/spde/Talk
+...
+ETag: &quot;2165687990|#spde|1340833486&quot; </code></pre>
+
+<p class='break'> The middle element acts as a bit of memory. They should try adding something like that, to <em>Dollhouse</em>.</p>
+
+<h5 id='walking_tour'>Walking tour</h5>
+
+<ol>
+<li><a href='http://technically.us/spde/Talk'>Talk about #spde</a> &#8212; go ahead, litter the twitter.</li>
+
+<li><a href='http://code.google.com/p/simple-build-tool/wiki/Setup'>Setup simple-build-tool</a> &#8212; Scala batteries included!</li>
+
+<li><a href='http://databinder.net/dispatch/Download'>Get / git Databinder Dispatch</a></li>
+
+<li>Play in the friggin&#8217; clouds with <a href='http://databinder.net/dispatch/Guide'>Dispatch in a console</a>.</li>
+
+<li>Refer to <a href='http://technically.us/git?p=dispatch.git;a=tree;f=src/test/scala;hb=HEAD'>the specs</a> if you get lost.</li>
+</ol></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id24cf">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-6281"><p>This little secret about extractor objects was hinted out in chapter 15 (Case classes and Pattern matching) and disclosed in chapter 24 (Extractors).</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://monisiqbal.blogspot.com"><span class="alias">Monis Iqbal</span></a>
+  				<span>on May 12, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6282"><p>Oops. I have a thing for mixing up 4s and 7s, if you can believe that. I&#8217;ve changed the copy &#8216;24&#8217;, the chapter I meant to reference; thanks for the correction!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8han</span></span>
+  				<span>on May 12, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6612"><p>great post! good humor! keep it up &#8211; this helped me today</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://airodig.com"><span class="alias">ian</span></a>
+  				<span>on May 25, 2010</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id24d0">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id24d1" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id24d1_hf_0" id="id24d1_hf_0" /><input type="hidden" name="wicket:interface" value=":1350:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id24d2" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id24d3" name="add" value="Add a comment" onclick="wicketShow('id24d3--ajax-indicator');var wcall=wicketSubmitFormById('id24d1', '../../../?wicket:interface=:1350:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id24d3--ajax-indicator');}.bind(this),function() { ;wicketHide('id24d3--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id24d1')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id24d3--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

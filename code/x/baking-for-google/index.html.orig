@@ -1,0 +1,172 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Baking for Google</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id213f" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Baking for Google" width="292" class="title" src="../../../resources/net.databinder.components.RenderedLabel/d9ebe85d"/><span class="title">Baking for Google</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on May 7, 2006</span></span>
+			<span id="id2140" class="tags">
+					{&nbsp;<span><a href="../../../code/tag/databinder/#selected-tag"><span>databinder</span></a><span id="id2141">, </span></span><span><a href="../../../code/tag/google/#selected-tag"><span>google</span></a><span id="id2142">, </span></span><span><a href="../../../code/tag/wicket/#selected-tag"><span>wicket</span></a><span id="id2143">, </span></span><span><a href="../../../code/tag/internet/#selected-tag"><span>internet</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p style="float:right"><img src="/pictures/computer-cookies.jpg" alt="" /></p>
+
+
+	<p class="break">In my <a href="http://technically.us/n8/articles/2006/05/04/stateless-programming-headed-for-retirement">last dispatch</a> on the glories of rich, stateful <span class="caps">OOP</span> for the Web, I mentioned the little issue of Wicket’s funny-looking URLs, but purposely left out the oft-confused issue of search-engine crawlability.</p>
+
+
+	<p>Like humans exchanging links, search engines need URLs to be consistent. And you might assume that since your Wicket application presents static URLs to users, it would do the same for search engines. But then you would have forgotten about cookies.</p>
+
+
+	<p>Wicket enables Java’s <span class="caps">URL</span> rewriting feature for cookieless browsing. Since Google crawls the Web as a cookieless “user,” your bookmarkable links (no matter how pretty you’ve made them through <span class="caps">URL</span> mounting) will have a decidedly ugly (and inappropriate) <code>jsessionid</code> appended to them.</p>
+
+
+	<p>While it would be nice to turn off <span class="caps">URL</span> rewriting just for search engines, that would require request sniffing that is complicated, and hard to test. (Google, please index my site <em>now!</em>) Another option, one that is employed by sites all over the Web facing similar problems, is to reduce support for browsers with cookies disabled by turning off <span class="caps">URL</span> rewriting.</p>
+
+
+	<p>This was tricky to do previously in Wicket, but that’s been <a href="https://sourceforge.net/tracker/?func=detail&atid=684975&aid=1473355&group_id=119783">remedied</a>. I’ve made it very easy to reduce cookieless support in the latest <a href="http://databinder.net/releases/databinder-trunk.tar.gz">Databinder snapshot</a>. Just call the new <code>setCookielessSupported(false) </code> method in <a href="http://databinder.net/wsvn/Databinder/databinder/trunk/src/main/java/net/databinder/DataApplication.java?op=file&rev=0&sc=0">DataApplication</a>. When users with cookies disabled try to browse to a page that requires a session, they’ll be presented with a customized session expired page.</p>
+
+
+	<p class="break"><img src="/pictures/cookieless.png" alt="" /></p>
+
+
+	<p class="break">As you’re deciding whether or not to enable this anti-feature, keep in mind that cookieless users will still be able to visit every bookmarkable page in your site. They just won’t be able to submit Wicket forms, action links, etc. You have to weigh the needs of the few who choose to disable a highly useful, ten-year old Web feature against the millions who might find your content more easily through search engines.</p>
+
+
+	<p>I’ve disabled cookieless session support  for the <a href="http://databinder.net/recipe/">recipe book</a>, as it’s the example most appropriate for indexing. Google hasn’t updated its <a href="http://www.google.com/search?q=british%20lemon%20meringue%20pie">inbound links</a> as of this writing; sometimes that can take weeks.</p>
+
+
+	<p>I hope you enjoy the new feature. Or if <em>you’re</em> one of those people who browses with cookies turned off, go ahead and contribute a search engine sniffer to Wicket.</p>
+
+
+	<p class="break">Unless you’re too busy with your stealth browsing.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id2144">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-1113"><p>Funny thing is that your site gets mentioned as nbr 2, with this url:</p>
+
+<p>http://databinder.net/recipe/app/show/id/19;jsessionid=66kiemewvs53</p>
+
+<p>Yep, that is <em>with</em> the jsessionid in it. It&#8217;s not pretty, but another proof it&#8217;s not in Google&#8217;s way for indexing.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://chillenious.wordpress.com/"><span class="alias">Eelco Hillenius</span></a>
+  				<span>on May 7, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1114"><p>I was surprised it was ranked that high. I guess there aren&#8217;t too many British Lemon Meringue Pie recipes on the web.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on May 7, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1115"><p><em>Meaningless observation:</em></p>
+
+<p>Google has updated their inbound links to remove the jsessionid, and <em>our very own pie recipe is now number 1</em>. One explanation is that googlebot thinks the page is new, and it likes new pages. Another is that googlebot likes pertty URLs as much as humans do. Anyway, this rules.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on May 7, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1116"><p>mmmm&#8230;. coooookies&#8230;.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Jonathan Locke</span></span>
+  				<span>on May 7, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id2145">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id2146" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id2146_hf_0" id="id2146_hf_0" /><input type="hidden" name="wicket:interface" value=":1267:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id2147" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id2148" name="add" value="Add a comment" onclick="wicketShow('id2148--ajax-indicator');var wcall=wicketSubmitFormById('id2146', '../../../?wicket:interface=:1267:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id2148--ajax-indicator');}.bind(this),function() { ;wicketHide('id2148--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id2146')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id2148--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

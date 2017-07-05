@@ -1,0 +1,288 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Mom shops at Costco</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id69a" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Mom shops at Costco" width="346" class="title" src="../../../resources/net.databinder.components.RenderedLabel/4f788aff"/><span class="title">Mom shops at Costco</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on March 20, 2007</span></span>
+			<span id="id69b" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/grocery/#selected-tag"><span>grocery</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p style="float:left"><img src="/eat/files/costco.jpg" alt="" /></p>
+
+
+	<p>I know that warehouse grocery shopping is anathema to the <a href="http://www.pasafarming.org/">shop local</a> crowd, and I am <a href="http://technically.us/eat/articles/2006/07/20/mom-rants-about-bottled-water">sympathetic</a> to their position; after all I <strong>did</strong> just subscribe to my first ever <a href="http://www.pittsburghpostgazette.com/pg/07060/765794-34.stm"><span class="caps">CSA</span></a> farm box. However, one must buy toilet paper and other sundries and so I was thrilled when a <a href="http://en.wikipedia.org/wiki/Costco">Costco</a> opened within driving distance of my house.</p>
+
+
+	<p>I finally got out to <a href="http://en.wikipedia.org/wiki/Homestead,_Pennsylvania">Homestead</a> last week and bought a membership. Although it cost $50, they were handing out $10 cash cards, plus an additional $10 if you applied for an American Express card at the same time, which you need to pay for your groceries unless you use cash or debit, which brought the cost of membership down to $30. (I&#8217;m sure my husband would argue with my logic.) Then naturally I ran around buying things I probably wouldn&#8217;t have bought otherwise, like a &#8220;down-alternative&#8221; quilt for the guest room.</p>
+
+
+	<p style="float:center"><img src="/eat/files/cheese.jpg" alt="" /></p>
+
+
+	<p>However, I was really impressed with the selection of cheeses; I bought a hunk of English Stilton loaded with dried apricots, a cheese I have never seen before, and it&#8217;s so good. They have Parmigiano Reggiano, goat cheese, Dutch gouda, gorgonzola, ricotta salata, fresh mozzarella, Edam, Canadian extra sharp cheddar, and like the Stilton with apricots, some others I had never heard of. Most of the cheese is in manageable quantities, not big 5 or 10 pound portions, although those are available, too. And they have a big fresh produce section. Although it won&#8217;t be long before my farm box starts delivery and I&#8217;ll have more produce than my small family will be able to eat, at least for the summer months, right now I&#8217;m feeling a bit fresh fruit and vegetable-starved. I got some beautiful asparagus, blackberries, mangoes, and strawberries.</p>
+
+
+	<p>They also have a large fresh bakery department, as well as a fresh meat section. Our local store naturally doesn&#8217;t sell liquor or wine because of <a href="http://www.lcb.state.pa.us/">Pennsylvania state liquor laws</a> . I noticed that they&#8217;ve got an automotive department but no gas pumps; I gather that some Costco stores sell gas, too, which would be nice. I think my favorite tab on the Costco website is the <a href="http://www.costco.com/Common/Category.aspx?cat=20595&#38;eCat=BC|20595&#38;whse=BC">Funeral</a> tab, where you can order caskets, urns, and &#8220;keepsakes&#8221;, whatever they are.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id69c">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3544"><p>I just had to check on that &#8220;funeral&#8221; tab.  What, no plain pine boxes??? An interesting take on Cosco.  I have bought prescriptions there, which you don&#8217;t need a membership for, and I did get a good price.  Maybe I should go for the membership</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">grandma</span></span>
+  				<span>on March 20, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3545"><p>Enjoy the <span class="caps">CSA</span>.  Initial research suggests that when I move to New Haven, no <span class="caps">CSA</span> delivery.  Someone correct me on this, <span class="caps">PLEASE</span>!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">zp</span></span>
+  				<span>on March 20, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3546"><p>Hi, Mom! I guess I won&#8217;t be buying your casket from Costco; where does one obtain a plain pine box, anyway? Can you get Dad to make a couple of them in advance? In fact, now that I see the prices of these things, even at the warehouse discount, have him make enough for the whole family! As far as membership goes, I would think you would lean more toward Costco than Sam&#8217;s; Costco is sometimes called the &#8220;Anti-Walmart&#8221;, I guess because they treat their employees more fairly. But you wouldn&#8217;t want to have a membership in both and don&#8217;t you already belong to Sam&#8217;s?</p>
+<p>Abby, I hadn&#8217;t realized you were definitely moving, or to where, now I&#8217;m bummed! But I have you and Lindy to thank for my finally making the move to the <span class="caps">CSA</span> delivery. I&#8217;m guessing, although I don&#8217;t know for sure, that if you can&#8217;t find <span class="caps">CSA</span> delivery in New Haven you&#8217;ll at least find a thriving farmer&#8217;s market or food coop scene.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca (Mommy)</span></span>
+  				<span>on March 20, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3547"><p>From May to October, New Haven has four farmer&#8217;s markets a week, and they&#8217;re good.  Besides all the normal produce, they have meat, cheese, eggs, and milk.  More info here: http://www.cityseed.org</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://nomusing.blogspot.com"><span class="alias">Toby</span></a>
+  				<span>on March 20, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3548"><p>Thanks for the advice, I&#8217;ll be the one acting all indecisive at the market. Sometimes I&#8217;ve got a shopping phobia (and the Kretschmann&#8217;s delivery in Pittsburgh totally enabled it) . . . Or maybe I&#8217;ll track down the somewhat mysterious <span class="caps">CSA</span> Rebecca informed me about.</p>
+<p>I can&#8217;t wait to read about your <span class="caps">CSA</span> cooking adventures, in my absence, Rebecca. Sad, but exciting, too.</p>
+<p>And I guess I&#8217;ll start following your blog, Toby.  A food blog is a very good way to learn more about a place, and its seasons.  And its shopping.  Ack.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">zp</span></span>
+  				<span>on March 20, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3549"><p>i get my glasses/contacts at costo. the best deal yet&#8230;</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">jeannie</span></span>
+  				<span>on March 20, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3550"><p>Rebecca &#8211; Costco/Homestead does have gas pumps.  If you&#8217;re looking at the front of the building, the gas pumps are to the right front corner, at the side of the property bordering the Mon.</p>
+<p>On another subject &#8211; if I recall correctly, you and Leland recently discussed smoked paprika and not being able to find it in Pittsburgh.  I was at Penzey&#8217;s in the Strip yesterda and bought a jar of Smoked Spanish Paprika.</p>
+<p>I thoroughly enjoy your blog.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Lisa</span></span>
+  				<span>on March 20, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3551"><p>Jeannie, I saw the optical department and they really have some nice-looking frames. We have been loyal to one particular store but I may just get a new pair of sunglasses or something in there.</p>
+<p>Thanks, Lisa! It was so nasty the day I was out there that I didn&#8217;t really look around outside but that&#8217;s good to know.</p>
+<p>Regarding the paprika, probably when we said that Penzey&#8217;s still didn&#8217;t have it, I believe it&#8217;s a fairly recent addition. I also see that McCormick&#8217;s and Spice Hunter now carry it and McGinnis Sisters have it on their shelves, so I no longer have to have Leland bring it to me from New York.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca (Mommy)</span></span>
+  				<span>on March 20, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3552"><p>I <span class="caps">LOVE</span> Costco &#8211; the things they have are, overall, much better quality than other (evil empire) warehouse stores.  (Also, Costco is a <strong>great</strong> employer and a good corporate citizen, so I feel better about giving them my money!)</p>
+<p>I like the capers, the anchovies, and the olive oil there too.  We cook with all extra virgin (though, of course, it&#8217;s not the fabulous bread-dipping type, it&#8217;s good) b/c it&#8217;s as cheap at Costco as plain old chemically extracted leavings from first-press olive oil is elsewhere.</p>
+<p>Oh, and the dried shiitakes in the 5 lb bag &#8211; also good!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://trivialissimo.blogspot.com"><span class="alias">Heath</span></a>
+  				<span>on March 20, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3553"><p>Leland, <br />
+just wanted to let you know that I`m thinking of you.  Costco is in Japan too.  It`s no where near my house but they deliver.<br />
+best, <br />
+s r h</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">spencer</span></span>
+  				<span>on March 20, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3554"><p>What Heath said. They are like the anti-Walmart of employers. I haven&#8217;t been yet, can&#8217;t wait! Going Sunday to check it out.<br />
+From other Costcos I have learned a few things: Their pinenuts- amazing deal. Avocados also gorgeous. I&#8217;m excited.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://http//:lindystoast.com"><span class="alias">lindy</span></a>
+  				<span>on March 20, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3555"><p>I would like to take this opportunity to go on record as saying that even if I weren&#8217;t moving I would not care about Costco.</p>
+<p>Penn Mac has all the fresh cheese at reasonable prices I&#8217;ve ever wanted and, I just noticed, the once-rare smoked paprika.</p>
+<p>No coffins, though.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">zp</span></span>
+  				<span>on March 20, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3556"><p>Now I&#8217;m ashamed&#8230;specially since I just got back from my second trip in less than 5 days; I was looking for those dried mushrooms, as though I couldn&#8217;t find them at Penn Mac! I did fill up the gas tank, though.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca (Mommy)</span></span>
+  				<span>on March 20, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3557"><p>I guess I&#8217;m in the same boat with zp when I say I&#8217;m not excited about Costco moving into town.</p>
+<p>I realize it&#8217;s great for buying bulk foods cheap, but what about their selection of organic and premium items?  I understand it&#8217;s virtually non-existent.  Do they even have environmentally-friendly paper products like those made by Seventh Generation?  In addition, going through the oft-nasty traffic at the Hi-Level Bridge to get there appeases neither my taste buds nor my driving sentiment.</p>
+<p>I&#8217;ll stick with Trader Joe&#8217;s and Giant Eagle (Market District only!) for groceries and go to the Strip to get the odd pound of serrano ham or rare ethnic food.</p>
+<p>I&#8217;m glad to hear you&#8217;re having success with Costco, though!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://colinwetherbee.com/"><span class="alias">Colin</span></a>
+  				<span>on March 20, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3558"><p>Ahhh&#8230; stilton with apricots!  When I lived in the UK, I shopped at Waitrose and they had the most amazing cheese selection, including stilton with apricots, cranberries and some other lovely fruits.  I miss the selection!  I may have to go to Cosco.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.pigtown-pigout.blogspot.com"><span class="alias">Fairfax</span></a>
+  				<span>on March 20, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3559"><p>Ah, Waitrose&#8230; they have those lovely, disgustingly-bad-for-you packets of generic frozen cod in cheese sauce.  Mmmm, I often miss those.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://colinwetherbee.com/"><span class="alias">Colin</span></a>
+  				<span>on March 20, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3560"><p>I&#8217;ll try to talk Dad into making some coffins!  He is looking for some projects.  Just made a walnut table and pulled it apart.  Hope he finishes it.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">grandma</span></span>
+  				<span>on March 20, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3561"><p>This conversation has become quite morbid. Perhaps Grandpa could be persuaded to build us a dresser!</p>
+<p>I wish we had access to Costco, although I don&#8217;t know how much advantage we could take of it, having such little storage space. I think one might go in in East Harlem; my fingers are crossed.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on March 20, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3562"><p>Hi, Colin &#8211; Your comment about no organic or premium products at Costco got lost in our comment filter somehow and I just retrieved it. I&#8217;ll have to pay more attention to that next time, although I did buy a big bag of organic cuban coffee beans last time I was there.</p>
+<p>And I don&#8217;t usually bother with &#8220;environmentally friendly&#8221; paper products much, anyway, preferring to try to reduce my use of paper products by using rags and cloth napkins, rather than paper towels and paper napkins. And warehouse shopping where you put your groceries in spare boxes yourself, rather than using lots of grocery bags, no matter what they&#8217;re made of, has to be a plus.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on March 20, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id69d">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id69e" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id69e_hf_0" id="id69e_hf_0" /><input type="hidden" name="wicket:interface" value=":255:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id69f" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id6a0" name="add" value="Add a comment" onclick="wicketShow('id6a0--ajax-indicator');var wcall=wicketSubmitFormById('id69e', '../../../?wicket:interface=:255:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id6a0--ajax-indicator');}.bind(this),function() { ;wicketHide('id6a0--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id69e')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id6a0--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

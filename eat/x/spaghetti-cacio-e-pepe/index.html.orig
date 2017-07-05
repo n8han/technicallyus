@@ -1,0 +1,255 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Spaghetti cacio e pepe</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id146" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Spaghetti cacio e pepe" width="360" class="title" src="../../../resources/net.databinder.components.RenderedLabel/b230e8a0"/><span class="title">Spaghetti cacio e pepe</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on January 17, 2008</span></span>
+			<span id="id147" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>A few months ago, I had the good fortune to watch a cooking demonstration by Mark Ladner of <a href="http://www.delposto.com">Del Posto</a>. Mark is one of the nerdiest, coolest cooks I&#8217;ve ever watched. He&#8217;s obsessed with ingredients, from the salt in his pasta water to the olives in his olive oil. He very precisely demonstrated spaghetti <em>cacio e pepe</em>, a simple preparation of peppery pasta (alliteration not intended).</p>
+<p>At the demo, Mark handed out little postcards with a list of what he calls the <strong>10 Most Important Details</strong>, among them &#8220;100g pasta = 1 liter boiling water = 10g sea salt,&#8221; &#8220;Make sure butter is cold when finishing for strong emulsion,&#8221; and &#8220;Never allow oil to smoke.&#8221; I committed these various details to heart before embarking on the simple and strange recipe, and I ended with a dish that was considerably better than the sum of its parts. It&#8217;s quite spicy, and perfect on a cold night such as we&#8217;ve been having here.</p>
+<p><img src="http://technically.us/resources/com.typeturner.Typeturner/image?name=pepe" title="pepe" alt="pepe" /></p>
+<p>For two servings:</p>
+<ul>
+	<li>4 oz. spaghetti (<a href="http://nymag.com/daily/food/2007/10/setaro_commands_the_pasta_loya.html">Setaro</a> if you can get it)</li>
+	<li>1 gallon water</li>
+	<li>1 ounce sea salt</li>
+	<li>1/4 cup reserved pasta water</li>
+	<li>1 tablespoon olive oil</li>
+	<li>1 teaspoon whole butter (who&#8217;s ever heard of a teaspoon of butter?)</li>
+	<li>1 teaspoon freshly ground (or don&#8217;t bother) black pepper</li>
+	<li>1 tablespoon freshly grated (ditto) Parmesan cheese</li>
+</ul>
+<p>Bring the water to a full boil and then add the salt. Add the spaghetti, don&#8217;t touch it for a minute, and then stir it vigorously. Cook until still firm. Reserve 1/4 cup of the cooking water, and drain the pasta. Put the pot back on the heat and dry it out. Briefly toast the black pepper (be careful, as it will burn fast), and then add the reserved water, the oil, and the butter. Return the pasta to the pot and cook for another minute or until done. Finish with the cheese, and serve.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id148">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-4985"><p>In these busy times, it is nice of you to remind us of a dish that is so damn good, when done right. There&#8217;s something about the intensity of the attention required, and the intensity of the taste produced by something like this that is so rewarding, sometimes, more than endless hours fussing . . .</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://ihatethenyer.blogspot.com"><span class="alias">zp</span></a>
+  				<span>on January 18, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4987"><p>Was this the main course? Cause 4 ounces doesn&#8217;t seem like enough pasta, even for 2 people. I know we&#8217;re greedy, but Poppy, Calvin, and I can polish off a whole pound between the three of us, and that&#8217;s with a meat sauce on top of it.</p>
+<p>This looks good, though! Another question, what is whole butter?</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://technically.us/eat"><span class="alias">Rebecca (Mommy)</span></a>
+  				<span>on January 18, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4988"><p>Mommy: I should have noted that I doubled this recipe for us, and we still finished it. It was the main course. Whole butter is just butter, I guess as opposed to clarified butter.</p>
+<p>Thank you, zp! Yes, it is an intense preparation involving plenty of concentration and attention to detail.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on January 18, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4993"><p>Try this with Crazy Jane&#8217;s Mixed Up Salt instead of regular salt.  So good!!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">abby</span></span>
+  				<span>on January 18, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5015"><p>Toasted black pepper? Gotta try this. Never even occurred to me before.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://lindystoast.com"><span class="alias">Lindystoast@gmail.com</span></a>
+  				<span>on January 20, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5031"><p>Sometimes the simplest dishes are by far better than the ones that take a thousand ingredients and an hour to make.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://quirkycupcake.com"><span class="alias">Laurie</span></a>
+  				<span>on January 23, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5033"><p>I know that you&#8217;ve got a Pittsburgh connection, so I thought you&#8217;d be interested to know that 21st Street Coffee &amp; Tea in the Strip District has some Clover action going on.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://21streetcoffee.com/"><span class="alias">hank</span></a>
+  				<span>on January 24, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5037"><p>Thanks, everyone, for the comments! Yes, Lindy: you would love it. Thanks, Hank, for the heads-up on 21st Street Coffee! Mom: you&#8217;ll have to check it out and report back.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on January 24, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5043"><p>Would you mind telling this humble, sometime lurker where and when you had the pleasure to observe Mark Ladner? (I am absolutely seething with jealousy.) He hides from the spotlight so often that it&#8217;s difficult to find out when he is out and enriching our culinary lives.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">barri</span></span>
+  				<span>on January 25, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5044"><p>Hey Barri: I actually work at The International Culinary Center in New York, so I get to watch the demos there sometimes. His was one of the best I&#8217;ve seen in the last few years.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on January 25, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5045"><p>At the French Culinary Institute? (I have to reiterate: I am so jealous.) You might just have one of the best jobs in all of Manhattan.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">barri</span></span>
+  				<span>on January 25, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5046"><p>Ha, that&#8217;s the place. There are many food-related perks. You should come take a class!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on January 25, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5047"><p>I should! Better yet, you should hire me! ;) Any favorites from the course list?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">barri</span></span>
+  				<span>on January 25, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5048"><p>I loved every minute of <a href="http://www.italianculinarytraining.com/courses_pasta.html">this class</a>. <a href="http://www.frenchculinary.com/courses_ac_lt.htm">This one</a> too, but it&#8217;s much more intensive and longer term.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on January 25, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5051"><p>I&#8217;ve actually been looking for courses that cover all of the solid fundamentals necessary to, you know, cook with love and self-confidence. Perhaps I&#8217;ll be able to manage it in the coming year. Thanks!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">barri</span></span>
+  				<span>on January 25, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5082"><p>ahah! this is an italian classic. its best pasta format is maccheroni! maccheroni cacio e pepe! delicious</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">franci</span></span>
+  				<span>on February 1, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6618"><p>I just finished &#8220;Eat,Pray,Love&#8221; and was looking for the recipe for spaghetti cacio e pepe and stumbled onto this site. I love it! Thanks for the insight!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Kiki Lou</span></span>
+  				<span>on August 15, 2010</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id149">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id14a" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id14a_hf_0" id="id14a_hf_0" /><input type="hidden" name="wicket:interface" value=":73:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id14b" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id14c" name="add" value="Add a comment" onclick="wicketShow('id14c--ajax-indicator');var wcall=wicketSubmitFormById('id14a', '../../../?wicket:interface=:73:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id14c--ajax-indicator');}.bind(this),function() { ;wicketHide('id14c--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id14a')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id14c--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

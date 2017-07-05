@@ -1,0 +1,231 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Cooking 101, Leland’s salad dressing</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id7cb" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Cooking 101, Leland’s salad dressing" width="584" class="title" src="../../../resources/net.databinder.components.RenderedLabel/19b4779d"/><span class="title">Cooking 101, Leland’s salad dressing</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on October 25, 2006</span></span>
+			<span id="id7cc" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/theory/#selected-tag"><span>theory</span></a><span id="id7cd">, </span></span><span><a href="../../../eat/tag/techniques/#selected-tag"><span>techniques</span></a><span id="id7ce">, </span></span><span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Mark Bittman has a nice <a href="http://www.nytimes.com/2006/10/25/dining/25mini.html?_r=1&#38;ref=dining&#38;oref=slogin">piece</a> on salad dressing in this week&#8217;s dining section. He writes off most bottled dressings and insists that &#8220;taking two minutes to combine extra virgin olive oil, vinegar and a couple of real seasonings is an enlightening experience, one that can make you vow to leave the mass-produced concoctions of cheap oil, water (more water than oil, if it’s low-fat), dried spices and hideously unnatural chemicals on the supermarket shelf.&#8221; I couldn&#8217;t agree more.</p>
+
+
+	<p>If someone opens a bag of lettuce and a few other bags of various salad toppings and teams it with a bottle of dressing, I&#8217;ll eat it and never think of it again. However, I&#8217;m always disappointed when someone has gone to some kind of trouble to wash lettuce or chop vegetables or cheese, all just to overshadow his work with a heavy pour from the oily bottle of Newman&#8217;s Own dressing that&#8217;s been in the refrigerator door for six months. Salad takes time and care, and I appreciate a beautiful homemade salad as much as the rest of the meal.</p>
+
+
+	<p>Mom taught me to make salad dressing when I had my first kitchen several years ago. I had never tasted a bottled dressing at that time, so it wouldn&#8217;t have even occurred to me to buy one. My dressing is slightly different from hers, and she probably wouldn&#8217;t like it very much, as I prefer it strong with the taste of vinegar and mustard.</p>
+
+
+	<p>If you&#8217;re eating salad every day or even twice a week, it&#8217;s worth getting in the habit of whisking yourself up a bit of dressing. As far as I can tell, you don&#8217;t even have to refrigerate it, although I do it out of habit. Adjust the flavorings to your own taste; it helps to mix it in a measuring cup or a dressing shaker, like this vintage Tupperware beauty that Uncle Ted gave me:</p>
+
+
+	<p><img src="/pictures/dressingshaker.jpg" alt="" /></p>
+
+
+	<p>because you can keep an eye on how much vinegar you&#8217;re using and what you like. At this point, I do it in a bowl and know that I&#8217;m done when the dressing coats the side of the bowl in a certain way.</p>
+
+
+	<p>For enough dressing for a big salad, start with 50 milliliters of balsamic vinegar (Mom prefers white, I prefer dark). Whisk in about a teaspoon of whole grain mustard and a bit of salt and pepper, and a squeeze of lemon juice if you happen to have a cut lemon. Begin to pour in extra virgin olive oil while whisking. You&#8217;ll need at least 100 milliliters, but it will be to taste and according to your own preferences. Before serving, give it a final whisk to emulsify it well. A bit of garlic or shallot or soy sauce is nice, but keeping it simple is nice too.</p>
+
+
+	<p>I <em>hate</em> pouring dressing on my own plate. If it&#8217;s at all possible, toss the dressing with the salad so that every (well-spun) leaf is lightly coated. All of this information is probably old-hat to most of Eat&#8217;s readers, but we&#8217;ve been in a 101 spirit recently. This is exactly the kind of information I needed years ago, and I&#8217;m sure someone, somewhere, will benefit from it.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id7cf">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-2961"><p>Good post, Leland! I&#8217;m always amazed at how many people are still putting bottles of dressing on the table. Even the better ones, like Newman&#8217;s, are made with ingredients you wouldn&#8217;t use at home, like soy oil.</p>
+<p>I am thinking of switching to sherry vinegar after reading <a href="http://lobstersquad.blogspot.com/">Lobstersquad&#8217;s</a> ode to it recently and I&#8217;m sure I&#8217;ll be eating a lot of it next month in Spain, since I gather it&#8217;s that country&#8217;s version of balsamic.</p>
+<p>One bone to pick with you regarding your post, though: what <strong>are</strong> milliliters, exactly, and why are you giving the recipe in them and not the more common English measurements that we use in this country? :)</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on October 25, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2962"><p>Thanks, Mom! Hmm, do you measure in cups? I have always used ml for salad dressing, because that&#8217;s what is on my shaker. Don&#8217;t all measuring cups have ml on them?</p>
+<p>According to google, 50 ml = 0.21 US cups.</p>
+<p>Sherry vinegar can be very delicate and delicious. Sounds like it would make a nice stocking stuffer for someone special.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on October 25, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2963"><p>I&#8217;ve been thinking about posting on salad dressing too &#8230;</p>
+<p>I use a kind of scientific bottle (with ml, which I never use because its just 1:2, right?) with an orange plastic top which a friend lifted from her lab to complete her mad scientist Halloween costume and then no one felt comfortable returning it.</p>
+<p>This is really quite strange because my parents have always used a scientific bottle (with a ground glass stopper) that <span class="caps">THEY</span> lifted from a science lab back in the day when ground glass stoppers were more the thing. If it had measures on it they had worn off by the time I was eating salad.</p>
+<p>Anyway, 1:2, we used to make it with red wine vinegar, then later balsamic.  There was a brief period when my mom added a teaspoon of raspberry jelly, if it was around (this was when I was in college and taught my friends to make dressing and they appreciate it to this day).  Now she says she doesn&#8217;t remember doing this!</p>
+<p>And one can add mustard and garlic and salt and pepper and whatever in the amounts one likes.</p>
+<p>There were also times when my mom would add dried herbs.</p>
+<p>Every now and then when I&#8217;ve made a big meal with lots of steps and then I realize I don&#8217;t have salad dressing I think about &#8220;getting out of the salad dressing business&#8221; but I&#8217;ve never found a bottled dressing I like.  Those not-creamy ginger ones are kind of nice, though.  But they don&#8217;t go with everything.</p>
+<p>Between the applesauce and the salad dressing, you guys here at Eat sure bring out the &#8220;me and my mom&#8221; stories buried deep within me!</p>
+<p>And I&#8217;m going to post a photo of dressing bottle at my flicr site. I love love love yours.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">zp</span></span>
+  				<span>on October 25, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2964"><p>You folks actually measure your ingredients, huh?</p>
+<p>Here are some of the things I like to do with salad:</p>
+<p>-I start with minced shallots, salt, and vinegar in a bowl and let the shallots sort of pickle for five minutes before I add more ingredients.  These five-minute shallots (without the added oil/mustard/herbs) are also a great condiment on hot dogs and hambugers.</p>
+<p>-I mix the vinaigrette in the very same wood salad bowl where the lettuce will go after rubbing the bowl with a clove of smashed garlic, which I then discard.  If I am going to make only enough vinaigrette for one salad, I prefer to mix it in the bowl where the salad will go to make cleanup easier.</p>
+<p>-Sometimes I make a creamy dressing with a little bit of commercial mayonnaise thinned with some combination of white wine vinegar, lemon juice, herbs (basil and tarragon are my favorites for this), buttermilk and/or garlic or shallots.  These go well on heartier greens like Romaine or iceberg (which I do love) but not so well on delicate leaf lettuces, arugula, etc.</p>
+<p>There are some jarred dressings that are impossible to replicate yourself that I like to have on hand, esp. Kraft Thousand Island and Hidden Valley Ranch.  Not all store-bought dressing is bad, though of course the low-fat varieties are hardly edible at all.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://haverchuk.blogspot.com"><span class="alias">michael</span></a>
+  				<span>on October 25, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2965"><p>&#8220;I mix the vinaigrette in the very same wood salad bowl where the lettuce will go after rubbing the bowl with a clove of smashed garlic, which I then discard.&#8221;</p>
+<p>Just like in the movies.</p>
+<p>Specifically, I am thinking of some sort of French slapstick movie or slapstick movie set in France or maybe just a French restaurant . . . does anybody know the movie I&#8217;m talking about . . . ?  I think it is black and white . . . ?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">zp</span></span>
+  				<span>on October 25, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2966"><p>I grew up with that kind of Tupperware container! Ah, the memories. I have yet to make my own salad dressing, but I should. This is delicious sounding incentive.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://petit-chou.blogspot.com"><span class="alias">Julianne</span></a>
+  				<span>on October 25, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2967"><p>My personal favorite homemade dressing is just dijon mustard, red wine vinegar, olive oil, salt and pepper. Shallots are a good addition, though. Mmm&#8230; so good.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.metakathryn.com"><span class="alias">Kathryn</span></a>
+  				<span>on October 25, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2968"><p>It&#8217;s amazing to me how satisfying a simple green salad with a good vinaigrette is.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://kitchenography.typepad.com"><span class="alias">Julie</span></a>
+  				<span>on October 25, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2969"><p>So many great ideas from you guys! Michael: I especially like your technique of rubbing the bowl with garlic. Maybe that&#8217;s finally the good way to add the aroma of garlic to a salad without overwhelming it.</p>
+<p>Thank you all for reading and commenting!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on October 25, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2970"><p>salad dressing is easy to make 1 cup water to table spoons honey fresh clover olive oil a dash and mix well then add a tea spoon of salt and pepper  dash of vinigret and walla french salad dressing put in frige over night</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">sandy</span></span>
+  				<span>on October 25, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id7d0">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id7d1" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id7d1_hf_0" id="id7d1_hf_0" /><input type="hidden" name="wicket:interface" value=":295:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id7d2" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id7d3" name="add" value="Add a comment" onclick="wicketShow('id7d3--ajax-indicator');var wcall=wicketSubmitFormById('id7d1', '../../../?wicket:interface=:295:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id7d3--ajax-indicator');}.bind(this),function() { ;wicketHide('id7d3--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id7d1')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id7d3--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

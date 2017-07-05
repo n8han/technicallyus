@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Appliance adventures, part 2</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id32" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Appliance adventures, part 2" width="448" class="title" src="../../../resources/net.databinder.components.RenderedLabel/9bd9f33e"/><span class="title">Appliance adventures, part 2</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on February 25, 2006</span></span>
+			<span id="id33" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/kitchen%20equipment/#selected-tag"><span>kitchen equipment</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p style="float:center"><img src="/pictures/santos.jpg" alt="" /></p>
+
+
+	<p>I have been a caffeine addict since long before Leland was born, and have brewed coffee in all manner of coffee makers, from the pyrex percolators of my youth, through the hour-glass shaped <a href="http://chemex.125west.com">Chemex</a> of my hippie days, to my current favorite, the <a href="http://www.amazon.com/exec/obidos/ASIN/B00005M1V0/eat0e-20">Bodum Santos</a>. Along the way there have been detours into French presses and various versions of Mr. Coffee and his ilk, along with the tried and true <a href="http://www.mellitta.com/index.html">Melitta</a>.</p>
+
+
+	<p>And although I love the Santos for its unique look and vacuum brewing method, as well as the great cup of coffee it makes, I&#8217;m annoyed that its lid broke so soon after I got it. I think a hundred dollar appliance should be sturdier. I was going to order a replacement lid until I noticed that the little plastic tabs that you snap the lid into seem to have gotten mashed over onto their sides. When I tried to straighten them out one of them snapped off, so there goes that plan. Now I would have to replace the whole pot. And this morning for the first time I actually brewed a pot without snapping the little filter in. Have you ever done that, Leland? It makes a God-awful mess! You get a volcanic eruption of hot coffee and grounds all over your counter, and they seem to have worked their way into the electrical innards of the bottom of the pot. Let&#8217;s hope I didn&#8217;t cause permanent damage.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id34">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-1542"><p>My lid broke too! So now we just use it without the lid when we use it at all, which isn&#8217;t as often as I&#8217;d like because it takes up so much counter space. Once we have our townhouse maybe I can leave it out all the time.</p>
+<p>I too have tried at least five different ways of making coffee, but I always come back to the number four filter over a carafe. It&#8217;s the only way where I feel like I have total control over what the coffee will taste like.</p>
+<p>I also really like <a href="http://www.fiera.co.uk/Photos/moka.jpg">stovetop espresso makers</a>, but they can be annoying to clean.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on February 25, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1543"><p>The trouble with the filter over the carafe method is that it can take so darn long. For anyone who doesn&#8217;t know and is following this discussion with any interest we&#8217;re talking about the #4 Melitta filter. <span class="caps">IMHO</span>, a #1 or #2 filter cone over a single cup is almost as fast as a cup of instant, so there&#8217;s no excuse for instant coffee, really.</p>
+<p>If anyone clicked on the Chemex link above they may have been surprised to find themselves transported back to the sixties! Chemex has hung onto the old font, possibly designed by Peter Max&#8230;It&#8217;s a handsome carafe, with its wooden collar encircled by that rough-hewn looking leather thong, the whole thing held together with a big wooden bead. One problem with the Chemex is that nothing really held the filter in except the narrowness of the neck, and once in awhile the whole wet mess of grounds would slither through into the dripping coffee below. Then you&#8217;d have a big mess on your hands!<br />
+Mom</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">beckyleeprice@mac.com</span></span>
+  				<span>on February 25, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1544"><p>I guess I think it&#8217;s fast because I use an electric kettle. I used to have the Bodum Ibis, which tragically <a href="http://technically.us/eat/articles/2006/01/26/obit-bodum-ibis">died</a> after one year. Now we have this crazy Melitta thing that looks cool but isn&#8217;t as fast. Still, though, it&#8217;s way faster than a traditional kettle. And the time it takes to clean the Santos is ridiculous.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on February 25, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1545"><p>It isn&#8217;t the boiling that&#8217;s so time-consuming, it&#8217;s the pouring and waiting for the dripping through the filter over and over again!</p>
+<p>All I do to clean the Santos is rinse out the pot, and dump the grounds down the garbage disposal, then swish the detergent wand around the top part. And sometimes Poppy cleans it for me. :)</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">beckyleeprice@mac.com</span></span>
+  				<span>on February 25, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1546"><p>Must be nice to have a garbage disposal. All I do to clean up is throw away the coffee. Boom. I really don&#8217;t think it&#8217;s time consuming at all to pour water through. Maybe it has to do with the number of holes in your filter. I have four, and it goes pretty quickly.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on February 25, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id35">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id36" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id36_hf_0" id="id36_hf_0" /><input type="hidden" name="wicket:interface" value=":8:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id37" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id38" name="add" value="Add a comment" onclick="wicketShow('id38--ajax-indicator');var wcall=wicketSubmitFormById('id36', '../../../?wicket:interface=:8:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id38--ajax-indicator');}.bind(this),function() { ;wicketHide('id38--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id36')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id38--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

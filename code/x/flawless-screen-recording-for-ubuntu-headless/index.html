@@ -1,0 +1,206 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="../../../blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="../../../blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet.css"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Flawless screen recording on Ubuntu, headless</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code.html">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code.html">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id2281" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Flawless screen recording on Ubuntu, headless" width="754" class="title" src="../../../resources/net.databinder.components.RenderedLabel/671aecda"/><span class="title">Flawless screen recording on Ubuntu, headless</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on December 21, 2005</span></span>
+			<span id="id2282" class="tags">
+					{&nbsp;<span><a href="../../tag/databinder/index.html#selected-tag"><span>databinder</span></a><span id="id2283">, </span></span><span><a href="../../tag/ubuntu/index.html#selected-tag"><span>ubuntu</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>For reasons I&#8217;m not quite ready to disclose, I&#8217;ve become interested in making the sort of screen recordings that have <a href="http://www.rubyonrails.org/screencasts">served</a>  Ruby on Rails so well.</p>
+
+
+	<blockquote>
+		<p><strong>Update:</strong> My project is <a href="http://databinder.net">Databinder</a>. No screen recs yet, not quite ready for its close-up.</p>
+	</blockquote>
+
+
+	<blockquote>
+		<p><strong>Update 2:</strong> Close-up <a href="http://databinder.net/screencast/graffiti.html">accomplished</a>.</p>
+	</blockquote>
+
+
+	<p>A screen recorder is the kind of software you don&#8217;t expect to cost anything&#8212;but the people who make recorders have other ideas. The only one I&#8217;ve heard of since Lotus ScreenCam (the pioneer in this boring domain) is Snapz Pro. It&#8217;s also probably what was used for the RoR movies. It <a href="http://secure.ambrosiasw.com/cgi-bin/store/hazel.cgi?action=SERVE&#38;item=spx2.html">costs $70</a>. Hmm.</p>
+
+
+	<h3>Screen recorder requirements</h3>
+
+
+	<ol>
+	<li>Work with a Gnome session on a headless Ubuntu box.</li>
+		<li>Capture clear video that looks like the original session.</li>
+		<li>Be free or cheap.</li>
+	</ol>
+
+
+	<p>There is a simple screen recorder called <a href="http://live.gnome.org/Istanbul">Istanbul</a> that one-click-installs through Synaptic, but you get what you work for with that one. Istanbul&#8217;s recordings, saved in Ogg video format, are smudged and unappealing. And with a headless box you don&#8217;t even get that because it depends on a framebuffer for capture. <em>Ixxxx-nay.</em></p>
+
+
+	<p>Moving on, I thought, &#8220;Perhaps there&#8217;s some good capture freeware for my iMac so I can just rip the <a href="http://www.nomachine.com/">NoMachine</a> client window?&#8221; Nope. And that method would be pretty lame anyway since it involves &#8220;capturing&#8221; the video several times over. Ideally, I could just intercept the NX stream, but there doesn&#8217;t seem to be anything like that. Of course, NX isn&#8217;t the only game in town&#8230;</p>
+
+
+	<p>It turns out there is a very good recorder for <span class="caps">VNC</span>, <a href="http://www.unixuser.org/~euske/vnc2swf/">vnc2swf</a>. The only problem here is that Ubuntu&#8217;s built in <span class="caps">VNC</span> server (Remote Desktop) doesn&#8217;t work headless, and I&#8217;d never pursued alternatives since freenx is so badass.</p>
+
+
+	<h3>Headless <span class="caps">VNC</span></h3>
+
+
+	<p>For headless you need the &#8220;vncserver&#8221; package. It manages its own X sessions and broadcasts them over <span class="caps">VNC</span>, as many sessions as you want. Unfortunately the default install is a little broken, but it&#8217;s easy to fix. Go into /usr/X11R6/lib/X11/ and delete or move the fonts directory. Then, put a softlink to /usr/share/X11/fonts/ in its place.</p>
+
+
+	<p>[Or, run a command like <tt>vncserver -fp /usr/share/X11/fonts/X11/misc/</tt> The target font directory should have hundreds of files in it.]</p>
+
+
+	<p>Everything happens in ~/.vnc/. Try to run vncserver and it will create that directory and set up a password. When a server is running, you&#8217;ll find a .pid file in the directory. To stop server 1, run &#8220;vncserver -kill :1&#8221;. Ok. Start a server, and note the port; it should be 5901 for screen 1. Connect to it (<a href="http://sourceforge.net/projects/cotvnc/">Chicken of the <span class="caps">VNC</span></a> rules the roost on Mac) and play&#8230; you&#8217;re almost done!</p>
+
+
+	<h3>Record it</h3>
+
+
+	<p>Stop your <span class="caps">VNC</span> server, then start it with &#8220;vncserver -alwaysshared -depth 16&#8221;. You need to share it with the recorder, and of course you&#8217;ll want 16 bit color. Install the &#8220;python-pygame&#8221; package through Synaptic, then download <a href="http://www.unixuser.org/~euske/vnc2swf/pyvnc2swf.html">the python version</a> of vnc2swf. Unless you can&#8217;t spare the <span class="caps">CPU</span> cycles, run it on the same server you&#8217;re recording. If an X session is available it will start up with a simple interface. Connect. Record. Rejoice.</p>
+
+
+	<p>The flash format is surprisingly apt for these recordings. I tried converting some samples to h.264 in QuickTime and they only degraded in quality and bloated in size. Still, that might be handy for Google video. Gosh, I&#8217;m so excited about this surprise project, it&#8217;s like <span class="caps">CHRISTMAS</span>.</p>
+
+
+	<p>Anyway, check out <a href="http://technically.us/pictures/test.html">this pristine sample recording</a>.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='../../../resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id2284">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-1059"><p>AWESOME, loved the quality and crispness of the recording, thank you for the &#8216;tutorial&#8217;, this will work wonders for a site i was thinkin bout running for Linux newbies (aka: co-workers and fellow students at the JC)..</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://sn0n.com"><span class="alias">robert douglas</span></a>
+  				<span>on December 21, 2005</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1060"><p>Sure, glad you found it useful. This might be good too for bug reports, promoting linux, and who knows what else&#8230;</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8han</span></span>
+  				<span>on December 21, 2005</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1061"><p>What is the Internet Explorer-like icon on the flash demo desktop?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">shawnmer</span></span>
+  				<span>on December 21, 2005</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1062"><p>It <em>is</em> Internet Explorer. I wrote about &#8220;setting that up&#8221;:/n8/articles/2005/11/05/windows-internet-explorer-on-mac-via-linux-wine too.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8han</span></span>
+  				<span>on December 21, 2005</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1063"><p>I find a freeware called wink, have a try? http://www.debugmode.com/wink/</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">lemonhall</span></span>
+  				<span>on December 21, 2005</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1064"><p>wink is really good , thanks</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">rerng007@gmail.com</span></span>
+  				<span>on December 21, 2005</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id2285">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id2286" action="../../../index.html" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id2286_hf_0" id="id2286_hf_0" /><input type="hidden" name="wicket:interface" value=":1289:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id2287" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id2288" name="add" value="Add a comment" onclick="wicketShow('id2288--ajax-indicator');var wcall=wicketSubmitFormById('id2286', '../../../?wicket:interface=:1289:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id2288--ajax-indicator');}.bind(this),function() { ;wicketHide('id2288--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id2286')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id2288--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

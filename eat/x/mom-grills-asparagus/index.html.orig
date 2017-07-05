@@ -1,0 +1,214 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Mom grills asparagus</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id793" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Mom grills asparagus" width="331" class="title" src="../../../resources/net.databinder.components.RenderedLabel/f8d958cc"/><span class="title">Mom grills asparagus</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on June 1, 2007</span></span>
+			<span id="id794" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/techniques/#selected-tag"><span>techniques</span></a><span id="id795">, </span></span><span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>If you believe in seasonal eating, this may be close to the last weekend to obtain a vast amount of asparagus and eat them until they come out of your ears. We have been enjoying asparagus several times a week since April and a couple of nights ago I brought home two huge bunches, so big that I couldn&#8217;t quite get my hands around them (so I guess that means they exceeded the circumference of <a href="http://en.wikipedia.org/wiki/Scarlett_O'Hara">Scarlett O&#8217;Hara&#8217;s</a> waist), and grilled them.</p>
+
+
+	<p>What I&#8217;ve been doing with asparagus lately is either roasting them or grilling them; roasting if it&#8217;s too cold to grill, and then when we pass directly from winter to summer as we tend to do here in Pittsburgh, putting them on the grill. Cooking them that way seems to intensify their flavor and they don&#8217;t wind up watery or soggy, plus they can be served either hot, warm, or at room temperature, which makes it easy on the cook.</p>
+
+
+	<p>I&#8217;m sure many of you don&#8217;t need instructions here, but this is how I do it:</p>
+
+
+	<p><strong>Simple Grilled Asparagus</strong></p>
+
+
+	<p style="float:left"><img src="/eat/files/asparagus.jpg" alt="" /></p>
+
+
+	<p>Buy the fattest, freshest asparagus you can find. Snap off the ends as close to the bottom as they will snap. I believe Lindy over at <a href="http://www.lindystoast.com/">Toast</a> suggests that if you peel before snapping the ends you may reduce waste but usually by the time I&#8217;ve gotten to the vegetable preparation part of the meal I&#8217;m in a hurry and don&#8217;t have time to experiment. You can try peeling first and then snapping if you want to, because then you must peel all the asparagus with a swivel-bladed peeler, either your trusty vegetable peeler or a fancy asparagus peeler if you have one. Start at the bottom and peel toward the tips, stopping short of the nubbly part. The peeling enables the stalks to cook at the same rate as the more tender tips. Believe me, once you get in the habit of peeling asparagus you will never go back to unpeeled, even though it is rather tedious. Oh, don&#8217;t put the peels down the garbage disposal as they are stringy and might bugger it all up.</p>
+
+
+	<p>Now, spread all the stalks out on a baking sheet and drizzle with olive oil, then sprinkle with coarse salt and pepper. Roll around so they are all coated with the oil. Put on preheated grill and cook, turning once or twice, until they are as tender as you like them. Heap onto a platter and serve.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id796">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3843"><p>I just did this the other night and it was fan-tas-tic! I also threw some baby eggplant on the grill the same way. Once I started eating the asparagus I couldn&#8217;t stop! Next thing I knew 3/4 of a pound were gone!!  Yum Yum.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Margaret</span></span>
+  				<span>on June 1, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3844"><p>Asparagus is always one of my favorite things on the grill. I use an olive oil spray (so much easier) and then baste them with a melted butter and garlic sauce during the grilling.</p>
+<p>Amazing. </p>
+<p>I&#8217;ll have to go to the farmers market in the strip tomorrow to get some. Yum yum.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Kathryn</span></span>
+  				<span>on June 1, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3845"><p>Hi, Margaret! Baby eggplant sound really appetizing; grilled veggies and some crusty bread make a great dinner, <span class="caps">IMO</span>, although my guys complain when there&#8217;s no meat.</p>
+<p>Yes, Kathryn, those sprays are handy; I use them once in awhile, especially when I&#8217;m trying to cut calories, but didn&#8217;t want to put them in the post for fear of seeming too lowbrow. I actually even use the flavored ones, I have olive oil w/garlic and w/hot pepper. I like your basting idea!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on June 1, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3846"><p>Oh, Rebecca. Olive oil sprays can&#8217;t be that lowbrow if you can buy them at Whole Foods, in my humble opinion. Flavored ones are definitely something I might try. I just think it&#8217;s so much easier to spray the oil on than pour/brush/whatever.</p>
+<p>I suppose if we wanted to be really highbrow we could always use our high-price Portuguese olive oil with this high-price sprayer: http://www.williams-sonoma.com/products/sku1989326/index.cfm?pkey=xsrd0m1%7C15%7C%7C%7C0%7C%7C%7C%7C%7C%7C%7Coil%20spray&amp;cm%5Fsrc=<span class="caps">SCH</span></p>
+<p>hrm. decisions decisions.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Kathryn</span></span>
+  				<span>on June 1, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3847"><p>Yes, Rebecca, my guy will not even go near a vegetable, so this is something I tend to enjoy when he&#8217;s out with his friends.  I can sit in the yard with a nice chilled white wine and the waterfall on and enjoy the simple pleasures.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Margaret</span></span>
+  				<span>on June 1, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3848"><p>I just bought some gorgeous asparagus at the farmer&#8217;s market today. I adore this vegetable, and lucky for me, my husband loves vegetables as much as I do. I&#8217;ll probably sauté them in my cast iron grill pan, though, because I don&#8217;t have a back yard for grilling this summer. Sigh.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.ceresandbacchus.com"><span class="alias">Mary</span></a>
+  				<span>on June 1, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3849"><p>My favorite way to eat asparagus, Rebecca!  I like it the way you have it in the picture, when the tips curl up and crisp and the rest is all caramelized goodness!  Unfortunately our asparagus season seems to be over &#8212; feels like summer here with a vengeance!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://myplateoryours.typepad.com"><span class="alias">christine (myplateoryours)</span></a>
+  				<span>on June 1, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3850"><p>Mary, that&#8217;s a shame! But I know how creative you can be with your grill pan. I&#8217;m just thinking of how hot kitchens can get in the dog days of summer, even in the north country (if Michigan qualifies as that).</p>
+<p>Ha, Christina! The tips got a little more curled and they all got a little more caramelized and charcoaled than I had planned because I was busy in the kitchen with the rest of the meal and my husband was on grill duty&#8230;But is there such a thing as bad asparagus?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on June 1, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3851"><p>I&#8217;ve never grilled asparagus- I always saute it with a little olive oil and snow peas.  I put course salt on it and a sprinkle of roasted red pepper which would probably be good on the grilled ones too.  How do you keep them from falling between the slats of the grill?  Do you have one of those baskets?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Sue</span></span>
+  				<span>on June 1, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3852"><p>Hi, Sue &#8211; I&#8217;m usually using the gas grill and the grate is quite closely spaced; also put the stalks perpendicular to the spaces, if you know what I mean. But yes, the salt and red pepper flakes would be good on the grill, or roasting in the oven, too, and the advantage with the oven is you can just put it in there and forget it for 10-15 minutes, unlike with grilling or sauteing.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on June 1, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id797">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id798" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id798_hf_0" id="id798_hf_0" /><input type="hidden" name="wicket:interface" value=":288:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id799" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id79a" name="add" value="Add a comment" onclick="wicketShow('id79a--ajax-indicator');var wcall=wicketSubmitFormById('id798', '../../../?wicket:interface=:288:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id79a--ajax-indicator');}.bind(this),function() { ;wicketHide('id79a--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id798')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id79a--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

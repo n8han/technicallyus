@@ -1,0 +1,256 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Mom cooks pasta with beets</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id169" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Mom cooks pasta with beets" width="450" class="title" src="../../../resources/net.databinder.components.RenderedLabel/a9c427b3"/><span class="title">Mom cooks pasta with beets</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on November 2, 2007</span></span>
+			<span id="id16a" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>How many of you out there are fond of beets? When I was a child I hated them, mainly because of the way their juice ran all over your dinner plate and stained the rest of the food bright magenta. My mother&#8217;s irritated rejoinder that &#8220;all the food goes to the same place, anyway!&#8221; was, to my young mind a totally inadequate argument and generally prompted the hot retort that the meat loaf and cherry pie went to the same place, too, but that didn&#8217;t mean that I wanted them served on the same plate, especially touching each other! But children are powerless in these matters, or at least they were then, and beets continued to be a regular menu item in our house and continued to stain the mashed potatoes purple and as a result I could probably count on two hands the number of times I have purchased and prepared beets in over thirty years of cooking for myself.</p>
+<p>Another reason may be that I have been married all that time and I have noticed that men don&#8217;t seem to like beets much. How many men, when you take them shopping, say, &#8220;Let&#8217;s not forget the beets!&#8221; as opposed to, &#8220;Let&#8217;s not forget the beer!&#8221;?</p>
+<p>However, as a subscriber to a <a href="http://www.post-gazette.com/pg/07060/765794-34.stm"><span class="caps">CSA</span></a> box I have been getting lots of beets this summer. I don&#8217;t hate them now, actually, and I especially love pickled beets. A slice of pickled beet slipped into a grilled cheddar cheese sandwich elevates it to the sublime. I also like hard-boiled eggs marinated with the pickled beets; they are so pretty sliced onto a green salad.</p>
+<p>As you may or may not know, we love <a href="http://www.washingtonpost.com/wp-dyn/articles/A55809-2003Jul1.html">Laurie Colwin</a> on this blog. I&#8217;ve read her novels in book groups and have read <em>Home Cooking</em> and <em>More Home Cooking</em> until they are falling apart. In my opinion there are few sentences more poignant than the bit in <em>More Home Cooking</em> where Colwin writes, regarding holiday cooking traditions, that &#8220;I know that in not too long a time my daughter will grow up and decide that it is <em>her</em> turn, and we will travel to her household for Thanksgiving. And there I will find the traditional meal, totally renovated and redesigned: the beginning &#8211; for that is the way these things go &#8211; of a new tradition.&#8221;  Of course she didn&#8217;t live long enough to see her daughter grow up or eat at her table, and I always feel a little sad about that when I cook from one of Colwin&#8217;s books.</p>
+<p>Anyway, she has a whole chapter devoted to beets in <em>More Home Cooking</em>, and there&#8217;s a recipe for pasta topped with them. She emphasizes that it&#8217;s flexible and gives a few variations. I made it the other night, more or less as follows, and I thought it was quite tasty but my husband was pretty underwhelmed. I suppose it&#8217;s the men and beet thing, so if you try it, be aware of that.</p>
+<p><strong>Beets with Angel&#8217;s Hair Pasta</strong> from <em>More Home Cooking</em>, by Laurie Colwin</p>
+<ul>
+	<li>4-6 medium beets, peeled and finely diced</li>
+	<li>1 large clove garlic, minced</li>
+	<li>2 tablespoons olive oil</li>
+	<li>Salt and pepper to taste</li>
+	<li>1/2 cup chicken broth</li>
+	<li>1 red onion, minced</li>
+	<li>fresh herbs, whatever you have (I used basil)</li>
+	<li>crushed red pepper flakes</li>
+	<li>1-3 chopped tomatoes (optional)</li>
+	<li>1/2 pound angel hair pasta</li>
+	<li>freshly grated Parmesan for serving</li>
+</ul>
+<p><img src="http://technically.us/resources/com.typeturner.Typeturner/image?name=beets" title="beets" alt="beets" /></p>
+<p>Put beets and olive oil in large skillet. Sprinkle with salt and pepper and cook over moderate heat, stirring, until just tender. Add garlic and cook for another minute. Add broth and simmer until beets are very tender. Add remaining ingredients except pasta and cheese. Boil pasta, top with beet mixture and serve with lots of grated Parmesan.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id16b">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-4611"><p>I love beets!  I had a really amazing meal with beets inside meatballs at one of the restaurants at Union Station in Washington, D.C., a couple years ago, while they were having a Finnish(?) food day.  They were served with mashed potatoes, and halfway through the meal, the potatoes were almost completely purple.  I wish I could remember what that particular dish was called; I&#8217;ve tried looking for it on the web a few times since then, but my searches have not proved fruitful.  Alas.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://colinwetherbee.com"><span class="alias">Colin</span></a>
+  				<span>on November 3, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4615"><p>Hi, Colin &#8211; did you write about that dish on your blog or mention it somewhere before, because it sounds familiar? I guess you&#8217;ve tried to find Finnish food blogs, but have you ever seen the <a href="http://fooddownunder.com/">Food Down Under</a> recipe database? They have an awful lot of nationalities represented, although I haven&#8217;t looked specifically for Finland.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://technically.us/eat"><span class="alias">Rebecca (Mom)</span></a>
+  				<span>on November 3, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4618"><p>As you know, I am also a Laurie Colwin fan-of the cookbooks and the fiction. As you also know, I am the recipient of many, many (possibly even too many) <span class="caps">CSA</span> beets. <br />
+ I love beets. But the staining effect still bothers me- in salads and stuff- where they taste great, but make it look like there was an axe-murderer on the loose somewhere nearby. So I usually use my beets in borscht, mainly. (<span class="caps">BTW</span>, men who otherwise scorn beets often like Ukrainian-style beef and veg. borscht, for some reason) <br />
+Though I have often considered it, I have never made this recipe. I&#8217;m going to remedy that right away, it looks great. And sauce is supposed to stain the pasta, so that works for me.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://lindystoast.com"><span class="alias">lindy</span></a>
+  				<span>on November 4, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4619"><p>Men probably like that borcht because of all the meat. I love borcht of all varieties but especially the lovely cold kind made with yogurt or buttermilk.</p>
+<p><span class="caps">BTW</span>, did you see the P-G article about Pittsburgh women bloggers in Wednesday&#8217;s paper? No real mention of food blogs when the author, Mackenzie Carpenter, is a food writer, and they have <span class="caps">YOU</span>, one of the most widely read and respected food bloggers in the world, right here in Squirrel hill!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://technically.us/eat"><span class="alias">Rebecca (Mom)</span></a>
+  				<span>on November 4, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4620"><p>Rebecca: Thanks for your reply.  I don&#8217;t think I&#8217;ve blogged about that dish, and a quick search didn&#8217;t reveal anything.  When I returned home from that quick trip to D.C., I was embittered by the hellish experience I had with United, and I did blog about that!  Thanks for the Food Down Under link; it looks like it could be really useful.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://colinwetherbee.com"><span class="alias">Colin</span></a>
+  				<span>on November 4, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4621"><p>I love beets, but I have never considered using them in pasta. Interesting recipe. I often make beet salad with cucumbers, scallions, dill/parsley, hardboiled eggs and a yogurt-based dressing. Roasted beets with goat cheese are delicious. You really need something salty or tart to balance out the sometimes cloying beet flavor.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://yulinkacooks.blogspot.com"><span class="alias">yulinka</span></a>
+  				<span>on November 4, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4622"><p>Hmmm, I wonder why that description sounded so familiar then, Colin, because it is an oddly unique sounding dish. Anyway, somehow I stumbled across the Recipes Down Under when I was trying to recreate that Pittsburgh specialty, <strong>Pierogie Pizza</strong>, and they actually had a recipe of sorts for it.</p>
+<p>Hey, Yulinka, you must have your Google search engine set for beets or something! I&#8217;m not fond of goat cheese, but I bet roasted beets with feta or ricotta salata would be wonderful, with the salty contrast you mention.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://technically.us/eat"><span class="alias">Rebecca (Mom)</span></a>
+  				<span>on November 4, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4623"><p>I could <span class="caps">NEVER</span> <span class="caps">EVER</span> make this and put it on the dinner table. I bet my husband would get up and walk to the kitchen and pull out the peanut butter or the popcorn or something. He is not only not a fan of beets, he is vociferous about not wanting to touch them, no matter what I do with them. My favorite treatment this summer was roasted, dressed in a vinaigrette served with greens, goat cheese and toasted walnuts, if some chives are laying about, I snip those on top. Still, I only make that for company and obviously the husband doesn&#8217;t get excited about it (but I get to eat his beets :).</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.ceresandbacchus.com"><span class="alias">mary</span></a>
+  				<span>on November 4, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4638"><p>Laurie Colwin I love. Beets not so much. Although when I think about it I should probably try them because my dislike of them is based on tasting them long, long ago.</p>
+<p>I&#8217;ve just begun reading Laurie Colwin&#8217;s fiction after having read Home Cooking and More Home Cooking many, many times. I&#8217;m reaading a Big Storm Knocked it Over and enjoying it. I can&#8217;t tell you why I never read her fiction before but I&#8217;m making up for lost time.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://kitchenography.typepad.com"><span class="alias">Julie</span></a>
+  				<span>on November 6, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4658"><p>Laurie Colwin or beets which do I love more? Laurie Colwin to be sure, but that&#8217;s not to say I don&#8217;t have a place in my heart for beets.  As do many men I know..I grew up with my beet-loving grandpa who still enjoys a good borscht and my husband and I both love a beet/goat cheese combination.  Izzy is has been a fan since quite young and we love to get the the yellow ones too.  Being of Russian descent, I feel, whether male or female, beeti-lovin is in our genes.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.izzyeats.blogspot.com"><span class="alias">izzy&#039;s mama</span></a>
+  				<span>on November 8, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4661"><p>Gosh, this beet/goat cheese combination keeps coming up, but I can&#8217;t imagine what my husband would do if I served it at home, as he hates goat cheese even more than he dislikes beets. It&#8217;s hard enough to be in France not drinking wine, but not eating goat cheese makes us look like total freaks.</p>
+<p>Julie, you have a real treat in store with Colwin&#8217;s fiction. I think I&#8217;m about due for a re-read, in fact.</p>
+<p>Izzy&#8217;s mama, as a Jew of Polish extraction, my husband must have had some elderly relatives who fed him borcht as a youngster, so I can&#8217;t explain it&#8230;I certainly can&#8217;t think of a more delicious soup!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://technically.us/eat"><span class="alias">Rebecca (Mom)</span></a>
+  				<span>on November 9, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4662"><p>I made this dish last night, and are you sure it&#8217;s 4-6 beets for a 1/2 pound of angel hair? I had never cooked beets before, but after dicing two I had an enormous amount, and so put the others (peeled!) back in the fridge. And I used a whole pound of angel hair! Are my beets enormous?</p>
+<p>You both need to get over your chèvrephobia. I was on the fence at first, and I still don&#8217;t like goat milk or goat yogurt (too goaty!). But goat <em>cheese</em> can be so wonderful! Get yourselves a little button of raw-milk goat to share while you&#8217;re in France.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on November 9, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5689"><p>I have often enjoyed Pasta With Beets and always am asked for the recipe. What got me onto beets was a aritcle written by Laurie Colwin for Gourmet in July 1992 titled  <span class="caps">THE</span> <span class="caps">BEET</span> <span class="caps">GOES</span> ON. Thank You Ms, Colwin for raising my appreciation of beets.</p>
+<p>Here is a copy of the article.</p>
+<p><span class="caps">THE</span> <span class="caps">BEET</span> <span class="caps">GOES</span> ON | BY <span class="caps">LAURIE</span> <span class="caps">COLWIN</span><br />
+Gourmet | 1992</p>
+<p>It is amazing how many adults loathe beets-although pureed; strained beets are a staple of the baby-food industry. Perhaps in later life the inner child in the gown-up jumps to its feet and says:  &#8220;You expect me to eat something magenta?&#8221; Colorwise, the closest you can get is a pomegranate-hardly a common item, and connected in my mind with spitting little seeds into a sink. Beets, however, are abundant&#8217; cheap, easy to abuse, and, therefore, easy to hate. Many cooks avoid them because they turn everything pink, including fingernails. The very qualities we may love in a Russian Easter egg are less than attractive on your best white T-shirt. <br />
+	One of the simplest things to do with a beet is to scrub it gently with a vegetable brush, roll it in a little olive oil, salt, and pepper, and bake it in the oven like a potato. This results in a slightly smoky taste and-in addition to being easy-does not turn your fingers red. When cooked, diced, mixed with bitter endive, and dressed with creamy vinaigrette, the beet also makes a great salad.<br />
+	 Among the prettiest dinners I ever ate was one that included beets, making me realize that a magenta-colored vegetable can be a real plus when it comes to the art of food arrangement. One hot summer evening, my husband and I hopped on the Hampton Jitney and emerged, starving, at some Hampton or other, where we were picked up by a painter friend of ours, who took us home and fed us a painterly meal: a lobster salad, creamy pink; a plate of light-green greens; and a heavy white platter containing steamed broccoli and sliced boiled beets-the one a deep pure green, the other a deep clear fuchsia. The vegetables were served with a garlic and cranberry mayonnaise. It takes a painter to show off something as striking and vibrant as a beet. <br />
+	Even people who hate beets will sometimes eat Borscht which, when cold, brings the right suave, chilly note to a sultry evening and, when hot, warms the spirit on a frosty winter night. I love it both ways. <br />
+	Cold borscht can be made with cooked, cut-up beets, chicken stock, and a squirt of limejuice. The mixture is put into the blender with yogurt or buttermilk. It can be spiked with cumin and served with dill, scallions, or nothing at all. For a party, a blob of crème fraiche and a pinch of minced chives on each serving is a nice touch. <br />
+	Hot borscht can be made with meat or not. My particular favorite is one with which I attempt to reproduce the wonderful borscht I have had in the Ukrainian coffee shops on Manhattan&#8217;s lower East Side-a thick soup of beets, green beans, white beans. onions. carrots. and beef in a rich beef broth. There is nothing in the world quite like it. This is a one-dish meal when served with bread, a little cheese, a salad, and a glass of beer. It also cooks itself on a back burner and thus is a friend to busy people. <br />
+	Fancy restaurants have taken to serving something called beet risotto: Arborio rice cooked with stock, beet juice, and beets sautéed in olive oil. I have never tasted it, but the idea of bees with rice made me wonder if beets wouldn&#8217;t also be wonderful with pasta. <br />
+	Last summer, with organic beets in profusion, I set to work and have since become addicted to <span class="caps">BEETS</span> <span class="caps">WITH</span> ANGEL&#8217;S <span class="caps">HAIR</span> <span class="caps">PASTA</span>, described by my husband as &#8220;weird but successful.&#8221; I have fed it to children, teenagers, and people with very conservative taste buds with great success. Furthermore, it is ridiculously simple, but you must use juicy early-summer beets.</p>
+<p>Take about 4 medium-sized beets and about 6 ounces of pasta for 3 or 4 people. Slice and dice the raw beets up fine. (Since it is ease of preparation we are after, it is not necessary to peel the beets. Just cut away any nasty bits, scrub the beets with a soft brush, and dice them.) <br />
+	Mince l big clove of garlic into microscopic bits. Throw the beets into a pan with about 2 tablespoons olive oil. Sprinkle the beets with salt and pepper to taste and cook them over moderate heat, stirring. <br />
+	When the beets are just tender add the garlic and cook the mixture for about I minute. <br />
+	Add </p>
+<p>If you do not want to ruin your manicure, you might instead make Scarlet Eggs from Sylvia Thompson&#8217;s wonderful book, Feasts and Friends: Recipes from a Lifetime.<br />
+	Hard-boil 7 of the smallest eggs you can find and peel them. Cook l2 of the tenderest little beets you can find in water to cover, peel them, and reserve I cup of the cooking liquid. Stick a large bunch of fresh tarragon in the bottom of a jar, fill the jar with the eggs and the beets, and cover them with the reserved cooking liquid and 3 to 4 tablespoons sugar dissolved in 2 cups red wine vinegar. Add salt and pepper and a couple of cloves of garlic, sliced. Keep the mixture in the refrigerator for a week. When you slice these fragrant eggs you will find that the whites have turned an amazing shade of red and that the yolks have become a brilliant yellow. In addition to being delicious, these eggs are beautiful. Arrange the eggs and the beets on a bed of spinach and call the photographers at once.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Jeff S.</span></span>
+  				<span>on August 27, 2008</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id16c">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id16d" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id16d_hf_0" id="id16d_hf_0" /><input type="hidden" name="wicket:interface" value=":78:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id16e" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id16f" name="add" value="Add a comment" onclick="wicketShow('id16f--ajax-indicator');var wcall=wicketSubmitFormById('id16d', '../../../?wicket:interface=:78:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id16f--ajax-indicator');}.bind(this),function() { ;wicketHide('id16f--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id16d')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id16f--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

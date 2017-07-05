@@ -1,0 +1,192 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Help me make chocolate chip cookies</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../eat">
+			
+			<img alt="Eat" src="../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../eat">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id15a1" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Help me make chocolate chip cookies" width="592" class="title" src="../../resources/net.databinder.components.RenderedLabel/4c504a19"/><span class="title">Help me make chocolate chip cookies</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on January 17, 2006</span></span>
+			<span id="id15a2" class="tags">
+					{&nbsp;<span><a href="../../eat/tag/techniques/#selected-tag"><span>techniques</span></a><span id="id15a3">, </span></span><span><a href="../../eat/tag/dessert/#selected-tag"><span>dessert</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>I need some help making chocolate chip cookies, and you&#8217;re all welcome (some of you are required) to chime in.</p>
+
+
+	<p>I&#8217;ve made them a few times using various recipes. I&#8217;ve had the most success using the Tollhouse recipe on the back of the bag of chocolate chips, but they still leave a lot to be desired. What I want are crispy, chewy, gooey cookies with nice brown bottoms and rounded edges. My latest round of cookies, which wasn&#8217;t worth photographing although they tasted fine, are so thin at the edges as to be too crispy. Crisp is nice, but when it&#8217;s this crispy, it lacks harmony.</p>
+
+
+	<p>I want to make cookies that people swoon over, and I know it&#8217;s easy. Now, you should all be aware that I do not own a mixer, hand or otherwise, so if this is something I need to buy, please name a brand. Mom&#8212;you seem to be happy with yours. That&#8217;s a KitchenAid, right?</p>
+
+
+	<p>Last night I had n8 grease the baking sheet before I saw that the recipe specifically calls for an ungreased baking sheet. Does that make a difference? Is that why my edges are so thin, because the dough is sliding away from the center of the cookie? How much does the final shape of the cookie have to do with the shape of the ball of cookie dough?</p>
+
+
+	<p>Thoughts? Advice? I&#8217;m all eyes.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id15a4">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-1384"><p>yes, greasing when you&#8217;re are not supposed to grease will do that. try it again, maybe it will be better.<br />
+otherwise, i&#8217;m terrible at baking. i hate how cookies get hard the next day so i stay away from it.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">steak</span></span>
+  				<span>on January 17, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1385"><p>Hard I don&#8217;t like, but chewy is divine. I&#8217;m trying to bake one thing per week just to have the experience.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on January 17, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1386"><p>i will have to call my bro. he has the best choc-chip cookies ever.</p>
+<p>btw, been quite culinary lately:<br />
+choc-chip and banana (go steeler&#8217;s) pancakes and guacamole for the game.</p>
+<p>i made crab legs last night! delicious, with broccoli and cous cous.  also made an attempt at an apricot roulade which kind of burnt a little, but andy and his roommate ate it (sans apricot filling) because it tasted like roasted marshmallows&#8230;</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">*dots*</span></span>
+  				<span>on January 17, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1387"><p>My current choc. chip recipe is on the King Arthur Flour website; it&#8217;s called Escapade in Oatmeal or something like that. I&#8217;m sure you can find it. I use dried cherries instead of the golden raisins that they call for; I love the combination of the chocolate and cherries. I use a cookie scoop to shape the dough and I think that helps. You can try chilling the dough first. Also, using parchment paper on the cookie sheets helps them keep their shape a bit. And don&#8217;t overbake.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">beckyleeprice@mac.com</span></span>
+  				<span>on January 17, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1388"><p>Well, I&#8217;m just commenting all over the place, aren&#8217;t I? If you haven&#8217;t yet, try Debbie&#8217;s chocolate chip cookies at wordstoeatby.blogspot.com. They&#8217;re the best homemade ones I&#8217;ve made so far (and similar to City Bakery&#8217;s, though I think Debbie&#8217;s are better)</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://wednesdaychef.typepad.com"><span class="alias">Luisa</span></a>
+  				<span>on January 17, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1389"><p>Thanks, Luisa! And thanks again for that red wine risotto recipe. I know you were on the fence about it but I really liked it! I&#8217;ll try those cookies.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on January 17, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1390"><p>I bake A <span class="caps">LOT</span> and have never been able to master the chocolate chip cookie.  I find them to be enigmas, wrapped up in a puzzle, surrounded by riddle.  They tend to taste alright, but I never get the texture right.  I simply can&#8217;t do it.  And the more I read your blog, the sadder I get that I live hundreds of miles away!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Carly</span></span>
+  				<span>on January 17, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1391"><p>Carly&#8212;you have to try the recipe I linked to yesterday!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on January 17, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id15a5">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id15a6" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id15a6_hf_0" id="id15a6_hf_0" /><input type="hidden" name="wicket:interface" value=":783:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id15a7" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id15a8" name="add" value="Add a comment" onclick="wicketShow('id15a8--ajax-indicator');var wcall=wicketSubmitFormById('id15a6', '../../?wicket:interface=:783:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id15a8--ajax-indicator');}.bind(this),function() { ;wicketHide('id15a8--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id15a6')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id15a8--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

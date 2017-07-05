@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Barley party</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="ide1f" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Barley party" width="186" class="title" src="../../../resources/net.databinder.components.RenderedLabel/f14a56e2"/><span class="title">Barley party</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on October 25, 2005</span></span>
+			<span id="ide20" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>After spending a month researching and writing about whole grains at work, I am slowly working them into my diet. Did you know that the leading cause of death in the United States is heart disease, and that the best way to prevent it is simply to eat a few servings of whole grains every day? Well, now you know, and you can start buying spelt, amaranth, quinoa, and barley! (Pearled barley, which is the only kind anyone in their right mind buys, is not entirely whole grain, but it is very nutritious).</p>
+
+
+	<p class="out"><img src="/pictures/barley.jpg" alt="" /></p>
+
+
+	<p>Barley is an ancient grain spread around the world by the Spanish. Sad but true story: the Incas called quinoa “mother grain,” but when Spain invaded, they forbade its cultivation and replaced it with barley. Even today, Peruvians hardly eat quinoa because they’ve been told for centuries that it will make them stupid. Anyway, barley isn’t too bad a substitute.</p>
+
+
+	<p>After making a barley with pesto dish from a recipe a few weeks ago, I enjoyed the following variation tonight. I made extra so that n8 can have leftovers for the rest of the week.</p>
+
+
+<strong>Ingredients</strong>
+	<ul>
+	<li>A stick of butter, more or less</li>
+		<li>1 onion, diced</li>
+		<li>1 potato, peeled and diced</li>
+		<li>1 1/2 cups pearl barley, soaked for at least an hour, water conserved</li>
+		<li>1 cup white wine</li>
+		<li>1 bay leaf</li>
+		<li>3 cups chicken broth</li>
+		<li>A few tablespoons basil pesto (quick recipe below)</li>
+		<li>Salt and pepper to taste</li>
+	</ul>
+
+
+<strong>Procedure</strong>
+	<ol>
+	<li>Sauté the onion and potato in two tablespoons of butter.</li>
+		<li>Once they brown a bit, add the barley and stir to coat with butter.</li>
+		<li>Add the white wine and stir. Toss in the bay leaf.</li>
+		<li>Add the chicken broth, cover, and let simmer. Add more broth and barley water as needed until barley is tender.</li>
+		<li>Stir in pesto and salt and pepper. Serve very hot.</li>
+	</ol>
+
+
+	<p>I added some fresh bread crumbs for a delicious, crispy edge, but that’s entirely optional. In fact, I almost didn’t even put the pesto in, because the barley smelled so good on its own. But I had the pesto in the fridge and had to use it before this weekend. You could decide to leave it out, though, and eat this on its own or as a tasty side dish.</p>
+
+
+	<p>English people apparently like to drink barley water as a refreshing summer beverage, with lemon or lime juice added. And Escoffier kept barley water in his kitchen at all times to keep his staff from drinking on the job. I’ve only eaten it twice, but I like its flavor and chewiness.</p>
+
+
+	<p>If you want to make fresh pesto, all you do is throw some fresh, clean basil leaves in the food processor with olive oil, parmesan cheese, pine nuts, minced garlic, and salt and pepper, and pulse until smooth. If you’re going to store it, pour a bit of olive oil on top so it stays fresh.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="ide21">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-1241"><p>koreans drink barley tea as water basically. i miss it&#8230; in fact inspired by your post i&#8217;m going to go home and make some!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">jeannie</span></span>
+  				<span>on October 25, 2005</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="ide22">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="ide23" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="ide23_hf_0" id="ide23_hf_0" /><input type="hidden" name="wicket:interface" value=":515:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="ide24" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="ide25" name="add" value="Add a comment" onclick="wicketShow('ide25--ajax-indicator');var wcall=wicketSubmitFormById('ide23', '../../../?wicket:interface=:515:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('ide25--ajax-indicator');}.bind(this),function() { ;wicketHide('ide25--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('ide23')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="ide25--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

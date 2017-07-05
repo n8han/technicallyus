@@ -1,0 +1,150 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Databinder proxy bug: snapshot fix available</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id247e" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Databinder proxy bug: snapshot fix available" width="709" class="title" src="../../../resources/net.databinder.components.RenderedLabel/d3a64979"/><span class="title">Databinder proxy bug: snapshot fix available</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on March 28, 2006</span></span>
+			<span id="id247f" class="tags">
+					{&nbsp;<span><a href="../../../code/tag/databinder/#selected-tag"><span>databinder</span></a><span id="id2480">, </span></span><span><a href="../../../code/tag/hibernate/#selected-tag"><span>hibernate</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Databinder user Chris wrote in last week to report a mapping exception he encountered using it with DataView. (Whether Databinder itself should talk to DataView is an open question.)</p>
+
+
+	<p style="float:right"><img src="/pictures/idioma.jpg" alt="" /></p>
+
+
+	<p>Chris was getting a Hibernate MappingException for an unknown entity with whose name included <strong>EnhancerByCGLIB</strong>&#8212;sound familiar? Hibernate was being asked to load a class that was just a proxy for the real, mapped class.</p>
+
+
+	<p>This happened because <a href="http://databinder.net/javadoc/net/databinder/models/HibernateObjectModel.html">HibernateObjectModel&#8217;s</a> setPersistentObject(obj) method, which retains the object&#8217;s class for loading it later, was not checking for Hibernate proxy objects. I&#8217;m surprised the condition didn&#8217;t arise in any of my examples, but who knows how and when Hibernate decides to use a proxy.</p>
+
+
+	<p>So I&#8217;ve reworked HibernateObjectModel to look out for proxies, using a mix of session.getEntityName() and some dirtier stuff. It would be nice if Hibernate translated between Java classes and entity names; then I could use entity names entirely. But Hibernate, if you haven&#8217;t noticed, is not the <em>nicest</em> library. (It might just be the <em>meanest</em>.)</p>
+
+
+	<p>I&#8217;ve also worked worked out a solution to the jumpy IE Ajax problem of <a href="http://technically.us/n8/articles/2006/03/25/ajax-internet-explorer-jumpin-around">my last post</a>. It was-<del>as I feared</del>-to use an html table. Just sprinkle a little Web 0.5 on your Ajax, and hold your nose.</p>
+
+
+	<p>Anyone who&#8217;s getting bitten by the Hibernate proxy bug, please try <a href="http://databinder.net/releases/databinder-trunk.tar.gz">this snapshot release</a>  of Databinder. It also has the IE table &#8220;fix&#8221; for SearchPanel, though I&#8217;m not sure if that alone is worth the download.</p>
+
+
+	<p>And shouldn&#8217;t that say &#8220;idiomas&#8221; ?</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id2481">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-1095"><p>Yes, it should.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Gustavo</span></span>
+  				<span>on March 28, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1096"><p>And it shouldn&#8217;t say &#8220;hablen&#8221;, but &#8220;hable&#8221;.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Gustavo</span></span>
+  				<span>on March 28, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1097"><p>Once they&#8217;ve found their bilingual waitress, perhaps she&#8217;ll fix the sign. But then they won&#8217;t need it anymore. A paradoxical bug&#8230;</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on March 28, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id2482">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id2483" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id2483_hf_0" id="id2483_hf_0" /><input type="hidden" name="wicket:interface" value=":1341:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id2484" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id2485" name="add" value="Add a comment" onclick="wicketShow('id2485--ajax-indicator');var wcall=wicketSubmitFormById('id2483', '../../../?wicket:interface=:1341:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id2485--ajax-indicator');}.bind(this),function() { ;wicketHide('id2485--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id2483')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id2485--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

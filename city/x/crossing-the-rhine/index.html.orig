@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/city-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>City Slicking / Crossing the Rhine</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../city">
+			
+			<img alt="City Slicking" src="../../../resources/org.apache.wicket.Application/city-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../city">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/city-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id1807" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Crossing the Rhine" width="244" class="title" src="../../../resources/net.databinder.components.RenderedLabel/c16bd0f4"/><span class="title">Crossing the Rhine</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Nathan</span>, <span>on September 27, 2009</span></span>
+			<span id="id1808" class="tags">
+					{&nbsp;<span><a href="../../../city/tag/bicycles/#selected-tag"><span>bicycles</span></a><span id="id1809">, </span></span><span><a href="../../../city/tag/amtrak/#selected-tag"><span>amtrak</span></a><span id="id180a">, </span></span><span><a href="../../../city/tag/travel/#selected-tag"><span>travel</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Thanks to certain constrains on actual vacations, this past summer Leland and I have been searching for the perfect <em>weekend</em> getaway. To be considered the location must be accessible by train and walkable once you arrive. We&#8217;ve learned not to put any short, rigid schedules into the hands of the airline business, and with a car in the mix you can&#8217;t count on returning to the city any more relaxed than you left it.</p>
+
+<p>The rails have lead us to three destinations, so far: Mattituck on the North Fork of Long Island, Asbury Park on the Jersey Shore, and now Rhinecliff on the Hudson. Perhaps the most surprising thing these destinations have in common is their cost: it&#8217;s hard to spend the night in any of them for less than $200 after taxes. You could spend less overall by flying somewhere outside the reach of NYC cost inflation—although, the uncertainties of airline travel extend into cost as well.</p>
+
+<p class='break'><img src='http://technically.us/resources/com.typeturner.Typeturner/image?name=brompton-room' alt='brompton-room' /></p>
+
+<p class='break'>Each trip involved a different train company, because of <em>Capitalism</em>. The worst was the Long Island Rail Road for being shoddy and slow and actually waiting for automobiles to illegally cross its track as it ambled out the North Fork. That train line is a real asset to the area, yet it&#8217;s treated like a useless relic by nearly everyone there including its cheerless operators. The ride on NJ Transit was unremarkable, and cheap. The best transportation of the three was our just-completed trip on Amtrak to Rhinecliff, not much more expensive than the LIRR ticket though much faster and nicer.</p>
+
+<p>But on none of the train companies is transporting a full size bicycle a pleasant affair. LIRR allows them except, arbitrarily, on holiday trains even if they are not at all full and you really just need to go one stop at the end of the line instead of riding on a highway at night. (Thanks.) For Asbury Park we did not try, although when we got there we were surprised to see bicycles more integrated into everyday life than in any of the other towns. Serious old Amtrak only allows small folding bicycles on most of its trains, including ours to Rhinecliff. (They have an &#8220;auto train&#8221; tho, which could not possibly be profitable in any universe, I would just like to point out.)</p>
+
+<p>As for folding bikes, we have one <a href='http://www.brompton.co.uk/'>Brompton</a>. The original plan suggested by our hotel The Rhinecliff was to rent a second bicycle from a shop in nearby Rhinebeck, and somehow it would be waiting on our arrival. But as our trip date approached, their offer of managing this process evaporated, and we were left to fend for ourselves on arrival. This meant walking the two and a half miles to Rhinebeck, which should not have been a big deal, right?</p>
+
+<p class='break'><img src='http://technically.us/resources/com.typeturner.Typeturner/image?name=rhinebeck-highway' alt='rhinebeck-highway' /></p>
+
+<p class='break'> Oh, but wouldn&#8217;t you know Americans need an honest-to-god <em>highway</em> to travel 2.6 miles these days. We tried in vain to find a small road or even (dare to dream!) footpath to walk between these two places sharing half a name and surely some kind of history. But from the looks of it no one had walked this short, basic route in a generation. One oncoming SUV helpfully honked to suggest that we move further off the median or, you know, die. A Taurus pulled over to ask us directions. (Just once I would like to see a motorist <em>stop</em> another motorist for directions, or try to.) A few body-armored cyclists bravely shared the road with the stream of 55-mph motor-traffic, but in general the asphalt was as free of natural transport as its surroundings were naturally beautiful.</p>
+
+<p class='break'><img src='http://technically.us/resources/com.typeturner.Typeturner/image?name=soclose' alt='soclose' /></p>
+
+<p class='break'>We kept our spirits up as best we could by taking turns on the Brompton and declaring that everyone racing by us within inches met Harry&#8217;s Code. Soon, we hoped, we would have a second bicycle and the unpleasantness of the return trip would be at least reduced in duration.</p>
+
+<p>But it was not to be. We found upon our arrival in town that the Rhinebeck Bicycle Shop is an establishment that has worn its helmet chinstraps and lycra a little too tightly, or perhaps sat on too many tiny bicycle seats for too long, but in any case its shopkeeper had no interest in extending his rental business to our perfectly normal situation. For the princely sum of $25 a day they reluctantly rent bicycles, and they deigned to offer that service a few hours that Saturday, but not on the Christian Sabbath of course, so we would have to return it Monday morning and that would be three days (?) and even $75 was not worth it to them to pick up the bicycle in at The Rhinecliff, so would we please go away and stop trying to give them money.</p>
+
+<p class='break'><img src='http://technically.us/resources/com.typeturner.Typeturner/image?name=cute-rhinebeck' alt='cute-rhinebeck' /></p>
+
+<p class='break'>So ended our extended train-to-bike experiment in and around this particular Amtrak stop. After decent lunch at Rhinebeck&#8217;s <a href='http://terrapinrestaurant.com/menus/BistroMenu'>Terrapin Restaurant</a> we awkwardly circumnavigated the cute town as two dudes with one bike. It was difficult to get very excited about the place after its inhospitable bicycle shop. Finally, we faced our destiny walking the miserable highway shoulder back to Rhinecliff, this time passing a woman carrying a baby. Someone did walk the route, after all! Who knew how far or what for, but she certainly wasn&#8217;t afforded any safe or decent pathway by her local government.</p>
+
+<p class='break'><img src='http://technically.us/resources/com.typeturner.Typeturner/image?name=rhinebeck-hotel' alt='rhinebeck-hotel' /></p>
+
+<p class='break'><a href='http://www.therhinecliff.com/'>The Rhinecliff</a> hotel itself is a great experiment, one I hope finds both success and imitation. It&#8217;s a very recently restored grand old railroad hotel. The rooms are fairly described as luxurious. The one area where we found the hotel lacking, obviously, was in concierge services. If they hope to attract &#8220;city folk&#8221;, as they say on their website, they are going to have to help us find something to do other than stumble around on highways when we get there.</p>
+
+<p>I suppose that most guests call on one of the county taxi services, and that&#8217;s fine. I have a dozen reasons for disliking taxis, and none of them are guilt from the minor amount of gasoline burned during my occupancy. Mainly it is that they are unpleasant and unpredictable. In New York cabs at least you know what you are going to pay. But with ragamuffin suburban or country taxis companies you don&#8217;t know anything at all until you&#8217;ve arrived alive and the vehicle has sputtered out of your life. Like I said, I just don&#8217;t consider time in autos to be much of a vacation.</p>
+
+<p>Aside from lodging, The Rhinecliff seems to do good business as a fancy evening and Sunday brunch venue for the locals, and for this they&#8217;ve paved an ugly extended parking strip in view from the guest room balconies. Which is fine, they need revenue in seasons when weekend getaways are less demanded, and we&#8217;ve gotten an idea of how most locals feel about using their legs. But the hotel would be wise to make similar (if vastly less expensive and invasive) accommodations for their guests arriving by train. That is, they should just run their own bicycle rental operation. For the price of our one night stay they could just cold <em>buy</em> a passable two-wheeler to rent out the next guest. Or, actually, any enterprising person around that or any Amtrak station could start a rental business out the back of their ubiquitous pickup trucks: You could take reservations online and meet people at their trains, guys!</p>
+
+<p class='break'>One thing is clear, in the meantime: we&#8217;ve got to get a second Brompton.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about'>About</h3>
+
+<p><em>City Slicking</em> is about urban life, transportation, energy, liberty, and language.</p>
+
+<h3 id='haunts'>Haunts</h3>
+
+<p><a href='http://twitter.com/n8han/'>Twitter</a><br /><a href='http://technically.us/code/'>Coderspiel</a><br /><a href='http://www.streetsblog.org/'>Streetsblog</a><br /><a href='http://gawker.com/people/alexpareene/posts/'>Pareene</a><br /><a href='http://www.copenhagenize.com/'>Copenhagenize</a><br /><a href='http://itre.cis.upenn.edu/~myl/languagelog/'>Language Log</a><br /><a href='http://t4america.org/'>Trans. for America</a></p>
+
+<h3 id='wire_service'>Wire Service</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/city-rss' title='All in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-short-rss' title='Left column, frequent links and notes'>Quickies</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-long-rss' title='Main column, occasional extended posts'>Treatise</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id180b">
+  		
+  		
+  	</div>
+  	<div id="id180c">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id180d" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id180d_hf_0" id="id180d_hf_0" /><input type="hidden" name="wicket:interface" value=":952:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id180e" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id180f" name="add" value="Add a comment" onclick="wicketShow('id180f--ajax-indicator');var wcall=wicketSubmitFormById('id180d', '../../../?wicket:interface=:952:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id180f--ajax-indicator');}.bind(this),function() { ;wicketHide('id180f--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id180d')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id180f--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

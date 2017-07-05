@@ -1,0 +1,194 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / A tale of two loaves</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../eat">
+			
+			<img alt="Eat" src="../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../eat">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id32d" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="A tale of two loaves" width="305" class="title" src="../../resources/net.databinder.components.RenderedLabel/1f1a0e99"/><span class="title">A tale of two loaves</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on March 29, 2007</span></span>
+			<span id="id32e" class="tags">
+					{&nbsp;<span><a href="../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Continuing with my Richard Olney–inspired baked vegetable extravaganza, I present two more efforts from the last few nights: the appealingly named &#8220;cabbage loaf&#8221; and &#8220;cauliflower loaf.&#8221; It was the first time I had prepared either vegetable at home in a serious way, and each dish is worth repeating.</p>
+
+
+	<p>The cabbage loaf is not something I would have ever thought to do on my own. The liquid mixture involves such unlikely ingredients as flour and olive oil, and you have to let it rest after whisking it.</p>
+
+
+	<p><img src="/pictures/cabbageloaf.jpg" alt="" /></p>
+
+
+	<p><em>Pain au chou</em></p>
+
+
+	<p>1/2 cup flour <br> Salt and pepper <br> 3 eggs <br> 2/3 cup milk <br> 1 tablespoon olive oil <br> 1 medium cabbage (about 2.5 pounds), quartered, core and ribs removed <br> Butter</p>
+
+
+	<p>Boil the cabbage in salted water for thirty minutes. While that&#8217;s boiling, combine the flour, seasonings, eggs, milk, and olive oil in a large bowl, and whisk them until smooth. Let the mixture rest while you finish with the cabbage. Run some cold water over it after it&#8217;s done boiling, drain it well, and squeeze it dry. Chop it well, and stir it into the egg mixture. Pour it all into a well-buttered baking dish, and bake at 400ºF for 30 to 40 minutes, until the center feels firm. (If you want to unmold it, put a piece of buttered parchment paper down first. Obviously I forgot about this step.)</p>
+
+
+	<p>I added some chopped, sautéed bacon to the mixture, and I served it with a creamy, cheesy mornay sauce. It was very good eating, but not quite as good as the cauliflower loaf, which was salty, sweet, and excellent.</p>
+
+
+	<p><img src="/pictures/cauliflowerloaf.jpg" alt="" /></p>
+
+
+	<p><em>Crème de choufleur au gratin</em></p>
+
+
+	<p>2 small or 1 large cauliflower, broken into flowerts and parboiled <br> 2 eggs <br> 2/3 cup heavy cream <br> Salt and pepper <br> 1/2 cup grated parmesan <br> 2 tablespoons butter</p>
+
+
+	<p>Drain the cauliflower well and purée it in a food mill. (I tried and failed to do this in my Foley, and so I used the food processor instead. You could also just chop it finely, or mash it with a fork for that matter.) Whisk the eggs and cream together and add the cauliflower purée. Season it, pour into a buttered dish, and sprinkle the surface evenly and generously with the cheese. Richard Olney&#8217;s favorite part is next: &#8220;distribute paper-thin shavings of butter.&#8221; I forgot to do this and don&#8217;t think it matters much. Bake for 20 minutes in a 450ºF oven, or until it&#8217;s well browned.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id32f">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3585"><p>That Pyrex pie plate has certainly proven to be a good investment! Perhaps a few days of non-cruciferous vegetables are in order before our visit&#8230; :)</p>
+<p>Seriously, though, all these Olney recipes you&#8217;re making look and sound wonderful, and I was just reading an article about a nutritionist who says that Americans are gaining weight, not losing it, with their low-fat diets and insistence on whole grains, so maybe I should go back to cream and butter and just enjoy myself.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on March 29, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3586"><p>I am making the carrot pudding and cauliflower dish this weekend. Both look delicious.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">jancd</span></span>
+  				<span>on March 29, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3587"><p>Thanks, mommy! I really like this book. It&#8217;s nice to find a cookbook where the style of cooking and the dishes suit me so well. Most of them anyway&#8212;I have yet to try any of the offal recipes.</p>
+<p>Good luck, jancd! I hope you enjoy them.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on March 29, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3588"><p>As a nutritionist in training, I&#8217;m happy to see you&#8217;re eating so many veggies!  You&#8217;re full of vitamins and minerals.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Emily Lyons</span></span>
+  				<span>on March 29, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3589"><p>Thanks, Emily! I don&#8217;t feel very healthy when I&#8217;m eating them, but I&#8217;m glad you approve!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on March 29, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3590"><p>All these lovely gratine-y veg things. Yum.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">lindy</span></span>
+  				<span>on March 29, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id330">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id331" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id331_hf_0" id="id331_hf_0" /><input type="hidden" name="wicket:interface" value=":139:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id332" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id333" name="add" value="Add a comment" onclick="wicketShow('id333--ajax-indicator');var wcall=wicketSubmitFormById('id331', '../../?wicket:interface=:139:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id333--ajax-indicator');}.bind(this),function() { ;wicketHide('id333--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id331')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id333--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/code-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / The un-tiered Internet</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../code">
+			
+			<img alt="Coderspiel" src="../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../code">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id1c8e" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="The un-tiered Internet" width="354" class="title" src="../../resources/net.databinder.components.RenderedLabel/479950bc"/><span class="title">The un-tiered Internet</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on July 3, 2006</span></span>
+			<span id="id1c8f" class="tags">
+					{&nbsp;<span><a href="../../code/tag/networking/#selected-tag"><span>networking</span></a><span id="id1c90">, </span></span><span><a href="../../code/tag/hardware/#selected-tag"><span>hardware</span></a><span id="id1c91">, </span></span><span><a href="../../code/tag/internet/#selected-tag"><span>internet</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Back in 1996 when the Internet was new and <em>Wired</em> magazine was hip, I <a href="http://www.wired.com/wired/archive/4.04/jennings.html">read</a> in it about Tom Jennings, the creator of <a href="http://en.wikipedia.org/wiki/FidoNet">FidoNet</a>. Though he was then running an <span class="caps">ISP</span>, he reserved his affection for &#8220;the people&#8217;s Internet,&#8221; FidoNet.</p>
+
+
+	<p>The logic escaped me. I had previously enjoyed BBSes, but was too cheap to buy access to those on FidoNet. Ditto for the famous second phone line (which it seemed like everyone but me had) you&#8217;d need to be your own node. When flat-rate Internet access arrived, other networks seemed superfluous.</p>
+
+
+	<p>Jennings&#8217;s logic, unfortunately, is starting to be spelled out for us. While we&#8217;ve benefited greatly from the Internet in the past decade, we&#8217;ve also seen how quickly its centralized routing leads to centralized control. This was originally a <a href="http://en.wikipedia.org/wiki/ARPANET">military network</a>, after all.</p>
+
+
+	<p>For starters, the <a href="http://www.eff.org/legal/cases/att/">secret cooperation</a> of AT&#38;T with the <span class="caps">NSA</span> to monitor networks is scary as hell. Then there&#8217;s the censorware used by <a href="http://www.boingboing.net/2006/02/27/isps_in_iran_tunisia.html">some countries</a> and many corporations to (clumsily) filter content at network hubs.  And even IP port blocking, widely employed against file sharing and personal Web serving, is a reflection of the bureaucratic instinct for top-down control.</p>
+
+
+	<p>But for executives of the formerly monopolistic telecom industry (who surely <em>dream</em> in org. charts), the Web was still too ragtag. They realized they could offer the owners of well-financed sites (because those are <a href="http://www.nbc.com/The_Apprentice_5/blog/">best on the Web</a>, obviously) priority delivery on next-generation broadband. And so the <a href="http://www.thenation.com/doc/20060213/chester">tiered Internet</a> was conceived.</p>
+
+
+	<p>In the ensuing network neutrality debate, the stifling intentions of major ISPs have been made unambiguous. Their aim is to sell cheap access to <a href="http://www.internetofthefuture.org/">passive consumers</a> while collecting cash on the other end from the likes of Google and <span class="caps">HBO</span>. Cory Doctorow <a href="http://informationweek.com/shared/printableArticle.jhtml?articleID=189600971">lays it out nicely</a>, establishing the nastiness of segregated delivery schemes, but also the difficulty and ethical ambiguities of thwarting them.</p>
+
+
+	<p>We&#8217;re dependent upon upstream providers, and trying to regulate the badness out of them is a legislative quagmire. Cory thinks the problem is the last-mile of access. It is&#8212;there&#8217;s no near-future open competition on that mile. But even when we solve that problem, through long-range wireless perhaps, we&#8217;ll only be driving the parasites upstream. You can just as easily rig traffic, and charge tolls, at a hub as a spoke.</p>
+
+
+	<p>We need a Plan B, an Internet of our own. And we can do it. We can do it because radio waves—at least on some slices of the spectrum—are free. And though they&#8217;re quirky, they can carry digital packets. Throw in a few thousand <a href="http://www.metafilter.com/mefi/51159#1289237">pissed-off hackers</a>, and a <strong>worldwide, radio carried computer network</strong> becomes inevitable.</p>
+
+
+	<p>Instead of a backbone it will run over <em>mesh networks</em>: a newer name for FidoNet&#8217;s old trick. The immediate aim of <a href="http://en.wikipedia.org/wiki/Wireless_mesh_network">wireless mesh networks</a> is to connect more people to the wired Internet. But as they expand across cities, they&#8217;ll begin to carry traffic like city weblogs entirely within the mesh. Eventually they&#8217;ll span metropolitan areas, densely populated regions, and the world.</p>
+
+
+	<p>A global mesh network with current Wi-Fi technology, if it were possible, might rival the postal service in speed. That wouldn&#8217;t be too interesting for anyone besides political dissidents under oppressive regimes. For a network useful to the masses, we&#8217;ll have to bet on advances in wireless technology.</p>
+
+
+	<p>And nothing could be a surer bet. There&#8217;s a tremendous effort to increase both the speed and range of wireless data transfer, much of it by the same <a href="http://www.business.att.com/service_fam_overview.jsp?repoid=ProductSub-Category&#38;repoitem=eb_wimax&#38;serv_port=eb_access_and_local_services&#38;serv_fam=eb_wimax&#38;segment=ent_biz">people</a> trying to segregate the Internet. No matter; once the equipment is available, we&#8217;ll use it for our own purposes. Mix in the potential for <a href="http://dir.salon.com/story/tech/feature/2003/03/12/spectrum/index.html">huge, democratizing advances</a> in radio and I think we&#8217;ll be in the clear, technology wise.</p>
+
+
+	<p>Research on WiFi mesh networking has already borne fruit at <a href="http://pdos.csail.mit.edu/roofnet/doku.php"><span class="caps">MIT</span>&#8217;s Roofnet</a> project. Things went so well that the group has packed up, switched coasts, and started a company to produce hardware.</p>
+
+
+	<p>In about half a year, <a href="http://meraki.net/">Meraki Networks</a> will have a pleasantly small, $100 mesh routing device on the market. A baby step towards the un-tiered Internet. In ten years, owners of popular city weblogs may be able to invest in powerful transmitters instead of funding bureaucracies that facilitate government spying. It&#8217;s something to hope for.</p>
+
+
+	<p>Interestingly, Jennings dismissed similar ideas in 1996:</p>
+
+
+	<blockquote>
+		<p>Freenets are such nonsense [&#8230;] No, the use of the Internet costs money; but yes, you can afford it.</p>
+	</blockquote>
+
+
+	<p>Of course, he was busy selling Internet access. And <a href="http://en.wikipedia.org/wiki/802.11">802.11</a> wasn&#8217;t yet available. So we&#8217;ll forgive him for not noticing that his own FidoNet concepts applied to airborne data can produce a <em>free</em> network—in both senses of the word.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1c92">
+  		
+  		
+  	</div>
+  	<div id="id1c93">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id1c94" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id1c94_hf_0" id="id1c94_hf_0" /><input type="hidden" name="wicket:interface" value=":1085:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id1c95" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id1c96" name="add" value="Add a comment" onclick="wicketShow('id1c96--ajax-indicator');var wcall=wicketSubmitFormById('id1c94', '../../?wicket:interface=:1085:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id1c96--ajax-indicator');}.bind(this),function() { ;wicketHide('id1c96--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id1c94')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id1c96--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

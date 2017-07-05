@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Potato soup</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="idd47" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Potato soup" width="190" class="title" src="../../../resources/net.databinder.components.RenderedLabel/b2b0c281"/><span class="title">Potato soup</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on February 25, 2006</span></span>
+			<span id="idd48" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>By sheer coincidence, mom and I both made soup tonight with things lying around the house. I can attest to her amazing ability to make a soup out of nothing. A few years ago on Halloween, after the trick-or-treaters stopped coming, we realized we had nothing in the house to eat. Mom went out to the porch, and an hour later, she had a fabulous pumpkin soup on the table.</p>
+
+
+	<p>I planned to make chicken breasts tonight, but I had a surplus of potatoes with which I decided to make a hearty potato soup, which I realize looks a bit like puke.</p>
+
+
+	<p style="float:center"><img src="/pictures/potatosoup.jpg" alt="" /></p>
+
+
+	<p>This was only the <a href="http://technically.us/eat/articles/2006/02/16/butternut-squash-soup-and-via-emilia">second</a> soup I&#8217;ve ever made, and I&#8217;m starting to realize how easy and fun it is. I didn&#8217;t even bother with any of the thousand recipes I found at epicurious, because I had several things I wanted to taste specifically. There is little to no chance you&#8217;ll ever have all of the following lying around, but the point is to just throw in whatever comes out positively in your flavor calculation.</p>
+
+
+	<p>I cooked a few dried <a href="http://technically.us/eat/articles/2006/01/13/dried-c%C3%A8pes-and-how-i-learned-to-like-mushrooms">cèpes</a> in some chicken broth, added three chopped Russet potatoes, one chopped onion, one star anise pod, and five or six chopped <a href="http://technically.us/eat/articles/2006/02/20/chinatown-bounty">garlic cloves</a>. Once the potatoes softened, I mashed them with a wooden spoon, added a dollop of heavy cream and salt and pepper, and then threw in a big hunk of gorgonzola dolce. It all mixed together very well, especially the dried mushrooms, gorgonzola, and star anise.</p>
+
+
+	<p>Best of all, I didn&#8217;t break any large appliances.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="idd49">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-1539"><p>Ha-ha&#8212;I hope your readers know not to try that pumpkin thing at home because that was a joke and Halloween pumpkins do not, in fact, make good soup! I only tried cooking with one once and a watery, tasteless mess it was, indeed.</p>
+<p>Your soup sounds great although at first the star anise threw me. Then I reasoned that star anise is vaguely in the tarragon family of flavors and since I commonly season potato soup with tarragon I was able to breathe again.</p>
+<p>What I like about these soups is that when you think you have nothing to eat you don&#8217;t have to order pizza; you can get a great meal on the table in less time than it would take for the pizza to arrive and spend virtually nothing, in fact often using up ingredients that you might have wound up throwing  away. As my father would say &#8220;I wonder what the poor people are eating tonight?&#8221;</p>
+<p>Mommy</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">beckyleeprice@mac.com</span></span>
+  				<span>on February 25, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1540"><p>You&#8217;re totally right. Anyway I&#8217;m scared of ordering in for some reason. We&#8217;ve only ordered once since moving in here. I&#8217;d much rather just do something simple like spaghetti and parmesan cheese. (And canned tomatoes! Cook&#8217;s Illustrated gave me the go-ahead to use Progresso canned tomatoes with basil, and I always keep a few cans on hand in case the wolf is at the door).</p>
+<p>Sorry my star anise gave you a panic. I hesitated for about fifteen seconds with the star anise above the pan. I kept smelling the soup and smelling the star, and finally I decided it was all very musty and I just went for it. I suppose I could have left it out, but I am addicted to the smell of star anise wafting through the apartment.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on February 25, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="idd4a">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="idd4b" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="idd4b_hf_0" id="idd4b_hf_0" /><input type="hidden" name="wicket:interface" value=":485:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="idd4c" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="idd4d" name="add" value="Add a comment" onclick="wicketShow('idd4d--ajax-indicator');var wcall=wicketSubmitFormById('idd4b', '../../../?wicket:interface=:485:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('idd4d--ajax-indicator');}.bind(this),function() { ;wicketHide('idd4d--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('idd4b')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="idd4d--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

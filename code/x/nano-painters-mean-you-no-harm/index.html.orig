@@ -1,0 +1,231 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Nano painters mean you no harm</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id258a" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Nano painters mean you no harm" width="529" class="title" src="../../../resources/net.databinder.components.RenderedLabel/69536c84"/><span class="title">Nano painters mean you no harm</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on October 22, 2008</span></span>
+			<span id="id258b" class="tags">
+					{&nbsp;<span><a href="../../../code/tag/spde/#selected-tag"><span>spde</span></a><span id="id258c">, </span></span><span><a href="../../../code/tag/processing/#selected-tag"><span>processing</span></a><span id="id258d">, </span></span><span><a href="../../../code/tag/scala/#selected-tag"><span>scala</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Do you want to be painted by ninety-nine evil robots living in your Macintosh™ computer, that has a camera attached to it? If <em>YES</em> then here is something large to click on:</p>
+
+<p class='break'><a href='http://technically.us/pictures/Nano_Painters.zip'><img src='http://technically.us/resources/com.typeturner.Typeturner/image?name=number-5' alt='Number 5 is ALIVE' /></a></p>
+
+<p class='break'>Sorry to all the dozens of fans of embedding applets in actual web pages, on the internet, but this time it was not possible to be so obnoxious. Only the paragon of private and secure browsing, Adobe Flash, is allowed to activate your camera from &#8216;rich media&#8217; and transmit images back to the mothership.</p>
+
+<p>But this is totally worth the D/L guys! Made with <a href='http://processing.org/'>Processing</a>, obviously, and shortly written in Scala:</p>
+
+<pre><code>import processing.video._
+
+size(800, 600)
+val video = new Capture(applet, width, height, 6)
+smooth()
+strokeWeight(8)
+
+// current positions
+var pos_list = List[Point]()
+keyPressed()
+override def keyPressed() {
+  pos_list = List.tabulate(99, n =&gt; Point(width/2, height/2))
+  background(0xFFAAAAAA)
+}
+
+// circle of 20 points, radius of 10 with center at 0,0
+val r = 10;
+val circle = List.tabulate(20, PI*_/10).map( t =&gt;
+  Point((cos(t)*r).toInt, (sin(t)*r).toInt)
+)
+
+def draw() {
+  video.read()
+  // if this is a real live frame
+  if (video.get(width/2, height/2) != -16777216) {
+    pos_list = pos_list.map { pos =&gt;
+      val c = video.get(pos.x, pos.y)
+      // randomly select next point from circle around current
+      // with bias for similar colors and staying in bounds
+      val next = play(circle.map { circle_p =&gt;
+        val p = pos + circle_p
+        (bounds(p) * similarity(c, video.get(p.x, p.y))) %&gt; p
+      }: _*)
+      stroke(c)
+      line(pos.x, pos.y, next.x, next.y)
+      next
+    }
+  }
+}
+
+def bounds(p: Point) = if (
+  p.x &gt; 0 &amp;&amp;
+  p.x &lt; width &amp;&amp;
+  p.y &gt; 0 &amp;&amp;
+  p.y &lt; height) 1 else 0
+
+def similarity(a: Color, b: Color) =
+  1 + 10 / max(1, ((a.r - b.r)*^2 + (a.g - b.g)*^2 + (a.b - b.b)*^2))
+
+case class Point(x: Int, y: Int) {
+  def + (o: Point) = Point(x + o.x, y + o.y)
+}</code></pre>
+
+<p>Can you spot the sneaky robots&#8217; implicit conversions that access a growing assortment of <a href='http://technically.us/git?p=spde.git;a=blob;f=core-scala/src/main/scala/processing/core/scala/Enrich.scala;hb=HEAD'>handy operators</a>?</p>
+
+<p class='break'><em>This application is packaged as an example in <a href='http://technically.us/spde/'>Spde</a>.</em></p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id258e">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-5849"><p>How about Webstart? I guarantee it will take you no more than 4 months to get it working.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.aanandprasad.com"><span class="alias">Aanand</span></a>
+  				<span>on October 22, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5851"><p>I know! I have strategically decided to pretend that technology does not exist.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on October 22, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6079"><p>Hi This spde stuff is great&#8230;any chance of a windows build in the near future? I poked about a bit but couldn&#8217;t find one. Thanks!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Ben</span></span>
+  				<span>on January 31, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6080"><p>The biggest holdup is that I lost my XP install disc—a legitimate one! It&#8217;s infuriating. I have it installed on a bootcamp partition, but I rarely reboot into it and want to reinstall XP under virtualbox (so I can write and test code for a Windows version of Spde, and other things). I extracted the license key from my install, but still need a CD to use it with.</p>
+
+<p>That is lame, but it&#8217;s the reason. I&#8217;m open to advice on what people do in this situation! I&#8217;ve turned my apartment upside down looking for the dumb thing.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on January 31, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6082"><p>Never mind, it was surprisingly easy to find and download an XP iso (via HTTP!) and my totally legit licence key activated it, so I have XP up and humming in VirtualBox. When I have a Spde release for Windows I&#8217;ll post about it.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on January 31, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6083"><p>Ah, the activation blues. Thanks for suffering through that&#8230; Looking forward to spde windows!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Ben</span></span>
+  				<span>on February 2, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6116"><p>It&#8217;s ready! Linux and Windows are now sharing an app-gen package <a href='http://technically.us/torrents/'>in the torrents</a>.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on February 14, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6128"><p>Holy higher order functions batman! I should have noticed this earlier!</p>
+
+<p>Cheers!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Ben</span></span>
+  				<span>on February 19, 2009</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id258f">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id2590" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id2590_hf_0" id="id2590_hf_0" /><input type="hidden" name="wicket:interface" value=":1370:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id2591" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id2592" name="add" value="Add a comment" onclick="wicketShow('id2592--ajax-indicator');var wcall=wicketSubmitFormById('id2590', '../../../?wicket:interface=:1370:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id2592--ajax-indicator');}.bind(this),function() { ;wicketHide('id2592--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id2590')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id2592--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

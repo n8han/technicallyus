@@ -1,0 +1,299 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / OAuth, here she comes</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id24bf" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="OAuth, here she comes" width="373" class="title" src="../../../resources/net.databinder.components.RenderedLabel/7f006a7d"/><span class="title">OAuth, here she comes</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on June 26, 2009</span></span>
+			<span id="id24c0" class="tags">
+					{&nbsp;<span><a href="../../../code/tag/oauth/#selected-tag"><span>oauth</span></a><span id="id24c1">, </span></span><span><a href="../../../code/tag/http/#selected-tag"><span>http</span></a><span id="id24c2">, </span></span><span><a href="../../../code/tag/dispatch/#selected-tag"><span>dispatch</span></a><span id="id24c3">, </span></span><span><a href="../../../code/tag/scala/#selected-tag"><span>scala</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>The best thing about globalization and cheap computing is we no longer have to resort to cinematic caricatures to explain computer security to mainstream society. Everyone on the internet has, in some way, been touched by the clammy hand of a script kiddie: Your mom&#8217;s e-mail is flooded by product offers for insecure men, sent from some busted home PC. Celebrity accounts of all kinds are routinely broken into, exposing dull private lives and elementary writing abilities. And Vista—it needs your permission to execute that instruction.</p>
+
+<p>If that&#8217;s not enough, Twitter has sailed in trailing fresh meat for web sharks: accounts of significant value operated by computing amateurs through a variety of devices and applications, users who blithely grant publishing abilities to autonomous web-bots. What could possibly go wrong here?</p>
+
+<h2 id='alice_doesnt_live_here_anymore_and_neither_does_bob'>Alice doesn&#8217;t live here anymore, and neither does Bob</h2>
+
+<p>Web APIs created a need for a new authorization protocol, so that users can grant access to third parties without sharing their primary credentials: <strong><a href='http://oauth.net/'>OAuth</a></strong> fills this need. It does so in a pretty simple way, but as a new technology it takes most of us a little time to wrap our heads around exactly how it works. So in 2007 a beginner&#8217;s guide was published including a <a href='http://www.hueniverse.com/hueniverse/2007/10/beginners-gui-1.html'>walk-through starring Jane</a>, a jellybean-person whose enthusiasm for Scotch is subtly indicated by a comped-in photo of a liquor bottle—much like Barbara Walters&#8217;s Grand Marnier in <a href='http://www.youtube.com/watch?v=5fngEnIkz44&amp;feature=PlayList&amp;p=736C3116AD309B58&amp;playnext=1&amp;playnext_from=PL&amp;index=2'>Auto-tune the News #3</a>. Jane really wants to draw arrows from one isometric projection of a 1990s PC &#8216;tower&#8217; to another, and use Windows 3.1 Media Player.</p>
+
+<p>But these days we have dozens of OAuth web services IRL&#8212;<em>you</em> are the jellybean. You can <a href='http://iran.greenthumbnails.com/'>turn your Twitter icon green</a> to support Iranian democracy, and you can do it without giving away your password! For us programmers, there a dozen OAuth libraries in different languages, and a half-dozen in Java alone for various underlying HTTP libraries. Whoopee!</p>
+
+<p class='break'> On the other hand, if you don&#8217;t want to use any of these OAuth cake mixes because you are are a wretched programming eccentric, it&#8217;s wee bit cold out. The Scotch-sipping guide doesn&#8217;t go into enough detail for you to implement the protocol. The main Java implementation is something of a nesting doll, hard to follow through the flow through the layers of transport abstraction. <a href='http://twitteroauth.appspot.com/'>This single-file Python example</a> is the most readable one out there, and it&#8217;s live.</p>
+
+<p>But surprisingly to this writer, who has never really tried to read a protocol specification, the easiest way to implement OAuth was to do just that. In these exciting times of session fixation, the correct specification is <a href='http://oauth.googlecode.com/svn/spec/core/1.0a/drafts/3/oauth-core-1_0a.html'>OAuth Core 1.0 Rev A Draft 3</a>. (Read it and weep, session perverts.) The text is somewhere between <em><a href='http://books.google.com/books?id=drR_POHcB-QC&amp;source=gbs_navlinks_s'>Ulysses</a></em> and <a href='http://peacelovetwilightblog.blogspot.com/'><em>Twilight</em></a> in difficulty—and far more practical than either. If you&#8217;re confused about any part of the OAuth process, save yourself some time and go to the source.</p>
+
+<h2 id='your_signature_please'>Your signature, please</h2>
+
+<p>Like most respectable protocols, OAuth is a stout little tower of layered abstraction. As a whole it&#8217;s a little intimidating, but on the HTTP ground floor OAuth is just a standard for signing requests. And since web APIs are fully driven by HTTP requests, it is awfully handy to be reasonably certain that an instruction was signed off by a particular entity.</p>
+
+<p>The HMAC-SHA1 signing method is the one to learn. Clients use a one-way hash with one or two secret keys to sign a message that fully describes the request (method, URL, and parameters). When a service receives the request, it generates an identical message from the component parts. As the service has no direct access to the message, there must be no ambiguity in the process to derive it from the request. The service must also be able to produce whatever secret keys were used to hash the message. As it was the service that created them in the first place, that&#8217;s generally a matter of looking them up by the non-secret keys included in the request.</p>
+
+<p class='break'>The only tricky part of this process, assuming you have an SHA1 implementation at hand, is correctly assembling the message. The parameters it signs can include query-string and POST parameters. Instead of trying to keep these separate and in their original order, the spec calls for them to be combined and alphabetized by key. While this reordering seems fussy in the simplest cases, it avoids a need for special handling of the complicated ones.</p>
+
+<p>Parameters going into the signed message are encoded in the regular way for query strings and posted forms, as percent-encoded name-value pairs. The three parts of the request to be signed are then percent-encoded (for parameters, it&#8217;s their second time) and joined by ampersands. By following this procedure the client and service are able to distill the same sequence of bytes from the request and, using the secret keys known to both of them, the same signature of it.</p>
+
+<p>As mentioned above, the server needs some OAuth-specific information to verify the signature, the keys to look up the secret keys, so a set of OAuth parameters is added into the request <em>before</em> signing it. In the end, a singed request looks like the original request with non-secret OAuth parameters attached as well as a signature&#8212;everything but the signature parameter itself is represented in the signature.</p>
+<p class='break' id='sign'>Here is a request signing function in Scala:</p><iframe src='http://databinder.net/sxr/dispatch/0.4.2/main/OAuth.scala.html?id=14048' width='667' height='433' frameborder='0'> </iframe>
+<p>It returns returns only the OAuth parameters, which you could add to other request parameters or put in an Authorization header as recommended by the spec.</p>
+
+<h2 id='courtship_rituals'>Courtship rituals</h2>
+
+<p>Signing requests is great, but if that were all there were to OAuth it would be a Vegas wedding chapel of web-service security. For the signatures to have any meaning, the service and the <em>consumer</em> (that Twitter client you&#8217;re going to write some day) have to go through a routine. It is modeled on the venerable romantic comedy genre of film.</p>
+
+<p class='break'>First, the service issues you the programmer a consumer key and secret; this is your license to love. Then, you&#8217;re approached by an attractive user. You want to have a relationship with this user, one that is recognized by the service, and the user feels the same! That&#8217;s sweet, but hold your horses.</p>
+
+<p>You must <a href='http://oauth.googlecode.com/svn/spec/core/1.0a/drafts/3/oauth-core-1_0a.html#auth_step1'>submit your request to the service</a>, signed as a consumer. If you&#8217;re also a web service, you include a user-specific callback URL here so you know which user this was after you&#8217;re married. (Yes: this OAuth analogy implies polygamy.) The service then issues a request token.</p>
+
+<p>So now you think you are in the clear to get busy with this user now, right? Ha ha, dream on. It turns out the user&#8217;s cat hates you, and there is <em>another programmer</em>, and some unlikely thing happens that causes you and the user to doubt each other&#8217;s affections—letters are lost and trains are missed. Basically, it is uncertain times for you two!</p>
+
+<p>This dramatic tension can <em>only</em> be resolved with an <a href='http://oauth.googlecode.com/svn/spec/core/1.0a/drafts/3/oauth-core-1_0a.html#auth_step2'>authorization request</a>. You have to send the user to the service holding the request token—you can&#8217;t do this yourself! No, the user has to walk right up to that service, log in or whatever, and &#8216;consent&#8217; to a read and possibly write interaction with you. The user will hem and haw, then decide that true love is more important than the cat or the other programmer&#8217;s fancy ways, and agree to the relationship.</p>
+
+<p>The user <a href='http://oauth.googlecode.com/svn/spec/core/1.0a/drafts/3/oauth-core-1_0a.html#rfc.section.6.2.3'>calls you back</a> at the address you gave, plus the request token and a verifier. You&#8217;re together, but the hijinks are not over yet. (Oh, Hollywood.) You have to <a href='http://oauth.googlecode.com/svn/spec/core/1.0a/drafts/3/oauth-core-1_0a.html#auth_step3'>go back to the service</a> with an access request signed with your consumer and request tokens and including the verifier—ugh. But a happy ending is a foregone conclusion at this point; we are just teasing the audience and they know it. The service responds with the long-sought access token. Finally, your app has access to the user&#8217;s details and you all live happily every after.</p>
+
+<p class='break'> Just keep in mind that divorce is only a mouse click away.</p>
+
+<h2 id='carte_blnche'>Carte bl@nche</h2>
+
+<p>You know how the <code>implicit</code> keyword makes everyone crazy? Like most features Scala supports that Java does not, it is met with suspicion and even hostility by enterprise tourists. Isn&#8217;t it <em>so</em> confusing? Isn&#8217;t it some kind of hack? Isn&#8217;t it &#8230; like C++? (Now that is just wrong.)</p>
+
+<p>Even Scala adepts can be coy about implicit. Don&#8217;t write your conversions too broadly and import them all over the place, kids, or you will regret it! (Who has done this?) But Haskell fugies and other typists have a very different attitude: implicit conversions are fundamental. They aren&#8217;t a workaround for type corners or a way to fake open classes; they are an everyday tool in an adequate type system: use them with care like any other feature.</p>
+
+<p>What are these functionistas smoking? Immutable objects, as usual. When you try to make a class internally immutable, like <a href='http://databinder.net/dispatch/'>Databinder <strong>Dispatch</strong></a>&#8217;s Request class, you end up writing a lot of methods that return new instances of that same class. (The serious lambda kool-aid club thinks in &#8216;modules&#8217;, but we are only three drinks in.)</p>
+
+<p>This presents an interesting problem for extension by subclass. Actually, not interesting—more like sucky. Maybe you can fix it with existential types, self types, or Ionesco-typing where everything is a rhinoceros so the return values don&#8217;t matter and the point is just to LIVE&#8230; but <code>implicit</code> gives us a way to steer clear of the whole mess. In the same way implicit conversions can <a href='http://technically.us/code/x/the-awesomeness-of-scala-is-implicit'>extend libraries you couldn&#8217;t otherwise extend</a>, they&#8217;re an excellent <em>first-resort</em> to the the problem of planned extension here described.</p>
+
+<p class='break'> Consider this desired expression of a Dispatch request:</p>
+
+<pre><code>val svc = Twitter.host / &quot;oauth&quot;
+
+def request_token(consumer: Consumer) =
+  svc.secure.POST / &quot;request_token&quot; &lt;@ consumer as_token</code></pre>
+
+<p>The secure transport and parameterless post methods are new, but they are generally applicable and so have been <a href='http://databinder.net/sxr/dispatch/0.4.2/main/Http.scala.html#6886'>added to Request</a>. The signing method <code>&lt;@</code> is not general, nor is <code>as_token</code> which returns a Handler that eventually returns a Token object. How can these operators be added to Request without it having to inappropriately import OAuth?</p>
+
+<p>You probably guessed it: implicit conversions! A class that wants to use such operations can bring them into its own scope, so that the core functionality remains unfettered (and could be distributed as its own core module, for example). If you could do this through inheritance that would be fine, but it doesn&#8217;t work and implicit does so that&#8217;s the deal. Regard:</p>
+<iframe src='http://databinder.net/sxr/dispatch/0.4.2/main/OAuth.scala.html?id=14053' width='789' height='642' frameborder='0'> </iframe>
+<p>When the implicit conversion is in scope, a <code>&lt;@</code> operation on Request is transformed into <code>new RequestSigner(request) &lt;@</code> and after that things are the same as if they&#8217;d been defined on Request itself. Everything is statically compiled and checked; at runtime it&#8217;s like we wrote out the longer form. Which is to say, if you think this is a vicious hack you must be pretty bored.</p>
+
+<p>By the way, check out the <code>split_decode</code> method it is some functional good times. It transforms name-value parameters into an immutable map. Passing an unapplied method like <a href='http://databinder.net/sxr/dispatch/0.4.2/main/Http.scala.html#15483'><code>Http.-%</code></a>, which does a percent decode, directly to <code>map</code> is just rad. And that&#8217;s immediately followed by sequence matching! It&#8217;s almost too awesome as it is, but, if anyone knows a slimmer way than <code>immutable.Map.empty ++ (...)</code> to make that sequence into a Map, please post it to the comments.</p>
+
+<p>This same technique has also been applied to <a href='http://databinder.net/sxr/dispatch/0.4.2/main/JsonExtractor.scala.html#17545'>the JSON <code>&gt;#</code> operator</a>, freeing dispatch.Http of its only other Dispatch import. Modularization, here we come, in a few weeks or whenever.</p>
+
+<h2 id='this_one_goes_out'>This one goes out&#8230;</h2>
+
+<p>Needless to say, <a href='http://databinder.net/sxr/dispatch/0.4.2/main/Twitter.scala.html#6806'>Dispatch&#8217;s 0.4&#8217;s Twitter interface</a> supports authentication. There are also some <a href='http://databinder.net/sxr/dispatch/0.4.2/test/OAuthSpec.scala.html'>specs against a test server</a> using the OAuth signing ops directly which you could do with any service, for fun and profit.</p>
+
+<p><em>Ummmmm</em> special thanks to <a href='http://code.google.com/p/simple-build-tool/'>simple-build-tool</a>. Without its steadfast support through all those recompiles, Dispatch&#8217;s OAuth support would not be where it is today. And thanks to <a href='http://github.com/harrah/browse/tree/master'>Scala X-Ray</a> for dressing up the <a href='http://databinder.net/sxr/dispatch/0.4.2/main/'>source files</a>. And also Jane, for being a boozy jellybean, and auto-tuning, and&#8230;</p>
+
+<p class='break'> Please make a webapp that layers Grand Marnier bottles on Twitter icons, to support Barbara Walters. Thank you.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id24c4">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-6338"><p>Nice post. Is the title of your post a reference to Tim and Eric, by chance?</p>
+
+<p>http://snackfeed.com/videos/detail/33393f7e-d881-102b-a525-00304897c9c6/Here-She-Comes-2<em>s=s</em></p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Philip Cali</span></span>
+  				<span>on June 26, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6339"><p>Thanks!</p>
+
+<p>No, I haven&#8217;t seen that video before. it is quite an assault on the senses.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on June 26, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6342"><p>Dude, that was a fun read. I love your humor. I never thought of security in &#8216;romantic&#8217; terms - comedy yes, but most often as a porn-orgy I&#8217;d rather never want to see or participate in. Great blog post.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.twitter.com/buckybit"><span class="alias">buckybit</span></a>
+  				<span>on June 28, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6343"><p>&#8230;the orgy-part as in &#8220;the state of in-security on the web and ignorance of common users today&#8221;.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.twitter.com/buckybit"><span class="alias">buckybit</span></a>
+  				<span>on June 28, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6344"><p>Let&#8217;s not bring CouchDB into this. ;)</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on June 28, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6345"><p>Hey! What a great blog, blog-post and code! I am so glad to know there&#8217;s people out there doing this kind of experiments with scala and http/dispatch/request/oauth/twitter!!!</p>
+
+<p>I would love to be in contact and read more about the development of the whole dispatch library! If you would accept code on Twitter.scala i would love to wrap all the api around!!!</p>
+
+<p>Also; any idea why the dispatch library wont work in the google app engine(for example http://twitknow.appspot.com/OAuth/login works in my server and localhost but refuses to work on the GAE)</p>
+
+<p>Cheers!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.dfectuoso.com"><span class="alias">DFectuoso</span></a>
+  				<span>on June 28, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6347"><p>I would LOVE some code to fill out the Twitter interface in Dispatch. Please fork off git://technically.us/git/dispatch and I&#8217;ll pull your changes into the next release!</p>
+
+<p>As for GAE, I haven&#8217;t tried but it is probably the threading limitations? I would try using the Http singleton as well as single-threaded instances. If neither works, the problem &amp; solution is probably somewhere in HttpClient 3 (beta). If you can figure out how to get that working on its own I can fix it in Dispatch.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on June 29, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6350"><p>Well, i found a hosting where it works(stax) and its in beta(free beta). So I&#8217;ll make a twitter game this weekend and test this puppy under pressure.</p>
+
+<p>Also I&#8217;ll be glad to fill in some code in the git repo!</p>
+
+<p>Cheers and you sure have a permanent reader of anything you write in the future =)</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://dfectuoso.com"><span class="alias">DFectuoso</span></a>
+  				<span>on July 1, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6352"><p>Allright, im having trouble adding post variables to a request, what would be the correct way to add a update status to the status class in the twitter.scala file?</p>
+
+<p>def update(consumer: Consumer, token: Token, message: String) = this / &#8220;update.json&#8221; &#171;&#160;Map((&#8220;status&#8221;,message)) &lt;@ (consumer, token</p>
+
+<p>Doesnt seem the work, any ideas?</p>
+
+<p>(If i get that working i&#8217;ll be able to wrap all the api around twitter.scala =)</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://dfectuoso.com"><span class="alias">DFectuoso</span></a>
+  				<span>on July 4, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6353"><p>That looks right, and it works for me. Could you send me an e-mail about this, address at the bottom of the left column?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on July 4, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6529"><p>Thanks n8!</p>
+
+<p>I have used this successfully in my app <a href='http://tdash.org'>1</a> and it was pleasure to work with.</p>
+
+<p>The only thing I had to modify was removing the <code>oauth_verifier</code> while fetching the <code>auth token</code>. I guess the verifier is required for desktop-apps but not for web-based apps.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://hrj.wikidot.com"><span class="alias">HRJ</span></a>
+  				<span>on November 14, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6532"><p>Very cool, I like the app!</p>
+
+<p>It&#8217;s been a while since I walked through the webapp flow but I think the verifier is passed back after the authorization step? It&#8217;s not required by twitter currently for webapps but it is required by the changes <a href='http://oauth.net/core/1.0a#rfc.section.6.3.1'>in the 1.0a spec</a>, as I read them, so they could make it required at any time.</p>
+
+<p>If you want to chat about this further, perhaps <a href='http://n2.nabble.com/Dispatch-f3618001.html'>the forum</a> would be suitable?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on November 14, 2009</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id24c5">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id24c6" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id24c6_hf_0" id="id24c6_hf_0" /><input type="hidden" name="wicket:interface" value=":1349:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id24c7" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id24c8" name="add" value="Add a comment" onclick="wicketShow('id24c8--ajax-indicator');var wcall=wicketSubmitFormById('id24c6', '../../../?wicket:interface=:1349:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id24c8--ajax-indicator');}.bind(this),function() { ;wicketHide('id24c8--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id24c6')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id24c8--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

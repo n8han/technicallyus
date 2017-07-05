@@ -1,0 +1,258 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / November 2007</title>
+
+		<script src="../../../../resources/com.typeturner.pages.Archive/animator.js" type="text/javascript"></script>
+		<script src="../../../../resources/com.typeturner.pages.Archive/Archive.js" type="text/javascript"></script>
+<script type="text/javascript" src="../../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" ><!--/*--><![CDATA[/*><!--*/
+Wicket.Event.add(window, "load", function() { highlightTarget()  ;});
+/*-->]]>*/</script>
+
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div id="lead">
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../../eat">
+			
+			<img alt="Eat" src="../../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="span-14 last">
+	<h1 class="period" id="navigation">
+		<span class="arrow"><a class="arrow" href="../../../../eat/archive/2007/10/#navigation"><img height="45" alt="<" width="23" src="../../../../resources/net.databinder.components.RenderedLabel/4e9208d"/></a></span>
+		<span class="month-year"><img height="45" alt="November 2007" width="251" src="../../../../resources/net.databinder.components.RenderedLabel/880c4262"/></span>
+		<span class="arrow"><a class="arrow" href="../../../../eat/archive/2007/12/#navigation"><img height="45" alt=">" width="23" src="../../../../resources/net.databinder.components.RenderedLabel/4e9208f"/></a></span>
+	</h1>
+</div>
+
+<div class="prepend-1 span-12 append-1 last calendar" id="calendar">
+	<div id="id44" class="span-3 sidebar">
+		<h3>1 &ndash; 8</h3>
+		<div>
+			
+			<div>
+				<h3><a class="title" href="../../../../eat/x/mom-cooks-pasta-with-beets/"><span>Mom cooks pasta with beets</span></a></h3>
+				<div class="byline">
+					<span>Nov 2</span>
+				</div>
+			</div>
+		</div><div>
+			<div id="item-4616" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id45"><p>If any of you have friends in the vicinity of Paris, my <a href="http://www.youtube.com/watch?v=szHsaOjGvfk">husband</a> and I will be on tour with French blues guitarist <a href="http://www.fred-chapellier.com/">Fred Chapellier</a> and his band next week, traveling to several small towns where the guys will perform five concerts in as many days. I hope I get to eat some wonderful food in there somewhere; I plan to take lots of photos. For the list of venues and complete schedule see Bill&#8217;s <a href="http://www.billyprice.com/schedule.php">website</a> . Oh, and if your friends do come to a show, tell them to say hi to the gal who is attempting to sell CDs without speaking the language!</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Mom</span>
+							<span>Nov 3</span>
+							<a href="../../../../eat/archive/2007/11/#item-4616">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4637" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id46"><p>Look at <a href="http://www.nytimes.com/slideshow/2007/11/05/science/20071106_FOOD_SLIDESHOW_index.html?partner=permalink&amp;exprod=permalink">these crazy food experiments</a> at WD-50.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Leland</span>
+							<span>Nov 6</span>
+							<a href="../../../../eat/archive/2007/11/#item-4637">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4647" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id47"><p>I love the comments on <a href="http://cityroom.blogs.nytimes.com/2007/11/07/25000-for-a-hot-chocolate/index.html?hp">this item</a> about Serendipity 3&#8217;s $25,000 hot chocolate. My favorite one is, &#8220;Anyone who buys one of these things should be killed.&#8221;</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Leland</span>
+							<span>Nov 7</span>
+							<a href="../../../../eat/archive/2007/11/#item-4647">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div>
+	</div><div id="id48" class="span-3 sidebar">
+		<h3>9 &ndash; 16</h3>
+		<div>
+			
+			<div>
+				<h3><a class="title" href="../../../../eat/x/red-onion-gratin/"><span>Red onion gratin</span></a></h3>
+				<div class="byline">
+					<span>Nov 10</span>
+				</div>
+			</div>
+		</div><div>
+			<div id="item-4680" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id49"><p>I&#8217;m happy to report that Fairway&#8217;s rotisserie chickens, which assault the senses on every visit, taste every bit as good as they smell, and they put Whole Foods&#8217; dusty old, overpriced chickens to shame. At $5.49 for a whole, perfectly roasted and seasoned chicken, it&#8217;s a perfect last-minute meal.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Leland</span>
+							<span>Nov 12</span>
+							<a href="../../../../eat/archive/2007/11/#item-4680">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4681" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id4a"><p>A few of us went to <a href="http://www.bluehillstonebarns.com/">Blue Hill at Stone Barns</a> yesterday. I put some non-food pictures <a href="http://www.facebook.com/album.php?aid=20563&amp;l=76e38&amp;id=734946005">here</a>. (The dining room didn&#8217;t feel camera-friendly, and I hate to be that guy.) All in all, it was a perfect experience, from beginning to end. But I couldn&#8217;t help feeling like it was all too perfect, too Manhattan, and much too expensive, considering the hassle and cost of just getting to Tarrytown. I ate fresh greens with mushrooms and a poached, fried egg on top, followed by a confit of Berkshire pork and then chocolate bread pudding. All was extremely delicious and rather small. I&#8217;ll go again if someone else is treating.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Leland</span>
+							<span>Nov 12</span>
+							<a href="../../../../eat/archive/2007/11/#item-4681">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4696" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id4b"><p>I just went to that new place <a href="http://eater.com/archives/2007/10/eater_hownotto.php">Bun</a> on Grand Street. It was lousy from start to finish. It&#8217;s a nice room, but it&#8217;s freezing, as was my pho and, for that matter, the service. You can do much better for your money in that neighborhood, especially on <a href="http://newyork.citysearch.com/profile/7113515/new_york_ny/pho_bang_restaurant.html">pho</a>.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Leland</span>
+							<span>Nov 15</span>
+							<a href="../../../../eat/archive/2007/11/#item-4696">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			
+			<div>
+				<h3><a class="title" href="../../../../eat/x/muji-for-cooks/"><span>Muji for cooks</span></a></h3>
+				<div class="byline">
+					<span>Nov 16</span>
+				</div>
+			</div>
+		</div>
+	</div><div id="id4c" class="span-3 sidebar">
+		<h3>17 &ndash; 24</h3>
+		<div>
+			<div id="item-4713" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id4d"><p>Leland will not appreciate, but whatever: <a href="http://www.qwantz.com/archive/001113.html">The Columbian Explosion</a>.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Nathan</span>
+							<span>Nov 19</span>
+							<a href="../../../../eat/archive/2007/11/#item-4713">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4719" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id4e"><p>Here&#8217;s a <a href="http://www.nytimes.com/2007/11/21/dining/21carv.html?ex=1353301200&amp;en=6a315c35383b58f1&amp;ei=5124&amp;partner=permalink&amp;exprod=permalink">useful and timely article</a> on carving turkey. I&#8217;m roasting my first turkey this week, and I imagine I&#8217;ll be tasked with carving it as well.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Leland</span>
+							<span>Nov 20</span>
+							<a href="../../../../eat/archive/2007/11/#item-4719">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			
+			<div>
+				<h3><a class="title" href="../../../../eat/x/mom-bakes-cracked-wheat-bread/"><span>Mom bakes cracked wheat bread</span></a></h3>
+				<div class="byline">
+					<span>Nov 21</span>
+				</div>
+			</div>
+		</div><div>
+			<div id="item-4723" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id4f"><p>Just in time for a long, cold weekend: a <a href="http://www.nytimes.com/2007/11/21/dining/21brea.html?ex=1353301200&amp;en=981b61782a1df842&amp;ei=5124&amp;partner=permalink&amp;exprod=permalink">technique for bread</a> even easier than last year&#8217;s <a href="http://technically.us/eat/x/no-knead-bread-part-2">no-knead bread</a>, which briefly took over the world.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Leland</span>
+							<span>Nov 21</span>
+							<a href="../../../../eat/archive/2007/11/#item-4723">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			
+			<div>
+				<h3><a class="title" href="../../../../eat/x/sweet-potato-casserole/"><span>Sweet Potato Casserole</span></a></h3>
+				<div class="byline">
+					<span>Nov 21</span>
+				</div>
+			</div>
+		</div>
+	</div><div id="id50" class="span-3 sidebar last left-overlay">
+		<h3>25 &ndash; 30</h3>
+		<div>
+			
+			<div>
+				<h3><a class="title" href="../../../../eat/x/lelands-first-turkey/"><span>Leland’s first turkey</span></a></h3>
+				<div class="byline">
+					<span>Nov 25</span>
+				</div>
+			</div>
+		</div><div>
+			<div id="item-4763" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id51"><p>I&#8217;m glad that <em>New York Magazine</em> has launched a <a href="http://nymag.com/daily/food/2007/11/cook_like_your_favorite_chefs.html">recipe database</a>, but it would be better if their website weren&#8217;t such a fright show. It seems that no amount of <span class="caps">RAM</span> and no speed of internet can handle all of their ads and other shenanigans.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Leland</span>
+							<span>Nov 29</span>
+							<a href="../../../../eat/archive/2007/11/#item-4763">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div>
+	</div>
+</div>
+	
+
+
+</div> <!-- container -->
+
+<div id="target-padder"></div>
+
+
+
+</body>
+</html>

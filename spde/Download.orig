@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+        <link href="/css/blueprint/screen.css" type="text/css" rel="stylesheet" media="screen, projection"></link>
+        <link href="/css/blueprint/print.css" type="text/css" rel="stylesheet" media="print"></link> 
+        <link href="style.css" type="text/css" rel="stylesheet"></link> 
+        <title> Spde → Download </title>
+      </head>
+      <body>
+        <div id="content">
+      <div class="container">
+        <h2>Spde → Download</h2>
+        <h4><ul class="toc"> <li> <a href="About">About</a> </li><li> Download </li><li> <a href="See">See</a> </li><li> <a href="Talk">Talk</a> </li> </ul></h4>
+        <p>Spde works in conjunction with <a href="http://code.google.com/p/simple-build-tool/">Simple Build Tool</a>, a platform for building, running, and packaging Scala applications. You can skip installing sbt, for now, by downloading a Spde &lsquo;graft&rsquo;:</p>
+
+<p><a href="http://technically.us/spde-graft/graft_2.8.0-0.4.2-setup.jar"><strong>Spde Graft 0.4.2</strong></a></p>
+
+<p>This runnable jar will produce a simple project containing everything you need to start coding. Most systems will run the jar on a  double-click, but if that doesn&rsquo;t seem to work a command line will give better feedback:</p>
+
+<pre><code>java -jar graft_2.8.0-0.4.2-setup.jar
+</code></pre>
+
+<p>It can take a minute. When the project is ready, its sample sketch will appear and play (yay). Inside the project directory should be a <code>sbt</code> or <code>sbt.bat</code> script, depending on your platform. Run this to enter sbt&rsquo;s <a href="http://code.google.com/p/simple-build-tool/wiki/RunningSbt">interactive mode</a>, where the <code>run</code> and <code>applet</code> actions should provide useful results. To make changes, open <code>sketch.spde</code> in any text editor.</p>
+
+<p><span id="source-only">At some point</span> you should <a href="http://code.google.com/p/simple-build-tool/wiki/Setup">setup sbt</a> to run Spde and other Scala projects independently. Then, you can base new projects off the <strong>source-only Graft</strong>, available in <a href="http://technically.us/git?p=graft.git;a=snapshot;h=0.4.2;sf=tbz2">tar.bz2</a> or <a href="http://technically.us/git?p=graft.git;a=snapshot;h=0.4.2;sf=zip">zip</a>. To fetch, compile, and run in one shot:</p>
+
+<pre><code>curl "http://technically.us/git?p=graft.git;a=snapshot;h=0.4.2;sf=tbz2" \
+  | tar -xvj
+cd graft
+sbt update run
+</code></pre>
+
+<p><strong>Spde Examples 0.3.1</strong> : <a href="http://technically.us/git?p=spde-examples.git;a=snapshot;h=0.3.1;sf=tbz2">tar.bz2</a> or <a href="http://technically.us/git?p=spde-examples.git;a=snapshot;h=0.3.1;sf=zip">zip</a></p>
+
+<p>The examples are an open-ended, group project. If you want to contribute new sketches or improve existing ones, <a href="http://github.com/n8han/spde-examples/tree/master#readme">clone spde-examples on github</a> and go to work!</p>
+
+<p><strong>Spde Classic</strong></p>
+
+<p>Spde was originally developed to compile and run inside a fork of the Processing Development Environment. The final (probably) release of this forked environment is 2009-06-04, available in two distributions  by BitTorrent or HTTP.</p>
+
+<p>Windows and Linux : <a href="http://spde.mirror.technically.us/spde-app-gen-2009-06-04.tgz">Direct download</a> or <a href="http://technically.us/torrents/spde-app-gen-2009-06-04.tgz.torrent">torrent</a>  </p>
+
+<p>Macintosh : <a href="http://spde.mirror.technically.us/spde-app-mac-2009-06-04.tgz">Direct download</a>  or <a href="http://technically.us/torrents/spde-app-mac-2009-06-04.tgz.torrent">torrent</a>  </p>
+
+<p><em>Thanks to Christian Langreiter for the Spde mirror.</em></p> 
+        
+      </div>
+    </div>
+      </body>
+    </html>

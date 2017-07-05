@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Chicken wings and cupcakes</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="idc7f" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Chicken wings and cupcakes" width="456" class="title" src="../../../resources/net.databinder.components.RenderedLabel/70506518"/><span class="title">Chicken wings and cupcakes</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on April 13, 2006</span></span>
+			<span id="idc80" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a><span id="idc81">, </span></span><span><a href="../../../eat/tag/dessert/#selected-tag"><span>dessert</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p><a href="http://www.billyprice.com">Poppy</a>, Calvin, and I attended the Pirates&#8217; home opener on Monday and the guys did <strong>not</strong> eat chicken wings the way they usually do, so I decided to make Lynne Rosetto Kasper&#8217;s <a href="http://splendidtable.publicradio.org/recipes/sundaysuppers/apr_chickenwings.html">Mahogany-Glazed Chicken Wings</a> for dinner tonight. I had eight people at my table, five of them men, and these wings are definitely man-pleasers. The recipe says that 3-4 lbs. of wings will serve 4-6 people with leftovers. I had 6 1/2 lbs. and every wing was eaten, along with a huge salad, a big bowl of fried rice, and home made applesauce.</p>
+
+
+	<p style="float:right"><img src="/eat/files/wing.JPG" alt="" /></p>
+
+
+	<p>For dessert I tried a recipe that&#8217;s apparently been going the rounds of food blogs, <a href="http://bakingsheet.blogspot.com/2005/07/cooking-school-self-frosting-cupcakes.html">self-frosting cupcakes</a>. I learned about them when I followed a link in a comment on my Martha Stewart <a href="http://technically.us/eat/articles/2006/04/09/martha-stewarts-caramel-nut-bars">caramel nut bar</a> post and discovered a delightful blog entitled <a href="http://creampuffsinvenice.typepad.com/">Creampuffs in Venice</a>, whose author was rhapsodizing about these very cupcakes. My photo doesn&#8217;t look quite like hers or the original but perhaps it&#8217;s because I used self-rising flour. I saw that the recipe had baking powder and salt in it so I figured why not&#8212;I&#8217;m always trying to use this short cut and sometimes it backfires on me. The cupcakes were really good, though, with their pocket of Nutella, and I might try them with lemon curd next time. I was planning to use the lemon curd version tonight, reasoning they would suit my vaguely Asian-themed dinner a little better, but when I opened the jar of lemon curd I planned to use it was all brown on top and smelled like my oldest son&#8217;s sneakers did before he had that foot condition treated last year. How long does that stuff keep, anyway?</p>
+
+
+	<p style="float:center"><img src="/eat/files/cupcake.JPG" alt="" /></p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="idc82">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-1845"><p>Hey &#8230; those cupcakes look very fine to me! Mind you I would have a cupcake in one hand and one of those glorious wings in the other!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.creampuffsinvenice.ca"><span class="alias">Ivonne</span></a>
+  				<span>on April 13, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1846"><p>Thanks, Ivonne, but you can see from the photo how much less shapely they are than yours and Nic&#8217;s&#8212;I think that must be a result of using the self-rising flour. It probably has too much baking powder in it. And I do wonder about temperatures in my elderly oven, especially the low ones, like the 325º called for here. At 20 minutes the cakes were still so pallid that I left them in for a little longer and then they were a tiny bit dry. I may raise the temperature a tad next time. I have broken so many oven thermometers that I have given up on them and am just saving my money for a new stove.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on April 13, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="idc83">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="idc84" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="idc84_hf_0" id="idc84_hf_0" /><input type="hidden" name="wicket:interface" value=":457:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="idc85" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="idc86" name="add" value="Add a comment" onclick="wicketShow('idc86--ajax-indicator');var wcall=wicketSubmitFormById('idc84', '../../../?wicket:interface=:457:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('idc86--ajax-indicator');}.bind(this),function() { ;wicketHide('idc86--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('idc84')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="idc86--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

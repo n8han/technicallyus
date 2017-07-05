@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Jewel thief</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id235a" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Jewel thief" width="180" class="title" src="../../../resources/net.databinder.components.RenderedLabel/9d6e2ebe"/><span class="title">Jewel thief</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on January 16, 2007</span></span>
+			<span id="id235b" class="tags">
+					{&nbsp;<span><a href="../../../code/tag/databinder/#selected-tag"><span>databinder</span></a><span id="id235c">, </span></span><span><a href="../../../code/tag/rpc/#selected-tag"><span>rpc</span></a><span id="id235d">, </span></span><span><a href="../../../code/tag/markup/#selected-tag"><span>markup</span></a><span id="id235e">, </span></span><span><a href="../../../code/tag/ruby/#selected-tag"><span>ruby</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p class="break">Long have we lamented the dearth of text processing libraries in Java. So many more options are available in scripting languages like Ruby that Databinder decided several months back to <a href="/n8/articles/2006/10/11/if-you-cant-beat-'em">throw in the towel</a>. Instead of writing our own implementations (as if any Java programmer could be bothered!) we’ll call into theirs. Suckers.</p>
+
+<p class="out"><img src="/pictures/bridge.jpg" alt="" /></p>
+
+
+	<p>This weekend I had some time to make it happen. It’s simple to call into Ruby code with <span class="smcp"><span class="caps">XML</span>-RPC</span>, as we knew already, making the operation both easy to set up and efficient to use was the challenge.</p>
+
+
+	<p>One early realization I had was that it’s not okay to add any new dependencies for this feature. It’s not something everyone will use, and we need to keep our requirements as low as possible (even though Maven makes it so easy to pile in the <acronym title="">JAR</acronym>s). It was time to go multi-project. With out further ado, behold <a href="http://databinder.net/wsvn/Databinder/databinder/trunk/databinder-dispatch/">Databinder dispatch</a>. (Not as impressive as the iPhone debut, but still.)</p>
+
+
+	<p>To use it, change the Databinder dependency in your <acronym title="Project Object Model">POM</acronym> from “databinder” to “databinder-dispatch”. Then you can use the <a href="http://databinder.net/wsvn/Databinder/databinder/trunk/databinder-dispatch/src/main/java/net/databinder/dispatch/components/RedClothLabel.java?op=file">RedClothLabel</a> component for Textile processing in your code.</p>
+
+
+	<p>The meat is in the parent <a href="http://databinder.net/wsvn/Databinder/databinder/trunk/databinder-dispatch/src/main/java/net/databinder/dispatch/components/XmlRpcLabel.java?op=file">XmlRpcLabel</a> class, which hosts the client communications object and an <a href="http://ehcache.sourceforge.net/">Ehcache</a>. The cache allows us to not worry about the overhead of the network call. (Or the dreadfully slow interpretation of Ruby code, right? Right? Psh.)</p>
+
+
+	<p>So, then what happens? The cool part. Add an <span class="smcp"><span class="caps">XML</span>-RPC</span> component to your page. Then just go to the page. The <acronym title="">RPC</acronym> connection will fail, of course, but if you’re in development mode the component will redirect you to a special page. A <em>very</em> special page. It lists the error, <em>and</em> gives you the text of a Ruby script to run the required server. Niiice. But not just that, it offers a command string that looks something like this:</p>
+
+<pre><code>curl http://localhost:8080/…/databinder-dispatch.rb | ruby </code></pre>
+
+
+	<p>Whoa. You see what that does? Scary.</p>
+
+
+	<p>Of course this won’t work unless you have Ruby set up with the libraries required in the script. But aren’t you already “evaluating Ruby” for your boss? Get that interpreter installed, and <a href="http://docs.rubygems.org/">RubyGems</a>. After that it’s a cinch to install <a href="http://whytheluckystiff.net/ruby/redcloth/">RedCloth</a> and any other gem Databinder dispatch chooses to purloin in the future.</p>
+
+
+	<p>I’m already using this Ruby bridge to transform markup for the <a href="http://databinder.net/site/show/overview">Databinder site</a> with <a href="/n8/articles/2006/12/11/see-em-ess-not-so-hard-after-all">my crazy non-<acronym title="">CMS</acronym></a>. Works like a <em>charm</em>.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id235f">
+  		
+  		
+  	</div>
+  	<div id="id2360">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id2361" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id2361_hf_0" id="id2361_hf_0" /><input type="hidden" name="wicket:interface" value=":1309:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id2362" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id2363" name="add" value="Add a comment" onclick="wicketShow('id2363--ajax-indicator');var wcall=wicketSubmitFormById('id2361', '../../../?wicket:interface=:1309:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id2363--ajax-indicator');}.bind(this),function() { ;wicketHide('id2363--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id2361')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id2363--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

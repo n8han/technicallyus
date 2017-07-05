@@ -1,0 +1,194 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Strawberry shortcake festival</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id1168" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Strawberry shortcake festival" width="447" class="title" src="../../../resources/net.databinder.components.RenderedLabel/3c733104"/><span class="title">Strawberry shortcake festival</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on June 18, 2006</span></span>
+			<span id="id1169" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/dessert/#selected-tag"><span>dessert</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Yesterday was the Brouwer family&#8217;s tenth annual strawberry shortcake festival in Yonkers. The rumor at the table was that the recipe came from <a href="http://www.bhg.com/recipe/recipedetail.jhtml?recipeId=35539">Better Homes and Gardens</a>, but Emily is free to dispute that in the comments (although I think she was the one who told me). I&#8217;m sure there was no &#8220;whipped dessert topping mix involved&#8221; as called for in the recipe&#8212;that cream tasted fresh.</p>
+
+
+	<p style="float:center"><img src="/pictures/shortcake.jpg" alt="" /></p>
+
+
+	<p>The shortcake was delicious, and it reminded me of sitting in our backyard on Parkview Avenue in Pittsburgh eating it with mom at the picnic table. Mom: why did we used to eat shortcake once a year for dinner? I know it was part of some family tradition, but I can&#8217;t remember it exactly. One of my favorite childhood memories is eating it one night when my older brother was in trouble and confined to his room. I got to eat dessert for dinner alone with mommy on a beautiful summer evening; life didn&#8217;t get any better than that.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id116a">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-2250"><p>Yes, you&#8217;re right, Leland, we had a family tradition when I was growing up that at least once during strawberry season we&#8217;d indulge in a &#8220;dinner&#8221; where we&#8217;d just stuff ourselves silly on strawberry shortcake and nothing but strawberry shortcake and it&#8217;s a tradition that I observed, at least sporadically, while you boys were little.</p>
+<p>I actually remember the evening you&#8217;re referring to; Jon had misbehaved as he so often did and Poppy was out of town. You and I sat in the back yard at that picnic table eating our strawberry shortcake, although my memories aren&#8217;t as joyful as yours. I was feeling terrible about sending Jon to bed with no supper, especially since I think he was watching us from the bedroom window and crying while we ate. I believe I was trying to follow a discipline policy of &#8220;logical consequences&#8221; at the time, but it was hard to stick to.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on June 18, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2251"><p>Well, sucks to be him. It&#8217;s good to be good.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on June 18, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2252"><p>Our family adopted a single man, Steve, when Amos (who is now about 32) was an infant.  Steve died last Christmas.  We are still realizing how many things remind us of good times with Steve. He came to our house every Sunday for dinner (it was the only vegetables he ate, ever.)  He played games with the four kids and they adore him.  We think one of these games led Amos to believe that pineapples grew on trees&#8230;a topic on a Thanksgiving sermon!  <span class="caps">ANYWAY</span>,  Steve would often bring dessert.  He brought half gallons of Breyers ice cream, something we could never afford.  But his big treat was strawberry short cake.  One of his favorites.  It was horrifying.  It came at any season, so sometimes the strawberries were sour, red marbles.  But he always brought those little yellow sponge cakes and Cool Whip.  Steve and the kids <span class="caps">LOVED</span> it.  The kids had theirs with no strawberries!  I  would always ponder just gagging it down in politeness, eating only the strawberries with lots of sugar or saying I was too full.  On occasion in June, I went to our local farm market and bought just picked strawberries, made wonderful, bisquity cakes and whipped fresh, sweet cream. Evidently I was the only one who could tell the difference.  Your story of strawberry short cake brings back threads of memories for me.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Barbara</span></span>
+  				<span>on June 18, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2253"><p>My birthday is in June and I <span class="caps">ALWAYS</span> asked for strawberry shortcake rather than cake.</p>
+<p>My mom always made the biscuits. Instead of whipped cream she would make a very thin vanilla custard to pour over it.</p>
+<p>it brings back memories!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Uncle Teddy</span></span>
+  				<span>on June 18, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2254"><p>Barbara&#8212;I think it&#8217;s important to keep up your standards, even if the only one who appreciates them is you, but I know what you mean. Once in awhile I&#8217;ll bring home a store-bought pie if I know I&#8217;ll be too busy to make dessert that day and when I see the family digging into it with relish I do feel a little discouraged.</p>
+<p>Uncle Ted&#8212;Was your mother English, by any chance? I know they often pour custard over desserts that we top with ice cream or whipped cream. I think that sounds like a delicious birthday treat, but were you able to insert the candles into it?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on June 18, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2255"><p>Sitting outside on a beautiful summer evening eating a meal of nothing but strawberry shortcake sounds like an achingly wonderful memory.</p>
+<p>Do most people&#8217;s most vivid childhood memories revolve around summertime? I know mine do.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://kitchenography.typepad.com"><span class="alias">Julie</span></a>
+  				<span>on June 18, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2256"><p>I have no memory of eating just strawbery shortcake for dinner ever. Becky, I think you made the whole thing up!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Aunt Sue</span></span>
+  				<span>on June 18, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2257"><p>On occasion when the strawberries were ripe we did eat just strawberry shortcake for dinner, only if Dad was out of town!  What a treat!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">grandma</span></span>
+  				<span>on June 18, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2258"><p>i never eat strawberries cake,but i can imagine that were so delicious.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">shafika</span></span>
+  				<span>on June 18, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id116b">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id116c" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id116c_hf_0" id="id116c_hf_0" /><input type="hidden" name="wicket:interface" value=":634:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id116d" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id116e" name="add" value="Add a comment" onclick="wicketShow('id116e--ajax-indicator');var wcall=wicketSubmitFormById('id116c', '../../../?wicket:interface=:634:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id116e--ajax-indicator');}.bind(this),function() { ;wicketHide('id116e--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id116c')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id116e--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

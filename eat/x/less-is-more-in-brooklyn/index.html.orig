@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Less is more in Brooklyn</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="ide2" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Less is more in Brooklyn" width="378" class="title" src="../../../resources/net.databinder.components.RenderedLabel/3439ce94"/><span class="title">Less is more in Brooklyn</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on July 6, 2008</span></span>
+			
+		</span></div>
+		<div><p class="out"><img src="http://technically.us/resources/com.typeturner.Typeturner/image?name=kitchen1" alt="" /></p>
+<p>It&#8217;s been just over a week now since I left my <a href="http://technically.us/eat/x/moving-up-in-the-world/">vast Harlem kitchen</a> for the comforts of Brooklyn. The allure of private outdoor space was irresistible, but fleeting. With a thousand mosquitoes constantly lying in wait at the backdoor for their meal, I found that I didn&#8217;t take advantage of the garden as I might have under other circumstances. That combined with the utter dearth of anything to do or anywhere to shop near where we lived was enough to send us packing after a depressingly short nine-month stint in the neighborhood.</p>
+<p>But the irritation of moving twice in one year is overshadowed by the sense of peace and freedom that Nathan and I are finding in Brooklyn Heights. We&#8217;re not on the most beautiful or most historic <a href="http://maps.google.com/maps?f=q&amp;hl=en&amp;geocode=&amp;q=schermerhorn+street+and+boerum+place,+brooklyn&amp;sll=37.0625,-95.677068&amp;sspn=48.374125,64.863281&amp;ie=UTF8&amp;z=16">stretch</a>, but we are in a modern apartment in a grand old co-op building. It&#8217;s near the subway, Smith Street, and <a href="http://technically.us/eat/x/sahadis">Sahadi&#8217;s</a>, and we&#8217;ll be staying put for at least five years.</p>
+<p class="out"><img src="http://technically.us/resources/com.typeturner.Typeturner/image?name=kitchen2" class="out" alt="" /></p>
+<p>The big change for me is the size of the kitchen. It&#8217;s much smaller than the ridiculous space I had in Harlem, although I am in no way complaining. This is an excellent kitchen for New York, and the apartment is small in general. It will just take a bit of time to get used to having one drawer instead of twelve.</p>
+<p>The problem really is that that the Harlem apartment&#8217;s kitchen was much too big. No rental apartment needs a dozen big drawers and even more cabinets. I had drawers in there with practically nothing in them. I ended up collecting a lot of junk that I had to get rid of upon moving. And then that ridiculous island, which had enough room for eight people to work. It made me disorganized. I found myself using up the entire surface when making a grilled cheese sandwich. There is such a thing as having too much space!</p>
+<p class="out"><img src="http://technically.us/resources/com.typeturner.Typeturner/image?name=kitchen3" class="out" alt="" /></p>
+<p>I&#8217;ve cooked several times in my little Brooklyn kitchen, and I genuinely enjoy the challenge. Having a bit less room to work forces me to organize myself and be tidy. My whole operation is cleaner and more streamlined. Having a dishwasher helps, and the Viking range makes the whole experience more enjoyable. (The Harlem place was fabulous except for the dinky, generic, piece of junk range that I fought with daily.)</p>
+<p>The open storage is surprisingly handy. I&#8217;m keeping everything I use all the time there and tucking other items away in the few little cabinets I have. The lowboy fridge and freezer haven&#8217;t bothered me yet, although I&#8217;m pretty sure I&#8217;d rather have more fridge and less freezer. An ice maker wouldn&#8217;t be amiss, either.</p>
+<p>Overall, this little kitchen is going to whip me into shape. No more collecting useless cooking utensils. No more hoarding pre-ground spices from the early 2000s. No more letting week-old leftovers use up precious fridge real estate. I intend to exit this apartment a more organized man than I was when I entered it.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="ide3">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-5532"><p>i&#8217;ve been following your blog for some time and laughing &#8212; i&#8217;m from nj, transplanted to pittsburgh and now am also in brooklyn heights. it&#8217;s an adorable neighborhood and i&#8217;ve fallen deeply in love with it. your kitchen is much nicer than mine, too!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">cait</span></span>
+  				<span>on July 6, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5533"><p>Nice kitchen! It&#8217;s good looking and galley layouts are an efficient use of space.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://kitchenography.typepad.com"><span class="alias">Julie</span></a>
+  				<span>on July 6, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5534"><p>What a pretty little kitchen. but truly, did you actually have empty drawers(!) in the prior kitchen? I can&#8217;t imagine such a thing, or remember ever having one. I&#8217;m gobsmacked by the very thought.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://lindystoast.com"><span class="alias">Lindy</span></a>
+  				<span>on July 6, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5535"><p>Thank you ladies! Cait: where are you in BH? If you&#8217;ve found any good little markets or restaurants you&#8217;ll have to share them with me.</p>
+<p>Lindy: yes, I did have drawers that were mostly empty, horrifying though that may sound? Or I&#8217;d have a whole drawer with something like a placemat and a knife box in it. It was embarassing, and I could never find anything. No danger of that happening here.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on July 7, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5567"><p>Hi Leland-</p>
+<p>We, too, are leaving our Union Square neighborhood for Brooklyn. Our move has more to do with our baby and needing a 2-bedroom, which is impossibly unaffordable where we live now.</p>
+<p>We&#8217;ll be in Prospect Heights, right across from the B&#8217;lyn Farmers Market. Yay, Brooklyn!</p>
+<p>-Anne</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://goodamericanwife.blogspot.com"><span class="alias">Anne</span></a>
+  				<span>on July 14, 2008</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="ide4">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="ide5" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="ide5_hf_0" id="ide5_hf_0" /><input type="hidden" name="wicket:interface" value=":58:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="ide6" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="ide7" name="add" value="Add a comment" onclick="wicketShow('ide7--ajax-indicator');var wcall=wicketSubmitFormById('ide5', '../../../?wicket:interface=:58:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('ide7--ajax-indicator');}.bind(this),function() { ;wicketHide('ide7--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('ide5')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="ide7--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

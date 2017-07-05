@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="../../../blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="../../../blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet.css"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Plugging source lists into sockets</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code.html">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code.html">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id2315" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Plugging source lists into sockets" width="538" class="title" src="../../../resources/net.databinder.components.RenderedLabel/4421ecfe"/><span class="title">Plugging source lists into sockets</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on August 15, 2007</span></span>
+			<span id="id2316" class="tags">
+					{&nbsp;<span><a href="../../tag/databinder/index.html#selected-tag"><span>databinder</span></a><span id="id2317">, </span></span><span><a href="../../tag/interfaces/index.html#selected-tag"><span>interfaces</span></a><span id="id2318">, </span></span><span><a href="../../tag/wicket/index.html#selected-tag"><span>wicket</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Once upon a time (apparently <a href='http://technically.us/code/archive/2007/6#item-585'>June 20, 2006</a>) the <em>Coderspiel</em> staff went to the Soho Apple Store to see that John Gruber guy. He&#8217;s probably the biggest independent weblogger on the technical internet, and one of the few that combines wide subject knowledge with reasoned arguments laid out in polished language (when he&#8217;s not <a href='http://daringfireball.net/linked/2007/august#mon-13-keefe'>throwing a fit</a>), so we went to figure him out.</p>
+
+<p>On that front we learned that he has a computer science degree from Drexel. He got interested in design, or Macs, or interfaces or something (sorry, no notes!) when he was laying out his campus newspaper in Quark. As the Editor in Chief! That was the detail we were looking for actually, one that isn&#8217;t in his short <a href='http://en.wikipedia.org/wiki/John_Gruber'>Wikipedia bio</a>. It explains <a href='http://daringfireball.net/'><em>Daring Fireball</em></a> more than anything else.</p>
+
+<p class='out'> <img style='border:none' src='../../../resources/com.typeturner.Typeturner/image%3Fname=System+6+Control+Panel' alt='System 6 Control Panel' /></p>
+
+<p class='break'>The other thing we learned before we getting hungry and leaving Gruber&#8217;s talk was the name <strong>source list</strong>&#8212;yet another code word of the internet design clique. Everybody found out about <em>typeface</em> being more correct than <em>font</em> (when you aren&#8217;t talking about a particular size and weight), so they had to come up with another way to distinguish themselves. Source list is the neologism for the System 6 control panel&#8217;s navigation metaphor, whereby a constantly visible list determines the content of an associated block. Simple.</p>
+
+<p>Of course, no one could leave those exquisitely simple source lists alone. OS/2 turned the idea into a <a href='http://www.os2world.com/gallery2/d/4816-1/3_system_laser.jpg'>gigantic notebook</a>, complete with spiral binding and pages that flipped <em>within</em> tabbed sections. Microsoft, not to be outdone, designed some pretty slick <a href='http://depts.drew.edu/its/docs/procedures/conversion/images/word-options-save-disable-checked.jpg'>chiseled tabs</a> that put the source list horizontal. The problem with that genius idea is you can only fit about four things in the list before you have to wrap around, making three or more levels of tabs common. That complicates the metaphor and is hard to skim through, but everyone liked the way it looked so we are stuck with it forever.</p>
+
+<p>Even though Baroque tabs have taken over desktop interfaces and many on the internet, it turns out that the <a href='http://databinder.net/'>Databinder</a> examples have always had a few basic source lists. The potential to factor out some of their logic and markup has been there all along, but having the terminology and conceptual framework was the boost that Databinder needed to get it done.</p>
+
+<p>Enter <a href='http://databinder.net/wsvn/Databinder/databinder/tags/r1.1-beta2/databinder-components/src/main/java/net/databinder/components/SourceList.java?op=file'><code>SourceList</code></a>, which isn&#8217;t itself a component but a handler for them. This is how you use it:</p>
+
+<pre><code>SourceList sourceList = new SourceList();
+SourceLink showLink = sourceList.new SourceLink(&quot;show&quot;, showRecipe);
+SourceLink editLink = sourceList.new SourceLink(&quot;edit&quot;, editRecipe);</code></pre>
+
+<p>What, did you forget about <code>obj.new</code>? Us too. But it&#8217;s perfect here, constructing the link and binding it to the list in one step. The links set their target components to visible and the previous target to hidden. Because there&#8217;s no enforced structure you can put the a <code>SourceLink</code> anywhere you want. The end.</p>
+
+<p>Just kidding. This kind of static source list has broad applications in Wicket, but we can cast source lists in another way that applies to practically every data-driven application: the list for selecting an item to edit or view in detail on the same page. In Wicket that means setting the model object of the target component, and now Databinder has a <a href='http://databinder.net/wsvn/Databinder/databinder/tags/r1.1-beta2/databinder-components/src/main/java/net/databinder/components/ModelSourceLink.java?op=file'><code>ModelSourceLink</code></a> for that basic purpose.</p>
+
+<p>Following that, we can factor out the code to display these links in a panel fed by a list model and targeting a single component. First, with a base class <a href='http://databinder.net/wsvn/Databinder/databinder/tags/r1.1-beta2/databinder-components/src/main/java/net/databinder/components/SourceListPanel.java?op=file'><code>SourceListPanel</code></a> that defines the markup as an unordered list with a stylesheet class <code>source-list</code>. Then the concrete <a href='http://databinder.net/wsvn/Databinder/databinder/tags/r1.1-beta2/databinder-components/src/main/java/net/databinder/components/ModelSourceListPanel.java?op=file'><code>ModelSourceListPanel</code></a> ties that to <code>ModelSourceLink</code> objects. If you wanted to update the model object of <code>this</code> with objects from a list model:</p>
+
+<pre><code>new ModelSourceListPanel(&quot;recipes&quot;, this, &quot;name&quot;, recipeListModel);</code></pre>
+
+<p>That is seriously handy! But we can put just a little bit more air in this balloon, because there is one more thing we often do with lists of items: link to bookmarkable pages. For this a <a href='http://databinder.net/wsvn/Databinder/databinder/tags/r1.1-beta2/databinder-components/src/main/java/net/databinder/components/hibernate/PageSourceLink.java?op=file'><code>PageSourceLink</code></a> class factors out the annoying code of setting a page parameter (<code>id</code> by default) from a Hibernate identifier. Then we use those in a source list panel subclass, <a href='http://databinder.net/wsvn/Databinder/databinder/tags/r1.1-beta2/databinder-components/src/main/java/net/databinder/components/hibernate/PageSourceListPanel.java?op=file'><code>PageSourceListPanel</code></a>. And suddenly making that list of bookmarkable links is easy:</p>
+
+<pre><code>new PageSourceListPanel(&quot;recipes&quot;, RecipeBook.class, &quot;name&quot;, recipeListModel);</code></pre>
+
+<p>Can you guess what example has been updated (and shortened) to show off these classes? It&#8217;s in the <a href='http://databinder.net/releases/examples-1.1-beta2.tar.bzip2'>example archive</a> for Databinder 1.1-beta2 (which, by the way, <a href='http://databinder.net/forum/viewtopic.php?t=228'>is out</a>). Enjoy.</p>
+
+<h3 id='sockets_and_plugs'>Sockets and plugs</h3>
+
+<p>Databinder&#8217;s other new earthshaking UI curiosity doesn&#8217;t even <em>exist</em> in code. It&#8217;s just some words we stole from the real world: socket and plug. They&#8217;re short and easy to type, and they just might help us defeat the scourge of <a href='http://technically.us/code/x/deconstructing-generic-components'>extensible generic components</a>.</p>
+
+<p>The problem as ever with generic <code>Panel</code> subclasses is that users will want to change markup and add to it at arbitrary places. Those people will never be satisfied. But we can at least provide them with multiple extension points (something that <code>&lt;wicket:extend&gt;</code> doesn&#8217;t support) in a consistent way.</p>
+
+<p>Thus we define <em>socket</em> in this context as one such extension point, and <em>plug</em> as something that occupies it. Toss them in a template like <a href='http://databinder.net/wsvn/Databinder/databinder/tags/r1.1-beta2/databinder-auth-components/src/main/resources/net/databinder/auth/components/DataProfilePanel.html?op=file&amp;rev=0&amp;sc=0'><code>DataProfilePanel.html</code></a>:</p>
+
+<pre><code>&lt;div wicket:id=&quot;lowFormSocket&quot; /&gt;</code></pre>
+
+<p>And <a href='http://databinder.net/wsvn/Databinder/databinder/tags/r1.1-beta2/databinder-auth-components/src/main/java/net/databinder/auth/components/DataProfilePanel.java?op=file&amp;rev=0&amp;sc=0'>its class</a>:</p>
+
+<pre><code>  add(lowFormSocket(&quot;lowFormSocket&quot;));
+}
+protected Component lowFormSocket(String id) {
+  return new NullPlug(id);
+}</code></pre>
+
+<p>There <em>is</em> a tiny piece of library support here. <a href='http://databinder.net/wsvn/Databinder/databinder/tags/r1.1-beta2/databinder-components/src/main/java/net/databinder/components/NullPlug.java?op=file'><code>NullPlug</code></a> is a component that doesn&#8217;t render anything unless for some reason you give it a body in the markup. If you want to put a plug in that low-form socket, as Typeturner <a href='http://databinder.net/wsvn/Databinder/typeturner/trunk/src/main/java/com/typeturner/panels/ProfilePanel.java?op=file&amp;rev=0&amp;sc=0'>does</a>, you just override the method:</p>
+
+<pre><code>protected Component lowFormSocket(String id) {
+  return new Plug(id);
+}
+class Plug extends Panel { ... }</code></pre>
+
+<p>This technique works best, to be honest, when the generic panel&#8217;s users work with the panel author (or if they&#8217;re the same person!) so extension points can grow naturally. Exactly where a socket would be useful isn&#8217;t often apparent until you need it there. But at least with a consistent approach you can plunk them in without sweating the names and the mechanism.</p>
+
+<p class='break'> And you never know&#8212;<em>socket</em> and <em>plug</em> might be programming clique code words some day.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='../../../resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id2319">
+  		
+  		
+  	</div>
+  	<div id="id231a">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id231b" action="../../../index.html" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id231b_hf_0" id="id231b_hf_0" /><input type="hidden" name="wicket:interface" value=":1302:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id231c" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id231d" name="add" value="Add a comment" onclick="wicketShow('id231d--ajax-indicator');var wcall=wicketSubmitFormById('id231b', '../../../?wicket:interface=:1302:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id231d--ajax-indicator');}.bind(this),function() { ;wicketHide('id231d--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id231b')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id231d--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

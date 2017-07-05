@@ -1,0 +1,305 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / restaurants: new york</title>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container tag-listing">
+
+<div id="lead">
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-11">
+		<div class="tag-columns">
+	<div>
+		<span class="elem"><a href="../../../eat/tag/baking/#selected-tag"><span>baking</span></a></span><span class="elem"><a href="../../../eat/tag/drink/#selected-tag"><span>drink</span></a></span><span class="elem"><a href="../../../eat/tag/grocery/#selected-tag"><span>grocery</span></a></span><span class="elem"><a href="../../../eat/tag/restaurants/#selected-tag"><span>restaurants</span></a></span><span class="elem"><a href="../../../eat/tag/techniques/#selected-tag"><span>techniques</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../eat/tag/books/#selected-tag"><span>books</span></a></span><span class="elem"><a href="../../../eat/tag/entertaining/#selected-tag"><span>entertaining</span></a></span><span class="elem"><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span><span class="elem"><span><em><span>restaurants: new york</span></em></span></span><span class="elem"><a href="../../../eat/tag/theory/#selected-tag"><span>theory</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../eat/tag/cooking%20with%20fruit/#selected-tag"><span>cooking with fruit</span></a></span><span class="elem"><a href="../../../eat/tag/ethnic%20cooking/#selected-tag"><span>ethnic cooking</span></a></span><span class="elem"><a href="../../../eat/tag/kitchen%20equipment/#selected-tag"><span>kitchen equipment</span></a></span><span class="elem"><a href="../../../eat/tag/restaurants:%20pittsburgh/#selected-tag"><span>restaurants: pittsburgh</span></a></span><span class="elem"><a href="../../../eat/tag/travel/#selected-tag"><span>travel</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../eat/tag/dessert/#selected-tag"><span>dessert</span></a></span><span class="elem"><a href="../../../eat/tag/food%20products/#selected-tag"><span>food products</span></a></span><span class="elem"><a href="../../../eat/tag/party/#selected-tag"><span>party</span></a></span><span class="elem"><a href="../../../eat/tag/school/#selected-tag"><span>school</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../eat/tag/desserts/#selected-tag"><span>desserts</span></a></span><span class="elem"><a href="../../../eat/tag/freshdirect/#selected-tag"><span>freshdirect</span></a></span><span class="elem"><a href="../../../eat/tag/produce%20alerts/#selected-tag"><span>produce alerts</span></a></span><span class="elem"><a href="../../../eat/tag/shopping/#selected-tag"><span>shopping</span></a></span>
+	</div>
+</div>
+
+	<div id="selected-tag"><img height="45" alt="restaurants: new york" width="336" src="../../../resources/net.databinder.components.RenderedLabel/c457247a"/></div>
+		
+	<div>
+		<h4><a href="../../../eat/x/how-to-spend-400-at-cesca/"><span>How to spend $400 at ’Cesca</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>February 23, 2008</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/spice-market/"><span>Spice Market</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>October 6, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/a-new-website-ourtaste/"><span>A new website: OurTaste</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>April 20, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/shake-shack-nightmare/"><span>Shake Shack nightmare</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>April 6, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/cru-v-morandi/"><span>Cru v. Morandi</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>March 5, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/caf%C3%A9-2-at-moma/"><span>Café 2 at MoMA</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>February 18, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/caf%C3%A9-asean-and-t%C3%ADa-pol/"><span>Café Asean and Tía Pol</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>December 16, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/%E2%80%99wichcraft-not-for-breakfast/"><span>’wichcraft: not for breakfast</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>December 8, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/ivo-lulu/"><span>Ivo &amp; Lulu</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>November 27, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/nellos-and-trevor-white/"><span>Nello’s and Trevor White</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>October 19, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/landmarc-the-party-is-over/"><span>Landmarc: The party is over</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>October 14, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/soho-park/"><span>Soho Park</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>October 8, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/johns-of-bleecker-street/"><span>John’s of Bleecker Street</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>October 5, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/starbucks-salon/"><span>Starbucks Salon</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>September 18, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/tonys-di-napoli/"><span>Tony’s di Napoli</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>September 4, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-meets-wednesday/"><span>Mom meets Wednesday</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>August 22, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/caracas-arepas-bar/"><span>Caracas Arepas Bar</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>August 20, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/iced-coffee-at-la-esquina/"><span>Iced coffee at La Esquina</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>August 6, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/wichcraft/"><span>’wichcraft</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>July 28, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/home-restaurant/"><span>Home Restaurant</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>July 24, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/hamburgers-2/"><span>Hamburgers</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>July 11, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/eat-%E2%80%99n%E2%80%99-puzzle/"><span>Eat ’n’ puzzle</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Nathan</span>, <span>June 29, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/knife-fork/"><span>Knife + Fork</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>June 17, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/sundaes-cones/"><span>Sundaes &amp; Cones</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>May 31, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/bar-carrera/"><span>Bar Carrera</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>May 30, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/le-bernardin/"><span>Le Bernardin</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>May 26, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/lunch-at-momofuku-noodle-bar/"><span>Lunch at Momofuku Noodle Bar</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>April 30, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/fish/"><span>Fish</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>April 21, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/pio-maya/"><span>Pio Maya</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>April 12, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/falai-panetteria-part-two/"><span>Falai Panetteria, part two</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>March 31, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/le-souk/"><span>Le Souk</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>March 19, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/falai-panetteria/"><span>Falai Panetteria</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>March 10, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/moma-caf%C3%A9/"><span>MoMA café</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>February 25, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/butternut-squash-soup-and-via-emilia/"><span>Butternut squash soup and Via Emilia</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>February 16, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/country/"><span>Country</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>February 14, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/cuba-caf%C3%A9/"><span>Cuba Café</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>January 24, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/jacks-bistro-bar/"><span>Jack’s Bistro Bar</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>January 14, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/new-daube-and-buona-sera/"><span>New daube and Buona Sera</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>January 1, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/balduccis-and-peep/"><span>Balducci’s and Peep</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>December 21, 2005</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/august/"><span>August</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>December 9, 2005</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/yuca-bar/"><span>Yuca Bar</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>December 4, 2005</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/five-points/"><span>Five Points</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>November 28, 2005</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/isabellas-and-nha-trang/"><span>Isabella&#039;s and Nha Trang</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>November 13, 2005</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mexican-radio/"><span>Mexican Radio</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>November 11, 2005</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/l%C3%89cole-and-momofuku-noodle-bar-part-ii/"><span>L’École and Momofuku Noodle Bar, Part II</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>November 9, 2005</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/cafe-habana-and-momofuku-noodle-bar/"><span>Cafe Habana and Momofuku Noodle Bar</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>October 21, 2005</span>
+		</div>
+	</div>
+
+	<div><form id="searchbox_014353926172616456646:1qois_andhs" action="http://www.google.com/cse">
+<input type="hidden" name="cx" value="014353926172616456646:1qois_andhs" />
+<input type="hidden" name="cof" value="FORID:0" />
+<p><a href="/eat/archive/2007/10/">Browse by calendar </a>, or     <input name="q" type="text" /><br />
+    <input type="submit" name="sa" value="Search" /></p>
+</form></div>
+
+</div>
+	
+</div> <!-- container -->
+
+<div id="target-padder"></div>
+
+
+
+
+</body>
+</html>

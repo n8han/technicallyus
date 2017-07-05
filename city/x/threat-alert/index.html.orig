@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/city-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>City Slicking / Threat alert!</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../city">
+			
+			<img alt="City Slicking" src="../../../resources/org.apache.wicket.Application/city-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../city">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/city-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id1857" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Threat alert!" width="145" class="title" src="../../../resources/net.databinder.components.RenderedLabel/4b1e9c62"/><span class="title">Threat alert!</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Doctor Barnett</span>, <span>on November 2, 2006</span></span>
+			<span id="id1858" class="tags">
+					{&nbsp;<span><a href="../../../city/tag/flying/#selected-tag"><span>flying</span></a><span id="id1859">, </span></span><span><a href="../../../city/tag/security/#selected-tag"><span>security</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>In what is rapidly becoming my favorite weblog post <a href="http://technically.us/doc/articles/2006/06/13/optimistically-flying">genre</a>, David Gagne recounts his experience with <span class="caps">TSA</span> idiocy in <a href="http://www.davidgagne.net/?p=6200">false authority syndrome</a>:</p>
+
+
+	<blockquote>
+		<p>You have a flight of stairs. At the top of this flight of stairs there is a security officer who confirms that the security officer at the bottom of the stairs has confirmed that you have a photo ID and a boarding pass. It is physically impossible to get to the top of these stairs without having first been at the bottom of these stairs. There is nobody magically jumping into the middle of the stairs that could have avoided the security officer at the bottom of the stairs.</p>
+	</blockquote>
+
+
+	<p>Ahhhh&#8230; It&#8217;s as refreshing as the breeze you hope to encounter when you finally arrive wherever the <span class="caps">TSA</span> is trying to prevent you from going.</p>
+
+
+	<p>Nothing beats your <a href="http://ambernight.org/archives/2006/06/12/241">first time</a>, tho.</p>
+
+
+	<p><strong>Update:</strong> And the award for <em>best authoritarian mash note ever</em> (not to mention best use of &#8220;your&#8221;) goes to <a href="http://www.davidgagne.net/?p=6200#comment-140216">this comment</a> by Bob:</p>
+
+
+	<blockquote>
+		<p>Just do as your told. I have never had a single issue with any <span class="caps">TSA</span> staff because I just do what they want. They have a shitty, thankless job and assholes just piss them off and then your asking for a date with a rubber glove.</p>
+	</blockquote></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about'>About</h3>
+
+<p><em>City Slicking</em> is about urban life, transportation, energy, liberty, and language.</p>
+
+<h3 id='haunts'>Haunts</h3>
+
+<p><a href='http://twitter.com/n8han/'>Twitter</a><br /><a href='http://technically.us/code/'>Coderspiel</a><br /><a href='http://www.streetsblog.org/'>Streetsblog</a><br /><a href='http://gawker.com/people/alexpareene/posts/'>Pareene</a><br /><a href='http://www.copenhagenize.com/'>Copenhagenize</a><br /><a href='http://itre.cis.upenn.edu/~myl/languagelog/'>Language Log</a><br /><a href='http://t4america.org/'>Trans. for America</a></p>
+
+<h3 id='wire_service'>Wire Service</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/city-rss' title='All in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-short-rss' title='Left column, frequent links and notes'>Quickies</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-long-rss' title='Main column, occasional extended posts'>Treatise</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id185a">
+  		
+  		
+  	</div>
+  	<div id="id185b">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id185c" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id185c_hf_0" id="id185c_hf_0" /><input type="hidden" name="wicket:interface" value=":961:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id185d" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id185e" name="add" value="Add a comment" onclick="wicketShow('id185e--ajax-indicator');var wcall=wicketSubmitFormById('id185c', '../../../?wicket:interface=:961:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id185e--ajax-indicator');}.bind(this),function() { ;wicketHide('id185e--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id185c')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id185e--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

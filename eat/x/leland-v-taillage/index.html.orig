@@ -1,0 +1,177 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Leland v. taillage</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id1c1" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Leland v. taillage" width="258" class="title" src="../../../resources/net.databinder.components.RenderedLabel/7c98025e"/><span class="title">Leland v. taillage</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on March 6, 2007</span></span>
+			<span id="id1c2" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/school/#selected-tag"><span>school</span></a><span id="id1c3">, </span></span><span><a href="../../../eat/tag/techniques/#selected-tag"><span>techniques</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p><img src="/pictures/taillage.jpg" alt="" /></p>
+
+
+	<p>After my knife slipped off the carrot and into the first knuckle of my left middle finger last night, I decided that I hate these cursed hard-as-wood vegetables. My anti-carrot sentiments only increased until I had my way with one tonight in the comfort of my own kitchen. I eked out a decent julienne, brunoise, and macédoine—the jardinière is deplorable—and I sharpened my school knife to the point where it&#8217;s not scarily dull anymore (Mom is always popping up on my shoulder and saying, &#8220;You can&#8217;t cut yourself with a sharp knife!&#8221;).</p>
+
+
+	<p>But none of this will make any difference when we progress to tournage tomorrow night; I&#8217;m already plotting out strategic Band-Aids to protect my delicate digits from further damage. Fancy French knifework is hard, and it may be especially hard for people like me who consider themselves competent cooks. I can turn out a decent meal for a group of friends, but can I really use my knife precisely? I never cut vegetables like this; I&#8217;m content to chop them coarsely by hand or in the food processor. But I appreciate the pedagogical value of forcing us to use our hands, and I&#8217;ll do my best to learn it (although I&#8217;m prepared to never master it, and to be content with my own caveman-like knife handling).</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1c4">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3471"><p>While I love the meaning behind your mom&#8217;s remonstrance, I have the scars to show that you very much can, in fact, cut yourself with a very sharp knife! lol.  Good luck with the tournage!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://achickenineverygrannycart.wordpress.com"><span class="alias">ann</span></a>
+  				<span>on March 6, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3472"><p>What&#8217;s the French for &#8220;The more things change, the more they remain the same&#8221;? One of my scariest Mom experiences was when you were a little boy and almost removed a finger trying to cut a big orange in half with my Chinese vegetable cleaver (which probably wasn&#8217;t very sharp). But in fact, even if it had been sharp, cutting round or hard things can be tricky and you can hurt yourself with sharp knives.</p>
+<p>Tournage was the death of me in my apprentice days. I was introduced to it on my very first day at the Watergate by the Vietnamese vegetable girl, who gave me a 5-gallon bucket and a 50-pound bag of potatoes and said, &#8220;Make &#8216;turn potatoes&#8217;.&#8221; Then while she carved about half the bag I turned out one monstrous tuber, making her cluck her tongue with exasperation. I eventually sort of got the hang of it (after months) but never really got the point. I remember coming home and telling my folks about all the waste, since you carve about half the potato away, and my grandmother, who even then was slipping into Alzheimer&#8217;s, exclaiming, &#8220;They could sell their garbage!&#8221;</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on March 6, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3473"><p>It&#8217;s been a long time since I cut myself while slicing food.  If I remember correctly, the last time was when I was slicing a lime with a dull knife about four years ago.  Keep those knives sharp!  (And, um, your wits sharper?)</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://colinwetherbee.com/"><span class="alias">Colin</span></a>
+  				<span>on March 6, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3474"><p>I am forever slicing my hands at work, on both knives and the damn industrial mixer, but I suppose that is another post.  My youngest sister did manage to slice one of her fingers while trying to cut a banana with a <span class="caps">BUTTER</span> <span class="caps">KNIFE</span>.  Four stitches.  I think sharp or dull, kitchen work is just inherently dangerous.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Carlsbarls</span></span>
+  				<span>on March 6, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3475"><p>That potato story is an amazing read.  And I&#8217;ve got a kitchen scar on my thumb right now.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">zp</span></span>
+  				<span>on March 6, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3476"><p>More often than knife cuts I would cut my hands on the big wrap cutters we had in the kitchen, for foil and plastic wrap. I don&#8217;t know if I was clumsy or hung over, but I would sometimes knock them askew or knock my hands right into the sharpish, jagged teeth and just slash myself right open. Those were some nasty, long-time-healing cuts, too.</p>
+<p>And yes, the big mixers, because we used our hands as scrapers, getting them right next to the blades.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca (Mommy)</span></span>
+  				<span>on March 6, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3477"><p>I think that saying &quot;you can never cut yourself on a sharp knife came from your grandpa.  He was always telling me that as I cut myself again and again!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">grandma</span></span>
+  				<span>on March 6, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id1c5">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id1c6" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id1c6_hf_0" id="id1c6_hf_0" /><input type="hidden" name="wicket:interface" value=":90:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id1c7" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id1c8" name="add" value="Add a comment" onclick="wicketShow('id1c8--ajax-indicator');var wcall=wicketSubmitFormById('id1c6', '../../../?wicket:interface=:90:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id1c8--ajax-indicator');}.bind(this),function() { ;wicketHide('id1c8--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id1c6')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id1c8--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

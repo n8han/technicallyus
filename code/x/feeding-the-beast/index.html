@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="../../../blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="../../../blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet.css"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Feeding the beast</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code.html">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code.html">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id2625" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Feeding the beast" width="285" class="title" src="../../../resources/net.databinder.components.RenderedLabel/b79c0c13"/><span class="title">Feeding the beast</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on March 10, 2007</span></span>
+			<span id="id2626" class="tags">
+					{&nbsp;<span><a href="../../tag/typeturner/index.html#selected-tag"><span>typeturner</span></a><span id="id2627">, </span></span><span><a href="../../tag/rss/index.html#selected-tag"><span>rss</span></a><span id="id2628">, </span></span><span><a href="../../tag/wicket/index.html#selected-tag"><span>wicket</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>There is no Web application easier to write than a weblog. At its most basic it&#8217;s a very uncool Web 1.0 guestbook, except that only some people are allowed to sign it. No wonder Rail&#8217;s happy intro screencast is <a href='http://media.rubyonrails.org/video/rails_take2_with_sound.mov'>Creating a &#8220;weblog&#8221; in 15 minutes</a> (snark-quotes ours).</p>
+
+<p>I considered cribbing the trick for Databinder, but it&#8217;s just so <em>boring</em>. Our own &#8220;look at how easy&#8221; <a href='http://databinder.net/site/show/graffiti-screencast'>screencast</a> shows off server-rendered text, something no Ruby-based toolkit is going to be able to do any time soon. It&#8217;s still kind of boring, but at least we don&#8217;t call it &#8220;Creating Adobe InDesign in 15 minutes!&#8221;</p>
+
+<p>I&#8217;ve spent more than 15 minutes making my <a href='../../../code.html'>actual</a> weblog software, and now it has an actual <abbr title='Really Simple Syndication'>RSS</abbr> 2.0 <a href='feed://technically.us/resources/wicket.Application/code-rss'>feed</a>. It uses the <a href='https://rome.dev.java.net/'>Rome</a> feed toolkit. Aside from its dobule-wide structure of do-nothing class interfaces (which is beginning to feel <em>so</em> 2002) and checked exceptions (um, <em>sooo</em> 1998!), the <abbr title='Application Programming Interface'>API</abbr> doesn&#8217;t try to make feed creation any harder than it should be.</p>
+
+<p>At first I was thinking I would need to serve the feed directly, but it fits perfectly into Wicket&#8217;s <a href='http://wicket.sourceforge.net/apidocs/wicket/markup/html/DynamicWebResource.html'><code>DynamicWebResource </code></a>. What wouldn&#8217;t fit in that wonderful little container, I wonder? It&#8217;s charming that Wicket has such a flexible freighter for data.</p>
+
+<p>If anyone wants to see my slapped-together Wicket <abbr title='Really Simple Syndication'>RSS</abbr> feed generator, the source is <a href='http://databinder.net/wsvn/Databinder/typeturner/trunk/src/main/java/com/typeturner/resource/RssFeed.java?op=file'>checked in</a>. Eventually the class behind that link will be factored in into a hierarchy of resources serving Rome-generated data.</p>
+
+<p class='break'>Coming up: Inventing the spoken languages of the world in 15 minutes (where I add comment functionality to the weblog).</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='../../../resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id2629">
+  		
+  		
+  	</div>
+  	<div id="id262a">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id262b" action="../../../index.html" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id262b_hf_0" id="id262b_hf_0" /><input type="hidden" name="wicket:interface" value=":1387:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id262c" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id262d" name="add" value="Add a comment" onclick="wicketShow('id262d--ajax-indicator');var wcall=wicketSubmitFormById('id262b', '../../../?wicket:interface=:1387:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id262d--ajax-indicator');}.bind(this),function() { ;wicketHide('id262d--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id262b')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id262d--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

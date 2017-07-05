@@ -1,0 +1,231 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Paul Bertolli&#039;s food processor sorbet</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id78b" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Paul Bertolli's food processor sorbet" width="564" class="title" src="../../../resources/net.databinder.components.RenderedLabel/3787fdff"/><span class="title">Paul Bertolli&#039;s food processor sorbet</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on June 14, 2007</span></span>
+			<span id="id78c" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/techniques/#selected-tag"><span>techniques</span></a><span id="id78d">, </span></span><span><a href="../../../eat/tag/dessert/#selected-tag"><span>dessert</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>I&#8217;d eventually lilke to have an ice cream maker, but I&#8217;m waiting until I get a stand mixer so that I can just get the attachment, instead of getting two separate appliances. I love the idea of making my own ice creams and sorbets, and I was thrilled to find a recipe for sorbet that didn&#8217;t need an ice cream maker at all. Paul Bertolli&#8217;s <a href="http://www.amazon.com/exec/obidos/ASIN/0609608932/eat0e-20"><em>Cooking by Hand</em></a> is full of recipes that you can do mostly without special appliances. This is great for people with small kitchens (and no good for people who aren&#8217;t willing to spend a lot of time to make something that could easily be bought).</p>
+
+
+	<p>You do need a food processor for this sorbet, although a blender might work too. And you need a quart of the most fragrant and delicious strawberries you can find.</p>
+
+
+	<p><img src="/pictures/sorbet.jpg" alt="" /></p>
+
+
+	<p>The recipe is barely a recipe. Stem the strawberries, spread them on a parchment-lined baking sheet, and freeze them solid (about two hours). Put the berries in a food processor with 5 tablespoons of sugar, and pulse them until the fruit breaks up. Add 1/4 cup of water and purée the mixture. Pour it into a container, and freeze for about two more hours, until you can scoop it. I stirred it periodically as it was freezing, but this is not in the directions.</p>
+
+
+	<p>Bertolli writes that the intensity of this sorbet &#8220;is due to the low cutting action of the processor blades.&#8221; And it does taste and smell intensely of strawberries. If you start this recipe about two hours before a summer dinner party, you can shock your guests at the end of the meal by pulling out a quart of beautiful homemade sorbet, which they&#8217;ll smell before they can see.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id78e">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3900"><p>i almost always opt for sorbet over ice cream &#8211; and i have a pint of strawberries i didn&#8217;t know what to do with sitting in my fridge right now! what a timely post leland&#8230;</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">jeannie</span></span>
+  				<span>on June 14, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3901"><p>Yum, yum, yum. I&#8217;m with Jeannie, sorbet is better than ice cream. You can also add rum, triple sec and some lime juice and call this a daiquiri, that&#8217;s what I did with about half the strawberries I picked last year. You really should get yourself a stand mixer. I&#8217;m really, really sorry I don&#8217;t live closer to you, I have a source for getting them at cost.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.ceresandbacchus.com"><span class="alias">Mary</span></a>
+  				<span>on June 14, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3902"><p>Leland- Do you think this would work with raspberries?  And if so, do you think you&#8217;d need to strain out the seeds?  This sounds wonderful &amp; refreshing!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Aunt Sue</span></span>
+  				<span>on June 14, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3903"><p>Jeannie&#8217;s right, now I know what to do with those strawberries in my fridge. Thanks! And yes, sorbet&#8217;s better than ice cream, although my husband, Rob, would definitely disagree. Now, I think that mixing that with other berries would be killer too.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Christine</span></span>
+  				<span>on June 14, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3904"><p>I have done this with sour cherries too but you have<br />
+to be willing to put up with the skin factor.  But is<br />
+is delicious.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Friend of Ted</span></span>
+  				<span>on June 14, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3905"><p>Good luck, Jeannie! Let me know how it turns out.</p>
+<p>Mary: get back here with your source! Just kidding&#8212;I&#8217;m going to ask for one for Christmas this year.</p>
+<p>Aunt Sue: I wondered that too. It sounds like Friend of Ted, below, did it with cherries and had success. It&#8217;s definitely worth trying! I would probably want to pass it through the food mill, though, to get rid of those pesky seeds.</p>
+<p>Christine, and everyone else: as much as I enjoy sorbet, I am an ice cream boy at heart. My first boyfriend was always shocked at how much ice cream we ate in our house. He used to say, &#8220;Yinz go through ice cream like water!&#8221; I don&#8217;t think we&#8217;ve ever bought sorbet.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on June 14, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3906"><p>Your description of being able to smell the sorbet before you see it makes me totally anxious to try this. It looks so pretty too.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://kitchenography.typepad.com"><span class="alias">Julie</span></a>
+  				<span>on June 14, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3907"><p>I love sorbet. This looks like a delicious cool treat!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://dineanddish.squarespace.com"><span class="alias">Kristen</span></a>
+  				<span>on June 14, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3908"><p>We used to make this in the summer here, down South, with Scuppernong grapes.  Really delicious. They&#8217;re just as fragrant as the berries, but like cherries, you have to usually deal with the skin factor.   I did have an aunt who peeled her scuppernongs before turning them into preserves/jelly/sorbet, but she was a far more patient soul than myself. <br />
+I&#8217;m so glad you posted a good recipe for it using the food processor!  I&#8217;m totally going to make some this weekend!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.daintycooking.blogspot.com"><span class="alias">Susan</span></a>
+  				<span>on June 14, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3909"><p>Sorbet is really amazing stuff, especially in the summer.  Unfortunately, I don&#8217;t have a food processor or a blender (though, at one point, I owned two of each), but I forwarded this along to a couple people who would probably enjoy making this.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://colinwetherbee.com/"><span class="alias">Colin</span></a>
+  				<span>on June 14, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3910"><p>It is so fragrant, Julie. I hope you try it!</p>
+<p>Hi Susan. Mmm, I love the sound of Scuppernong grapes. What a great word, scuppernong.</p>
+<p>Colin: I wonder if you could do it by hand, by chopping and stirring aggressively. Probably not worth it.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on June 14, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6661"><p>I made sorbet this weekend.I used a 1/2 bag of frozen whole strawberries (or use as much as you like).,and three bananas ( frozen )added 1 tablespoon of smuckers all fruit strawberry jam. Put it all in the food processor and processed away. It is so good. I am going to experiment because I love sorbet since I can&#8217;t have ice cream anymore because of the fat content. By the way, does anyone have any sorbet recipes with lavender in it? I would love to have it.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Gracie</span></span>
+  				<span>30 days ago</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6664"><p>Has anyone done this with lemons and limes as a main ingredient?  Would need the addition of honey maybe?</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.safehorse.info"><span class="alias">Lenore</span></a>
+  				<span>four days ago</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id78f">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id790" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id790_hf_0" id="id790_hf_0" /><input type="hidden" name="wicket:interface" value=":287:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id791" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id792" name="add" value="Add a comment" onclick="wicketShow('id792--ajax-indicator');var wcall=wicketSubmitFormById('id790', '../../../?wicket:interface=:287:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id792--ajax-indicator');}.bind(this),function() { ;wicketHide('id792--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id790')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id792--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

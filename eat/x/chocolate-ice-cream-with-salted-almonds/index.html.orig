@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Chocolate ice cream with salted almonds</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id900" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Chocolate ice cream with salted almonds" width="639" class="title" src="../../../resources/net.databinder.components.RenderedLabel/d4a247f9"/><span class="title">Chocolate ice cream with salted almonds</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on May 18, 2008</span></span>
+			<span id="id901" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a><span id="id902">, </span></span><span><a href="../../../eat/tag/dessert/#selected-tag"><span>dessert</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>I use my Kitchen-Aid to make ice cream more than for anything else. The longer I live here the less I cook, and I certainly haven&#8217;t found much time for baking. But Nathan won&#8217;t let a week go by without begging for ice cream, and it is pretty sweet having a scoop or two of homemade ice cream at night. So I keep up my end of the domestic bargain by churning out a batch a few times a month.</p>
+<p>Most of the time, I make Alice Waters&#8217;s vanilla-bean version. It&#8217;s easy and really good, especially with a tablespoon of bourbon in it. But I do like to mix it up every now and then. The Times recently ran a recipe for a <a href="http://www.nytimes.com/2008/04/23/dining/232arex.html?ex=1366689600&amp;en=2b15fd3fb39079cc&amp;ei=5124&amp;partner=permalink&amp;exprod=permalink">chocolate-chocolate chunk ice cream with salted cashews</a>, which sounded right up my alley. I finally got around to making it yesterday, and it is chewy, salty, and excellent.</p>
+<p><img src="http://technically.us/resources/com.typeturner.Typeturner/image?name=almondicecream" title="almondicecream" alt="almondicecream" /></p>
+<p>I followed the recipe pretty closely, but I did cut it in half (we could never get through two quarts of ice cream!). I also swapped the cashews for toasted salted almonds, since that&#8217;s what I had on hand. I knew I would add a bit of heavy cream at the end to cool the custard quickly, and with that in mind I used five egg yolks instead of four. Finally, I added a tablespoon of bourbon as I always do, to keep ice crystals at bay. For the chocolate, I used a 65% Valrhona. You should get something that smells appealing to you. I prefer chocolate that smells like roasted coffee beans. I <em>hate</em> chocolate that smells or tastes like fruit. I won&#8217;t touch a chocolate dessert with fruit in it, and these days they&#8217;re always putting a damn raspberry or cherry in your chocolate cake or brownie. Blech!</p>
+<p>You&#8217;ll want to use a thermometer when you&#8217;re preparing the custard. The recipe advises you to heat it until it coats the back of a spoon, but with all that chocolate in there, it coats it pretty well right away. Heat it until it approaches 170ºF, and then strain it quickly into a bowl set over an ice bath.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id903">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-5501"><p>Oh, that looks SO good. So the did almonds turn chewy?</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://dudewheresthestove.wordpress.com"><span class="alias">Mei</span></a>
+  				<span>on June 23, 2008</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id904">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id905" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id905_hf_0" id="id905_hf_0" /><input type="hidden" name="wicket:interface" value=":335:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id906" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id907" name="add" value="Add a comment" onclick="wicketShow('id907--ajax-indicator');var wcall=wicketSubmitFormById('id905', '../../../?wicket:interface=:335:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id907--ajax-indicator');}.bind(this),function() { ;wicketHide('id907--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id905')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id907--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

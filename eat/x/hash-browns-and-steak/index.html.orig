@@ -1,0 +1,190 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Hash browns and steak</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id1b8" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Hash browns and steak" width="370" class="title" src="../../../resources/net.databinder.components.RenderedLabel/45ea40a5"/><span class="title">Hash browns and steak</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on April 20, 2007</span></span>
+			<span id="id1b9" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/school/#selected-tag"><span>school</span></a><span id="id1ba">, </span></span><span><a href="../../../eat/tag/techniques/#selected-tag"><span>techniques</span></a><span id="id1bb">, </span></span><span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p><img src="/pictures/darphin.jpg" alt="" /></p>
+
+
+	<p>Of the ten ways I&#8217;ve learned to make potatoes in <a href="http://frenchculinary.blogspot.com/2007/04/next-best-thing-to-being-chef.html">class</a>, this is my second favorite. My absolute favorite, for looks and taste, but not necessarily for preparation, is <em>pommes Anna</em>, a cake of thinly sliced potatoes bathed in clarified butter, fried until crispy, and then roasted. I tried it once at home and it fell apart. When I get it right, I&#8217;ll make a post. You can see a small picture of a nice one on this German <a href="http://images.google.com/imgres?imgurl=http://www.esskultur.net/lm/kartoffel4.html">site</a>.</p>
+
+
+	<p><em>Pommes darphin</em> are similar, but they are much easier and slightly less exciting. Think of a McDonald&#8217;s hash brown (an old favorite), but ten times as good. You&#8217;ll need two russet/Idaho/starchy potatoes, oil and butter, an eight-inch pan (nonstick is helpful but not necessary), and a food processor, or something else that will julienne or shred quickly.</p>
+
+
+	<p>Peel the potatoes, julienne them, and squeeze them dry in paper towels. Do <em>not</em> rinse them, for it is the starch that will hold them together. Do, however, season them generously. Get your pan nice and hot, and add oil to coat the bottom generously. Let that get very hot, and then pile the potatoes in the hot oil, pressing down with a turner to make a dense cake. Let it sear. In fact, step away from the pan and do something else. After a few minutes, add a bit of butter here and there around the potatoes (about a tablespoon). Shake the pan to see if the potatoes move together. If they do, you can peek underneath and see if they have browned. Once they have, flip the cake carefully. You can finish cooking it this way, on the stovetop, or you can pop it in the oven while you finish the rest of the meal. It should be very crispy on the outside and creamy on the inside. Overcooking them is kind of impossible, so really cook them well. Drain on paper towels and serve in wedges. I think it goes nicely with any protein. You see it above with scallops and bacon, with some simmered carrots in the background.</p>
+
+
+	<p><img src="/pictures/ribeye.jpg" alt="" /></p>
+
+
+	<p>Another useful lesson from class was on steak, which the French like to sauté rather than grill. Grills do leave a strong flavor, but I think most people love the flavor of a grill. I know I do. But a well-browned, medium-rare steak from a pan has its own charms, and there&#8217;s nothing to it. As always with meat, just get the pan as hot as hell. Add oil and heat it until it practically ignites (in class, oil was igniting at almost every station), and sear the steak on both sides, adding butter while it&#8217;s in the pan. If the heat is high enough, the meat will brown beautifully in two seconds and cook in about three minutes. My home stove doesn&#8217;t have nearly the power of my school stove, and I couldn&#8217;t get the same color on that fatty ribeye. But it tasted great, and it is much faster than broiling, which I&#8217;ve been doing ever since Mark Bittman wrote his broiler piece earlier this year. Overcooking is easy with this method, so look for a thicker steak than the one pictured here.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1bc">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3662"><p>That looks wonderful. There is something about really crispy potatoes that is just so completely appealing. Your scallops look delicious also.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://kitchenography.typepad.com"><span class="alias">Julie</span></a>
+  				<span>on April 20, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3663"><p>I heart potatoes! I wanted to make pommes anna for Easter but ended up with so many guests that it wasn&#8217;t reasonable to make for 16 people.  I&#8217;m thinking now that I&#8217;ll get around to them sooner rather than later. I thought that the potato recipe you made was called pommes paillasson, but I just looked it up and see that it&#8217;s got two names, so rare for a French dish. I like certain steaks cooked in a skillet (I always use cast iron for this). Filet mignon with a red wine pan sauce for instance and flank steak with a soy balsamic pan sauce, for instance. Grilling is great, but you lose all the lovely jus. Why is it that home stoves don&#8217;t get hot enough? Is it some conspiracy to make us go to restaurants in order to fulfill our umami cravings? In my next house, I&#8217;m looking into buying a stove with higher BTUs, for sure.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.ceresandbacchus.com"><span class="alias">Mary</span></a>
+  				<span>on April 20, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3664"><p>Oh the delights of Pommes Anna. I too made those in cooking school many moons ago. The only time I prepared them after that was with my boyfriend when he was studying in England. He thought I was insane to cut the potatoes so thinly (it seemed to take forever). The result is worth it..don&#8217;t know why I haven&#8217;t done it again.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.izzyeats.blogspot.com"><span class="alias">izzy&#039;s mama</span></a>
+  				<span>on April 20, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3665"><p>Yum. These also resemble rosti, a big potato favorite of mine, often served with a fried egg, and a good combination it is, too. (When I posted about rosti, I was scolded by a Swiss person, for leaving the umlatt off the &#8220;o&#8221;, rendering the word meaningless/misleading.)<br />
+ Sadly, I still have not figured out how to do this. Therefore, I ask that you excuse my dereliction, and imagine an umlatt, like two froggy little eyes, decorating the first vowel.<br />
+I can&#8217;t give up rosti, just because I am a hopeless typist.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://lindystoast.com"><span class="alias">lindy</span></a>
+  				<span>on April 20, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3666"><p>Mary, I have a vague childhood memory of my paternal grandmother making pommes anna for a crowd. I seem to recall her cooking the potatoes in a big roasting pan, so maybe she finished them in the oven, didn&#8217;t attempt to flip them, and then just inverted them onto a big platter or something. I do have a question about the steak preparations you mention &#8211; wouldn&#8217;t both of the sauces react in the cast iron due to the acid ingredients, or is well-seasoned cast iron impervious to all that?</p>
+<p>Leland, we used to make big pans full of hash browns at the Watergate on Saturday for our brunch buffet. It was the job of the grill cook, and one Saturday when he was out I took over. I remember using way too much oil because I was scared they would stick and I wouldn&#8217;t be able to flip them properly, and the bus boy brought them back due to diner complaints. :(</p>
+<p>Hah, Lindy, that&#8217;s funny, about the umlaut. I lost a long post typing it directly into our blog program, and now I always type them into an email, then cut and paste. One advantage of that is that under the &#8220;Edit&#8221; heading there&#8217;s a dropdown menu that includes something called &#8220;Special characters&#8221;. That&#8217;s where I find letters with European accents, and I can just insert them. I just checked and there is indeed an o with an umlaut.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca (Mommy)</span></span>
+  				<span>on April 20, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3667"><p>I find that when I cook a steak in a pan, I want it to be as thin as possible, so it takes very little time to cook.</p>
+<p>As for the umlauts, you can type &#8220;html characters&#8221; into Google and find several lists of the <span class="caps">HTML</span> representations of characters.</p>
+<p>In order to get the <em>&ouml;</em>, you just type <em>&amp;ouml;</em>.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://colinwetherbee.com/"><span class="alias">Colin</span></a>
+  				<span>on April 20, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3668"><p>Mom, to make the </p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on April 20, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id1bd">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id1be" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id1be_hf_0" id="id1be_hf_0" /><input type="hidden" name="wicket:interface" value=":89:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id1bf" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id1c0" name="add" value="Add a comment" onclick="wicketShow('id1c0--ajax-indicator');var wcall=wicketSubmitFormById('id1be', '../../../?wicket:interface=:89:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id1c0--ajax-indicator');}.bind(this),function() { ;wicketHide('id1c0--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id1be')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id1c0--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

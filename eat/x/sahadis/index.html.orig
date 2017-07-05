@@ -1,0 +1,195 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Sahadi&#039;s</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id684" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Sahadi's" width="136" class="title" src="../../../resources/net.databinder.components.RenderedLabel/74d2cc69"/><span class="title">Sahadi&#039;s</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on May 17, 2007</span></span>
+			<span id="id685" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/grocery/#selected-tag"><span>grocery</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p><img src="/pictures/sahadi.jpg" alt="" /></p>
+
+
+	<p><a href="http://link.brightcove.com/services/link/bcpid988221562/bclid979255473/bctid1111440299">Sahadi’s</a> on Atlantic Avenue is enough to make me want to move to Brooklyn. I’ve wanted to go there since Emily B. first mentioned it to me last year, but it’s closed on Sundays, which is the only day I’m ever around Brooklyn Heights or Cobble Hill (for open houses, my favorite Sunday pasttime). When I took a Uruguayan visitor to the nabe last weekend for sightseeing, I thought Sahadi’s might be an option for lunch.</p>
+
+
+	<p><img src="/pictures/sahadi1.jpg" alt="" /></p>
+
+
+	<p>And it was. After you get through the ridiculous room of bulk spices, nuts, and coffee that makes you feel like you’re in Morocco, you reach the unbelievable deli, where everything is oily and beautiful and cheap. As we waited in the seemingly interminable line, little women kept coming out of the back bearing steaming trays of gorgeous food. We feasted on several of these phyllo-wrapped tidbits (that’s mushroom and eggplant on the left, and spanakopita on the right; we also had a wonderful tomato and feta version, as well as one with potato and herbs). Each item cost slightly more than a dollar, and we were stuffed and happy after sitting on a Brooklyn Heights stoop and eating every shred of dough and filling.</p>
+
+
+	<p>Sahadi’s had overflowing bins of coffee beans at $5 a pound, as well as nuts, meals, candies, and flours, all at good prices. It’s worth the detour from Manhattan, and possibly worth adding that part of Atlantic Avenue to my apartment search.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id686">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3771"><p>I&#8217;ve been wanting to go there and now I&#8217;m moving away from New York. I&#8217;m going to have to start a list of places I need to visit when I come back. This is definitely one of them. Sigh.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.ceresandbacchus.com"><span class="alias">Mary</span></a>
+  				<span>on May 17, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3772"><p>good call. <br />
+i assume you&#8217;ve been to kalustyans here in manhattan too?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">jeannie</span></span>
+  				<span>on May 17, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3773"><p>SO glad you made it to Sahadi&#8217;s!! Such a gem.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Emily</span></span>
+  				<span>on May 17, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3774"><p>I <span class="caps">LOVE</span> Sahadi&#8217;s!! (Delurking for once&#8230;)</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Lauren</span></span>
+  				<span>on May 17, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3775"><p>Jeannie: No, I shamefully admit that I haven&#8217;t! But I will soon.</p>
+<p>Mary: Where are you going?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on May 17, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3776"><p>Brooklyn is looking more and more appealing these days. Sahadi&#8217;s just adds to the allure. I&#8217;m gonna have to try it.</p>
+<p>Glad to hear that I&#8217;m not the only one with an open house obsession!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://goodamericanwife.blogspot.com"><span class="alias">Anne</span></a>
+  				<span>on May 17, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3777"><p>Leland,<br />
+I&#8217;m moving to Ann Arbor, Michigan. I&#8217;ll be posting about the move and arrival soon. This departure is making me sad because of so many missed opportunities &#8211; I would love to meet you! But I&#8217;m happy for lots of other reasons and not just career choices &#8211; Ann Arbor is a great food town! Thanks for asking.</p>
+<p>Related to this post &#8211; the Detroit area has the largest population of immigrants from the middle east in the US, so expect to hear about this cuisine from me in the near future.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.ceresandbacchus.com"><span class="alias">Mary</span></a>
+  				<span>on May 17, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3778"><p>We love Sahadi´s!!!!!<br />
+Gracias Leland!!!!!<br />
+I have to go again &#8230; and soon!!!!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Sole</span></span>
+  				<span>on May 17, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id687">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id688" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id688_hf_0" id="id688_hf_0" /><input type="hidden" name="wicket:interface" value=":252:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id689" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id68a" name="add" value="Add a comment" onclick="wicketShow('id68a--ajax-indicator');var wcall=wicketSubmitFormById('id688', '../../../?wicket:interface=:252:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id68a--ajax-indicator');}.bind(this),function() { ;wicketHide('id68a--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id688')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id68a--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

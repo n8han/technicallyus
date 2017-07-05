@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Caching in</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id233a" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Caching in" width="169" class="title" src="../../../resources/net.databinder.components.RenderedLabel/fc487e61"/><span class="title">Caching in</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on February 12, 2007</span></span>
+			<span id="id233b" class="tags">
+					{&nbsp;<span><a href="../../../code/tag/databinder/#selected-tag"><span>databinder</span></a><span id="id233c">, </span></span><span><a href="../../../code/tag/hibernate/#selected-tag"><span>hibernate</span></a><span id="id233d">, </span></span><span><a href="../../../code/tag/performance/#selected-tag"><span>performance</span></a><span id="id233e">, </span></span><span><a href="../../../code/tag/web/#selected-tag"><span>web</span></a><span id="id233f">, </span></span><span><a href="../../../code/tag/wicket/#selected-tag"><span>wicket</span></a><span id="id2340">, </span></span><span><a href="../../../code/tag/database/#selected-tag"><span>database</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p class="out" ><img src="/pictures/slender.png" /></p>
+
+<p class="break">I’m building a site with Databinder that’s almost entirely images (much unlike <a href="http://databinder.net/site/show/overview"><em>databinder.net</em></a>, which is all about text). Every bit of copy on it has been hand-drawn, scanned, and processed. Not by me, obviously.</p>
+
+
+	<p>When I saw how the site was going to work I suggested to its designer that she think seriously about hiring some person, some <em>other</em> person, to type up fifty or so static <acronym title="">HTML</acronym> pages, put PayPal purchase links on each, and call it a day. But the client wanted a proper shopping cart, so we decided to do it up. There was no way I was going to manage those images by hand, so I would have to make a backend for the designer to upload them, and set all the other data. Off we went! (This was, like, two weeks ago. I’m very sleepy.)</p>
+
+
+	<h3>Insoluble conflict</h3>
+
+
+	<p>I’ve fought with my share of mutable, filesystem-based Web images. And they won. I’ve made a Wicket page for “editing” them that fails in all sorts of unfortunate ways that I avoid looking in to. Even if that page were flawless, there would still be a five minute delay between uploads and availability (yes, rsync running on a  cron job), which I see as failure in iteslf. Why bother polishing a manure shovel?</p>
+
+
+	<p>Compared to the using the filesystem, storing images (or other binary data) in databases is a dream. We all know this. You just ask for the image associated with the record you’re already working with, and it’s yours. Null it, replace it, whatever, and you don’t even have to have <em>permission</em>! Databases have learned to chug all those nameless bits just fine, and Hibernate doesn’t drop the ball either. Wicket practically turns cartwheels to get you to do database images.</p>
+
+
+	<p>There’s just one problem: serving images from the database is slow as all hell, for obvious reasons. Unless you’ve got money to burn on server hardware, you can’t serve a large volume of images from the database (via Hibernate via Wicket). You may as well send postcards.</p>
+
+
+	<p>Funny how the more that you need database images (because you have fifteen kinds of images associated with various datatypes), the more you can’t spare the processing time to pipe them. But wait—here comes Mr. Deus ex Machina! (God, he has saved my ass <em>so many times</em>.)</p>
+
+
+	<h3>Mr. Machina</h3>
+
+
+	<p>If you place your Web application behind a “reverse” caching server, you can eliminate the performance drag (completely) and keep the benefits of database storage (completely). Whoa. The cache will even be <em>faster</em> than a Web server pointing to the filesystem. Win, win.</p>
+
+
+	<p>Well, okay, it’s never that easy. I spent more hours than I counted fighting with the <a href="http://varnish.projects.linpro.no/">Varnish</a> <acronym title="">HTTP</acronym> accelerator, but in the end, I won. My setup rules. It even invalidates (via <acronym title="">HTTP</acronym> purge) cached images when you upload new ones, all from one reusable Panel. For now I’m only using Varnish for images, but setting cacheable headers on static Wicket pages will be an easy performance gain when I get around it to it.</p>
+
+
+	<p>Varnish does interfere a bit with some of Wicket’s tricks (like the way it caches redirects, but you can work around that). One thing I couldn’t work around was, ironically, Varnish stalling out on multipart form posts for the very images I was using it to accelerate. My solution (after assuming it was a deadlock in MySQL, Hibernate, or Wicket and wasting several hours looking for it) was to leave the uncached Jetty port open for site administration.</p>
+
+
+	<p class="break">What, like you never cheat?</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id2341">
+  		
+  		
+  	</div>
+  	<div id="id2342">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id2343" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id2343_hf_0" id="id2343_hf_0" /><input type="hidden" name="wicket:interface" value=":1306:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id2344" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id2345" name="add" value="Add a comment" onclick="wicketShow('id2345--ajax-indicator');var wcall=wicketSubmitFormById('id2343', '../../../?wicket:interface=:1306:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id2345--ajax-indicator');}.bind(this),function() { ;wicketHide('id2345--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id2343')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id2345--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

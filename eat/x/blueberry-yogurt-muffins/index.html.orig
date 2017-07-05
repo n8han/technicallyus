@@ -1,0 +1,200 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Blueberry-yogurt muffins</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id605" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Blueberry-yogurt muffins" width="380" class="title" src="../../../resources/net.databinder.components.RenderedLabel/4f8af8c"/><span class="title">Blueberry-yogurt muffins</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on January 25, 2007</span></span>
+			<span id="id606" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/baking/#selected-tag"><span>baking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Let&#8217;s all send our hearts out to my poor mother who, despite her <a href="http://www.greatestjeneration.com/archives/KateHepburn.jpg">svelte</a> figure, insists on participating in Weight Watchers. I&#8217;m rooting for her, but she&#8217;s already the hottest mom I know, and she should be able to cook and eat as she pleases. Good luck, Mommy!</p>
+
+
+	<p>I promise to stop with this Mark Bittman stuff after this post, and to move on to something more interesting and advanced. In the meantime, I made my first muffins.</p>
+
+
+	<p><img src="/pictures/muffins.jpg" alt="" /></p>
+
+
+	<p>Maybe these look sloppy, but I think they&#8217;re rustic and beautiful. Are you supposed to shape muffins in the tin at all? I just slopped them in there, hoping for irregularity. Muffins are easy! Very few ingredients, and hardly any work before baking. I found these to be salty, but I think it was partly my own fault. Mark says he doesn&#8217;t enjoy sweet muffins, though, so next time I&#8217;ll increase the sugar (and this is coming from <em>me</em>, sugar&#8217;s worst enemy).</p>
+
+
+	<p>The following recipe is a mashup of his basic muffins, blueberry muffins, and yogurt muffins. Basically, I incorporated two variations at the same time. I tried searching for &#8220;Mark Bittman muffins,&#8221; and I could only find an old post from Eat!</p>
+
+
+	<p><strong>Ingredients</strong> <br> 1 tablespoon melted butter <br> 2 cups all-purpose flour <br> 1/2 cup sugar <br> 1/2 teaspoon salt <br> 1 teaspoon baking powder <br> 1 teaspoon cinnamon <br> 1/2 teaspoon baking soda <br> 1 egg <br> 1.25 cups yogurt or sour cream (I used <a href="http://www.liberte.qc.ca/en/page.ch2?uid=Yogurt">Wedneday&#8217;s favorite</a>) <br> Lemon zest (optional) <br> 1 cup frozen blueberries</p>
+
+
+	<p>Preheat the oven to 400ºF and grease a 12-cup muffin tin. Mix the dry ingredients in a bowl. Beat the egg, milk, and butter together. Make a well in the dry ingredients and fold in the wet until the mixture is moist but still lumpy. Add extra milk/yogurt/sour cream if necessary. Fold in a bit of lemon zest and then the blueberries at the last minute.</p>
+
+
+	<p>Fill the muffin compartments 2/3 full, handling the batter as little as possible. Put a bit of water into any unused compartments, and bake for about 30 minutes, until they are nicely browned and a toothpick comes out clean. Let rest 5 minutes, and serve warm.</p>
+
+
+	<p>Since these were salty, I served them (to myself) slathered with apple butter, which was a happy combination.</p>
+
+
+	<p>In other baking news, I just had a third round with <a href="http://technically.us/eat/articles/2006/06/22/nigellas-dense-chocolate-cake">Nigella&#8217;s dense chocolate cake</a>, and it&#8217;s as delicious and simple as ever. If you enjoy dense, barely sweet chocolate cake, it&#8217;s worth making.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id607">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3310"><p>I portion my muffins into the tins with a round ice cream scoop; same for cupcakes, but then they don&#8217;t look &#8220;rustic&#8221;, but have round, fairly even tops. The advantage of that is that you are getting roughly the same amount of batter into each cup.</p>
+<p>I&#8217;m surprised these tasted salty with such a small amount of salt in them. The butter is pretty sparse, too. I guess the yogurt would help make them moist, but your batter seems a little &#8220;lean&#8221;.</p>
+<p>You know, one thing has always puzzled me about putting water in the empty muffin cups &#8211; how do you keep it from spilling all over your counter when you dump the tin upside down to get the muffins out? I have had freshly baked muffins splashing into puddles, which really pissed me off. Unless they mean just a teaspoon or something which is meant to evaporate in the oven. I simply quit doing it with no ill effects to either muffins or tin.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on January 25, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3311"><p>OH fabulous!  I <span class="caps">ADORE</span> Blueberries &#8211; Can&#8217;t wait to try them Sunday morning. (have to help with nephew&#8217;s third bday party tomorrow).</p>
+<p>and that choc cake &#8211; i may have to go make it right now&#8230;.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.sogalitno.typepac.dom"><span class="alias">sogalitno</span></a>
+  				<span>on January 25, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3312"><p>Hi<br />
+I just found your blog &#8211; which was a great  discovery! &#8211; and so am not entirely up to speed with all of the background &#8230;.However, I note your comments about not wanting to cook with sugar. About a year ago, I discovered a sugar substitute that doesn&#8217;t lose its sweetness in baking, which opens up a whole vista of opportunities in diet-friendly cooking. The stuff is called &#8216;Splenda&#8217; &#8211; made in the UK by Tate &amp; Lyle and I think available in the US.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://pomiane.blogspot.com"><span class="alias">&#039;Pomiane&#039;</span></a>
+  				<span>on January 25, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3313"><p>Thanks for visiting, Pomiane! We do have Splenda here, and it&#8217;s popular, but I don&#8217;t avoid sugar for dietary reasons—I avoid it because I don&#8217;t enjoy very sweet things. In any case, I&#8217;m much more likely to reach for sugar than a substitute.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on January 25, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4146"><p>This is a stupid recipe or im blind, it says beat egg and milk and no where does it say how much milk.  and of course i&#8217;m already half way done with recipe b/4 i figure out the amount of milk needed is not listed.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">c andr</span></span>
+  				<span>on August 19, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4147"><p>The previous commenter is correct &#8211; the directions do say to beat the egg with the milk, but you must have meant the yogurt. Was the recipe written that way? Some cookbooks are very poorly edited (as are some blogs!)</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca (Mommy)</span></span>
+  				<span>on August 19, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4149"><p>Mom&#8217;s right, and I apologize, candr. I messed this one up. Mark Bittman&#8217;s variations are hard to follow sometimes. This one reads, &#8220;Reduce baking powder to 1 teaspoon, add 1/2 teaspoon baking soda to dry ingredients. Substitute 1.25 cups sour cream or yogurt for the milk and cut the butter or oil back to 1 tablespoon.&#8221; I got lost in all the changes, and forgot to change &#8220;milk&#8221; to &#8220;yogurt.&#8221;</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on August 20, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id608">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id609" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id609_hf_0" id="id609_hf_0" /><input type="hidden" name="wicket:interface" value=":235:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id60a" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id60b" name="add" value="Add a comment" onclick="wicketShow('id60b--ajax-indicator');var wcall=wicketSubmitFormById('id609', '../../../?wicket:interface=:235:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id60b--ajax-indicator');}.bind(this),function() { ;wicketHide('id60b--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id609')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id60b--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

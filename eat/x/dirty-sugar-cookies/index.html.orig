@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Dirty Sugar Cookies</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id876" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Dirty Sugar Cookies" width="309" class="title" src="../../../resources/net.databinder.components.RenderedLabel/2b6c5c6"/><span class="title">Dirty Sugar Cookies</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on June 12, 2006</span></span>
+			<span id="id877" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/books/#selected-tag"><span>books</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p style="float:left"><img src="/eat/files/sugar.jpg" alt="" /></p>
+
+
+	<p>Although mom has <a href="http://technically.us/eat/articles/2006/05/30/dirty-sugar-cookies-book-tour">already</a> <a href="http://technically.us/eat/articles/2006/06/07/dirty-sugar-cookies-update">posted</a> a couple of times about the Dirty Sugar Cookies <a href="http://dirtysugarcookies.blogspot.com/">virtual book tour</a>, today is the actual day that we signed up to host. Ayun got a pretty sweet deal when she recruited my mom into her PR machine.</p>
+
+
+	<p>Since we have all this fancy Apple hardware and software, we thought it would be fun to do a podcast instead of a regular, written interview. Unfortunately for Ayun, our varying versions of iChat didn&#8217;t allow us to do three-way audio, so her virtual book tour became real today. At least she got to bring Milo.</p>
+
+
+	<p>I&#8217;ll just say this about Milo: he was wearing a silk vest and cowboy boots, and he has freckles. He wouldn&#8217;t eat my <a href="http://technically.us/eat/articles/2006/06/10/at-last-cookies">chocolate chip cookies</a> (his loss), but he did let me pick him up and throw him around a little bit. I get to see children so infrequently; it&#8217;s always a treat for the nurturing type I&#8217;m growing into. And Milo is one of the cutest, sweetest tots I&#8217;ve encountered.</p>
+
+
+	<p>Without further ado, I present our very first <a href="http://www.archive.org/download/Eat_interviews_Ayun_Halliday/Eat_interviews_Ayun_Halliday.m4a"><strong>podcast</strong></a>. Because both mom and I have iSight cameras, you should get a snapshot that changes periodically as you listen (if you don&#8217;t get this video component, you should download it and open it in iTunes). It&#8217;s thirteen minutes long and a rather large file, but it&#8217;s worth every megabyte for mom&#8217;s campy mugs. Enjoy, and good luck, Ayun!</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id878">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-2206"><p>Oh, no! I&#8217;m getting an error message <i>This clip cannot be played. It contains unexpected data and may be corrupt.</i></p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://kitchenography.typepad.com"><span class="alias">Julie</span></a>
+  				<span>on June 12, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2207"><p>Try right-clicking on the link and downloading the file. If you open it in either iTunes or QuickTime it should work, and have the shapshot track.</p>
+<p>Also, for all 0 Linux users reading this, <span class="caps">VLC</span> works.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Nathan</span></span>
+  				<span>on June 12, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2208"><p>When I try to play all the mp3 files from one of the CD&#8217;s, I get a message &#8220;clip contains unexpected data and may be corrupt&#8221;</p>
+<p>The first mp3 song sings only half the connet and then stops.</p>
+<p>There is no qustion of downloading comes as Nathan suggests.</p>
+<p>What do I do ?</p>
+<p>Bade Pappa</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">BADE PAPPA at ksanthanam57@yahoo.co.in</span></span>
+  				<span>on June 12, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2209"><p>Bade Pappa- Did you try the MP3 link? It&#8217;s at http://technically.us/eat/admin/content/show/984 and should work on every computer. Please try this and let us know how it works out.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on June 12, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id879">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id87a" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id87a_hf_0" id="id87a_hf_0" /><input type="hidden" name="wicket:interface" value=":317:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id87b" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id87c" name="add" value="Add a comment" onclick="wicketShow('id87c--ajax-indicator');var wcall=wicketSubmitFormById('id87a', '../../../?wicket:interface=:317:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id87c--ajax-indicator');}.bind(this),function() { ;wicketHide('id87c--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id87a')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id87c--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

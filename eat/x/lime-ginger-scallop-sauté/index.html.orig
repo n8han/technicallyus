@@ -1,0 +1,201 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Lime-ginger scallop sauté</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id6ce" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Lime-ginger scallop sauté" width="398" class="title" src="../../../resources/net.databinder.components.RenderedLabel/c7a24b9f"/><span class="title">Lime-ginger scallop sauté</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on September 10, 2006</span></span>
+			<span id="id6cf" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/grocery/#selected-tag"><span>grocery</span></a><span id="id6d0">, </span></span><span><a href="../../../eat/tag/freshdirect/#selected-tag"><span>freshdirect</span></a><span id="id6d1">, </span></span><span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>FreshDirect is running a good <a href="http://www.freshdirect.com/department.jsp?deptId=rec&#38;trk=promo">deal</a> when you buy one of their one-click recipes: $10 off your order of at least $40. The secret is that some of the recipes cost less than $10, and you don&#8217;t have to buy everything in the recipe. In fact, you can probably just remove everything from your cart and still get the $10 off. Either way, it&#8217;s a steal, and I ordered ingredients for a recipe called <a href="http://www.freshdirect.com/recipe.jsp?catId=rec_ingrdnt&#38;subCatId=rec_ingrdnt_shllfsh&#38;recipeId=rec_wk_limeginger_scllp&#38;trk=cpage">Lime-ginger scallop sauté</a>, from <em>The New Basics Cookbook</em> by Julee Rosso and Sheila Lukins.</p>
+
+
+	<p style="float:center"><img src="/pictures/limescallops.jpg" alt="" /></p>
+
+
+	<p>I was not excited to eat this as I was cooking it, and I was pleasantly surprised at the flavor of the finished dish. The lime cut right through the butter, and it went well with the walnuts and scallops. The recipe called for sea scallops, but FD puts bay scallops in the cart. Perhaps they realize, as Nathan pointed out, that the flavor in this recipe is too intense and wouldn&#8217;t be appropriate for delicate, expensive sea scallops.</p>
+
+
+	<p><strong>For the Scallops (serves 2)</strong></p>
+
+
+	<p>1 tablespoon olive oil <br> 1 tablespoon unsalted butter <br> 1 pound sea scallops, patted dry <br> 3 tablespoons fresh lime juice <br> 4 tablespoons Lime Ginger Butter (recipe follows), chilled <br> 1/3 cup walnut halves, lightly toasted <br> 
+Chopped fresh parsley, for garnish</p>
+
+
+	<p><strong>For the Lime Ginger Butter</strong></p>
+
+
+	<p>4 tablespoons (1/2 stick) unsalted butter, at room temperature <br> 2 teaspoon grated lime zest <br> 1 teaspoon ground ginger <br> 1/2 teaspoon salt <br> Freshly ground black pepper, to taste</p>
+
+
+	<ol>
+	<li>Heat the oil and butter in a large skillet over high heat. Add the scallops and stir until golden, about 2 minutes. Pour off the fat.</li>
+		<li>Stir in the lime juice and cook 1 minute. Lower the heat and stir in the Lime Ginger Butter 1 tablespoon at a time. Cook just until a thick sauce forms. Stir in the walnuts, sprinkle with parsley, and serve.</li>
+	</ol>
+
+
+	<p><strong>Lime Ginger Butter (About 5 tablespoons)</strong>
+Stir all the ingredients together in a small bowl until smooth. Shape into a cylinder 2.5 inches in diameter, and wrap in foil or plastic wrap. Refrigerate until firm, about 1 hour.</p>
+
+
+	<p>If I were to make this again, and I probably will, I&#8217;d use fresh ginger in the lime-ginger butter. I&#8217;m not sure why this recipe uses ground, but maybe that&#8217;s typical of the cookbook.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id6d2">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-2738"><p>That is not typical of the cookbook, that&#8217;s a great cookbook!! Maybe ground ginger just mixes better with the butter, you&#8217;ll have to try it both ways.</p>
+<p>This does sound yummy, though. I wish we had Fresh Direct in Pittsburgh.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on September 10, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2739"><p>cont. from last post on plum cake and pho</p>
+<p>So this idea of ordering all the ingrediants for a new recipe seems a little odd to me.  I never make things that would require such a radical intervention into my larder (the suggestion that you don’t have to buy everything in the recipe is comforting).  I like new dishes to have at least familiar preparation, or to contain a fair number of ingrediants I&#8217;m used to working with and probably have around.  Otherwise, there are just too many variables (how is it supposed to taste?) and I&#8217;m better off ordering it out!</p>
+<p>Now, maybe this makes me sound un-adventuresome.  But, much as a love Korean food, I just don&#8217;t think I&#8217;ll ever be able to invest enough time and money and experience to become a great Korean chef.</p>
+<p>And then, oddly, I sort of adhere to this timid approach as a kind of creativity.  Like I&#8217;ve never been comfortable wearing a new outfit (head to toe) but always wanted to wear one and only one new item (shoes, jeans, belt, jacket) on the first day of school with the rest being old, familiar articles of clothing.  Like I hate matchy-matchy.</p>
+<p>I wish Pittsburgh had fresh direct too.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">zp</span></span>
+  				<span>on September 10, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2740"><p>I know what you mean about having to get <strong>everything</strong> for a recipe, zp, I don&#8217;t like that, either. I&#8217;m much happier if I&#8217;m building around something I already have, preferably using something up and moving it on out (like the 32 bags of chocolate chips I unearthed in my pantry last month). And at my age I think twice before investing in any quantities of unusual ingredients for recipes that I may only make two or three times more before I have that stroke, for instance. Do I really want Leland to have to find a home for the barley malt syrup or the toasted macadamia oil?</p>
+<p>Speaking of Korean food, have you ever been to the Korean food festival they have every year at the Korean church at Walnut and Aiken in Shadyside, I think in May or June? It&#8217;s great!!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on September 10, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2741"><p>FD is nice, but it doesn&#8217;t beat driving a car to a big grocery store with really good deals.</p>
+<p>I agree with you two about buying everything for a recipe; it&#8217;s annoying. That&#8217;s one of the reasons I don&#8217;t use recipes too often, because my space is so limited, and I can&#8217;t just buy a ton of things I won&#8217;t use again and again. I had to look through several of FD&#8217;s one-click recipes before I found one for which I already had most of the ingredients and could use up the rest. I made some Asian recipe a few months ago, and I now have about 8 condiments that I will never use again. Do those things go bad? Should they be in the fridge?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on September 10, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2742"><p>I would say your question is moot if the condiments have already been sitting out for several months! Others may have opinions about this, but I keep plum, hoisin, and chili sauce in the fridge but not soy sauce or sesame oil. I also keep curry pastes in the fridge, but not vinegar or mirin. Did I skip anything? Fermented black beans and miso would also go in the fridge, I think, once opened. I even keep my peanut oil refrigerated since I don&#8217;t have air conditioning and I think it tends to go rancid if it sits out in a hot house for too long. It does tend to solidify and has to re-liquify before using.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on September 10, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2743"><p>I&#8217;ve been cooking this dish for years and it never fails.  Go with fresh ginger rather then the ground.  Much more intense and flavorful.  I use the New Basics Cookbook often, but I needed to double check the recipe for someone, unfortunately it was packed away but luckily I found it here.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">J-fish</span></span>
+  				<span>on September 10, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id6d3">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id6d4" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id6d4_hf_0" id="id6d4_hf_0" /><input type="hidden" name="wicket:interface" value=":262:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id6d5" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id6d6" name="add" value="Add a comment" onclick="wicketShow('id6d6--ajax-indicator');var wcall=wicketSubmitFormById('id6d4', '../../../?wicket:interface=:262:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id6d6--ajax-indicator');}.bind(this),function() { ;wicketHide('id6d6--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id6d4')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id6d6--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Ubuntu &amp; Mac OS X file sharing</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id2289" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Ubuntu & Mac OS X file sharing" width="496" class="title" src="../../../resources/net.databinder.components.RenderedLabel/aa1d0c5f"/><span class="title">Ubuntu &amp; Mac OS X file sharing</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on November 12, 2005</span></span>
+			<span id="id228a" class="tags">
+					{&nbsp;<span><a href="../../../code/tag/macintosh/#selected-tag"><span>macintosh</span></a><span id="id228b">, </span></span><span><a href="../../../code/tag/ubuntu/#selected-tag"><span>ubuntu</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>When I first set up our <a href="http://technically.us/n8/pages/bricolage">internet workhorse</a>, Ubuntu didn&#8217;t have any release quality packages to support Appletalk file sharing. I rejected <span class="caps">SMB</span> out of principle, <span class="caps">NFS</span> out of frustration, and <a href="http://technically.us/n8/articles/2005/10/05/…-stop-worrying-and-love-the-webdav">settled on WebDAV</a>.</p>
+
+
+	<p>But my WebDAV setup, for whatever reason, doesn&#8217;t work so great with files kept open for very long. I was sharing my home directory to work on some <span class="caps">HTML</span> and style sheets, and after a while <a href="http://tacosw.com/index.php">Taco</a> or the Finder or something would get confused and I&#8217;d have to eject the share and mount it again.</p>
+
+
+	<p>Since I recently upgraded my Ubuntu to Breezy, I decided to check its <a href="http://netatalk.sourceforge.net/">Netatalk</a> status again. It turns out that Breezy <em>does</em> have packages for Netatalk 2.0. All you have to do is install it, then kick it off if it&#8217;s not running already (/etc/init.d/netatalk start) and you can mount your home directory immediately from Mac <span class="caps">OS X</span>. Sweet.</p>
+
+
+	<p>One caveat is the lack of a <a href="http://netatalk.sourceforge.net/2.0/htmldocs/configuration.html#authentication"><span class="caps">DHCAST128</span></a> library in the Breezy package. You can&#8217;t authenticate securely, and Mac <span class="caps">OS X</span> will warn you of that.</p>
+
+
+	<p>I don&#8217;t know why the library is left out; I downloaded the Netatalk sources and compiled them myself, but I don&#8217;t want to run its install script, and I don&#8217;t know how to use libtool to properly set up the library. Since we&#8217;re talking to the server directly over <a href="http://en.wikipedia.org/wiki/Wi-Fi_Protected_Access#WPA_development"><span class="caps">WPA</span></a> with same-vendor hardware and a randomly generated key, we&#8217;re probably ok sending the password &#8220;in the clear&#8221; for now.</p>
+
+
+	<p>If you have a similar setup&#8212;securely connected Mac <span class="caps">OS X</span> and Ubuntu boxes&#8212;Netatalk is a file sharing dream come true.</p>
+
+
+	<p><strong>Update:</strong> <a href="/n8/articles/2006/11/16/a-year-of-plaintext-afp-passwords-is-enough">Encrypted <span class="caps">AFP</span> passwords, solved</a></p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id228c">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-1044"><ul>
+<li>I installed Netatalk on Breezy</li>
+
+<li>Tried connecting via Finder</li>
+
+<li>It does not accept my Breezy username and password.</li>
+</ul>
+
+<p>Is Netatalk like Samba in that I must add my username as a Netatalk user?</p>
+
+<p>-D</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">bloodniece</span></span>
+  				<span>on November 12, 2005</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1045"><p>I log in with my regular username and password. afp://breezyhostname/ in the &#8220;Connect to Server&#8230;&#8221; dialog goes straight to my home directory.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on November 12, 2005</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1046"><p>First, great name. Second, is this still an issue with Edgy out? Third, what about sharing /home/nathan/ between OS X &amp; ubuntu on the same machine &#8211; possible?</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://eckenrodehouse.net"><span class="alias">n8k99</span></a>
+  				<span>on November 12, 2005</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1047"><p>Edgy does the same thing (plaintext pass), but your question got me poking around. Apparently the Debian netatalk pkg chooses not to link to OpenSSH (some licensing bs) and that&#8217;s why the DHCAST128 libraries aren&#8217;t present. I&#8217;m working out how to build them manually and I&#8217;ll post the steps if it works.</p>
+
+<p>Same machine, I don&#8217;t know&#8230; you could use this method with Parallels (on Intel) maybe, but then I&#8217;m sure Parallels gives you some easier way to transfer the files. Otherwise, MacOS has UFS support built in, but who knows if it&#8217;s 100% compatible with the UFS written by Edgy&#8217;s kernel.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on November 12, 2005</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1048"><p>ARGGHHH</p>
+
+<p>W. T. F.</p>
+
+<p>NFS Samba Appletalk</p>
+
+<p>Why is it so frikkin hard to set up two computers to talk securely? All I want is my laptop and a static-IP debian box to both use files a a directory on the debian box.</p>
+
+<p>I&#8217;ve spent ANOTHER few hours, and giving up again.</p>
+
+<p>I first had this problem 6 years ago and this shit still doesn&#8217;t work.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">ldsfkjhsdlkfgjh</span></span>
+  				<span>on November 12, 2005</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1049"><p>Sorry, ldsfkjhsdlkfgjh.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8han</span></span>
+  				<span>on November 12, 2005</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id228d">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id228e" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id228e_hf_0" id="id228e_hf_0" /><input type="hidden" name="wicket:interface" value=":1290:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id228f" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id2290" name="add" value="Add a comment" onclick="wicketShow('id2290--ajax-indicator');var wcall=wicketSubmitFormById('id228e', '../../../?wicket:interface=:1290:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id2290--ajax-indicator');}.bind(this),function() { ;wicketHide('id2290--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id228e')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id2290--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Produce alert: Comice pears</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id123c" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Produce alert: Comice pears" width="444" class="title" src="../../../resources/net.databinder.components.RenderedLabel/df759de8"/><span class="title">Produce alert: Comice pears</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on January 21, 2006</span></span>
+			<span id="id123d" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/produce%20alerts/#selected-tag"><span>produce alerts</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>If you&#8217;re used to just buying Bartlett and Bosc pears, let me convince you to splurge at least once on the <a href="http://www.freshdirect.com/product.jsp?productId=pr_comice&#38;catId=pr&#38;trk=cpage">Comice</a> variety. I got mine on Tuesday from FreshDirect, and they&#8217;re hitting their peak of ripeness today. Wait till it&#8217;s very soft&#8212;I usually like my pears to display at least some resistance. The one I just ate was so soft I considered tossing it, but thank goodness I didn&#8217;t. It was the best pear I&#8217;ve ever eaten: obscenely sweet but in a complex way, with meat grainy enough to make up for its relative mushiness. You might consider removing the tough skin, which is an easy task when it&#8217;s very ripe.</p>
+
+
+	<p>Incidentally, feel free to alert me to any excellent produce you come across in New York. I&#8217;ll go far out of my way for perfection. Ok, maybe not all the way to Brooklyn, but definitely to the West side.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id123e">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-1416"><p>One of my favorite salads involves pears, endive (the green, curly variety, not hearts of endive), toasted walnuts or pecans, and crumbled blue cheese of any flavorful type, dressed with a vinaigrette made from olive oil and a sweeter wine vinegar, like sherry or champagne. The pears do have to be a little on the firmer side for this; peel, core, and cube them and toss gently in acidulated water so they don&#8217;t turn brown. Add plenty of salt and pepper to the dressing. I don&#8217;t use garlic in this one. I love the way the bitter endive contrasts with the sweetness of the pears and the richness of the cheese, punctuated by the crunchiness of the nuts.</p>
+<p>Mommy</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">beckyleeprice@mac.com</span></span>
+  				<span>on January 21, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1417"><p>Sounds delicious! I will give it a try. I love having your comments on my blog!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on January 21, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id123f">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id1240" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id1240_hf_0" id="id1240_hf_0" /><input type="hidden" name="wicket:interface" value=":664:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id1241" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id1242" name="add" value="Add a comment" onclick="wicketShow('id1242--ajax-indicator');var wcall=wicketSubmitFormById('id1240', '../../../?wicket:interface=:664:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id1242--ajax-indicator');}.bind(this),function() { ;wicketHide('id1242--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id1240')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id1242--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

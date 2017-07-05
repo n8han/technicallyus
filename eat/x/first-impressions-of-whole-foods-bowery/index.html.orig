@@ -1,0 +1,195 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / First impressions of Whole Foods Bowery</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id68b" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="First impressions of Whole Foods Bowery" width="643" class="title" src="../../../resources/net.databinder.components.RenderedLabel/ce8d21c8"/><span class="title">First impressions of Whole Foods Bowery</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on March 30, 2007</span></span>
+			<span id="id68c" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/grocery/#selected-tag"><span>grocery</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p><img src="/pictures/frystation.jpg" alt="" /></p>
+
+
+	<p>The new <a href="http://racked.com/archives/2007/03/29/clickage_oh_wholly_foods_editi.php">Whole Foods</a> on Houston Street has a french fry station, a gelato bar, and a store selling horrible yoga clothing. It&#8217;s overwhelmingly large, and on a Friday after work, not even a tenth as crowded as the Union Square store at any time of day. I don&#8217;t expect this location will ever get too crowded, because how much foot traffic is there in that area? Nothing compared to Union Square, as far as I can tell.</p>
+
+
+	<p>The <a href="http://racked.com/archives/2007/03/28/oh_wholly_foods_4_relaxing_in.php">fromagerie</a> is ridiculous. People are very nice inside, and it&#8217;s a beautiful room, but it&#8217;s crazy expensive. Prices approached $20 for little nuggets of goat cheese. As if! If I&#8217;m going to spend that kind of cheddar—and occasionally I will—it will at least be at Murray&#8217;s. People will love the branding of the cheese at Whole Foods, though, and will happily spend freely on cheeses &#8220;aged by Hervé Mons,&#8221; as if they know or care who he is (Murray&#8217;s also carries Hervé Mons cheeses, and they actually <a href="http://bigcheesestories.blogspot.com/2006/04/making-mons.html">know the guy</a>).</p>
+
+
+	<p>As the weather warms up, I may venture east, to this location, more often than I&#8217;ll go to horrible Union Square. If for no other reason, I&#8217;ll go out of my way for their beautiful selection of <a href="http://www.framani.com/">Fra&#8217; Mani</a> cured meats.</p>
+
+
+	<p><img src="/pictures/framani.jpg" alt="" /></p>
+
+
+	<p>Fra&#8217; Mani&#8217;s website lists several stores in New York selling their products, which is good news to me, since I&#8217;ve been wanting to try it ever since reading and enjoying Paul Bertolli&#8217;s books. This <a href="http://store.framani.com/61tos.html">Tuscan salami</a> is dry, spicy, sweet, and <a href="http://technically.us/eat/articles/2006/07/15/heart-disease">dangerously</a> edible. No strings of fat getting stuck in your teeth (only in your arteries!).</p>
+
+
+	<p><strong>April 2 update</strong> <br>
+After spending two hours in this store with my family drinking coffee, eating french fries and gelato, and accepting every free sample we came across, I confess that I am completely sold on the concept. It is so easy and fun to walk around ingesting, and it&#8217;s spacious enough that you&#8217;ll never feel squeezed out, as you do at Union Square.</p>
+
+
+	<p>The fries, incidentally, are the best I&#8217;ve had in the city. Crispy, salty, and perfect. The Laboratorio gelato is expensive at $3.25 for a small cup, but it&#8217;s not a purchase to be regretted.</p>
+
+
+	<p>Whole Foods Bowery is the apex of consumerism, and a marvel of careful, thorough branding. We four cynics fell for it hard yesterday. It&#8217;s not about the groceries here—it&#8217;s about something completely new. It&#8217;s like a mall that&#8217;s mostly a food court, but the food is good.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id68d">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3592"><p>Have you seen any of that white Stilton studded with the apricots anywhere yet? You would absolutely adore that.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on March 30, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3593"><p>I&#8217;m glad I&#8217;m not the only person who thinks that Whole Foods is over-rated and charges too much money. I try not to go there unless I really can&#8217;t find what I&#8217;m looking for at other stores. I might make the detour for that salami, though, it looks addictive.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.ceresandbacchus.com"><span class="alias">Mary</span></a>
+  				<span>on March 30, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3594"><p>remember you used to make fun of me in pittsburgh for missing pommes frites? ;)<br />
+i gotta try this place out, even if it is just to bash it!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">jeannie</span></span>
+  				<span>on March 30, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3595"><p>Dammit Leland! I walked by here day before yesterday and was intent on hating on it, but your posting has made me regret this move.  I have been in a weird phase lately where I have been reverting to the lackadaisical vegetarianism of my use, and this, of course, has made me crave french fries.  Arrgh!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Ulrike Meinhof</span></span>
+  				<span>on March 30, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3596"><p>OK, weird. use = youth!  See, i&#8217;m so french-fry-deprived I can&#8217;t type.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Ulrike Meinhof</span></span>
+  				<span>on March 30, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3597"><p>Wow! whole Foods Bowery is amazing! It was crowded on Friday but even more packed Sunday evening.  This store is going to do well. I am thrilled to have an alternative to home delivery and Chinese restaurants, 2 subway stops away.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">condogirl</span></span>
+  				<span>on March 30, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3598"><p>Just so you know, Herve Mons was at whole foods yesterday and all of the staff actually knows him.  And for all you who think murrays is great and Whole foods is corporate do not understand the extent of murray&#8217;s own corporate enterprises and I wonder if they pay they&#8217;re employees as well or offer benefits</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">jjsnay</span></span>
+  				<span>on March 30, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id68e">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id68f" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id68f_hf_0" id="id68f_hf_0" /><input type="hidden" name="wicket:interface" value=":253:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id690" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id691" name="add" value="Add a comment" onclick="wicketShow('id691--ajax-indicator');var wcall=wicketSubmitFormById('id68f', '../../../?wicket:interface=:253:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id691--ajax-indicator');}.bind(this),function() { ;wicketHide('id691--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id68f')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id691--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

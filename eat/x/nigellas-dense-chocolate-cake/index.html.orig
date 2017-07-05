@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Nigella&#039;s dense chocolate cake</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="idbae" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Nigella's dense chocolate cake" width="481" class="title" src="../../../resources/net.databinder.components.RenderedLabel/2b8a1558"/><span class="title">Nigella&#039;s dense chocolate cake</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on June 22, 2006</span></span>
+			<span id="idbaf" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a><span id="idbb0">, </span></span><span><a href="../../../eat/tag/dessert/#selected-tag"><span>dessert</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>In anticipation of a party I&#8217;m arranging, I flipped through <a href="http://www.amazon.com/exec/obidos/ASIN/0786867973/eat0e-20"><em>How to be a Domestic Goddess</em></a> by Nigella Lawson today. She has always been one of my favorites to read and watch, but today was the first time I tried one of her recipes. I opened the book to the chocolate section, and I came across something that appealed to me right away: Dense Chocolate Loaf Cake.</p>
+
+
+	<p style="float:center"><img src="/pictures/chocolatecake.jpg" alt="" /></p>
+
+
+	<p>I&#8217;m not much of a dessert person, and my tastes are specific: it has to either be tart, dense, or salty. This cake is very dense and chocolatey&#8212;right up my alley. It hardly tastes like dessert despite all the sugar and the lack of salt. It&#8217;s heavy and heady, and it&#8217;s a perfect treat to have lying around. Nigella says she likes to spread cream cheese on it, although trying that with Philly would result in quite a mess. Vanilla ice cream would be perfect, or even a bit of crème fraîche.</p>
+
+
+	<p><strong>Dense Chocolate Loaf Cake</strong>
+
+	<ul>
+	<li>1 cup (2 sticks) soft unsalted butter</li>
+		<li>1 2/3 cups dark brown sugar</li>
+		<li>2 large eggs, beaten</li>
+		<li>1 teaspoon vanilla extract</li>
+		<li>4 ounces bittersweet chocolate, melted</li>
+		<li>1 1/3 cups all-purpose flour</li>
+		<li>1 teaspoon baking soda</li>
+		<li>1 cup plus 2 tablespoons boiling water</li>
+	</ul>
+</p>
+
+
+	<p>Preheat the oven to 375ºF. Grease and line a 9&#215;5-inch loaf pan (I used butter and parchment paper, and extraction was a cinch).</p>
+
+
+	<p>Cream the butter and sugar, either with a wooden spoon or with an electric hand-held mixer, then add the eggs and vanilla and beat in well. Next, fold in the melted and slightly cooled chocolate, blending well but not overbeating. Then gently add the flour, to which you&#8217;ve added the baking soda, alternately spoon by spoon, with the boiling water until you have a smooth fairly liquid batter. Pour into the lined loaf pan, and bake for 30 minutes. Turn the oven down to 325ºF and cook for another 15 minutes. The cake will still be a bit squidgy inside, so an inserted cake tester or skewer won&#8217;t come out completely clean. (I baked mine for at least an hour; after 45 minutes it had barely set).</p>
+
+
+	<p>Place the loaf pan on a rack, and leave to get completely cold before turning it out. Makes 8-10 slices</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="idbb1">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-2269"><p>It sounds like it would be good with some lightly sweetened whipped cream, too.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on June 22, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2270"><p>I loved that cake when I made it too. Normally I take some sugar off all baking recipes, but this one was perfect from the word go.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">lobstersquad.blogspot.com</span></span>
+  				<span>on June 22, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2271"><p>That cake was incredible. So moist, so tasty, not too rich or heavy. Loved it.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Emily</span></span>
+  				<span>on June 22, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6621"><p><span class="caps">OMG</span>, that was sooooooo good.  Had it with vanilla ice cream and grilled peaches but I couldn&#8217;t help but pick at it before hand.  Best chocolate cake ever made!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Vangie</span></span>
+  				<span>on September 26, 2010</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="idbb2">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="idbb3" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="idbb3_hf_0" id="idbb3_hf_0" /><input type="hidden" name="wicket:interface" value=":429:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="idbb4" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="idbb5" name="add" value="Add a comment" onclick="wicketShow('idbb5--ajax-indicator');var wcall=wicketSubmitFormById('idbb3', '../../../?wicket:interface=:429:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('idbb5--ajax-indicator');}.bind(this),function() { ;wicketHide('idbb5--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('idbb3')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="idbb5--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

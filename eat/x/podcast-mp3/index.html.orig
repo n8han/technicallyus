@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Podcast mp3</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id86f" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Podcast mp3" width="210" class="title" src="../../../resources/net.databinder.components.RenderedLabel/64e51b05"/><span class="title">Podcast mp3</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on June 13, 2006</span></span>
+			<span id="id870" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/books/#selected-tag"><span>books</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p style="float:center"><img src="/pictures/podcast.jpg" alt="" /></p>
+
+
+	<p>For those of you who were unable to listen to our high-tech <a href="http://www.archive.org/download/Eat_interviews_Ayun_Halliday/Eat_interviews_Ayun_Halliday.m4a">podcast</a> yesterday, you can try <a href="http://ia300205.us.archive.org/3/items/Eat_Interviews_Ayun_Halliday_MP3/Eat_Interviews_Ayun_Halliday_64kb.mp3"><strong>this link</strong></a>, which is an mp3 and should play on every computer. Unfortunately, you&#8217;ll miss out on the snapshots.</p>
+
+
+	<p>Thanks to <a href="http://technically.us/doc">Nathan</a> for the technical help!</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id871">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-2211"><p>Thanks for the new link, Leland. This one worked for me!</p>
+<p>I enjoyed hearing that conversation &#8212; Ayun is very funny and engaging, and I loved her non-stop laugh. The interview, plus Rebecca&#8217;s enthusiastic endorsements, made me want to go buy the book so I think your mission was successful.</p>
+<p>And Leland, in your previous post when you said that Ayun got a sweet deal when she recruited your Mom into her PR machine, you were so right! Actually both of you really went the extra mile on this one. Ayun is very lucky.</p>
+<p>I&#8217;ve read several of the interviews she&#8217;s done on line and this one was far and away the best in truly giving me a sense of who she was.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://kitchenography.typepad.com"><span class="alias">Julie</span></a>
+  				<span>on June 13, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2212"><p>This new link worked for me too this time!  What a great interview.  I&#8217;m so mad; I just got back from Barnes &amp; Noble and I should have looked for the book.  Oh well&#8212;next time!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Aunt Sue</span></span>
+  				<span>on June 13, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2213"><p>This link worked for me. Ayun is very down-to-earth and humorous! I like her comments re whole foods and organics&#8212;also the fact that her husband got these various parts of an organic pig and she may have to get off vegetarianism for awhile!</p>
+<p>Well done by all of you!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Uncle Teddy</span></span>
+  				<span>on June 13, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2214"><p>The link worked fine for me.  What a great idea: a virtual book tour!  Doesn&#8217;t matter when you have time: just click and listen.  Ayun&#8217;s stories  sent me looking for her book. Her stories resonate with me because I have family recipes that leave me believing that my Nana is watching me carry on her traditions.</p>
+<p>I look forward to the next interview.  More snapshots!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Barbara</span></span>
+  				<span>on June 13, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id872">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id873" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id873_hf_0" id="id873_hf_0" /><input type="hidden" name="wicket:interface" value=":316:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id874" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id875" name="add" value="Add a comment" onclick="wicketShow('id875--ajax-indicator');var wcall=wicketSubmitFormById('id873', '../../../?wicket:interface=:316:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id875--ajax-indicator');}.bind(this),function() { ;wicketHide('id875--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id873')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id875--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

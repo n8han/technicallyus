@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="../../../blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="../../../blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet.css"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Permanently funny face</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code.html">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code.html">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id23c3" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Permanently funny face" width="383" class="title" src="../../../resources/net.databinder.components.RenderedLabel/8ab4c8ff"/><span class="title">Permanently funny face</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on November 1, 2006</span></span>
+			<span id="id23c4" class="tags">
+					{&nbsp;<span><a href="../../tag/databinder/index.html#selected-tag"><span>databinder</span></a><span id="id23c5">, </span></span><span><a href="../../tag/efficiency/index.html#selected-tag"><span>efficiency</span></a><span id="id23c6">, </span></span><span><a href="../../tag/typography/index.html#selected-tag"><span>typography</span></a><span id="id23c7">, </span></span><span><a href="../../tag/wicket/index.html#selected-tag"><span>wicket</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>This is the last noteworthy feature Databinder expects to see before 1.0, so eat up.</p>
+
+
+	<p style="float:right"><img src="../../../pictures/bobby.jpg" alt="" /></p>
+
+
+	<p><a href="http://databinder.net/javadoc/net/databinder/components/RenderedLabel.html">RenderedLabel</a> is my favorite Databinder component. Without a lot of trickery it <a href="http://technically.us/n8/articles/2006/07/15/funny-face">turns text into an image</a> using a font packaged in your Web archive.</p>
+
+
+	<p>I have more fun stuff in mind for it, but this upgrade is entirely practical: shared resource support for text images. Dynamic images, while cool, are hell on your server. They have to be generated and served not just once per user, but <em>every</em> time the page is rendered because they don’t have permanent, cache-friendly URLs.</p>
+
+
+	<p>The solution is to cache image resources on the server, using Wicket’s <a href="http://wicketframework.org/apidocs/wicket/SharedResources.html">SharedResources</a> facility. This takes a namespace (we use <tt>RenderedLabel.class</tt>, natch) and a name. The name is a hash of the label’s active ingredients (text, color, font…). Both of those identifiers show up in the image’s static, semi-nice <span class="caps">URL</span>.</p>
+
+
+	<p>If you’re interested in how shared resources work, take a look at the new and improved <a href="http://databinder.net/wsvn/Databinder/databinder/trunk/src/main/java/net/databinder/components/RenderedLabel.java?op=file">RenderedLabel source</a>. Or if you want to use it blindly, <a href="http://databinder.net/faq.html#uptodate">update</a> to the latest Databinder 0.9 snapshot and construct <tt>RenderedLabel</tt> with a <tt>true</tt>.</p>
+
+
+	<p>The feature is off by default, since we don’t want to cache things that won’t likely be displayed again (like the Ajax preview in <a href="http://databinder.net/graffiti/app">graffiti</a>). But you should definitely turn it on for the headlines on that weblog software you’re writing.</p>
+
+
+	<p>And hurry up with that, because I am <em>sick and tired</em> of taking potshots at Rails from my Rails-running weblog.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='../../../resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id23c8">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-1187"><p>Off topic, I know, but&#8230; who is the guy behind the live search field?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Gustavo</span></span>
+  				<span>on November 1, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1188"><p>He&#8217;s an unknown Remington Rand employee <a href='http://en.wikipedia.org/wiki/UNIVAC_I#Installations'>showing the UNIVAC</a> to Walter Cronkite. I think that was back in the days of JSP vacuum tubes but I&#8217;m not sure.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8han</span></span>
+  				<span>on November 1, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id23c9">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id23ca" action="../../../index.html" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id23ca_hf_0" id="id23ca_hf_0" /><input type="hidden" name="wicket:interface" value=":1320:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id23cb" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id23cc" name="add" value="Add a comment" onclick="wicketShow('id23cc--ajax-indicator');var wcall=wicketSubmitFormById('id23ca', '../../../?wicket:interface=:1320:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id23cc--ajax-indicator');}.bind(this),function() { ;wicketHide('id23cc--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id23ca')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id23cc--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

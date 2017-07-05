@@ -1,0 +1,112 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html manifest="pamflet.manifest">
+      <head>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <title>Coderspiel — Containing Rust</title>
+        
+        <link rel="stylesheet" href="../../../css/blueprint/screen.css" type="text/css" media="screen, projection"/>
+        <link rel="stylesheet" href="../../../css/blueprint/grid.css" type="text/css" media="screen and (min-device-width: 800px), projection"/>
+        <link rel="stylesheet" href="../../../css/blueprint/print.css" type="text/css" media="print"/> 
+        <!--[if lt IE 8]>
+          <link rel="stylesheet" href={ page.pathTo("css/blueprint/ie.css") } type="text/css" media="screen, projection"/>
+        <![endif]-->
+        <link rel="stylesheet" href="../../../css/pamflet.css" type="text/css" media="screen, projection"/>
+        <link rel="stylesheet" href="../../../css/pamflet-print.css" type="text/css" media="print"/>
+        <link rel="stylesheet" href="../../../css/pamflet-grid.css" type="text/css" media="screen and (min-device-width: 800px), projection"/>
+        <link rel="stylesheet" href="../../../css/color_scheme-redmond.css" type="text/css" media="screen, projection"/>
+        <link rel="stylesheet" href="../../../css/color_scheme-github.css" type="text/css" media="screen, projection"/>
+        <link rel="stylesheet" href="../../../css/color_scheme-monokai.css" type="text/css" media="screen, projection"/>
+        <link rel="stylesheet" href="../../../css/pamfletheight_2em_2em.css" type="text/css" media="screen and (min-device-width: 800px), projection"/>
+        <script type="text/javascript" src="../../../js/jquery-1.6.2.min.js"></script>
+        <script type="text/javascript" src="../../../js/jquery.collapse.js"></script>
+        <script type="text/javascript" src="../../../js/pamflet.js"></script>
+        <script type="text/javascript">
+          Pamflet.page.language = 'en';
+        </script>
+        
+        <link rel="stylesheet" href="../../../css/coderspiel.css" type="text/css" media="screen, projection"/>
+        
+        
+      </head>
+      <body class="color_scheme-redmond">
+        <a class="page prev nav" href="../../../Coderspiel.html">
+            <span class="space">&nbsp;</span>
+            <span class="flip arrow">&gt;</span>
+          </a>
+        <div class="container contentswrapper">
+          <div class="span-16 prepend-1 append-1 contents">
+            <h1 id="Containing+Rust">Containing Rust<a href="#Containing+Rust" class="header-link"><span class="header-link-content">&nbsp;</span></a></h1><div class="dateline">January 19, 2015</div><p>Wikipedia: <a href="http://en.wikipedia.org/wiki/Rust_%28programming_language%29">Rust (programming language)</a>
+</p><blockquote><p><strong>Rust</strong> is a general purpose, multi-paradigm, compiled programming language developed by Mozilla Research. It is designed to be a “safe, concurrent, practical language”, supporting pure-functional, concurrent-actor, imperative-procedural, and object-oriented styles.
+</p></blockquote><p>I wanted to give Rust a whirl since the “goal of Rust is to be a good language for the creation of large client and server programs that run over the Internet” and I’m thinking about writing some of those. Instead of reflexively using Scala and wrestling with a familiar set of problems with familiar compile-time and run-time performance characteristics, I wanted to try something different.
+</p><p>It’s been a while since I’ve installed a nascent programming language. Not realizing how nascent Rust was, I first thought it might be available in some stable version from Ubuntu standard repositories. Nope. Failing that, I did find a <a href="https://launchpad.net/~hansjorg/+archive/ubuntu/rust">Rust PPA on launchpad</a> but had some trouble getting the version I wanted installed, and didn’t relish the idea of <code>update-manager</code> downloading a new Rust every day.
+</p><p>So I resigned myself to installing an <a href="http://www.rust-lang.org/install.html">unpackaged binary</a>, as directed by the language distribution site. But just before pasting the standard “do whatever you want as root on my system” command, I remembered that in modern times we (on linux) have a way of containing the effects of software on our systems with very little performance cost. Therefore… I would run Rust through <a href="https://www.docker.com/">Docker</a>.
+</p><p>I’m not the first person to do this, of course, there are some dockerfiles lying around the internet already. But since dockerfiles are easy to make and since I wanted explicit control over the particular nightly installed, I made one from scratch. It looks like this:
+</p><pre><code>FROM dockerfile/ubuntu
+
+ENV RUST_VERSION 2015-01-18
+
+ENV RUST_GZ rust-nightly-x86_64-unknown-linux-gnu.tar.gz
+ENV RUST_URL https://static.rust-lang.org/dist/$RUST_VERSION/$RUST_GZ
+ENV RUST_DIR rust-nightly-x86_64-unknown-linux-gnu
+
+RUN \
+  curl -SLO $RUST_URL \
+  &amp;&amp; tar -xvzf $RUST_GZ \
+  &amp;&amp; $RUST_DIR/install.sh \
+  &amp;&amp; rm -r $RUST_GZ $RUST_DIR
+
+CMD [&quot;bash&quot;]
+</code></pre><p>And I can build a versioned image like this:
+</p><pre><code>sudo docker build -t n8han/rust:2015-01-18 .
+</code></pre><p>I’ll also keep a short tag of whatever rust I want to use by default.
+</p><pre><code>sudo docker tag n8han/rust:2015-01-18 rust
+</code></pre><p>With that, I could enter the environment and play around with Rust a bit. Big deal, right? What I wanted to share here though is just a few more steps I took to make Rust’s build tool, Cargo, as accessible via my container as it would have been from a local install.
+</p><h2 id="Alias">Alias<a href="#Alias" class="header-link"><span class="header-link-content">&nbsp;</span></a></h2><blockquote><p>My name is Sydney Bristow. Seven years ago, I was recruited by a secret branch of the CIA called SD-6. I was sworn to secrecy but I couldn’t keep it from my fiancé…
+</p></blockquote><p>God I love that show. Anyway, to make my Docker setup more convenient I decided to create a few aliases.
+</p><pre><code>alias docker=&quot;sudo docker&quot;
+</code></pre><p>Dumb, but easier than doing whatever I’m supposed to do to make Docker not need sudo. Maybe the Ubuntu’s packaged Docker will not need sudo by default, someday. Or not. Whatever.
+</p><pre><code>alias docker-run=&quot;docker run --rm \
+  -v ~/.inputrc:/root/.inputrc -v $(pwd):/source -w /source&quot;
+</code></pre><p>The <code>--rm</code> is so I’m not forever hoarding containers I’ll never use again. The first <code>-v</code> shares in my keyboard bindings, which are the ErgoMacs dvorak layout. Yeah. The second <code>-v</code> shares the current directory, and <code>-w</code> starts me off in there.
+</p><p>With this I can easily jump into a container and work from the host machine’s current directory, feeling more or less “at home”. 
+</p><pre><code>$ docker-run -ti rust
+[ root@71538722eee9:/source {daily} ]$ rustc --version
+rustc 1.0.0-nightly (f4f10dba2 2015-01-17 20:31:08 +0000)
+</code></pre><p>If you haven’t used Docker on a linux before, a key point here is that there is no noticeable delay when hopping from my host OS to this completely different, contained OS where I’ve allowed Rust to toss its install files around. The containerization is low cost — it’s worth using for any software that might jeopardize the stability of your host machine, particularly any unpackaged software installation.
+</p><p>To close the container loop for Rust I’ll set up one more alias, for Cargo.
+</p><pre><code>alias cargo=&quot;docker-run -t rust cargo&quot;
+</code></pre><p>Now I can use Cargo to build a Rust project on the host machine, and Cargo runs the same as if it were natively installed.
+</p><pre><code>$ cargo run
+</code></pre><p>Awesome. But will I do anything with it?
+</p><div class="bottom nav span-16">&nbsp;</div><ul class="news">
+      <li> <a href="../../../Coderspiel.html" class="button"> <h4>
+            <span class="name">Coderspiel</span>
+          </h4> </a> </li>
+      <li>
+          <h4>
+                <span class="name">Containing Rust</span>
+                <div class="date small">January 19, 2015</div>
+              </h4>
+        </li>
+    </ul>
+          </div>
+        </div>
+        <div class="header">
+          <div class="container">
+        <div class="span-16 prepend-1 append-1">
+          <div class="span-16 top nav">
+            <div class="span-16 title">
+              <span>Coderspiel</span> — Containing Rust
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+        <div class="footer">
+          
+        </div>
+        
+        
+      </body>
+    </html>

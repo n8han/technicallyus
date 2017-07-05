@@ -1,0 +1,185 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Ballpark food, again</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id101e" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Ballpark food, again" width="308" class="title" src="../../../resources/net.databinder.components.RenderedLabel/6926186"/><span class="title">Ballpark food, again</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on May 10, 2006</span></span>
+			<span id="id101f" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/ethnic%20cooking/#selected-tag"><span>ethnic cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Another depressing loss for our Pirates, another chance to eat food at the ballyard. Tonight I tried one of the new offerings at <a href="http://www.ballparksofbaseball.com/nl/PNCPark.htm"><span class="caps">PNC</span> Park</a>, a panino. I asked the lady behind the counter what was on it and she replied, &#8220;Italian meats and cheeses.&#8221; It seemed to have peperoni, salami, and maybe provolone or mozzarella cheese on the inside; the outside was quite oily and sprinkled with dried Italian seasoning (a big piece of which was lodged between my front teeth throughout the evening, unbeknownst to me until I got home).</p>
+
+
+	<p style="float:center"><img src="/eat/files/Becky.jpg" alt="" /></p>
+
+
+	<p>The overall flavor was greasy and salty and I didn&#8217;t much like it. I gave most of it to <a href="http://www.billyprice.com">Poppy</a> and had a cup of coffee and some of those cinnamon-roasted almonds later; I really love them.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1020">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-2048"><p>Good to see you&#8217;re doing your part by going to the ballpark and cheering the Pirates on.</p>
+<p>Are you able to bring food in to the stadium from outside? At Camden Yards in Baltimore the food that is sold inside the stadium is ridiculously expensive but there are stands outside that have reasonable prices and more interesting food.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://kitchenography.typepad.com"><span class="alias">Julie</span></a>
+  				<span>on May 10, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2049"><p>Yes, you are allowed to bring food in, thank goodness, but it took so long to make the darn granola that I didn&#8217;t have time to pack anything yesterday afternoon. We went to Camden Yards once, and we got barbecue from that concession that&#8217;s run by the former ballplayer, I forget his name&#8212;it was really good, but expensive. When the kids were smaller and we were broker I always brought a cooler with us. I&#8217;m famous for having my head in the cooler when Bobby Bonilla hit one of the longest home runs we ever had at Three Rivers Stadium!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on May 10, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2050"><p>And the kielbasa was kind of lame, too&#8230;but the fries from Primanti Bros were good. I was about 4 rows behind you at the game&#8230;I thought, wow, she looks a lot like that food blogger I&#8217;ve been reading! :o) Game <strong>was</strong> depressing but what a great night to be at the ballpark.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Marcy</span></span>
+  				<span>on May 10, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2051"><p>That&#8217;s funny, Marcy! did you see my <a href="http://www.billyprice.com">husband</a> taking my picture holding the sandwich? (three times actually because I&#8217;m so vain?)</p>
+<p>He had the new Primanti Bros. roast beef sandwich and it looked good; I think I&#8217;ll get that next time.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on May 10, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2052"><p><span class="caps">LOL</span>, no, I didn&#8217;t see him take the picture three times&#8230;if it were me I would have done the same thing&#8212;gotta get just the right shot! My friend had the roast beef and it did look good. I always end up with the wrong thing at the ballpark (plus my beer is always too warm), and it seems like the Pirates lose every time I go (is it me, or is it them?)</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Marcy</span></span>
+  				<span>on May 10, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2053"><p>No, Marcy, it is not you, it&#8217;s <strong>them</strong>! For a complete breakdown of that game, and the season so far, see my husband and youngest son&#8217;s blog, <a href="http://romophonehome.blogspot.com/">Romo Phone Home</a>. He is usually the world&#8217;s biggest fan but I don&#8217;t think I&#8217;ve ever seen him so fed up.</p>
+<p>But back to the more important topic of ballpark food and drink&#8212;I&#8217;m unhappy that they closed the Seattle&#8217;s Best coffeeshop! I don&#8217;t drink beer, and even if I did I don&#8217;t think I would drink it at the ballpark; I would hate to pay those prices <strong>and</strong> have to climb over people&#8217;s knees every five minutes to pee. And on a chilly, rainy night a cup of hot coffee really hits the spot. Plus my caffeine addiction has me jonesing for a regular hit right around 2:00 PM every afternoon, so by the time we get home from a Sunday afternoon game I am frantic. Am I the <strong>only</strong> fan in Pittsburgh who wants a decent cup of coffee at the ballyard?!!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on May 10, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2054"><p>I just reviewed your husband&#8217;s blog and I have to agree&#8230;it&#8217;s just plain <strong>beyond</strong> depressing to be a Pirates fan these past few years. But yet, we still go! I also miss the Seattle&#8217;s Best. A good cup of coffee is a must <span class="caps">ANYWHERE</span>, but is especially welcome at a ballpark where it can get mighty chilly in the spring and fall. Have you ever been to a Washington Wild Things&#8217; game? Falconi Field is a really fun place to watch a ballgame and there&#8217;s something so &#8220;Bull Durham&#8221; about it all. :o)</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Marcy</span></span>
+  				<span>on May 10, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2055"><p>No, Marcy&#8212;we haven&#8217;t been to see the Wild Things, yet, although we do finally plan to get around to seeing the <a href="http://www.altoonacurve.com/">Altoona Curve</a> this summer in August, when my <a href="http://billyprice.com">husband</a> has <a href="http://www.billyprice.com/schedule.html">scheduled</a> a gig at a club in Altoona called <a href="http://www.burgisroundhouse.com/">Burgi&#8217;s Roundhouse</a> during a weekend that coincides with the Curve playing in town. We have been trying to work that out unsuccessfully for the past several summers. My parents live near Hagerstown, Maryland and we have gone to see the <a href="http://www.hagerstownsuns.com/">Hagerstown Suns</a> play a number of times and really enjoyed ourselves.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on May 10, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id1021">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id1022" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id1022_hf_0" id="id1022_hf_0" /><input type="hidden" name="wicket:interface" value=":587:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id1023" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id1024" name="add" value="Add a comment" onclick="wicketShow('id1024--ajax-indicator');var wcall=wicketSubmitFormById('id1022', '../../../?wicket:interface=:587:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id1024--ajax-indicator');}.bind(this),function() { ;wicketHide('id1024--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id1022')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id1024--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

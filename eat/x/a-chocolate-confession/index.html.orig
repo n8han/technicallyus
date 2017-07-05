@@ -1,0 +1,151 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / A chocolate confession</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id1177" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="A chocolate confession" width="363" class="title" src="../../../resources/net.databinder.components.RenderedLabel/7dc213db"/><span class="title">A chocolate confession</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on March 22, 2007</span></span>
+			<span id="id1178" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/food%20products/#selected-tag"><span>food products</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p><img src="/pictures/torres.jpg" alt="" /></p>
+
+
+	<p>I&#8217;m deep in a love affair with a particular bar of expensive chocolate: Jacques Torres&#8217; <a href="http://www.mrchocolate.com/detail.aspx?ID=111">House Blend</a>, a 60% dark chocolate bar that has a permanent place in my desk, which I nibble at slowly day after day. Is $4 too much for a Hershey-sized bar of chocolate? I feel bad when I buy it, but the price comparison is meaningless, because one bar is good and the other is horrible.</p>
+
+
+	<p>Jacques Torres chocolate is sweeter than many of his competitors, which generally turns me off. But something about it is so <em>edible</em>. A lot of darker chocolates have weird fruit or dirt flavors that I can enjoy in a very tiny morsel, but I can never get through an entire bar. This chocolate is meant to be bitten into and eaten. My habit is currently taking me through about one bar per week (which, in all fairness, is not much, just one or two squares a day to satisfy the craving). I feel like I&#8217;m winning the Willy Wonka contest every time I open a bar and see that gorgeous inscription.</p>
+
+
+	<p>Torres&#8217; <a href="http://www.mrchocolate.com/detail.aspx?ID=159">chocolate bunnies</a> are also delicious and adorable, both the milk and dark varieties. You can buy them at Whole Foods in New York, including one that is two feet tall and nearly $100.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1179">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3564"><p>See, this is why you will never be in AA; I would be eating one of those per day, not per week. I call that a mild flirtation, not a love affair, if you can take a bite, then leave it in your desk for the rest of the day. A love affair, especially a &#8220;deep&#8221; one, is when you cannot keep your hands off the object of your passion.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on March 22, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3565"><p>I&#8217;ve had nibbles of Jacques Torres chocolates but I&#8217;ve never tried this. Sounds perfect for an afternoon sweet craving.</p>
+<p>I didn&#8217;t realize Whole Foods sold Jacques Torres bunnies. Now I know where I&#8217;m sending Fred to shop for my Easter basket goodies.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://goodamericanwife.blogspot.com"><span class="alias">Anne</span></a>
+  				<span>on March 22, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3566"><p>I heard on <span class="caps">CNN</span> this morning that chocolate prices are going way up, due to drought in West Africa and development in countries that produce cacao, driving up costs. You might want to lay in a supply, Leland.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca (Mommy)</span></span>
+  				<span>on March 22, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id117a">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id117b" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id117b_hf_0" id="id117b_hf_0" /><input type="hidden" name="wicket:interface" value=":636:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id117c" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id117d" name="add" value="Add a comment" onclick="wicketShow('id117d--ajax-indicator');var wcall=wicketSubmitFormById('id117b', '../../../?wicket:interface=:636:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id117d--ajax-indicator');}.bind(this),function() { ;wicketHide('id117d--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id117b')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id117d--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

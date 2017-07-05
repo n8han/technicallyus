@@ -1,0 +1,197 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Bacon salmon</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="idbcd" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Bacon salmon" width="222" class="title" src="../../../resources/net.databinder.components.RenderedLabel/353fc4da"/><span class="title">Bacon salmon</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on June 15, 2006</span></span>
+			<span id="idbce" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Ever since I heard that people could wrap salmon in bacon and fry it up, I&#8217;ve wanted to try it. Flipping through the beautiful <a href="http://www.amazon.com/exec/obidos/ASIN/0679422730/eat0e-20">Lutèce cookbook</a> at work today, I came across Chef André&#8217;s recipe for <em>Darne de saumon au lard</em>. I had everything but the bacon and salmon, and a quick trip to Garden of Eden took care of that.</p>
+
+
+	<p>This isn&#8217;t the first <a href="http://technically.us/eat/articles/2006/05/03/tarte-%C3%A0-loignon">André Soltner recipe</a> I&#8217;ve tried, and I&#8217;ve glanced at just about all of the recipes in that book. Lovely as they may sound, those things are hard. He wants you to make aspic for a cold summer lunch. He wants you to bake whole truffles in your own <em>pâte feuilletée</em>. The man is no joke. I told him that I tried his onion tart, and he said that one has to start somewhere.</p>
+
+
+	<p>The recipe wants you to team the salmon with a dainty garnish of boiled cabbage and carrots. This didn&#8217;t appeal to me today, so I decided to fry up slices of tomato and top them with roquefort and David Chang&#8217;s <a href="http://splendidtable.forum.publicradio.org/article.pl?sid=06/04/19/1522244">bath-cooked eggs</a>, the directions for which I&#8217;ve had sitting in my kitchen for months.</p>
+
+
+	<p><img src="/pictures/baconsalmon.jpg" alt="" /></p>
+
+
+	<p>Everything went as planned, although I didn&#8217;t have the food processor necessary to purée the &#8220;batter&#8221; for the salmon. I diced it as finely as possible, and it adhered somewhat to the fish. I also went ahead and dipped my tomato slices in it, and then I just fried up what was left and used it as a garnish.</p>
+
+
+	<p><strong>Darne de saumon au lard</strong> (modified considerably)</p>
+
+
+	<p>Cook <strong>3 ounces of thin bacon</strong> strips for two minutes, add <strong>1/2 cup of milk</strong> to it and some <strong>fresh thyme</strong>, and bring the milk to a boil. Lower the heat, cover it, and cook for ten minutes. Remove the thyme, and purée the bacon and milk. Mix it in a bowl with <strong>1/2 cup of bread crumbs</strong>, an <strong>egg</strong>, some <strong>parsley</strong>, and salt and pepper.</p>
+
+
+	<p>Cut <strong>1.5 pounds of skinless salmon</strong> into four portions, dip it in the batter, and fry it in oil.</p>
+
+
+	<p>He then asks you to make a healthy sauce consisting of <strong>6 tablespoons of butter</strong>, <strong>2 tablespoons of heavy cream</strong>, <strong>2 tablespoons of vinegar</strong>, and pepper. I used butter, crème fraîche, and sherry.</p>
+
+
+	<p>The flavors were all there, but I really think that puréeing the bacon and milk would have made them more pervasive in the finished dish. Also, my bath-cooked eggs were closer to hardboiled; I was hoping to see them cascade over the tomatoes like a creamy, goldenrod waterfall. Of course an egg always tastes good, especially when it&#8217;s sitting next to pungent roquefort.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="idbcf">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-2222"><p>I simply don&#8217;t know how you cope without a food processor! I use mine almost every day.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on June 15, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2223"><p>Just got my Cuisinart letter of credit today.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on June 15, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2224"><p>This sounds like a lot more work than wrapping salmon in bacon and cooking it. Did the finished product make you feel the work was worthwhile?</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://kitchenography.typepad.com"><span class="alias">Julie</span></a>
+  				<span>on June 15, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2225"><p>Not really, Julie, not really. Next time I&#8217;m just going to wrap it up.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on June 15, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2226"><p>Nothing like tomatoe with salmon, to me that&#8217;s a winner, I would always serve a simple tomatoe, oignon sauteed in olive oil, this is the best side dish for salmon to me&#8230;hmmmmm<br />
+Great choice!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Story Time</span></span>
+  				<span>on June 15, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6216"><p>You over cooked the salmon.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">DP</span></span>
+  				<span>on April 4, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6217"><p>DP: how about I take you out in the streets and overcook you?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on April 4, 2009</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="idbd0">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="idbd1" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="idbd1_hf_0" id="idbd1_hf_0" /><input type="hidden" name="wicket:interface" value=":433:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="idbd2" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="idbd3" name="add" value="Add a comment" onclick="wicketShow('idbd3--ajax-indicator');var wcall=wicketSubmitFormById('idbd1', '../../../?wicket:interface=:433:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('idbd3--ajax-indicator');}.bind(this),function() { ;wicketHide('idbd3--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('idbd1')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="idbd3--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

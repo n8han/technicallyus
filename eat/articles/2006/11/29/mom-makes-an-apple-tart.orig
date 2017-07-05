@@ -1,0 +1,278 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Mom makes an apple tart</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../eat">
+			
+			<img alt="Eat" src="../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../eat">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id4bf" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Mom makes an apple tart" width="398" class="title" src="../../resources/net.databinder.components.RenderedLabel/78de4e49"/><span class="title">Mom makes an apple tart</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on November 29, 2006</span></span>
+			<span id="id4c0" class="tags">
+					{&nbsp;<span><a href="../../eat/tag/books/#selected-tag"><span>books</span></a><span id="id4c1">, </span></span><span><a href="../../eat/tag/cooking%20with%20fruit/#selected-tag"><span>cooking with fruit</span></a><span id="id4c2">, </span></span><span><a href="../../eat/tag/baking/#selected-tag"><span>baking</span></a><span id="id4c3">, </span></span><span><a href="../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>I’ve had a lot of catching up to do, coming home from our trip to Spain and the long Thanksgiving weekend at my parents’ place in Maryland. It was great to spend time with so many family members down there and eat all that wonderful food. The turkeys came out especially well this year and I don’t know if it’s because we roasted them according to Elise’s <a href="http://www.elise.com/recipes/archives/000037moms_roast_turkey.php">directions</a> at <a href="http://www.elise.com/recipes/">Simply Recipes</a> or if it was because they were freshly killed birds raised by the local Mennonite farmers from whom my mother gets her <a href="http://technically.us/eat/articles/2006/11/24/raw-milk-party">raw milk</a>.</p>
+
+
+	<p>Anyway, I haven’t done any fancy cooking since I’ve been home because I’ve been busy washing clothes and just trying to replenish the larder. Another consequence of being away is that I had nothing to read when we got home, having returned all my library books before we left the first week of November. Now that may sound trivial to you folks, but to me it’s akin to the vodka bottle running dry for Ray Milland in <a href="http://en.wikipedia.org/wiki/The_Lost_Weekend"><em>The Lost Weekend</em></a>. I was frantically scouring our bookshelves for something, anything, that I hadn’t already read before and I came across a book Leland had given me last year, Jacques Pépin’s memoir, <a href="http://technically.us/eat/articles/2006/01/10/the-apprentice-by-jacques-p%C3%A9pin"><em>The Apprentice, My Life in the Kitchen</em></a>.</p>
+
+
+	<p style="float:left"><img src="/pictures/pepin.jpg" alt="" /></p>
+
+
+	<p>What a charming, compulsively readable book, and what a wonderful man Pépin is! I had no idea his life had, or has, been so fascinating. And what a thoroughly nice, modest, and unassuming person he seems to be, also. So unlike the mean-spirited Ruth Reichl, whose <a href="http://www.amazon.com/exec/obidos/ASIN/1594200319/eat0e-20"><em>Garlic and Sapphires</em></a> I read on the airplane. I’m just glad I never ran into her while she was out to eat in one of her wigs and wound up being turned into a story for her book.</p>
+
+
+	<p>I was quite taken with several of Pépin’s recipes, and I tried one of them last night. His mother’s apple tart has an unusual method for making the tart pastry, in which you mix the flour with soft butter, shortening, and hot milk, then spread it out with your fingers. It couldn’t be easier, and it’s quite tender and flaky. He calls for using Golden Delicious apples, though, and I think next time I might use something a bit tarter because it was a little sweet for us. I was also thinking how good it would be made with plums or peaches.</p>
+
+
+	<p><strong>Maman’s Apple Tart</strong></p>
+
+
+	<p style="float:right"><img src="/eat/files/aptart.jpg" alt="" /></p>
+
+
+	<p>Dough</p>
+
+
+	<ul>
+	<li>1 1/4 cups all-purpose flour</li>
+		<li>1 large egg, broken into small bowl and beaten with fork</li>
+		<li>3 tablespoons butter, softened</li>
+		<li>3 tablespoons shortening, such as Crisco</li>
+		<li>pinch salt</li>
+		<li>1 tablespoon sugar</li>
+		<li>1 teaspoon baking powder</li>
+		<li>2 tablespoons hot milk</li>
+	</ul>
+
+
+	<p>Filling</p>
+
+
+	<ul>
+	<li>4 large Golden Delicious apples (about 2 pounds)</li>
+		<li>3 tablespoons sugar</li>
+		<li>2 tablespoons cold butter, cut into small bits</li>
+	</ul>
+
+
+	<p>For the dough: Preheat the oven to 400º. Put all the dough ingredients except the hot milk into a bowl. Stir well with a wooden spoon until the mixture starts to combine. Add the hot milk and stir until well mixed. Do not overwork. The dough will be very soft. Place in a 9-inch pie plate (maman used a fluted metal quiche pan and I used a fluted Pyrex tart dish) and, using your fingers and a little extra flour to keep them from sticking, press the dough into the pan until it covers the bottom and the sides.</p>
+
+
+	<p>*Note: I dampened my fingers instead of flouring them and it worked quite well.</p>
+
+
+	<p>For the filling: Peel, core, and halve the apples. Cut each half into 1 1/2 inch wedges. (I didn’t understand this and just sliced the apples). Arrange the wedges on the dough like the spokes of a wheel. Sprinkle with the sugar, and top with the bits of butter.</p>
+
+
+	<p>Bake the tart for about 1 hour, or until the crust is well-browned and the apples are soft when pierced with the tip of a sharp knife. Serve it lukewarm.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id4c4">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3110"><p>That is the kind I love.  Welcome home!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">zp</span></span>
+  				<span>on November 29, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3111"><p>I&#8217;m so happy you liked the book! I remember wanting to try that recipe, too, but at the time I was probably too intimidated by the idea of crust. Maybe now is the time.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on November 29, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3112"><p>Welcome back!</p>
+<p>That&#8217;s a lovely looking tart.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://kitchenography.typepad.com"><span class="alias">Julie</span></a>
+  				<span>on November 29, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3113"><p>Oh, that looks delicious! Welcome home!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.metakathryn.com"><span class="alias">Kathryn</span></a>
+  				<span>on November 29, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3114"><p>This month&#8217;s issue of Cook&#8217;s Illustrated (the one that just came out) has a similar tart crust. I feel very tempted to try it&#8212;tart crusts can be so tempermental, and this sounds like a nice solution.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.epifurious.com"><span class="alias">Barletta</span></a>
+  				<span>on November 29, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3115"><p>I made that tart last summer, when I read the book- and thought it was lovely. Did you know that J.Pepin is going to be giving a talk at the Carnegie Music Hall here in Pgh on Monday- at 7:30 pm?</p>
+<p>It&#8217;s part of the Heinz lecture series-I got me a ticket, and I&#8217;m excited to be going.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://lindystoast.com"><span class="alias">lindy</span></a>
+  				<span>on November 29, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3116"><p>Thanks for all the kinds words and welcome home wishes, folks; it does feel like I was gone a lot longer than two weeks.</p>
+<p>I encourage everyone to try at least the crust from this recipe, with a tart filling of your choice. It will be my go-to tart crust from now on!</p>
+<p>Lindy, Leland emailed me about Pepin&#8217;s Pittburgh trip awhile ago (that&#8217;s a very alliterative sentence!) but I was under the impression that the Heinz lecture series was subscription only; can one obtain individual tickets? We were wondering where he would be eating.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on November 29, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3117"><p>Rebecca-I bought single tickets on the phone for a friend and me..if you are interested, you should give them a call. If I remember, they were $16 each.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">lindy</span></span>
+  				<span>on November 29, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3118"><p>Sorry to hear of your nasty cold, and interested to hear you have a February birthday.Me too. Mine&#8217;s the 8th- when is yours? Perhaps a coconut cake may arrive on your doorstep-you never know.</p>
+<p>I heartily recommend toddies, <span class="caps">BTW</span>, for the treatment of colds. I especially like one made with tea, honey and limoncello. My Auntie Louie&#8217;s method of administration is as follows: (Assistance is required-someone else has to prepare the toddy while you bathe.)</p>
+<p>1. Take a very hot bath, dry quickly.<br />
+2. Pop on a flannel nightgown.<br />
+3. Get into a warm bed with lots of cozy covers and a cool fresh pillowcase.<br />
+4. Consume toddy.</p>
+<p>You will immediately fall asleep, even if you are so stuffed you can scarcely breathe. When you awake in the morning, you will be able to breath through your nose, and feel rested. This (nearly )always works. For chest colds, the addition of some smelly Vics Vaporub on the chest is recommended, with some reservations. The stinkiness of the vics is considerable.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">lindy</span></span>
+  				<span>on November 29, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3119"><p>I like the way you think, Lindy and I&#8217;m changing my pillowcase immediately. Do you remember mustard plasters? When we were specially ill as children my mother would mix up some noxious paste, I think out of mustard flour and water, spread it on a cloth diaper, and pin it around our necks. I expect it did much the same thing as the Vaporub, which we also used, although not at the same time. Children were tortured in the name of health much more back in the olden days. Another excruciating remedy was the alcohol rub for a high fever &#8211; it was like being rolled in a snowbank! The complete opposite of your hot bath/flannel nightgown routine.</p>
+<p>Oh, my birthday is February 1st. You don&#8217;t run into that many of us, for some reason.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on November 29, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3120"><p>P.S, I did neglect to mention that Auntie Louie&#8217;s cure does involve some fairly indelicate, well, sweating, to be honest. In a good cause, though.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">lindy</span></span>
+  				<span>on November 29, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3121"><p>I always loved those cooking shows with Jacques and his daughter. (Claudette? Claudine? I can&#8217;t remember.) They looked like they really enjoyed one another.</p>
+<p>Gotta go add this book to my amazon Wish List!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://goodamericanwife.blogspot.com"><span class="alias">Anne</span></a>
+  				<span>on November 29, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3122"><p>PS:  Gorgeous tart!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://goodamericanwife.blogspot.com"><span class="alias">Anne</span></a>
+  				<span>on November 29, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id4c5">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id4c6" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id4c6_hf_0" id="id4c6_hf_0" /><input type="hidden" name="wicket:interface" value=":193:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id4c7" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id4c8" name="add" value="Add a comment" onclick="wicketShow('id4c8--ajax-indicator');var wcall=wicketSubmitFormById('id4c6', '../../?wicket:interface=:193:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id4c8--ajax-indicator');}.bind(this),function() { ;wicketHide('id4c8--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id4c6')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id4c8--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

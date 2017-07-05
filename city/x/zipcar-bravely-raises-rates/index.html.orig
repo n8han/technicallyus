@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/city-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>City Slicking / ZipCar bravely raises rates</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../city">
+			
+			<img alt="City Slicking" src="../../../resources/org.apache.wicket.Application/city-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../city">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/city-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id1924" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="ZipCar bravely raises rates" width="330" class="title" src="../../../resources/net.databinder.components.RenderedLabel/9e113ed3"/><span class="title">ZipCar bravely raises rates</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Doctor Barnett</span>, <span>on July 31, 2008</span></span>
+			<span id="id1925" class="tags">
+					{&nbsp;<span><a href="../../../city/tag/autos/#selected-tag"><span>autos</span></a><span id="id1926">, </span></span><span><a href="../../../city/tag/economy/#selected-tag"><span>economy</span></a><span id="id1927">, </span></span><span><a href="../../../city/tag/shopping/#selected-tag"><span>shopping</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Unlike traditional rental car companies, airlines, <a href='http://technically.us/city/x/fresh-disappointment'>FreshDirect</a>, and <a href='http://www.slate.com/id/2148103'>shippers</a>, <strong>ZipCar</strong> is responding the (really) old-fashioned way to rapidly changing costs of their business: they&#8217;re increasing the <em>regular price</em>. Not the diaphanous, unknowable <em>billed amount</em> that American hamsters have been painstakingly conditioned to accept as only loosely related to advertised prices and bolstered by mysterious taxes and fees. No. They have dared to increase the numbers that you see when deciding to make a reservation. Will their forthrightness be rewarded—or will the hampsters rebel against these brutally <em class='smcp'>honest dealings</em>?</p>
+
+<blockquote>
+<p>Hi Doctor Barnett,</p>
+</blockquote>
+
+<blockquote>
+<p>Gas price increases over the last few months have forced our hand, and we need to make adjustments in order to keep up. We thought it was important to tell you up front.</p>
+</blockquote>
+
+<blockquote>
+<p>The truth is that the jump in gas prices is unlike anything we&#8217;ve ever seen. It&#8217;s affecting commuters, travelers, and even your neighborhood car-sharing company.</p>
+</blockquote>
+
+<blockquote>
+<p>As of Monday, August 18th, the rates will look like this:</p>
+</blockquote>
+
+<blockquote>
+<ul>
+<li>Hourly reservations increase by $0.50 per hour.</li>
+
+<li>24-hour weekday reservations increase by $4 or less, depending on the vehicle type.</li>
+
+<li>24-hour weekend reservations increase by by $5-8, depending on the vehicle type.</li>
+
+<li>The incremental mileage charge (i.e. fee for miles over 180 per day) increases by $0.10 per mile.</li>
+</ul>
+</blockquote>
+
+<blockquote>
+<p>Zipcar continues to be a great value compared to owning a car, and we are committed to continuing to explore ways to keep our prices low. Our membership community has always been a source of support and ideas, and we are interested in hearing from you. Send us a note at info@zipcar.com anytime.</p>
+</blockquote>
+
+<blockquote>
+<p>Your support means a lot.</p>
+</blockquote>
+
+<blockquote>
+<p>Thank you,</p>
+</blockquote>
+
+<blockquote>
+<p>Joel Johnson<br />General Manager, New York City</p>
+</blockquote></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about'>About</h3>
+
+<p><em>City Slicking</em> is about urban life, transportation, energy, liberty, and language.</p>
+
+<h3 id='haunts'>Haunts</h3>
+
+<p><a href='http://twitter.com/n8han/'>Twitter</a><br /><a href='http://technically.us/code/'>Coderspiel</a><br /><a href='http://www.streetsblog.org/'>Streetsblog</a><br /><a href='http://gawker.com/people/alexpareene/posts/'>Pareene</a><br /><a href='http://www.copenhagenize.com/'>Copenhagenize</a><br /><a href='http://itre.cis.upenn.edu/~myl/languagelog/'>Language Log</a><br /><a href='http://t4america.org/'>Trans. for America</a></p>
+
+<h3 id='wire_service'>Wire Service</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/city-rss' title='All in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-short-rss' title='Left column, frequent links and notes'>Quickies</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-long-rss' title='Main column, occasional extended posts'>Treatise</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1928">
+  		
+  		
+  	</div>
+  	<div id="id1929">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id192a" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id192a_hf_0" id="id192a_hf_0" /><input type="hidden" name="wicket:interface" value=":984:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id192b" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id192c" name="add" value="Add a comment" onclick="wicketShow('id192c--ajax-indicator');var wcall=wicketSubmitFormById('id192a', '../../../?wicket:interface=:984:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id192c--ajax-indicator');}.bind(this),function() { ;wicketHide('id192c--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id192a')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id192c--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

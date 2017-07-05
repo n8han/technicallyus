@@ -1,0 +1,777 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/city-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>City Slicking / May 2007</title>
+
+		<script src="../../../resources/com.typeturner.pages.Archive/animator.js" type="text/javascript"></script>
+		<script src="../../../resources/com.typeturner.pages.Archive/Archive.js" type="text/javascript"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" ><!--/*--><![CDATA[/*><!--*/
+Wicket.Event.add(window, "load", function() { highlightTarget()  ;});
+/*-->]]>*/</script>
+
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div id="lead">
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../city">
+			
+			<img alt="City Slicking" src="../../../resources/org.apache.wicket.Application/city-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../city">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/city-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="span-14 last">
+	<h1 class="period" id="navigation">
+		<span class="arrow"><a class="arrow" href="../../../city/archive/2007/4/#navigation"><img height="45" alt="<" width="18" src="../../../resources/net.databinder.components.RenderedLabel/d14166b5"/></a></span>
+		<span class="month-year"><img height="45" alt="May 2007" width="141" src="../../../resources/net.databinder.components.RenderedLabel/cb0adc49"/></span>
+		<span class="arrow"><a class="arrow" href="../../../city/archive/2007/6/#navigation"><img height="45" alt=">" width="18" src="../../../resources/net.databinder.components.RenderedLabel/d14166b7"/></a></span>
+	</h1>
+</div>
+
+<div class="prepend-1 span-12 append-1 last calendar" id="calendar">
+	<div id="id22b1" class="span-3 sidebar">
+		<h3>1 &ndash; 8</h3>
+		<div>
+			<div id="item-327" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22b2"><p><em>The Times</em>, no great friend to fundamentalists in the U.S., clucks at the <a href='http://www.nytimes.com/2007/04/30/world/europe/30turkey.html'>&#8220;fear&#8221; of religious &#8220;lifestyle&#8221;</a> in the Turkish thinking class. &#8220;Prejudices among secular Turks have their roots in Turkey’s education system.&#8221; Yeah. It&#8217;s called science. We have it here too, except sometimes in <a href='http://select.nytimes.com/gst/abstract.html?res=F70F12F93B5B0C708CDDA10894DE404482&amp;showabstract=1'>Kansas</a>. When there are &#8220;questions like whether to separate the sexes in public swimming pools,&#8221; it&#8217;s not a subscription to <em>Maizah Stewart Living</em> they&#8217;re worried about.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 1</span>
+							<a href="../../../city/archive/2007/5/#item-327">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-328" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22b3"><p>Foreign tourists are <a href='http://www.nzherald.co.nz/section/2/story.cfm?c_id=2&amp;objectid=10436518'>afraid to visit us</a>: &#8220;In a recent poll of international travellers&#8230; 70 percent of respondents said they feared U.S. officials more than terrorists or criminals.&#8221; Those clever foreigners, correctly estimating <a href='http://www.schneier.com/blog/archives/2006/11/perceived_risk_1.html'>risks</a> and stuff. [via <em>b.b.</em>]</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 1</span>
+							<a href="../../../city/archive/2007/5/#item-328">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-330" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22b4"><p><em>Wonkette</em> has some <a href='http://wonkette.com/politics/dept&apos;-of-hilarious-blog-comments/hey-mexicans-leave-your-dope-at-home-in-mexico-256803.php'>fun with barely literate comments</a>: &#8220;white Americans are having a crucial debate about the tragic crisis in the comments of this <em>New York Times</em> blog we just found.&#8221;</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 1</span>
+							<a href="../../../city/archive/2007/5/#item-330">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-331" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22b5"><p>Love <a href='http://www.theonion.com/content/magazine/the_10_products_that_will_make'>this</a>.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 1</span>
+							<a href="../../../city/archive/2007/5/#item-331">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-334" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22b6"><p>SFGate is able to have an <a href='http://www.sfgate.com/cgi-bin/blogs/sfgate/detail?blogid=14&amp;entry_id=16036'>honest opinion on carbon tax</a>: &#8220;The most inconvenient truth in Washington is that nothing is more important than keeping energy as cheap as Hugo Chavez, Mahmoud Ahmadinejad and King Abdullah will allow.&#8221; Predictably, their first commenter starts screeching about the poor, says they are &#8220;going to starve&#8221; without their cheap gas. Funny, I&#8217;m feeling sated and haven&#8217;t been in a car since February.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 2</span>
+							<a href="../../../city/archive/2007/5/#item-334">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-335" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22b7"><p>Presumed brain dead mega-brand shockingly has an <a href='http://www.subtraction.com/archives/2007/0501_to_wrap_it_u.php'>efficiency and quality enhancing idea</a>: &#8220;there is a subtle, dotted grid pattern printed on the backside of Hallmark gift wrap that serves as a guide as customers cut away the necessary amount to wrap presents.&#8221;</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 2</span>
+							<a href="../../../city/archive/2007/5/#item-335">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-339" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22b8"><p>Editorial integrity: at least <a href='http://gawker.com/news/core-principles/steve-jobs-may-be-hazardous-to-your-job-257411.php'>some people are still trying</a>.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 3</span>
+							<a href="../../../city/archive/2007/5/#item-339">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-341" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22b9"><p>This BlackBerry marketing copy, <a href='http://daringfireball.net/linked/2007/may#thu-03-bbcurve'>spotted</a> by <em>Daring Fireball</em>, is delicious: &#8220;Check the latest fashion, or even automotive trends online. Then send links to friends so they can see what&#8217;s hot&#8230; and what&#8217;s not.&#8221; Love the kicker; you go conference room B-3!</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 3</span>
+							<a href="../../../city/archive/2007/5/#item-341">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-342" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22ba"><p>The most annoying thing about the 2002 lead up to our glorious invasion of Iraq was the Dem&#8217;s claim that their blank check for <em class='smcp'>war</em> was to be used only as a threat. Ha ha&#8212;that <em>threatening</em> act removed them entirely from the decision to go from sabre-rattling to sabre-stabbing. So the decider then decided to stab (who could have seen <em>that</em> coming?), and it was like one of those kung-fu movies where the stabbed guy looks up, grins, and proceeds to kick your ass. Anyway, Clinton wants to <a href='http://www.nytimes.com/2007/05/04/washington/04cong.html'>stop payment on that blank check</a>.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 4</span>
+							<a href="../../../city/archive/2007/5/#item-342">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-346" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22bb"><p>Gould gets <a href='http://www.nytimes.com/2007/05/04/opinion/04gould.html'>op-ed space in <em>The Times</em></a> to carry out revenge for the televised beat-down she suffered a few weeks back. The paper must realize that the <em class='smcp'>blogs</em> are their allies in the war against successful dumb people on television.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 7</span>
+							<a href="../../../city/archive/2007/5/#item-346">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-347" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22bc"><p>From <a href='http://www.nytimes.com/2007/05/04/opinion/04gould.html'>E.G.&#8217;s satisfying op-ed</a> (yes, of last week, but we were in Cheecaaow, where they do not have <em>The Times</em> or <em>Gawker</em>): &#8220;Is there anyone who reads the Page Six column in The New York Post or Star magazine credulous enough to believe that starlets are really &#8216;spotted&#8217; enjoying, say, a specific brand of vodka?&#8221;</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 7</span>
+							<a href="../../../city/archive/2007/5/#item-347">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-348" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22bd"><p><em>Slate</em> chimes in on a hobby horse of ours, the <a href='http://www.slate.com/id/2165581/'>horror of wedding consumerism</a>: &#8220;Today&#8217;s marriage ceremony is indeed a statement of love: the love of buying things, and, more particularly, buying things that have been personalized to express one&#8217;s taste and, so the industry tells us, the essence of who one is.&#8221; (We did manage to <a href='http://technically.us/doc/articles/2006/11/05/weddings-worst-and-only-use-of-the-word-“joyous”'>say it worse</a> ourselves.) Along those <em>essential</em> lines, a downtown mall in Chicago (it was cold!) is plastered with the tagline, &#8220;Defining You.&#8221;</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 7</span>
+							<a href="../../../city/archive/2007/5/#item-348">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-351" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22be"><p><a href='http://www.slate.com/id/2165669/'><em>Ad Report Card</em></a>: &#8220;BP hopes to cement itself as the most &#8216;green&#8217; of the massive oil companies. To this end &#8230; [stations] hand out trading cards with environmentally sensitive tips for kids &#8221; Here&#8217;s a tip: don&#8217;t produce useless throw-away cards.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 8</span>
+							<a href="../../../city/archive/2007/5/#item-351">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-352" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22bf"><p>Until now, we saw Keith McNally as a smart businessman with a knack for selling a Disneyfied version of smoke-clogged French <em>brasseries</em> to people who should know better. (Have Balthazar fans ever eaten in one of those, even? Our unbidden Proustian memories springing from red <em>banquettes</em> are decidedly <em>malheureux</em>.) Now we see that he&#8217;s <a href='http://gawker.com/news/sour-grapes-and-convenient-femiladyism/frank-bruni-hates-ladies-claims-crazy-mcnally-258702.php'>just another pathetic restaurateur</a> who thinks popular = better-than-good reviews. Others would kill for that &#8220;token&#8221; one star, Mr. McDisney.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 8</span>
+							<a href="../../../city/archive/2007/5/#item-352">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div>
+	</div><div id="id22c0" class="span-3 sidebar">
+		<h3>9 &ndash; 16</h3>
+		<div>
+			<div id="item-353" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22c1"><p>More of McNally <a href='http://nyobserver.com/print/53942/full'>being a prick</a>: &#8220;The smaller-minded critics, however (and this includes Bruni), don&#8217;t care for my places, because when they&#8217;re there, they feel disempowered. They don&#8217;t have the power, as they so often do, to alter the fate of the place. It drives them to distraction. But it only makes me smile.&#8221; Well, that settles it: EuroRestauDisneys are the new &#8220;Irish pubs.&#8221; Avoid.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 9</span>
+							<a href="../../../city/archive/2007/5/#item-353">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-354" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22c2"><p>Wimpy frontiersmen who&#8217;ve chosen to settle in the savage desert now demand that <a href='http://feeds.feedburner.com/~r/wired27b/~3/115383818/congressman_wan.html'>wolves be introduced in Central Park</a> if they are to be let loose in their big desert back yards. Just wait until we reanimate T. rex, New Mexico, then you will see how much fun the wild wild west can be!</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 9</span>
+							<a href="../../../city/archive/2007/5/#item-354">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-356" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22c3"><p><em>Times</em> distills radical Islam to, simply, &#8220;religion,&#8221; in <a href='http://www.nytimes.com/2007/05/10/nyregion/10plot.html'>Religion Guided 3 Held in Fort Dix Plot</a>: &#8220;if you get too much to the religion, you get out of your mind and you do stupid things,&#8221; says distant relative. No doubt&#8212;this was the <a href='http://wonkette.com/politics/lost-the-plot-dept%27/feds-nix-dix-six-258602.php'>stupidest plot ever</a>.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 10</span>
+							<a href="../../../city/archive/2007/5/#item-356">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-357" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22c4"><p>What, an <a href='http://blog.wired.com/business/2007/05/pc_world_brings.html'>Editor in Chief beat a Chief Executive Officer</a> in an editorial deathmatch? That great, but the fallout will further elevate managerial titles in all our offices. <em>Good morning, Mr. Jesus God Chieftain Executional Admiral Officer!</em></p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 10</span>
+							<a href="../../../city/archive/2007/5/#item-357">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-358" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22c5"><p>A <em>Times</em> opinion piece frets over the <a href='http://www.nytimes.com/2007/05/10/business/10scene.html'>canard of poor <abbr>NYC</abbr> drivers</a>: &#8220;Although most people who currently commute by car into Manhattan are not poor, some are, and for these drivers, paying $8 each day would be difficult.&#8221; (As <em>TNYer</em> <a href='http://www.newyorker.com/talk/comment/2007/05/07/070507taco_talk_kolbert'>bravely pointed out</a>, &#8220;that is precisely the point.&#8221;) The piece goes on to propose a system of vouchers for the poor (except there it adopts the vague &#8220;worker&#8221;), that could be used when they &#8220;have no choice but to drive,&#8221; and resold otherwise. Sure, great way to progress against the bourgeoisie and stuff! We non-driving bougies will get on board just as soon as we see some evidence of these <em>indentured driving poor</em>.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 10</span>
+							<a href="../../../city/archive/2007/5/#item-358">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-378" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22c6"><p>We weren&#8217;t kidding <a href='http://technically.us/city/x/my-view-from-west-ambler-johnston-hall'>about gun-crazy Virgina</a>. (Yes, that <abbr>VT</abbr> post will be fronted until Jesus comes again.) Now they&#8217;ve written laws to <a href='http://www.washingtonpost.com/wp-dyn/content/article/2007/05/09/AR2007050902573.html'>prevent <abbr>NYC</abbr> from busting their gun shops</a> for selling mountains of guns illegally (they do have <em>some</em> gun laws to be broken) that get used in bad places like here and never in God&#8217;s blessed Virginia except by foreign loners. <abbr>NYC</abbr> responds with the obvious: &#8220;We wish [Virginia] was as aggressive in enforcing the laws that prevent illegal guns from getting in the hands of criminals&#8221; blah blah &#8220;gun lobby.&#8221; (It&#8217;s not the lobby driving things there; the state <em>is for gun lovers</em>, but whatever works!) [via <em>Wonkette</em>]</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 10</span>
+							<a href="../../../city/archive/2007/5/#item-378">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-379" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22c7"><p>Schneier writes about <a href='http://www.schneier.com/blog/archives/2007/05/is_big_brother.html'>how today isn&#8217;t like 1984</a>. It isn&#8217;t because Lady Macintosh threw a hammer. Or, it is, in the sense that all computer use creates a surveillance society inadvertently.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 11</span>
+							<a href="../../../city/archive/2007/5/#item-379">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-382" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22c8"><p>Funny but impossible to believe <a href='http://newyork.craigslist.org/mnh/roo/328207798.html'>craigslist posting</a> found <a href='http://gawker.com/news/live-with-a-sadult/get-nervous-get-nervous-259687.php'>by <em>Gawker</em></a>: &#8220;I have a box set of ally McBeal and Full House (I&#8217;m from San Francisco) and like watch them often.&#8221; And we&#8217;re from New York and we&#8217;re addicted to <em>Friends</em>. We did <em>not</em> stop watching after the first season when whatever happened to Ross and what&#8217;s-her-hair! (We were 14 or something and not from New York; don&#8217;t judge us for watching even that much.)</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 11</span>
+							<a href="../../../city/archive/2007/5/#item-382">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-406" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22c9"><p>One or two new <abbr>NYPD</abbr> officers are so poor, they <a href='http://www.nytimes.com/2007/05/12/nyregion/12recruits.html'>have to take the degrading subway to work</a>. Striking lead photo depicts never before seen image of uniformed officer waiting on platform.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 12</span>
+							<a href="../../../city/archive/2007/5/#item-406">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-424" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22ca"><p>Evil <a href='http://www.ashersarlin.com/archives/2007/05/happy_mothers_d.php'>mother&#8217;s day cards</a>. <em>Card B</em> works fine actually if mom&#8217;s birthday was on Sunday, which it was.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 14</span>
+							<a href="../../../city/archive/2007/5/#item-424">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-425" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22cb"><p>Men and women are <a href='http://itre.cis.upenn.edu/~myl/languagelog/archives/004491.html'><em class='smcp'>hardwired</em> to talk totally different</a>&#8212;but only if you believe those absurd press-grubbing gender studies that come out every four and a half months. Nobody please tell <em>Slate</em>!</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 14</span>
+							<a href="../../../city/archive/2007/5/#item-425">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-426" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22cc"><p><em>Gawker</em> <a href='http://gawker.com/news/bridezillas/was-jodi-kantors-wedding-totally-tacky-260206.php'>wedding wire</a>: &#8221;<em>One Perfect Day</em> is a takedown of America&#8217;s overblown wedding culture, but it keeps getting reviewed by ladies who either <a href='http://www.nytimes.com/2007/05/13/books/review/Kantor-t.html'>just had</a> or <a href='http://www.slate.com/id/2165581/'>are planning</a> an overblown American wedding.&#8221; Except the one planning a wedding (we <a href='http://technically.us/city/archive/2007/5#item-348'>linked</a>) is pretty fair compared to recently wed Kantor&#8217;s retort that big weddings are dandy because &#8220;we&#8217;re all nouveau riche now&#8221; and she makes homemade ice cream thanks to her registry. First, materialistic boob misses point, and second, we are not believing that Kantor has used that machine twice or has stocked heavy cream at all since the one time she may have used it.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 14</span>
+							<a href="../../../city/archive/2007/5/#item-426">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			
+			<div>
+				<h3><a class="title" href="../../../city/x/there-is-only-one-the-unit/"><span>There is only one The Unit</span></a></h3>
+				<div class="byline">
+					<span>May 14</span>
+				</div>
+			</div>
+		</div><div>
+			<div id="item-438" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22cd"><p><em>The Onion</em>: <a href='http://www.theonion.com/content/node/41693'>One In Five Women Training To Be Yoga Instructors</a>. In our family, it&#8217;s one in four!</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 15</span>
+							<a href="../../../city/archive/2007/5/#item-438">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-441" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22ce"><p>Highly scary graphic <a href='http://www.chrisjordan.com/current_set2.php?id=7'>representations of cosumption</a>. Thank you for leading with the bottled water, artist man. [via <em>boingboing</em>]</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 15</span>
+							<a href="../../../city/archive/2007/5/#item-441">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-460" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22cf"><p>Cory Doctorow filed a long piece about <a href='http://www.informationweek.com/story/showArticle.jhtml?articleID=199600005'>managing trolls in on-line communities</a> for some walking-dead computer trade mag. He doesn&#8217;t mention <em>Gawker</em>&#8217;s method of oft-closed registration and instant revocation, which we used to think was effective. Lately <em>Gawker</em>&#8217;s comment threads have been <a href='http://gawker.com/news/bridezillas/was-jodi-kantors-wedding-totally-tacky-260206.php#c1457231'>terrible</a>, so maybe not. Having been involved in various fake communities since before the Internet, we&#8217;ve concluded that none of them are worth the time and emotional energy they tend to sap. Better to maintain one&#8217;s own weblog house and tour through &#8220;communities&#8221; when they are pleasant, but skip town as soon as the mood inevitably changes.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 16</span>
+							<a href="../../../city/archive/2007/5/#item-460">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-462" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22d0"><p><em>Times</em> prints embarrassing <a href=''>letter</a> from formerly slick purveyor of <em>fausse culture</em> Keith McNally: &#8220;And though Mr. Bruni did award two female chefs with two stars (both outside of Manhattan), in both cases he failed (or forgot) to mention that the chef was a woman.&#8221; <em>Quel</em> smoking gun! This is what happens when an out-sized, maligned ego tries to hitch a ride on an outdated political correctness culture that, like clean and appealing <em>brasseries</em>, never existed in real life anyway. [<a href='http://gawker.com/news/boys-will-be-boys/is-mcnallys-allegation-of-bruni-sexism-sexist-260993.php'>via</a> <em>Gawker</em>]</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 16</span>
+							<a href="../../../city/archive/2007/5/#item-462">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-463" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22d1"><p>We don&#8217;t link to <em>NYT</em> blogs very often (because they suck) but <a href='http://campaigningforhistory.blogs.nytimes.com/2007/05/15/how-bush-stayed-true-to-conservatism/'>this post</a> by some professor dude who appears to lack eyebrows is very good. It&#8217;s about how the rats fleeing Ship Bush don&#8217;t have a plank to cling to. Skim (don&#8217;t skip!) through to the end; it climaxes nicely.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 16</span>
+							<a href="../../../city/archive/2007/5/#item-463">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div>
+	</div><div id="id22d2" class="span-3 sidebar">
+		<h3>17 &ndash; 24</h3>
+		<div>
+			<div id="item-467" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22d3"><p>When a police force is too fancy to just walk around town, <a href='http://www.nytimes.com/2007/05/17/nyregion/17police.html'>a fleet of Segways</a> is good news. But don&#8217;t try this yourselves, New Yorkers! &#8220;Such use of Segways by anyone else would be against the law. Despite several recent attempts in Albany to define a Segway as a vehicle that can be legally registered and insured&#8230;&#8221; Registered and insured? Yeah actually no thanks <em>Albany</em>, please legalize them when you realize they present no more threat to others than do bicycles&#8212;practically no threat at all. (Bicycles apparently killed a few New Yorkers on foot in the ’90s; so, they&#8217;re only two hundred times less dangerous than cars.)</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 17</span>
+							<a href="../../../city/archive/2007/5/#item-467">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-468" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22d4"><p>When we heard that <a href='http://www.amny.com/news/local/ny-bc-ny--congestionpricing0516may16,0,7338030.story'>Clinton voiced support of congestion pricing</a>, we had our first ever happy tinglings for Hillary. Silly us&#8212;it&#8217;s her husband, of course. [<a href='http://www.streetsblog.org/2007/05/17/todays-headlines-160/'>via</a> <em>Streetsblog</em>]</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 17</span>
+							<a href="../../../city/archive/2007/5/#item-468">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-469" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22d5"><p><em>Language Log</em> looks back at <a href='http://itre.cis.upenn.edu/~myl/languagelog/archives/004503.html'>Falwell&#8217;s non-apology for blaming <em class='smcp'>the gays</em></a> for the September eleventh attacks.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 17</span>
+							<a href="../../../city/archive/2007/5/#item-469">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-472" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22d6"><p>Another Schneier post about <a href='http://www.schneier.com/blog/archives/2007/05/rare_risk_and_o.html'>bad human risk assessment</a>, this time bracketed by Virginia Tech clucking. We&#8217;re sounding sarcastic because we do think that American gun culture is a serious problem, represented not just by that rare event (at <em>our</em> college), but also by the whole <a href='http://technically.us/city/x/my-view-from-west-ambler-johnston-hall'>crazy state of Virginia</a>. This bit is redeeming: &#8220;I tell people that if it&#8217;s in the news, don&#8217;t worry about it. The very definition of &#8216;news&#8217; is &#8216;something that hardly ever happens.&#8217; It&#8217;s when something isn&#8217;t in the news, when it&#8217;s so common that it&#8217;s no longer news&#8212;car crashes, domestic violence&#8212;that you should start worrying.&#8221;</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 17</span>
+							<a href="../../../city/archive/2007/5/#item-472">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-473" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22d7"><p><em>Ask MetaFilter</em>: <a href='http://ask.metafilter.com/62860/Buddhist-wedding-tips'>We&#8217;ve been invited to a Buddhist wedding. How can we stay faux-pas-free?</a> And it&#8217;s not just any Buddhist wedding, &#8220;it&#8217;s a same-sex marriage of two men, one of them a co-worker from my new job.&#8221; The best thing to do is <em>skip this wedding</em> of losers you don&#8217;t even know and avoid the risk of rolling your eyes out the back of your head.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 17</span>
+							<a href="../../../city/archive/2007/5/#item-473">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-476" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22d8"><p>Krugman (the editorial version of one-sided crashers of political banter) has written his <em>own</em> piece outlining the <a href='http://select.nytimes.com/2007/05/18/opinion/18krugman.html'>ways that Bush has been true to his party</a>, and how Republican candidates to replace Bush, while casting themselves as un-Bushian out of necessity, still endorse his worst policies: &#8220;Mitt Romney declared that he wants accused terrorists at Guantánamo, &#8216;where they don’t get the access to lawyers they get when they’re on our soil &#8230; My view is, we ought to double Guantánamo.&#8217;&#8221; The Republicans have found their focus group candidate (and he&#8217;s more believable than our Mrs. Clinton).</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 18</span>
+							<a href="../../../city/archive/2007/5/#item-476">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-477" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22d9"><p><em>Streetsblog</em> on a proposed <a href='http://www.streetsblog.org/2007/05/18/cb6-committee-unanimously-approves-9th-st-project/'>Brooklyn street redesign</a> whose bike lane is mind-bogglingly controversial: &#8220;And the composition of the crowd highlighted a stark generational divide, with opponents seemingly all falling into the 45-to-80 age bracket.&#8221; Eighty! We hate to coldly propose that the problem will be solved by the grim reaper, but shucks: old people who reject the urban post-car culture of younger generations won&#8217;t be able to vote from the grave.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 18</span>
+							<a href="../../../city/archive/2007/5/#item-477">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-479" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22da"><p>Non-crazy judge <a href='http://www.advocate.com/news_detail_ektid45284.asp'>refuses to award compensation</a> to a Mormon woman who was punished for saying &#8220;that&#8217;s so gay&#8221; in high school in 2003. In order of increasing stupidity, we find: <strong>1.</strong> saying &#8220;that&#8217;s so gay&#8221; (we said it in high school too, lol!) <strong>2.</strong> sending kid to principal for that <strong>3.</strong> suing for that in 2003 <strong>4.</strong> carrying on that suit for <em class='smcp'>four years</em> of your Mormon woman life. Even gay people don&#8217;t care that much about gay crap like that.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 18</span>
+							<a href="../../../city/archive/2007/5/#item-479">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-486" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22db"><p>A <a href='http://www.newsday.com/news/local/longisland/ny-lirage0520,0,4995847.story'>motorized spat on the <abbr>LIE</abbr></a> escalates from &#8220;a huge phlegm ball&#8221; to pepper spray, making us wonder again why people <em>want</em> to drive their stupid cars around and into cities. [via <em>Streetsblog</em>]</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 21</span>
+							<a href="../../../city/archive/2007/5/#item-486">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-488" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22dc"><p>Pretty awesome <em>WaPo</em> <a href='http://www.washingtonpost.com/wp-dyn/content/article/2007/05/20/AR2007052001059.html'>op-ed by The Terminator</a>: &#8220;It&#8217;s bad enough that the federal government has yet to take the threat of global warming seriously, but it borders on malfeasance for it to block the efforts of states such as California and Connecticut that are trying to protect the public&#8217;s health and welfare.&#8221;</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 21</span>
+							<a href="../../../city/archive/2007/5/#item-488">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-489" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22dd"><p>Though the paper is <a href='http://www.nytimes.com/2007/05/21/world/middleeast/21cnd-lebanon.html'>confidently using &#8220;Islamist&#8221;</a> to mean <em>bad Muslims who are not like all the nice ones we are friends with!</em>, the coin press hasn&#8217;t cooled enough if you ask us. At best <a href='http://dictionary.reference.com/search?q=islamist&amp;x=0&amp;y=0'>Islamist means</a> <em>Muslim scholar</em>, at worst <em>orthodox Muslim</em>. Neither fits well with &#8220;Dozens Slain as Lebanese Army Fights Islamists.&#8221; <em>Militant Muslims</em> would be most forthright, or <em>militant fundamentalists</em>, to be neutral, correct, and encourage healthy reflection.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 21</span>
+							<a href="../../../city/archive/2007/5/#item-489">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-491" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22de"><p>Nina Planck, <a href='http://technically.us/eat/articles/2006/06/17/nina-plancks-real-food-market'>friend</a> of <em>Eat</em>, wrote an <a href='http://www.nytimes.com/2007/05/21/opinion/21planck.html'>op-ed for <em>The Times</em></a> today that has reached number one e-mailed status. (It doesn&#8217;t hurt that its headline is the bone-chilling <em class='smcp'>Death by Veganism</em>.) Good job Planck! No surprise that vegans can&#8217;t even breast feed their babies properly: &#8220;Studies show that vegan breast milk&#8221; may as well be damn water (<em>paraphrased</em>).</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 21</span>
+							<a href="../../../city/archive/2007/5/#item-491">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-492" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22df"><p>Lady <em>Times</em> editor Abramson <a href='http://www.nysun.com/article/54931'>run over by autonomous wheel</a>: &#8220;The lady, I don&#8217;t know what the exact story is, she was standing in the street…and the wheel of the truck went over her foot.&#8221; Bad truck wheel!</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 22</span>
+							<a href="../../../city/archive/2007/5/#item-492">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-495" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22e0"><p>Yet another <a href='http://wonkette.com/politics/eternal-vigilance-dept&apos;/religious-fanatic-plans-terrorist-attack-at-falwells-funeral-262667.php'>militant fundamentalist</a> plotting terrorism: &#8220;The student, 19-year-old Mark D. Uhl of Amissville, Va., reportedly told authorities that he was making the bombs to stop protesters from disrupting the [Falwell] funeral service.&#8221; And they say we shouldn&#8217;t sterotype!</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 22</span>
+							<a href="../../../city/archive/2007/5/#item-495">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-497" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22e1"><p><strong>alum</strong>: &#8220;a colorless astringent compound that is a hydrated double sulfate of aluminum and potassium.&#8221; The word you&#8217;re looking for is <a href='http://dictionary.reference.com/browse/alumnus'>alumnus</a>.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 23</span>
+							<a href="../../../city/archive/2007/5/#item-497">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-498" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22e2"><p>Curse those chicken Democrats for making it so easy for the <em>NY Sun</em> of all tabloids to write a <a href='http://www.nysun.com/article/55074'>perfectly logical editorial</a>: &#8220;To complain about high gasoline prices while also urging America to reduce its gas consumption for environmental and foreign policy reasons is as contradictory as [blah blah <em class='smcp'>taxes is bad</em> blah].&#8221; It&#8217;s would-be panderer-in-chief Clinton leading the backward charge, of course.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 23</span>
+							<a href="../../../city/archive/2007/5/#item-498">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-500" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22e3"><p>Alternate liberal universe has a <a href='http://www.onnyturf.com/articles/read.php?article_id=556'>Manhattan apartment for every homeless person</a> in the city. Never mind that plenty of people with actual jobs can&#8217;t seem to find one of those. There are apparently a lot of vacant apartments because of rent control laws and the solution is&#8212;of course&#8212;more rent control laws. Next thing you know we&#8217;ll be demanding cheap gas so the poor can drive non-stop until we&#8217;re all underwater. Oh, right, that was this morning.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 23</span>
+							<a href="../../../city/archive/2007/5/#item-500">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-502" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22e4"><p><a href='http://gawker.com/news/ask-an-expert/should-authors-hold-copyrights-forever-263230.php'>Q &amp; A on <strong>perpetual copyright</strong></a> at <em>Gawker</em>, comes out solidly against it. Well, duh, but apparently some writers need to have it laid out for them.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 24</span>
+							<a href="../../../city/archive/2007/5/#item-502">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-503" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22e5"><p>One of <em>The New York Times</em>&#8217; blaaahgs <a href='http://buchanan.blogs.nytimes.com/2007/05/23/a-new-silent-majority/'>frets that</a> something is &#8220;out of whack between <strong>the mainstream media</strong> and the American people.&#8221; Possibly! When the MSM paper of record links to its blaaahg posts about the evils of MSM from its MSM front page, you know <em>something</em> is wacky. But it turns out the post&#8217;s version of the despised MSM is television news (going by the network abbreviations that leap off the page). If that&#8217;s the real boogyman, the single <em>medium</em> of television, the whole &#8220;mainstream media&#8221; web virus is even more lexically retarded than we thought.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 24</span>
+							<a href="../../../city/archive/2007/5/#item-503">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div>
+	</div><div id="id22e6" class="span-3 sidebar last left-overlay">
+		<h3>25 &ndash; 31</h3>
+		<div>
+			<div id="item-505" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22e7"><p>An <em>NYT</em> editorial pushing Spitzer to <a href='http://www.nytimes.com/2007/05/25/opinion/25fri2.html'>get behind <strong>congestion pricing</strong></a> holds a very important message for the ignorant <a href='http://www.quinnipiac.edu/x1302.xml?ReleaseID=1066'>fifty-three percent</a> of transit riders who oppose it: &#8220;If congestion pricing does not go through, transit riders can expect a fare hike, perhaps as early as this year, along with tax increases.&#8221; That&#8217;ll move the chains!</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 25</span>
+							<a href="../../../city/archive/2007/5/#item-505">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-506" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22e8"><p><a href='http://gawker.com/news/in-memorial-day-to-identity/lead-us-not-into-penn-station-263571.php'>Lead Us Not Into <strong>Penn Station</strong></a> is the best memorial day / my birthday weekend headline possible (if not entirely <a href='http://www.google.com/search?rls=en&amp;q=%22lead+us+not+into+penn+station%22&amp;sourceid=opera'>original</a>). What train are <em>you</em> taking from Penn? We&#8217;re on the 5:28 to <abbr>EWR</abbr>!</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 25</span>
+							<a href="../../../city/archive/2007/5/#item-506">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-508" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id22e9"><p><em>City Slicking</em> est <strong>en vacances</strong>, et ne sera pas publié jusqu&#8217;au 4 juin.<br />xoxo</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>May 25</span>
+							<a href="../../../city/archive/2007/5/#item-508">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div>
+	</div>
+</div>
+	
+
+
+</div> <!-- container -->
+
+<div id="target-padder"></div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="../../../blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="../../../blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet.css"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Growling bzr commits over the network</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code.html">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code.html">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id24e5" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Growling bzr commits over the network" width="641" class="title" src="../../../resources/net.databinder.components.RenderedLabel/17c3f133"/><span class="title">Growling bzr commits over the network</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on February 14, 2009</span></span>
+			<span id="id24e6" class="tags">
+					{&nbsp;<span><a href="../../tag/python/index.html#selected-tag"><span>python</span></a><span id="id24e7">, </span></span><span><a href="../../tag/bzr/index.html#selected-tag"><span>bzr</span></a><span id="id24e8">, </span></span><span><a href="../../tag/dvcs/index.html#selected-tag"><span>dvcs</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>All distributed version control systems have their strengths. One of <strong>Bazaar</strong>&#8217;s is that it has an <a href='http://bazaar-vcs.org/Download'>installer for Windows</a> including a Tortoise. It also has <a href='http://bazaar-vcs.org/BzrEclipse'>an Eclipse plug-in</a> (but don&#8217;t forget <a href='http://bazaar-vcs.org/XMLOutput'>this other thing</a> that it requires). And it supports &#8216;checkouts&#8217; that are automatically pushed when you commit. Which isn&#8217;t to say that no other <abbr title='Distributed Version Control System'>DVCS</abbr>es have those things, just that this one does. Neither the Explorer nor Eclipse front-ends support many of the features of the command line client, but they do enough for people that aren&#8217;t often branching and merging&#8212;which only defeats the purpose of <abbr title='Distributed Version Control System'>DVCS</abbr> for those particular users. And these non-branchers will still reap the indirect benefits of working on a gracefully branched codebase that is more like <em>Crouching Tiger, Hidden Dragon</em> than <em>Drunken Master</em>.</p>
+
+<h3 id='check_it_out'>Check it out</h3>
+
+<p>There is a counter-intuitive advantage of checkouts in a distributed system: the ability to bind to shared repositories on internal networks, reducing the time penalty of pushing every commit (and other remote operations) to practically nothing. People not only get to keep the svn-style push-commits they generally want to keep, but they get to execute them faster than is possible with a monolithic svn server out on the internet. If an office&#8217;s local repository diverges from an externally hosted one (as is certain to occur if you have more than one office, or anyone works from home) any committer can resolve it with a simple merge. This is the sweet spot of version control for groups that work on code in the same place.</p>
+
+<p>Another advantage of serving a repsitory internally is you may choose to do it with plain <code>bzr serve --allow-writes</code> sans ssh, so that everyone doesn&#8217;t have to have shell accounts with public key authentication on the server (the Eclipse plug-in <a href='https://bugs.launchpad.net/bzr-eclipse/+bug/121936'>can&#8217;t ask for a password</a>). Obviously, in this scenario you&#8217;d be trusting your firewall not to expose your source code and allow the evil Carol to log commits as Alice from outside the network.</p>
+
+<p>A local shared repository is already a pretty sweet set-up, but don&#8217;t you want to take your codegroup synergy to another level? Of course you do. The only thing better than having everyone&#8217;s commits instantly available to the group is having everyone instantly know they are available, in translucent notification panels. It will be just like <em>Minority Report</em>! Oh no wait that is the iPhone, which went back in time and invented multitouch. Anyway, broadcasting commits increases codebase awareness and decreases stepping on code toes.</p>
+
+<p class='break'> <img src='../../../resources/com.typeturner.Typeturner/image%3Fname=commit+message' alt='Typical checkin' /></p>
+
+<h3 id='snakes_on_a_branch'>Snakes on a branch</h3>
+
+<p>Bazaar is in Python, which is nice when it&#8217;s time to <a href='http://bazaar-vcs.org/WritingPlugins'>hack a plug-in</a> and you don&#8217;t want to know anything about version control programming (at least not today). Just create a new folder for your plug-in, like <code>~/.bazaar/plugins/growler</code> .</p>
+
+<p>This directory should be in source control, so run <code>bzr init</code> up in there, then add whatever Python scripts you want to use to the directory, like <a href='http://taoofmac.com/space/Projects/netgrowl'>this one for sending growl messages</a>. Your main source file will be called <code>__init__.py</code> (Python: not for aesthetes) and it goes something like this:</p>
+
+<pre><code>&quot;&quot;&quot;Bridge from bzr to Growl&quot;&quot;&quot;
+
+import sys, os, time
+from netgrowl import GrowlRegistrationPacket, GrowlNotificationPacket
+from bzrlib import branch
+from socket import socket
+from ConfigParser import ConfigParser
+
+def post_change_branch_tip(params):
+  # revid is null when creating a branch, don&#39;t need to broadcast
+  if &#39;null:&#39; == params.new_revid: return
+
+  # collect everything we need from bzrlib
+  revision = params.branch.repository.get_revision(params.new_revid)
+  nick = params.branch.get_config().get_nickname()
+  summary = revision.get_summary()
+  author = revision.get_apparent_author()
+  
+  cfg = ConfigParser()
+  # need to load this each time in case it has changed
+  cfg.read(&#39;/etc/growler.conf&#39;)
+  
+  for (name, ip) in cfg.items(&#39;listeners&#39;):
+    addr = (ip, netgrowl.GROWL_UDP_PORT)
+    s = socket(netgrowl.AF_INET, netgrowl.SOCK_DGRAM)
+    register = GrowlRegistrationPacket()
+    register.addNotification()
+    s.sendto(register.payload(), addr)
+    
+    notify = GrowlNotificationPacket(
+      title=&quot;%s checkin&quot; % nick,
+      description=&quot;%s\n\n%s&quot; % (author, summary)
+    )
+    s.sendto(notify.payload(), addr)
+  
+
+branch.Branch.hooks.install_named_hook(&#39;post_change_branch_tip&#39;, 
+  post_change_branch_tip, &#39;growler&#39;)</code></pre>
+
+<h3 id='talking_to_your_clients'>Talking to your clients</h3>
+
+<p>A prior version of this script used Avahi&#8217;s Python bindings to find <a href='http://growl.info/'>Growl</a> clients using fancy Zeroconf. Thing is, those are meant to be used asynchronously, but Bazaar plug-ins are executed synchronous to the user operation. It gets weird if you <code>fork()</code> to handle the callbacks and exit twice. Also, it turns out that the Growl clones on other platforms don&#8217;t announce to Zeroconf anyway (they are working towards a common standard blah blah blah) so basically forget about doing it the hard but cool way for now.</p>
+
+<p>Instead, this script uses <code>ConfigParser</code> to read a list of addresses from <code>/etc/growler.conf</code>, e.g.</p>
+
+<pre><code>[listeners]
+alice: 192.168.1.3
+bob:   192.168.1.4</code></pre>
+
+<p>The <code>netgrowl</code> notification is compatible <a href='http://code.google.com/p/growl-for-windows/'>Growl for Windows</a> and <a href='http://www.mumbles-project.org/'>Mumbles</a> on Gnome, so yes we have our platforms covered. In whichever client, turn on remote notification and registration (with no password unless you add one to the script) and your commit messages should start popping right up. Once you have confirmed that everything is working with a local install of the plug-in, do a checkout of it in your office bzr server&#8217;s <code>bzrlib/plugins</code>, configure <code>/etc/growler.conf</code>, and you&#8217;re set.</p>
+
+<p class='break'>Dang. The best name ever for this plug-in would have been Rowr, but now it would be a pain to change it. If anyone wants to make this script into a real project though, you have to call it Rowr; consider that to be the code license. Or maybe Grr.</p>
+
+<p class='break'>No—definitely Rowr.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='../../../resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id24e9">
+  		
+  		
+  	</div>
+  	<div id="id24ea">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id24eb" action="../../../index.html" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id24eb_hf_0" id="id24eb_hf_0" /><input type="hidden" name="wicket:interface" value=":1353:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id24ec" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id24ed" name="add" value="Add a comment" onclick="wicketShow('id24ed--ajax-indicator');var wcall=wicketSubmitFormById('id24eb', '../../../?wicket:interface=:1353:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id24ed--ajax-indicator');}.bind(this),function() { ;wicketHide('id24ed--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id24eb')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id24ed--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

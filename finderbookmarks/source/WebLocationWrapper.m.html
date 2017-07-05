@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE  html PUBLIC "-//W3C//DTD XHTML 1.1//EN"  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>WebLocationWrapper.m</title>
+	<link rel="stylesheet" type="text/css" href="highlight.css"/>
+</head>
+<body>
+<pre></pre><div class="com">// Copyright 2003 - 2004 Nathan Hamblen
+</div><pre>
+</pre><div class="com">// This file based in part on InternetLocationCM.cp from Abracode's Contextual Menu Workshop. Its license appears below
+</div><pre>
+</pre><div class="com">/*
+ Contextual Menu Workshop
+
+ Copyright (C) 2002-2003 Abracode Inc
+
+ This software is provided 'as-is', without any express or implied
+ warranty.  In no event will the author be held liable for any damages
+ arising from the use of this software.
+
+ Permission is granted to anyone to use this software for any purpose,
+ including commercial applications, and to alter it and redistribute
+ freely, subject to the following restrictions:
+
+ 1. The origin of this software must not be misrepresented; you must not
+ claim that you wrote the original software.
+ 2. Altered source versions must be plainly marked as such, and must not be
+ misrepresented as being the original software.
+ 3. This notice may not be removed or altered from any source distribution.
+
+ Some parts of this software is based on preexisting code for which
+ Abracode Inc does not claim copyright. Look individual files for detailed information.
+ You must respect the copyright of original authors and not remove the notices
+ from these files.
+ */</div><pre>
+
+
+<span class="dir">#import </span><span class="dstr">&quot;WebLocationWrapper.h&quot;</span><span class="dir">
+</span><span class="dir">#import </span><span class="dstr">&quot;NSString+CarbonFSSpecCreation.h&quot;</span><span class="dir">
+</span>
+ResType urlResourceType = <span class="str">'url '</span>;
+
+</pre><div class="com">// This subclass of NSFileWrapper ja; read and write capability for internet location resources.
+</div><pre>
+&#64;implementation WebLocationWrapper
+
+</pre><div class="com">// Inits as normal with the superclass, then uses carbon methods to retrieve any url resources that are present.
+</div><pre>- (WebLocationWrapper *)initWithPath:(NSString *)path
+{
+  FSSpec fileSpec;
+  <span class="typ">short </span>refNum;
+
+  <span class="key">if </span>(!(self = [super initWithPath:path]))
+    <span class="key">return </span>nil;
+
+  <span class="key">if </span>(![path getFSSpec:&amp;fileSpec createFileIfNecessary:NO])
+    <span class="key">return </span>self;
+
+  refNum = FSpOpenResFile( &amp;fileSpec, fsRdPerm );
+  <span class="key">if</span>( ResError() == noErr )
+  {
+    <span class="typ">short </span>iCnt = Count1Resources(urlResourceType);
+    <span class="key">if</span>(iCnt &gt; <span class="num">0</span>)
+    {
+      Handle hRsrc = Get1IndResource( urlResourceType, <span class="num">1</span>);
+      <span class="key">if</span>(ResError() == noErr &amp;&amp; GetHandleSize(hRsrc) &gt; <span class="num">0 </span>)
+      {
+        mURL = [[NSString alloc] initWithCString: (<span class="typ">char </span>*) *hRsrc
+                                         length:GetHandleSize(hRsrc)];
+      }
+      <span class="key">else
+        </span>NSLog(&#64;<span class="str">&quot;No url resources found&quot;</span>);
+    }
+    CloseResFile(refNum);
+  }
+  <span class="key">else
+    </span>NSLog(&#64;<span class="str">&quot;Unable to open resource.&quot;</span>);
+  <span class="key">return </span>self;
+}
+
+- (WebLocationWrapper *)initRegularFileWithContents:(NSData *)data
+{
+  <span class="key">return </span>(self = [super initRegularFileWithContents:data]);
+}
+
+- (NSString *)url
+{
+  <span class="key">return </span>mURL;
+}
+
+- (<span class="typ">void</span>) setUrl:(NSString *)newUrl
+{
+  <span class="key">if </span>(mURL)
+    [mURL release];
+  mURL = [newUrl retain];
+}
+
+</pre><div class="com">// This method expects the file to already be a proper internet location file. Errors will result and it will return NO if the correct resources can not be found.
+</div><pre>- (BOOL)writeToFile:(NSString *)path atomically:(BOOL)atomicFlag
+    updateFilenames:(BOOL)updateNamesFlag
+{
+  FSSpec fileSpec;
+  Handle hUrl, hText;
+  <span class="typ">short </span>refNum;
+  BOOL status;
+
+  <span class="key">if </span>(![super writeToFile:path atomically:atomicFlag updateFilenames:updateNamesFlag])
+  {
+    NSLog(&#64;<span class="str">&quot;Unable to write standard wrapper.&quot;</span>);
+    <span class="key">return </span>NO;
+  }
+
+  <span class="key">if </span>(![path getFSSpec:&amp;fileSpec createFileIfNecessary:NO])
+  {
+    NSLog(&#64;<span class="str">&quot;Unable to retrieve carbon file spec.&quot;</span>);
+    <span class="key">return </span>NO;
+  }
+  refNum = FSpOpenResFile( &amp;fileSpec, fsRdWrPerm );
+  <span class="key">if</span>( ResError() != noErr )
+  {
+    NSLog(&#64;<span class="str">&quot;Unable to open resource.&quot;</span>);
+    <span class="key">return </span>NO;
+  }
+  hUrl = Get1IndResource(urlResourceType, <span class="num">1</span>);
+  hText = Get1IndResource(kScrapFlavorTypeText, <span class="num">1</span>);
+
+  PtrToXHand((Ptr) [mURL cString], hUrl, [mURL cStringLength]);
+  PtrToXHand((Ptr) [mURL cString], hText, [mURL cStringLength]);
+
+  ChangedResource(hUrl);
+  status = ResError() == noErr;
+  ChangedResource(hText);
+  status = status &amp;&amp; (ResError() == noErr);
+  <span class="key">if</span>(!status)
+    NSLog(&#64;<span class="str">&quot;Unable to change resource.&quot;</span>);
+  CloseResFile(refNum);
+  <span class="key">if </span>(ResError() != noErr)
+  {
+    NSLog(&#64;<span class="str">&quot;Error closing resource file.&quot;</span>);
+    <span class="key">return </span>NO;
+  }
+  <span class="key">return </span>status;
+}
+
+- (<span class="typ">void</span>)dealloc {
+  <span class="key">if </span>(mURL)
+    [mURL release];
+}
+
+&#64;end
+</pre>
+</body>
+</html>
+<!--XHTML generated by highlight 2.0-19, http://www.andre-simon.de/-->

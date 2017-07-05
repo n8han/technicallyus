@@ -1,0 +1,180 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Red onion gratin</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id170" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Red onion gratin" width="255" class="title" src="../../../resources/net.databinder.components.RenderedLabel/85cde138"/><span class="title">Red onion gratin</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on November 10, 2007</span></span>
+			<span id="id171" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>I promise to eventually stop with the Jamie Oliver recipes. When I get a new cookbook and I like it, I tend to cook my way through it pretty fast before I get sick of it and never want to look at it again. In the meantime, red onion gratin.</p>
+<p><img src="http://technically.us/resources/com.typeturner.Typeturner/image?name=redonions" title="redonions" alt="redonions" /></p>
+<p>This looks better than it was. I mean, of course it was good to eat, but it wasn&#8217;t worth having the oven on for two hours. Let me clarify: it&#8217;s not worth having the oven on for two hours if it&#8217;s the only thing in the oven. I happened to have a few sweet potatoes roasting with a mess of garlic cloves at the same time, so we ended up with a delicious dinner. It&#8217;s a great side dish, but I wouldn&#8217;t serve it as a main course (and yes, I frequently serve vegetable dishes like this as main courses on weeknights&#8212;with a bit of bread and some wine, I am satisfied).</p>
+<p>Jamie calls this one <strong>the best onion gratin</strong>. He also says that &#8220;it&#8217;s got ballsy flavor and sweetness.&#8221; Does <em>ballsy</em> mean something different in England? How did that one slip past the copy editor? When did such profanity become acceptable in cookbooks?</p>
+<ul>
+	<li>4 medium red onions, peeled, quartered, and separated</li>
+	<li>Olive oil</li>
+	<li>Fresh thyme, leaves picked</li>
+	<li>A few garlic cloves, peeled and sliced</li>
+	<li>1/2 cup of white wine</li>
+	<li>4 tablespoons crème fraîche</li>
+	<li>1.75 ounces gruyère, grated</li>
+	<li>1.75 ounces parmesan, grated</li>
+</ul>
+<p>Preheat the oven to 400ºF. Toss the onions in a bowl with the olive oil, thyme, and garlic. Season well, and pour into a baking dish (such as a 9&#8243; &#215; 13&#8243; Pyrex). Pour in the wine, and cover tightly with aluminum foil. Bake 45 minutes, remove the foil, and bake 15 more minutes. Turn the oven down to 350ºF. Stir in the crème fraîche, sprinkle on the cheese, and return to the oven until it all looks browned and beautiful.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id172">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-4670"><p>&#8220;Ballsy flavor&#8221; hahaha.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.cmoneyandkarlkash.com"><span class="alias">calvin</span></a>
+  				<span>on November 11, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4674"><p>Leland:<br />
+When are we going to see some more pictures of your new digs?  I&#8217;ve been waiting and waiting!<br />
+Love you.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Aunt Sue</span></span>
+  				<span>on November 11, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4698"><p>Regarding your side comments: 1. Thanks for the heads-up on bun. I was planning to go soon.<br />
+2. How would you rate the Fairway chicken versus Citarella? I haven&#8217;t had either in a while but I always preferred Citarella&#8217;s. If you haven&#8217;t tried it, you should!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.izzyeats.blogspot.com"><span class="alias">izzy&#039;s mama</span></a>
+  				<span>on November 15, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4701"><p>I&#8217;m on it, Aunt Sue, I&#8217;m on it! It just never feels like the right time! But soon, I promise.</p>
+<p>Thanks for the tip, Izzy&#8217;s mama. I haven&#8217;t tried the Citarella chicken, but I will next time I&#8217;m in there. We have a Citarella up here in no-man&#8217;s land, but I haven&#8217;t been in yet. And maybe you&#8217;d like Bun. But I wouldn&#8217;t set foot in it again.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on November 16, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4893"><p>This dish was brought to a family dinner over Christmas and everyone thought it was sliced ham&#8230;it looks just like bacon or sliced ham in the dish. When I dug in I was instantly in love, so was everyone else. This truly is a delicious recipe that I will serve often.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Gkneee</span></span>
+  				<span>on December 29, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4895"><p>I&#8217;m glad it worked out for you, Gkneee! Thanks for commenting!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on December 31, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id173">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id174" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id174_hf_0" id="id174_hf_0" /><input type="hidden" name="wicket:interface" value=":79:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id175" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id176" name="add" value="Add a comment" onclick="wicketShow('id176--ajax-indicator');var wcall=wicketSubmitFormById('id174', '../../../?wicket:interface=:79:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id176--ajax-indicator');}.bind(this),function() { ;wicketHide('id176--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id174')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id176--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

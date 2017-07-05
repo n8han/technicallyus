@@ -1,0 +1,204 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Our new kitchen island</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id1048" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Our new kitchen island" width="353" class="title" src="../../../resources/net.databinder.components.RenderedLabel/86042eb4"/><span class="title">Our new kitchen island</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on March 4, 2007</span></span>
+			<span id="id1049" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/kitchen%20equipment/#selected-tag"><span>kitchen equipment</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p><img src="/pictures/island.jpg" alt="" /></p>
+
+
+	<p><a href="http://technically.us/eat/articles/2007/02/24/leland-makes-fresh-pasta">Another</a> score score from my favorite <a href="http://www.angelthriftshop.org/">thrift shop</a> yesterday: a stainless steel kitchen counter. I&#8217;ve coveted one of these for months, thinking it would be the perfect replacement for the standard Ikea cart that every other young person in New York owns. The cart has served me well over the years, and I&#8217;ll miss its drawers, but it was stained and chipped, and I never thought it was deep enough for tasks like rolling out dough, or anything that involves tossing flour. Depth seems more important than width in a kitchen counter for some reason, and this is two feet deep—seven inches deeper than the cart, and almost as deep as Mom&#8217;s <a href="http://technically.us/eat/articles/2006/09/07/mom-likes-her-new-kitchen">new counter</a> in Pittsburgh.</p>
+
+
+	<p>I yanked the $150 price tag off of this piece (that&#8217;s how you buy furniture at this place) in the nick of time—at least three people were circling it as I frantically discussed the purchase on the phone with Nathan. It fits comfortably into the &#8220;kitchen,&#8221; taking up barely more room than its predecessor, and with much more usable space. Even its single shelf seems to have more area than the cart&#8217;s two shelves combined (again with the depth!). I&#8217;m in the market now for another shelf to add. A third one up near the top would be perfect for baking sheets, lids, and other large, flat items. I&#8217;ll definitely be making a trip down to the Bowery in the coming days looking for a deal.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id104a">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3458"><p>Congratulations!! It looks great! Yes, a trip to the Bowery is in order!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Uncle Teddy</span></span>
+  				<span>on March 4, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3459"><p>Wow, that&#8217;s really cool! And you can take it with you when you move because it will be useful anywhere.</p>
+<p>You can buy S-hooks to hang stuff off the edges of the shelves, too, like when you put the higher shelf on, you might be able to hand small saucepans or colanders or at least potholders off of it.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on March 4, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3460"><p>Nice counter.  But I&#8217;m fascinated by the fact that your oven, like ours, is isolated from any useful surfaces.  At my best, I place a cutting board over two unused burners and work from there, at my worst I run across the kitchen with a handful of garlic while my oil gets too hot.  How do you do it?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">zp</span></span>
+  				<span>on March 4, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3461"><p>A great purchase, and as your Mum says, it can follow you everywhere. My problem with counters is that I keep allocating permanent space to stuff-like cannisters, oil cans, etc., eating up the work space. I need to get some discipline on that.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://http//:lindystoast.com"><span class="alias">lindy</span></a>
+  				<span>on March 4, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3462"><p>Your purchase looks neat. I know you will enjoy it for years to come. Being your is fun and you sound as if you are enjoying it.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">janwes@sbcglobal.net</span></span>
+  				<span>on March 4, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3463"><I>Wow</i>.<br />
+<br />
+I am suddenly filled with envy &#8212; and remorse, seeing as I have yet to set foot inside any of NYC&#8217;s thrift spots, despite living here 8 months.</div>
+  			<div class="date byline">
+  				
+  				<a href="http://gezellig-girl.com"><span class="alias">Kristen</span></a>
+  				<span>on March 4, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3464"><p>Way to go Kid!  Beautiful!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">grandma</span></span>
+  				<span>on March 4, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3465"><p>Thanks, everyone! I&#8217;m enjoying my table very much.</p>
+<p>Mom: yes, I&#8217;m planning S-hooks already!</p>
+<p>zp: I usually chop on the counter and then bring the cutting board over to the stove and push things into the pot (or I&#8217;m really smart and use bowls). I&#8217;d kill for counters on both sides of the burners.</p>
+<p>Lindy: I have to stop myself from doing that, but it&#8217;s started already. Oh, the pasta maker looks cute here in the corner. But not as cute as the sugar jar in the other corner. And the measuring spoons right here. Awful!</p>
+<p>Thanks, Janwes. Kristen: you should come down and see the places on 17th Street. I go every weekend, and I&#8217;d be happy to take you!</p>
+<p>Thanks, grandma!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on March 4, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3466"><p>I love that counter. I have one similar to that which has about a four-inch backsplash on it. I was a partner at a salvage company and we took apart the old Navy Yard in DC and got the counter from their prep kitchen. My dog loves to lie on the shelf while I am working—it&#8217;s my desk in the kitchen.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.pigtown-pigout.blogspot.com"><span class="alias">Fairfax</span></a>
+  				<span>on March 4, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3467"><p>It&#8217;s a great idea!  For more kitchen islands and great ideas check out www.choppingblocks.com.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.choppingblocks.com"><span class="alias">Tim Dugan</span></a>
+  				<span>on March 4, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id104b">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id104c" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id104c_hf_0" id="id104c_hf_0" /><input type="hidden" name="wicket:interface" value=":593:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id104d" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id104e" name="add" value="Add a comment" onclick="wicketShow('id104e--ajax-indicator');var wcall=wicketSubmitFormById('id104c', '../../../?wicket:interface=:593:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id104e--ajax-indicator');}.bind(this),function() { ;wicketHide('id104e--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id104c')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id104e--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

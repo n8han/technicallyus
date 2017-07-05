@@ -1,0 +1,176 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Ramps and fiddlehead ferns</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id11b7" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Ramps and fiddlehead ferns" width="436" class="title" src="../../../resources/net.databinder.components.RenderedLabel/943b2f4d"/><span class="title">Ramps and fiddlehead ferns</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on April 26, 2006</span></span>
+			<span id="id11b8" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/food%20products/#selected-tag"><span>food products</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p style="float:right"><img src="/pictures/rampsign.jpg" alt="" /></p>
+
+
+	<p>A hilarious <a href="http://www.nytimes.com/2006/04/26/dining/26gree.html?_r=1&#38;oref=slogin">article</a> appears in the Dining section today about ramps, fiddlehead ferns, and other spring weeds. Despite all of the hype surrounding these signs of springtime, Kim Severson says, &#8220;Ramps and fiddleheads are like promising dates that end up making your ex look terrific.&#8221; She says they are hard to clean, overly bitter, and in general not good to eat.</p>
+
+
+	<p>I haven&#8217;t eaten either of them, and I do still intend to try them, but I love when an article like this takes the wind out of some trendy item&#8217;s sails. Are we so obsessed with seasonality that we&#8217;ll eat something that isn&#8217;t even very good? Severson thinks we eat these weeds out of desperation: &#8220;After months of root vegetables and enough braised meat to choke an ox, cooks are desperate for something — anything — pulled from the earth or out of cold, early-spring water.&#8221;</p>
+
+
+	<p>Have any of you prepared or enjoyed any of these growths? Mom, are these as popular at the Pittsburgh farmers&#8217; markets as they are here?</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id11b9">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-1945"><p>I&#8217;ve never eaten fiddlehead ferns but I have eaten ramps, at a local restaurant, <strong>Casbah</strong>, where I made a point the last time I was there, actually, of ordering them in every course except dessert. We must have been there in May or June and they had them featured on their seasonal menu. They didn&#8217;t really stand out, since they are basically something like large scallions with sort of leafy greens.</p>
+<p>I guess I agree with the author of the article, that these things probably meant more to our pioneer forbears who were starving for something fresh after a long winter in the cabin. If I were them I would have been more excited about the rhubarb, some of which I am about to harvest from my own back yard.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on April 26, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1946"><p>At my one and only visit to Chez Panisse, I tasted a pizza with ramps, the choice of a dining companion. It was entirely delicious, and I was jealous. Have yet to try fiddleheads.As I rarely get to eat out, it may be a while. They do not seem to be in evidence in the produce places in the Strip, where I just got some fresh favas. gloat.</p>
+<p>I read the article too. Was amused that it had recipes included. Who would be moved to try recipes furnished by someone who despised the main ingredients?</p>
+<p>Somewhat oddly, the writer seemed determined to be scornful at the outset.At least there was no attempt to appear open-minded!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">lindy</span></span>
+  				<span>on April 26, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1947"><p>I think I have to agree with Kim &#8211; at least on the fiddlehead front. Ugh. As for ramps, they taste okay&#8230;once. And then you kind of want real vegetables.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://wednesdaychef.typepad.com"><span class="alias">Luisa</span></a>
+  				<span>on April 26, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1948"><p>Well, ladies, I think we&#8217;ve just started a small revolution right here on Eat. Thank you all for your insight.</p>
+<p>I had some sort of pizza when mom took us to the Chez Panisse café years ago. Mom, do you remember what it was? I think it was goat cheese.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on April 26, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1949"><p>Leland, no I don&#8217;t remember what you ate at <strong>Chez Panisse</strong> but some kind of pizza does ring a bell. We should all be keeping food diaries. For instance, I just had a wonderful lunch at <strong>Lidia&#8217;s</strong> and am already forgetting some of the components.</p>
+<p>Lindy, that is funny, that the writer would be so scornful and then the article would include recipes! Kind of like fireworks after losing baseball games, which happens quite frequently down at <span class="caps">PNC</span> Park.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on April 26, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6303"><p>I have tons of ramps growing in my woods. I thought they were wild onions or something.. Just the other day I decided to tast the green and loved calm onion taste an thought it would go great in a salad&#8230;. what is the best way to work with these ramps?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Kristy</span></span>
+  				<span>on May 27, 2009</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id11ba">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id11bb" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id11bb_hf_0" id="id11bb_hf_0" /><input type="hidden" name="wicket:interface" value=":645:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id11bc" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id11bd" name="add" value="Add a comment" onclick="wicketShow('id11bd--ajax-indicator');var wcall=wicketSubmitFormById('id11bb', '../../../?wicket:interface=:645:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id11bd--ajax-indicator');}.bind(this),function() { ;wicketHide('id11bd--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id11bb')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id11bd--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

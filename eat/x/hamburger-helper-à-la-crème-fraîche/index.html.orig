@@ -1,0 +1,232 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Hamburger Helper à la crème fraîche</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id13d2" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Hamburger Helper à la crème fraîche" width="571" class="title" src="../../../resources/net.databinder.components.RenderedLabel/1e7e70b9"/><span class="title">Hamburger Helper à la crème fraîche</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Nathan</span>, <span>on June 14, 2006</span></span>
+			<span id="id13d3" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>I know what you&#8217;re thinking. It&#8217;s only my second Wednesday of guest blogging here and I&#8217;ve already slid into the depths of cooking depravity.</p>
+
+
+	<p><a href="http://technically.us/eat/articles/2006/06/07/spanish-chicken-and-garbanzo-stew">Last week</a> I excitedly chose a recipe on Sunday and ordered ingredients. This week I let the FreshDirect window slip by, and every other conceivable window, until 7:30 tonight when I got home and fruitlessly emptied bookshelves looking for my <a href="http://www.amazon.com/exec/obidos/ASIN/0688163777/eat0e-20">Florence Henderson cookbook</a>.</p>
+
+
+	<p>Not finding it, I considered blaming Leland and just not cooking, but then I came across an old cookbook from my college apartment. As I opened it, several handwritten recipe cards tumbled out onto the ground.</p>
+
+
+	<p>Now you&#8217;re probably thinking that I&#8217;m trying to pull some kind of Hawthorne-esque literary framing. The Custom House and all that jazz. But unlike that Nat I have photographic evidence:</p>
+
+
+	<p><img src="/pictures/recipe-card.jpg" alt="" /></p>
+
+
+	<p>Recipe for: <strong>Hamburger Helper</strong></p>
+
+
+	<p>From the kitchen of: [my college roommate&#8217;s] <strong>Mom</strong></p>
+
+
+	<ul>
+	<li>3/4 lb. hamburger (lean)</li>
+		<li>1 teaspoon salt</li>
+		<li>1/2 teaspoon pepper</li>
+		<li>1 tablespoon finely chopped onion</li>
+		<li>1 stalk or so of celery, chopped</li>
+		<li>1/2 cup or so frozen peas</li>
+		<li>fresh or 20 oz canned tomatoes</li>
+		<li>1/2 bag wide noodles</li>
+		<li>parmesan cheese</li>
+	</ul>
+
+
+	<p>Perfect.</p>
+
+
+	<p>Since I was slumming already, I ran out to Food Emporium to collect the ingredients. At the meat department I opted for a tiny flank steak over the more expensive pound of ground beef. Then I stared at a $2 bag of four enormous stalks of celery and decided not to buy too much of something that no one likes anyway. (Celery. What&#8217;s the point?)</p>
+
+
+	<p><img src="/pictures/ingredients.jpg" alt="" /></p>
+
+
+	<p>(Beer was not called for in the recipe, but it was certainly involved in the preparation.)</p>
+
+
+	<p>Back home I cut up the steak and onions into itty bitty pieces and tossed them in the skillet. Then I combined the other ingredients, boiled the pasta, and realized that this recipe was boring as hell. Thanks, &#8220;Mom.&#8221;</p>
+
+
+	<p>So I raided the fridge and found unexpired <em>crème fraîche</em> (score!) and the thyme that&#8217;s been there forever. Also, a head of lettuce. I minced up the base of the lettuce, thinking it would have similar properties to celery and probably taste better.</p>
+
+
+	<p>Tossing cooked pasta and all into the skillet, I pondered the flip side of my recipe card:</p>
+
+
+	<blockquote>
+		<p>Simmer 15 min. to blend flavors. I put a lid on loosely for Sminorso.</p>
+	</blockquote>
+
+
+	<p>Hmm. &#8220;This is excellent weblog material,&#8221; I thought. &#8220;I shall write <em>Sminorso</em> in italics, followed by &#8216;(that&#8217;s Italian for simmer)&#8217;, or whatever it turns out to be.&#8221; Lucky me, such funny stuff falling right into my hands!</p>
+
+
+	<p>After less than 15 minutes I removed the now pleasant-smelling (thyme!) concoction from heat and plated it like hamburger helper has never been plated before.</p>
+
+
+	<p><img src="/pictures/hamburger-helper.jpg" alt="" /></p>
+
+
+	<p>The taste was pleasantly sharp, thanks to the thyme and <em>crème</em> I think. Not sure where we would have been without it. Oh, and who doesn&#8217;t like peas? Until I was ten I ate them frozen. They&#8217;re almost as good warmed up.</p>
+
+
+	<p>As I sat down to Google this mysterious &#8220;Sminorso,&#8221; I saw what I&#8217;d missed before. My motherly muse was not flaunting her Italian.</p>
+
+
+	<p>She was hedging her lid time.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id13d4">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-2216"><p>Cooking depravity sure makes for funny blogging, though.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://wednesdaychef.typepad.com"><span class="alias">Luisa</span></a>
+  				<span>on June 14, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2217"><p>Thanks, but I&#8217;m not sure how long I can keep this shtick going. If next week&#8217;s post is headlined &#8220;Food found in dumpster not all bad,&#8221; please ignore it. Mrs. P will kill me if I scare off the serious cooks.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Nathan</span></span>
+  				<span>on June 14, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2218"><p>Ahhhh&#8230;.Sminorso&#8230;.</p>
+<p>I had a good laugh and I like the coupling of hamburger helper and creme fraiche; it&#8217;s not quite foie gras with Doritos but somewhat along those lines. Sort of like Elvis singing opera.</p>
+<p>I&#8217;m enjoying guest blogging Wednesday.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://http;//kitchenography.typepad.com"><span class="alias">Julie</span></a>
+  				<span>on June 14, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2219"><p>Again with the jokes! Who knew?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on June 14, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2220"><p>Eh, what&#8217;s so bad about homemade Hamburger Helper? My guilty pleasure is a variation on Hamburger Helper where you brown some ground beef and onions, add tomato sauce and pasta. I&#8217;m sure you could you shallots, homemade tomato sauce, fresh garlic, etc. to make it all fancy schmancy. But it still tastes good!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://yulinkacooks.blogspot.com"><span class="alias">Yulinka</span></a>
+  				<span>on June 14, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id13d5">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id13d6" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id13d6_hf_0" id="id13d6_hf_0" /><input type="hidden" name="wicket:interface" value=":723:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id13d7" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id13d8" name="add" value="Add a comment" onclick="wicketShow('id13d8--ajax-indicator');var wcall=wicketSubmitFormById('id13d6', '../../../?wicket:interface=:723:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id13d8--ajax-indicator');}.bind(this),function() { ;wicketHide('id13d8--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id13d6')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id13d8--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

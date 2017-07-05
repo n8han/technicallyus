@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Isabella&#039;s and Nha Trang</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="idf25" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Isabella's and Nha Trang" width="383" class="title" src="../../../resources/net.databinder.components.RenderedLabel/9a714b1c"/><span class="title">Isabella&#039;s and Nha Trang</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on November 13, 2005</span></span>
+			<span id="idf26" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/restaurants:%20new%20york/#selected-tag"><span>restaurants: new york</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>On Friday night, eleven of us ate at <a href="http://www.brguestrestaurants.com/restaurants/isabellas/about.php">Isabella&#8217;s</a> on the Upper West Side. I had never been there before, but I remember my father saying it was his favorite place in the city a decade ago when I visited for the first time.</p>
+
+
+	<p>It&#8217;s a lovely place with soft lighting and good music, and as far as I could tell, everyone enjoyed their food, from my 16-year-old brother to my 85-year-old great uncle. I started with the special salad of endives and gorgonzola with a bacon vinaigrette. I thought it was good, although it tasted very strongly of bacon and not at all of vinegar. For dinner I had the grilled organic salmon with a butternut squash-pancetta risotto, which I devoured. It&#8217;s hard to order at B.R. Guest restaurants, because everything on the menu is appealing. I was too full for dessert, so I had a ginger manhattan instead (which, because she left the shaker, turned into three ginger manhattans).</p>
+
+
+	<p>n8 had a goat cheese salad and the seared tuna. I found the crust of his tuna entirely too salty; he compared it to an everything bagel. Is that the intention of the chef, or was there extra seasoning to mask the flavor or non-flavor of the tuna? In any case, he was sated enough to skip dessert (opting instead for his own ginger manhattan). The 11 of us ate for about $700 I believe, and I think that&#8217;s well worth it for an upscale restaurant with good food.</p>
+
+
+	<p>Last night, my parents&#8217; last in the city, we went to <a href="http://www.menupages.com/restaurantdetails.asp?neighborhoodid=24&#38;restaurantid=2140">Nha Trang</a> on Baxter Street at the recommendation of Sabena. Eh. It was fine and cheap, but I preferred the pho at Pho Bang. (Incidentally, am I allowed to eat pho for dinner? It wasn&#8217;t on the dinner menu here at all&#8212;only on the lunch menu. Did I break some ancient law?)</p>
+
+
+	<p>So, my week of eating out every night is over, and now I have to get ready for my party. Tonight, I am considering conquering my greatest fear: roasting a chicken. That&#8217;s right friends, I have never roasted a whole bird. My mom roasts at least two per week at home, and I&#8217;m afraid I&#8217;ll never even approach her always-perfect results. Any advice would be welcome.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="idf27">
+  		
+  		
+  	</div>
+  	<div id="idf28">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="idf29" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="idf29_hf_0" id="idf29_hf_0" /><input type="hidden" name="wicket:interface" value=":552:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="idf2a" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="idf2b" name="add" value="Add a comment" onclick="wicketShow('idf2b--ajax-indicator');var wcall=wicketSubmitFormById('idf29', '../../../?wicket:interface=:552:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('idf2b--ajax-indicator');}.bind(this),function() { ;wicketHide('idf2b--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('idf29')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="idf2b--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

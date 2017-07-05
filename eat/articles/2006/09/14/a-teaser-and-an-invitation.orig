@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / A teaser and an invitation</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../eat">
+			
+			<img alt="Eat" src="../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../eat">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id155c" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="A teaser and an invitation" width="392" class="title" src="../../resources/net.databinder.components.RenderedLabel/1f7eca3"/><span class="title">A teaser and an invitation</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on September 14, 2006</span></span>
+			
+		</span></div>
+		<div><p style="float:center"><img src="/pictures/us.jpg" alt="" /></p>
+
+
+	<p>Sometime in the next two weeks, we&#8217;ll have our first guest post from Emily Lyons and her mom, two of our most loyal and fabulous readers. They&#8217;ll be getting in touch with their Maryland roots by making soft-shell crabs. At least, that&#8217;s what they&#8217;ve promised, and now the Internet is expecting it.</p>
+
+
+	<p>If you would like to get up close and personal with your mother in the kitchen, either in person or in spirit, you are invited to be a guest here on Eat. Just email me or mom and we&#8217;ll get you set you up.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id155d">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-2762"><p>My mom will be visiting me here in Pittsburgh in a few weeks&#8230; perhaps we could do such a thing!  What a wonderful idea.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://colinwetherbee.com/"><span class="alias">Colin</span></a>
+  				<span>on September 14, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2763"><p>ooh&#8230; that&#8217;s certainly something to consider</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">jeannie</span></span>
+  				<span>on September 14, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2764"><p>Oh dear! My mom doesn&#8217;t even know what a blog is&#8230;although perhaps I will introduce her to Eat so that we can showcase her incredible baking skills.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Emily</span></span>
+  				<span>on September 14, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2765"><p>I just wanted to say that the picture of you two is sweet!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://goodamericanwife.blogspot.com"><span class="alias">Anne</span></a>
+  				<span>on September 14, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2766"><p>More importantly, Colin, where will you two eat? You should take her to <a href="http://www.post-gazette.com/pg/06036/648910.stm">Bona Terra</a> and/or <a href="http://pittsburgh.lidiasitaly.com/index2.htm">Lidia&#8217;s</a> for a really nice dinner (or lunch, at Lidia&#8217;s).</p>
+<p>Thanks, Anne, although I think I look <strong>scary</strong> with that expression on my face! You would never know how much fun I was having that day.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on September 14, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2767"><p>Hm, well, we ate last year at Isabela on Grandview and Le Pommier, which are two of the nicest restaurants in Pittsburgh <span class="caps">IMHO</span>.  Perhaps we&#8217;ll try Tin Angel this time?  That would certainly be something to write about.</p>
+<p>I&#8217;ll take a look at your two links tomorrow.  I&#8217;ve just finished up a party with my neighbors for which I ground 29 sausages of six different varieties (I&#8217;ll have a blog post about that tomorrow, too, I imagine.), so I&#8217;m pretty tired and can&#8217;t make any such decisions at the moment! :)</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://colinwetherbee.com/"><span class="alias">Colin</span></a>
+  				<span>on September 14, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2768"><p>I am having a bit of a pang reading this, thinking about what an inspired and inspiring cook my 82 year old mother once was, before she began to be depressed, and to exhibit early Alzheimers symptoms. I&#8217;ve tried to get her involved in cooking with me, but she refuses adamently. I think maybe the difference is too much for her.<br />
+I guess I&#8217;ll just have to try a post with my (foodblogger) daughter, http://www.stuttercut.org/hungry, a/k/a redfox of the hungry tiger, next time we are in the same city.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">lindy</span></span>
+  				<span>on September 14, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2769"><p>Colin, my husband ate at the Tin Angel recently with a group from work and was terribly disappointed in the whole experience, especially the food. They did have a special menu for the group, separate from the regular menu, but you&#8217;d think they would be trying hard to please them in the interests of getting repeat business. And it wasn&#8217;t an overwhelmingly huge group &#8211; I think somewhere between a dozen and twenty, so the kitchen should have been able to handle the numbers.</p>
+<p>Lidia&#8217;s, as you probably know, was opened by <a href="http://www.lidiasitaly.com/index2.htm">Lidia Bastianich</a>, a wonderful Italian chef, one of whose other restaurants, Felidia&#8217;s, has been getting rave reviews in New York. Since Ms. Bastianich is from the Friullian region of Italy, up north, the cuisine isn&#8217;t the typical red sauce, stuffed shell cooking you find at so many Italian restaurants, especially in Pittsburgh.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on September 14, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2770"><p>I don&#8217;t doubt that your mother was a wonderful cook, Lindy, since she raised such a wonderful cook! But you and your daughter don&#8217;t have to actually be in the same city to write a guest post on our blog &#8211; you could do something like cook the same recipe and each write a critique of it, like Leland and I did with the short ribs earlier this year, or cook on a theme or something, and we&#8217;ll simply put whatever each of you write into one guest post, hopefully with one of your wonderful photos.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on September 14, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id155e">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id155f" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id155f_hf_0" id="id155f_hf_0" /><input type="hidden" name="wicket:interface" value=":773:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id1560" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id1561" name="add" value="Add a comment" onclick="wicketShow('id1561--ajax-indicator');var wcall=wicketSubmitFormById('id155f', '../../?wicket:interface=:773:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id1561--ajax-indicator');}.bind(this),function() { ;wicketHide('id1561--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id155f')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id1561--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Mom makes spicy noodles</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="idbc6" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Mom makes spicy noodles" width="416" class="title" src="../../../resources/net.databinder.components.RenderedLabel/e93ada07"/><span class="title">Mom makes spicy noodles</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on June 19, 2006</span></span>
+			<span id="idbc7" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>There are lots of versions of this spicy Asian noodle dish; I have adapted a recipe from the Silver Palate <a href="http://www.amazon.com/exec/obidos/ASIN/0894803417/eat0e-20"><em>New Basics Cookbook</em></a> entitled <strong>Sesame Chicken and Asparagus Pasta</strong> and I think it&#8217;s particularly tasty. I consult the recipe chiefly for the sauce, or dressing, and generally use whatever green vegetable and protein I have on hand. Tonight I had broccoli, and leftover grilled pork chops from last night that had been brushed with a combination of the <a href="http://www.cuisineperel.com/">Cuisine Perel</a> cilantro/citrus oil and their lime vinegar. Sometimes I put grilled or leftover roast chicken in these noodles, or just make them with no meat at all as a side dish.</p>
+
+
+	<p><img src="/eat/files/spicy.JPG" alt="" /></p>
+
+
+	<p><strong>Spicy Noodles with Meat and Green Vegetable</strong></p>
+
+
+	<p>1 lb. linguine or spaghetti (I used whole wheat) <br> 6 cloves garlic, minced <br> 2 tablespoons red wine vinegar <br> 2 tablespoons brown sugar <br> 2/3 cup chunky peanut butter <br> 1/2 cup soy sauce <br> 2/3 cup hot pepper toasted sesame oil <br> 1 bunch broccoli <br> 1 bunch scallions, green part included, thinly sliced <br> about 1/2 lb. cooked meat, julienned, chicken or pork <br></p>
+
+
+	<p>1. Bring a large pot of water to a boil. If you have a pot with one of those pasta inserts this would be a good time to use it since you will be blanching the vegetables, removing them, and then cooking the pasta.
+2. Place garlic, vinegar, sugar, peanut butter, and soy sauce in food processor. Process for 1 minute, scraping bowl halfway through. With the motor running, slowly add the sesame oil through the feed tube and process until well blended.
+3. Trim and peel the broccoli stems and cut into small pieces, separating florets. Add to pot and blanch briefly. Don&#8217;t do what I did and overcook the broccoli. You can also make this with asparagus by peeling the stalks and cutting on the diagonal and blanching in a similar fashion. Remove vegetables from pot, rinse in cold water to stop cooking, and place in large bowl with julienned meat. Reserve some of the florets to decorate finished dish.
+4. Bring water to boil again and cook pasta until al dente. Drain, rinse with cold water and drain well. Add to bowl with meat and vegetables. Pour sauce over ingredients in bowl and toss to combine. Place in large shallow bowl and strew scallions over top. You may scatter toasted sesame seeds or chopped peanuts on top as well, in addition to the reserved broccoli florets. 
+5. Chill for an hour or so and serve cold or at room temperature.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="idbc8">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-2260"><p>Wow! That sounds like a wonderful way to use up leftover meat. It&#8217;s also the perfect minimal cooking kind of meal that&#8217;s so perfect at this time of year.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://kitchenography.typepad.com"><span class="alias">Julie</span></a>
+  				<span>on June 19, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="idbc9">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="idbca" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="idbca_hf_0" id="idbca_hf_0" /><input type="hidden" name="wicket:interface" value=":432:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="idbcb" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="idbcc" name="add" value="Add a comment" onclick="wicketShow('idbcc--ajax-indicator');var wcall=wicketSubmitFormById('idbca', '../../../?wicket:interface=:432:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('idbcc--ajax-indicator');}.bind(this),function() { ;wicketHide('idbcc--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('idbca')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="idbcc--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

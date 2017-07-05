@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Falai Panetteria</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../eat">
+			
+			<img alt="Eat" src="../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../eat">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id1662" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Falai Panetteria" width="237" class="title" src="../../resources/net.databinder.components.RenderedLabel/fe450285"/><span class="title">Falai Panetteria</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on March 10, 2006</span></span>
+			<span id="id1663" class="tags">
+					{&nbsp;<span><a href="../../eat/tag/restaurants:%20new%20york/#selected-tag"><span>restaurants: new york</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p style="float:center"><img src="/pictures/falai.jpg" alt="" /></p>
+
+
+	<p>I have a new favorite restaurant, and it is <a href="http://events.nytimes.com/mem/nycreview.html?_r=1&#38;id=1124994845082&#38;oref=login">Falai Panetteria</a> on the Lower East Side. I have always sought out restaurants without liquor licenses, to which I may bring my own bottle of wine. This cuts the price of dinner in half. Indeed, we had a relatively decadent meal tonight for $25, plus the $10 I spent on an outstanding wine from the Pays du Gard. <span class="caps">BYOB</span> joints are also, by nature, very casual and friendly.</p>
+
+
+	<p><a href="http://www.newyorkmetro.com/nymetro/food/reviews/restaurant/15476/">Falai</a> is Iacoppo Falai&#8217;s fancier, much more expensive restaurant, also on Clinton Street, across the street and a few doors up. It looked nice inside, but no nicer than the bakery, and I am not at all tempted to splurge. On the contrary, all I want to do is return to the panetteria for more of those perfect veal meatballs, of which I have no picture, because they looked like meatballs.</p>
+
+
+	<p>I did take a picture of my starter, though, a gorgonzola foam with celery and glazed walnuts ($5).</p>
+
+
+	<p style="float:center"><img src="/pictures/foam.jpg" alt="" /></p>
+
+
+	<p>I don&#8217;t know why I allow myself to be tempted by these démodé foams, but I do. I sincerely enjoyed the first three bites of this, all of which involved a whole walnut, but after that I wasn&#8217;t too sad to see it quickly melt as I halfheartedly ate it. It&#8217;s like gazpacho for me: just not a good fit after the first few tastes. Nathan had the leeks with crème fraîche ($4), which I preferred to mine despite its outrageous saltiness, which must have been an accident.</p>
+
+
+	<p>Nathan had a dish of cod with roasted tomatoes next ($5), while I enjoyed my meatballs ($7), the most perfect meatballs I&#8217;ve had, and the first made of veal. You can order this dish in a small or large size, and I had the small, which contained about six balls sitting on braised cabbage mixed with raisins. They were lightly browned on the outside and scandalously medium-rare in the center. I only moan over food occasionally, and the last time was during dessert at <a href="http://technically.us/eat/articles/2006/02/14/country">Country</a>. I moaned tonight.</p>
+
+
+	<p style="float:right"><img src="/pictures/bomboloni.jpg" alt="" /></p>
+
+
+	<p>The dessert list is a bit overwhelming, because this is a pastry shop by day, and they have croissants, et cetera. I know it&#8217;s usually for breakfast, and our charming waiter reminded us of this, but we shared a bomboloni for dessert ($2.50), which was hardly sweet (a good thing) and totally satisfying.</p>
+
+
+	<p>This is an adorable restaurant, and it&#8217;s worth a detour to the Lower East Side, for the meatballs if nothing else. The service was a non-issue, and I felt comfortable leaving slightly more than 20%. The lighting is romantic, the flatware is clean and solid, and the pitchers of water are full of lemon slices. The mood is that of a place where everyone is getting what they want, without any hassle or New York shakedown.</p>
+
+
+	<p>Keep in mind that there are only about seven tables, and that they were all full when we left at 9 pm.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1664">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-1654"><p>Also keep in mind that they&#8217;re working on getting their liquor license. Boo hoo.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Doc</span></span>
+  				<span>on March 10, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id1665">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id1666" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id1666_hf_0" id="id1666_hf_0" /><input type="hidden" name="wicket:interface" value=":811:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id1667" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id1668" name="add" value="Add a comment" onclick="wicketShow('id1668--ajax-indicator');var wcall=wicketSubmitFormById('id1666', '../../?wicket:interface=:811:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id1668--ajax-indicator');}.bind(this),function() { ;wicketHide('id1668--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id1666')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id1668--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/city-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>City Slicking / Dear Zipcar, don’t let them play you</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../city">
+			
+			<img alt="City Slicking" src="../../../resources/org.apache.wicket.Application/city-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../city">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/city-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id1810" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Dear Zipcar, don’t let them play you" width="460" class="title" src="../../../resources/net.databinder.components.RenderedLabel/5099aef2"/><span class="title">Dear Zipcar, don’t let them play you</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Doctor Barnett</span>, <span>on September 16, 2008</span></span>
+			<span id="id1811" class="tags">
+					{&nbsp;<span><a href="../../../city/tag/autos/#selected-tag"><span>autos</span></a><span id="id1812">, </span></span><span><a href="../../../city/tag/travel/#selected-tag"><span>travel</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><blockquote>
+<p>Dear Zipcar,</p>
+</blockquote>
+
+<blockquote>
+<p>The main reason I joined Zipcar this summer was to use the cars you had conveniently placed along Metro North&#8217;s Hudson line. Little did I know that Enterprise had <a href='http://www.nysun.com/new-york/metro-north-deal-will-bring-rental-cars-to-train/67240/'>already made arrangements to have you booted out</a> that would take effect just a few weeks later. So when I needed a car to go north last weekend I had to use <a href='http://www.enterprise.com/car_rental/deeplinkmap.do?bid=004&amp;gpbr=24hy&amp;cnty=US&amp;cust=MNR24HY&amp;referedPage=multiDivOffer'>Enterprise out of Beacon</a>, and of course it was terrible in all the usual car rental ways. Everything they&#8217;ve done to imitate your very smooth operation was a joke. (I had to wait 30 minutes for a pickup from the train station, the ride to their office was another 15, then 15 minutes for paperwork. Now, I&#8217;ve found that they charged us for an extra day, at a higher rate, because we used their <a href='http://www.mta.info/mta/news/releases/?en=071126-MNR42'>famous key drop</a> at the station.)</p>
+</blockquote>
+
+<blockquote>
+<p>I&#8217;m well aware that none of this is Zipcar&#8217;s fault. It&#8217;s Metro North&#8217;s, and I&#8217;m very disappointed they decided to sell out their riders&#8217; options for a small payoff from Enterprise&#8212;but I&#8217;m hoping that you have plans to work around their shady dealing. I&#8217;m sure I don&#8217;t have to point out that you can put cars in private lots outside of the stations (it&#8217;s your business, after all), but I do want to say that as a customer I would eagerly make use of them. Like most car sharers (probably) I&#8217;m not at all intimidated by a five minute walk, and compared to the nonsense with Enterprise, that is absolutely what I would choose. But without that option, sadly, I&#8217;m not sure I can use your service enough to justify renewing next year. My driving within the city is extremely minimal.</p>
+</blockquote>
+
+<blockquote>
+<p>Are you working on this?</p>
+</blockquote>
+
+<blockquote>
+<p>Sincerely,<br />Doctor Barnett</p>
+</blockquote>
+
+<p>Zipcar&#8217;s response:</p>
+
+<blockquote>
+<p>Dear Doctor Barnett,</p>
+</blockquote>
+
+<blockquote>
+<p>Thank you for your email. I have forwarded your message to the appropriate department for review.</p>
+</blockquote>
+
+<blockquote>
+<p>Have a great day!</p>
+</blockquote>
+
+<p>Right.</p>
+
+<p class='break'> <em class='smcp'>Update</em>! Zipcar replies for real:</p>
+
+<blockquote>
+<p>Dear Doctor Barnett,</p>
+</blockquote>
+
+<blockquote>
+<p>Thanks so much for your note. We, too, miss our upstate locations. Unfortunately, at this time we do not have plans in the near future to service the area. We will likely revisit this next year, however.</p>
+</blockquote>
+
+<blockquote>
+<p>That said, I have taken the liberty of offering you a free membership to Zipcar so that should you find yourself near one, you&#8217;ll still be able to enjoy the service.</p>
+</blockquote>
+
+<blockquote>
+<p>Thanks for your support and feel free to let Metro-North know how your experience with Enterprise went.</p>
+</blockquote>
+
+<p>Ha ha, will do! Maybe on a <a href='http://secondavenuesagas.com/2008/09/15/nyc-transit-planning-another-round-of-rider-report-cards/'>rider report card</a>?</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about'>About</h3>
+
+<p><em>City Slicking</em> is about urban life, transportation, energy, liberty, and language.</p>
+
+<h3 id='haunts'>Haunts</h3>
+
+<p><a href='http://twitter.com/n8han/'>Twitter</a><br /><a href='http://technically.us/code/'>Coderspiel</a><br /><a href='http://www.streetsblog.org/'>Streetsblog</a><br /><a href='http://gawker.com/people/alexpareene/posts/'>Pareene</a><br /><a href='http://www.copenhagenize.com/'>Copenhagenize</a><br /><a href='http://itre.cis.upenn.edu/~myl/languagelog/'>Language Log</a><br /><a href='http://t4america.org/'>Trans. for America</a></p>
+
+<h3 id='wire_service'>Wire Service</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/city-rss' title='All in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-short-rss' title='Left column, frequent links and notes'>Quickies</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-long-rss' title='Main column, occasional extended posts'>Treatise</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1813">
+  		
+  		
+  	</div>
+  	<div id="id1814">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id1815" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id1815_hf_0" id="id1815_hf_0" /><input type="hidden" name="wicket:interface" value=":953:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id1816" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id1817" name="add" value="Add a comment" onclick="wicketShow('id1817--ajax-indicator');var wcall=wicketSubmitFormById('id1815', '../../../?wicket:interface=:953:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id1817--ajax-indicator');}.bind(this),function() { ;wicketHide('id1817--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id1815')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id1817--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

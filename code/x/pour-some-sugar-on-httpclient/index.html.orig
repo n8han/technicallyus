@@ -1,0 +1,175 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Pour some sugar on HttpClient</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id24d4" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Pour some sugar on HttpClient" width="492" class="title" src="../../../resources/net.databinder.components.RenderedLabel/bd7458a5"/><span class="title">Pour some sugar on HttpClient</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on March 23, 2008</span></span>
+			<span id="id24d5" class="tags">
+					{&nbsp;<span><a href="../../../code/tag/http/#selected-tag"><span>http</span></a><span id="id24d6">, </span></span><span><a href="../../../code/tag/scala/#selected-tag"><span>scala</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p><em><strong>Hey, internet,</strong> time has passed and the interface described below has grown, changed, and become its own project: <a href='http://databinder.net/dispatch/'>Databinder Dispatch</a>. Most of the snippets in this post won&#8217;t compile against today&#8217;s Dispatch (don&#8217;t worry there are <a href='http://databinder.net/dispatch/Guide'>current snippets</a>!) but the spirit is the same so please do read on.</em></p>
+
+<p class='break'> <a href='http://hc.apache.org/httpcomponents-client/index.html'>HttpClient</a>: it&#8217;s not bad, for a Java library! But how much more fun could it be in Scala, with anonymous functions and methods that look like operators?</p>
+
+<pre><code>val t = new Http(&quot;technically.us&quot;)</code></pre>
+
+<p>In HttpClient 4, a connection is released automatically when the response body is fully read. That&#8217;s nice, but don&#8217;t think it will get you out of having a <code>finally</code> clause. Because you never know! But with Scala you can factor it out by passing a block (after which the response is finally completely read for sure):</p>
+
+<pre><code>(t x new HttpGet(&quot;/code&quot;)) {
+  (code, res, entity) =&gt; EntityUtils.toString(entity)
+}</code></pre>
+
+<p><code>code</code> is the response code from the method, <code>res</code> is the response, and <code>ent</code> is a response entity. Mostly we want to work with the entity and we only want it if the request was successful, so:</p>
+
+<pre><code>(t x new HttpGet(&quot;/code&quot;)).when(_ == 200) { EntityUtils.toString(_) }</code></pre>
+
+<p>Or to accept anything 200 to 204:</p>
+
+<pre><code>(t x new HttpGet(&quot;/code&quot;)) ok { EntityUtils.toString(_) }</code></pre>
+
+<p>Getting sweeter! But why fuss with distinct <abbr>HTTP</abbr> method objects for such common cases?</p>
+
+<pre><code>t(&quot;/code&quot;).as_str</code></pre>
+
+<p>So, those were four different ways to return the web resource as a string. WHat?! Putting the response body into a string makes an application vulnerable to <em class='smcp'>maliciously huge web pages</em>. That is so serious that HttpClient 3 would <a href='http://issues.apache.org/jira/browse/HTTPCLIENT-479?focusedCommentId=12382483#action_12382483'>always log warnings</a> to tell your boss to fire you. This is how you could channel the response to an OutputStream:</p>
+
+<pre><code>t(&quot;/code&quot;) &gt;&gt;&gt; System.out</code></pre>
+
+<p>Or if you have something that can process an InputStream.</p>
+
+<pre><code>t(&quot;/code&quot;) &gt;&gt; { do_something_streamy(_) }</code></pre>
+
+<p>Programming is hard&#8212;let&#8217;s go shopping!</p>
+
+<pre><code>val shiny = Http(&quot;http://store.apple.com/1-800-MY-APPLE/WebObjects/AppleStore.woa/wa/RSLID&quot;)
+shiny &lt;&lt; &quot;find&quot; -&gt; &quot;purple shuffle&quot; &gt;&gt;&gt; System.out</code></pre>
+
+<p>The <a href='http://technically.us/git?p=dispatch.git;a=blob;f=databinder-dispatch/src/main/scala/net/databinder/dispatch/Http.scala;h=741ba818d2029b284831b9af3802533d7ab94596;hb=ae0dc67d3f476badae686965b5dbcf125d006002'>Scala code that brokers this</a> is salty.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id24d7">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-5354"><p>hi Nate! i finally figured out that you and Leland might have websites off this technically.us thing!<br />of course, the cooking one is more interesting and understandable than programming code! but, really, you both are geniuses. i just dig ditches!! love you both, jenn</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">jenn</span></span>
+  				<span>on April 14, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5355"><p>Aw, come on. You&#8217;re the one with the master&#8217;s.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on April 15, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6297"><p>The link to the code seems to be broken.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Bryan</span></span>
+  				<span>on May 20, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6298"><p>Yes, it is. This is kind of a real project now and it has <a href='http://databinder.net/dispatch'>a permanent home</a>. I&#8217;ll add a note to the top of this post.</p>
+
+<p>Thanks for reminding me!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on May 20, 2009</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id24d8">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id24d9" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id24d9_hf_0" id="id24d9_hf_0" /><input type="hidden" name="wicket:interface" value=":1351:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id24da" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id24db" name="add" value="Add a comment" onclick="wicketShow('id24db--ajax-indicator');var wcall=wicketSubmitFormById('id24d9', '../../../?wicket:interface=:1351:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id24db--ajax-indicator');}.bind(this),function() { ;wicketHide('id24db--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id24d9')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id24db--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

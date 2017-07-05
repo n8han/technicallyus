@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/city-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>City Slicking / Aerodynamic theory is so smug</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../city">
+			
+			<img alt="City Slicking" src="../../../resources/org.apache.wicket.Application/city-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../city">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/city-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id1782" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Aerodynamic theory is so smug" width="371" class="title" src="../../../resources/net.databinder.components.RenderedLabel/ebba845a"/><span class="title">Aerodynamic theory is so smug</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Doctor Barnett</span>, <span>on January 24, 2009</span></span>
+			<span id="id1783" class="tags">
+					{&nbsp;<span><a href="../../../city/tag/environment/#selected-tag"><span>environment</span></a><span id="id1784">, </span></span><span><a href="../../../city/tag/autos/#selected-tag"><span>autos</span></a><span id="id1785">, </span></span><span><a href="../../../city/tag/marketing/#selected-tag"><span>marketing</span></a><span id="id1786">, </span></span><span><a href="../../../city/tag/transportation/#selected-tag"><span>transportation</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>When a bunch of idiot celebrities struck a climatological pose by being driven to The Academy Awards in Toyota Priuses (back in the days when people paid attention to such things) right-wing talk shows were granted all their Christmas wishes forever. Not only did they have enough material to rage against limousine (?) liberal Hollywood for weeks on end, but when the Prius finally did catch on they were able to blame the model&#8217;s success on its hollyweird appearance, to say that everyone bought it just to show how green they were, like the famous Susan Sarandon. Which has become the conventional stupidity, apparently, because that shouty right-wing cultural fantasy is <a href='http://www.nytimes.com/2009/01/13/business/13hybrid.html'>reverently invoked by <em>The New York Times</em></a>:</p>
+
+<blockquote>
+<p>One reason for the popularity of the Prius is its unique body style, which many drivers appear to like because it sends a clear signal to others about what they are driving. Many other hybrids are indistinguishable from gas-only models, save for a small logo on the vehicle.</p>
+</blockquote>
+
+<p>This mushy claim is just vile enough to lure <em>City Slicking</em> out of its cave of not giving a dang what happens to personal cars because they are irrelevant anyway. But people that drive the dumb things may as well know something about them, and it would seem they do since they ignored the skin-deep-efficiency models. You see, those half-baked hybrids were no more distinguishable from their traditionally powered counterparts <em>by their fuel economy</em> than they were visually. The article works hard to suggest some mysterious snoot-factor:</p>
+
+<blockquote>
+<p>Large hybrid vehicles made by General Motors and Chrysler have not sold well, leading Chrysler to eliminate its hybrid full-size sport utility vehicles after only a few months this year.</p>
+</blockquote>
+
+<p>But as <a href='http://www.nytimes.com/2008/04/27/automobiles/autoreviews/27AUTO.html'><em>The Times</em> themselves reported last year</a>:</p>
+
+<blockquote>
+<p>the new hybrid S.U.V.’s represent a lot of work (on G.M.’s part) and added expense (for the customer) for a gain of 4 to 5 m.p.g.</p>
+</blockquote>
+
+<p>And about that &#8220;small logo,&#8221; here is what the same paper said about the Hybrid Tahoe in a piece about <a href='http://query.nytimes.com/gst/fullpage.html?res=9A06E2D61339F934A15757C0A96E9C8B63'>ridiculous free parking for vehicles with unconventional drivetrains</a>:</p>
+
+<blockquote>
+<p>this rig looks as if it were tagged by a graffiti artist named Hybrid, as there are no fewer than nine external badges and decals proclaiming its hybrid nature.</p>
+</blockquote>
+
+<p>It&#8217;s not the largeness or highly dubious covertness of hybrid <em>trucks</em> that turned off fuel-concious buyers, but their trifling efficiency gains. And leaving aside the U.S. manufacturers&#8217; incredibly clueless abortive mission to sell eco-freaks 18 m.p.g. full-size S.U.V.s for $50,000 each, the Prius had some slightly less daft but still inadequate competition:</p>
+
+<blockquote>
+<p>Honda also has had difficulty making inroads with hybrids. The company discontinued its original Insight—a car often likened to an upside-down bathtub—in 2006 and stopped building the hybrid version of its popular Accord sedan two years ago because of low sales.</p>
+</blockquote>
+
+<p class='liner'>Note that, confusingly, the EPA changed its calculation in 2007, so the current <em>Times</em> piece reports for example, &#8220;Toyota on Monday said the third-generation Prius will average 50 miles per gallon, a 4 mile improvement.&#8221; The comparisons here are all on the same, older standard.</p>
+
+<p class='break'> The original Insight was a two-seater rated at 61 city m.p.g. The Accord Hybrid was like a regular Accord, but with a smaller trunk and rated for 29 city m.p.g., up from 24. The mid ’00s Prius, for comparison, had about the same passenger space as a regular Accord, more cargo space, and was rated 51 city m.p.g.</p>
+
+<p>Do you see Honda&#8217;s mistake? If you are a <em>Times</em> writer, you&#8217;re stuck asserting that the Insight was objectively green-ugly while the Prius is objectively green-pretty. If you&#8217;re a person without a bizarre and wrong thesis to support, you can reason with the benefit of hindsight that Honda overshot the market with their first deep hybrid investment, made it too extremely efficient to be practical for most people. The Insight was a hybrid for <a href='http://arstechnica.com/reviews/3q00/honda/insight-1.html'>enthusiasts</a>, toying with tech Honda thought wouldn&#8217;t be relevant for another decade or so, and Toyota ate their lunch by having a hybrid ready to serve the mainstream when gas prices shot up. Honda then tried and failed to enter that market with hybridized conventional models that didn&#8217;t deliver enough benefit to justify their expensive drivetrains.</p>
+
+<p>To say that the Prius won out over the Accord and all other hybrids because of the Prius&#8217;s looks is just ignorant. For one thing, the fuel economy (and seating) numbers are both devastating and readily available. Then there&#8217;s the fact that no one would get near the Prius or the Insight for a few years <em>specifically because</em> of their weird appearance. That revulsion was only broken, and could only have been broken, by high gas prices. Also, all freaking cars are bought or not bought because of their looks. If 1990s Americans had not suddenly needed to appear outdoorsy and adventurous (and later, just douchy) the S.U.V. fad would not have grievously hastened the twin environmental and energy crises. Oh well! Dudes and ladies had to look tough.</p>
+
+<p>To best the efficiency of conventional autos (and still come nowhere near that of public transportation), you <em>must</em> make something that looks unconventional. Duh. Designers of the Prius and Insight realized that this would involve a hatchback with a teardrop, aerodynamic form. It&#8217;s the very shape of automotive efficiency. And yet, because no Americans cared about efficiency until the gasoline bottom fell out from under them, hatchbacks were more often made fun of than actually seen on our roads. Any potential high-fuel-economy vehicle would have to look very odd to the American market, and would necessarily succeed or (more likely) fail mostly on appearance—like every other car but more dramatically.</p>
+
+<p>The Prius had to fight a long uphill battle before earning a small boost, if any, from its unusual shape. It was the <em>actual fuel economy</em> that eventually closed sales and finally popularized the image. Grumpy old gasoline lovers didn&#8217;t anticipate this shift, don&#8217;t like it, and—amidst the carnival of hedonistic self-image-gratification that is the entire auto industry—characterize those that unashamedly operate a vehicle that stands out because of its efficiency profile as especially image-sensitive, smug, elitist, and worst of all <em>fashionable</em> shoppers. This includes sour-grapes Honda themselves:</p>
+
+<blockquote>
+<p>“Toyota, to their credit, made it a fashionable thing,” John Mendel, executive vice president of American Honda, said in an interview. “Insight was designed to make hybrid technology more affordable to consumers than it is today. It doesn’t carry the high-price stigma that hybrids normally carry.”</p>
+</blockquote>
+
+<p>He&#8217;s talking about the <em>new</em> Insight. Enough time has passed for Honda to develop a proper five-seat hybrid for the market that the Prius so presciently landed on. This car is the subject of the <em>Times</em> article when it&#8217;s not rehashing right-wing talking points about green people. Honda&#8217;s new contender is slightly smaller than the Prius, eighteen percent less expensive, and twenty percent less efficient by city m.p.g. numbers. (<em>Wikipedia</em>, however, cites a road test that finds the efficiency gap <a href='http://en.wikipedia.org/wiki/Prius#Independent_test_data_and_comparisons_with_other_vehicles'>to be smaller</a>.) But honestly, we&#8217;ve already put a lot more thought and research into this post than the silly article that prompted it. Let&#8217;s just end it here the same way the pros did, by block-quoting the industry clown that seems to be most responsible for their analytic car wreck:</p>
+
+<blockquote>
+<p>Mr. Libby of J. D. Power said that the Prius was still hard to find in some parts of the country. He expects that to still be the case even after the Insight arrives at dealers in April.</p>
+</blockquote>
+
+<blockquote>
+<p>“There are enough people out there who want to make a statement that they are environmentally conscious to make those vehicles successful,” he said.</p>
+</blockquote>
+
+<p><code>:|</code></p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about'>About</h3>
+
+<p><em>City Slicking</em> is about urban life, transportation, energy, liberty, and language.</p>
+
+<h3 id='haunts'>Haunts</h3>
+
+<p><a href='http://twitter.com/n8han/'>Twitter</a><br /><a href='http://technically.us/code/'>Coderspiel</a><br /><a href='http://www.streetsblog.org/'>Streetsblog</a><br /><a href='http://gawker.com/people/alexpareene/posts/'>Pareene</a><br /><a href='http://www.copenhagenize.com/'>Copenhagenize</a><br /><a href='http://itre.cis.upenn.edu/~myl/languagelog/'>Language Log</a><br /><a href='http://t4america.org/'>Trans. for America</a></p>
+
+<h3 id='wire_service'>Wire Service</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/city-rss' title='All in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-short-rss' title='Left column, frequent links and notes'>Quickies</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-long-rss' title='Main column, occasional extended posts'>Treatise</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1787">
+  		
+  		
+  	</div>
+  	<div id="id1788">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id1789" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id1789_hf_0" id="id1789_hf_0" /><input type="hidden" name="wicket:interface" value=":937:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id178a" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id178b" name="add" value="Add a comment" onclick="wicketShow('id178b--ajax-indicator');var wcall=wicketSubmitFormById('id1789', '../../../?wicket:interface=:937:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id178b--ajax-indicator');}.bind(this),function() { ;wicketHide('id178b--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id1789')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id178b--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

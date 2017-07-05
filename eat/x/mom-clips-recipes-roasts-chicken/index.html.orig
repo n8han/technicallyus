@@ -1,0 +1,179 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Mom clips recipes, roasts chicken</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id220" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Mom clips recipes, roasts chicken" width="526" class="title" src="../../../resources/net.databinder.components.RenderedLabel/a8b1569b"/><span class="title">Mom clips recipes, roasts chicken</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on October 14, 2007</span></span>
+			
+		</span></div>
+		<div><p>How many of you have folders full of recipes clipped from newspapers and magazines sitting around in your house somewhere? How many of those recipes have you actually tried? For years I clipped recipes and stuffed them in my acrylic cookbook stand, a kitchen accessory which has served as an informal standing file, holding appliance instruction booklets and warranty cards (often for appliances I no longer even own); newspaper food sections waiting to be harvested for clipping; current issues of cooking magazines, labels from cans, bottles, and packages printed with recipes that I like or want to try; recipes printed from the internet; and scads of clipped recipes waiting to be filed, some going back years, if not decades. The last time I went through everything in there I even found the rules that came with the <a href="http://www.llbean.com/">L. L. Bean</a> <a href="http://en.wikipedia.org/wiki/Croquet">croquet</a> set.</p>
+<p>When we moved in 1999 I weeded out over half of the clipped recipes and taped most of the rest onto index cards so I could actually file them in my recipe box. This was the first time I had thrown any recipes away since my <a href="http://www.youtube.com/watch?v=szHsaOjGvfk">husband</a> and I had combined our kitchens 21 years ago, and I decided it was safe to get rid of the instructions for making such things as <em>Coquilles St. Jacques</em>, one he brought to the marriage. If he hasn&#8217;t made it by now I don&#8217;t think it&#8217;s going to happen. My only rule was not to throw any recipes away that were hand-written by beloved dead people, which meant that I kept all my grandmother&#8217;s recipe cards, even the ones that call for cake mixes or crushed corn chips.</p>
+<p>Last week I was flipping through the recipe box and found a clipping from the <a href="http://www.pittsburghpostgazette.com/">Post-Gazette</a> for <strong>Chinese Roast Chicken</strong>. I can&#8217;t remember what year this was printed, but I know we were still in the old house when I used to make it a lot, so it was at least eight years ago. Somehow I forgot all about it and how good it is. See what you think.</p>
+<p><strong>Chinese Roast Chicken</strong> from <em>Pittsburgh Post-Gazette</em> long time ago</p>
+<p><em>serves 4</em></p>
+<ul>
+	<li>1 whole broiler-fryer chicken</li>
+	<li>1/2 cup soy sauce</li>
+	<li>1/4 cup lemon juice</li>
+	<li>2 tablespoons honey</li>
+	<li>2 teaspoons toasted sesame oil</li>
+	<li>1 teaspoon dry mustard</li>
+	<li>1/2 teaspoon ground ginger (or minced fresh ginger)</li>
+	<li>1 clove garlic, minced</li>
+	<li>1/4 teaspoon pepper</li>
+</ul>
+<p>Mix all ingredients except chicken to make marinade. In medium bowl or ziplock bag, place chicken and pour marinade over it. Cover, put in refrigerator and marinate at least 1 hour (may be left in overnight). Place chicken, breast down, on rack in roasting pan; baste with marinade. Put in 350º oven and, basting every 15 minutes, roast until chicken is dark brown and fork can be inserted with ease, about 1-1/2 hours. You may turn chicken over for the last 15 minutes to brown breast side. Make sure you check for doneness with a meat thermometer; it should read 165-175º in the thickest part of the thigh.</p>
+<p><img src="http://technically.us/resources/com.typeturner.Typeturner/image?name=chiroast" title="chiroast" alt="chiroast" /></p>
+<p>To serve, garnish with finely sliced scallions. You may boil remaining marinade and use it as a sauce for the chicken and some rice.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id221">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-4514"><p>Oh my god that looks delicious! I don&#8217;t remember eating it on South Lang. I&#8217;ll have to give it a try.</p>
+<p>I have a growing file of recipes printed from the internet and copied from cookbooks. I know I&#8217;ll never make most of them, but I look at them and think, &#8220;This looks great!&#8221;, and back into the file they go.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on October 14, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4515"><p>I have a simlar recipe affliction which I have begun to cure of late. Hope to blog about it soon. As for that chicken, I am glad you saved that recipe because it looks incredibly succulent and delicious.</p>
+<p>p.s Aren&#8217;t you going to Paris any day??</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.izzyeats.blogspot.com"><span class="alias">izzy&#039;s mama</span></a>
+  				<span>on October 14, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4519"><p>Here&#8217;s what I do with recipe clippings, internet<br />
+printouts and label recipes.  I have a vinyl note<br />
+book filled with clear page protectors and I just<br />
+slide whatever in there.  If you are really organized<br />
+you can have a book for various kinds of recipes.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Friend of Ted</span></span>
+  				<span>on October 16, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4520"><p>Leland, let me know what you think of the chicken when you try it.</p>
+<p>Hi, izzy&#8217;s mama &#8211; yes, we&#8217;re leaving for Paris on November 4th! The summer went by quick, didn&#8217;t it?! It looks like the clubs are kind of spread out, though, so we may be doing a lot of driving and not spending much time in the city.</p>
+<p>I have seen those books, Friend of Ted, and they do look like a great solution to the problem of odd-sized print-outs and clippings. Maybe I can hire someone to come in and do the organizing for me&#8230;</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca (Mom)</span></span>
+  				<span>on October 17, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5474"><p>I have made the Chinese roasted chicken twice in the last two months. I always turn it over during the last 15 minutes for the breast to brown. It is so moist and juicy. However; I add about a 1/2 cup of water to the bottom of the pan to keep the drippings from burning. And I do the basting every 15 minutes. Thanks for a great recipe!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Dana</span></span>
+  				<span>on June 6, 2008</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id222">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id223" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id223_hf_0" id="id223_hf_0" /><input type="hidden" name="wicket:interface" value=":102:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id224" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id225" name="add" value="Add a comment" onclick="wicketShow('id225--ajax-indicator');var wcall=wicketSubmitFormById('id223', '../../../?wicket:interface=:102:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id225--ajax-indicator');}.bind(this),function() { ;wicketHide('id225--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id223')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id225--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

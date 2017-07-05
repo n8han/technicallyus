@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Cafe Habana and Momofuku Noodle Bar</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="idf3a" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Cafe Habana and Momofuku Noodle Bar" width="636" class="title" src="../../../resources/net.databinder.components.RenderedLabel/b99035bb"/><span class="title">Cafe Habana and Momofuku Noodle Bar</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on October 21, 2005</span></span>
+			<span id="idf3b" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/restaurants:%20new%20york/#selected-tag"><span>restaurants: new york</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Yesterday was a banner day for small, cute, moderately overpriced restaurants downtown. After work, 2 colleagues and I went to the famous Cafe Habana at Prince and Elizabeth to try their grilled corn. n8 loves it, and Sabena swears by it, so I wanted to try. It was good, and strange. It was the first time I&#8217;ve had corn and cheese together, at least that I can remember, and I think that&#8217;s what makes it so interesting. I&#8217;d really like to try it next summer when corn is peaking&#8212;the corn we had last night was a bit limp and sad.</p>
+
+
+	<p>We teamed the corn with delicious margaritas with plenty of rock salt on them (nothing like the &#8220;Morton Margarita&#8221; at Gonzalez y Gonzalez). Sabena had a frozen mango, I had a regular rocks. I like to try a traditional margarita before I move into flavors.</p>
+
+
+	<p>Last night, when Mavis finally arrived at about 9:30 PM, we went to Momofuku Noodle Bar on 1st Ave between 10th and 11th street. We ate steamed pork buns and roasted rice cakes. Both were delicious. The roasted rice cakes were not at all what I was expecting. They were shaped like packing foam, quite spicy, and had a perfect, very slight crispiness to them that was addictive. And the pork buns were elegantly presented and scrumptious. It&#8217;s a very cute little restaurant&#8212;I only wish it were cheaper. Anyway, I&#8217;d like to go back and try the noodles.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="idf3c">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-1237"><p>cafe habana is one of the few restaurants i will wait that long for a meal. that corn is often imitated at home but never exactly duplicated.<br />
+and try minca! on 5th btwn. b and c. so so so so good i think the ramen there is maybe even better than momofuku&#8230; the soft pork chunks and the cabbage in the soup is amazing.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">jeannie</span></span>
+  				<span>on October 21, 2005</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1238"><p>That corn had better watch out. We&#8217;ll get Bon Appétit to tease the recipe out of them.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://technically.us/doc/"><span class="alias">Doctor Barnett</span></a>
+  				<span>on October 21, 2005</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1239"><p>I&#8217;m over that corn.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">MrLittlePants</span></span>
+  				<span>on October 21, 2005</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="idf3d">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="idf3e" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="idf3e_hf_0" id="idf3e_hf_0" /><input type="hidden" name="wicket:interface" value=":555:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="idf3f" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="idf40" name="add" value="Add a comment" onclick="wicketShow('idf40--ajax-indicator');var wcall=wicketSubmitFormById('idf3e', '../../../?wicket:interface=:555:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('idf40--ajax-indicator');}.bind(this),function() { ;wicketHide('idf40--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('idf3e')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="idf40--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

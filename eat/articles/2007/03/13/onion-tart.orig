@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Onion tart</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../eat">
+			
+			<img alt="Eat" src="../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../eat">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id3e7" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Onion tart" width="155" class="title" src="../../resources/net.databinder.components.RenderedLabel/6407cd37"/><span class="title">Onion tart</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on March 13, 2007</span></span>
+			<span id="id3e8" class="tags">
+					{&nbsp;<span><a href="../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p><img src="/pictures/oniontart.jpg" alt="" /></p>
+
+
+	<p>I bought my first tart pan last week, and what better way to baptize it than with a sweet and salty onion tart? Searching for André Soltner&#8217;s onion tart landed me at <a href="http://orangette.blogspot.com/2005/02/pte-brise-for-pillow.html">Orangette</a> (you can see how I copied her off-center picture style). She says that &#8220;every onion comes into the world hoping to find its end in this tart,&#8221; and it truly is a delicious little thing.</p>
+
+
+	<p>It&#8217;s amazing how much easier this tart was last week than it was <a href="http://technically.us/eat/articles/2006/05/03/tarte-à-loignon">last May</a>. Sometimes I cringe looking at my old posts! But I&#8217;m here to learn. Having a food processor is an enormous help for novice crust-makers like me. Martha Stewart&#8217;s <a href="http://marthastewart.com/portal/site/mslo/menuitem.fc77a0dbc44dd1611e3bf410b5900aa0/?vgnextoid=06f0640093b0f010VgnVCM1000003d370a0aRCRD&#38;vgnextfmt=default&#38;rsc=ns2006_m2&#38;autonomy_kw=pate+brisee"><em>pâte brisée</em></a> came together like a dream. As I was transferring it from the table to the pan, I marveled at its strength and suppleness.</p>
+
+
+	<p>Apart from the crust, there&#8217;s nothing to this recipe, and I made it twice over the weekend (the first time with olive oil, the second time with bacon fat, which I prefer). It&#8217;s good at all temperatures, including cold out of the fridge.</p>
+
+
+	<p><strong>Onion tart</strong></p>
+
+
+	<p>1 half-recipe Martha Stewart’s pâte brisée, unbaked <br> 1 to 2 tablespoons bacon fat or olive oil <br> 1 1/2 pounds yellow onions (about 2 large), peeled and very thinly sliced <br> 1 large egg <br> 1/2 cup heavy cream <br> Grated nutmeg</p>
+
+
+	<p>Preheat the oven to 375 degrees. Roll out the pâte brisée, and line a 9” removable-bottom tart shell with it. Cover with plastic wrap and refrigerate.</p>
+
+
+	<p>Heat the fat in a large skillet over medium heat, and sauté the onions, stirring regularly, until they are lightly golden and tender. Remove the skillet from the heat.</p>
+
+
+	<p>In a small bowl, beat the egg and cream together. Season lightly with salt, pepper, and nutmeg. Add this to the onions and stir to combine.</p>
+
+
+	<p>Remove the tart shell from the refrigerator, and fill it with the onion-egg mixture. Bake for 25 minutes, or until the filling is golden brown and set. Serve hot or warm. (I let my second tart brown a bit more than the one above.)</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id3e9">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3511"><p>I hate the way you&#8217;ve become a Martha Stewart camp follower! And I have not found her pâte brisée to &#8220;come together like a dream&#8221; at all! For your next Martha Stewart recipe try those <a href="http://technically.us/eat/articles/2006/04/09/martha-stewarts-caramel-nut-bars">Caramel Nut Bars</a> and then talk to me.</p>
+<p>This tart does look wonderful, though! I bet it would be good baked in a sheet pan and cut into small squares for a party, too.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on March 13, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3512"><p>Don&#8217;t be jealous of my relationship with Martha! The truth is it <em>did</em> come together like a dream the first time, and the second time it was very crumbly. And I have no interest in caramel nut bars.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on March 13, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3513"><p>I&#8217;m definitely trying this one.  Such simple ingredients, and it looks so pretty.  And I can imagine how good a slice would taste stolen straight from the fridge around midnight&#8230;like the swanky cousin of cold onion pizza.</p>
+<p>As for the Martha debate, I&#8217;ve had luck with her pate brisee recipe.  In general, I would say I&#8217;ve found her crust recipes pretty dependable.  I took a look at the caramel nut disaster.  I seriously thought about making those for Christmas last year, and now I&#8217;m glad I didn&#8217;t.  Has anyone else claimed to have made them with success?  Do you think there is a mistake in the recipe?</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://foodandpaper.blogspot.com"><span class="alias">Sarah</span></a>
+  				<span>on March 13, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3514"><p>I don&#8217;t know, Sarah; I&#8217;ve read dozens of pecan-pie type bar cookie recipes, and some have an egg in the topping and some don&#8217;t. It seems to me that the ones without an egg would have to have a thinner layer of caramelized topping, in other words, just enough to bind the nuts together and stick to the cookie base. After all, real pecan pie has several eggs in it, and that is what makes it &#8220;set&#8221;. As an experienced baker reading that recipe, can you imagine it working? Unless I used the wrong size pan, but if anything I think I used a slightly larger pan than she called for.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on March 13, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3515"><p>Hey! I just made the same crust this weekend to make my first pie ever, and I have to agree; it came out pretty well.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://gezellig-girl.com"><span class="alias">Kristen</span></a>
+  				<span>on March 13, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3516"><p>What a wonderful dish! I made it last night, using my mother&#8217;s pastry recipe (which uses Crisco, not butter), and it all went beautifully. I frantically called Leland as I poured the filling into the pie shell, wondering if there was not enough egg-cream mixture, but he reassured me that the egg mixture would rise slightly when baking (and that the onion was the more important ingredient anyway). It did, and the tart was delicious!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Emily</span></span>
+  				<span>on March 13, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id3ea">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id3eb" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id3eb_hf_0" id="id3eb_hf_0" /><input type="hidden" name="wicket:interface" value=":164:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id3ec" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id3ed" name="add" value="Add a comment" onclick="wicketShow('id3ed--ajax-indicator');var wcall=wicketSubmitFormById('id3eb', '../../?wicket:interface=:164:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id3ed--ajax-indicator');}.bind(this),function() { ;wicketHide('id3ed--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id3eb')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id3ed--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

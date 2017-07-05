@@ -1,0 +1,167 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+          <!-- charset must remain utf-8 to be handled properly by Processing -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    
+    <title>It’s raining!</title>
+    
+    <link rel="stylesheet" href="blueprint/screen.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="blueprint/print.css" type="text/css" media="print"> 
+    <!--[if IE]>
+      <link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection">
+    <![endif]-->
+    <style type="text/css">
+      body {
+        font-size: 85%;
+        color:#222;
+        background:#fff;
+        font-family: Times, "Times New Roman", serif;
+      }
+      ul { margin-left: 1px; }
+      li { margin: 0; padding: 0; }      
+    </style>
+    <script language="JavaScript">
+      function rain(command, param) { 
+        var elem = document.getElementById('rain_a');
+        if (!elem) 
+          elem = document.getElementById('rain_b');
+        var reply = elem.scripty(command + '.' + param); 
+        if (reply != "") {
+          alert(reply);
+          return false;
+        }
+        return true;
+      }
+      function load(drawing) { rain('load', drawing) }
+      function save() { 
+        var f = document.getElementById('filename');
+        if (rain('save', f.value)) {
+          f.value = "";
+          f.blur();
+          check(f);
+          fetch();
+        }
+      }
+      function erase() { rain('raze') }
+      function check(field) { document.getElementById('save_button').disabled = field.value.match(/^[\s]*$/) }
+      function fetch() {
+        if (window.XMLHttpRequest) {
+          req = new XMLHttpRequest();
+        } else if (window.ActiveXObject) {
+          req = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        req.onreadystatechange = function() {
+          if (req.readyState == 4 && req.status == 200) {
+            var links = req.responseText.match(/<a [^>]+>[^<]+<\/a>/g);
+            var html = '<ul>';
+            for (var i=5; i < links.length; i++) {
+              if (links[i].match(/href="([^"]+)".*>upload\.([^<]+)\.bin</)) {
+                var link = RegExp.$1;
+                var name = RegExp.$2;
+                html += '<li><a href="#" onclick="load(\'' + link.replace(/'/g, '\\\'')
+                  + '\'); return false">' + name + '</a></li>'
+              }
+            }
+            document.getElementById('houses').innerHTML = html + "</ul>";
+          }
+        };
+        req.open("GET", "http://technically.us/housewarming/files/?C=M;O=D&t="+new Date().getTime(), true);
+        req.send("");
+        
+      }
+    </script>
+  </head>
+  <body onload="fetch()">
+    <div class="container">
+      <div class="span-6 append-3 last">
+        <h2>It’s raining! Please draw us a house.</h2>
+
+        <p>Before Saturday <b>September 20th at 9 p.m.</b>
+        because that is when we're having a party at
+        <a href="http://maps.google.com/maps?f=q&hl=en&geocode=&q=96+Schermerhorn+Street,+apartment+3G,+in+Brooklyn&sll=40.6904,-73.98994&sspn=0.011422,0.012853&ie=UTF8&z=16&iwloc=addr">
+        96 Schermerhorn Street</a>, apartment 3g, in Brooklyn.
+        See you there!</p>
+      </div>
+      <div class="span-6">
+        <div id="Rain_container">
+        <!--[if !IE]> -->
+          <object id="rain_a" classid="java:Rain.class" 
+                    type="application/x-java-applet"
+                    archive="Rain.jpgz"
+                    width="400" height="400"
+                    standby="Loading Processing software..." >
+                  
+            <param name="archive" value="Rain.jpgz" />
+        
+            <param name="mayscript" value="true" />
+            <param name="scriptable" value="true" />
+        
+            <param name="image" value="loading.gif" />
+            <param name="boxmessage" value="Loading Processing software..." />
+            <param name="boxbgcolor" value="#FFFFFF" />
+        
+            <param name="test_string" value="outer" />
+        <!--<![endif]-->
+        
+          <object id="rain_b" classid="clsid:8AD9C840-044E-11D1-B3E9-00805F499D93" 
+              codebase="http://java.sun.com/update/1.5.0/jinstall-1_5_0_15-windows-i586.cab"
+              width="400" height="400"
+              standby="Loading Processing software..."  >
+            
+            <param name="code" value="Rain" />
+            <param name="archive" value="Rain.jpgz" />
+          
+            <param name="mayscript" value="true" />
+            <param name="scriptable" value="true" />
+          
+            <param name="image" value="loading.gif" />
+            <param name="boxmessage" value="Loading Processing software..." />
+            <param name="boxbgcolor" value="#FFFFFF" />
+          
+            <param name="test_string" value="inner" />
+          
+            <p>
+              <strong>
+                This browser does not have a Java Plug-in.
+                <br />
+                <a href="http://java.sun.com/javase/downloads/index.jsp" title="Download Java Plug-in">
+                  Get the latest Java Plug-in here.
+                </a>
+              </strong>
+            </p>
+        
+          </object>
+        
+        <!--[if !IE]> -->
+          </object>
+        <!--<![endif]-->
+      
+        </div>
+      
+        <form onsubmit="save(); return false">
+          <p>
+            <label for="filename">House 
+            <input type="text" id="filename" onkeyup="check(this)" /></label>
+            <input id="save_button" disabled="true" type="submit" value="Save"/>
+            <input type="submit" value="Erase" onclick="erase(); return false;"/>
+          </p>
+        </form>
+ 
+        <p>
+          Source code: <a href="Rain.pde">Rain</a> <a href="Carpentry.pde">Carpentry</a> <a href="WebBytes.pde">WebBytes</a> 
+        </p>
+      
+        <p>
+          Built with <a href="http://processing.org" title="Processing.org">Processing</a>
+          <a href="http://technically.us/code/x/runaway-processing/">*</a>
+        </p>
+      </div>
+      <div class="span-3 last" id="listing">
+        <h4>Handsome Houses</h4>
+        <div id="houses">Looking for houses…</div>
+      </div>
+    </div>
+  </body>
+</html>

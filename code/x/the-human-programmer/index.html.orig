@@ -1,0 +1,277 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / The human programmer</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id2121" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="The human programmer" width="391" class="title" src="../../../resources/net.databinder.components.RenderedLabel/21f22abf"/><span class="title">The human programmer</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on September 13, 2007</span></span>
+			<span id="id2122" class="tags">
+					{&nbsp;<span><a href="../../../code/tag/software/#selected-tag"><span>software</span></a><span id="id2123">, </span></span><span><a href="../../../code/tag/it/#selected-tag"><span>it</span></a><span id="id2124">, </span></span><span><a href="../../../code/tag/programming/#selected-tag"><span>programming</span></a><span id="id2125">, </span></span><span><a href="../../../code/tag/efficiency/#selected-tag"><span>efficiency</span></a><span id="id2126">, </span></span><span><a href="../../../code/tag/internet/#selected-tag"><span>internet</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Life was hard for opinionated intellectuals before the internet. Getting published at all was an ordeal, even for the world&#8217;s greatest programmer. He got to consider things harmful once in a while, but he didn&#8217;t get to post a dispatch every week on any punch-card version of Wordpress.</p>
+
+<p>The only thing 1970s intellectuals could do to foist their opinions on the world was to give long speeches. People would transcribe these, and much later they would be put on the world wide web and periodically, reverently linked to. One of these exhumed speeches is about <a href='http://www.lhup.edu/~DSIMANEK/cargocul.htm'>cargo cult science</a>, which <em>Dive into Mark</em> <a href='http://technically.us/code/x/mac-malaise'>thought relevant</a> to Apple and open source. The metaphor was bent into service in a post titled &#8220;When the bough breaks,&#8221; though that metaphor was not intended to refer to the other.</p>
+
+<p>The thing about these speeches is that they are deadly boring. They were prepared for captive, worshipful audiences. Every word did not count. Apparently not even every paragraph counted. Most people pressing that <em>digg</em> button for them can&#8217;t have gotten much farther than the esteemed by and date lines. But regarded as cultural artifacts, they&#8217;re fascinating.</p>
+
+<p>One that&#8217;s been around the block lately is Dijkstra&#8217;s speech, “<a href='http://www.cs.utexas.edu/~EWD/transcriptions/EWD03xx/EWD340.html'>The Humble Programmer</a>.&#8221; <em>Coderspiel</em> felt obligated to slough through it, given its contrast with our &#8220;glory of software programming&#8221; dedication. So here we are, reporting from 1972.</p>
+
+<h3 id='running_in_high_heels_considered_silly'>Running in high heels considered silly</h3>
+
+<p>Dijkstra&#8217;s coming-of-age story is compelling. He became a programmer before it was a recognized profession, simply because he wanted to. Nowadays, there&#8217;s really no such thing as a recognized profession. Or perhaps anything you can dream up immediately becomes a recognized profession. But in the old days you had to do something respectable to get a marriage license, so Dijkstra had to lie and say he was a theoretical physicist. And so programming as a job emerged slowly and without much respect.</p>
+
+<p>We&#8217;re summarizing by about one order of magnitude, but this is still boring. So let&#8217;s skip down to some trash talking. There were these horrible &#8220;third generation&#8221; computers back then that were so bad they made every one retarded:</p>
+
+<blockquote>
+<p>But the design embodied such serious flaws that I felt that with a single stroke the progress of computing science had been retarded by at least ten years: it was then that I had the blackest week in the whole of my professional life. &#8230; still so many people honestly believe that some law of nature tells us that machines have to be that way. They silence their doubts by observing how many of these machines have been sold, and derive from that observation the false sense of security that, after all, the design cannot have been that bad. But upon closer inspection, that line of defense has the same convincing strength as the argument that cigarette smoking must be healthy because so many people do it.</p>
+</blockquote>
+
+<p>Sweet. Dude, where is ur blog? Oh right, didn&#8217;t have them then. But this quote finds its echo, surprisingly enough, in something <a href='http://www.javalobby.org/java/forums/t101157.html#92170881'>posted</a> just last week about how Groovy is as slow as an abacus:</p>
+
+<blockquote>
+<p>Subj: 400 billion flies cannot be wrong<br />Most probably you will soon hear &#8220;If groovy were so slow, Fortune 500 companies would not use it - so it cannot be so slow.&#8221;<br />I have already given up on the subject.</p>
+</blockquote>
+
+<p>Ha ha! Boom. Naturally, the reply message dutifully says that, yes, it does work in somebody&#8217;s big company without turning the hardware to a pile of smoldering plastic, so there! It&#8217;s all about the &#8220;context,&#8221; he says in capital letters. Hey, I get it. I&#8217;m going to write a script that is for some reason ideally suited to <a href='http://dmy999.com/article/26/scala-vs-groovy-static-typing-is-key-to-performance#c000049'>running in high heels</a>. Something that demands dynamic typing, and also demands being run on a virtual machine that is horrible at dynamic typing. Let&#8217;s go!</p>
+
+<h3 id='the_software_chopportunity'>The software chopportunity</h3>
+
+<p>This Dijkstra speech is really about &#8220;the software crisis,&#8221; and how to solve it. As machines became faster, humanity&#8217;s appetite for software only increased and programmers were increasingly failing to satisfy it. Dijkstra concludes (spoiler alert!&#8212;but you should be grateful) that programmers must take a modest view of their own abilities to avoid drowning themselves in software complexity.</p>
+
+<p>This isn&#8217;t exactly what we expected, as it&#8217;s a personal application of modesty and it doesn&#8217;t conflict with programming being glorious. We could code modestly and still be carried down the streets by thankful masses who just have to have their Facebook, et cetera. Still, &#8220;glorious&#8221; is starting to wear thin and we&#8217;ll probably change it anyway. <em>For the love of programming</em>? Well, something like that.</p>
+
+<p>But whatever happened to that software crisis? Dijkstra was particularly taking aim at the programming language <a href='http://en.wikipedia.org/wiki/PL/I'>PL/1</a>, which helped the U.S. land on the moon but was at least as complicated as a lunar lander. Dijkstra being the killer app that he was, was able to bury PL/1 in a trench somewhere off the coast of Madagascar. Near the gulf of <code>goto</code>.</p>
+
+<p>But, surprise! We&#8217;re still having a software crisis. The man knew we would be, of course. The point of any speech is to motivate people, using white lies as needed. And who knows where we&#8217;d be if PL/1 hadn&#8217;t been completely destroyed. This could be a computing dark age, and it isn&#8217;t. But <em>The New York Times</em> tells us that since we now have &#8220;interconnected and interdependent networks&#8221; (hmm) <a href='http://www.nytimes.com/2007/09/12/technology/techspecial/12threat.html'>we&#8217;re in real big trouble</a>:</p>
+
+<blockquote>
+<p>problems arising from flawed systems, increasingly complex networks and even technology headaches from corporate mergers can make computer systems less reliable. Meanwhile, society as a whole is growing ever more dependent on computers and computer networks, as automated controls become the norm for air traffic, pipelines, dams, the electrical grid and more.</p>
+</blockquote>
+
+<p>Striving to be timely, the article casts the problem as one heavily aggravated by modern networks. Computers themselves have, of course, been involved with important (and often military) business as long as they&#8217;ve been around. And they can&#8217;t help being complex. (The demands always are.) Networks have been connecting them for almost as long, wreaking havoc while being enormously useful. Reporters might not have had much interaction with them until the mainstream internet, but networks have always been out there threatening to malfunction and blow us up with H-bombs.</p>
+
+<p class='break'>Here&#8217;s a theory of software quality for you: software must be nurtured. The existence of bugs isn&#8217;t mysterious to any honest programmer. They are the product of neglect. Finding a bug in one&#8217;s code isn&#8217;t so much a surprise as a feeling of déjà vu. <em>Ohhhh yesssss, I remember thinking I should check that condition.</em> Programmers have complete control over the quality of their code and, when working on code they care about, tend to produce things that work. The secret is to care for the programmers, so that they take good care of the software.</p>
+
+<p>Large organizations generally drive their software bees into combat formations, rather than nurturing colonies. Standardization is the mantra. Everyone will use one language, one set of libraries, and three ostentatious software &#8220;patterns.&#8221; In such forced conditions the feeling of code ownership vanishes and quality goes out with it. Weeks of planned system testing only reinforces the idea that bad code is expected and responsibility doesn&#8217;t exist. The late, unreliable, and inefficient software that is produced is everyone&#8217;s baby and no one&#8217;s, raised in a dysfunctional orphanage.</p>
+
+<p>The alternative is obvious: break systems down into their smallest practical units, and let small groups of programmers determine implementations from top to bottom. Necessary interfaces between modules are hammered out according to the best available standards; unnecessary interfaces are not built. Coders get to work in their favorite technology, or learn a new one.</p>
+
+<p>There are obvious downsides to that approach, the first out of everyone&#8217;s mouth being that the code will be impossible to maintain because no one knows anything but Struts 1.0. Let&#8217;s imagine a portion of a system is built in Django, because there&#8217;s a lot of excitement about it these days. The programmers nail it, and build the software twice as well and in half the time that they would have in a forced Struts march. Not just because Django makes the work easier, but because they are <em>motivated</em>. Then they go out to celebrate and are poached by a rival corporation. Oh my God, how will you ever do the phase two?!</p>
+
+<p>Craigslist. Python programmers are out there, looking for a job where they can actually use their favorite language. They probably aren&#8217;t even used to being paid as much as corporate Java programmers. So, that could be good. Incidentally, Dijkstra had some thoughts on salaries:</p>
+
+<blockquote>
+<p>in the coming years programmer salaries may be expected to go down. &#8230; perhaps the programmers of the past decade have not done so good a job as they should have done. Society is getting dissatisfied with the performance of programmers and of their products. &#8230; the price to be paid for the development of the software is of the same order of magnitude as the price of the hardware needed, and society more or less accepts that. But hardware manufacturers tell us that in the next decade hardware prices can be expected to drop with a factor of ten. &#8230; You cannot expect society to accept this, and therefore we must learn to program an order of magnitude more effectively.</p>
+</blockquote>
+
+<p>Oops. His braininess just fell into a <a href='http://www.slate.com/id/2119406'>common pricing fallacy</a>. It isn&#8217;t about what the buyer (in this case the employer) is willing to pay, it&#8217;s about what price the sellers (programmers) are willing to accept. Perversely, dissatisfaction with software produced in large organizations tends to <em>increase</em> salaries. The more programmers are disliked for failed software the more poorly they are treated, and the more poorly they are treated the more it costs to keep their seats filled. If only those seats didn&#8217;t have to be filled! Yeah. If only you didn&#8217;t need that software. And so it pays more to write bad software for large organizations than good software for small ones, if you can put up with constant, thinly veiled contempt. And regimental work conditions. And regular failure.</p>
+
+<p>This is not a crisis&#8212;it is a condition. It&#8217;s brought on by lack of understanding between programmers and everyone else. We won&#8217;t make the mistake of predicting that it will be healed <em>this</em> decade, but we can at least say that the outlines of the problem are becoming clearer. It isn&#8217;t software in general that is so intolerably bad; it&#8217;s software in large organizations. As <a href='http://weblog.raganwald.com/2007/09/we-have-lost-control-of-apparatus.html'><em>raganwald</em> points out</a>, that&#8217;s becoming more obvious:</p>
+
+<blockquote>
+<p>As if that wasn’t enough, the really bad news is, when our users go home they have this thing called the Internet. &#8230; You see, the users get exposed to other ways of doing things, ways that are <em>more convenient for users</em>, ways that <em>make them more productive</em>, and they incorrectly think we ought to do things that way for them.</p>
+</blockquote>
+
+<p>Again, let&#8217;s recognize that resentment by itself only makes the problem worse. You can fire an entire IT department and within five years the replacements will be smothered, and lulled, into the same state of malfunction. But as it becomes clear that the chaos of the internet runs circles around the lockstep of corporate methods, someone is bound to take the risk of modeling systems after the internet, allowing programmers to act independently, and internal competition to thrive. And when that works, it will spread. One thing those battleships do quickly is imitate any hint of success in their competition. Legitimate enterprise competition, of course.</p>
+
+<h3 id='glory_glory_hallelujah'>Glory, glory, hallelujah</h3>
+
+<p>We didn&#8217;t find what we were looking for about professional attitudes from Dijkstra. He was too concerned, naturally, with the relationship between programmer and computer. We&#8217;ll have to ask Humphrey Cobbler instead. He&#8217;s a fictional character in Robertson Davies&#8217;s <a href='http://en.wikipedia.org/wiki/The_Salterton_Trilogy'><em>The Salterton Trilogy</em></a>. Cobbler is an organist, an absurdly enthusiastic musician, and a constant scandal in society for his refusal to conform. And this what he says about <em>his</em> work:</p>
+
+<blockquote>
+<p>That&#8217;s what wrong with my job, too, you know. Too much talk about the nobility of it, and how the public ought to get down on its knees before the artist simply because he has the infernal gall to say that he <em>is</em> an artist, and not enough honest admission that he does what he does because that is the way he is made. [<em>p. 365</em>]</p>
+</blockquote>
+
+<p>Since the 1954 publication of those words musicians have been so successful in rebranding themselves as &#8220;artists&#8221; that, if for some reason you&#8217;re listening to the most recent Christina Aguilera album, you can hear one of her fans pledging in a non-musical interlude that Christina is absolutely the <em>best artist ever</em>. Yikes.</p>
+
+<p>Maybe programmers are just like the 1950s musicians that lacked Cobbler&#8217;s confidence, snatching desperately for public nobility. Thus far our attempts at title theft have been less successful than theirs, though not for lack of trying (e.g. software developer / architect / engineer). Like musicians, our work requires not only talent but years of practice, and we see ourselves as &#8220;different.&#8221; The average person cannot walk up to a piano, or a computer keyboard, and produce anything of value. Writers? Throw them in here too, certainly. Are reporters not a little too serious about being called &#8220;journalists&#8221;? Of course, this line of thought would annoy both of those professions, them being old, established, and respected compared to programming. How pathetic.</p>
+
+<p>Creation is a wonderful thing, without a doubt. But there&#8217;s no point in trying to explain why, or how, one way of doing it is so wonderful; inevitably it makes you ridiculous. (We&#8217;ll be changing that <em>Coderspiel</em> dedication!) The best homage you can make to the work is simply to do it. Make something for yourself, and make something for other people. If it gives them pleasure, you just might be recognized for it.</p>
+
+<p class='break'> But not as much as Christina Aguilera. Running, in high heels. While giving a speech. Bye!</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id2127">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-4651"><p>Nice rant!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://chillenious.wordpress.com"><span class="alias">Eelco Hillenius</span></a>
+  				<span>on November 8, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4652"><p>This was a rant? It was meant to be a calm rumination on the professional and personal culture of software programming. Oh well! That is what I get for all the coffee.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on November 8, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4855"><p>Wonderful essay. And thanks for the link!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://weblog.raganwald.com"><span class="alias">Reg Braithwaite</span></a>
+  				<span>on December 18, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4856"><p>&#8220;The best homage you can make to the work is simply to do it.&#8221;</p>
+
+<p>I think you mean &#8220;do it well&#8221; :P</p>
+
+<p>&#8220;We didn’t find what we were looking for about professional attitudes from Dijkstra.&#8221;</p>
+
+<p>I don&#8217;t understand this part. What&#8217;s the definition of &#8220;professional attitudes&#8221;?</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://blog.neverfriday.com"><span class="alias">Rudolf Olah</span></a>
+  				<span>on December 19, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4857"><p>You would want to do programming well to make a good homage to it; I think that&#8217;s implied. What I wanted to emphasize is <em>doing</em> the job vs. describing it (as development, or engineering, or whatever comes next).</p>
+
+<p>As for professional attitudes, you&#8217;re right that it&#8217;s not clear as written. I was talking about how programmers relate to the job rather than how they relate to the code (managing complexity, etc.). Dijkstra was talking about a different kind of &#8220;humility&#8221; than I expected.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on December 19, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4858"><p>http://www.cs.utexas.edu/users/EWD/transcriptions/EWD04xx/EWD498.html</p>
+
+<p>Check that out. It sheds a bit of light on professional attitudes I think. A like for math, writing and the initiative to learn?</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://blog.neverfriday.com"><span class="alias">Rudolf Olah</span></a>
+  				<span>on December 19, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4859"><p>Please give me back my 30 mts.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://computationalbiologynews.blogspot.com/"><span class="alias">Animesh</span></a>
+  				<span>on December 19, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4860"><p>Read faster.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://thosecleverkids.com/blog"><span class="alias">Tom Clancy</span></a>
+  				<span>on December 19, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4861"><p>&#8220;But as it becomes clear that the chaos of the internet runs circles around the lockstep of corporate methods, someone is bound to take the risk of modeling systems after the internet, allowing programmers to act independently, and internal competition to thrive.&#8221;</p>
+
+<p>Huh. Would you call someone &#8220;Google&#8221;? Although you can&#8217;t work in <em>any</em> language, you do get your choice of a few, and Python isn&#8217;t half bad.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.sapphirepaw.org/"><span class="alias">sapphirecat</span></a>
+  				<span>on December 19, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4862"><p>I&#8217;m talking about companies that use the phrase &#8220;for the enterprise&#8221; without irony. Whatever Google does, it is assumed to be uniquely possible because of their revenue and brains. But if a mobile phone operator, for example, ever shows marked improvement by implementing internal systems using internet methods, that might trigger changes in their competition and across the landscape of mediocre programming.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on December 19, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4924"><p>loved it!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">sparrow</span></span>
+  				<span>on January 7, 2008</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id2128">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id2129" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id2129_hf_0" id="id2129_hf_0" /><input type="hidden" name="wicket:interface" value=":1264:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id212a" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id212b" name="add" value="Add a comment" onclick="wicketShow('id212b--ajax-indicator');var wcall=wicketSubmitFormById('id2129', '../../../?wicket:interface=:1264:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id212b--ajax-indicator');}.bind(this),function() { ;wicketHide('id212b--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id2129')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id212b--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

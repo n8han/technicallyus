@@ -1,0 +1,192 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Leland shares space with The Martha</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id1ce1" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Leland shares space with The Martha" width="581" class="title" src="../../../resources/net.databinder.components.RenderedLabel/bd06e3f"/><span class="title">Leland shares space with The Martha</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on May 23, 2007</span></span>
+			
+		</span></div>
+		<div><p>As a New Yorker with a food blog, I sometimes get invited to food things happening around town, and I try my best to attend if they&#8217;re at all interesting. When I was invited to watch Martha Stewart interview Jean-Georges Vongerichten on <a href="http://www.sirius.com/servlet/ContentServer?pagename=Sirius/CachedPage&#38;c=Channel&#38;cid=1115038982636">Sirius Radio</a> tonight, I sent a breathless <span class="caps">RSVP</span>. Two, actually, in case the first one didn&#8217;t take. I wouldn&#8217;t miss a chance to bask in the Martha glow for anything.</p>
+
+
+	<p>And bask we all did. She looks gorgeous.</p>
+
+
+	<p><img src="/pictures/martha1.jpg" alt="" /></p>
+
+
+	<p>This was the first recording of <em>At Martha&#8217;s Table</em>, a radio program where Martha interviews famous chefs about their background and careers. Hors d&#8217;oeuvre were provided by <a href="http://nymag.com/listings/restaurant/vong/">Vong</a>, and most of them were lovely (all, in fact, except the purses of something bitter and topped with gold leaf, pictured below; even gold couldn&#8217;t save it). Guests started showing up at 6, and we all had a chance to meet and mingle while we waited for her entrance. I got to know the couple behind <a href="http://www.nosheteria.com/">Nosheteria</a>, and I found I had plenty in common with one of <a href="http://kitchen.apartmenttherapy.com/">The Kitchen&#8217;s</a> principal writers.</p>
+
+
+	<p><img src="/pictures/martha2.jpg" alt="" /></p>
+
+
+	<p>Martha&#8217;s companies were well represented, and I met all variety of communications people and editors. It was great fun to be in a room full of people with such similar interests. Hostess and interviewee aside, this gathering wasn&#8217;t about celebrity chefs and restaurants—it was about cooking and eating. Everyone I met was curious about this blog, and about food blogs in general.</p>
+
+
+	<p>I didn&#8217;t have a chance to meet the woman herself, but what would I have said? I suppose I would have just said thank you, and good luck with your radio show!</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1ce2">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3788"><p>Very cool. I&#8217;m something of a Martha fan &#8211; not as in swoon, more as in respect. How was the interview itself? Do you know if there&#8217;s somewhere on the internet to listen to it?</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.ceresandbacchus.com"><span class="alias">Mary</span></a>
+  				<span>on May 23, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3789"><p>i am so so jealous&#8230;</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">jeannie</span></span>
+  				<span>on May 23, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3790"><p>How wonderful!!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Uncle Teddy</span></span>
+  				<span>on May 23, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3791"><p>Pretty cool.  It&#8217;s not every day you get to listen to someone who was convicted of violating <span class="caps">SEC</span> rules talk about food! :)</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://colinwetherbee.com/"><span class="alias">Colin</span></a>
+  				<span>on May 23, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3792"><p>As far as I could tell on the Sirius website, the interview is not available online. From what I heard of it (about ten minutes), it was just Martha asking <span class="caps">JGV</span> about his various restaurants. Perfectly pleasant, but nothing earth-shattering.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on May 23, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3793"><p>I guess attending this means you didn&#8217;t watch the <em>Lost</em> grand finale&#8230; Was it worth it?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on May 23, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3794"><p>I can attest, the purse hors d&#8217;oeuvres were definitely not the best part of the evening.  But it was very nice to meet you Leland.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.nosheteria.com"><span class="alias">Adrienne</span></a>
+  				<span>on May 23, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3795"><p>Mommy: we can record TV in these crazy modern times. And I&#8217;m pretty sad about Charlie.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on May 23, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id1ce3">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id1ce4" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id1ce4_hf_0" id="id1ce4_hf_0" /><input type="hidden" name="wicket:interface" value=":1098:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id1ce5" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id1ce6" name="add" value="Add a comment" onclick="wicketShow('id1ce6--ajax-indicator');var wcall=wicketSubmitFormById('id1ce4', '../../../?wicket:interface=:1098:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id1ce6--ajax-indicator');}.bind(this),function() { ;wicketHide('id1ce6--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id1ce4')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id1ce6--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

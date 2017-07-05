@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/city-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>City Slicking / The Daniel Gross apartment purchase program</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../city">
+			
+			<img alt="City Slicking" src="../../../resources/org.apache.wicket.Application/city-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../city">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/city-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id1b9e" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="The Daniel Gross apartment purchase program" width="563" class="title" src="../../../resources/net.databinder.components.RenderedLabel/3b688008"/><span class="title">The Daniel Gross apartment purchase program</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Doctor Barnett</span>, <span>on March 5, 2007</span></span>
+			<span id="id1b9f" class="tags">
+					{&nbsp;<span><a href="../../../city/tag/slate/#selected-tag"><span>slate</span></a><span id="id1ba0">, </span></span><span><a href="../../../city/tag/economy/#selected-tag"><span>economy</span></a><span id="id1ba1">, </span></span><span><a href="../../../city/tag/nyt/#selected-tag"><span>nyt</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>While the paper is <a href="http://www.nytimes.com/2007/02/19/nyregion/19market.html">falling all over itself</a> to predict that the real estate market is done cooling off, <em>Slate</em> has a <a href="http://www.slate.com/id/2160973">fairly entertaining characterization</a> of the current housing market as the year 2000 Internet &#8220;this is <em>not</em> a bubble!&#8221; bubble.</p>
+
+<blockquote>
+    <p>Echoes from 2000 can also be heard in the continual false calls of a market bottom. The Web site Minyanville has documented the repeated bottom-calling attempts by National Association of Realtors economist David Lereah. Lereah believed the housing market had stabilized in March 2006 and again in April, June, October, and November.</p>
+</blockquote>
+
+<p>Good, smug fun!</p>
+
+<blockquote>
+    <p>David Lereah, who published a <a href="http://www.amazon.com/Real-Estate-Boom-Will-Bust/dp/0385514352/sr=8-1/qid=1172676045/ref=pd_bbs_sr_1/102-3067168-8106556?ie=UTF8&amp;s=books">book</a> in 2005 telling readers how they could get rich participating in the endless housing boom, published a <a href="http://www.amazon.com/Rules-Growing-Rich-Information-Economy/dp/0812930568/sr=8-2/qid=1172675978/ref=pd_bbs_sr_2/102-3067168-8106556?ie=UTF8&amp;s=books">book</a> in 2000 advising readers how they could get rich from the endless information technology boom.</p>
+</blockquote>
+
+<p>Ha ha, buussted! But this is not exactly the same as the Internet bust, because in housing there are legions of people quietly pining for a crash. Generation X, we used be called. Those of us not born into prime real estate have been unable to buy any, particularly in the cities we&#8217;ve been flocking to.</p>
+
+<p>Even before the housing bubble stories started trickling in we were anticipating them. You don&#8217;t need to be told that three quarters of a mil is just too damn expensive (in today&#8217;s money) for your first house. So it&#8217;s been fun to watch the old, real-estate-owning dudes at the <em>Times</em> wring their hands over lightly declining prices the past two years. Now we get to watch them falsely predict bottom after bottom leading up to the crash we&#8217;re dreaming of.</p>
+
+<p class="break">I don&#8217;t know about you, but I&#8217;m totally gonna wear flannel and listen to <i>Nirvana</i> as this shit goes down.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about'>About</h3>
+
+<p><em>City Slicking</em> is about urban life, transportation, energy, liberty, and language.</p>
+
+<h3 id='haunts'>Haunts</h3>
+
+<p><a href='http://twitter.com/n8han/'>Twitter</a><br /><a href='http://technically.us/code/'>Coderspiel</a><br /><a href='http://www.streetsblog.org/'>Streetsblog</a><br /><a href='http://gawker.com/people/alexpareene/posts/'>Pareene</a><br /><a href='http://www.copenhagenize.com/'>Copenhagenize</a><br /><a href='http://itre.cis.upenn.edu/~myl/languagelog/'>Language Log</a><br /><a href='http://t4america.org/'>Trans. for America</a></p>
+
+<h3 id='wire_service'>Wire Service</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/city-rss' title='All in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-short-rss' title='Left column, frequent links and notes'>Quickies</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-long-rss' title='Main column, occasional extended posts'>Treatise</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1ba2">
+  		
+  		
+  	</div>
+  	<div id="id1ba3">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id1ba4" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id1ba4_hf_0" id="id1ba4_hf_0" /><input type="hidden" name="wicket:interface" value=":1059:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id1ba5" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id1ba6" name="add" value="Add a comment" onclick="wicketShow('id1ba6--ajax-indicator');var wcall=wicketSubmitFormById('id1ba4', '../../../?wicket:interface=:1059:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id1ba6--ajax-indicator');}.bind(this),function() { ;wicketHide('id1ba6--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id1ba4')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id1ba6--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

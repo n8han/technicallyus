@@ -1,0 +1,257 @@
+.lead {
+	margin-bottom: 1em;
+}
+
+#weblog-name img, #weblog-photo img {
+	display: block;
+	behavior: url(../../ie/iepngfix.htc);
+}
+
+.byline {
+	font-size: 90%;
+	line-height: 1.66em;
+}
+
+.byline {
+	margin-top: -1.5em;
+	margin-bottom: 1.5em;
+}
+
+.post .byline {
+	margin-top: -1.8em;
+}
+
+div#notes-col {
+	margin-top: 47px;
+}
+
+div.sidebar {
+	font-size: 80%;
+	text-align: right;
+	line-height: 1.5em;
+}
+
+div.sidebar h3 {
+	line-height: 1em;
+}
+
+div.calendar div.sidebar {
+	text-align: left;
+}
+
+#comments {
+	font-size: 80%;
+	margin-right: 10em;
+}
+
+#comments form input.web {
+	width: 25em;
+}
+
+#comments form textarea {
+	width: 25em;
+	height: 10em;
+}
+
+div.sidebar h3 a {
+	border-bottom: none;
+}
+
+h2.title span.title {
+	visibility: hidden;
+	white-space: nowrap;
+}
+
+h2.title a {
+	border: none;
+}
+
+h2.title img.title {
+	position: absolute;
+	padding: none;
+}
+
+img, p img {
+	float: none;
+	margin: 0;
+}
+
+em, strong {
+	background: none;
+	line-height: 100%;
+}
+
+blockquote {
+	color: inherit;
+}
+
+acronym, abbr, .smcp {
+	border: none;
+	letter-spacing: .07em; 
+	text-transform: uppercase; 
+	font-size: 85%;
+	font-style: normal;
+}
+
+#corner-links {
+	position: fixed;
+	right: .5em;
+	bottom: .5em;
+}
+
+.note-edit-line { /*ie7*/
+	text-align: left;
+	height: 0;
+}
+
+.note-edit-link {
+	position: absolute;
+}
+
+.note-edit-link .overlay-link {
+	position: relative;
+	left: 157px;
+}
+
+.post-edit {
+	position: fixed;
+	top: 10px;
+}
+
+.post-edit .overlay-link {
+	position: relative;
+	left: 500px;
+}
+
+.overlay-link a, .post-edit .overlay-link a, .overlay-link a:hover {
+	border: none;
+}
+
+.overlay-link img.overlay-link-img {
+	opacity: .6;
+}
+
+.note-edit-link .overlay-panel {/*ie7*/
+	width: 305px;
+}
+
+div.row select { /*blueprint*/
+	margin: 0;
+}
+
+div.row.single {
+	height: 2em;
+}
+
+.post ul {
+	margin-left: 0;
+}
+
+.alias {
+	font-weight: bold;
+}
+
+/* Liner notes */
+
+#home p.liner {
+	display: none;
+}
+
+.post p.liner {
+	position: absolute;
+	margin-left: -180px;
+	width: 155px;
+	font-size: 80%;
+	text-align: right;
+	margin-top: 1em;
+}
+
+/* right-margin images */
+
+.post p.out {
+	position: absolute;
+	height: 0;
+	margin: 0;
+	text-indent: 0;
+	margin-top: 0;
+}
+
+.post p.out img {
+	left: 485px;
+	position: relative;
+	top: 0.25em;
+}
+
+form label {
+	display: block;
+}
+
+form div.row {
+	height: 4.5em;
+	clear: left;
+}
+
+.wicket-modal form select {
+	width: auto;
+}
+
+div.wicket-modal div.w_content_2 div.w_content_3 {
+	border: none;
+	padding: 0 1.5em;
+}
+
+/* tag listing */
+div.tag-columns {
+	width: 42em;
+	overflow: hidden;
+}
+
+div.tag-columns div {
+	clear: left;
+	font-size: .7em;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+}
+
+div.tag-columns div span.elem {
+	float:left; 
+	width: 10em;
+	height: 1.75em;
+}
+
+div#selected-tag, div#postSidebar {
+	clear: left;
+}
+
+.weblog-name {
+	font-style: italic;
+}
+
+/* Calendar archive */
+
+h1.period {
+	width: 450px;
+	padding-left: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1.period span.arrow {
+	float: left;
+}
+
+h1.period span.arrow > img {
+	visibility: hidden;
+}
+
+h1.period span.month-year {
+	width: 350px;
+	float: left;
+	text-align: center;
+}
+
+div#target-padder {
+	clear: left;
+	float:left;
+	height: 30em;
+}

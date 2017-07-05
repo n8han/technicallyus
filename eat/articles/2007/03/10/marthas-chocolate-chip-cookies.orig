@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Martha&#039;s chocolate chip cookies</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../eat">
+			
+			<img alt="Eat" src="../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../eat">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id4c9" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Martha's chocolate chip cookies" width="502" class="title" src="../../resources/net.databinder.components.RenderedLabel/e5a930b5"/><span class="title">Martha&#039;s chocolate chip cookies</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on March 10, 2007</span></span>
+			<span id="id4ca" class="tags">
+					{&nbsp;<span><a href="../../eat/tag/baking/#selected-tag"><span>baking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p><img src="/pictures/marthacookies.jpg" alt="" /></p>
+
+
+	<p>Martha&#8217;s <a href="http://www.amazon.com/exec/obidos/ASIN/0307236722/eat0e-20">baking book</a> and I are getting along very well these days. I have yet to be disappointed or confused over a recipe, and everything has been delicious. I&#8217;m always nervous about chocolate chip cookies, because I don&#8217;t understand all the mechanics and ingredients, and I&#8217;m afraid something will go wrong (and I&#8217;m sad when cookies aren&#8217;t good). Martha&#8217;s recipe is pretty different from my <a href="http://wordstoeatby.blogspot.com/2004/12/best-homemade-chocolate-chip-cookies.html">standard</a>, and there&#8217;s no refrigeration of the dough, which many people told me is important. I was on the verge of chilling it, but I decided to obey the Martha.</p>
+
+
+	<p>I don&#8217;t know what refrigeration would have done, but these are excellent, chewy, salty cookies, and very easy to make.</p>
+
+
+	<p>2 cups a-p flour <br> 1 teaspoon baking soda <br> 1 teaspoon salt <br> 2 sticks room temperature unsalted butter <br> 1 cup sugar <br> 1/2 cup packed dark-brown sugar <br> 2 teaspoons vanilla extract <br> 1 large whole egg, plus 1 large egg white <br> 12 ounces semisweet chocolate chunks (about 2 cups)</p>
+
+
+	<p>Preheat to 375ºF. Line two baking sheets with parchment paper. Whisk the flour, soda, and salt. Beat the butter and sugars in a tabletop mixer (I used a hand mixer) until light and fluffy.</p>
+
+
+	<p>Add the vanilla and eggs, and beat on low speed until well combined. Add the flour in two batches, and mix until just combined. Mix in the chocolate.</p>
+
+
+	<p>Shape 2 heaping tablespoons of dough at a time into balls and place them 1.5 inches apart on the baking sheets. Bake for 18 minutes or until golden brown, rotating the sheets halfway through. (Mom: I did what you told me and baked them in two batches, since I still only have one baking sheet. Parchment paper makes this easy!)</p>
+
+
+	<p>Serve with plenty of cold milk!</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id4cb">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3506"><p>Santa&#8217;s favorite, I&#8217;m sure.  Those look amazing!  Nice and droopy and moist.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://colinwetherbee.com/"><span class="alias">Colin</span></a>
+  				<span>on March 10, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3507"><p>Looks like you&#8217;re doing all right by Martha. Or maybe it&#8217;s vice versa.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://kitchenography.typepad.com"><span class="alias">Julie</span></a>
+  				<span>on March 10, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3508"><p>I love the teaspoon of salt, chocolate and salt go brilliantly together!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://zombiesnack.blogspot.com"><span class="alias">Freya</span></a>
+  				<span>on March 10, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3509"><p>Leland&#8230; these look yummy! I like cc cookies when they&#8217;re flatter and not doughy.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.pigtown-pigout.blogspot.com"><span class="alias">Fairfax</span></a>
+  				<span>on March 10, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id4cc">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id4cd" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id4cd_hf_0" id="id4cd_hf_0" /><input type="hidden" name="wicket:interface" value=":194:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id4ce" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id4cf" name="add" value="Add a comment" onclick="wicketShow('id4cf--ajax-indicator');var wcall=wicketSubmitFormById('id4cd', '../../?wicket:interface=:194:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id4cf--ajax-indicator');}.bind(this),function() { ;wicketHide('id4cf--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id4cd')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id4cf--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

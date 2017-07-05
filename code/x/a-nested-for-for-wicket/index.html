@@ -1,0 +1,162 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="../../../blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="../../../blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet.css"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / A nested for, for Wicket</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code.html">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code.html">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id2431" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="A nested for, for Wicket" width="385" class="title" src="../../../resources/net.databinder.components.RenderedLabel/ff8fbeb4"/><span class="title">A nested for, for Wicket</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on June 21, 2006</span></span>
+			<span id="id2432" class="tags">
+					{&nbsp;<span><a href="../../tag/databinder/index.html#selected-tag"><span>databinder</span></a><span id="id2433">, </span></span><span><a href="../../tag/programming/index.html#selected-tag"><span>programming</span></a><span id="id2434">, </span></span><span><a href="../../tag/wicket/index.html#selected-tag"><span>wicket</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Old-fashioned Web frameworks are like weak-willed parents. They tell you not to drive &lt;% Dad’s sports car %&gt;—unless you <em>really</em> need it. Or, they hand over the keys to a &lt;c:forEach …&gt;  repainted old tanker &lt;/c:forEach&gt;, as if its bulk and inefficiency would keep you from careening off the cliff on dead man’s curve.</p>
+
+
+	<p style="float:right"><img src="../../../pictures/ladder.jpg" alt="" /></p>
+
+
+	<p>But in Wicket’s house you can just forget about it. Don’t even try to disguise your executable code as <span class="caps">XML</span>. That trick won’t work here. You will <strong>compile</strong> your logic—all of it!—and you’ll thank Wicket for it later.</p>
+
+
+	<p>So an experienced programmer immediately wonders, “How are you supposed to make a table out of a collection in Java code—won’t it be as clumsy as a custom tag?” Well <em>no</em>, because Wicket does the markup work for you. You can iterate over any valid <span class="caps">HTML</span> node.</p>
+
+
+	<p>This programmer eventually learns to love looping with ListView, perhaps after spending some time with Databinder’s <a href="http://databinder.net/bookmarks.html">bookmarks example</a>. But then one day the boss-man comes along with a seemingly simple request, “I want a two column list sorted vertically. And I want it <strong>yesterday! Grr!</strong>”</p>
+
+
+<pre>
+a    d
+b    e
+c    f
+</pre>
+
+	<p>The programmer knows how to do it with a script: nested <tt>for</tt> loops and some arithmetic. He can’t do that in Wicket, but nesting ListViews should work. The only problem is the model object. He needs a list of row-lists, something like ((a,d),(b,e),(c,f)). Where the heck is he going to get that?</p>
+
+
+	<p>It’s easy enough to build in a Page constructor. But then the list would be generated only once and kept in memory—not great. So he makes an IModel implementation that rebuilds this lists of lists every time getObject() is called. It’s graceless, since getObject() is called several times per request, but the list is short and he has things to do this weekend, so that’s that.</p>
+
+
+	<p>(Disclosure: “he” is actually me. Well, not really, since I <em>made</em> the Databinder bookmarks example, and my boss doesn’t growl, but still.)</p>
+
+
+	<p style="float:left"><img src="../../../pictures/notes.jpg" alt="" /></p>
+
+
+	<p>It’s a tricky problem, but I think I’ve finally arrived at a good solution: <a href="http://databinder.net/wsvn/Databinder/databinder/trunk/src/main/java/net/databinder/models/SublistProjectionModel.java?op=file">SublistProjectionModel</a>. Feel free to copy & paste, or if you’re using Databinder you can <a href="http://databinder.net/faq.html#uptodate">update to 0.6-SNAPSHOT</a>.</p>
+
+
+	<p>To the IModel interface the SublistProjectionModel presents lists of lists, but its only retained object is a model containing the continuous “master” list. From that it builds a transient list of ProjectedSublist objects, which are virtual lists that forward their <tt>get(i)</tt> requests to the master list. Constructing these is much less work than building real lists, and each consumes a small amount of memory unaffected by the size of the list.</p>
+
+
+	<p>You can act on the leaf node models of the sublist as in any ListView, so form fields are fine, but Wicket’s and Databinder’s move & remove helpers won’t work (yet). For those actions you need to work with the master list, then call <tt>detach()</tt> on the projection model.</p>
+
+
+	<p>The SublistProjectionModel, then, is a tool to efficiently project a single list into arbitrarily transformed sublists. It includes two implementation classes. “Chunked” splits your master list into a given chunk size, as in ((a,b),(c,d),(e,f)). “Transposed” is the one you need for doing vertical sorting in a horizontally defined table; it solves the problem defined above. Woo!</p>
+
+
+	<p>And, Whew. Is it a bad thing that it’s taken me months to properly solve a problem that I could have done with scripting in ten minutes?</p>
+
+
+	<p>Well, sort of. But on the other hand, the transposed layout problem is <strong>solved for all time</strong>. Now you can just use it <a href="http://databinder.net/wsvn/Databinder/bookmark/trunk/src/main/java/example/ListAndAdd.java?op=file">anywhere</a>, unlike a nested <tt>for</tt> in a scripted template or a custom tag for tables.</p>
+
+
+	<p>And now that I’ve hit on using one IModel as a <em>lens</em> for another (which for all I know everyone else was already doing), I can use the idea for other problems: single-list sorting, date formatting, number formatting—all without burdening data classes with unwanted, redundant UI code.</p>
+
+
+	<p>But for now I’m just happy to have efficient vertically sorted columns. Grr.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='../../../resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id2435">
+  		
+  		
+  	</div>
+  	<div id="id2436">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id2437" action="../../../index.html" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id2437_hf_0" id="id2437_hf_0" /><input type="hidden" name="wicket:interface" value=":1332:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id2438" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id2439" name="add" value="Add a comment" onclick="wicketShow('id2439--ajax-indicator');var wcall=wicketSubmitFormById('id2437', '../../../?wicket:interface=:1332:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id2439--ajax-indicator');}.bind(this),function() { ;wicketHide('id2439--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id2437')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id2439--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

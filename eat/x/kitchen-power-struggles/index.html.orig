@@ -1,0 +1,168 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Kitchen power struggles</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="idf5d" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Kitchen power struggles" width="376" class="title" src="../../../resources/net.databinder.components.RenderedLabel/2bab2dee"/><span class="title">Kitchen power struggles</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on February 13, 2007</span></span>
+			<span id="idf5e" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/theory/#selected-tag"><span>theory</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>An <a href="http://www.nytimes.com/2007/02/14/dining/14beta.html?ex=1329109200&#38;en=5c51a8fe84683f1d&#38;ei=5124&#38;partner=permalink&#38;exprod=permalink">article</a> in this week&#8217;s Dining section discusses the phenomenon of the alpha cook. Do most people have one of these at home, and is it problematic? It&#8217;s hard for me to imagine marriages &#8220;running aground&#8221; over a fight in the kitchen, but like in all other areas of home management, someone has to step up and learn his way around, and the other person can be left in the cold.</p>
+
+
+	<p>When Nathan and I first started dating, he did all of the cooking because it was his kitchen and because I had never really cooked anything in an adult way. I took a serious interest in it in France, and now I cook 99 percent of the time. It&#8217;s not because I&#8217;m better; it&#8217;s because I&#8217;m home an hour earlier, I genuinely enjoy being in the kitchen, and he has a ton of computer work to do. Now he doesn&#8217;t really like to do any cooking if I&#8217;m around, because even if I don&#8217;t make any comments, he can feel my eyes. He also doesn&#8217;t know where a lot of things are. When I showed him how the measuring cups are stored in the wine rack, he replied, &#8220;Are you serious?&#8221; I&#8217;ve since moved them to the shelf that holds the vitamins and kitchen utensils, above the coffee station. The kitchen is a complicated puzzle that the main cook is taking apart and putting together and changing constantly.</p>
+
+
+	<p>I know how Nathan feels, because when I&#8217;m at home in Pittsburgh and in the kitchen with Mom, my palms sweat. It&#8217;s her domain, she knows where everything is, and she knows how to do everything. I want to learn, but at the same time I&#8217;m afraid of doing things wrong. I cooked her a birthday dinner on Sunday (she&#8217;ll eventually post about it), and the only way I was able to turn out that meal was that I was alone in the kitchen all afternoon, free to explore and experiment, to get lost and mess up.</p>
+
+
+	<p>I don&#8217;t know any couples that have serious power struggles in the kitchen. Billy and Mom are both great cooks, and I suppose I&#8217;ve seen them disagree, but they manage to stay out of each other&#8217;s way while cooking. The problem must come when couples try to cook together. That seems like a minefield for hurt feelings and misunderstandings. My recommendation? Stay out of your lover&#8217;s way, compliment the meal, and save your relationship.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="idf5f">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3365"><p>I like that this post goes in the &#8220;theory&#8221; section. :)</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://colinwetherbee.com/"><span class="alias">Colin</span></a>
+  				<span>on February 13, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3366"><p>You probably forget that when Poppy and I first got married he did all the cooking, and in his previous life (and marriage) he was the only one who knew how to cook. But now that I have been the primary cook for at least 15 years I am definitely the alpha cook in our kitchen, and if you see us cooperatively cooking together it is because I am consciously biting my tongue not to be criticizing him the whole time or at least making &#8220;suggestions&#8221; about how he could be doing something better or more efficiently, and that takes all the fun out of it for him, obviously. Sometimes it works best if we divide up chores and I just try not to watch what he is doing.</p>
+<p>When we first got married it was funny when we would go to the grocery store together because it was like two people trying to steer a bicycle built for two in different directions; we were each used to shopping in our own way. We learned that we had to say, &#8220;Okay, which one of us in in charge of this shopping trip?&#8221;</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on February 13, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3367"><p>i used to have this problem. it was the worst. thankfully now, i have someone in my life that enjoys spending the time with me in the kitchen instead of backseat cooking. he happily plays sous chef (grating cheese, peeling potatoes) and loves to learn in the process.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">jeannie</span></span>
+  				<span>on February 13, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3368"><p>Someday I&#8217;ll get around to posting on the chicken marsala pas des deux I saw an older couple do once.</p>
+<p>Until I learn their moves though, I think it&#8217;s a good policy to give one another free rein, especially when the less alpha (?) cooks in the household want to do something special.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">zp</span></span>
+  				<span>on February 13, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3369"><p>I never really thought about this before, and I&#8217;m kind of sorry I&#8217;m thinking about it now, cause I don&#8217;t like what I see in the alpha cook that is me!</p>
+<p>My Mum was such an alpha cook that I had to leave home before I could get any room to cook. She wouldn&#8217;t let me get my hands on anything more than a towel to dry dishes. But I was allowed to watch, and I learned. She was a great cook.</p>
+<p>I was lucky to marry a guy who liked to eat and had no interest in cooking, because my cooking bossiness knows no bounds. I did manage to control it sufficiently to let my daughter participate, and I&#8217;m still comfortable having her cook with me. I think having me in her kitchen drives her mad though; she&#8217;s a total alpha cook too. And so is my brother. When I cook with friends, I have to rein myself in carefully, or I&#8217;m a horrible bully. God, I&#8217;m awful.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://lindystoast.com"><span class="alias">lindy</span></a>
+  				<span>on February 13, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="idf60">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="idf61" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="idf61_hf_0" id="idf61_hf_0" /><input type="hidden" name="wicket:interface" value=":560:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="idf62" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="idf63" name="add" value="Add a comment" onclick="wicketShow('idf63--ajax-indicator');var wcall=wicketSubmitFormById('idf61', '../../../?wicket:interface=:560:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('idf63--ajax-indicator');}.bind(this),function() { ;wicketHide('idf63--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('idf61')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="idf63--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

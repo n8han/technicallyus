@@ -1,0 +1,151 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Foie gras</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../eat">
+			
+			<img alt="Eat" src="../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../eat">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id1655" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Foie gras" width="143" class="title" src="../../resources/net.databinder.components.RenderedLabel/f2fd2d69"/><span class="title">Foie gras</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on May 3, 2006</span></span>
+			<span id="id1656" class="tags">
+					{&nbsp;<span><a href="../../eat/tag/theory/#selected-tag"><span>theory</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>I am not a big fan of eating foie gras. I generally find it too rich, and I once spent an hour looking through a <a href="http://www.amazon.com/exec/obidos/ASIN/0471293180/eat0e-20">book</a> containing nothing but recipes for enlarged livers and got really turned off. Nevertheless, I&#8217;m horrified at Chicago&#8217;s <a href="http://www.latimes.com/features/printedition/food/la-fo-foiegras3may03,1,7061033.story?coll=la-headlines-pe-food">ban</a> on the food. A <a href="http://www.nytimes.com/2006/05/03/dining/03gras.html?_r=1&#38;oref=slogin">story</a> in today&#8217;s paper reveals more about the national plot to eliminate foie gras not only from restaurant menus, but from grocery stores, farms, and citizens&#8217; homes.</p>
+
+
+	<p>According to the Times, animal rights activists have strong-armed Whole Foods into threatening to terminate its contract with <a href="http://www.grimaud.com/">Grimaud Farms</a> unless they stop doing business with Sonoma Foie Gras. It&#8217;s a convoluted plot, no doubt started by <a href="http://www.petakillsanimals.com/"><span class="caps">PETA</span></a> or some other sick animal rights organization, all part of a master plan to turn us into a sad country of vegetarians. Whole Foods is totally giving in, of course, &#8220;because of the cruelty&#8221; involved with the production of foie gras. Please. What about the cruelty of your endless aisles of overpriced products wrapped in layer after layer of hard plastic? That is cruel. What about your duck breasts and chicken hearts and sausages? What do you think happened to the rest of that duck? There is nothing more wrong with foie gras than with any other animal by-product, including steak, eggs, and Jell-O. It&#8217;s all mean to animals, and it&#8217;s all okay with me.</p>
+
+
+	<p>Legislation has already been passed in California to ban the production and sale of foie gras by 2012, and similar legislation is being tossed around here in New York.</p>
+
+
+	<p>The day that <span class="caps">PETA</span> has any influence on what I can consume is the day I am prepared to flee the country. Even <a href="http://www.frenchlaundry.com/">Thomas Keller</a> is concerned: &#8220;If force-feeding a duck is cruel, then packing chickens in a cage is cruel, and then the veal and the beef. We are all going to be vegetarians soon if they have their way.&#8221; And <a href="http://www.charlietrotters.com/restaurant/">Charlie Trotter</a> sets a good example; he voluntarily took foie gras off his menu five years ago, because <em>he</em> decided that <em>he</em> was opposed to the production. While I don&#8217;t necessarily agree with him, I do have great respect for people who form opinions and then live their lives according to them. That is the way to make a difference. All <span class="caps">PETA</span> will do is make foie gras even more luxurious and desirable. I could eat some right now, in fact, if only in protest. They must be stopped.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1657">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-2001"><p>Actually, somewhere along the line I had gotten the impression that foie gras had been banned in this country years ago, so I&#8217;m always vaguely surprised to see it at all. In general I guess I agree with you, force-feeding geese probably isn&#8217;t much crueler than most of what is done to animals, even the so-called &#8220;free-range&#8221; and &#8220;grass-fed&#8221; variety.</p>
+<p>But enough about all that; I logged on thinking I was going to read about an onion tart and all I get is a rant!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on May 3, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2002"><p>You&#8217;ll get.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on May 3, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2003"><p>i love foie gras. i love it a lot.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">steak</span></span>
+  				<span>on May 3, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id1658">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id1659" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id1659_hf_0" id="id1659_hf_0" /><input type="hidden" name="wicket:interface" value=":809:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id165a" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id165b" name="add" value="Add a comment" onclick="wicketShow('id165b--ajax-indicator');var wcall=wicketSubmitFormById('id1659', '../../?wicket:interface=:809:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id165b--ajax-indicator');}.bind(this),function() { ;wicketHide('id165b--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id1659')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id165b--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

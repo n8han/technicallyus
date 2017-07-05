@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+			<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>LocalLauncherProject.scala</title>
+        <script type="text/javascript" src="jquery-all.js"></script>
+        <script type="text/javascript" src="linked.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css" title="Style">
+    </head>
+    <body>
+        <pre>
+<span class="keyword">package</span> spde
+<span class="keyword">import</span> sbt._
+
+<span class="keyword">trait</span> <a title="trait LocalLauncherProject extends sbt.BasicScalaProject with ScalaObject" id="6205">LocalLauncherProject</a> <span class="keyword">extends</span> <a title="sbt.BasicScalaProject" id="10753">BasicScalaProject</a> {
+  <span class="keyword">lazy</span> <span class="keyword">val</span> <a title="LocalLauncherProject.this.Task" id="20988">sbtScript</a> = <a href="#6205" title="(=&gt; Option[String])LocalLauncherProject.this.Task" id="12614">task</a> {
+    <span class="keyword">import</span> java.io.File
+    <span class="keyword">import</span> Process._
+    <span class="keyword">val</span> <a title="java.io.File" id="20994">launch</a> = (<a href="#6205" title="=&gt; sbt.ProjectInfo">info</a>.<span title="=&gt; sbt.Path">projectPath</span> <span title="(String)sbt.Path">/</span> <span title="java.lang.String(&quot;sbt&quot;)" class="string">&quot;sbt&quot;</span>).<span title="=&gt; java.io.File">asFile</span>
+    <span class="keyword">val</span> <a title="java.io.File" id="20995">launch_bat</a> = (<a href="#6205" title="=&gt; sbt.ProjectInfo">info</a>.<span title="=&gt; sbt.Path">projectPath</span> <span title="(String)sbt.Path">/</span> <span title="java.lang.String(&quot;sbt.bat&quot;)" class="string">&quot;sbt.bat&quot;</span>).<span title="=&gt; java.io.File">asFile</span>
+    <span title="Option[String]" class="keyword">if</span> (<a title="object java.lang.System" id="1827">System</a>.<a title="(java.lang.String)java.lang.String" id="21138">getProperty</a>(<span title="java.lang.String(&quot;os.name&quot;)" class="string">&quot;os.name&quot;</span>).<a title="()java.lang.String" id="5808">toLowerCase</a>.<a title="(java.lang.String)Int" id="5789">indexOf</a>(<span title="java.lang.String(&quot;windows&quot;)" class="string">&quot;windows&quot;</span>) <a title="(Int)Boolean" id="3087">&lt;</a> <span title="Int(0)" class="int">0</span>)
+      <span title="object sbt.FileUtilities">FileUtilities</span>.<span title="(java.io.File,String,sbt.Logger)Option[String]">write</span>(<a href="#20994" title="java.io.File">launch</a>,
+        <span title="implicit scala.Predef.stringWrapper : (String)scala.runtime.RichString" class="string">&quot;&quot;&quot;cd &quot;`dirname &quot;$0&quot;`&quot;; java -Xmx512M -jar sbt-launcher-%s.jar &quot;$@&quot; &quot;&quot;&quot;</span> <span title="(Any*)String">format</span> <a href="#6205" title="=&gt; LocalLauncherProject.this.Property[String]">sbtVersion</a>.<span title="=&gt; String">value</span>,
+        <a href="#6205" title="=&gt; sbt.Logger">log</a>
+      ) <a title="(=&gt; Option[String])Option[String]" id="16244">orElse</a> {
+        ((<span title="java.lang.String(&quot;chmod&quot;)" class="string">&quot;chmod&quot;</span> <a href="#21171" title="implicit sbt.Process.apply : (Seq[String])sbt.ProcessBuilder" id="11270">::</a> <span title="java.lang.String(&quot;a+x&quot;)" class="string">&quot;a+x&quot;</span> <a href="#21172" title="(java.lang.String)List[java.lang.String]">::</a> <a href="#20994" title="java.io.File">launch</a>.<a title="()java.lang.String" id="15020">toString</a> <a href="#21173" title="(java.lang.String)List[java.lang.String]">::</a> <a title="object Nil" id="306">Nil</a>) <a title="(sbt.Logger)Int" id="19593">!</a> <a href="#6205" title="=&gt; sbt.Logger">log</a>)
+        <a title="object None" id="501">None</a>
+      }
+    <span class="keyword">else</span>
+      <span title="object sbt.FileUtilities">FileUtilities</span>.<span title="(java.io.File,String,sbt.Logger)Option[String]">write</span>(<a href="#20995" title="java.io.File">launch_bat</a>,
+        <span title="implicit scala.Predef.stringWrapper : (String)scala.runtime.RichString" class="string">&quot;@echo off\njava -Xmx512M -jar sbt-launcher-%s.jar %%*&quot;</span> <span title="(Any*)String">format</span> <a href="#6205" title="=&gt; LocalLauncherProject.this.Property[String]">sbtVersion</a>.<span title="=&gt; String">value</span>,
+        <a href="#6205" title="=&gt; sbt.Logger">log</a>
+      )
+  }
+}
+        </pre>
+    </body>
+</html>

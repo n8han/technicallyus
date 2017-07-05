@@ -1,0 +1,197 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Mom eats at Enrico&#039;s Ristorante</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id10e3" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Mom eats at Enrico's Ristorante" width="497" class="title" src="../../../resources/net.databinder.components.RenderedLabel/7f5441b5"/><span class="title">Mom eats at Enrico&#039;s Ristorante</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on August 3, 2006</span></span>
+			<span id="id10e4" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/restaurants:%20pittsburgh/#selected-tag"><span>restaurants: pittsburgh</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p style="float:right"><img src="/eat/files/enrico.jpg" alt="" /></p>
+
+
+	<p>I know it&#8217;s been several days since I&#8217;ve posted anything; meals have been either unmemorable or repeat visits to restaurants I&#8217;ve already written about, like the <a href="http://technically.us/eat/articles/2006/07/22/mom-eats-at-rose-tea-cafe">Rose Tea Café</a>. Tonight, though, we ate at a place we&#8217;ve only been to a couple of times before and keep forgetting about, even though we live quite nearby: <a href="http://www.enricos-shadyside.com/">Enrico&#8217;s Ristorante</a>. Enrico&#8217;s is located in an unprepossessing strip of shops in a small commercial <a href="http://en.wikipedia.org/wiki/Shadyside_%28Pittsburgh%29">area</a> of Pittsburgh; it is a café that is connected to a <a href="http://www.enricobiscotti.com/store/default.tpl">biscotti bakery</a> of the same name in the Strip district (Pittsburgh&#8217;s wholesale produce area). Some people love Enrico&#8217;s biscotti, but I am not one of them. I think they are too big and tough and I don&#8217;t really like the flavors, either; I like the idea of their biscotti better than the cookies themselves. I make much better biscotti myself from a recipe in Alice Waters&#8217;s <em>Chez Panisse Cookbook</em>, which I&#8217;ll probably post sometime before Christmas. The restaurant, however, is lovely inside and serves simple, yet creative food utilizing local and regional produce, meats, and cheeses.</p>
+
+
+	<p style="float:left"><img src="/eat/files/scallop.jpg" alt="" /></p>
+
+
+	<p><a href="http://en.wikipedia.org/wiki/Billy_Price">Poppy</a> ordered the panzanella salad with linguine and mussels to follow, while I had the house salad (mixed greens with walnuts and dried cranberries) followed by seared scallops which were served with basil risotto and a strange little corn and crab relish. We both enjoyed our dinners immensely, there were no restaurant <a href="https://technically.us/eat/articles/2006/07/24/problems-at-il-pizzaiolo">incidents</a> to spoil the evening, and we were even able to save some money using the card from our <a href="http://www.entertainmentbook.com.au/">Entertainment Book</a> .</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id10e5">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-2519"><p>So glad to hear that little place is worth visiting. I&#8217;ll be looking forward to your biscotti recipe.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.metakathryn.com"><span class="alias">Kathryn</span></a>
+  				<span>on August 3, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2520"><p>interesting report on enricos . . . i have not been.  what is that on top of the scallops?  is it cheese?</p>
+<p>i didn&#8217;t post on a repeat visit to tram&#8217;s on penn ave.  the food was even better than i remembered it and they&#8217;ve changed the seasonal plastic tablecloths (summer fruit, as oppposed to xmas).</p>
+<p>here&#8217;s my old post.  <a href="http://ihatethenyer.blogspot.com/2005/12/tram-and-i-are-good-cooks.html">Voila.</a></p>
+<p>this time, we got an appetizer labelled &#8220;mixed vegetables&#8221; that was cabbage, cukes, onion, carrot and chicken in a sweet, vinegary sauce with peanuts.  although the ingrediants looked similar to those in a rice vermicelli dish the taste was different, distinct and very delicious (maybe more pickle-y?).  i just ate the leftovers for breakfast.  good with coffee . . .</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">zp</span></span>
+  				<span>on August 3, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2521"><p>No, zp, not cheese! Never cheese with seafood; it was some kind of innocuous, slightly creamy little sauce, but I forget what they called it.</p>
+<p>We love Tram&#8217;s and I would regularly pick my husband up from his office in Oakland, zip across the Bloomfield bridge, and we&#8217;d have lunch there. We usually eat the beef pho. But the last couple of times we went it was so crowded and took so long to get our lunch that he was late getting back to the office. Perhaps it is a better dinner option, and I will give that noodle dish a try.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on August 3, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2522"><p>Those both sound like delicious meals. That crab and corn thing sounds particularly interesting.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://kitchenography.typepad.com"><span class="alias">Julie</span></a>
+  				<span>on August 3, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2523"><p>I agree in a general way about no cheese on seafood, but let&#8217;s please remember Jacques Pépin&#8217;s fabulous <a href="http://technically.us/eat/articles/2006/05/06/jacques-p%C3%A9pins-scallop-souffl%C3%A9">scallop soufflé</a> with gruyère.</p>
+<p>That is a crazy-looking plate of food. I&#8217;m glad that a good restaurant moved into that depressing, awkward little mall at the end of Walnut Street.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on August 3, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2524"><p>Actually, Leland, Enrico&#8217;s is located in that little group of shops on Ellsworth Avenue; it used to be La Charcuterie or something, where the Japanese grocery store is. From the photo is does look like the Walnut St. mall, but don&#8217;t those shopping strips all look alike, though?</p>
+<p>Somehow, the whole idea of scallop souffle doesn&#8217;t appeal to me. I just wouldn&#8217;t do that to scallops, mix them with egg and cheese and all that glop.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on August 3, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2525"><p>yeah.  i&#8217;m not one for cheese (or even certain creamy &#8220;glop&#8221; prepartions) and the delicate creatures of the sea.  i was just checking before i approached the restaurant.</p>
+<p>oh wait, i love leftover lobster in wet scrambled eggs.</p>
+<p>and i liked your recent report on tram&#8217;s.  we sat next to a large and somewhat annoying party the last time we were there &#8211; son was explaining to parents, table, entire restaurant what prix fixe was.  when it occured to him that his parents (and the rest of us) all knew he got embarassed.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">zp</span></span>
+  				<span>on August 3, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4751"><p>Enrico&#8217;s Ristorante in shadyside is not a partner with Enrico&#8217;s biscotti in the strip.</p>
+<p>The rest. on ellsworth is owend by Herm Tomer<br />
+and run by Eric Leskovar (general manager) &amp; Jason Sicher ( exc. chef)<br />
+thanks<br />
+Eric Leskovar</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://enrico&amp;#039;s-shadyside.com"><span class="alias">Eric Leskovar</span></a>
+  				<span>on November 27, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id10e6">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id10e7" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id10e7_hf_0" id="id10e7_hf_0" /><input type="hidden" name="wicket:interface" value=":615:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id10e8" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id10e9" name="add" value="Add a comment" onclick="wicketShow('id10e9--ajax-indicator');var wcall=wicketSubmitFormById('id10e7', '../../../?wicket:interface=:615:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id10e9--ajax-indicator');}.bind(this),function() { ;wicketHide('id10e9--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id10e7')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id10e9--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

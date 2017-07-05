@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+        <link href="/css/blueprint/screen.css" type="text/css" rel="stylesheet" media="screen, projection"></link>
+        <link href="/css/blueprint/print.css" type="text/css" rel="stylesheet" media="print"></link> 
+        <link href="style.css" type="text/css" rel="stylesheet"></link> 
+        <title> Spde → Fold </title>
+      </head>
+      <body>
+        <div id="content">
+      <div class="container">
+        <h2>Spde → Fold</h2>
+        <h4><ul class="toc"> <li> <a href="About">About</a> </li><li> <a href="Download">Download</a> </li><li> <a href="See">See</a> </li><li> <a href="Talk">Talk</a> </li> </ul></h4>
+        <p>This sketch demonstrates a <a href="http://en.wikipedia.org/wiki/Fold_%28higher-order_function%29">fold</a> function. Did you see it folding? If not, click to make it fold again.</p>
+
+<!--[if !IE]> -->
+
+<object classid="java:Fold.class" 
+type="application/x-java-applet"
+archive="/pictures/Fold-applet-0.1.2.jpgz"
+width="465" height="190"
+standby="Loading Processing software..." >
+<param name="archive" value="/pictures/Fold-applet-0.1.2.jpgz" />
+<param name="mayscript" value="true" />
+<param name="scriptable" value="true" />
+<param name="image" value="loading.gif" />
+<param name="boxmessage" value="Loading Processing software..." />
+<param name="boxbgcolor" value="#FFFFFF" />
+<param name="test_string" value="outer" />
+<!--<![endif]-->
+
+<p><object classid="clsid:8AD9C840-044E-11D1-B3E9-00805F499D93" 
+codebase="http://java.sun.com/update/1.5.0/jinstall-1_5_0_15-windows-i586.cab"
+width="465" height="190"
+standby="Loading Processing software..."  >
+<param name="code" value="Fold" />
+<param name="archive" value="/pictures/Fold-applet-0.1.2.jpgz" />
+<param name="mayscript" value="true" />
+<param name="scriptable" value="true" />
+<param name="image" value="loading.gif" />
+<param name="boxmessage" value="Loading Processing software..." />
+<param name="boxbgcolor" value="#FFFFFF" />
+<param name="test_string" value="inner" /></p>
+
+<p>
+<strong>
+This browser does not have a Java Plug-in.
+<br />
+<a href="http://java.sun.com/products/plugin/downloads/index.html" title="Download Java Plug-in">
+Get the latest Java Plug-in here.
+</a>
+</strong>
+</p>
+
+</object>
+<!--[if !IE]> -->
+
+</object>
+<!--<![endif]-->
+
+<pre><code>size(465, 190)
+frameRate(25)
+
+def random_seq = (0 until width) map { (_, random(height)) }
+var h: Seq[(Int, Float)] = random_seq
+override def mouseClicked { h = random_seq }
+
+def draw() {
+  background(255)
+  h foreach { case (x, h) =&gt; line(x, 0, x, h) }
+  h = (h :\ List[(Int, Float)]()) {
+    case ((x1, h1), Nil) =&gt; (x1, h1) :: Nil
+    case ((x1, h1), (x2, h2) :: t) =&gt;
+      (x1, (h1 + h2) /2) :: (x2, h2) :: t
+  }
+}
+</code></pre>
+
+<p>On initialization (or clicking) the sketch builds a sequence of <em>width</em> random numbers between 0 and <em>height</em>. The draw function (called 25 times per second, is the plan) paints a line for each element of the sequence, then reassigns it to a list created by right-folding (<a href="http://www.scala-lang.org/docu/files/api/scala/Iterable.html#%3A%5C%28B%29">:\</a>) the sequence. Each element&rsquo;s height is the average of its last value and the new height to its right. The rightmost element retains its original value, which critically affects the output over time.</p>
+
+<p><a href="See"><em>See More Examples</em></a></p> 
+        
+      </div>
+    </div>
+      </body>
+    </html>

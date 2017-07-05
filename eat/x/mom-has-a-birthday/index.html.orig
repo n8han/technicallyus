@@ -1,0 +1,251 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Mom has a birthday</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id9e8" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Mom has a birthday" width="310" class="title" src="../../../resources/net.databinder.components.RenderedLabel/efba06c6"/><span class="title">Mom has a birthday</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on February 14, 2007</span></span>
+			<span id="id9e9" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/ethnic%20cooking/#selected-tag"><span>ethnic cooking</span></a><span id="id9ea">, </span></span><span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>In all fairness, Leland should be writing this post, because he did all the cooking and all I did was sit down and enjoy a wonderful birthday dinner. Okay, I did plan the menu, being the <a href="http://technically.us/eat/articles/2007/02/13/kitchen-power-struggles">alpha cook</a> that I am, I guess relinquishing total control in the kitchen would be impossible for me. And I was intrigued by the recipe in the March/April 2007 <em>Cook&#8217;s Illustrated</em> for what they call <strong>Chinese <span class="caps">BBQ</span> Pork</strong>, also known as <em>char siu</em>, and the main ingredient, if I&#8217;m not mistaken, in the mouth-watering <a href="http://www.travelerslunchbox.com/journal/2006/9/25/banh-mi-for-beginners.html">banh mi</a>, judged by some to be the best sandwich in the world.</p>
+
+
+	<p>What with all the sub-zero weather here, Calvin being off school half of last week, and general lassitude, I never did get around to laying in the necessary supplies, so Leland and I started the day off by dashing out to <a href="http://www.mcginnis-sisters.com/">McGinnis Sisters</a> and buying a large pork butt, along with green vegetables and salad ingredients. You definitely want some fat in your pork for this recipe, as the charred fatty bits are delicious, and pork butt is about the only cut of the pig that reliably has any fat on it any more, outside of ribs, which wouldn&#8217;t work for obvious reasons. I just hate the way farmers have bred all the fat out of pork and I miss the nice juicy pork roasts of my youth; pork was a lot more tender back then, too.</p>
+
+
+	<p>Then Bill and I had another <a href="http://www.retrouvaille.org/">commitment</a> for the afternoon, so off we went, leaving Leland alone in the kitchen. He baked Nigella Lawson&#8217;s delicious <a href="http://technically.us/eat/articles/2006/06/22/nigellas-dense-chocolate-cake">chocolate cake</a> he&#8217;s posted about before, and the pork. Here&#8217;s the recipe:</p>
+
+
+	<p><strong>Chinese Barbecued Pork</strong>, from <em>Cook&#8217;s Illustrated</em> magazine, March/April 2007</p>
+
+
+	<p style="float:right"><img src="/eat/files/chibbq.jpg" alt="" /></p>
+
+
+	<ul>
+	<li>1 (4-pound) boneless pork butt, cut into 8 strips and excess fat removed* see note</li>
+		<li>1/2 cup sugar</li>
+		<li>1/2 cup soy sauce</li>
+		<li>6 tablespoons hoisin sauce</li>
+		<li>1/4 cup dry sherry</li>
+		<li>1/4 teaspoon ground pepper (recipe calls for white pepper but I think that&#8217;s silly)</li>
+		<li>1 teaspoon five-spice powder</li>
+		<li>1 tablespoon toasted sesame oil</li>
+		<li>2 tablespoons grated fresh ginger</li>
+		<li>2 medium garlic cloves, pressed or minced</li>
+		<li>1/4 cup ketchup</li>
+		<li>1/3 cup honey</li>
+	</ul>
+
+
+	<ul>
+	<li>Note: At the grocery store they told us that pork butt never comes boneless. We probably could have asked the butcher to bone it for us but we didn&#8217;t have time, so we bought a 6-pound roast and Leland hacked the bone out. Butchering directions with recipe include the following, with illustrations: Cut meat in half lengthwise. Turn each half on cut side and slice lengthwise into 4 equal pieces. Trim excess hard, waxy fat, leaving some fat to render while cooking.</li>
+	</ul>
+
+
+	<p>1. Using fork, prick pork 10 to 12 times on each side. Place pork in large plastic zip-lock bag. Combine sugar, soy, hoisin, sherry, pepper, five-spice powder, sesame oil, ginger, and garlic in medium bowl and mix well. Measure out 1/2 cup marinade and set aside. Pour remaining marinade into bag with pork. Press out as much air as possible; seal bag. Refrigerate for at least 30 minutes or up to 4 hours.</p>
+
+
+	<p>2. While meat marinates, combine ketchup and honey with reserved marinade in small saucepan. Cook glaze over medium heat until syrupy and reduced to 1 cup, 4-6 minutes.</p>
+
+
+	<p>3. Adjust oven rack to middle position and heat oven to 300º. Line rimmed baking sheet with foil and set wire rack on sheet.</p>
+
+
+	<p>4. Remove pork from marinade, letting any excess drip off, and place on wire rack. Pour 1/4 cup water into bottom of pan. Cover pan with heavy-duty foil, crimping edges tightly to seal. Cook pork for 20 minutes. Remove foil and continue to cook until edges of pork begin to brown, 40-45 minutes.</p>
+
+
+	<p>5. Turn on broiler. Broil pork until evenly caramelized, 7-9 minutes. Remove pan from oven and brush pork with half of glaze; broil until deep mahogany color, 3-5 minutes. Using tongs, flip meat and broil until other side caramelizes, 7-9 minutes. Brush meat with remaining glaze and continue to broil until second side is deep mahogany, 3-5 minutes, then cut into thin strips and serve.</p>
+
+
+	<p style="float:left"><img src="/eat/files/shun.jpg" alt="" /></p>
+
+
+	<p>While we were enjoying our cake I opened my presents, and among lots of other nice gifts I was thrilled to unwrap a new <a href="http://technically.us/eat/articles/2007/01/29/a-shun-chefs-knife">Shun</a> paring knife from Leland, the smaller version of the chef&#8217;s knife he recently bought for himself. It&#8217;s heavy and extremely sharp, destined to become a much-beloved part of my kitchen arsenal.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id9eb">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3371"><p>arsenal is right.  yowza.  the small version looks scarier than the large!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">zp</span></span>
+  				<span>on February 14, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3372"><p>Are you going to make banh mi? I love them, and have done it once, but it is so much easier to buy them on the street. There used to be a person who sold them in the Strip on Saturdays, from a cart, but she seems to have disappeared.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://lindystoast.com"><span class="alias">lindy</span></a>
+  				<span>on February 14, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3373"><p>I remember the banh mi down in the Strip, in front of My Ngoc restaurant; they were great. I could make them, but where did you get the marinated vegetables? Did you make them yourself? What else did you put on it, besides pork and vegetables?</p>
+<p>I would actually like to eat an authentic Cuban sandwich some day; can one of those be obtained in Pittsburgh?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on February 14, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3374"><p>Nice present! Nice birthday meal! (What a great son you have!)</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://kitchenography.typepad.com"><span class="alias">Julie</span></a>
+  				<span>on February 14, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3375"><p>Rebecca &#8211; there&#8217;s a completely inauthentic <strong>vegetarian</strong> cuban sandwich to be had at the Quiet Storm on Penn Ave in Friendship (or is it East Liberty?). Anyway, it&#8217;s really good, even if it is made with fake meat. If you want authentic, I think there&#8217;s a cuban resturant in Squirrel Hill on&#8230; Forward Ave, maybe? Near the intersection with Murray near 376. I think.</p>
+<p>Good luck with the cuban sandwich hunt.</p>
+<p>K</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.metakathryn.com"><span class="alias">Kathryn</span></a>
+  				<span>on February 14, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3376"><p>Mom: just remind me when you&#8217;re here next month about the Cuban sandwich. We can definitely find one.</p>
+<p>Happy birthday again! I&#8217;m glad you like the knife, and that the dinner was up to your standards. I had fun feeding my family for the first time.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on February 14, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3377"><p>Julie &#8211; You&#8217;re right, I do have a great son, and three other great kids, too!</p>
+<p>Kathryn, thanks for that info; I&#8217;ve seen that cafe over there by the Squirrel Hill Theater but thought they only served coffee and desserts. I&#8217;ll have to check it out.</p>
+<p>Leland &#8211; Thanks again for the dinner and the paring knife!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on February 14, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3378"><p>http://www.tangocafepgh.com/</p>
+<p>I&#8217;ve had the sandwiches, delightful and &#8220;cuban,&#8221; but maybe more Argentinian than &#8220;Cuban?&#8221;  The bread is amazing.  Also had the alfajores, recommended them to Lindy.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">zp</span></span>
+  				<span>on February 14, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3379"><p>Hi, zp &#8211; Do the Tango Cafe&#8217;s alfajores have dolce de leche in the middle or jam? Thanks for the link! I looked at it, though, and really don&#8217;t see a Cuban sandwich, with the ham <strong>and</strong> pork, plus cheese and pickle, which I think are all involved in a real Cuban sandwich. I&#8217;m sure the Tango&#8217;s sandwiches are great, though, if their bread is good.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on February 14, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3380"><p>dolce de leche.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">zp</span></span>
+  				<span>on February 14, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id9ec">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id9ed" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id9ed_hf_0" id="id9ed_hf_0" /><input type="hidden" name="wicket:interface" value=":367:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id9ee" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id9ef" name="add" value="Add a comment" onclick="wicketShow('id9ef--ajax-indicator');var wcall=wicketSubmitFormById('id9ed', '../../../?wicket:interface=:367:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id9ef--ajax-indicator');}.bind(this),function() { ;wicketHide('id9ef--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id9ed')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id9ef--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

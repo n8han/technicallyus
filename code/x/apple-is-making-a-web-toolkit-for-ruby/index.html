@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="../../../blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="../../../blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet.css"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Apple is making a Web toolkit for Ruby</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code.html">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code.html">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id25b9" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Apple is making a Web toolkit for Ruby" width="630" class="title" src="../../../resources/net.databinder.components.RenderedLabel/a802a384"/><span class="title">Apple is making a Web toolkit for Ruby</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on January 26, 2007</span></span>
+			<span id="id25ba" class="tags">
+					{&nbsp;<span><a href="../../tag/ruby/index.html#selected-tag"><span>ruby</span></a><span id="id25bb">, </span></span><span><a href="../../tag/apple/index.html#selected-tag"><span>apple</span></a><span id="id25bc">, </span></span><span><a href="../../tag/java/index.html#selected-tag"><span>java</span></a><span id="id25bd">, </span></span><span><a href="../../tag/web/index.html#selected-tag"><span>web</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>(I predict.) And I want to go on the record with it. Here&#8217;s my thinking, in roughly chronological order:</p>
+
+
+	<ol>
+	<li>Apple/NeXT makes WebObjects for Objective-C, then ports it to Java because that&#8217;s where they (correctly) see server-side programming headed.</li>
+		<li>Apple/NeXT likewise builds an interface to Cocoa/AppKit from Java, and for <a href="http://en.wikipedia.org/wiki/Rhapsody_%28operating_system%29">Rhapsody</a> writes System Preferences in Java to show how serious they are.</li>
+		<li>Apple&#8217;s <span class="caps">JVM</span> for PowerPCs is slow, so System Preferences is slow and makes people think that Mac <span class="caps">OS X</span> will suck. It is rewritten in Objective-C and is much faster.</li>
+		<li>(Mac <span class="caps">OS X 10</span>.0 is still pretty slow and sucky.)</li>
+		<li>WebObjects obtains moderate success but, being expensive, is ignored by the vast majority of Java Web programmers (who are now clogging every highway in New Jersey).</li>
+		<li><a href="http://tapestry.apache.org/">Tapestry</a> is inspired by WebObjects, and is free.</li>
+		<li>Ruby on Rails happens. Ruby programmers love Macs and aren&#8217;t afraid to screencast them all over the place.</li>
+		<li><a href="http://wicketframework.org/">Wicket</a> is inspired by Tapestry, is even more clever, and is also free.</li>
+		<li>Apple begins to include the Ruby interpreter in <span class="caps">OS X</span>.</li>
+		<li>Intel processors begin to ship on Macintosh computers and the <acronym title="">JVM</acronym> performs well on them finally, but at this point Mac users have made up their minds to hate Java forever.</li>
+		<li>WebObjects is freed / <a href="http://technically.us/n8/articles/2006/08/31/all-about-webobjects">aborted</a> / whatever.</li>
+		<li>Apple discontinues extension of the derelict Java to Cocoa bridge.</li>
+		<li>Apple announces <a href="http://rubycocoa.sourceforge.net/doc/">RubyCocoa</a> inclusion in Leopard, a bridge from Ruby to Cocoa.</li>
+		<li>I mean, come on.</li>
+	</ol>
+
+
+	<p>Knowing that people inside Apple appreciate Web component frameworks (they invented them) I have a hard time believing Apple is peachy with Rails&#8217; unenlightened ActionController. Yes, I know that it too <a href="http://weblog.rubyonrails.org/2006/8/7/ruby-on-rails-will-ship-with-os-x-10-5-leopard">will be packaged in Leopard</a>. Hell, everything&#8217;s in Leopard (even Java!), so perhaps I&#8217;m reading too much into RubyCocoa&#8217;s inclusion.</p>
+
+
+	<p>But if we imagine that Apple decided to start a replacement for WebObjects about 16 months ago, what platform would they pick? Obviously not Java (even before <a href="http://technically.us/n8/articles/2007/01/21/marking-down-your-territory">Jobs&#8217;s iPhone comments</a>). And if it were to be Objective-C, they&#8217;d just double-back on the WebObjects line instead of abandoning it. No, it&#8217;s got to be a ground-up rewrite in Ruby, which they could predict at that point as the next hot spot for server-side programming.</p>
+
+
+	<p>Or maybe they&#8217;re not writing any kind of Web framework at all? Right, because no one is using Gmail and they&#8217;re all using Mail.app. And because the Web is not the future and Apple has no need to stay on top of writing applications for it. They can just use Google&#8217;s Web toolkit, and they love Google&#8217;s dominance of the Internet so much they aren&#8217;t partnering with Yahoo Mail instead for the iPhone. And anyway Rails&#8217; bastardized &#8220;<acronym title="">MVC</acronym>,&#8221; inspired by Sun&#8217;s famous Model 2, is the cat&#8217;s pajamas. Sure. Maybe that&#8217;s it.</p>
+
+
+	<p>Internet Archive, hit me up, ’cause I want proof of this in a year. Or three.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='../../../resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id25be">
+  		
+  		
+  	</div>
+  	<div id="id25bf">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id25c0" action="../../../index.html" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id25c0_hf_0" id="id25c0_hf_0" /><input type="hidden" name="wicket:interface" value=":1375:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id25c1" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id25c2" name="add" value="Add a comment" onclick="wicketShow('id25c2--ajax-indicator');var wcall=wicketSubmitFormById('id25c0', '../../../?wicket:interface=:1375:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id25c2--ajax-indicator');}.bind(this),function() { ;wicketHide('id25c2--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id25c0')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id25c2--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

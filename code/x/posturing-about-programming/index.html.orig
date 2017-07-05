@@ -1,0 +1,150 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Posturing about programming</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id24ee" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Posturing about programming" width="479" class="title" src="../../../resources/net.databinder.components.RenderedLabel/1aa73ec"/><span class="title">Posturing about programming</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on February 29, 2008</span></span>
+			<span id="id24ef" class="tags">
+					{&nbsp;<span><a href="../../../code/tag/software/#selected-tag"><span>software</span></a><span id="id24f0">, </span></span><span><a href="../../../code/tag/programming/#selected-tag"><span>programming</span></a><span id="id24f1">, </span></span><span><a href="../../../code/tag/nyt/#selected-tag"><span>nyt</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>From <a href='http://www.nytimes.com/2007/01/28/business/yourmoney/28slip.html?_r=1&amp;oref=slogin'>Awaiting the Day When Everyone Writes Software</a> by Jason Pontin:</p>
+
+<blockquote>
+<p>Bjarne Stroustrup, the designer of C++, &#8230; has said that “our technological civilization depends on software.” True, but most software isn’t much good. Too many programs are ugly: inelegant, unreliable and not very useful. &#8230; Bad software is terrible for business and the economy. Software failures cost $59.5 billion a year&#8230;</p>
+</blockquote>
+
+<p>How would business and the economy be doing with no software at all? Just wondering. Bad <em>everything</em> is kind of terrible. Because so much wealth depends on software, much is lost on the lower end of the curve. On the other hand, bad basket-weaving is not a billion dollar problem for the world. Curse those lucky folk art majors!</p>
+
+<blockquote>
+<p>Programmers don’t know what a computer user wants because they spend their days interacting with machines. They hunch over keyboards, pecking out individual lines of code in esoteric programming languages, like medieval monks laboring over illustrated manuscripts.</p>
+</blockquote>
+
+<p>Who is hunching? Are you hunching right now? Hunching is not any better for writing software than it is for writing copy, updating spreadsheets, or posting to Facebook. The only thing the word &#8220;hunch&#8221; is good for, in terms of programming, is identifying types with a grudge against programmers. The word bubbles up, clueless of the spite it reveals. At some point before everyone was on the internet all the time, the idea that programmers used computers more at least made sense. Now it&#8217;s just an ignorant jeer. Hunch you, Jason Pontin.</p>
+
+<p>You know, we too are waiting for the day when everyone writes software. Like those monks were waiting for the day when the common person would be literate. It&#8217;s going to be great! People will be able to fight out their conflicting requirements by checking in conflicting visual programming flow charts or whatever crap they come up with next to try to enable people that don&#8217;t like programming or programmers to write software.</p>
+
+<p>But there&#8217;s a problem: you have to think logically to be able to tell a computer what to do. <em>Annoying!</em> But true. Even with the flow diagrams you&#8217;re still writing logic, and using like a thousand times more pixels. It&#8217;s because most people don&#8217;t think very logically (and don&#8217;t want to learn the craft of it) that programming languages are &#8220;esoteric,&#8221; not because of some secret programming cabal. For example, many people accuse programmers of hunching even though we don&#8217;t, and even though regular thinking people use computers as much as programmers these days. Not very logical!</p>
+
+<p>Now the supposed solution to this problem is the thing that Jason is plugging in our city/nation/world&#8217;s beloved <em>New York Times</em>. Apparently some software (presumably written with lots of hunching) is going to be able to <em>divine the intent</em> of humans. This way, humans will not have to instruct computers in a logical way, so they won&#8217;t ever have to learn logic. They can continue being real cool guys coming up with real cool software ideas.</p>
+
+<p class='break'> Finally, a solution to our debilitating hunchback epidimic.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id24f2">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-5221"><p>I, too, eagerly await this day:</p>
+
+<p>http://thedailywtf.com/Articles/Could-You-Explain-Programming-Please.aspx</p>
+
+<p>&#8216;My brother in law apparently made several unsuccessful attempt to &#8220;learn programming&#8221; by opening up exes in Notepad. He created a text file with the words &#8220;Morph the screen into something cool&#8221; and couldn&#8217;t figure out how to run it, even had the balls to ask me &#8220;how do I install my program? Do I just put a shortcut on the desktop&#8221;.&#8217;</p>
+
+<p>If only it were so easy!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://incrementalism.net"><span class="alias">Tim Moore</span></a>
+  				<span>on March 3, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5231"><p>Heh. If it were that easy, the machine would be making all the choices and there would be art in it for the person. (And I&#8217;d hate to see what my silicon&#8217;s idea of &#8220;cool&#8221; is.)</p>
+
+<p>That&#8217;s what some people don&#8217;t get about programming. It&#8217;s not the typing in of some wiser and better looking person&#8217;s system design. Program code is the <em>only</em> way to fully describe software. For all decisions to be made &#8220;higher up,&#8221; they would have to be dictated in code. Oh, the irony.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on March 5, 2008</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id24f3">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id24f4" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id24f4_hf_0" id="id24f4_hf_0" /><input type="hidden" name="wicket:interface" value=":1354:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id24f5" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id24f6" name="add" value="Add a comment" onclick="wicketShow('id24f6--ajax-indicator');var wcall=wicketSubmitFormById('id24f4', '../../../?wicket:interface=:1354:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id24f6--ajax-indicator');}.bind(this),function() { ;wicketHide('id24f6--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id24f4')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id24f6--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

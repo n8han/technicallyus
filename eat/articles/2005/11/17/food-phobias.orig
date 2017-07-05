@@ -1,0 +1,254 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Food phobias</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../eat">
+			
+			<img alt="Eat" src="../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../eat">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id1624" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Food phobias" width="214" class="title" src="../../resources/net.databinder.components.RenderedLabel/5c18dfbf"/><span class="title">Food phobias</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on November 17, 2005</span></span>
+			<span id="id1625" class="tags">
+					{&nbsp;<span><a href="../../eat/tag/theory/#selected-tag"><span>theory</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Last night I began reading <em>The Man Who Ate Everything</em> by Jeffrey Steingarten. I&#8217;ve already read his second book, because it was available at the library one day, and he&#8217;s already my food writing idol. The introduction to his first book covers the various food phobias he had when he began as Vogue&#8217;s food critic in 1989, I believe. Bugs, anchovies, Greek food, okra, etc. He writes about why he has them and how he got rid of them.</p>
+
+
+	<p>Jeffrey talks about food issues all the time, and about the importance of becoming a &#8220;perfect omnivore.&#8221; He says human beings are unique in that they are prepared to eat anything, except for a very small percentage of people who are truly allergic to something like wheat or lactose or nuts. Naturally, this has led me to spend many hours contemplating my own food issues.</p>
+
+
+	<p>As a child, I wouldn&#8217;t eat anything except plain hamburgers, meatloaf, fried chicken, and macaroni and cheese. Really. I mean, I would eat what my mom made, but I frequently hated it. She loved to torture me with quiche and zucchini, two foods that I now crave as an adult. I loved ketchup but hated all other condiments (I still love ketchup, but I like mustard too).</p>
+
+
+	<p>Most of things I couldn&#8217;t stand are now regulars in my diet, and for the most part, I&#8217;m willing to eat anything. However, there are a few things that still repulse me, or that I just do not ever want to eat:</p>
+
+
+	<ul>
+	<li>Olives. I like olive oil, but I don&#8217;t like raw or cooked or pulverized olives. I feel like a bad gay man, especially when I see Uncle Teddy nibbling on them  like some dainty queen. I don&#8217;t like tapenade, and I take a twist in my martinis.</li>
+		<li>Anchovies. This one I share with Jeffrey. I recently began eating a bruschetta with anchovies at work, and I promptly threw it away. Sabena told me to buy anchovy paste and to use it in sauces, that this is a great trick of New York chefs. I bought the anchovy paste but it remains unopened.</li>
+		<li>Calf&#8217;s liver. This is a new one, because I just ate my first slice of calf&#8217;s liver last week. I was so excited when my favorite student brought me a heaping plate of liver and onions, but I am still haunted by the taste memory. It was horrifying. It was like biting into wet garbage. I enjoy goose liver, but this was too rich. The preparation was beautiful, but it was the organ itself that was almost the end of me. I immediately ate a bunch of chocolate and candy to erase the taste, but a week later it still creeps up on me from time to time</li>
+		<li>Clams. I used to be afraid of mussels too, but now I like them. But I find clams completely unappealing. Oysters too, to some degree, although I&#8217;m curious to eat one, because I never have. I do like clam sauce, though, so how far off can a whole clam be?</li>
+		<li>Figs and dates. They&#8217;re too sweet, and I don&#8217;t like them. I&#8217;d sooner eat candy.</li>
+	</ul>
+
+
+	<p>That leads me to wonder about the difference between food phobias and food dislikes. Am I scared of dates, or do I just not like them? I know, for example, that I don&#8217;t like fruit and chocolate mixed together, even though I love fruit and I like chocolate.</p>
+
+
+	<p>Anyway, I know that I am scared of olives, anchovies, and liver, and I don&#8217;t know what to do about it. Jeffrey says that exposure is the only way. Eat an olive every day for a while, etc. We&#8217;ll have olives at the party this weekend, so maybe I&#8217;ll get drunk and eat <em>one</em>.</p>
+
+
+	<p>Do any of you have food issues that you&#8217;ve either conquered or not? I&#8217;d love to hear about them.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1626">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-1280"><p>I should add eggnog to my list. I promised that I&#8217;d try the Ronnybrook Farms variety this year, which is supposed to be great when spiked with whiskey or brandy. I&#8217;m not looking forward to it.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">MrLittlePants</span></span>
+  				<span>on November 17, 2005</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1281"><p>Biting into garbage? Bring it on!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Doctor Barnett</span></span>
+  				<span>on November 17, 2005</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1282"><p>i don&#8217;t like jelly fish. but i eat it anyway because i feel like i&#8217;ll be judged as a dumb american by the chinese waiters.<br />
+i used to hate broiled or baked fish when i was young. i think it&#8217;s bc asians leave the head on. which makes it very unappetizing to a 10 year old. but now i&#8217;m a fan.<br />
+i think seafood in general i need to be in the mood for.</p>
+<p>i don&#8217;t like fresh carrot juice. gross.<br />
+i don&#8217;t like some thai curries. i have to be in the mood for coconut milk i think.<br />
+and mr little pants, i think i may not like anise. perhaps you should teach me.<br />
+fruit makes me feel indifferent&#8230;</p>
+<p>p.s. need anything for tomorrow?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">steakandpotatoes</span></span>
+  				<span>on November 17, 2005</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1283"><p>I&#8217;ll make you this crazy chicken stew with star anise and you&#8217;ll change your mind.</p>
+<p>I don&#8217;t think I need anything, but we&#8217;ll talk in the afternoon. I stuffed my prunes with Stilton last night and wrapped them with bacon, so those are ready to go. Tonight I&#8217;ll try to roll up the prosciutto, comte, and sage. We&#8217;re in good shape.</p>
+<p>ps: Jellyfish? <span class="caps">GROSS</span>. When I see a jellyfish on the beach, I walk the other way. People eat those things?</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://null"><span class="alias">MrLittlePants</span></a>
+  				<span>on November 17, 2005</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1284"><p>chinese people eat anything. :)</p>
+<p>why did you do all the work without me!?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">s&amp;p</span></span>
+  				<span>on November 17, 2005</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1285"><p>Because I&#8217;m a fussy queen and I can&#8217;t help myself. I was stuffing prunes at 11 pm last night!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://technically.us/eat"><span class="alias">MrLittlePants</span></a>
+  				<span>on November 17, 2005</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1286"><p>And Korean people eat dogs! Although I&#8217;d probably take dog over jellyfish, I have to admit.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://technically.us/eat"><span class="alias">MrLittlePants</span></a>
+  				<span>on November 17, 2005</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1287"><p>korean people eat dog as much as any poor country folk eat weird animals around the world.<br />
+chinese peoplea actually <span class="caps">LIKE</span> jelly fish. and pay a lot for it.</p>
+<p>btw, it&#8217;s not nice to call nathan a prune.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">s&amp;p</span></span>
+  				<span>on November 17, 2005</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1288"><p>i am the queen of weird eating habits!<br />
+things i absolutely do not eat:<br />
+leafy things<br />
+zucchini<br />
+mushrooms<br />
+mayonaisse<br />
+un-deveined shrimp<br />
+jellyfish<br />
+cooked carrots (most cooked vegetables)<br />
+clams, mussels, etc.<br />
+milk</p>
+<p>and a pile of other crap.  mr. littlepants just loves it when i come over for dinner!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">*dots*</span></span>
+  				<span>on November 17, 2005</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1289"><p>Dots&#8212;it is time to address these food phobias of yours. I&#8217;m with you on mayonnaise, but life is incomplete with leafy greens. When&#8217;s the last time you ate sautéed spinach with garlic? Greens and beans? What could be more delicious?</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://technically.us/eat"><span class="alias">MrLittlePants</span></a>
+  				<span>on November 17, 2005</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1290"><p>Carrot juice is awful.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Jes</span></span>
+  				<span>on November 17, 2005</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4453"><p>Leland&#8230; please Please <span class="caps">PLEASE</span> conquer your fear/dislike of anchovies! You are missing out on one of lifes little niceties by not consuming them.  I&#8217;m not much for some seafood myself.  Growing up I could not stomach tomatoes of all things but now enjoy them immensely. Maybe that was just my taste maturing though.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">ChovyChap</span></span>
+  				<span>on October 6, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id1627">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id1628" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id1628_hf_0" id="id1628_hf_0" /><input type="hidden" name="wicket:interface" value=":802:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id1629" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id162a" name="add" value="Add a comment" onclick="wicketShow('id162a--ajax-indicator');var wcall=wicketSubmitFormById('id1628', '../../?wicket:interface=:802:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id162a--ajax-indicator');}.bind(this),function() { ;wicketHide('id162a--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id1628')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id162a--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

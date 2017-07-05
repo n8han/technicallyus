@@ -1,0 +1,176 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Mom cooks zesty pasta</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id87d" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Mom cooks zesty pasta" width="371" class="title" src="../../../resources/net.databinder.components.RenderedLabel/12a7c3c3"/><span class="title">Mom cooks zesty pasta</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on June 8, 2006</span></span>
+			<span id="id87e" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/books/#selected-tag"><span>books</span></a><span id="id87f">, </span></span><span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>I tried the Wilkinsburg location of the <a href="http://www.city.pittsburgh.pa.us/parks/html/farmers_market.html">Pittsburgh Farmers&#8217; Markets</a> and was disappointed to see only 2 vendors there since I was hoping to get something to cook for dinner. All I bought was a bag of spring mix and some arugula from one of them and 2 big boxes of lovely strawberries from the other.</p>
+
+
+	<p>After cooking a big dinner for eight people last night I wanted to take it a bit easy tonight. The following recipe from one of my new <a href="http://www.donnahay.com.au/Section2.jsp?sectionid=814">Donna Hay</a> cookbooks seemed to fit the bill, and it used the arugula. It&#8217;s on a page of suggestions for quick pastas, what she calls &#8220;short order&#8221;, and is simply entitled <em>Zesty</em>. The recipe calls for frying parsley &#8220;until crisp&#8221; in olive oil. When I followed this directive I didn&#8217;t find the parsley got crisp, it got sort of tough and stringy, and my husband found it to be too bitter. It was a little bitter, but that didn&#8217;t bother me. I have found that men don&#8217;t like these flavors as well as women do in general, especially bitter greens, and I wonder if men even perceive them the same. Maybe it&#8217;s due to gender, and women&#8217;s bodies cry out for the iron in the bitter greens and why they taste better to us. (Although as a woman no longer in my child-bearing years I don&#8217;t need iron any more!)</p>
+
+
+	<p>I used the optional arugula in the recipe, and as I was chopping it the aroma took me right back to Tuscany, where it is featured in so many dishes, particularly Tuscan steak which is heaped with arugula and shaved parmigiano cheese. I don&#8217;t think I&#8217;ve used arugula in my own kitchen since I was in Italy back in 2002, and I had forgotten all about its unique peppery smell and taste. I wish I had gotten more at the market.</p>
+
+
+	<p style="float:right"><img src="/eat/files/arugpen.JPG" alt="" /></p>
+
+
+	<p>Zesty Pasta, from <em>Off the Shelf, Cooking from the Pantry</em>, by Donna Hay</p>
+
+
+	<p>Cook 14 oz. orecchiette or penne until al dente, then drain. Over medium heat fry 2 tablespoons shredded lemon zest, 2 tablespoons rinsed salted capers, 1/2 cup parsley leaves and 2 chopped red chillies in 1/3 cup olive oil until the parsley is crisp. Toss through the hot pasta and serve as a side dish, or with added parmesan and shredded arugula for a simple meal.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id880">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-2187"><p>Other than the bitterness, did it taste good?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on June 8, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2188"><p>Good question, son! Yes, it did taste good, but not extraordinarily so. I liked it more than the guys did. <span class="caps">BTW</span>, these salted capers seem to be the new thing, but you really do have to rinse them off well. I rinsed these under hot water and they were still quite salty.</p>
+<p>How about the photo on this post, though? I think it&#8217;s my best one yet.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on June 8, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2189"><p>I have definitely noticed the gender/bitter greens thing. I bet you are right that it has something to do with iron. I have major anemic tendencies, and crave bitter foods-greens especially-with a ferocity which is quite unsettling at times.</p>
+<p>I find that for people who are not already enamoured of bitter greens (did I mention that I adore broccoli rabe beyond reason?) it helps if they are introduced in a setting where they will not be comfortable actually spitting them out. (i.e. not in their home, surrounded by people they are sure will love them anyway).</p>
+<p>I tell them ahead of time that it is an unusual taste, very special, etc,., and just let them taste a little bit of mine. This has worked rather well on two occasions. One initiate was actually seen to buy himself some.</p>
+<p>Still, some people will never like them, I guess.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://lindytoast.com"><span class="alias">lindy</span></a>
+  				<span>on June 8, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2190"><p>This recipe sounds delicious to me. I read the list of ingredients and don&#8217;t think it could possibly be bad.</p>
+<p>Of course, many times I&#8217;ve had that can&#8217;t-possibly-be-bad thought about a recipe only to find out that, yes, it is possible.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://kitchenography.typepad.com"><span class="alias">Julie</span></a>
+  				<span>on June 8, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2191"><p>Lindy&#8212;I adore broccoli rabe as well, and don&#8217;t eat it nearly as often as I&#8217;d like to because the menfolks don&#8217;t like it. Laurie Colwin has a whole chapter on bitter greens in <em>Home Cooking</em>, and talks about men not liking them.</p>
+<p>Julie, I wish I had read your blog more carefully before making this recipe because the dish you prepared with the pasta and arugula looks even easier and better!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on June 8, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id881">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id882" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id882_hf_0" id="id882_hf_0" /><input type="hidden" name="wicket:interface" value=":318:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id883" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id884" name="add" value="Add a comment" onclick="wicketShow('id884--ajax-indicator');var wcall=wicketSubmitFormById('id882', '../../../?wicket:interface=:318:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id884--ajax-indicator');}.bind(this),function() { ;wicketHide('id884--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id882')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id884--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

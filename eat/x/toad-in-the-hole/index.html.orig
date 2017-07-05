@@ -1,0 +1,256 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Toad in the hole</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="idc1b" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Toad in the hole" width="252" class="title" src="../../../resources/net.databinder.components.RenderedLabel/84dd2a39"/><span class="title">Toad in the hole</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on May 9, 2006</span></span>
+			<span id="idc1c" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>While my fellow food bloggers are busy celebrating spring by preparing <a href="http://kitchenography.typepad.com/my_weblog/2006/04/asparagus_mimos.html">asparagus</a>, lovely <a href="http://www.lindystoast.com/2006/05/pasta_salad_com.html">springtime pasta salads</a>, and other spring <a href="http://wednesdaychef.typepad.com/the_wednesday_chef/2006/05/russ_parsons_br.html">greens</a>, I am marching to the beat of a different drummer by thinking about English nursery food.</p>
+
+
+	<p>We still have a nip in the air here in Pittsburgh, our farmer&#8217;s markets aren&#8217;t open yet, and I had a package of plump, pork country sausages made by the butcher shop of my favorite <a href="http://www.mcginnis-sisters.com/">food purveyor</a> sitting in the freezer that I wanted to use before summer begins. When Leland cooked his <a href="http://technically.us/eat/articles/2006/05/06/jacques-pépins-scallop-soufflé">scallop soufflé</a> last week I found myself fixating on toad in the hole, and thinking how much it has in common with what Leland made&#8212;an eggy batter mixed with protein and baked in the oven until it puffs up.</p>
+
+
+	<p>I am a long-time reader of English literature, and have always been attracted to descriptions of certain of their foods, particularly what you might call nursery food&#8212;shortbread, biscuits, bread and butter or toast cut into &#8220;soldiers&#8221;, puddings of all kinds, pies with custard (why don&#8217;t we serve it like that in this country?). I also like the idea of the full English breakfast with fried bread and grilled tomatoes and mushrooms. On the other hand, they can keep their suet and their Marmite.</p>
+
+
+	<p>The first time I read <em>The Lion, the Witch, and the Wardrobe,</em> by C.S. Lewis was as an adult, out loud, to Leland and his brother Jon, in the car on a trip to the Adirondacks. I will never forget the passage where the Pevensie children are welcomed by Mr. and Mrs. Beaver and given a meal in their home and the vivid description of all the food they ate for tea. I remember my <a href="http://en.wikipedia.org/wiki/Billy_Price">husband</a> and I looking at each other and salivating, and I can just imagine the impact the book had on a generation of war and ration book-deprived London children. Later on in the book Edmond is seduced by the White Witch when she offers him sweets which he can&#8217;t resist, a plot development which must have made complete sense to kids who hadn&#8217;t had sugar for as long as they could remember.</p>
+
+
+	<p>A series of adult books I&#8217;ve read recently begins with one called <em>Not All Tarts Are Apple</em>, by Pip Granger. The first two are told from the point of view of a plucky 7-year old in post-war London who has been adopted by a couple who run a cafe. She is obsessed with food as most children in those days must have been and there are lots of great food scenes in the books. They&#8217;re funny, too.</p>
+
+
+	<p>Anyway, back to the toad in the hole. I got the <a href="http://www.deliaonline.com/recipes/toad-in-the-hole-with-roasted-onion-gravy,1030,RC.html">recipe</a> from <a href="http://www.deliaonline.com/">Delia online</a>, which is written by a well-known British cook named Delia Smith. She&#8217;s got a no-nonsense, brusque way about her, in the manner of Margaret Thatcher. The Brits seem to respond to this type of treatment, and all I can say about that is that it&#8217;s good Hitler wasn&#8217;t a woman wearing a nanny uniform or the English probably wouldn&#8217;t have had the will to resist and we might all be marching in goose-step formation today.</p>
+
+
+	<p style="float:left"><img src="/pictures/toad.jpg" alt="" /></p>
+
+
+	<p>This being written by an Englishwoman and all, there were a few puzzling moments for me, like when she asked me to cook one thing on a baking tray and another thing on a baking tin. Then there was the &#8220;dessertspoonful&#8221; measurement that threw me; I had to call an English friend to ask what that meant. I&#8217;m glad I did, because I thought it must mean something small, like a demitasse spoon, when in fact it&#8217;s quite big, about two tablespoons.</p>
+
+
+	<p>I increased the proportions of the batter a bit, since I was serving 3 of us as a main course. The onion gravy I made with half vegetable stock and half chicken stock, and half the Worchestershire sauce the recipe called for. I put the finished dish on the table with a bit of trepidation; after all, my husband is Jewish and my son is a teenager. I was a little afraid of getting the reaction from my husband that my mother got when she served him scrapple for the first time (prompting his rewriting the old Christmas carol to &#8220;Walking in a Presbyterian Wonderland&#8221;).</p>
+
+
+	<p style="float:right"><img src="/eat/files/tdgrvy.JPG" alt="" /></p>
+
+
+	<p>But I needn&#8217;t have worried; they both loved it! In fact I barely got to eat any myself and the platter was licked clean. My hat&#8217;s off to Miss Smith with the gravy as well, and she&#8217;s right, it would be terrific with mashed potatoes should you ever find yourself with any and no sauce for them.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="idc1d">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-2031"><p>Hey, it looks great! Brings back memories!! I enjoyed your writing, too. I wonder what I could use as a toad for a vegetarian version? Somehow I don&#8217;t think it would be worth the try&#8230; Let me know what other English things you cook up.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">caroline</span></span>
+  				<span>on May 9, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2032"><p>Great post and great dinner. It looks completely satsifying and perfect for a cold night. I&#8217;ll bet your family <br />
+loved it. I know my husband would.</p>
+<p>I enjoyed the British-ness of the recipe, especially the instruction to bake until the &#8220;centre&#8221; was no longer &#8220;squidgy.&#8221;</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://kitchenography.typepad.com"><span class="alias">Julie</span></a>
+  				<span>on May 9, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2033"><p>Caroline&#8212;While I don&#8217;t think Toad in the Hole would be much good without the toad, Delia Smith had a nice collection of vegetarian <a href="http://www.deliaonline.com/recipes/selections/vegetarian-main-courses-who-needs-meat,178,RS.html">recipes</a> on her website you might want to check out. A lot of you Brits seem to be vegetarians, so I guess she caters to that.</p>
+<p>The one negative about her website is that she&#8217;s trying to sell her recipe collections, but she makes a selection available for free, I guess to whet our appetites.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on May 9, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2034"><p>I am a toad-fancier myself. We must be related somehow. Check it out: www.lindystoast.com/2005/06/toad.html</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://lindystoast.com"><span class="alias">lindy</span></a>
+  				<span>on May 9, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2035"><p>What a great post, Lindy, and your toad looks beautiful! I&#8217;m thinking a &#8220;nob&#8221; may correspond to a &#8220;dessertspoonful&#8221;, what do you think?</p>
+<p>The only thing I question in Jamie Oliver&#8217;s recipe is the balsamic vinegar in the onion gravy; it may be delicious but it seems too trendy in such an old-fashioned dish. I think Delia Smith&#8217;s mustard powder and Worchestershire sauce is probably much more authentic. You know, when she said this gravy was good with mashed potato, it didn&#8217;t even occur to me that she may have meant along with the toad, but maybe she did, reading Jamie Oliver&#8217;s recommendations!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on May 9, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2036"><p>You&#8217;re right about the gravy, I think. his toad was a bit avant-garde too, so I ditched the recommended rosemary. Somethings gussy up better than others.<br />
+Anythow, I love mustard and Worcestershire sauce.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">lindy</span></span>
+  				<span>on May 9, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2037"><p>I just learned from the <a href="http://en.wikipedia.org/wiki/Toad_in_the_hole">wikipedia</a> that a poorly made Toad in the Hole is referred to as &#8220;Frog in a Bog.&#8221;</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on May 9, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2038"><p>fantastic toad recipe.   thank you delia.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">helen ruby</span></span>
+  				<span>on May 9, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2039"><p>fantastic recipe from delia.   my mouth is watering!!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">helen ruby</span></span>
+  				<span>on May 9, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2040"><p>Thanks, Helen, and welcome to the blog! This is a great recipe, and a real man=pleaser as well.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on May 9, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5251"><p>Yes Delia&#8217;s recipes are pretty good but please could you give up on the British generalisations??? Far from falling in line with Delia&#8217;s brusque manner, most of the country found her so annoying that her TV series came to a quick halt.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">A Brit</span></span>
+  				<span>on March 9, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5252"><p>Sorry! Most of them come from a lifetime of Brit murder mystery reading, admittedly not good source of accurate cultural reporting.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca (Mommy)</span></span>
+  				<span>on March 9, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6563"><p>Sorry but &#8216;a brit&#8217; is completely wrong. Delia is a national institution in England, she has been around since the late sixties/early seventies and had many series and books. Her most recent show was aired here in December 09 and she has another series in the pipeline.<br />
+She is a tried and trusted cook and not a Trendy Wendy &#8216;chef&#8217;.<br />
+Her books would be found in most British homes, keep your shouty, swearing &#8216;chefs&#8217; and give me Delia anytime. A true English lady and fabulous cook.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Lorraine</span></span>
+  				<span>on December 15, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6564"><p>Can I add there is no need to apologise Rebecca generalise as much as you want.  I&#8217;ll let you into a secret&#8230;.a lot of the generalisations are true and we love them and are proud of them. The only thing I would say is that &#8216;British&#8217; is not the same as English, Scottish, Irish or Welsh. The people in these countries have a great rivalry and often hatred towards each other. <br />
+English and proud.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Lorraine</span></span>
+  				<span>on December 15, 2009</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="idc1e">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="idc1f" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="idc1f_hf_0" id="idc1f_hf_0" /><input type="hidden" name="wicket:interface" value=":443:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="idc20" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="idc21" name="add" value="Add a comment" onclick="wicketShow('idc21--ajax-indicator');var wcall=wicketSubmitFormById('idc1f', '../../../?wicket:interface=:443:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('idc21--ajax-indicator');}.bind(this),function() { ;wicketHide('idc21--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('idc1f')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="idc21--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

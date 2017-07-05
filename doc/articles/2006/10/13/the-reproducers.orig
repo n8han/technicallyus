@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/city-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>City Slicking / The reproducers</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../city">
+			
+			<img alt="City Slicking" src="../../resources/org.apache.wicket.Application/city-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../city">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/city-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id1d93" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="The reproducers" width="184" class="title" src="../../resources/net.databinder.components.RenderedLabel/6f5f0676"/><span class="title">The reproducers</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Doctor Barnett</span>, <span>on October 13, 2006</span></span>
+			<span id="id1d94" class="tags">
+					{&nbsp;<span><a href="../../city/tag/comedy/#selected-tag"><span>comedy</span></a><span id="id1d95">, </span></span><span><a href="../../city/tag/gays/#selected-tag"><span>gays</span></a><span id="id1d96">, </span></span><span><a href="../../city/tag/entertainment/#selected-tag"><span>entertainment</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Here we go, down that precarious road of writing things we hope our immediate family will never read.</p>
+
+
+	<p>My mom and dad don&#8217;t really get the city, and that&#8217;s fine, but I do like for them to visit. The only thing is, they expect to see a <strong>broadway show</strong> when they come.</p>
+
+
+	<p>I do not like musical theater. I don&#8217;t really like anything about it, starting with the amplification. But this is not an opinion I can explain, or transfer, to my parents. If they leave the city without having seen a musical, they will feel gypped.</p>
+
+
+	<p>So last Saturday morning I hustled down to <span class="caps">TKTS</span> South Street to get discount tickets for the hottest show on Broadway (five years ago), <em>The Producers</em>. It was not difficult. The tickets were 50% off for the front row of the mezzanine (apparently abbreviated &#8220;mezzo&#8221;). This was the best part of the experience.</p>
+
+
+	<p>Or maybe the best part was that a college friend of MrLittlePants&#8217; coincidentally played lead tenor. That was kind of cool. But I could not believe how unfunny, raunchy, and pointlessly offensive the show was.</p>
+
+
+	<p>Now wait. I know that that is the point of <em>The</em> bloody <em>Producers</em>. I know that it is incredibly gauche of me to take offense. But there it is. I&#8217;ve tried for a week to find some sophisticated way to appreciate the show and failed.</p>
+
+
+	<p>I did find the <a href="http://technically.us/doc/articles/2006/09/22/sunsilk-gays-still-soooo-funny">scenes of faggotry</a> unbearable, enough so that I&#8217;ve developed a new theory of why, how, and when humor is offensive. An answer to the question, &#8220;Why can&#8217;t I say the &#8216;n&#8217; word if black people do?&#8221; My theory is air-tight. Ask me about it sometime.</p>
+
+
+	<p>Anyway, the show was absolutely vile and worse, boring, except for some clever evocations of nazi symbolism, and one or two Mel Brooksisms that worked. If your understanding of gay culture goes no further than decades-old stereotypes, you might find the gay jokes funny.</p>
+
+
+	<p>I just kept thinking&#8212;could this have possibly been <em>good</em> with its original cast? And what the fuck is wrong with everyone who saw it?</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about'>About</h3>
+
+<p><em>City Slicking</em> is about urban life, transportation, energy, liberty, and language.</p>
+
+<h3 id='haunts'>Haunts</h3>
+
+<p><a href='http://twitter.com/n8han/'>Twitter</a><br /><a href='http://technically.us/code/'>Coderspiel</a><br /><a href='http://www.streetsblog.org/'>Streetsblog</a><br /><a href='http://gawker.com/people/alexpareene/posts/'>Pareene</a><br /><a href='http://www.copenhagenize.com/'>Copenhagenize</a><br /><a href='http://itre.cis.upenn.edu/~myl/languagelog/'>Language Log</a><br /><a href='http://t4america.org/'>Trans. for America</a></p>
+
+<h3 id='wire_service'>Wire Service</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/city-rss' title='All in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-short-rss' title='Left column, frequent links and notes'>Quickies</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-long-rss' title='Main column, occasional extended posts'>Treatise</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1d97">
+  		
+  		
+  	</div>
+  	<div id="id1d98">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id1d99" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id1d99_hf_0" id="id1d99_hf_0" /><input type="hidden" name="wicket:interface" value=":1114:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id1d9a" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id1d9b" name="add" value="Add a comment" onclick="wicketShow('id1d9b--ajax-indicator');var wcall=wicketSubmitFormById('id1d99', '../../?wicket:interface=:1114:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id1d9b--ajax-indicator');}.bind(this),function() { ;wicketHide('id1d9b--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id1d99')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id1d9b--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

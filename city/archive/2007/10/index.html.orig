@@ -1,0 +1,530 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../../resources/org.apache.wicket.Application/city-stylesheet"/>
+
+<script language="JavaScript" src="../../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>City Slicking / October 2007</title>
+
+		<script src="../../../../resources/com.typeturner.pages.Archive/animator.js" type="text/javascript"></script>
+		<script src="../../../../resources/com.typeturner.pages.Archive/Archive.js" type="text/javascript"></script>
+<script type="text/javascript" src="../../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" ><!--/*--><![CDATA[/*><!--*/
+Wicket.Event.add(window, "load", function() { highlightTarget()  ;});
+/*-->]]>*/</script>
+
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div id="lead">
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../../city">
+			
+			<img alt="City Slicking" src="../../../../resources/org.apache.wicket.Application/city-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../../city">
+		<span id="weblog-photo"><img alt="" src="../../../../resources/org.apache.wicket.Application/city-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="span-14 last">
+	<h1 class="period" id="navigation">
+		<span class="arrow"><a class="arrow" href="../../../../city/archive/2007/9/#navigation"><img height="45" alt="<" width="18" src="../../../../resources/net.databinder.components.RenderedLabel/d14166b5"/></a></span>
+		<span class="month-year"><img height="45" alt="October 2007" width="166" src="../../../../resources/net.databinder.components.RenderedLabel/87e090ac"/></span>
+		<span class="arrow"><a class="arrow" href="../../../../city/archive/2007/11/#navigation"><img height="45" alt=">" width="18" src="../../../../resources/net.databinder.components.RenderedLabel/d14166b7"/></a></span>
+	</h1>
+</div>
+
+<div class="prepend-1 span-12 append-1 last calendar" id="calendar">
+	<div id="id21ee" class="span-3 sidebar">
+		<h3>1 &ndash; 8</h3>
+		<div>
+			<div id="item-4420" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id21ef"><p><a href='http://www.theonion.com/content/node/67327'>Country Music Stars Challenge Al-Qaeda With Patriotic New Song ‘<strong>Bomb New York</strong>’</a>. <em>Onion News Network</em> is not screwing around, no siree. They&#8217;ve got Final Cut Pro figured out, and Garage Band, and nothing is going to stop them from making parodies of rural America&#8217;s absurd <a href='http://technically.us/city/archive/2007/8#item-752'>theft of 9/11</a>.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Oct 2</span>
+							<a href="../../../../city/archive/2007/10/#item-4420">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4422" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id21f0"><p><a href='http://gawker.com/news/cult-of-the-iphone/-305991.php'><em>Gawker</em></a>: &#8220;Are iPhone owners like a <strong>battered wife</strong> who thinks that her husband knocks her around for her own good?&#8221; Uhh, hmm that analogy <a href='http://technically.us/city/x/apple-customers-exactly-like-battered-women'>sounds familiar</a>.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Oct 2</span>
+							<a href="../../../../city/archive/2007/10/#item-4422">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4427" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id21f1"><p><a href='http://www.nytimes.com/2007/10/03/dining/03note.html'><strong>Celebrity chefs</strong></a>: &#8220;As they pump out their books, sign their latest endorsement deals and add 3rd or 6th or 10th restaurants to their burgeoning empires, they move farther away from the meals that the diners in those restaurants eat. They’re less creators than conferrers, lending an aura of glamour to products manufactured and projects maintained by others.&#8221; Why people need Bruni to point out this plain absurdity we don&#8217;t know, but&#8212;thanks!</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Oct 3</span>
+							<a href="../../../../city/archive/2007/10/#item-4427">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4429" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id21f2"><p>Watch mom beat up on <a href='http://technically.us/eat/x/mom-is-incredulous'>lame <strong>cooking tips</strong></a>: &#8220;Maybe if she would line the pans with parchment paper she wouldn’t have so many broken cakes to begin with.&#8221;</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Oct 3</span>
+							<a href="../../../../city/archive/2007/10/#item-4429">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4436" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id21f3"><p><strong>Friedman</strong>, strutting about after his successful <a href='http://www.nytimes.com/2007/09/30/opinion/30friedman.html'>9/11 is Over</a> piece, trips today in an <a href='http://www.nytimes.com/2007/10/03/opinion/03friedman.html'>attempted Toyota smear</a>. He broadly contrasts average fuel economy in the U.S. with that of countries that have the good sense not to rely on anything as stupid as <a href='http://en.wikipedia.org/wiki/Corporate_Average_Fuel_Economy'><abbr>CAFE</abbr></a> to create incentives. That is, they have high gas taxes in Europe and Japan, yet &#8220;tax&#8221; is unmentioned in the Toyota op-ed. That&#8217;s even stranger considering Friedman&#8217;s <a href='http://select.nytimes.com/2005/09/21/opinion/21friedman.html'>called for higher gas taxes</a> before. Please don&#8217;t waste everybody&#8217;s time with <abbr>CAFE</abbr>. It tries to meddle, clumsily, in automakers&#8217; business&#8212;of course they hate it! They can&#8217;t even be sure if their fleet will comply, given the idiotic whims of American car buyers. <a href='http://www.carbontax.org/'>Carbon taxing</a> those hos is the only way.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Oct 3</span>
+							<a href="../../../../city/archive/2007/10/#item-4436">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4439" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id21f4"><p><a href='http://www.theonion.com/content/node/67581'>Time for cybermail</a>! (<em>video</em>) <em>ONN</em>&#8217;s lampooning of <abbr>TV</abbr> news takes on the viewer response segments that are apparently common these days.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Oct 4</span>
+							<a href="../../../../city/archive/2007/10/#item-4439">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4440" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id21f5"><p><a href='http://www.nytimes.com/2007/10/04/opinion/04dobson.html'>Crazy <strong>Christians</strong></a>: &#8220;If neither of the two major political parties nominates an individual who pledges himself or herself to the sanctity of human life, we will join others in voting for a minor-party candidate.&#8221; Excellent. Everything is going according to our <em>design</em>.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Oct 4</span>
+							<a href="../../../../city/archive/2007/10/#item-4440">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4444" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id21f6"><p><a href='http://www.nytimes.com/2007/10/04/movies/04kite.html'>Gay-rape-mail</a>: &#8220;The studio distributing ‘<strong>The Kite Runner</strong>&#8217; &#8230; is delaying the film’s release to get its three schoolboy stars out of Kabul &#8230; in response to fears that they could be attacked for their enactment of a culturally inflammatory rape scene.&#8221; <em>Gay Rape in Afghanistan</em>, as we dubbed it, is the worst book of the decade. Well it&#8217;s probably not as <a href='http://itre.cis.upenn.edu/~myl/languagelog/archives/000844.html'>bad</a> as <em>The Mona Lisa Code</em> or whatever but we knew better than to pick up that turd. We trudged through <em>TKR</em> because it was a gift. They should sell a condensed version with just the fifteen gay rape pages where the entirety of the plot takes place (one third in, and then near the end obvs!). That is what the movie will be so at least it will be bad in fewer ways than the book. <em>Spoiler alert!</em> The protagonist finds his absolution.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Oct 4</span>
+							<a href="../../../../city/archive/2007/10/#item-4444">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4449" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id21f7"><p>Would not want to be a <strong>pink-loving conservative</strong> <em>Times</em> columnist in this day and age, like David Brooks, because then we&#8217;d have to prentend it&#8217;s the 1770s, when our movement had some gas. In Ireland. Today Brooks <a href='http://www.nytimes.com/2007/10/05/opinion/05brooks.html'>pens a love letter</a> to big Whig <a href='http://en.wikipedia.org/wiki/Edmund_Burke'>Ed Burke</a>, sighing: &#8220;To put it bluntly, over the past several years, the G.O.P. has made ideological choices that offend conservatism’s Burkean roots.&#8221; Maybe he should try Ireland or The United Kinglande, where they&#8217;re so sophisticated they can perform the sacred work of <em class='smcp'>resisting change</em> without &#8220;too much individualism&#8221;? Seriously, this column is against individualism, of all unassailable things, and earlier he spoke up for the glory of a <a href='http://select.nytimes.com/2007/03/29/opinion/29brooks.html'>big government security state</a>. We&#8217;re starting to think D.B. is just kidding around with us. That old tease!</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Oct 5</span>
+							<a href="../../../../city/archive/2007/10/#item-4449">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			
+			<div>
+				<h3><a class="title" href="../../../../city/x/back-it-up-like-a-u-haul-truck/"><span>Back it up, like a u-haul truck</span></a></h3>
+				<div class="byline">
+					<span>Oct 6</span>
+				</div>
+			</div>
+		</div>
+	</div><div id="id21f8" class="span-3 sidebar">
+		<h3>9 &ndash; 16</h3>
+		<div>
+			<div id="item-4460" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id21f9"><p><a href='http://www.nytimes.com/2007/10/09/washington/09nsa.html'>Democrats Seem Ready to Extend <strong>Wiretap Powers</strong></a>: &#8220;Although willing to oppose the White House on the Iraq war, they remain nervous that they will be called soft on terrorism if they insist on strict curbs on gathering intelligence.&#8221; Because nothing says &#8220;macho man&#8221; like being scared of how standing up for freedom will make you look. Tell ’em, you pro-domestic-spying anti-turban butch Dems!</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Oct 9</span>
+							<a href="../../../../city/archive/2007/10/#item-4460">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4461" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id21fa"><p><a href='http://www.slate.com/id/2175313/'>Gross on green</a>: &#8220;Thus far, <strong>green goods</strong> have been pitched to the top: expensive Priuses for guilty yuppies, solar installations for rich techies. But to have real impact, energy-efficiency products need to make economic sense to those who congregate on the lower rungs of the economic ladder.&#8221;</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Oct 9</span>
+							<a href="../../../../city/archive/2007/10/#item-4461">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4464" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id21fb"><p><strong>Popular music</strong> is <a href='http://blog.wired.com/27bstroke6/2007/10/riaa-juror-we-w.html'>kind of a gold</a>: &#8220;At least two jurors, one of them a funeral home owner, wanted to award the <abbr title='Recording Industry Association of America'>RIAA</abbr> the maximum $150,000 for each of the 24 copyright violations &#8230; they settled on $9,250 for each song.&#8221; The jury wanted to &#8220;send a message&#8221; and wrecking a 30 year-old single mother&#8217;s life seemed like a right fine way to transmit. Who cares if the punishment is a few orders of magnitude worse than the crime? We&#8217;ve got a <a href='http://arts.independent.co.uk/music/features/article3027709.ece'>doomed</a> industry to sustain, and uppity youths to frighten!</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Oct 9</span>
+							<a href="../../../../city/archive/2007/10/#item-4464">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4468" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id21fc"><p>Um, <strong>Gawker editorial</strong> just <a href='http://gawker.com/news/transparency/should-we-be-on-strike-309077.php'>blew off Evian</a>. Wow. Evian (Coca-Cola) tends to throw around a <em>lot</em> of money for new media companies that are willing to do a special song and dance just for them. We hear.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Oct 10</span>
+							<a href="../../../../city/archive/2007/10/#item-4468">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4470" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id21fd"><p><a href='http://www.newsday.com/news/local/newyork/ny-nyhen105407961oct10,0,4871604.column'><strong>Smart roads</strong></a>! They&#8217;re just like trains, except every seat has its own internal combustion engine and rubber tires, making travel a few hundred times less efficient. Each seat&#8217;s &#8220;conductor&#8221; follows a computer&#8217;s instructions to guide it along fragile asphalt routes that cost billions to maintain. But the freedom to <a href='http://www.emblibrary.com/EL/product_images/L1286.jpg'>do the twist</a> like in your youth and die in a romantic crash makes car travel worth its vastly greater cost compared to trains, which are only popular in communist France. {&#160;<a href='http://www.streetsblog.org/2007/10/10/todays-headlines-258/'>via</a> <em>Streetsblog</em>&#160;}</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Oct 10</span>
+							<a href="../../../../city/archive/2007/10/#item-4470">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4476" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id21fe"><p>The only surprising thing about the <a href='http://www.macintouch.com/newsrecent.shtml#other.2007.10.05.freeze'>problems with the <strong>alumninum iMacs</strong></a> is that ours, purchased the day they were announced, is not afflicted. In the past we&#8217;ve been <a href='http://technically.us/city/archive/2007/7#item-738'>cursed</a> to suffer all the &#8220;rare&#8221; hardware booboos reported on Mac forums by users with names like tekn0ph1sh, only to hear about how we&#8217;re just one of a few loudmouths who should shut up and be happy that Apple will try to repair its smoking hunk of plastic. Anyway, it&#8217;s nice to be in that supposedly huge problem-free group for the first time ever.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Oct 11</span>
+							<a href="../../../../city/archive/2007/10/#item-4476">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4482" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id21ff"><p>We weren&#8217;t the only ones <a href='http://www.carbontax.org/blogarchives/2007/10/11/yes-dingell-is-beholden-to-detroit-but-hes-right-about-carbon-taxes/'>annoyed with</a> Friedman&#8217;s <strong><abbr title='Corporate Average Fuel Economy'>CAFE</abbr> love-fest</strong>: &#8220;But if this is true, then the tight new standard is surely too loose. Why not tighten it more, and forget about phasing it in? Instant innovation for free. Before you know it the carmakers will be paying pensions again and we shall be getting 500 miles to the gallon. Why not run the whole economy this way?&#8221; {&#160;<em><a href='http://technically.us/city/archive/2007/10#item-4436'>previously</a></em>&#160;}</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Oct 12</span>
+							<a href="../../../../city/archive/2007/10/#item-4482">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4507" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id2200"><p>Isn&#8217;t it embarrassing how the <strong>plot of every show and movie</strong> now hinges on photos and/or text messages sent from shiny phones made by the production&#8217;s sponsors? That&#8217;s after the protagonists have driven to get groceries or something similarly mundane in an improbable new vehicle whose make and model the players dutifully recite. The art of the pictures in motion will never be the same!</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Oct 13</span>
+							<a href="../../../../city/archive/2007/10/#item-4507">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4516" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id2201"><p>Apparently now you <a href='http://www.macintouch.com/readerreports/apple/index.html#d15oct2007'>need a <strong>driver&#8217;s license</strong></a> to use a credit card at an Apple Store: &#8220;Another person, who does not <em>have</em> a driver&#8217;s license, had a computer purchase rejected by an Apple Store in Cambridge, Mass., despite offering a passport and other identification. She is no longer a customer.&#8221; Hey Apple we know you love your cars in California and anyone who doesn&#8217;t drive is highly suspicious, but on the east coast you&#8217;re kind of popular among the urban, non-motorized set. Also we have rich foreigners here, that normally buy like a million iPods a day.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Oct 15</span>
+							<a href="../../../../city/archive/2007/10/#item-4516">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4518" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id2202"><p><strong>Kyl-Lieberman</strong>, the answer to <a href='http://technically.us/city/archive/2007/8/#item-4049'>Bush&#8217;s August prayers</a>. It&#8217;s just like in 2002 when dumb Democrats authorized war&#8212;only as a negotiating tool!&#8212;but it&#8217;s also a sad example of the truth&#8217;s non-voting share in our international politics. Hillary <a href='http://www.thewashingtonnote.com/archives/002386.php'>says</a>: &#8220;I voted for this resolution in order to apply greater diplomatic pressure on Iran.&#8221; Super. Her next vote will claim that Kim Jong-il has three heads, in order to apply&#8230; She did assert that the Guard has &#8220;links with Hezbollah,&#8221; a vague finding we assume came from the crack team that established Iraq&#8217;s massive weaponry. And also, they&#8217;re &#8220;involved in Iran&#8217;s nuclear program.&#8221; Doubtful, really, that enlisted soldiers have much to do with Iran&#8217;s &#8220;Manhattan Project,&#8221; but thanks for calling our greatest generation <em>terrorists</em>, Hil.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Oct 16</span>
+							<a href="../../../../city/archive/2007/10/#item-4518">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div>
+	</div><div id="id2203" class="span-3 sidebar">
+		<h3>17 &ndash; 24</h3>
+		<div>
+			<div id="item-4521" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id2204"><p>He doesn&#8217;t <a href='http://www.nytimes.com/2007/10/17/us/politics/17climate.html'>support a <strong>carbon tax</strong></a> because he thinks poorer people <em>tend</em> to have drive further&#8212;really?&#8212;but &#8220;McCain said he supported an effort to develop an automobile battery that can travel 150 to 200 miles without a charge.&#8221; Is that how far the poor have to drive to work? We support the effort for 500, no, <em>1,000</em> mile batteries, and also cold fusion engines and (what the heck) perpetual motion wheels. Only by throwing money at unlikely research projects for cars that don&#8217;t take cheap American gas will we see our way out of this energy mess!</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Oct 17</span>
+							<a href="../../../../city/archive/2007/10/#item-4521">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4532" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id2205"><p>Is there anything with <strong>Lieberman&#8217;s name</strong> on it <a href='http://www.carbontax.org/blogarchives/2007/10/17/lieberman-climate-bill-could-have-record-corporate-giveaways/'>that doesn&#8217;t suck</a>? &#8220;Senators Joe Lieberman (I-Conn.) and John Warner (R-Va.) are expected to introduce cap-and-trade legislation tomorrow that would reward polluters by giving them a substantial number of emission allowances for free.&#8221; We&#8217;re sure he can <a href='http://technically.us/city/archive/2007/10/#item-4518'>count on Hillary&#8217;s vote</a>.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Oct 18</span>
+							<a href="../../../../city/archive/2007/10/#item-4532">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4534" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id2206"><p><em>Gawker</em>: <a href='http://gawker.com/news/femiladyism/new-slate-political-ladyblog-is-all-about-cleaning-and-babies-312060.php'>New <em>Slate</em> <strong>&#8220;Political&#8221; Ladyblog</strong> Is All About Cleaning And Babies</a>. That&#8217;s exactly what we thought after excitedly clicking on the “<em>Slate</em>&#8217;s no-boys-allowed political blog!&#8221; teaser. If they want to move into the faux-girly void left by the <em>Wonkette</em> upheaval&#8212;and Pareene is not even writing funny at <em>Gawker</em> so far <code>:(</code>&#160;&#8212;they&#8217;re going to have to do better than that.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Oct 18</span>
+							<a href="../../../../city/archive/2007/10/#item-4534">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4544" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id2207"><p>Thanks to the stupid internet, New York drivers can no longer run over <strong>piles of pedestrians and cyclists</strong> without fear of being held responsible. Traffic police used to be happy to scribble down any old zany explanation for crashes given by auto drivers (who miraculously survive their collisions with bicycles and bodies about 100% of the time) so everybody could go home and just forget about it. But pesky <em>Streetsblog</em> is investigating pretty much every death now, as if those lives had value, and finding that trivial details like if somebody was biking in the wrong direction <a href='http://www.streetsblog.org/2007/10/19/details-emerge-in-brooklyn-cyclist-deaths/'>totally don&#8217;t add up</a>. Killjoys!</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Oct 19</span>
+							<a href="../../../../city/archive/2007/10/#item-4544">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4553" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id2208"><p>Hey, look! The bank of our unnatural hometown lake in a <a href='http://www.nytimes.com/2007/10/23/us/23drought.html'>huge <em>New York Times</em> photograph</a>. We have to say that, yes climate change is going to kill us all, but <strong>northeast Georgia</strong> is not at all &#8220;New to Being Dry.&#8221; That place was in a drought our whole redneck childhood. We got bored with being in droughts. And the pictured red clayey exposed lake shore? Kind exactly how we remember it always being, except on the off year that it rained a lot. Yeah, sure, this is breaking records, but zzzzz maybe stop moving there, yankees that can&#8217;t afford to buy big ugly houses up north? That&#8217;s always who the biggest racists are, by the way.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Oct 23</span>
+							<a href="../../../../city/archive/2007/10/#item-4553">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4558" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id2209"><p><em><a href='http://gawker.com/news/in-the-year-2525/-314530.php'>Gawker</a></em>: &#8220;Give it another decade and <strong>Penn Station</strong> may no longer compete with Port Authority for the title of Most Depressing Place in America.&#8221;</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Oct 24</span>
+							<a href="../../../../city/archive/2007/10/#item-4558">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div>
+	</div><div id="id220a" class="span-3 sidebar last left-overlay">
+		<h3>25 &ndash; 31</h3>
+		<div>
+			<div id="item-4564" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id220b"><p>Pictorial <a href='http://bikesnobnyc.blogspot.com/2007/10/indignity-of-commuting-by-bicycle.html'><strong>bike commute</strong> write-up</a>: &#8220;Here&#8217;s two more bike lane subletters a little further along. Note the official plate. Yes, it&#8217;s official&#8212;you&#8217;re an idiot.&#8221; We should take pictures of the packs of car commuters that hilariously run the red on 5th Avenue at 128th Street (you know, in Harlem). { <a href='http://www.streetsblog.org/2007/10/25/bike-snob-nyc-shows-you-how-its-done/'>via</a> <em>Streetsblog</em> }</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Oct 25</span>
+							<a href="../../../../city/archive/2007/10/#item-4564">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4566" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id220c"><p><em>Onion News Nework</em>: <a href='http://www.theonion.com/content/node/68711'>Representative Wants To See, Meet More Kids Online</a>. Congress&#8217;s obsession with children on the internet <em>is</em> a little disturbing. And if you need a refresher on disaster platitudes this week, try last week&#8217;s <a href='http://www.theonion.com/content/node/68539'>Preemptive Memorial Honors Future Victims Of Imminent Dam Disaster</a>.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Oct 25</span>
+							<a href="../../../../city/archive/2007/10/#item-4566">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4572" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id220d"><p><em><a href='http://gawker.com/news/yuppie-crisis/wine-critic-robert-parker-is-corked-315504.php'>Gawker</a></em>: &#8220;Wine critic <strong>Robert Parker</strong>, whose point system allows millions of American yuppies to pretend that they have taste when all they really have is money&#8230;&#8221; Wine drinking in the U.S. is such a horrible sham. It&#8217;s a bouquet of bullshit, with notes of cultural anxiety and pretense.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Oct 26</span>
+							<a href="../../../../city/archive/2007/10/#item-4572">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4588" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id220e"><p><a href='http://www.nytimes.com/2007/10/27/technology/27apple.html'>Apple Limits Sale of iPhones: Two Per Person and No Cash</a>. Coupled with the insane <a href='http://technically.us/city/archive/2007/10/#item-4516'>Apple Store rule</a> that you have to have a driver&#8217;s license to purchase with a credit card, this means that the <strong>iPhone requires a driver&#8217;s license</strong>. After pushing retail in so many smart directions, Apple is determined to ruin it with over the top arrogance, just like they do their products.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Oct 29</span>
+							<a href="../../../../city/archive/2007/10/#item-4588">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4592" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id220f"><p>Silly <a href='http://www.nytimes.com/2007/10/30/world/americas/30venezuela.html'>Venezuela <strong>subsidizes oil, Hummers</strong></a>: &#8220;Scholars trace the origins of Venezuela’s subsidy to the 1940s, when leftists imposed caps on gasoline prices.&#8221; Like all bad leftist ideas, it has become a tool of the rich that supports the most destructive kind of consumption. <em>The Times</em> suggests that &#8220;Motorists in the United States smarting from rising gasoline prices, take note.&#8221; We suggest they try reporting more on the vast majority of countries that don&#8217;t export oil and do have higher gas prices than us, before we end up with more of a fuel subsidy than we have already.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Oct 30</span>
+							<a href="../../../../city/archive/2007/10/#item-4592">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4593" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id2210"><p>Bullcrap <a href='http://www.onnyturf.com/articles/read.php?article_id=653'>finally being called</a> on the city for arresting masses of hippies for riding bicycles: &#8220;Several cyclists who participated in the September, October, and November 2004 <strong>Critical Mass bike rides</strong> &#8230; are seeking compensatory and punitive damages in excess of $5 million each.&#8221; They&#8217;ll probably win, but <abbr>NYPD</abbr> surely won&#8217;t regret having used force against people for challenging their authority (especially since the collective victims of their abuse will be the ones to pay its cash penalty).</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Oct 30</span>
+							<a href="../../../../city/archive/2007/10/#item-4593">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4595" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id2211"><p><a href='http://www.boingboing.net/2007/10/30/boing-boing-tv-gay-f.html'><em>Boing Boing tv</em></a>: &#8220;Who says all the leading <strong>men in slasher flicks</strong> have to be straight? [<em>insert picture of Jason and some other horror villain groping in bed</em>]&#8221; Who says that slashers typically express any sexual desire, let alone copulate in soft focus? Doesn&#8217;t matter because it&#8217;s gay, so it&#8217;s hilarious!</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Oct 30</span>
+							<a href="../../../../city/archive/2007/10/#item-4595">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4596" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id2212"><p>&#8220;Mr. Dziekanski died shortly after being <strong>tasered</strong>&#8212;only 10 hours after arriving in the country that was to be his new home.&#8221; Surprisingly, the country that <a href='http://www.theglobeandmail.com/servlet/story/RTGAM.20071025.wtaser1026/BNStory/National/home'>killed him in customs</a> was Canada and not the U.S. Does anybody actually think tasers should be legal, besides the people that sell them and the goons whose overuse of them is so common it&#8217;s become a grim joke?</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Oct 30</span>
+							<a href="../../../../city/archive/2007/10/#item-4596">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4601" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id2213"><p>New <strong>Accord</strong> is fat and gassy, <a href='http://www.nytimes.com/2007/10/28/automobiles/autoreviews/28ACCORD.html'>just like boomers</a>: &#8220;The extra power reduces fuel economy, of course. &#8230; The car is more practical, and safer, and yet a driving enthusiast can enjoy it. It also shows that bigger and older can mean better, just as it does with me and my fellow boomers.&#8221; Killer angle, pops. And it&#8217;s groovy that you don&#8217;t care if a car that passes for small these days gets less than 20 mpg, so long as its acceleration gives you something to be <em>enthusiastic</em> about. After all, most boomers won&#8217;t be here for the fallout.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Oct 31</span>
+							<a href="../../../../city/archive/2007/10/#item-4601">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div>
+	</div>
+</div>
+	
+
+
+</div> <!-- container -->
+
+<div id="target-padder"></div>
+
+
+
+</body>
+</html>

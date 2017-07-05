@@ -1,0 +1,248 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Deep-fried eggs</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id7a3" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Deep-fried eggs" width="249" class="title" src="../../../resources/net.databinder.components.RenderedLabel/24034b22"/><span class="title">Deep-fried eggs</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on May 12, 2007</span></span>
+			<span id="id7a4" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/techniques/#selected-tag"><span>techniques</span></a><span id="id7a5">, </span></span><span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>I had the extreme good fortune to watch Jacques Pépin give a 90-minute demonstration on eggs the other day. He prepared close to ten dishes, ranging from mayonnaise (with <a href="http://technically.us/eat/articles/2007/04/25/corn-oil-versus-olive-oil">olive oil!</a>) to omelets. It&#8217;s always amazing to watch someone who knows how to do everything in the kitchen, and who can make every dish beautiful. When he finished the mayonnaise and put it in a bowl, he used an offset spatula to smooth the sides and push them down, and he took the bit of mayo left on the spatula to decorate the middle. He makes it all look so easy.</p>
+
+
+	<p>Every word from the man&#8217;s mouth is useful to an aspiring cook such as myself, and he breaks with tradition frequently. For example, whereas most people learn to separate eggs by passing them from one half of the shell to the other (after breaking them on a flat surface), Jacques says you lose about a third of the white that way, and that he&#8217;s seen people fail at recipes calling for a certain number of egg whites simply because they had one third fewer than they should have. Jacques separates an egg by fishing out the yolk with his fingers.</p>
+
+
+	<p>The mayonnaise was fascinatingly easy. In my mayonnaise post two weeks ago, I insisted that every ingredient must be at room temperature. Jacques said this is true only of the oil, which is likely to be at room temperature anyway. He used cold yolks and mustard, and his sauce came together fast. Also, he was much less dainty than I thought necessary with the pouring of the oil. A tablespoon here, a half cup there—it didn&#8217;t give him trouble. He broke the mayonnaise intentionally at one point by pouring in a ton of oil, and he showed us how to fix it by whisking in a tiny bit of vinegar at the edge of the surface, slowly working the whisk deeper and deeper into the bowl. The graininess and oiliness disappeared, and the sauce came back together.</p>
+
+
+	<p>I could blabber on about his omelets, <em>oeufs au gratin</em>, and <em>oeufs miroir</em>, but I&#8217;ll get to the point of this post, which is deep-fried eggs.</p>
+
+
+	<p><img src="/eat/files/friedegg.jpg" alt="" /></p>
+
+
+	<p>Deep-fried eggs are just like poached eggs, but with 350ºF oil instead of simmering water. You heat corn, vegetable, peanut, or a similar oil in a shallow skillet (the oil should approach the edge—it won&#8217;t overflow, because an egg is tiny). You then break one cold egg (cold eggs have stiffer whites) gently into the oil, and use two wooden spoons to pull the white around the yolk, as you would while poaching. If you&#8217;re Jacques Pépin, you&#8217;ll end up with an ovoid beauty, evenly browned all around, with a cooked white and a soft yolk. I didn&#8217;t get the shape exactly right, but otherwise it was easy. Once the white starts to brown, you can remove it with a slotted spoon or a skimmer to a paper towel–lined plate to drain. Serve it as soon as possible, because the eggs deflate rather quickly. I served mine, sprinkled with sea salt and pepper, over grilled cheese.</p>
+
+
+	<p>I still prefer a poached egg to a deep-fried egg, but this is guaranteed to impress, if not shock, your guests. Don&#8217;t be afraid to try over and over, throwing away the ugly ones. Eggs are cheap, and once you&#8217;ve gone to the trouble of heating up the oil, you might as well get it right.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id7a6">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3744"><p>Wow. I&#8217;m so happy for you that you got to spend time with Jacques Pépin (some people would say they were jealous, but I&#8217;m not that sort). I love your description of him and his ease in the kitchen. Thanks for sharing it with us.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.ceresandbacchus.com"><span class="alias">Mary</span></a>
+  				<span>on May 12, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3745"><p>Did he make Hollandaise?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on May 12, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3746"><p>My pleasure, Mary!</p>
+<p>No, Mom, he didn&#8217;t. But he did make crème anglaise. Personally, I could vomit just at the thought of hollandaise sauce, so I didn&#8217;t miss it.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on May 12, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3747"><p>Where did you see Jacques? Was it at cooking school or elsewhere? That must have been an awe-inspiring experience. That being said, I don&#8217;t know if I am off to make deep-fried eggs anytime soon.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.izzyeats.blogspot.com"><span class="alias">izzy&#039;s mama</span></a>
+  				<span>on May 12, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3748"><p>It was at the French Culinary Inst., where I&#8217;m taking my cooking class on Monday and Wednesday nights.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on May 12, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3749"><p>oh my oh my. i must try this deep fried goodness asap.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">jeannie</span></span>
+  				<span>on May 12, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3750"><p>I&#8217;d never noticed it until it was pointed out to me, but Jacques Pepin does everything he demonstrates on television so efficiently that there is never a wasted motion. He&#8217;s amazing to watch just for that.</p>
+<p>Plus, he seems like a nice guy &#8212; not at all your stereotypical tantrum-throwing French chef. I find it touching to see how sweet and gracious he was to Julia Child on the show they did together.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://kitchenography.typepad.com"><span class="alias">Julie</span></a>
+  				<span>on May 12, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3751"><p>Deep fried eggs&#8230; fantastic.  Sounds like a wonderful idea for Eggs Benedict.</p>
+<p>My arteries are screaming already!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://colinwetherbee.com/"><span class="alias">Colin</span></a>
+  				<span>on May 12, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3752"><p>I&#8217;m so sorry, I killed Severus. But I did have a deep-fried egg the very same day.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Lord Voldemort</span></span>
+  				<span>on May 12, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3753"><p>My god, it must have been deep-fried eggs that killed Snape!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://colinwetherbee.com/"><span class="alias">Colin</span></a>
+  				<span>on May 12, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4226"><p>I have tried this twice. I think I should have used a top quality analon (or similar) pot but chose an electric aluminum pot so I could control the heat. Eggs sticking was a big problem. It is interesting and I think I might try one more time. Served with greens and a light salad dressing was good.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Sharon</span></span>
+  				<span>on August 24, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4527"><p>I was looking up a deep fried egg how to and saw this webpage. thanks for the intructions! It was awesome but I agree that poached is better!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Souix</span></span>
+  				<span>on October 18, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5274"><p>I first saw this demonstrated on <span class="caps">BBC</span> in England (circa 1984) by brothers Michele and Albert Roux (of Waaterside Inn fame)and I went OoooOh.  The technique was more or less as above.  Oil temperature was important.  I tried it once but had issue with sticking.  Want to try it again perhaps with larger duck eggs and smaller quail eggs to see how the texture changes.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">RogerDodger</span></span>
+  				<span>on March 17, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5692"><p>I could listen to him talk all day.<br />
+His show with Julia (rest her soul) was so fun to watch.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Scott</span></span>
+  				<span>on August 30, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6064"><p>googled this site for fun re deep-fried eggs,or as i new them-chip-pan eggs.my mum rarely made them,but when she did we ate them with  (the world&#8217;s best chips)and buttered doorsteps of crusty bread.i make them here in canada sometimes with organic <del>yolk -so -yummy orange yolk</del> eat the bugs free- range chicken eggs.Cooked in lard-because it doesn&#8217;t degrade and is now a good guy<br />
+again in human nutrition.Dump frying in any vegetable oil-it degrades and is toxic at high temps</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">lee turner</span></span>
+  				<span>on January 22, 2009</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id7a7">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id7a8" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id7a8_hf_0" id="id7a8_hf_0" /><input type="hidden" name="wicket:interface" value=":290:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id7a9" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id7aa" name="add" value="Add a comment" onclick="wicketShow('id7aa--ajax-indicator');var wcall=wicketSubmitFormById('id7a8', '../../../?wicket:interface=:290:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id7aa--ajax-indicator');}.bind(this),function() { ;wicketHide('id7aa--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id7a8')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id7aa--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

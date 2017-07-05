@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/city-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>City Slicking / Coiffure for cheapskates</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../city">
+			
+			<img alt="City Slicking" src="../../../resources/org.apache.wicket.Application/city-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../city">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/city-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id197b" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Coiffure for cheapskates" width="280" class="title" src="../../../resources/net.databinder.components.RenderedLabel/7e4d0cf5"/><span class="title">Coiffure for cheapskates</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Doctor Barnett</span>, <span>on February 15, 2006</span></span>
+			<span id="id197c" class="tags">
+					{&nbsp;<span><a href="../../../city/tag/shopping/#selected-tag"><span>shopping</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p style="float:right"><img src="/pictures/barber.jpg" alt="" /></p>
+
+
+	<p style="padding-top: 2.5em;">I’ve been meaning to write about my favorite barber shop for ages, but was waiting until I had a good picture of it.  Took one easily yesterday, cuz with the <a href="/doc/articles/2006/02/08/face-it-our-camera-rules">FZ-5</a> everybody can shoot like a V.P.</p>
+
+
+	<p style="clear:right;">Do you…</p>
+
+
+	<ul>
+	<li>Want to spend less than $20 on a hair cut?</li>
+		<li>Want to see the same stylist every cut?</li>
+		<li>Live or work near Houston and Broadway?</li>
+	</ul>
+
+
+	<p>Ok, you two New Yorkers, <em>this is the barbershop of your dreams!</em></p>
+
+
+	<p>As you can see it’s at <strong>641 Broadway (phone: 212 777-2899)</strong> which is on the block above Houston, West side. It is not normally barricaded by garbage, but we did just have the greatest recorded snowfall in history, folks.</p>
+
+
+	<p><a href="/eat">MrLittlePants</a> and I always see <strong>Elise</strong> who does great work (come on, you’re familiar with my perfect <em>bouffant</em>), but I’ve also had my hair cut by the blond Eastern European woman and she did a fine job, silently.</p>
+
+
+	<p>If you walk in and they aren’t busy, someone will whisk you right into a chair unless you stop them, or if you’re a babbling street person or something. In that case they will probably not whisk you into a chair.</p>
+
+
+	<p>Happy chopping, you nasty long-haired beast!</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about'>About</h3>
+
+<p><em>City Slicking</em> is about urban life, transportation, energy, liberty, and language.</p>
+
+<h3 id='haunts'>Haunts</h3>
+
+<p><a href='http://twitter.com/n8han/'>Twitter</a><br /><a href='http://technically.us/code/'>Coderspiel</a><br /><a href='http://www.streetsblog.org/'>Streetsblog</a><br /><a href='http://gawker.com/people/alexpareene/posts/'>Pareene</a><br /><a href='http://www.copenhagenize.com/'>Copenhagenize</a><br /><a href='http://itre.cis.upenn.edu/~myl/languagelog/'>Language Log</a><br /><a href='http://t4america.org/'>Trans. for America</a></p>
+
+<h3 id='wire_service'>Wire Service</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/city-rss' title='All in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-short-rss' title='Left column, frequent links and notes'>Quickies</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-long-rss' title='Main column, occasional extended posts'>Treatise</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id197d">
+  		
+  		
+  	</div>
+  	<div id="id197e">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id197f" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id197f_hf_0" id="id197f_hf_0" /><input type="hidden" name="wicket:interface" value=":994:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id1980" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id1981" name="add" value="Add a comment" onclick="wicketShow('id1981--ajax-indicator');var wcall=wicketSubmitFormById('id197f', '../../../?wicket:interface=:994:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id1981--ajax-indicator');}.bind(this),function() { ;wicketHide('id1981--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id197f')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id1981--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

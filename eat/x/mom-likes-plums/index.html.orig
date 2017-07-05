@@ -1,0 +1,208 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Mom likes plums</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="idaa" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Mom likes plums" width="262" class="title" src="../../../resources/net.databinder.components.RenderedLabel/7571b2f7"/><span class="title">Mom likes plums</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on October 7, 2008</span></span>
+			<span id="idab" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/dessert/#selected-tag"><span>dessert</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Is there any fruit more elegant than the plum? Eaten out of hand, a<br />
+firm, ripe plum provides an exquisite contrast between the sweet,<br />
+juicy flesh and the tart, tangy skin. But at this time of year, when<br />
+one can find <a href="http://www.thekitchn.com/thekitchn/seasonal/italian-prune-plums-004560">Italian prune<br />
+plums</a><br />
+in abundance, it is a sin not<br />
+to cook with them as often as possible. Plums lend a beautiful color<br />
+and a certain sophistication to chutneys, jams, fruit butters,<br />
+pierogie fillings, cakes, tarts, and coffee cakes.</p>
+<p>If you drink alcohol you can find plum wine and the intense plum<br />
+liqueur, <a href="http://en.wikipedia.org/wiki/Slivovitz">slivovits</a>. The marketing<br />
+genius who renamed prunes<br />
+&#8220;dried plums&#8221; as a way of enhancing their appeal was truly inspired.<br />
+If he had been around in the 50s I&#8217;m sure my sister, brother, and I<br />
+wouldn&#8217;t have cried at the breakfast table on those grim mornings that<br />
+our mother forced us to eat stewed prunes instead of orange juice<br />
+( Us: &#8220;But Mommy, we&#8217;re thirsty!&#8221; Mom: &#8220;The prunes are your juice; eat<br />
+up!&#8221;), because let&#8217;s face it, &#8220;dried plums&#8221; sounds much more<br />
+appetizing than &#8220;prunes&#8221;!</p>
+<p>When Jon and Leland were toddlers we lived on a street that had a<br />
+small plum tree whose owners held it in such disregard that the fruit<br />
+just fell on the ground and rotted. I felt like<br />
+<a href="http://en.wikipedia.org/wiki/Rapunzel">Rapunzel&#8217;s</a><br />
+mother with her rampion craving as I looked at that tree from across<br />
+the street, salivating. I don&#8217;t know why I never plucked up my courage<br />
+enough to knock on their door and ask for permission to gather the<br />
+plums, since they weren&#8217;t using them, but I restricted myself to<br />
+grabbing a few while out with the boys in their stroller.</p>
+<p>Last week our local <a href="http://www.wholefoodsmarket.com/">Whole Foods</a> had a<br />
+heap of Italian plums,<br />
+from a local farm, at a great price. I bought several pounds of them<br />
+and made <a href="http://technically.us/eat/x/mom-makes-an-apple-tart/">Maman&#8217;s Apple<br />
+Tart</a>. I tinkered<br />
+with the crust<br />
+proportions a bit because I wanted to make a 10-inch tart, and used<br />
+about 3 pounds of firm plums, the biggest ones I could find. Look how<br />
+beautiful it is!</p>
+<p><img src="http://technically.us/resources/com.typeturner.Typeturner/image?name=plumcake" title="plumcake" alt="plumcake" /></p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="idac">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-5805"><p>Funny, I can&#8217;t stand to eat plums, but I adore prunes and eat them every day. Something about the skin of plums makes my blood run cold. Your tart is beautiful though, and maybe the cooking takes away the texture element that bothers me. I&#8217;ll try it!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on October 7, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5808"><p>Thanks so much for posting!! Hooray for <span class="caps">EAT</span>.</p>
+<p>I love prune plums- we have a wonderful family recipe for Plum Torte that uses these plums. Delicious!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Emily</span></span>
+  				<span>on October 8, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5809"><p>I&#8217;m so excited to see a post from you, and your tart is a total work of art. It&#8217;s beautiful.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://kitchenography.typepad.com"><span class="alias">Julie</span></a>
+  				<span>on October 8, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5810"><p>What a beautiful dish!  It turned out wonderfully &#8212; very inspiring!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://daintycooking.blogspot.com"><span class="alias">Susan</span></a>
+  				<span>on October 8, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5811"><p>Your tart is beautiful!  So elegant!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://sweettarte.blogspot.com"><span class="alias">Rachel</span></a>
+  				<span>on October 8, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5813"><p>Well, Leland, I did say that plums were an adult taste!</p>
+<p>Thanks for your comments, Julie, Emily, Susan, and Rachel! It has been a long break between posts; I&#8217;m sure you&#8217;ve guessed that I&#8217;m not doing much cooking these days. Emily, I&#8217;d love that torte recipe at some point. Julie and Susan, I haven&#8217;t forgotten about you and your lovely blogs, and Rachel, your website looks very intriguing; it&#8217;s the first time I&#8217;ve seen it but won&#8217;t be the last! We need more home cooking!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca (Mom)</span></span>
+  				<span>on October 9, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5816"><p>What a lovely looking tart.  My girls <span class="caps">LOVE</span> Italian prune plums (thanks to my mom) and we were just looking at them today in the Strip, but didn&#8217;t buy them&#8230;.Wish I had come across your recipe yesterday, but now it&#8217;s a good excuse to go back (plus I have to get ginger from Penzey&#8217;s).</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leonora</span></span>
+  				<span>on October 11, 2008</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="idad">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="idae" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="idae_hf_0" id="idae_hf_0" /><input type="hidden" name="wicket:interface" value=":50:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="idaf" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="idb0" name="add" value="Add a comment" onclick="wicketShow('idb0--ajax-indicator');var wcall=wicketSubmitFormById('idae', '../../../?wicket:interface=:50:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('idb0--ajax-indicator');}.bind(this),function() { ;wicketHide('idb0--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('idae')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="idb0--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

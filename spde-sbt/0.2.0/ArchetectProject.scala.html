@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+			<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>ArchetectProject.scala</title>
+        <script type="text/javascript" src="jquery-all.js"></script>
+        <script type="text/javascript" src="linked.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css" title="Style">
+    </head>
+    <body>
+        <pre>
+<span class="comment">/// COPY of net.databinder archtect-plugin 0.1.2. Will remove when plugins can depend on each other.</span>
+<span class="keyword">package</span> archetect
+
+<span class="keyword">import</span> sbt._
+
+<span class="keyword">trait</span> <a title="trait TemplateTasks extends java.lang.Object with sbt.FileTasks with ScalaObject" id="6212">TemplateTasks</a> <span class="keyword">extends</span> <a title="sbt.FileTasks" id="11056">FileTasks</a> {
+  <span class="keyword">import</span> io.Source
+  <span class="keyword">private</span> <span class="keyword">val</span> <a title="scala.util.matching.Regex" id="13198">tmpl</a> = <a title="implicit scala.Predef.stringWrapper : (String)scala.runtime.RichString" id="783" class="string">&quot;&quot;&quot;(?s)(.*)\{\{(.*)\}\}(.*)&quot;&quot;&quot;</a>.<a title="=&gt; scala.util.matching.Regex" id="14311">r</a>
+  <span class="keyword">private</span> <span class="keyword">def</span> <a title="(String)String" id="13200">template</a>(<a title="String" id="20205">str</a>: <span title="String">String</span>): <span title="String">String</span> = <a href="#20205" title="String">str</a> <span title="String" class="keyword">match</span> {
+    <span title="String" class="keyword">case</span> <a href="#13198" title="(Any)Option[List[String]]" id="19212">tmpl</a>(<a title="String" id="21235">before</a>, <a title="String" id="21236">key</a>, <a title="String" id="21237">after</a>) =&gt; <a href="#13200" title="(String)String">template</a>(<a href="#21235" title="String">before</a> <span title="(Any)java.lang.String">+</span> <a href="#13201" title="(String)Any" id="20037">templateMappings</a>(<a href="#21236" title="String">key</a>) <span title="(Any)java.lang.String">+</span> <a href="#21237" title="String">after</a>)
+    <span title="String" class="keyword">case</span> _ =&gt; <a href="#20205" title="String">str</a>
+  }
+  <span class="keyword">def</span> <a title="=&gt; Map[String,Any]" id="13201">templateMappings</a>: <a title="Map[String,Any]" id="17579">Map</a>[String, Any]
+  
+  <span class="keyword">def</span> <a title="(sbt.Path,sbt.Path)TemplateTasks.this.Task" id="13202">templateTask</a>(<a title="sbt.Path" id="20207">in</a>: <span title="sbt.Path">Path</span>, <a title="sbt.Path" id="20208">out</a>: <span title="sbt.Path">Path</span>) = <a href="#6212" title="(sbt.ProductsSources)(=&gt; Option[String])TemplateTasks.this.Task" id="12777">fileTask</a>(<a href="#6212" title="implicit sbt.FileTasks.wrapProduct : (=&gt; sbt.Path)sbt.ProductsWrapper" id="12773">out</a> <a title="(sbt.PathFinder)sbt.ProductsSources" id="15045">from</a> <a href="#20207" title="sbt.Path">in</a>) {
+    <a href="#13204" title="(scala.io.Source,sbt.Path)Option[String]">writeTemplate</a>(<span title="object scala.io.Source">Source</span>.<a title="(java.io.File)scala.io.Source" id="17089">fromFile</a>(<a href="#20207" title="sbt.Path">in</a> <span title="=&gt; java.io.File">asFile</span>), <a href="#20208" title="sbt.Path">out</a>)
+  }
+  <span class="keyword">def</span> <a title="(String,sbt.Path)TemplateTasks.this.Task" id="13203">templateTask</a>(<a title="String" id="20173">in</a>: <span title="String">String</span>, <a title="sbt.Path" id="20174">out</a>: <span title="sbt.Path">Path</span>) = <a href="#6212" title="(=&gt; Option[String])TemplateTasks.this.Task">task</a> {
+    <a href="#13204" title="(scala.io.Source,sbt.Path)Option[String]">writeTemplate</a>(<span title="object scala.io.Source">Source</span>.<a title="(String)scala.io.Source" id="17084">fromString</a>(<a href="#20173" title="String">in</a>), <a href="#20174" title="sbt.Path">out</a>)
+  }
+  <span class="keyword">private</span> <span class="keyword">def</span> <a title="(scala.io.Source,sbt.Path)Option[String]" id="13204">writeTemplate</a>(<a title="scala.io.Source" id="20177">source</a>: <a title="scala.io.Source" id="17012">Source</a>, <a title="sbt.Path" id="20178">out</a>: <span title="sbt.Path">Path</span>) = 
+    <a title="object sbt.FileUtilities" id="9005">FileUtilities</a>.<a title="(java.io.File,sbt.Logger)((java.io.Writer) =&gt; Option[String])Option[String]" id="16356">write</a>(<a href="#20178" title="sbt.Path">out</a>.<span title="=&gt; java.io.File">asFile</span>, <a href="#6212" title="=&gt; sbt.Logger" id="12457">log</a>) { <a title="java.io.Writer" id="20183">writer</a> =&gt;
+      <span class="comment">// not using line-by-line because of 2.7 / 2.8 source incompatibility</span>
+      <a href="#20183" title="java.io.Writer">writer</a> <a title="(java.lang.String)Unit" id="20190">write</a> <a href="#13200" title="(String)String">template</a>(<a href="#20177" title="scala.io.Source">source</a>.<a title="=&gt; String" id="17278">mkString</a>)
+      <span title="object None">None</span>
+    }
+}
+
+<span class="keyword">trait</span> <a title="trait ArchetectProject extends java.lang.Object with sbt.Project with archetect.TemplateTasks with ScalaObject" id="6213">ArchetectProject</a> <span class="keyword">extends</span> <a title="sbt.Project" id="7633">Project</a> <span class="keyword">with</span> <a href="#6212" title="archetect.TemplateTasks">TemplateTasks</a> {
+  <span class="keyword">import</span> Process._
+  <span class="keyword">val</span> <a title="sbt.Path" id="21244">arcSource</a> = <a href="#6213" title="implicit sbt.Project.path : (String)sbt.Path" id="12489" class="string">&quot;src&quot;</a> <span title="(String)sbt.Path">/</span> <span title="java.lang.String(&quot;arc&quot;)" class="string">&quot;arc&quot;</span>
+  <span class="keyword">val</span> <a title="sbt.Path" id="21246">arcOutput</a> = <a href="#6213" title="=&gt; sbt.Path" id="12504">outputPath</a> <span title="(String)sbt.Path">/</span> <span title="java.lang.String(&quot;arc&quot;)" class="string">&quot;arc&quot;</span>
+  <span class="keyword">override</span> <span class="keyword">def</span> <a title="=&gt; sbt.PathFinder" id="21248">watchPaths</a> = <span class="keyword">super</span>.<a title="=&gt; sbt.PathFinder" id="12526">watchPaths</a> <a title="(sbt.PathFinder)sbt.PathFinder" id="13899">+++</a> (<a href="#21244" title="=&gt; sbt.Path">arcSource</a> <a title="(sbt.FileFilter)sbt.PathFinder" id="13901">**</a> <a href="#6213" title="implicit sbt.Project.filter : (String)sbt.NameFilter" class="string">&quot;*&quot;</a>)
+  
+  <span class="keyword">lazy</span> <span class="keyword">val</span> <a title="ArchetectProject.this.CompoundTask" id="21250">archetect</a> = <a href="#6213" title="(=&gt; sbt.Project#Task)ArchetectProject.this.CompoundTask" id="12630">dynamic</a>(<a href="#21251" title="=&gt; ArchetectProject.this.Task">archetectTasks</a>)
+
+  <span class="keyword">def</span> <a title="=&gt; ArchetectProject.this.Task" id="21251">archetectTasks</a> = <a href="#6213" title="(=&gt; Option[String])ArchetectProject.this.Task">task</a> { <span title="object None">None</span> } <a title="(String)ArchetectProject.this.Task" id="12591">named</a>(<span title="java.lang.String(&quot;archetect-complete&quot;)" class="string">&quot;archetect-complete&quot;</span>) <a title="(ArchetectProject.this.ManagedTask*)ArchetectProject.this.Task" id="12593">dependsOn</a> (
+    <a href="#6213" title="(sbt.PathFinder,sbt.FileFilter)sbt.PathFinder" id="12530">descendents</a>(<a href="#21244" title="=&gt; sbt.Path">arcSource</a> <a title="=&gt; sbt.Path" id="13856">##</a>, <a href="#6213" title="implicit sbt.Project.filter : (String)sbt.NameFilter" class="string">&quot;*&quot;</a>).<a title="=&gt; scala.collection.Set[sbt.Path]" id="13907">get</a>.<a title="((sbt.Path) =&gt; Boolean)Iterable[sbt.Path]" id="13698">filter</a>(<a title="=&gt; Boolean" id="2691">!</a><a href="#21271" title="sbt.Path">_</a>.<a title="=&gt; Boolean" id="13860">isDirectory</a>).<a title="((sbt.Path) =&gt; ArchetectProject.this.Task)Iterable[ArchetectProject.this.Task]" id="13694">map</a> { <a title="sbt.Path" id="21274">in</a> =&gt;
+      <span class="keyword">val</span> <a title="sbt.Path" id="21275">out</a> = <a title="object sbt.Path" id="10136">Path</a>.<a title="(sbt.Path,String)sbt.Path" id="13888">fromString</a>(<a href="#21246" title="=&gt; sbt.Path">arcOutput</a>, <a href="#21274" title="sbt.Path">in</a>.<a title="=&gt; String" id="13866">relativePath</a>)
+      <a href="#13202" title="(sbt.Path,sbt.Path)ArchetectProject.this.Task">templateTask</a>(<a href="#21275" title="sbt.Path">out</a>, <a href="#21274" title="sbt.Path">in</a>)
+    }.<a title="=&gt; Seq[ArchetectProject.this.Task]" id="13728">toSeq</a>: _*
+  )
+}
+        </pre>
+    </body>
+</html>

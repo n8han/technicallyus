@@ -1,0 +1,162 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Dried cèpes, and how I learned to like mushrooms</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../eat">
+			
+			<img alt="Eat" src="../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../eat">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id1593" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Dried cèpes, and how I learned to like mushrooms" width="778" class="title" src="../../resources/net.databinder.components.RenderedLabel/2f4bbeb2"/><span class="title">Dried cèpes, and how I learned to like mushrooms</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on January 13, 2006</span></span>
+			<span id="id1594" class="tags">
+					{&nbsp;<span><a href="../../eat/tag/food%20products/#selected-tag"><span>food products</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>I&#8217;ve recently gotten acquainted with the joy and utility of dried mushrooms, <a href="http://en.wikipedia.org/wiki/Porcini">cèpes</a> in particular. It&#8217;s funny because I hated mushrooms as a child. It wasn&#8217;t necessarily the flavor, but I could never get past the texture enough to actually consider the flavor. Mushroom flesh reminded me too much of human flesh, which I also don&#8217;t eat. Mushrooms were one of my first serious food phobias.</p>
+
+
+	<p>When I lived with Uncle Ted, we cooked with portabello mushroom caps relatively often. I wasn&#8217;t crazy about it, but I wasn&#8217;t bratty enough to complain, and I knew it was a step in my journey of learning to like mushrooms. Portabellos are particulary difficult for non-mushroom lovers because their flavor is so intense and musty.</p>
+
+
+	<p>Then I moved downtown and began to order <a href="http://www.freshdirect.com/product.jsp?productId=msh_shit&#38;catId=msh_loose">shiitake mushrooms</a> from FreshDirect because they were a good price and because FreshDirect told me that they could be cooked into oblivion. I soon began to enjoy them sincerely, even without a long cooking time, and they became a staple.</p>
+
+
+	<p>Last summer, my friend Chuck and I made an excellent pasta involving dried cèpes and fresh portobello. The flavor from the dried mushrooms is hardcore mushroom. It would have been enough to make me vomit a few years ago, in fact even thinking of it now puts me a little on edge, but I couldn&#8217;t get enough of it, and now I&#8217;ve started cooking with these little fungi all the time. Last night I reheated my panko-crusted macaroni and cheese (picture forthcoming, mom) in a skillet to which I added green peas and reconstituted dried cèpes and their broth. It added a wonderfully woodsy flavor to the macaroni. It would appear that my fear of mushrooms is no more.</p>
+
+
+	<p>FreshDirect has a really good <a href="http://www.freshdirect.com/product.jsp?productId=del_drymush_cep_01&#38;catId=msh_dried&#38;trk=snav">deal</a> on cèpes. Maybe you know of someplace cheaper in the city, but this is much better than the price at Whole Foods.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1595">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-1371"><p>i feel so much better about my uneaten portabello&#8217;s at ted&#8217;s now!!  :)</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">steak</span></span>
+  				<span>on January 13, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1372"><p>Are you a not a mushroom-lover? And hey, have you talked to B?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on January 13, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1373"><p>I understand your ambivalent feelings toward the portobello mushroom completely! For some strange reason I will eat them if they are sliced, but I prefer not to eat them when the caps are left whole. Very strange.</p>
+<p>Great post!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.creampuffsinvenice.ca"><span class="alias">Ivonne</span></a>
+  				<span>on January 13, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1374"><p>Why do we even get so worked up about mushrooms? I think most varieties aren&#8217;t even good for you.</p>
+<p>I think that I, too, would not enjoy a whole mushroom cap. Some crazy vegetarians eat them on hamburger buns, don&#8217;t they?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on January 13, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id1596">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id1597" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id1597_hf_0" id="id1597_hf_0" /><input type="hidden" name="wicket:interface" value=":781:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id1598" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id1599" name="add" value="Add a comment" onclick="wicketShow('id1599--ajax-indicator');var wcall=wicketSubmitFormById('id1597', '../../?wicket:interface=:781:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id1599--ajax-indicator');}.bind(this),function() { ;wicketHide('id1599--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id1597')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id1599--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

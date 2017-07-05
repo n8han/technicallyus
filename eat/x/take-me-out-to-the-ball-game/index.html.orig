@@ -1,0 +1,189 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Take me out to the ball game</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id1114" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Take me out to the ball game" width="457" class="title" src="../../../resources/net.databinder.components.RenderedLabel/c66fff1"/><span class="title">Take me out to the ball game</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on April 30, 2006</span></span>
+			<span id="id1115" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/restaurants:%20pittsburgh/#selected-tag"><span>restaurants: pittsburgh</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Today was a beautiful day for a baseball game and <a href="http://www.billyprice.com">Poppy</a> was invited to be a guest on <span class="caps">KDKA</span>&#8217;s <em>Pirates Sunday</em>, hosted by Rob Pratte.  We both got passes to go to the broadcast booth at the ballpark, and once the show was over we had plenty of time to eat before the game started. I was starving because I hadn&#8217;t eaten breakfast before we left home this morning.</p>
+
+
+	<p>The kolbassi with grilled peppers and onions always smell appetizing and they taste good, but I&#8217;ve learned from experience that they give me indigestion and seem to linger in my system for at least 24 hours, so we headed for Manny Sanguillen&#8217;s barbeque stand, located along the river. I had thought that this was the only concession that was independent of <a href="http://www.aramark.com/Home.aspx?PostingID=21&#38;ChannelID=2">Aramark</a>, the corporate caterers who manage the rest of the food concessions at <span class="caps">PNC</span> Park, but upon further research it appears that Mr. Sanguillen runs his barbecue in partnership with Aramark somehow. At least it is unique to Pittsburgh, though, unlike most of the rest of the food available at the concession stands. By the way, for you young people, Manny Sanguillen was a catcher for the Pirates during the 1970s, known for swinging at almost any pitch, and thus, while hitting his fair share of runs, drew almost no walks. He had his brief moment in the sun when he pinch-hit a single in the 9th inning of the second game of the 1979 World Series, scoring Ed Ott and winning the game to break the 2-2 tie. The Pirates, of course, went on the win the Series that year. Manny can often be found at the concession stand, sitting in a big leather chair, greeting fans and signing autographs.</p>
+
+
+	<p style="float:right"><img src="/eat/files/bbqpltr.JPG" alt="" /></p>
+
+
+	<p>Manny&#8217;s offers a limited menu of beef brisket, pulled pork, and grilled hamburgers; you can get all three as sandwiches by themselves or as platters with baked beans and cole slaw. I think the beans are pretty tasty, with barbecue flavorings and chunks of bacon in them. And I like to get the cole slaw on the platter and add it to the bun as I&#8217;m eating my sandwich. My only dilemma comes when I try to choose whether to get the beef or pork; they&#8217;re both really good. Today I got the brisket. Here&#8217;s me trying to keep the wind from blowing my hair into my mouth.</p>
+
+
+	<p style="float:left"><img src="/eat/files/momsand.JPG" alt="" /></p>
+
+
+	<p>If only the game had been as good as the food. We watched Oliver Perez pitch 3 1/2 abysmal innings, lasting for what seemed like 3 hours. I said to Poppy, &#8220;What&#8217;s the opposite of a nail-biter?&#8221; His reply, &#8220;A snoozer.&#8221; Which is what  we had, a snoozer and a loser, even when they took Perez out and put Vogelsong in, although he didn&#8217;t do too badly and the game sped up at that point. We had won the last 2 against the Phillies and some foolish and optimistic fans had brought brooms with them to the ballpark, indicating their hopes for a sweep. I guess at some point they just quietly put their brooms down and left them there&#8230;</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1116">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-1978"><p>You look glamorous even when you&#8217;re eating a brisket sandwich at the baseball stadium during a game that Pittsburgh lost.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on April 30, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1979"><p>Wow! Now that&#8217;s what I call great options at the ballpark! I wish we had something like that selection available here in Toronto. It&#8217;s pretty much icky fast food and gross stuff.</p>
+<p>And by the way I agree with Leland, you look great!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.creampuffsinvenice.ca"><span class="alias">Ivonne</span></a>
+  				<span>on April 30, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1980"><p>My husband is from western Pennsylvania and so is a Pirates and Steelers fan which seems to involve lots of disappointment.</p>
+<p>It looks like you made the best of the disappointing circumstances. And Leland is right, you do look glamorous.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://kitchenography.typepad.com"><span class="alias">Julie</span></a>
+  				<span>on April 30, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1981"><p>Sigh. The Pirates.</p>
+<p>But it is a beautiful ballpark, with a stunner of a view.It&#8217;s been a couple of years since I&#8217;ve been to a game at all.  When my daughter was small we had a day game plan and went all the time.</p>
+<p>I love slaw on my barbeque too.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">lindy</span></span>
+  				<span>on April 30, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1982"><p>Julie and Ivonne, you ladies are sweet, but that photo made me realize that I need to chop several inches at least off my hair!</p>
+<p>Lindy, day games are still a lot of fun; you should play hooky from work some afternoon this summer and go&#8212;the Pirates have a lot of them scheduled this year. And with the way they&#8217;re playing, good seats are always available!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on April 30, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1983"><p>Read up on Pirate history before making a statement about Manny&#8217;s brief moment in the sun.  Manny was an outstanding player for the Bucs for several years (3 All Star appearances) and was an important component of their 1971 World Series Championship.  His hit in the 1979 series, although important, was at the end of his stellar career.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Lynn</span></span>
+  				<span>on April 30, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1984"><p>Lynn&#8212;I certainly meant no disrespect to Manny, who as you say was an outstanding player and a fine human being, although I do think All Star teams tend to reflect popularity rather than true talent. In the post I was more focused on the barbecue and in trying to sum up his career in a sentence or two perhaps emphasized the wrong things; sorry to offend a Manny Sanguillen fan!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on April 30, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id1117">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id1118" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id1118_hf_0" id="id1118_hf_0" /><input type="hidden" name="wicket:interface" value=":622:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id1119" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id111a" name="add" value="Add a comment" onclick="wicketShow('id111a--ajax-indicator');var wcall=wicketSubmitFormById('id1118', '../../../?wicket:interface=:622:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id111a--ajax-indicator');}.bind(this),function() { ;wicketHide('id111a--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id1118')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id111a--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

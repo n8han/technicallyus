@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/city-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>City Slicking / Eureka handheld vacuum cleaner</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../city">
+			
+			<img alt="City Slicking" src="../../../resources/org.apache.wicket.Application/city-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../city">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/city-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id196a" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Eureka handheld vacuum cleaner" width="394" class="title" src="../../../resources/net.databinder.components.RenderedLabel/ea536dc9"/><span class="title">Eureka handheld vacuum cleaner</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Doctor Barnett</span>, <span>on October 29, 2006</span></span>
+			<span id="id196b" class="tags">
+					{&nbsp;<span><a href="../../../city/tag/homemaking/#selected-tag"><span>homemaking</span></a><span id="id196c">, </span></span><span><a href="../../../city/tag/cleaning/#selected-tag"><span>cleaning</span></a><span id="id196d">, </span></span><span><a href="../../../city/tag/shopping/#selected-tag"><span>shopping</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p style="float:right"><img src="/pictures/eureka.jpg" alt="" /></p>
+
+
+	<p>It&#8217;s that time again people. Time for me to come out of my bitterly cold, consumerism-hating cave to admit that there is a product worth buying out there.</p>
+
+
+	<p>An upright vacuum in a typical Manhattan apartment is about as practical as a Kitchen-Aid mixer. Most buildings have hardwood floors that, having been stomped upon without much fanfare for seventy years, became &#8220;beautiful&#8221; in the nineties.</p>
+
+
+	<p>Not having any carpeting to worry about, or gaping utility closets to fill, I&#8217;ve championed the lightweight and reusable <strong>broom &#38; dustpan</strong> as the ideal quotidian floor cleaner (or, hell, <em>hebdomadaire</em>). But lately I&#8217;ve noticed dust clogging our computers, our lamps, our closets, our toothbrushes. This city may eschew carpeting, but it&#8217;s got enough dust to put 1930s Oklahoma to shame.</p>
+
+
+	<p>I burned out on DustBusters in my teenage years. (Seriously, I was into them <span class="caps">HARD CORE</span> for a few months.)  They aren&#8217;t very powerful in the first place, and only get worse from there. It&#8217;s better to be plugged in for indoor vacuuming.</p>
+
+
+	<p><a href="http://www.amazon.com/exec/obidos/ASIN/B0006HUYGM/eat0e-20">The Eureka 71A</a> is the perfect all-purpose vacuum for small apartments without carpeting. It&#8217;s branded a &#8220;stair and car vac,&#8221; two things I mercifully don&#8217;t have to clean, but it also rules at cleaning upholstered furniture, under radiators, and along the bottom corner of the wall. (Can you <em>believe</em> how much greasy dust is just <em>stuck</em> there? Gross!)</p>
+
+
+	<p>There&#8217;s nothing revolutionary about this appliance that I know of, it&#8217;s just exactly the right size and design for the job. Very long cord. The hose is easy to detach and use. Good suction! I&#8217;m just a loud, fast, domestic goddess when I&#8217;m working that ho. It&#8217;s the perfect cleaning appliance for about five hundred thousand non-rich people on this island.</p>
+
+
+	<p>That&#8217;s as close as you&#8217;ll get to a product endorsement on these pages.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about'>About</h3>
+
+<p><em>City Slicking</em> is about urban life, transportation, energy, liberty, and language.</p>
+
+<h3 id='haunts'>Haunts</h3>
+
+<p><a href='http://twitter.com/n8han/'>Twitter</a><br /><a href='http://technically.us/code/'>Coderspiel</a><br /><a href='http://www.streetsblog.org/'>Streetsblog</a><br /><a href='http://gawker.com/people/alexpareene/posts/'>Pareene</a><br /><a href='http://www.copenhagenize.com/'>Copenhagenize</a><br /><a href='http://itre.cis.upenn.edu/~myl/languagelog/'>Language Log</a><br /><a href='http://t4america.org/'>Trans. for America</a></p>
+
+<h3 id='wire_service'>Wire Service</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/city-rss' title='All in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-short-rss' title='Left column, frequent links and notes'>Quickies</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-long-rss' title='Main column, occasional extended posts'>Treatise</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id196e">
+  		
+  		
+  	</div>
+  	<div id="id196f">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id1970" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id1970_hf_0" id="id1970_hf_0" /><input type="hidden" name="wicket:interface" value=":992:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id1971" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id1972" name="add" value="Add a comment" onclick="wicketShow('id1972--ajax-indicator');var wcall=wicketSubmitFormById('id1970', '../../../?wicket:interface=:992:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id1972--ajax-indicator');}.bind(this),function() { ;wicketHide('id1972--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id1970')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id1972--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

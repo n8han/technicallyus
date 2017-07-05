@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/city-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>City Slicking / The ‘alarming’ driver series continues</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../city">
+			
+			<img alt="City Slicking" src="../../../resources/org.apache.wicket.Application/city-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../city">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/city-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id1b60" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="The ‘alarming’ driver series continues" width="436" class="title" src="../../../resources/net.databinder.components.RenderedLabel/d28c3cf3"/><span class="title">The ‘alarming’ driver series continues</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Doctor Barnett</span>, <span>on December 12, 2006</span></span>
+			<span id="id1b61" class="tags">
+					{&nbsp;<span><a href="../../../city/tag/drivers/#selected-tag"><span>drivers</span></a><span id="id1b62">, </span></span><span><a href="../../../city/tag/parking/#selected-tag"><span>parking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><h4>Dear 11<sup>th</sup> Street Parker,</h4>
+
+
+	<p style="float:right"><img src="/pictures/focus.jpg" alt="" /></p>
+
+
+	<p class="break">For at least two nights this week the alarm of your blue &#8220;racing&#8221; Ford Focus has disturbed the sleeping residents of this block. It is sometimes tripped by a passing truck and other times without any apparent provocation.</p>
+
+
+	<p>If you think that this alarm is making your car safe, you&#8217;re wrong. It is a nuisance only. As with all car alarms in Manhattan, this one provokes those that hear it simply to roll over, cover their ears, and curse the womb that bore you. If we did chance to see some hood molesting your blue &#8220;racing&#8221; Ford Focus that has so impeded our nights and mornings, we&#8217;d be more likely to give him a thumbs up than intervene.</p>
+
+
+	<p>In sum, we ask that you get your car the hell off our block or at least disable its malfunctioning alarm. The situation can not continue.</p>
+
+
+	<h4>Yours in annoyance,</h4>
+
+
+	<h4>Doctor Barnett</h4>
+
+
+	<h3>Late morning update</h3>
+
+
+	<p>While I was passive-aggressively printing the above note to leave under the car&#8217;s wiper, MrLittlePants (who is out of my league) was on the street explaining to the guy (who was present, as parking is illegal until 9:30) that his alarm was ruining our lives. This Marylander said he wasn&#8217;t aware of the disturbance he had caused.</p>
+
+
+	<p>He must have left after that, because I later noticed a little note from the <acronym title="">NYPD</acronym> on his windshield. See, they can get you until 9:30, even if the street cleaner has already passed. There really is <em>no free parking</em> in New York, just an incredibly inefficient and unnecessarily deceptive means of collection.</p>
+
+
+	<p><img src="/pictures/focus-ticket.jpg" alt="" /></p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about'>About</h3>
+
+<p><em>City Slicking</em> is about urban life, transportation, energy, liberty, and language.</p>
+
+<h3 id='haunts'>Haunts</h3>
+
+<p><a href='http://twitter.com/n8han/'>Twitter</a><br /><a href='http://technically.us/code/'>Coderspiel</a><br /><a href='http://www.streetsblog.org/'>Streetsblog</a><br /><a href='http://gawker.com/people/alexpareene/posts/'>Pareene</a><br /><a href='http://www.copenhagenize.com/'>Copenhagenize</a><br /><a href='http://itre.cis.upenn.edu/~myl/languagelog/'>Language Log</a><br /><a href='http://t4america.org/'>Trans. for America</a></p>
+
+<h3 id='wire_service'>Wire Service</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/city-rss' title='All in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-short-rss' title='Left column, frequent links and notes'>Quickies</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-long-rss' title='Main column, occasional extended posts'>Treatise</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1b63">
+  		
+  		
+  	</div>
+  	<div id="id1b64">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id1b65" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id1b65_hf_0" id="id1b65_hf_0" /><input type="hidden" name="wicket:interface" value=":1051:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id1b66" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id1b67" name="add" value="Add a comment" onclick="wicketShow('id1b67--ajax-indicator');var wcall=wicketSubmitFormById('id1b65', '../../../?wicket:interface=:1051:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id1b67--ajax-indicator');}.bind(this),function() { ;wicketHide('id1b67--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id1b65')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id1b67--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

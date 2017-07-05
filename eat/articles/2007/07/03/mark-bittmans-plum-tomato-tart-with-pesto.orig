@@ -1,0 +1,186 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Mark Bittman&#039;s plum tomato tart with pesto</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../eat">
+			
+			<img alt="Eat" src="../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../eat">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id21a5" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Mark Bittman's plum tomato tart with pesto" width="674" class="title" src="../../resources/net.databinder.components.RenderedLabel/4e795b83"/><span class="title">Mark Bittman&#039;s plum tomato tart with pesto</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on July 3, 2007</span></span>
+			<span id="id21a6" class="tags">
+					{&nbsp;<span><a href="../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>My friend Kim had a wonderful New Year&#8217;s Eve party last year with a bounty of excellent food. The dish I couldn&#8217;t stop eating was a tangy tomato tart with pesto and parmesan cheese on it; I was surprised to learn that it was a <a href="http://www.amazon.com/exec/obidos/ASIN/0471789186/eat0e-20">Mark Bittman</a> recipe. I&#8217;ve been meaning to make it since then, but I never found the time to properly dry out the tomatoes in the oven. This past Sunday, I finally did (as they were drying, I had enough time to go out to brunch, buy an iPhone, and see <em>Ratatouille</em>!). I hope I&#8217;ll take the time to do it more often—oven-dried tomatoes are like candy, just as Bittman describes them.</p>
+
+
+	<p><img src="/pictures/tomatotart.jpg" alt="" /></p>
+
+
+	<p><strong>Plum tomato tart with pesto</strong></p>
+
+
+	<p>Mom: you should really make this. It&#8217;s right up your alley.</p>
+
+
+	<p>12 plum tomatoes (I only used about 7 tomatoes, but they were big) <br> 6 garlic cloves <br> 1 pie crust <br> 1/2 cup pesto <br> 1 cup grated parmesan</p>
+
+
+	<p>I used tomatoes on the vine, since they were the cheapest thing going at the Manhattan Fruit Exchange. To peel them: remove the core, cut a shallow &#8220;X&#8221; on the other side, and drop them in boiling water for about 30 seconds. The peel should come right off. Slice them in half through the equator and squeeze out the juice and seeds. Brush a baking sheet with olive oil, and put the tomatoes cut-side down on the sheet. Sprinkle them with salt and a bit more oil, include the garlic, and roast at 200ºF for four to six hours, until they are shriveled.</p>
+
+
+	<p>In the meantime, make a pie crust (I used my standard formula: 1.5 cups flour, 1 teaspoon salt, 7 tablespoons butter, 4 tablespoons water) and refrigerate it. Make a batch of pesto.</p>
+
+
+	<p>Roll out the pie crust to about 1/8 inch and lay it on a parchment-lined baking sheet. Prick it all over with a fork, and bake at 400ºF for close to 20 minutes, until it&#8217;s starting to brown. Remove from the oven and set on a rack for a few minutes. Spread the pesto on the crust and top it with the tomatoes. Sprinkle with sea salt and pepper. Add the garlic (he suggests spreading it on the tomatoes; I blended mine in with the pesto), sprinkle on the cheese, and bake for 15 to 20 minutes, until the cheese is melted and the bottom of the crust is well browned.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id21a7">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3955"><p>It does sound delicious but I would definitely need a cool day if the oven needs to be on for 4-6 hours!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca (Mommy)</span></span>
+  				<span>on July 3, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3956"><p>My, you were productive Sunday. That recipe does sound fabulous, but Rebecca&#8217;s on the heat factor. Maybe I need a solar oven. And here&#8217;s another one of those recipes where the skin is suppose to slide off tomatoes. I&#8217;ll admit to having had better luck with Romas than with other fruits and vegs, but I now avoid recipes where the first step is to get rid of tomatoes&#8217; skin and seeds&#8212;or say to heck with it and leave the skins and seeds.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://foodperson.com"><span class="alias">Janet</span></a>
+  				<span>on July 3, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3957"><p>ugh, don&#8217;t get me started on that iphone.</p>
+<p>this does look incredible.  i wonder how it would do with puff pastry.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://eatheregetgas.bravejournal.com"><span class="alias">candy</span></a>
+  				<span>on July 3, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3958"><p>But the oven is on so low that you barely notice. Although it has been San Francisco weather here.</p>
+<p>As for peeling tomatoes, if you&#8217;re having trouble getting the skins off, you might not be leaving them in the boiling water for long enough. Give them a solid 30 seconds next time; they should really slip off as promised!</p>
+<p>This would be delicious with puff pastry!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on July 3, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3959"><p>boy, does that sound good!  and my tomatoes are just coming in.  and I have some pesto in the refrig that I made and froze last summer.  I know what&#8217;s for dinner tonite!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">grandma</span></span>
+  				<span>on July 3, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3960"><p>Well, we had this divine tart yesterday!  What an incredible recipe.  Thanks Baby.and really quite simple to make.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">grandma</span></span>
+  				<span>on July 3, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id21a8">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id21a9" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id21a9_hf_0" id="id21a9_hf_0" /><input type="hidden" name="wicket:interface" value=":1273:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id21aa" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id21ab" name="add" value="Add a comment" onclick="wicketShow('id21ab--ajax-indicator');var wcall=wicketSubmitFormById('id21a9', '../../?wicket:interface=:1273:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id21ab--ajax-indicator');}.bind(this),function() { ;wicketHide('id21ab--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id21a9')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id21ab--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

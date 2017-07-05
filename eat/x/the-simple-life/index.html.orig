@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / The simple life</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="idc30" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="The simple life" width="223" class="title" src="../../../resources/net.databinder.components.RenderedLabel/f1188fea"/><span class="title">The simple life</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on May 1, 2006</span></span>
+			<span id="idc31" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>I&#8217;m actually embarrassed to make tonight&#8217;s post, considering that the dish I cooked was so easy and unsophisticated&#8212;basically a kid&#8217;s first apartment dinner, if not trailer trash food. But when I placed the casserole on the table it was greeted with such heartfelt pleasure and expressions of satisfaction on the part of my family members, and their joy did not diminish, but increased, upon tasting and eating my creation, that I thought I should share it with my readers.</p>
+
+
+	<p>Take it as a given that in my heart I aspire to the kind of cooking that my fellow bloggers, <a href="http://wednesdaychef.typepad.com/">The Wednesday Chef</a>, <a href="http://www.lindystoast.com/">Toast</a>, and <a href="http://creampuffsinvenice.typepad.com/">Creampuffs in Venice</a> are posting about, and I do some of it, but the exigencies of family life dictate my choices more often than not.</p>
+
+
+	<p>I remember once, years ago, I had spent hours slaving over some potage or other, and put it on the table to little or no acclaim. It contained romaine lettuce as one of its chief ingredients, I think. Anyway, I was complaining to a friend that my cooking wasn&#8217;t appreciated, and he said, &#8220;Who are you cooking for?&#8221; I&#8217;m not sure I was capable of enough honesty at the time to answer his question properly, but now I  know who I&#8217;m cooking for.</p>
+
+
+	<p style="float:right"><img src="/eat/files/mazetti.JPG" alt="" /></p>
+
+
+	<p>But back to tonight&#8217;s simple little dinner. I stumbled across the recipe on the website <a href="http://elise.com/recipes/index.php">Simply Recipes</a> and it seems to have different names: <strong>Hamburger and Macaroni</strong>,  <strong>Johnny Marzetti</strong>, and just <strong>goulash</strong>. Apparently the Johnny Marzetti name comes from the restaurant in Ohio where the dish was allegedly first created. The <a href="http://www.elise.com/recipes/archives/000123hamburger_and_macaroni.php">recipe</a> on the website called for celery seeds (what?), which I omitted, and Worchestershire sauce, which I considered leaving out, but then thought it would give it that comforting school cafeteria/summer camp flavor, so I put it in. And I added a chopped green pepper. I also made everything in one big skillet, instead of the three (!) pans called for in the original recipe. And for a truly one-dish meal I threw in a big handful of frozen chopped spinach at the end and heated it through.</p>
+
+
+	<p>But honestly, with a recipe like this in your repertoire and a few staples in your pantry, you realize that there would never be any reason to buy a product like Hamburger Helper, with its ersatz flavors and suspect additives and chemicals, again.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="idc32">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-1986"><p>Mommy, I&#8217;m sorry if you ever made something beautiful and I didn&#8217;t appreciate it. Have you ever watched <a href="http://en.wikipedia.org/wiki/Freaks_and_Geeks"><em>Freaks and Geeks</em></a>? Best show ever. There was an episode in which mom tried to make exotic things like Cornish game hens and whole roasted fish because she was tired of pot roast and casseroles. Needless to say, her husband and son didn&#8217;t appreciate it, and she had an existential crisis. The husband reassured her by saying that he wants her to make simple meals every night because she makes them so well and they&#8217;re so delicious and he because he&#8217;s a simple man. Then they spent the rest of the night doing it. It was a very touching episode.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on May 1, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1987"><p>There <i>is</i> something very appealing about a hearty meal like this and I know my husband would love it.<br />
+In fact, it&#8217;s suddenly looking more appealing to me than the curry I have planned for tonight.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://kitchenography.typepad.com"><span class="alias">Julie</span></a>
+  				<span>on May 1, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1988"><p>This looks plenty good to me. Often, the simplest things are the best. And as you say-why would anyone bother with something like hamburger helper, when they could have <i>this</i>? <span class="caps">BTW</span>, I <i>love</i> celery seed. It is salty in a nice way. My Mum used it a lot in cooking.</p>
+<p>Now that I live alone (widowed, daughter grown), I am a totally self indulgent cook. I do cook for other people regularly, as I have one night a week when I eat with a bunch of 5 friends, and another where I regularly exchange dinners with an old buddy.</p>
+<p>I like to cook for them a lot, probably more than I would if I was still doing family dinners every night, as you are.<br />
+but that was a pleasure, too, just different (and way more demanding.)</p>
+<p>Now-if I&#8217;m not hungry, I can have fruit and cereal, and call it a supper. Oh, and I read at the table.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://lindystoast.com"><span class="alias">lindy</span></a>
+  				<span>on May 1, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1989"><p>Calvin and a friend just got home from school and made a beeline for the fridge, where they proceeded to polish off the remains of last night&#8217;s dinner. I think I said this before about the meat loaf, but you know something&#8217;s good when a teenager eats it in preference to chips and salsa, Rits Bits, or Cheez Its! I guess that recipe&#8217;s a keeper, at least for the next year and a half.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on May 1, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1990"><p>Alright. Now you&#8217;ve gone and made me blush!</p>
+<p>Believe me the food you are preparing here is too delicious! And as I have always been told by the cooks in my family, the simplest food is the best food, especially when prepared for and shared with those you love.</p>
+<p>This is a great dish! And the photo is great &#8230; well done!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.creampuffsinvenice.ca"><span class="alias">Ivonne</span></a>
+  				<span>on May 1, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1991"><p>Mom, never be ashamed or reluctant to make something because it seems too elementary or unsophisticated.  For example, I&#8217;m looking right now at a page I tore out of <span class="caps">USA</span> Weekend magazine containing a recipe for Cheesy Chicken and Rice Bake, using Campbell&#8217;s Cream of Chicken Soup.  I can&#8217;t wait to make this because, I suspect, this is one of the very first recipes I made way back in the mid-70s when I moved to California.  Back then, I thought this was so elegant and fancy.  Sometimes even someone like myself, who has gone all the way through culinary school, wants to get back to basics and just make something incredibly easy and yummy.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Harry</span></span>
+  				<span>on May 1, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1992"><p>Cheesy Chicken and Rice Bake&#8212;sounds good! Probably the only thing that prevents me from going so far as to recreate the green bean and mushroom soup casserole with fried onion rings on top is that I don&#8217;t want to spoil the happy food memory of my childhood. That one was always a feature of my birthday dinners, along with &#8220;barbecued&#8221; spare ribs.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on May 1, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="idc33">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="idc34" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="idc34_hf_0" id="idc34_hf_0" /><input type="hidden" name="wicket:interface" value=":446:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="idc35" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="idc36" name="add" value="Add a comment" onclick="wicketShow('idc36--ajax-indicator');var wcall=wicketSubmitFormById('idc34', '../../../?wicket:interface=:446:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('idc36--ajax-indicator');}.bind(this),function() { ;wicketHide('idc36--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('idc34')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="idc36--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

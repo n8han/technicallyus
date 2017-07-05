@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Dirty Sugar Cookies update</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../eat">
+			
+			<img alt="Eat" src="../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../eat">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id14ae" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Dirty Sugar Cookies update" width="427" class="title" src="../../resources/net.databinder.components.RenderedLabel/6bed723"/><span class="title">Dirty Sugar Cookies update</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on June 7, 2006</span></span>
+			<span id="id14af" class="tags">
+					{&nbsp;<span><a href="../../eat/tag/books/#selected-tag"><span>books</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p style="float:left"><img src="/eat/files/sugar.jpg" alt="" /></p>
+
+
+	<p>Don&#8217;t forget to tune in on June 12 for our first ever podcast! Yes, you heard me, podcast! You young people with all your new technology; Leland has convinced <a href="http://dirtysugarcookies.blogspot.com/">Ayun</a> and me, <a href="http://en.wikipedia.org/wiki/Luddite">Luddites</a> that we are, that a podcast would be a fun and unique way to conduct our interview. If we can get it to work despite the extreme tech-unsaviness on the part of two of the participants, our listeners will get to hear the Hoosier accent of Ms. Halliday vying with the Pittsburgh yinzer intonation that I have picked up in the last 27 years, and Leland&#8217;s deep murmur. Who knows&#8212;the words, &#8220;What hath God wrought?&#8221; might even be uttered!</p>
+
+
+	<p>And like the big sister type I am I&#8217;ll try to conduct a serious interview even if Ayun does keep cracking wise, and we&#8217;ll probably sound something like the reverse of the infamous Ali G./Andy Rooney <a href="http://www.youtube.com/watch?v=UEEKBg_T8Ys">bit</a> on <em>Da Ali G. Show</em>.</p>
+
+
+	<p>My guess is that Leland will be outnumbered and out-shrieked by Ayun&#8217;s and my type-A female personalities and keep a bit shtum, which will be a shame, considering his beautiful bass voice, which most of you have never had the privilege of hearing. He&#8217;s had it since he was born, actually&#8212;whereas most mothers are able to recognize their infants by sight, smell, or in a pinch the labels on the plexiglass bassinets in the newborn hospital nurseries, Leland&#8217;s bellow could wake me from a &#8220;pain pill&#8221;-induced sleep through two doors and down a hallway. Even as a baby he sounded like Paul Robeson singing &#8220;Old Man River&#8221;.</p>
+
+
+	<p>But I digress&#8212;don&#8217;t forget that you can get the <a href="http://www.amazon.com/exec/obidos/ASIN/1580051502/eat0e-20/104-5719862-7347953">book</a> from Amazon if you want to read it in advance of the interview, but if your spouse is anything like mine and gets jealous if you sit in bed laughing while you read, <strong>don&#8217;t</strong> buy it! Even while re-reading in preparation for the interview, I was laughing so hard, Bill kept saying bitterly, &#8220;I see you&#8217;re in Becky&#8217;s World again!&#8221;</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id14b0">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-2175"><p>And here I thought I just sounded gay beyond belief.</p>
+<p>What is it with men getting jealous of laughing at a book? n8 does it too. Are we supposed to <em>not</em> enjoy it on purpose? Read it out loud? What do they want, exactly?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on June 7, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2176"><p>I am looking forward to this interview which I predict is going to be very funny.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://kitchenography.typepad.com"><span class="alias">Julie</span></a>
+  				<span>on June 7, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2177"><p>i&#8217;m so excited to hear this!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">jeannie</span></span>
+  				<span>on June 7, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id14b1">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id14b2" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id14b2_hf_0" id="id14b2_hf_0" /><input type="hidden" name="wicket:interface" value=":751:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id14b3" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id14b4" name="add" value="Add a comment" onclick="wicketShow('id14b4--ajax-indicator');var wcall=wicketSubmitFormById('id14b2', '../../?wicket:interface=:751:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id14b4--ajax-indicator');}.bind(this),function() { ;wicketHide('id14b4--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id14b2')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id14b4--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

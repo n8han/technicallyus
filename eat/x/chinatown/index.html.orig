@@ -1,0 +1,192 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Chinatown</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id74e" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Chinatown" width="167" class="title" src="../../../resources/net.databinder.components.RenderedLabel/71fadcf8"/><span class="title">Chinatown</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on December 13, 2005</span></span>
+			<span id="id74f" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/grocery/#selected-tag"><span>grocery</span></a><span id="id750">, </span></span><span><a href="../../../eat/tag/ethnic%20cooking/#selected-tag"><span>ethnic cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Last night I made my first foray into shady Chinatown looking for fresh fish and cheap vegetables. I knew it was quite a scene down there, but I still managed to feel like a lost Midwesterner when I got a few blocks down Mott Street, between Grand and Hester. Chinatown is crazy. I tried to look up good fish markets online before heading out into the cold, but it&#8217;s useless&#8212;there are about five huge places all right next to each other, flanked by vegetable shops where there are random Chinese men sitting on the floor smoking cigarettes and yelling at each other.</p>
+
+
+	<p>At the first fish place I approached, I encountered an old woman on her knees digging into a giant barrel of live frogs with what appeared to be her bare hands. Apart from the obvious nastiness of a pit of frogs, wasn&#8217;t her hand cold? I moved on to the next place, then the next, then the next, then back to the second. The problem was that nothing was in English and I couldn&#8217;t identify any of the fish by their Chinese names, snatch. I ended up buying a pound of  scallops for $7. The man grabbed a handful and threw it on the scale&#8212;it weighed exactly one pound. From there I went to grab some garlic and ginger (five heads of garlic and big hunk of ginger for the princely sum of one dollar).</p>
+
+
+	<p>I&#8217;ll be damned if I&#8217;m going to miss out on these Chinatown bargains simply because there is a small language issue. Everyone in these markets was having live fish killed and filleted for them for next to nothing. But I&#8217;m going to need some help. n8 made the good point that, most likely, not all of the people buying fish are Chinese, so they must have a language barrier too. The first step is for me to be able to identify whole fish, and then to learn how to make whole fish. Actually, the second step would be learning how to kill whole fish, since almost everything there is alive. The guy in <a href="http://technically.us/eat/articles/2005/11/21/eat-drink-man-woman">Eat Drink Man Woman</a> jammed a chopstick down fishes&#8217; throats, but somehow I don&#8217;t see myself being very successful in that endeavor.</p>
+
+
+	<p>Can any of my Asian or otherwise experienced homies help me out here, or possibly take me down there one night to show me how it&#8217;s done? Or am I doomed to pay top dollar at Whole Foods Market for dead fish?</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id751">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-1317"><p>i wish i spoke/read chinese&#8230; even my chinese friends don&#8217;t read chinese. sigh.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">steak</span></span>
+  				<span>on December 13, 2005</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1318"><p>I was counting on you Steak! Where do you buy fish? Is is really just impossible for &#8220;foreigners&#8221; to shop down there?</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://technically.us/eat"><span class="alias">MrLittlePants</span></a>
+  				<span>on December 13, 2005</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1319"><p>i told you chinatown was a deal!! its not so bad if you know what the fish you want looks for. i usually just see which place looks the best!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">*dots*</span></span>
+  				<span>on December 13, 2005</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1320"><p>But do you have them cut up the fish for you, or do you do it yourself?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">MrLittlePants</span></span>
+  				<span>on December 13, 2005</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1321"><p>You must educate yourself first on what whole fish look like&#8212;go to Whole Foods, Citarella and Jefferson Market and look at the whole fish you&#8217;ll soon be able to tell a fluke (gray &amp; wide) from a snapper (red). Then go to Chinatown and just point with one finger at the fish you want and let them clean &amp; gut it.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://null"><span class="alias">Uncle Teddy</span></a>
+  				<span>on December 13, 2005</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1322"><p>Ohhh, so if I just point, they&#8217;ll do that automatically? That would be sweet! Good idea!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://technically.us/eat"><span class="alias">MrLittlePants</span></a>
+  				<span>on December 13, 2005</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1323"><p>Ha ha, I love how Uncle Teddy instructs me to point &#8220;with one finger.&#8221; I bet she points with her pinky!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">MrLittlePants</span></span>
+  				<span>on December 13, 2005</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1324"><p>I want to know what you mean by &#8220;snatch&#8221;! I hope you&#8217;re not saying what I think you&#8217;re saying about fish and women&#8230;Or did you mean to say &#8220;natch&#8221;?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Beckyleeprice@mac.com</span></span>
+  				<span>on December 13, 2005</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1325"><p>I just get annoyed with the way people use &#8220;natch&#8221; to mean &#8220;naturally,&#8221; so I&#8217;m mixing it up with &#8220;snatch.&#8221;</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on December 13, 2005</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id752">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id753" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id753_hf_0" id="id753_hf_0" /><input type="hidden" name="wicket:interface" value=":279:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id754" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id755" name="add" value="Add a comment" onclick="wicketShow('id755--ajax-indicator');var wcall=wicketSubmitFormById('id753', '../../../?wicket:interface=:279:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id755--ajax-indicator');}.bind(this),function() { ;wicketHide('id755--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id753')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id755--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

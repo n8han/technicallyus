@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="../../../blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="../../../blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet.css"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Not taking the hint</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code.html">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code.html">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id25d4" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Not taking the hint" width="297" class="title" src="../../../resources/net.databinder.components.RenderedLabel/afd701a2"/><span class="title">Not taking the hint</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on March 6, 2007</span></span>
+			<span id="id25d5" class="tags">
+					{&nbsp;<span><a href="../../tag/jvm/index.html#selected-tag"><span>jvm</span></a><span id="id25d6">, </span></span><span><a href="../../tag/typography/index.html#selected-tag"><span>typography</span></a><span id="id25d7">, </span></span><span><a href="../../tag/rendering/index.html#selected-tag"><span>rendering</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>The best thing about making applications&#8212;instead of just application libraries&#8212;is that you find out how well your ideas <em>really</em> work. Some ideas that are beautiful in words, in diagrams, and even in code, don&#8217;t live up to expectations when they begin serving Web requests.</p>
+
+<p>Take my precious <a href='http://technically.us/n8/articles/2006/07/15/funny-face'>RenderedLabel</a>. I love the idea of it, and in my tests of its first incarnation (the <a href='http://databinder.net/site/show/graffiti'>graffiti</a> example, mostly) it worked without a hitch. Later, adding it to the <a href='http://databinder.net/site/show/recipe-book'>recipe book</a>, I realized it needed to support static URLs so I <a href='http://technically.us/n8/articles/2006/11/01/permanently-funny-face'>added that</a>. Then there&#8217;s the subtle case where the rendered image is requested <em>before</em> any page containing it has been been requested (after a server bounce), which we solve in Databinder 1.1&#8217;s examples by loading the images in the application&#8217;s <code>init()</code>. Slightly less fun, but it&#8217;s pretty bomb-proof.</p>
+
+<p class='break'>The latest unexpected problem with RenderedLabel wasn&#8217;t put to bed so easily, and in some sense makes it useless. I&#8217;ve discovered in deployment that many fonts I want to use with RenderedLabel render poorly on a Linux server. (I&#8217;d done all the development on a Mac.) The whole point is to have nice, reliable font rendering. Oops.</p>
+
+<p>The text rendering path in Java is anything but obvious. One thing I&#8217;d deduced (and the reason I was blind-sided) was that Java doesn&#8217;t just pass the work on to the underlying OS. If that were true, Java 6 wouldn&#8217;t have to try so hard to <a href='http://weblogs.java.net/blog/chet/archive/2005/06/phils_font_fixe.html'>match native rendering</a> (and still come up short). So why the difference between Mac and Linux? Oh, right. The Mac JVM is <a href='http://technically.us/n8/articles/2006/04/21/mac-does-java-again'>made by Apple</a>, for better and for <a href='http://technically.us/n8/articles/2007/01/21/marking-down-your-territory'>worse</a>, and it&#8212;apparently&#8212;does render natively. Or something like natively.</p>
+
+<p>I installed a backported Java 6 to Ubuntu Edgy, hoping that its updated rendering (now supporting subpixel LCD stuff, which is useless for my purposes) had caught up with Ubuntu&#8217;s at least. The typeface I&#8217;m concerned with at the moment, Bank Gothic, looks good enough in Ubuntu (using autohinter), but pretty dumb in Java 5. It looks exactly as dumb, I soon learned, in Java 6.</p>
+
+<p class='break'>The problem is <a href='http://en.wikipedia.org/wiki/Font_hinting'>hinting</a>, the attempt to improve upon low-resolution type appearance by overriding a purely mathematical rendering of its vectors. Adobe invented this technique for <a href='http://en.wikipedia.org/wiki/Type_1_and_Type_3_fonts'>Type 1</a>, Apple reinvented it for TrueType, Microsoft licensed it for Window 3.1, and it still influences many people&#8217;s opinion of when screen fonts look &#8220;right&#8221; (those prone to calling less-hinted renderings <em>smudged</em>). Java, chasing this unmoving target from 1991, has never quite caught it.</p>
+
+<p>At this point Java may as well give up. Seriously. As pixel densities increase, the best rendering is converging with, finally, an unbiased rendering of the glyph. And with larger headlines, we&#8217;re already there. (If you need to beef up the strokes on a character that&#8217;s twenty pixels high, you&#8217;ve got other problems.) So! What we really want for RenderedLabel, always intended for headlines, is to disable that horrible hinter.</p>
+
+<p>I&#8217;ve found one convoluted way to do it: using <a href='http://xmlgraphics.apache.org/batik/'>Batik</a>. Yes, the SVG toolkit. I&#8217;ve been thinking about using it for a while since it supports manual kerning, as some day Databinder would like to. For now, I&#8217;m using it only to make an end-run around Java&#8217;s crappy hinter. Using Batik (somehow) results in exactly the same output on Mac OS X and Ubuntu, and it&#8217;s loads better than the crazy stems of different sizes I was getting before. See for yourself.</p>
+
+<p class='break'><img src='../../../pictures/font-java.png' alt='How it works' /><br /><em>Standard Java</em></p>
+
+<p class='break'><img src='../../../pictures/font-batik.png' alt='How it works' /><br /><em>Batik</em></p>
+
+<p class='break'>The Batik-dependent code lives in a new databinder-draw subproject, which is not going in as a regular module yet because it depends on a Batik snapshot. (The relevant API has changed from Batik&#8217;s current version, and I only want to write this once, etc.) If you want to use it you need to get both Databinder and Batik via Subversion, compile Batik and install it into Maven, and compile and install databinder-draw. Obviously no one is going to do all that, but if you&#8217;re curious about the Batik rigging you can peep it in <a href='http://databinder.net/wsvn/Databinder/databinder/trunk/databinder-draw/src/main/java/net/databinder/components/BatikRenderedLabel.java?op=file'>BatikRenderedLabel</a>.</p>
+
+<p class='break'>And yes, the weblog software is coming along just <a href='../../../code.html'>fine</a> thank you.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='../../../resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id25d8">
+  		
+  		
+  	</div>
+  	<div id="id25d9">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id25da" action="../../../index.html" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id25da_hf_0" id="id25da_hf_0" /><input type="hidden" name="wicket:interface" value=":1378:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id25db" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id25dc" name="add" value="Add a comment" onclick="wicketShow('id25dc--ajax-indicator');var wcall=wicketSubmitFormById('id25da', '../../../?wicket:interface=:1378:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id25dc--ajax-indicator');}.bind(this),function() { ;wicketHide('id25dc--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id25da')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id25dc--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

@@ -1,0 +1,211 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="../../../blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="../../../blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet.css"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / All about WebObjects</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code.html">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code.html">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id2515" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="All about WebObjects" width="350" class="title" src="../../../resources/net.databinder.components.RenderedLabel/bbff1d55"/><span class="title">All about WebObjects</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on August 31, 2006</span></span>
+			<span id="id2516" class="tags">
+					{&nbsp;<span><a href="../../tag/apple/index.html#selected-tag"><span>apple</span></a><span id="id2517">, </span></span><span><a href="../../tag/interfaces/index.html#selected-tag"><span>interfaces</span></a><span id="id2518">, </span></span><span><a href="../../tag/java/index.html#selected-tag"><span>java</span></a><span id="id2519">, </span></span><span><a href="../../tag/web/index.html#selected-tag"><span>web</span></a><span id="id251a">, </span></span><span><a href="../../tag/wicket/index.html#selected-tag"><span>wicket</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>The <a href="http://www.appleinsider.com/article.php?id=1135">rumors</a> of WebObjects being “open sourced” have lead to lively discussion on the Wicket listserv. Is it something to be excited about? Worried about? Debated? (Well, yes, this is the Internet.)</p>
+
+
+	<p class="out"><img src="../../../pictures/webobjects.jpg" alt="" /></p>
+
+
+	<p>I wince each time a Wicket programmer is antagonistic towards WebObjects. It’s a bit like making fun of Grandpa for repeating himself. If NeXT hadn’t made WebObjects ten years ago, we probably wouldn’t have Wicket now. Show some respect, kids!</p>
+
+
+	<p>Though I haven’t worked in WO, <a href="http://rentzsch.com/webobjects/wo5in15">in this screencast</a> it looks a lot like programming in <a href="http://developer.apple.com/cocoa/">Cocoa</a>. You describe the interface with a visual editor, which can also traverse class hierarchies and even work with instances of objects. It’s a “tools tools tools!” approach to programming that, when overseen by a well funded and highly intelligent dictator like Apple, works very well.</p>
+
+
+	<p style="clear: left;">The good:</p>
+
+
+	<ol>
+	<li>It helps you start up quickly.</li>
+		<li>It saves time laying out interfaces.</li>
+		<li>It’s fun.</li>
+	</ol>
+
+
+	<p>The bad is that it’s opaque as all hell. I wrote <a href="http://technically.us/finderbookmarks">a small application</a> in Cocoa a few years back and when I was done I still had no idea how its interface glue worked. Apple’s system produces a load of resource files (many of them not human readable) that you’re just supposed to not care about.</p>
+
+
+	<p>The opaqueness has a side effect: it’s difficult to make components on par with Apple’s. You have to peek behind the curtain a bit to even get started. Then you have to decide how much time you want to spend coding <em>for the interface builder</em> so that it can accurately preview your component. Not much, probably, so you’re left with a whole lot of whitespace.</p>
+
+
+	<p>While my experience is in Cocoa, the same issues arise when connecting <span class="caps">HTML</span> to Java. You’re always going to be reaching for the polished built-in component instead of the one you made yourself. Except it’s worse, because while Apple is in complete control of interface styles in Mac <span class="caps">OS X</span>, they can’t control trends on the Web.</p>
+
+
+	<p>Their <span class="caps">HTML</span> builder cranks out code like <code> &lt;HTML&gt;&lt;BODY&gt;&lt;TABLE&gt;</code>. How do I put this nicely for Grandpa? Sir, we stopped using caps-lock for tags in 2001. And tables for layout in 2003. What’s that? Oh, the bathroom is right down the hall…</p>
+
+
+	<p>That’s the way things <a href="http://technically.us/n8/articles/2006/04/21/mac-does-java-again">usually go</a> when Apple’s attention wavers, and now they’ve quit toying and just <a href="http://lists.apple.com/archives/webobjects-dev/2006/Aug/msg01144.html">pulled the plug</a> on  WO development tools. You’re left with <a href="http://www.objectstyle.org/confluence/display/WOL/Home">something called WOLips</a>, which is probably about as sophisticated as it sounds.</p>
+
+
+	<p>It’s surprising if WebObjects programmers are taking these recent changes as good news. Apple may be saying “open source,” but what they mean is “sayounara.” They aren’t going to release the source to the deprecated tools (which are deeply intertwined with XCode); they’re going to unload the WO engine source so the whole thing will be out of their hands.</p>
+
+
+	<p>I’m sure the community-made Eclipse plugins don’t feel so out of date, but I’m just as sure they don’t (and won’t) approach the slickness of Apple’s tools. No one working for free is going to code a laser beam effect for connecting components to code. (Consider that a challenge.)</p>
+
+
+	<p>I wish them the best anyway, and I’ll always be grateful to WebObjects for its ground-breaking in Web component programming. But I don’t see it going anywhere terribly interesting without Apple’s help. (I always hoped for a scandalous return to Objective-C.)</p>
+
+
+	<p class="break">Now, where did my <a href="http://en.wikipedia.org/wiki/HyperCard">HyperCard</a> stack blow off to?</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='../../../resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id251b">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-1162"><p>So, Wicket looks very interesting, but I still have one question. Seeing as how you are obviously familiar with the most excellent WebObjects framework, what I don&#8217;t get is why do you have to configure your components in Java code? WebObjects allowed you to just do this kinda thing:</p>
+
+<p>CategoryPopUp: WOPopUpList { list = anObject.aList; item = anItem; selected = theSelectedThing; }</p>
+
+<p>This was before God commanded that all configuration must be in XML so the binding files were actually readable. And of course Tapestry allows you do something similar although with XML and/or annotations. IMHO, the above is more readable than the wicket style of putting all that stuff in Java code, especially when you have a big page with lots of components on it. I&#8217;ve been developing with WebObjects for 10 years and I&#8217;ve never had a problem. Of course, WebObjects Builder was nice in that you never had to actually edit this files by hand, but even before it&#8217;s introduction, this wasn&#8217;t a problem.</p>
+
+<p>Thanks.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Michael Ellis</span></span>
+  				<span>on August 31, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1163"><p>Thanks for your comments, Michael. The declaration snippet you provided looks nice and compact, much better than XML (or annotations).</p>
+
+<p>In Wicket, we do think that Java is good for initializing a component hierarchy. Much of the API supports chaining, as in:</p>
+<pre>add(new RenderedLabel("text")
+	.setFont(spidershank)
+	.setColor(Color.GRAY));</pre>
+<p>While all of that could be declared externally in some non-programming language, many components need custom behavior that can not simply be declared. We see an advantage for Wicket here, that our components and their behavior are described in two places instead of three. When the custom behavior is needed in one page only, we just anonymously subclass its already-Java component declaration.</p>
+
+<p>If you&#8217;re interested in Wicket and want to skim through example code, there&#8217;s a fair bit in the &#8220;Databinder examples&#8221;:http://databinder.net/examples.html.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8han</span></span>
+  				<span>on August 31, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1164"><p>Sure, in some ways it&#8217;s six of one, half a dozen of the other. The one problem I see with Wicket&#8217;s approach is that it doesn&#8217;t (easily) support the use of tools like WebObjects Builder (which you&#8217;ve got a screenshot of above) for defining components and bindings. And of course, using something like OGNL, you can embed almost anything in a binding expression that you can express in Java. However, I suppose if one wanted to add this to wicket it would take all of a day to write a few extra classes to parse something like:</p>
+<pre>
+text: RenderedLabel
+    font=spidershank;
+    color=Color.GRAY;
+</pre>
+<p>or</p>
+
+<pre><code>&lt;component name=&quot;text&quot; type=&quot;RenderedLabel&gt;
+    &lt;font&gt;spidershank&lt;/font&gt;
+    &lt;color&gt;Color.GRAY&lt;/color&gt;
+&lt;/component&gt;</code></pre>
+
+<p>or some variation and turn it into the method calls in your code at runtime.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Michael Ellis</span></span>
+  				<span>on August 31, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1165"><p>What I&#8217;d like to have instead of a builder is a run-time error screen (HTML+JavaScript) that lets me visually connect orphans in the component hierarchy to elements in the DOM. It would produce an updated HTML template with new or corrected <code>wicket:id</code> attributes, which you would then save or c&amp;p to the right place. That&#8217;s all possible, but would obviously be a lot of work!</p>
+
+<p>Wicket used OGNL in the past for interpreted component IDs but determined that it was a drag on performance. As you suggest, it would be easy to write a WebPage subclass that parses a component descriptor to build its component hierarchy. But by the time people have learned Wicket, they&#8217;re sold on the idea that doing it in Java is better. (Or they go back to learning Tapestry.)</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8han</span></span>
+  				<span>on August 31, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id251c">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id251d" action="../../../index.html" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id251d_hf_0" id="id251d_hf_0" /><input type="hidden" name="wicket:interface" value=":1358:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id251e" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id251f" name="add" value="Add a comment" onclick="wicketShow('id251f--ajax-indicator');var wcall=wicketSubmitFormById('id251d', '../../../?wicket:interface=:1358:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id251f--ajax-indicator');}.bind(this),function() { ;wicketHide('id251f--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id251d')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id251f--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

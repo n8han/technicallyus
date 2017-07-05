@@ -1,0 +1,186 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Leland&#039;s list of five</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="idf81" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Leland's list of five" width="283" class="title" src="../../../resources/net.databinder.components.RenderedLabel/f1629878"/><span class="title">Leland&#039;s list of five</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on August 25, 2006</span></span>
+			<span id="idf82" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/theory/#selected-tag"><span>theory</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Here are five things I recommend that you <a href="http://www.travelerslunchbox.com/journal/2006/8/21/calling-all-bloggers-things-to-eat-before-you-die.html">eat before you die</a>.</p>
+
+
+	<p style="float:right"><img src="/eat/files/tesburg.jpg" alt="" /></p>
+
+
+	<p>1.  The <a href="http://technically.us/eat/articles/2006/07/25/birthday-dinner-at-tessaros">bacon-blue cheeseburger from Tessaro&#8217;s</a> in Pittsburgh, PA.</p>
+
+
+	<p>Hamburgers don&#8217;t get any better than this. I went to Tessaro&#8217;s almost every Monday night with my dad when I was in high school. We sat at the bar and ate our burgers peacefully. The prices, setting, and service are appropriately divey and friendly. One of my biggest regrets is ordering a salad at Tessaro&#8217;s one night when I wasn&#8217;t very hungry. There&#8217;s only time for so many perfect burgers in life, and one must seize every opportunity.</p>
+
+
+	<p>2. My mom&#8217;s Alice Waters biscotti</p>
+
+
+	<p>I hope she&#8217;ll get around to putting the recipe on here this winter. Not that it matters, because only she can make them. I could eat twenty in one sitting.</p>
+
+
+	<p>3. Brioche from the Brioche place in Tours, France.</p>
+
+
+	<p>There is a place in <a href="http://en.wikipedia.org/wiki/Tours">Tours</a> that sells nothing but a few varieties of brioche. It is across the street from the bus station and train station, and it&#8217;s one of the first things a visitor to Tours sees. It&#8217;s apparently been there forever, and it&#8217;s marked with an old painted sign that just reads &#8220;Brioche.&#8221; I came to realize how famous it was as people around France asked me about it that year, and I was reminded just this week when my French intern from Antibes (in the South) asked me if I had been there. He said it&#8217;s one of the town&#8217;s biggest draws for French people, and I don&#8217;t blame them. The brioches are simple and buttery and perfect. It&#8217;s been <a href="http://livinginasecondlanguage.blogspot.com/2006/05/tours.html">blogged</a> about before.</p>
+
+
+	<p style="float:left"><img src="/eat/files/czechcheese.jpg" alt="" /></p>
+
+
+	<p>4. <em>Nakládaný hermelín</em></p>
+
+
+	<p>I ordered this marinated camembert with onions on a whim at Café Indigo in <a href="http://technically.us/eat/articles/2006/05/19/prague">Prague</a>. We had been walking all day and thirsty for Pilsner Urquell and something salty. I don&#8217;t even like camembert, but marinated in flavorful oil and spices, I can get down. It&#8217;s a famous Czech dish, according to my Czech friend.</p>
+
+
+	<p>5. Wine from the <a href="http://masgourdou.free.fr/roches_blanches.html">Mas Gourdou</a></p>
+
+
+	<p>Nathan and I were dragged to a huge wine tasting outside of Montpellier a few years ago. Close to the end of our tour of dozens of vintners, we came across a charming man at a table covered in dirt and wine. We tasted; we bought; we still regret not loading up the car. The wine isn&#8217;t available outside of Europe, but I hope importers will catch on.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="idf83">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-2641"><p>The bacon-blue cheese burger from Tessaro’s sounds fabulous.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://kitchenography.typepad.com"><span class="alias">Julie</span></a>
+  				<span>on August 25, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2642"><p>That&#8217;s an interesting selection, especially the brioche.</p>
+<p>And, the bacon-blue burger at Tessaro&#8217;s <em>is</em> fabulous.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://colinwetherbee.com/"><span class="alias">Colin</span></a>
+  				<span>on August 25, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2643"><p>Mmm&#8230; Tessaro&#8217;s. Mmm&#8230;</p>
+<p>Quite a good list. Thank you for sharing. :)</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.metakathryn.com"><span class="alias">Kathryn</span></a>
+  				<span>on August 25, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2644"><p>You are so right about the burgers at Tessaro&#8217;s-best in the &#8216;burgh, and Tessaro&#8217;s is just a nice place, anyway. Their ribs are nothing to sneeze at either.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://lindystoast.com"><span class="alias">lindy</span></a>
+  				<span>on August 25, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="idf84">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="idf85" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="idf85_hf_0" id="idf85_hf_0" /><input type="hidden" name="wicket:interface" value=":565:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="idf86" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="idf87" name="add" value="Add a comment" onclick="wicketShow('idf87--ajax-indicator');var wcall=wicketSubmitFormById('idf85', '../../../?wicket:interface=:565:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('idf87--ajax-indicator');}.bind(this),function() { ;wicketHide('idf87--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('idf85')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="idf87--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

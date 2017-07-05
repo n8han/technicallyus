@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/city-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>City Slicking / Suburbs sustained by sloth, racism, and sad shopping</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../city">
+			
+			<img alt="City Slicking" src="../../../resources/org.apache.wicket.Application/city-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../city">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/city-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id192d" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Suburbs sustained by sloth, racism, and sad shopping" width="646" class="title" src="../../../resources/net.databinder.components.RenderedLabel/7e0db38a"/><span class="title">Suburbs sustained by sloth, racism, and sad shopping</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Doctor Barnett</span>, <span>on January 29, 2008</span></span>
+			<span id="id192e" class="tags">
+					{&nbsp;<span><a href="../../../city/tag/autos/#selected-tag"><span>autos</span></a><span id="id192f">, </span></span><span><a href="../../../city/tag/shopping/#selected-tag"><span>shopping</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p><a href='http://www.nytimes.com/2008/01/29/opinion/29tue3.html?_r=1&amp;ref=opinion&amp;oref=slogin'>The City Is the Future of the Suburbs, and Other Heresies</a>:</p>
+
+<blockquote>
+<p>Fifty-nine percent of Long Islanders could <em>never</em> imagine themselves living in an apartment. Asked which type of neighborhood they preferred—one where you could walk to stores or one that required driving—56 percent said they would rather drive. Meanwhile, only 7 percent agreed that “creating ethnically and economically diverse neighborhoods” was the major advantage of building more affordable housing. Asked what the worst disadvantage was, 20 percent said “bringing in the wrong kinds of people.”</p>
+</blockquote>
+
+<blockquote>
+<p>The pollsters asked respondents to choose their favorite downtown on Long Island, and the winner wasn’t even a downtown. The top vote-getter, at 20 percent, was “the mall.”</p>
+</blockquote>
+
+<p>Also noteworthy for bringing in the wrong kinds of people: the Long Island Expressway.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about'>About</h3>
+
+<p><em>City Slicking</em> is about urban life, transportation, energy, liberty, and language.</p>
+
+<h3 id='haunts'>Haunts</h3>
+
+<p><a href='http://twitter.com/n8han/'>Twitter</a><br /><a href='http://technically.us/code/'>Coderspiel</a><br /><a href='http://www.streetsblog.org/'>Streetsblog</a><br /><a href='http://gawker.com/people/alexpareene/posts/'>Pareene</a><br /><a href='http://www.copenhagenize.com/'>Copenhagenize</a><br /><a href='http://itre.cis.upenn.edu/~myl/languagelog/'>Language Log</a><br /><a href='http://t4america.org/'>Trans. for America</a></p>
+
+<h3 id='wire_service'>Wire Service</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/city-rss' title='All in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-short-rss' title='Left column, frequent links and notes'>Quickies</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-long-rss' title='Main column, occasional extended posts'>Treatise</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1930">
+  		
+  		
+  	</div>
+  	<div id="id1931">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id1932" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id1932_hf_0" id="id1932_hf_0" /><input type="hidden" name="wicket:interface" value=":985:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id1933" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id1934" name="add" value="Add a comment" onclick="wicketShow('id1934--ajax-indicator');var wcall=wicketSubmitFormById('id1932', '../../../?wicket:interface=:985:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id1934--ajax-indicator');}.bind(this),function() { ;wicketHide('id1934--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id1932')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id1934--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

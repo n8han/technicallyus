@@ -1,0 +1,226 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/city-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>City Slicking / Slow steady wins the race, Apple</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../city">
+			
+			<img alt="City Slicking" src="../../resources/org.apache.wicket.Application/city-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../city">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/city-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id1c6d" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Slow steady wins the race, Apple" width="399" class="title" src="../../resources/net.databinder.components.RenderedLabel/36abaa65"/><span class="title">Slow steady wins the race, Apple</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Doctor Barnett</span>, <span>on May 7, 2006</span></span>
+			<span id="id1c6e" class="tags">
+					{&nbsp;<span><a href="../../city/tag/apple/#selected-tag"><span>apple</span></a><span id="id1c6f">, </span></span><span><a href="../../city/tag/shopping/#selected-tag"><span>shopping</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p style="float:right"><img src="/pictures/hot-mac.jpg" alt="" /></p>
+
+
+	<p>I like to post <a href="http://technically.us/doc/articles/2005/10/06/apple-no-more-things-please">occasionally</a> about the folly of buying products from Apple immediately upon their introduction. Having purchased a <a href="http://doctorbarnett.blogspot.com/2005/09/imac-busted-again.html">$2000+ iMac</a> with MrLittlePants almost two years ago that is a <acronym title="Piece of Shit. Duh.">POS</acronym>, it&#8217;s become my own little <a href="http://en.wikipedia.org/wiki/We_are_the_World">celebrity crusade</a>.</p>
+
+
+	<p>If Apple is more guilty than other computer manufacturers of rushing unfinished products to market, it might have something to do with them being the only computer manufacturer to engage in &#8220;industrial design.&#8221; You know, making things look cool. I&#8217;m all for that, but considering the premium price of Apple products, it&#8217;s plain nasty to burn your best, most enthusiastic customers.</p>
+
+
+	<p>So, for the Apple faithful who&#8217;d rather not lose that faith, I&#8217;ve got another whip for the self-flagellation closet: the <a href="http://www.macintouch.com/readerreports/">MacInTouch Reader Reports</a>. MacInTouch itself is a little cheesed-out on Apple, but they do the world a tremendous service (and show a little gumption) in hosting a neutral, moderated forum on Apple hardware.</p>
+
+
+	<p>Do you think the MacBook Pro is a sweet notebook? Have you read a couple of good reviews, and envied the people who got in on the first shipment? <strong>Well, stop it.</strong> Skim through <a href="http://www.macintouch.com/readerreports/macbookpro/index.html">the reports</a> to get an idea of the first round of MacIntel notebooks:</p>
+
+
+	<blockquote>
+		<p><em>Marian Petrides, M.D.</em> I&#8217;m now on my third <span class="caps">MBP</span> (2.0 GHz), the first two (both <span class="caps">SN W8612</span> ) having been returned due to the screen whine&#8212;the one that reportedly is the result of a defective screen inverter.[&#8230;]</p>
+	</blockquote>
+
+
+	<blockquote>
+		<p>My conclusion: I will probably keep this machine since it is otherwise just fine, I almost always work with my machine plugged into the wall [&#8230;]</p>
+	</blockquote>
+
+
+	<p>A notebook, plugged in? I&#8217;d get a second opinion, Doc.</p>
+
+
+	<blockquote>
+		<p><em>Ben Shapiro</em> I&#8217;m now on my third MacBook pro. The first (W8611&#8230;) went in for service due to <span class="caps">LOTS</span> of heat, the whine, and occasional crashiness. After having it for repair for a while, Apple let me know the repair was delayed because they were waiting on a part. [&#8230;]</p>
+	</blockquote>
+
+
+	<blockquote>
+		<p>The second machine (W8612&#8230;) had issues with the screen backlight. I had intermittent problems with waking from sleep [&#8230;] but nothing could make the backlight turn on, other than putting it to sleep and waking it back up.</p>
+	</blockquote>
+
+
+	<blockquote>
+		<p>I got the third machine today (W8613) at the Michigan Avenue Apple Store. Hopefully this one will have no functional issues.</p>
+	</blockquote>
+
+
+	<p>Yes, Ben. Hopefully.</p>
+
+
+	<blockquote>
+		<p><em>Daniel Griscom</em> The big noise is the <span class="caps">DVD</span> drive. [&#8230;] its internal motors makes this strange &#8220;whoop&#8230; whoopwhoop&#8230; wheedlieoodoowopwow&#8230; wheedlieoodoowopwow&#8230; wheedlieoodoowup&#8221; noise.</p>
+	</blockquote>
+
+
+	<blockquote>
+		<p>My guess is that it&#8217;s trying to figure out if anyone inserted a <span class="caps">DVD</span> since it last had power. Annoying, but of limited duration.</p>
+	</blockquote>
+
+
+	<p>Nice computer, man! <em>Whoop!</em></p>
+
+
+	<p>I&#8217;m drawing attention to this for several reasons. Firstly, I don&#8217;t want anyone I know to get burned by new Apple hardware. So the rule is as follows: <em>don&#8217;t</em> preorder, and <em>don&#8217;t</em> buy until substantive reader reports appear at MacInTouch. Chances are, there will be enough bad news there to spook you until the usually excellent &#8220;Rev. B&#8221; comes out.</p>
+
+
+	<p>The other reason is, ultimately, Apple&#8217;s hardware rush-to-market is harming the company. Bad apples snuff out the enthusiasm of fans like me and MrLittlePants, and they turn fresh recruits into permanent enemies. Let&#8217;s see what we have here&#8230;</p>
+
+
+	<blockquote>
+		<p><em>Ron Day</em> This is my first, and will be my last, purchase from Apple. This machine is totally unacceptable, especially given the price. I&#8217;ve owned four different laptops in the past 8 years (two Dells and two Gateways) and had nothing like the problems of this machine. For the price of this machine I could have bought two (and even three, reconditioned) PC laptops.</p>
+	</blockquote>
+
+
+	<p>Ouch!</p>
+
+
+	<blockquote>
+		<p><em>MacInTouch Reader</em> I am only a week new to Apple. So far I am not pleased. My Macbook pro is having some very odd issues. For starters my optical drive is dead. I can&#8217;t load any disc of any kind. Nothing happens, push the disc all the way and it won&#8217;t grab it. Sometimes when I boot up, it won&#8217;t read the <span class="caps">OSX</span>, [ed: <em>the</em> OSX&#8212;how cute!] it just sits at the gray screen for a few minutes then a folder with a question mark will show up in the middle of the screen. [ed: <em>not</em> cute]</p>
+	</blockquote>
+
+
+	<blockquote>
+		<p>Oh and when things do finally work and are working for about a hour or so, the machine starts to heat up so intensly that I think it could start a fire. Or the beach ball will start spinning again, and I am not able to click on anything again. [&#8230;]</p>
+	</blockquote>
+
+
+	<blockquote>
+		<p>I am not happy so far with this so called solid Apple hardware. I am thinking of getting it replaced for a Acer Ferarri.</p>
+	</blockquote>
+
+
+	<p>Apple, <a href="http://global.acer.com/products/notebook/fr3000.htm">look</a> at what you are forcing people in to. <a href="http://www.ep.tc/stopthemadness/">Stop the madness.</a></p>
+
+
+	<p><strong>Update:</strong> I&#8217;m going to start piling on highish-profile problem reports here:</p>
+
+
+	<ol>
+	<li><a href="http://www.gizmodo.com/gadgets/laptops/thermal-greasy-apple-sics-lawyers-on-something-awful-171394.php">Apple tries to sue away problem</a></li>
+		<li><a href="http://raibledesigns.com/page/rd?entry=macbook_pro_power_management_issues">Raible Designs</a> &#8220;It&#8217;s probably time to backup the whole thing tonight just in case the hard drive is next.&#8221; </li>
+		<li><a href="http://www.appledefects.com/wiki/index.php?title=MacBook_Pro">Apple Defects Wiki</a> Hilarious! Though right now it&#8217;s a far less comprehensive source than MacInTouch Reader Reports.</li>
+		<li><a href="http://arstechnica.com/journals/apple.ars/2006/6/26/4449">MagSafe meltdown</a> Again.</li>
+		<li><a href="http://www.macintouch.com/index.shtml#survey.2006.07.28">MacInTouch reliability survey</a> Common, non-fatal problems on a smokin&#8217; fast computer add up to satisfied customers, apparently.</li>
+	</ol></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about'>About</h3>
+
+<p><em>City Slicking</em> is about urban life, transportation, energy, liberty, and language.</p>
+
+<h3 id='haunts'>Haunts</h3>
+
+<p><a href='http://twitter.com/n8han/'>Twitter</a><br /><a href='http://technically.us/code/'>Coderspiel</a><br /><a href='http://www.streetsblog.org/'>Streetsblog</a><br /><a href='http://gawker.com/people/alexpareene/posts/'>Pareene</a><br /><a href='http://www.copenhagenize.com/'>Copenhagenize</a><br /><a href='http://itre.cis.upenn.edu/~myl/languagelog/'>Language Log</a><br /><a href='http://t4america.org/'>Trans. for America</a></p>
+
+<h3 id='wire_service'>Wire Service</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/city-rss' title='All in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-short-rss' title='Left column, frequent links and notes'>Quickies</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-long-rss' title='Main column, occasional extended posts'>Treatise</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1c70">
+  		<div><h3 id='backtalk'>Backtalk</h3></div>
+  		<div>
+  			<div id="item-897"><p>thank you!! Your post pulled me back to reality in the face of a luring new macbook.</p>
+
+<p>As an aside, when we were visiting University of Nebraska, the coordinator for the dept in which we&#8217;d be studying was using an &#8220;Acer Ferarri&#8221;. He was obviously pretty proud of his &#8220;high performance laptop&#8221;, which just made me want to throw up even more.</p>
+
+<p>In any case, I think it&#8217;s safe to say we&#8217;ll be attending the Monterey Institute.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">will</span></span>
+  				<span>on May 7, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-898"><p>Will, I&#8217;m basically writing these &#8220;don&#8217;t buy new-model Macs&#8221; posts for you. ;) Well, and for me. It&#8217;s damn hard not to cave in though. Where are the Rev B. MBPs already!?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Doc</span></span>
+  				<span>on May 7, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id1c71">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id1c72" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id1c72_hf_0" id="id1c72_hf_0" /><input type="hidden" name="wicket:interface" value=":1081:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id1c73" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id1c74" name="add" value="Add a comment" onclick="wicketShow('id1c74--ajax-indicator');var wcall=wicketSubmitFormById('id1c72', '../../?wicket:interface=:1081:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id1c74--ajax-indicator');}.bind(this),function() { ;wicketHide('id1c74--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id1c72')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id1c74--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

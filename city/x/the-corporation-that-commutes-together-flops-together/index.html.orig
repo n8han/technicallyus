@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/city-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>City Slicking / The corporation that commutes together, flops together</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../city">
+			
+			<img alt="City Slicking" src="../../../resources/org.apache.wicket.Application/city-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../city">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/city-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id20a7" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="The corporation that commutes together, flops together" width="629" class="title" src="../../../resources/net.databinder.components.RenderedLabel/e465db98"/><span class="title">The corporation that commutes together, flops together</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Doctor Barnett</span>, <span>on April 11, 2007</span></span>
+			
+		</span></div>
+		<div><p>On a cross-town walk for <a href='http://events.nytimes.com/2004/11/17/dining/reviews/17UNDE.html?ex=1176436800&amp;en=1f07b12ff1ed5bcf&amp;ei=5070'>crazy-expensive pizza</a> we passed by an advertisement on 12th Street:</p>
+
+<p class='break'> <img src='http://technically.us/pictures/mobs.jpg' alt='Mobs of pedestrians blocking your way?' /></p>
+
+<p class='break' style='margin-top: 7px'> This ad, calling out to those blocked by &#8220;mobs of pedestrians,&#8221; appears on a telephone/advertising booth on the sidewalk. It&#8217;s on 12th Street, just before 3rd Avenue.</p>
+
+<p>Its viewer is assumed to be a driver. While there are parts of the city where sidewalks are so crowded as to slow everyone down, this isn&#8217;t one of them and the use of &#8220;pedestrians&#8221; makes clear that the villain is that old advertising bugaboo, <em>the other</em>. Only a frequent driver in the city could relate to this bizarre rhyming drivel.</p>
+
+<p>Unfortunately for its effectiveness, the ad can&#8217;t be seen at all by passing motorists. It is on the far side of a line of parked <abbr>SUV</abbr>s and cars. The only way a driver could see it and say to himself, &#8220;Yes, I&#8217;m so tired of those <em>mobs of pedestrians</em> and I&#8217;ll sign up for a cable modem <em>at work</em> to make up for lost time on my commute&#8221; is if he parked and happened to be walking around here, where hardly any commuters work. Good luck with that, Time Warner Cable!</p>
+
+<p>Almost everyone seeing this advertisement, instead, will be resident of these parts and therefore (by overwhelming majority) <em>a pedestrian</em>. And it&#8217;s not like the ad leaves a neutral, ho-hum impression on pedestrians; it is offensive. Not offensive in the &#8220;Let&#8217;s fire Imus&#8221; sense, but in the &#8220;Fuck you Time Warner Cable, I&#8217;m even less likely to ever buy your services&#8221; sense.</p>
+
+<p class='break'> I haven&#8217;t seen any other emissaries of this campaign around. It&#8217;s doubtful they carry a message of sad commuters piled up in cars blocking fast-walking New Yorkers (an actual problem for thousands of us). Given the &#8220;Technology to help you do more of what <em>drives</em> you&#8221; tag-line, it seems they&#8217;ve cooked up an entire campaign around the idea that using their product is as fast and fun as driving. An ad campaign that is running on the sidewalks of Manhattan.</p>
+
+<p>Who knows what kind of shoestring business would sign up for &#8220;Business Class&#8221; cable internet, given the unreliability of cable in general and cable Internet specifically, but it is not the kind of business where people drive to work. Car commuters in Manhattan work for stolid corporations, and <a href='http://nyc.uncivilservants.org/'>the city government</a>. They work in midtown and downtown and have nothing to do with 12th street.</p>
+
+<p>And apparently, they work for Time Warner Cable. Because you do not end up with such a thoroughly counter-productive maketing message if you employ people who live in the area you&#8217;re speaking to. You only end up with this crap if you have a top to bottom corporate culture of disconnected suburbanites.</p>
+
+<p class='break'>And maybe that&#8217;s fine for a lot of things, but it is not fine for marketing to people you see only as vehicular obstacles.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about'>About</h3>
+
+<p><em>City Slicking</em> is about urban life, transportation, energy, liberty, and language.</p>
+
+<h3 id='haunts'>Haunts</h3>
+
+<p><a href='http://twitter.com/n8han/'>Twitter</a><br /><a href='http://technically.us/code/'>Coderspiel</a><br /><a href='http://www.streetsblog.org/'>Streetsblog</a><br /><a href='http://gawker.com/people/alexpareene/posts/'>Pareene</a><br /><a href='http://www.copenhagenize.com/'>Copenhagenize</a><br /><a href='http://itre.cis.upenn.edu/~myl/languagelog/'>Language Log</a><br /><a href='http://t4america.org/'>Trans. for America</a></p>
+
+<h3 id='wire_service'>Wire Service</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/city-rss' title='All in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-short-rss' title='Left column, frequent links and notes'>Quickies</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-long-rss' title='Main column, occasional extended posts'>Treatise</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id20a8">
+  		
+  		
+  	</div>
+  	<div id="id20a9">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id20aa" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id20aa_hf_0" id="id20aa_hf_0" /><input type="hidden" name="wicket:interface" value=":1162:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id20ab" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id20ac" name="add" value="Add a comment" onclick="wicketShow('id20ac--ajax-indicator');var wcall=wicketSubmitFormById('id20aa', '../../../?wicket:interface=:1162:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id20ac--ajax-indicator');}.bind(this),function() { ;wicketHide('id20ac--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id20aa')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id20ac--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

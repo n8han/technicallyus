@@ -1,0 +1,186 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Databinder: automatic for the people</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id2443" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Databinder: automatic for the people" width="594" class="title" src="../../../resources/net.databinder.components.RenderedLabel/ec9312a3"/><span class="title">Databinder: automatic for the people</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on May 11, 2006</span></span>
+			<span id="id2444" class="tags">
+					{&nbsp;<span><a href="../../../code/tag/databinder/#selected-tag"><span>databinder</span></a><span id="id2445">, </span></span><span><a href="../../../code/tag/maven/#selected-tag"><span>maven</span></a><span id="id2446">, </span></span><span><a href="../../../code/tag/spam/#selected-tag"><span>spam</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p style="float:right"><img src="/pictures/automatic.jpg" alt="" /></p>
+
+
+	<p>I&#8217;m slightly embarrassed that Wicket started <a href="http://jroller.com/page/dashorst?entry=wicket_1_2_rc3_available">hosting a Maven repository</a> before Databinder. This project is built around Maven 2, specifically to make things automatic&#8212;what was I thinking?</p>
+
+
+	<p>My excuses:</p>
+
+
+	<ol>
+	<li>&#8220;Hosting a repository&#8221; sounds hard</li>
+		<li>Bandwidth doesn&#8217;t grow on trees</li>
+		<li>It&#8217;s a special feature, scantily documented</li>
+	</ol>
+
+
+	<p>Ok, those are weak. In the time I spent linking to the latest snapshots and explaining how to install them, I could have just set it up. It&#8217;s not like I don&#8217;t have the <a href="http://databinder.net">databinder.net</a> Web server running three feet away from me right now.</p>
+
+
+	<p>Databinder has officially caught up with the <a href="http://en.wikipedia.org/wiki/Keeping_up_with_the_Joneses">Joneses</a>: we&#8217;ve got our own <a href="http://databinder.net/maven/">repository</a>! To take advantage, copy the following scrap&#8230;</p>
+
+
+<pre>
+  &lt;repositories&gt;
+    &lt;repository&gt;
+      &lt;id&gt;databinder&lt;/id&gt;
+      &lt;name&gt;Databinder repository&lt;/name&gt;
+      &lt;url&gt;http://databinder.net/maven&lt;/url&gt;
+    &lt;/repository&gt;
+  &lt;/repositories&gt;
+</pre>
+
+	<p>&#8230; and paste it into your pom.xml. (The Wicket repo will be inherited from Databinder.) Set your project to depend on Databinder &#8220;0.5-SNAPSHOT&#8221; if you haven&#8217;t already, then <code> mvn compile </code> and the latest snapshot will download and install itself. There&#8217;s nothing new in it since my <a href="http://technically.us/n8/articles/2006/05/07/baking-for-google">last post</a>, so don&#8217;t get too excited.</p>
+
+
+	<p>Maven should check for new snapshots daily, or so I&#8217;m told, but you can force a global update with <code>mvn compile -U</code>. That command is also handy for updating your jetty6 plugin to the lastest version. (No, it still doesn&#8217;t validate Wicket forms correctly!).</p>
+
+
+	<p><img src="/pictures/rome.jpg" alt="" /></p>
+
+
+	<p>(That&#8217;s me on the right.)</p>
+
+
+	<p>In other news, I&#8217;m off to Berlin on Friday. Considering the disproportionately high number of German programmers using Databinder, I thought about hosting <strong>DatabinderCon 2006</strong> from the apartment I&#8217;m borrowing in Kreuzberg. We could engage in a little <acronym title="Inversion of Cocktails">IOC</acronym> and <acronym title="Drag Racing Yacts">DRY</acronym>, maybe apply the decorator pattern to some enterprise objects and just see what happens.</p>
+
+
+	<p>Then I decided it would be more fun to walk around and take pictures like a normal tourist. So the green folder stays here. Maybe next summer, little guy.</p>
+
+
+	<p>This weblog may become a spam-ridden ghetto until my return on the 21st. I turned off trackbacks but left on comments since they haven&#8217;t been hit lately. If you&#8217;re looking for v1agra or cial1s (whatever the hell that is), watch this space.</p>
+
+
+	<p>But if you&#8217;re looking for Databinder 0.5 final, sit tight until the 22nd. I expect Wicket 1.2 to be released while I&#8217;m chowing down on <a href="http://databinder.net/recipe/app/show/id/28">currywurst</a> and taking artful pictures to substitute for deep thoughts on these pages. The new Wicket should work fine with the latest Databinder snapshot. I plan to release it as 0.5 when I get back.</p>
+
+
+	<p><em>Auf Wiedersehen!</em></p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id2447">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-1118"><p>Is there a snapshot of the different examples for 0.5 available?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mats</span></span>
+  				<span>on May 11, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1119"><ol>
+<li>
+<p>5 is offcially out now, along with &#8220;updated examples&#8221;:http://databinder.net/examples.html.</p>
+</li>
+
+<li>
+<p>6-SNAPSHOT releases are coming soon&#8230;</p>
+</li>
+</ol></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on May 11, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id2448">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id2449" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id2449_hf_0" id="id2449_hf_0" /><input type="hidden" name="wicket:interface" value=":1334:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id244a" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id244b" name="add" value="Add a comment" onclick="wicketShow('id244b--ajax-indicator');var wcall=wicketSubmitFormById('id2449', '../../../?wicket:interface=:1334:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id244b--ajax-indicator');}.bind(this),function() { ;wicketHide('id244b--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id2449')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id244b--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

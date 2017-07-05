@@ -1,0 +1,182 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Salmon with tomato vinaigrette</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../eat">
+			
+			<img alt="Eat" src="../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../eat">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id302" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Salmon with tomato vinaigrette" width="481" class="title" src="../../resources/net.databinder.components.RenderedLabel/553d0db1"/><span class="title">Salmon with tomato vinaigrette</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on February 15, 2007</span></span>
+			
+		</span></div>
+		<div><p>Since most of the city is claimed by crazy reservation hawks and out-of-towners on Valentine&#8217;s Day, we decided to eat in last night. With the money we saved, I bought a nice bottle of not-too-dry <a href="http://www.nicolasfeuillatte.com/">champagne</a> and two fillets of <a href="http://en.wikipedia.org/wiki/Chinook_salmon">king salmon</a> from Alaska. I&#8217;d been tempted to try the king for years, but I could never justify the high price, close to $20 a pound. My two fillets came in at just over a pound, so there was serious investment in this meal.</p>
+
+
+	<p>I wanted a simple preparation that would showcase the salmon. I like salmon to be very rare anyway, and I was determined not to mess this one up. I found a simple recipe in <em>Food &#38; Wine</em>, from Ted Allen of all people, for <a href="http://www.foodandwine.com/recipes/pan-roasted-salmon-with-tomato-vinaigrette">pan-roasted salmon with tomato vinaigrette</a>. It was simple and fast, which was just what I wanted. Sauté the fish quickly, flip it, roast for a few minutes, and then make a quick pan vinaigrette.</p>
+
+
+	<p><img src="/pictures/kingsalmon.jpg" alt="" /></p>
+
+
+	<p>And it made a good meal, served alongside roasted asparagus with lemon and shallot. The vinaigrette was delicious, and it opened my tastebuds to the addictive combination of tomato, cumin, and vinegar. The fish, however, was disappointing. It wasn&#8217;t <em>bad</em>, but I was expecting tender, flavorful salmon, and this resembled Dover sole in texture and flavor. It was very firm, and it tasted less salmony than the farmed variety I usually buy. Now, I&#8217;m willing to accept these characteristiscs as typical of king salmon. I&#8217;ve heard it described as being firmer-fleshed. But this was also slightly mealy.</p>
+
+
+	<p>I emailed FreshDirect to ask them if I had cooked it wrong. I told them in plain English that I wasn&#8217;t after a refund; I just wanted to someone in the fish department to give me advice for the next time I make it. Had I cooked it too long? This seems impossible, since I only gave it two minutes on the stove and five in the oven. Not long enough? Doubtful. FreshDirect, having some of the best customer service on the planet, gave me a store credit for the fish a few hours later. I really wanted some advice on this variety of salmon, but I suppose a refund is just as good. I now feel it my customer duty to order something frivolous next time, so that it&#8217;s not a complete loss for the company.</p>
+
+
+	<h3>Pan-roasted salmon with tomato vinaigrette</h3>
+
+
+	<p>1 pint grape tomatoes, halved <br> 1 medium shallot, thinly sliced <br> 1 tablespoon drained capers <br> 2 tablespoons red wine vinegar <br> Salt <br> 3 tablespoons extra-virgin olive oil <br> 4 center-cut salmon fillets with skin (about 7 ounces each) <br> Freshly ground pepper <br> 1/2 teaspoon ground cumin (I used whole—ground cumin is lame) <br> 2 tablespoons canola oil <br> 1 tablespoon minced parsley <br> 1 tablespoon chopped basil</p>
+
+
+	<p>Preheat the oven to 425°F. Toss the tomatoes with the shallot, capers, vinegar and 1/2 teaspoon of salt.</p>
+
+
+	<p>In a medium ovenproof skillet, heat 1 tablespoon of the olive oil. Season the salmon with salt and pepper and add it to the skillet, skin side up. Cook over moderately high heat until well-browned on the bottom, about 3 minutes. Carefully flip the fillets. Transfer the skillet to the oven and roast until the salmon is cooked through, about 7 minutes. Transfer the fish to plates and pour off any fat in the skillet.</p>
+
+
+	<p>Place the skillet over moderate heat and add the tomato mixture along with the cumin, canola oil and the remaining 2 tablespoons of olive oil. Cook, scraping up any bits stuck to the skillet, until the tomatoes just soften, about 2 minutes. Pour the sauce over the salmon, sprinkle with the parsley and basil (I had neither herb!), and serve right away.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id303">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3385"><p>Simple and fast is always a good thing. That tomato vinaigrette looks wonderful. I like that way of cooking salmon also.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://kitchenography.typepad.com"><span class="alias">Julie</span></a>
+  				<span>on February 15, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3386"><p>wow, to me this is the perfect meal.  i love the color, nutritional value, and flavors.  great recipe find!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">andre sala</span></span>
+  				<span>on February 15, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3387"><p>Honestly, I would try it again with fish from someplace other than FreshDirect. I have had some quality issues with them in the past, particularly with their produce. Not that its bad in the spoiled sense, mind you, but just that sometimes its sort of flavorless. Not sure if its the volume they deal in or what.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">SLM</span></span>
+  				<span>on February 15, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3388"><p>Farmed salmon will always taste more fishy/salmony than its wild counterparts, because the farmed fish have less room to swim, they develop a fattier, oilier flesh. (Or so I hear. I&#8217;m not much of a fish eater.)</p>
+<p>Oh, and if it&#8217;s farmed Atlantic Salmon, <a href="http://www.oceansalive.org/eat.cfm?subnav=fishpage&fish=85">you might not want to eat it too often</a>.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://gezellig-girl.com"><span class="alias">Kristen</span></a>
+  				<span>on February 15, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3389"><p>This is a delicious recipe- incredibly easy, quick and quite tasty! I love the red wine vinegar and capers in the tomato sauce.</p>
+<p>I served with rice and steamed broccoli, although I would have preferred asparagus if I had had some.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Emily</span></span>
+  				<span>on February 15, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id304">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id305" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id305_hf_0" id="id305_hf_0" /><input type="hidden" name="wicket:interface" value=":133:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id306" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id307" name="add" value="Add a comment" onclick="wicketShow('id307--ajax-indicator');var wcall=wicketSubmitFormById('id305', '../../?wicket:interface=:133:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id307--ajax-indicator');}.bind(this),function() { ;wicketHide('id307--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id305')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id307--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Capote dinner party</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../eat">
+			
+			<img alt="Eat" src="../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../eat">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id1368" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Capote dinner party" width="311" class="title" src="../../resources/net.databinder.components.RenderedLabel/97ddb6db"/><span class="title">Capote dinner party</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on April 2, 2006</span></span>
+			
+		</span></div>
+		<div><p>Making dinner for five people is a challenge for an amateur like me, and until last night I had never fed that many people and been happy with what was on the table. I have endless respect for the millions of mothers in the world feeding tables full of hungry, picky men night after night; it&#8217;s not an easy job.</p>
+
+
+	<p>Uncle Ted and I had been planning to have a Capote party for months now, and we finally got the guests and <span class="caps">DVD</span> together last night. Ted&#8217;s friend said we should go southern because of Truman&#8217;s background, which was fine by me; I&#8217;ve learned a thing or two about southern cuisine from my southern beau, especially during my <a href="http://technically.us/eat/articles/2006/01/28/collard-greens-from-freshdirect">collard greens</a> <a href="http://technically.us/eat/articles/2006/02/01/pierogies-and-collard-greens">phase</a>. We decided on a menu of fried chicken, macaroni and cheese, and braised collards. Alex and Mattie brought a decadently creamy key lime pie from Agata &#38; Valentina for dessert, which made our lives easier.</p>
+
+
+	<p>Of course, it&#8217;s always pretty easy when you have Uncle Teddy hosting and helping in the kitchen. Look how cute he is working two bowls at once:</p>
+
+
+	<p style="float:center"><img src="/pictures/whisking.jpg" alt="" /></p>
+
+
+	<p>Finding a fried chicken recipe is hard even when you work in a food library. I finally found one in <a href="http://www.amazon.com/exec/obidos/ASIN/0618374086/eat0e-20"><em>The Gourmet Cookbook</em></a>, for &#8220;Claritha&#8217;s Fried Chicken.&#8221; The chicken was marinated in onions and buttermilk, dredged in flour and spices, and then fried in two cups of shortening and one stick of butter. I know, the whole stick of butter almost pushed me over the edge. Look at it in there:</p>
+
+
+	<p style="float:center"><img src="/pictures/shortening.jpg" alt="" /></p>
+
+
+	<p>I can almost hear it saying, &#8220;What the heck am I doing in this bath of trans fats?&#8221; Ted and I decided that Claritha probably died of a heart attack eating like this.</p>
+
+
+	<p style="float:center"><img src="/pictures/friedchicken.jpg" alt="" /></p>
+
+
+	<p>She also probably died happy, because her chicken was delicious. We made Ruth Reichl&#8217;s macaroni and cheese from the same book, a recipe my mom favors, and that you would too if you could taste the panko crust. For the collard greens, we cooked a bunch of them in four tablespoons of butter for a few minutes before pouring in about a cup of Jim Beam, a half cup of beer, and seasonings like salt and red pepper flakes. Two hours later they were softer than spinach and far more substantial.</p>
+
+
+	<p>The movie, incidentally, was excellent. &#8220;Riveting&#8221; was my word of choice after a few drinks, and everyone agreed with me.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1369">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-1768"><p>Funny you should have prepared collard greens last night, because my mother made kale! Unfortunately I didn&#8217;t get to eat any because we had to dash off to <a href="http://www.billyprice.com">Poppy&#8217;s</a> gig where we were fed a catered dinner of <em>meatloaf</em>! You know I love meatloaf but I&#8217;m not eating it unless I know where the ground beef comes from; I figure a caterer probably gets theirs from those big plastic-wrapped tubes they call &#8216;chubs&#8217;, very suspicious. Anyway, back to the kale&#8212;evidently it was terrific and <a href="http://romophonehome.blogspot.com">Calvin</a> loved it.</p>
+<p>I&#8217;ve been wanting to try that chicken recipe and now I will; the butter doesn&#8217;t scare me nor does the Crisco in something I&#8217;m eating once or twice a year.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on April 2, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1769"><p>The coincidence deepens&#8212;I made your meatloaf recipe last night! I&#8217;ll post it later today.</p>
+<p>Glad to hear Cal liked kale.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on April 2, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1770"><p>While we all agreed it was &#8220;riveting,&#8221; none of us could explain exactly what that metaphor means. Jeans have rivets, it was decided, but what exactly are they, and how do they relate to good movies? Can anything besides a performance be riveting? A car? A nailgun?</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://technically.us/doc/"><span class="alias">Doctor Barnett</span></a>
+  				<span>on April 2, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1771"><p>Rivet (v): </p>
+<p>-Webster</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on April 2, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id136a">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id136b" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id136b_hf_0" id="id136b_hf_0" /><input type="hidden" name="wicket:interface" value=":709:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id136c" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id136d" name="add" value="Add a comment" onclick="wicketShow('id136d--ajax-indicator');var wcall=wicketSubmitFormById('id136b', '../../?wicket:interface=:709:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id136d--ajax-indicator');}.bind(this),function() { ;wicketHide('id136d--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id136b')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id136d--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

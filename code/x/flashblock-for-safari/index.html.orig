@@ -1,0 +1,243 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Flashblock for Safari</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id263a" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Flashblock for Safari" width="329" class="title" src="../../../resources/net.databinder.components.RenderedLabel/108033d"/><span class="title">Flashblock for Safari</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on January 3, 2007</span></span>
+			<span id="id263b" class="tags">
+					{&nbsp;<span><a href="../../../code/tag/macintosh/#selected-tag"><span>macintosh</span></a><span id="id263c">, </span></span><span><a href="../../../code/tag/browsers/#selected-tag"><span>browsers</span></a><span id="id263d">, </span></span><span><a href="../../../code/tag/web/#selected-tag"><span>web</span></a><span id="id263e">, </span></span><span><a href="../../../code/tag/typography/#selected-tag"><span>typography</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>I go through browsers like I used to go through brands of breakfast cereal.</p>
+
+
+	<p>When I switched from Safari to Camino last year I mentioned my longstanding <a href="http://technically.us/n8/articles/2006/03/04/el-camino-largo-al-camino">grudge against the Firefox project</a>. Because of their indifference to the Mac build of Firefox, and to anything outside the central clique’s sensibilities, Firefox on Mac will always have rough edges. It’s great for coding and testing your own sites with the benefit of third party extensions, but otherwise it’s pretty unpleasant to use.</p>
+
+
+	<p>In contrast, the Mac-only Camino browser tries hard to smooth over its underlying Gecko engine. It wedges in Web form controls that sort of look right. Everything outside the content area is kosher. And it starts up so fast I’d swear someone sold his soul to the devil. But Camino is powerless in the face of <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=95067">the immortal Gecko hyphen bug-no-“feature”-well-um-whatever-you-say-but-it-just-sucks</a>. Because the developers of the Web’s most famous rendering engine are not particularly interested in Web typography (what?), solutions to the problem are always slated to be in the “next major version.” And if that next <em>major</em> version is a bullshit release (like Firefox 2.0) that is pushed out to distract from more important things happening elsewhere (like Internet Explorer 7) then <em>too bad for the Internet!</em></p>
+
+
+	<p>Having had enough of Camino’s clumsy Gecko rendering, I switched to Opera several months ago. Opera has some very nice features that preserve the user’s work (open sites, filled form fields), and its type rendering is pretty good. But its Mac <span class="caps">OS X</span> appearance and behavior are borderline. And its ten-second-plus startup time on modern hardware just doesn’t make sense. When I noticed the Opera process sucking <acronym title="">CPU</acronym> cycles when not in use, I had to deep-six that ho.</p>
+
+
+	<p>So, back to Safari. And horrendous Flash ads.</p>
+
+
+	<p>I can’t oppose Internet advertising in general—it pays my salary. But I do hate garish, outrageously moving attention-hijackers that run uncontrollably. Rather than <a href="http://culater.net/software/PithHelmet/PithHelmet.php">block ads entirely</a>, I prefer to reign them in the way I’ve long done in Firefox with the <a href="http://flashblock.mozdev.org/">Flashblock</a> extension, and in Camino via <a href="http://www.nadamac.de/camitools/index.php">CamiTools</a>. Flashblock forces Flash objects to display in a box that you <em>choose</em> to activate. Advertising is not singled out by myriad rules; it is simply put within the user’s control along with any other use of Flash.  (In Opera I just left plugins off most of the time.)</p>
+
+
+<p class="out"><img src="/pictures/plugin.png" alt="" /></p>
+
+	<p>Hallelujah—I’ve finally found a free, Flashblock-equivalent solution for Safari: <a href="http://hetima.com/safari/stand-e.html">Safari Stand</a>. (Weird name. Dude is Japanese or something.) Among other things, it can  disable plugin objects until you click on them. This is the way it should be. Browser makers, are you listening? This human-friendly option should be built in!</p>
+
+
+	<p class="break">Well, that and the medieval wizardry of breaking lines at hyphens, Gecko.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id263f">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-4699"><p>thx, now i can switch to safari too. i like camino but the flash-plug-in is a pain.</p>
+
+<p>bye, chris</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">chris</span></span>
+  				<span>on November 16, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4774"><p>So does it work in Safari 3.0 on Mac OS 10.4.8/9? (not Tiger - some of us live on the edge of &#8220;improvement&#8221; - Quicksilver 800 Mhz is the end of the line for Mac OS upgradeability - until I buy a sonnet chip or something).</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Andrew Timleck</span></span>
+  				<span>on November 30, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4775"><p>I think I said Tiger, I meant Leopard&#8230;. meow&#8230;.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Andrew Timleck</span></span>
+  				<span>on November 30, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4777"><p>There was a version for the Safari 3 beta with Tiger; I&#8217;m not sure if it works with the release of Safari 3. You&#8217;ll have to check with Safari Stand.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on December 1, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5456"><p>Thanks a hella lot for the find!!!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Evan</span></span>
+  				<span>on May 21, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5457"><p>You&#8217;re welcome! I don&#8217;t know how everyone else gets through the day with hideous distracting flash ads everywhere.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on May 21, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5473"><p>Have you tried privoxy?</p>
+
+<p>From www.privoxy.org</p>
+
+<p>&#8220;Privoxy is a non-caching web proxy with advanced filtering capabilities for enhancing privacy, modifying web page data, managing HTTP cookies, controlling access, and removing ads, banners, pop-ups and other obnoxious Internet junk.&#8221;</p>
+
+<p>Then all your browsers can have the same adblocking system, works like a sharm!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.stjernstrom.se/"><span class="alias">Mathias Stjernström</span></a>
+  				<span>on June 4, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5972"><p>This is why I hate Safari, though it makes pretentions now to being multi-platform, you find out about a flash blocker and then read after the jump: &#8220;There is no Windows version now, and future.&#8221;</p>
+
+<p>Firefox has something called extensions, and they actually work. On all platforms. Period.</p>
+
+<p>Apple, you $uck.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">whatdayaknow</span></span>
+  				<span>on December 6, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5974"><p>I used to think that comment at Stand was weird because there wasn&#8217;t a Windows version of Safari. Now there is a Windows version and its just seems unnecessarily hostile, the wording. (But it is perfectly reasonable for the guy not to support a platform he doesn&#8217;t even use, for a free hack.) Otherwise I kind of like that Safari is too plain-Jane to have extension support; if I want them (firebug!) I just open Firefox. Stand and its flash/plugin blocking are really the only thing I feel the lack of in plain Safari; the best solution would be for Apple and all browser makers to finally realize that preemptively blocking sources of animation is user-friendly and should be an option in the base browser.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on December 6, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6221"><p>Actually, FF plug-ins don&#8217;t work on all platforms. Some are OS specific. I don&#8217;t think we&#8217;ll ever get our cake and be able to eat the damn thing.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mike</span></span>
+  				<span>on April 6, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6321"><p>hey heads up I just got word of &#8220;ClickToFlash&#8221; - great installer and works like a charm!</p>
+
+<p>http://github.com/rentzsch/clicktoflash/tree/master</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://github.com/rentzsch/clicktoflash/tree/master"><span class="alias">ClickToFlash</span></a>
+  				<span>on June 8, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6322"><p>Yeah clicktoflash is better, I&#8217;m using it now. I don&#8217;t regret blocking Flash for several years with Stand tho!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on June 8, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6606"><p>There is AdSubtract to block Flash in Safari for Windows - http://code.google.com/p/adsubtract/downloads/list. You need to remove a few /* and <em>/ at the end of the AdSubtract.css and then choose this css file in Preferences-&gt;Advanced.</em></p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">mzc</span></span>
+  				<span>on April 8, 2010</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6607"><p>You need to remove a few &#8220;/<em>&#8221; and &#8221;</em>/&#8221; at the end of the AdSubtract.css and then choose this css file in Preferences-&gt;Advanced.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">mzc</span></span>
+  				<span>on April 8, 2010</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id2640">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id2641" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id2641_hf_0" id="id2641_hf_0" /><input type="hidden" name="wicket:interface" value=":1389:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id2642" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id2643" name="add" value="Add a comment" onclick="wicketShow('id2643--ajax-indicator');var wcall=wicketSubmitFormById('id2641', '../../../?wicket:interface=:1389:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id2643--ajax-indicator');}.bind(this),function() { ;wicketHide('id2643--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id2641')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id2643--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

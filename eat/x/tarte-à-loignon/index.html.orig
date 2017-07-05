@@ -1,0 +1,243 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Tarte à l&#039;oignon</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id7dc" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Tarte à l'oignon" width="242" class="title" src="../../../resources/net.databinder.components.RenderedLabel/48fd1f74"/><span class="title">Tarte à l&#039;oignon</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on May 3, 2006</span></span>
+			<span id="id7dd" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/techniques/#selected-tag"><span>techniques</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>I&#8217;ve been afraid of making my own tart dough ever since my <a href="http://technically.us/eat/articles/2006/02/28/zucchini-bacon-and-gruy%C3%A8re-quiche">quiche</a> <a href="http://technically.us/eat/articles/2006/03/02/potato-bacon-and-gruy%C3%A8re-quiche">phase</a> <a href="http://technically.us/eat/articles/2006/04/06/quiche-party">began</a>. After being told repeatedly how boring it was to read about quiche made with store-bought shells, I decided it was time to get over my fears and just make the damn dough.</p>
+
+
+	<p>Flipping through André Soltner&#8217;s excellent <a href="http://www.amazon.com/exec/obidos/ASIN/0679422730/eat0e-20">Lutèce Cookbook</a> today, I came across a recipe for his famous <em>tarte à l&#8217;oignon</em>. He wrote that when he was growing up in Alsace, there were restaurants that only served one thing, such as this tart, at one time of the day, and that everyone in town would go in for a piece of whatever was on offer and a glass of white wine or beer. Doesn&#8217;t that sound so civilized? He used to serve it for lunch at Lutèce and for dinner only when requested in advance.  It sounded as easy as could be, and I am newly armed with five pounds of King Arthur all-purpose flour (which Balducci&#8217;s on 8th Avenue carries).</p>
+
+
+	<p>So I measured out two cups of flour and a teaspoon of salt, kneaded in a stick of cold unsalted butter, and then poured in 1/2 cup of cold water. I thought it was really cool to actually feel the gluten developing between my fingers as I kneaded. I let that rest in the fridge for half an hour while I cooked a pound of chopped onions in bacon fat for the filling. Then I pulled the dough from the fridge and began to roll it out.</p>
+
+
+	<p style="float:center"><img src="/pictures/tart1.jpg" alt="" /></p>
+
+
+	<p>Don&#8217;t ask me how I got it from the table into the pie plate&#8212;it was a complicated affair. You can see that parts of it are lumpy. That&#8217;s a result of repeated warnings not to overwork the dough and the fact that every time I touched those lumps they became gummier.</p>
+
+
+	<p style="float:center"><img src="/pictures/tart2.jpg" alt="" /></p>
+
+
+	<p>But into the pie plate it finally went. I beat an egg in a bowl with 1/2 cup of heavy cream, and I combined that with the onions and some salt, pepper, and a touch of nutmeg. Here is what it looked like before baking.</p>
+
+
+	<p style="float:center"><img src="/pictures/tart3.jpg" alt="" /></p>
+
+
+	<p>Twenty-five minutes later, we have my very first completely homemade onion tart.</p>
+
+
+	<p style="float:center"><img src="/pictures/tart4.jpg" alt="" /></p>
+
+
+	<p>I know that I have a lot to learn about making dough, but if the first time was any indication of things to come, I have every reason for happiness. There is a huge difference between this rustic, buttery concoction and the boringly perfect FreshDirect version.</p>
+
+
+	<p>As usual, any wisdom is appreciated! Should I roll the dough out on a Silpat and then invert it over the pie plate? If that&#8217;s even an issue, am I not rolling it enough? If it&#8217;s too crumbly, should I add a bit more water?</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id7de">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-2005"><p>Congrats on first pastry. Hang in there..You might want to use a pastry cutter (cheap tool) to aid you in making your butter and flour more evenly combined, into an oatmeal texture before adding your water. This keeps it cooler, too&#8212;the heat of your fingers will make it mushier.<br />
+You don&#8217;t want the gluten to develop; it will be too chewy.</p>
+<p>Actually, often the ugliest, most unwieldy, crumbly doughs taste wonderful, cause they are flakier rather than gummy. They are, as you note, not overworked. But you can go considerably less rustic and still have a flaky dough!</p>
+<p>After years of fooling around with rolling dough on waxed paper and silpats and the like, I got myself a little pastry marble on ebay.</p>
+<p>This is so much more effective for rolling out dough than I ever would have imagined. I guess it is the combo of coolness and smoothness. I can, like, fold the rolled out dough in fourths, set the center in the pie plate, and unfold it&#8212;with no sticking! It&#8217;s really remarkable.</p>
+<p>My marble is too small, because I couldn&#8217;t afford or store a nice big one. but when I win the lottery, I&#8217;m going to have a kitchen with a marble counter space!</p>
+<p>Everyone will have lots of tips for you-but it&#8217;s mostly practice to get a feel for it&#8212;as I&#8217;m sure you have sensed. Have a good time.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://lindystoast.com"><span class="alias">lindy</span></a>
+  				<span>on May 3, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2006"><p>Thank you, Lindy! I daydream about having a kitchen big enough for marble and the like. Some day. I definitely have room for a pastry cutter, though, and I&#8217;ll take your advice.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on May 3, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2007"><p>My mouth was watering just looking at your tart! I second what Lindy says, sometimes the crumbliest doughs are the best, because they are the least overworked.<br />
+As you know, I use my Cuisinart to cut in the butter, and roll the pastry out between waxed paper. I&#8217;ve never tried marble but maybe I&#8217;ll find a place for one in my new kitchen.<br />
+ <br />
+I also cheat and use an egg in my pastry; I give up a lot of flakiness that way but gain in manageability and it does stay tender. I get really frustrated with all those bits of dough flying all over the place like you experienced and with an egg you can afford to work the dough a little bit more and it still won&#8217;t get tough.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on May 3, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2008"><p>My mother is the queen of homemade crusts and she always taught me to use a very floured rolling pin and when rolling out your pastry, use quick, short strokes, always from the center of the pastry. Keep flouring your pin if need be.</p>
+<p>The pastry cutter is indeed a wonderful tool- I would also suggest you invest in one- less heat from your hands is always better.</p>
+<p>But this looks <span class="caps">GREAT</span> for a first homemade pastry! It is not an easy task- I have certainly not mastered it- even after years of watching my mother!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Emily</span></span>
+  				<span>on May 3, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2009"><p>Thank you, Emily and Mommy! I could eat a tart or a quiche every day, and it makes great leftovers for Nathan, so it looks like it will be a pastry party all summer.</p>
+<p>Mom, you should try this tart. I think you&#8217;d really like it.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on May 3, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2010"><p>Leland &#8211; somewhere I have some recipes from the LA Times on Thomas Keller&#8217;s recipes for both pie doughs and quiche fillings. Let me root around for them and send them to you. They&#8217;re supposed to be sublime. I second Lindy&#8217;s suggestion to get a pastry cutter, though I do also have to say that the first time I made pastry dough in my food processor (acquired for free through my boyfriend&#8217;s mother), it was a revelation at how easy and perfect it turned out. So perhaps, keep an eye out for used FP&#8217;s or ask for one for a birthday&#8230; ;)</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://wednesdaychef.typepad.com"><span class="alias">Luisa</span></a>
+  				<span>on May 3, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2011"><p>Thanks, Luisa! I am actually on the verge of buying a food processor. I had an FP/blender combo for the last year but it was complete junk and I just returned it. I&#8217;ll get a credit and use it towards a proper 7-cup Cuisinart.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on May 3, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2012"><p>Hi Sweetie, I agree with Emily and Mom.  Lots of flour on the pin and quick strokes from the middle.  Like Mom, I use my Cuisinart to do my dough and find it incredibly helpful.  I always used the pastry cutter before that.  I used one of those rubber mat things this winter at Sues&#8217;, and found it so easy to lift and lay on pie plate.  Barbara, Tony&#8217;s ex, was a marvelous pie baker and swore by the marble.  I have never even tried it.  The tart looks absolutely &#8220;yummy, yummy, in my tummy&#8221;!<br />
+Love and hugs</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">grandma</span></span>
+  				<span>on May 3, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2013"><p>Thanks, Grandma! Ok, I&#8217;ll get a food processor on the double.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on May 3, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2014"><p>Helen at Beyond Salmon (beyondsalmon.blogspot.com) has a good guide, with pix, to making and rolling out pie and tarte dough. Check it out.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://yulinkacooks.blogspot.com"><span class="alias">Yulinka</span></a>
+  				<span>on May 3, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6504"><p>I make this onion tart about once a month and have found it is immensely better to &#8220;blind bake&#8221; the pastry first&#8230;</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">fancy nancy</span></span>
+  				<span>on October 24, 2009</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id7df">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id7e0" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id7e0_hf_0" id="id7e0_hf_0" /><input type="hidden" name="wicket:interface" value=":297:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id7e1" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id7e2" name="add" value="Add a comment" onclick="wicketShow('id7e2--ajax-indicator');var wcall=wicketSubmitFormById('id7e0', '../../../?wicket:interface=:297:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id7e2--ajax-indicator');}.bind(this),function() { ;wicketHide('id7e2--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id7e0')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id7e2--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

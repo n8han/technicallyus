@@ -1,0 +1,196 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Healthy dinner</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="idb6b" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Healthy dinner" width="224" class="title" src="../../../resources/net.databinder.components.RenderedLabel/aa2e1cc4"/><span class="title">Healthy dinner</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on July 19, 2006</span></span>
+			<span id="idb6c" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Now that I am afflicted with <a href="http://technically.us/eat/articles/2006/07/15/heart-disease">high cholesterol</a>, I have to start trying to not just fry my dinners night after night and then douse them in cream and cheese, which is apparently what I&#8217;ve been doing, at least according to my <span class="caps">LDL</span> levels.</p>
+
+
+	<p>So I picked up a cookbook today and turned to a recipe for a vegetable terrine with gruyère cheese. Halfway through the recipe, I got irritated with the idiotic procedure and realized it would never work, so I decided to throw it away and strike out on my own.</p>
+
+
+	<p style="float:center"><img src="/pictures/healthdinner.jpg" alt="" /></p>
+
+
+	<p>What you see above is roasted eggplant, zucchini, and yellow squash on a bed of spinach, tomato, garlic, and basil. I guess this has two milligrams of cholesterol or something, and that&#8217;s a good thing, right? Either way, it tasted good, although I have decided that I don&#8217;t like the texture of eggplant. If anyone has a method that masks the texture, please share it.</p>
+
+
+	<p>I can&#8217;t eat like this every night, because I love crispy, greasy meat and dough too much to live without them for more than a day at a time, but I can try lighter meals like this once or twice a week.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="idb6d">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-2390"><p>In the photo your eggplant doesn&#8217;t really look like it was cooked enough-was it? If it wasn&#8217;t, no wonder you didn&#8217;t like the texture.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on July 19, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2391"><p>I roasted it for an hour at 400º. It felt very soft, and I just had to turn the oven off. I&#8217;ve never liked the texture.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on July 19, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2392"><p>Next thing we know, you&#8217;re going to become a vegetarian.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Emily</span></span>
+  				<span>on July 19, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2393"><p>If you want to lower your bad cholesterol, you don&#8217;t really have to avoid fats, you just need to eat a bit less of them and make those the fats that are more heart-healthy, like canola and olive oils, avocados, nuts, etc. Did they give you your <span class="caps">HDL</span> (&#8220;good&#8221; cholesterol&quot;) number? Eating the healthy fats raises your <span class="caps">HDL</span> which helps your overall heart health. As for the eggplant, I hear ya&#8230;really only like it fried or mashed into baba ganoush!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Marcy</span></span>
+  				<span>on July 19, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2394"><p>Hi Leland,<br />
+I know what you mean about the texture of egg plant!  I grew up eating it breaded and fried.  But since trying to become more healthful myself, I find that egg plant goes well &#8216;in&#8217; things such as chili, moussaka or tomato sauce.  Come to think of it, how about simply baking it with a bit of tomato sauce on it (and cheese, if you haven&#8217;t had too much that day!).  Easy!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Gerda</span></span>
+  				<span>on July 19, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2395"><p>Thanks, ladies! Except for you, Emily. No thanks to you for that horrible insult.</p>
+<p>I&#8217;m glad you agree about the eggplant, Gerda. It&#8217;s the way I <a href="http://technically.us/eat/articles/2006/01/13/dried-cèpes-and-how-i-learned-to-like-mushrooms">used to feel</a> about mushrooms. I eventually got over it, but that day is far away for eggplant.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on July 19, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2396"><p>My feeling about eggplant is cook the shit out of it.  Think you&#8217;ve cooked it long enough?  Cook it that long again.</p>
+<p>Or to &#8220;sweat it&#8221; before cooking.  Sprinkle with salt, lay it between paper towels to absorb the water.  Then cook the shit out of it.</p>
+<p>Moosewood&#8217;s Moussaka recipe explains this process and tastes dandy when done.  And their bechamel recipe works with olive oil.</p>
+<p>One is left to wonder if any nutrients remain in the eggplant after the proceessing, but its all in the name of good health.</p>
+<p>And once you&#8217;ve tasted how smooth and creamy well done eggplant is . . .</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">zp</span></span>
+  				<span>on July 19, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2397"><p>I find myself wondering exactly how nutritious eggplant is to begin with; is there any good reason to eat it if you don&#8217;t like it?</p>
+<p>As far as cooking it goes, I&#8217;m with zp, first remove some of the moisture by salting and draining, then the eggplant must be cooked <span class="caps">THOROUGHLY</span>. Even after draining it tends to absorb unconscionable amounts of olive oil. If you like baba ghanoush try throwing the whole thing in the oven and roasting until it is black and collapsed, then cut open and scoop out the flesh, mix with garlic, olive oil, salt, and lemon juice.</p>
+<p>But if you don&#8217;t like it, this little dish you made here would be great with sweet peppers, and they are full of nutrients; just forget about the eggplant!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on July 19, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="idb6e">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="idb6f" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="idb6f_hf_0" id="idb6f_hf_0" /><input type="hidden" name="wicket:interface" value=":420:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="idb70" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="idb71" name="add" value="Add a comment" onclick="wicketShow('idb71--ajax-indicator');var wcall=wicketSubmitFormById('idb6f', '../../../?wicket:interface=:420:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('idb71--ajax-indicator');}.bind(this),function() { ;wicketHide('idb71--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('idb6f')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="idb71--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

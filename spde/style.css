@@ -1,0 +1,33 @@
+.container { width: 470px; }
+
+body {
+	font-family: "Lucida Console", "DejaVu Sans Mono", Monaco, Courier;
+	font-size: 90%;
+	background-color: white;
+}
+
+div#content{
+	padding: 2.5em 0;
+}
+
+body, h1, h2, h3, h4, h5, h6, a {
+	color: black;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin-left: 0;
+}
+
+ul.toc li {
+	display: inline;
+	margin-right: 2.5em;
+	font-style: italic;
+}
+
+ul.tweed li {
+	margin: 0 0 1.5em;
+}
+
+li a { font-style: normal; }

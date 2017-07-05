@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Busnel Calvados</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id666" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Busnel Calvados" width="260" class="title" src="../../../resources/net.databinder.components.RenderedLabel/2cef8ceb"/><span class="title">Busnel Calvados</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on December 21, 2006</span></span>
+			<span id="id667" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/drink/#selected-tag"><span>drink</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>According to some random <a href="http://www.californiawineandfood.com/wine/calvados.htm">website</a> I found, 40 million bottles of <a href="http://en.wikipedia.org/w/index.php?title=Cognac_%28drink%29&#38;oldid=94136164">Cognac</a> are sold every year in the United States, compared to only 200,000 bottles of <a href="http://en.wikipedia.org/wiki/Calvados_%28spirit%29">Calvados</a>. Considering the harshness and expense of Cognac (I admit to complete ignorance on this topic), this surprises me. There must have been a tipping point sometime that pushed Cognac into its spot as the go-to drink for the rich and their admirers. Certainly hip-hop has helped seal the deal. They can keep their dumb drink—more Calvados for me!</p>
+
+
+	<p style="float:right"><img src="/pictures/calvados.jpg" alt="" /></p>
+
+
+	<p>This beautiful bottle of Busnel was an early Christmas present from Nathan that I&#8217;ve been asking for for months. I spend a fair amount of money on wine and spirits in New York and in duty-free shops while traveling (most of the spirits collect dust between parties), but the Calvados has always been too expensive to justify quenching my curiosity. I&#8217;m so happy to finally have my very own bottle! And I&#8217;m on my third little taste here of creamy, appley goodness.</p>
+
+
+	<p>Can you believe that 16 pounds of apples go into each 750-milliliter bottle of Calvados? And yet, it barely tastes of apples. In any case, it&#8217;s not sweet. There is a faint aftertaste of apple. Mostly it&#8217;s just smooth and complex. It smells like it will burn, but that must be a result of my fear after so many digestifs of Cognac and ouzo and pear eau-de-vie that burned holes in my throat.</p>
+
+
+	<p>I&#8217;m willing to try one or two Norman recipes with this liquid gold, as long as they call for a half cup or less. Suggestions?</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id668">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3196"><p>I&#8217;ve used it sparingly to baste a chicken with an apple, walnut, raisin stuffing and also as a cocktail mixed with Cointreau or Triple Sec and lemon.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Uncle Teddy</span></span>
+  				<span>on December 21, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id669">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id66a" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id66a_hf_0" id="id66a_hf_0" /><input type="hidden" name="wicket:interface" value=":248:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id66b" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id66c" name="add" value="Add a comment" onclick="wicketShow('id66c--ajax-indicator');var wcall=wicketSubmitFormById('id66a', '../../../?wicket:interface=:248:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id66c--ajax-indicator');}.bind(this),function() { ;wicketHide('id66c--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id66a')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id66c--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

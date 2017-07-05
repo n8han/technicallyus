@@ -1,0 +1,196 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="../../../blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="../../../blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet.css"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Organically grown</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code.html">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code.html">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id230b" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Organically grown" width="293" class="title" src="../../../resources/net.databinder.components.RenderedLabel/52effb9"/><span class="title">Organically grown</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on February 18, 2008</span></span>
+			<span id="id230c" class="tags">
+					{&nbsp;<span><a href="../../tag/databinder/index.html#selected-tag"><span>databinder</span></a><span id="id230d">, </span></span><span><a href="../../tag/wicket/index.html#selected-tag"><span>wicket</span></a><span id="id230e">, </span></span><span><a href="../../tag/database/index.html#selected-tag"><span>database</span></a><span id="id230f">, </span></span><span><a href="../../tag/oop/index.html#selected-tag"><span>oop</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p><a href='http://databinder.net/'>Databinder</a> started off in late 2005 with a simple mission: fill the negative space of <a href='http://wicket.apache.org/'>Wicket</a> persistence with a priority on factoring out application code.</p>
+
+<p class='break'> Java and &#8220;serious&#8221; programming in general have accumulated a lot of conceptual baggage over the years. Particularly the timeworn task of database interaction has piled one ritual on top of another into a heap of ceremony that, compared to the terseness of inlined <abbr>SQL</abbr> in <abbr>PHP</abbr> pages that drives most of the web, is a masochistic dogma.</p>
+
+<p>Fairly recently the Spring framework transformed the myriad denominations of Java pattern-worship into a sleek metaphysical cult. Nothing was obligatory, but a spiritual misstep could ruin your chances of transcendence when the spaceship comes for the truly devout. Around the same time, Rails was making mindshare inroads by mimicking the rain dances of professional programming (to make everyone comfortable) while leveraging Ruby to obscure the taboos it broke in factoring out application code (to make everyone productive).</p>
+
+<p>And Wicket was just being its awesome self. Wicket contains a lot of structure that, while not bound to any particular persistence mechanism, facilitates loading objects as they&#8217;re needed and detaching them when a request cycle completes. This is an unfamiliar concept to most programmers, and for new users the task of implementing it correctly&#8212;something any application requires&#8212;can be perplexing.</p>
+
+<h3 id='rolled_steel_for_making_boilers'>Rolled steel for making boilers</h3>
+
+<p>There are conservative ways of binding Wicket to persistence layers that strive to offend no popular ideology. You can find examples. The problem is that kowtowing to data model orthodoxy burdens Wicket code enough to kill the fun you&#8217;re supposed to be having using stateful web components.</p>
+
+<p>Specifically, a detachable implementation of <code>IModel</code> must know how to load itself, yet those kinds of objects are not really <em>supposed</em> to know how to load themselves. The sacred book says that all objects shall be loaded through some Data Access Object that is named sorta like those objects. And ever since approximately Spring, you&#8217;re not even supposed to construct this thing yourself: it&#8217;s supposed to be &#8220;injected.&#8221; Are we having fun yet?</p>
+
+<p>The quickest way to deal with this is to somehow reference your instantiated <abbr>DAO</abbr> in a Wicket component (there are <a href='http://cwiki.apache.org/WICKET/spring.html#Spring-AnnotationbasedApproach'>ways</a>), then use an anonymous <code>IModel</code> subclass to load the model object from the <abbr>DAO</abbr> in a callback. Or, if you dare, you can <a href='https://wicket-stuff.svn.sourceforge.net/svnroot/wicket-stuff/trunk/wicket-phonebook/src/java/wicket/contrib/phonebook/web/DetachableContactModel.java'>retain a reference</a> to a wrapped <abbr>DAO</abbr> in an <code>IModel</code>, which will not serialize and will produce itself from some context on demand. This eliminates the requirement for an anonymous subclass and significantly cuts down the bulk. Whether or not they&#8217;ll still let you board the spaceship after taking a shortcut is hard to say.</p>
+
+<p>The incredible thing is that all of this work is in the name of solving problems that we <em>choose to have</em>. We&#8217;re creating droves of <abbr>DAO</abbr>s (a separate class and interface for each, as well as a reference in some <abbr>XML</abbr> file) and contorting everything to reference them from user interface model wrappers <em>by choice</em>.</p>
+
+<h3 id='databinder_chooses_different'>Databinder chooses different</h3>
+
+<p>The idea with Databinder is that, if you forget about all that nonsense, you can very easily instantiate an <code>IModel</code> subclass that loads itself directly. And here &#8220;directly&#8221; means not at all directly, because there are already a half dozen layers of abstraction when using any <abbr>ORM</abbr> library. So you use those freaking layers to load your freaking model object, and get on with your life. You stop feeling a need to confess to the local enterprise priest after a hundred or so of these:</p>
+
+<pre><code>new HibernateObjectModel(MyClass.class, myId)</code></pre>
+
+<p>The open question was how to extend this approach beyond Hibernate. Since various parts of Databinder were linking to Hibernate in order to cut code in the library and client applications, there wasn&#8217;t any obvious way to isolate it.</p>
+
+<p>The standard approach is to abstract-out the actual persistence layer so that shared code can be built around it. This is also the noisy plan for a gazillion-<abbr>DAO</abbr> application architecture (though carrying this through to anything beyond <abbr>ORM</abbr> zero is decidedly rare), so it&#8217;s immediately suspect. It rests on the idea that any persistence technology can be reduced to a few standard load and save operations involving data objects, session factories, and primary keys: a false assumption.</p>
+
+<p>In practice, it&#8217;s not even true for existing persistence technologies that you can create a common denominator façade that preserves their strengths, let alone for any conceivable future technology. By limiting potential persisters to those you could easily &#8220;swap in,&#8221; you&#8217;re excluding any significant advancement that is <em>worth switching to</em>.</p>
+
+<p>Faced with such prospects, Databinder remained Hibernate-only for two years.</p>
+
+<h3 id='reactivation'>Reactivation</h3>
+
+<p>Well, Hibernate is great and all, but&#8230; Maybe it takes the you too far from <abbr>SQL</abbr>? Maybe it&#8217;s too ambitious in the schemas and class hierarchies it attempts to unify? Maybe its persistence session is not right after all for web request cycles? Maybe we shouldn&#8217;t even be using relational databases for things that are more like documents than spreadsheets? Maybe.</p>
+
+<p>It&#8217;s hard to use Hibernate vigorously without having these doubts. You start to want to come out of the cave and do a little exploring. Such was the mood when Databinder <a href='http://www.codecommit.com/blog/java/databinder-gets-activeobjects-support'>picked up</a> <a href='https://activeobjects.dev.java.net/'>ActiveObjects</a>. It&#8217;s new and, yes, different. It <em>doesn&#8217;t</em> have a per-user persistence session. It does draw inspiration from Rails&#8217; ActiveRecord, while leveraging Java for all that it&#8217;s worth. It feels a lot closer to the <abbr>SQL</abbr> metal. It&#8217;s a breath of fresh air.</p>
+
+<p>So! How did we incorporate a new persistence technology? By turning the traditional abstracted-core model inside out. The new Databinder has several functional cores, and infinitely many specific implementation leaf modules.</p>
+
+<h3 id='its_like_you_know_organic'>It&#8217;s like, you know, <em>organic</em></h3>
+
+<p>Databinder had already been broken into functional modules: models, components, authentication components, and the application kit. This allows applications to link to only the modules they need. In the new Databinder, each functional module is distilled to a shared codebase that persistence-specific modules build upon. So there are <code>databinder-models-hib</code> and <code>databinder-models-ao</code> building upon the abstract module <code>databinder-models</code>.</p>
+
+<p>The resulting module structure is more like a tree than an onion. Rather than trying to anticipate any possible method of persistence through a core interface, it allows future technology to be added as a leaf module. Realizing the impossibility of flawless centralized planning, it grows organically. (Which would seem to be the latest corporate buzzword, but in this case it is apt.)</p>
+
+<p>Not that the module structure is entirely free of future-constraints. The centralized code in each module necessarily makes some assumptions, and some of those will surely bite back. The most dangerous territory is the authentication components module, where Databinder is at its most impulsive in factoring out traditionally application-level code.</p>
+
+<p>But it works: we have a <code>databinder-auth-compnents-ao</code> that you can use with ActiveObjects the same as <code>databinder-auth-components-hib</code> works for Hibernate. The class hierarchy is a bit kaleidoscopic, but when everything is instantiated you get login, registration, and user admin screens for free (so don&#8217;t even think about complaining).</p>
+
+<p>Oh yes, and <a href='http://cayenne.apache.org/'>Cayenne</a> too. Just to make sure that the structure was not hiding some bias for Hibernate and ActiveObjects, this long weekend allowed a few hours to learn some Cayenne and throw together basic support for it. No problem! And once again we see how everything is <em>not</em> like whatever <abbr>ORM</abbr> one thinks of as standard. Cayenne has an <a href='http://cayenne.apache.org/doc20/api/cayenne/org/apache/cayenne/ObjectId.html'>ObjectId</a> class that includes whatever the primary keys may be <em>as well as</em> the data object&#8217;s class. This way, <a href='http://databinder.net/wsvn/Databinder/databinder/trunk/databinder-models-cay/src/main/java/net/databinder/models/cay/DataObjectModel.java?op=file'>the persistent <code>IModel</code></a> need only deal with one of those objects instead of id and class objects. It&#8217;s a nice touch that Databinder would have missed out on if it shoehorned everything into a Hibernatish worldview.</p>
+
+<h3 id='still_growing'>Still growing</h3>
+
+<p>Sorry, none of this is ready to leave the greenhouse yet. Since it has triggered a package reorganization that will break app code, it&#8217;s become an opportunity to rethink organizational details in Databinder. And Jon has been <a href='http://web.mac.com/jonathan.locke/iWeb/JonathanLocke/Blog/8E3DDAE9-859E-48C5-A015-128D85A8C2E6.html'>contributing some excellent ideas</a>. So these new modules are going to be thrashing around on the trunk for a while where they belong.</p>
+
+<p>But don&#8217;t let that stop you from checking it out! Especially if you want to play with and help improve the ActiveObjects and Cayenne modules. And especially especially if you want to <em class='smcp'>add a new persistence module</em>. Please. That would rule.</p>
+
+<pre><code>svn co svn://databinder.net/templates/trunk</code></pre>
+
+<p>That&#8217;s where the little starter applications are housed. Don&#8217;t worry about the <code>pom.xml</code> in the parent directory, that&#8217;s just for deployments. Go into whichever template directory you want, build and run with Maven or Buildr to download everything from the snapshot repository.</p>
+
+<p class='break'> And don&#8217;t worry about being left behind; the spaceship is just another thing they made up.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='../../../resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id2310">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-5159"><p>You&#8217;ve made my day with this post. I&#8217;d begun to think that it was just me. Piling abstraction on top of abstraction so that the one common task can be done with zero configuration and one line of code, while every other task of any interest is scorned as a violation of the latest immutable law of software design that someone pecked out on their blog.</p>
+
+<p>It&#8217;s why the PHP people are eating Java&#8217;s lunch. I&#8217;m supposed to start supporting a web development firm next month, the creation of some ordinary websites. I&#8217;ve searched high and low for a Java CMS that is open source that could begin to compete with Drupal for features and community. There is a candidate or two, but there are so many misfires.</p>
+
+<p>What do all these abstractions buy us? I can&#8217;t find a Java CMS that has anywhere near as many 3rd party modules of WordPress or Drupral. Does it make software extensible? PHP, with it&#8217;s hand&#8217;s on approach to the strings that make a web application what it is, is apparently better able to foster a plug-in community.</p>
+
+<p>I&#8217;m bummed, because I do not like PHP. But in this arena, PHP beats both Java and Ruby with their object layers, in creating the everything and the kitchen sink CMS.</p>
+
+<p>Maybe strings are more adaptable than objects?</p>
+
+<p>Anyway, this is the post that lead me to download Databinder and try it out. I have such respect for a healthy cynicism.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://thinknola.com/"><span class="alias">Alan Gutierrez</span></a>
+  				<span>on February 19, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5160"><p>Thanks Alan, glad you enjoyed it. You may be on to something there with pluggable web apps and PHP. It&#8217;s hard to build a statically typed OOP interface for plug-ins that&#8217;s flexible, particularly if you want to be able to add new plugins without restarting the server. On top of that Java <a href='../the-right-tool-for-the-slob/index.html'>generally lacks</a> the can-do, just hack it attitude you need for a healthy plug-in ecosystem. But I always hope that will change! I wonder if anyone has tried to make an app where Wicket components are added with OSGi modules after deployment; that could be interesting.</p>
+
+<p>I hope you like Databinder. The toolkit is no stranger to abstraction or OOP (being based on Wicket), but all of its structure is strictly in the name of simplifying application code (rather than glorifying itself). If you want a CMS to build sites from largish pre-fab components, obviously you still want something like Drupal or WordPress. But if you want to make a site from scratch using small to mid-size data-driven components, Databinder could fit the bill.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on February 19, 2008</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id2311">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id2312" action="../../../index.html" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id2312_hf_0" id="id2312_hf_0" /><input type="hidden" name="wicket:interface" value=":1301:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id2313" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id2314" name="add" value="Add a comment" onclick="wicketShow('id2314--ajax-indicator');var wcall=wicketSubmitFormById('id2312', '../../../?wicket:interface=:1301:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id2314--ajax-indicator');}.bind(this),function() { ;wicketHide('id2314--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id2312')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id2314--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

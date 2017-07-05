@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / New daube and Buona Sera</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="iddde" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="New daube and Buona Sera" width="441" class="title" src="../../../resources/net.databinder.components.RenderedLabel/5aa7b6b1"/><span class="title">New daube and Buona Sera</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on January 1, 2006</span></span>
+			<span id="idddf" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/restaurants:%20new%20york/#selected-tag"><span>restaurants: new york</span></a><span id="idde0">, </span></span><span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>For New Year&#8217;s Eve dinner, I made a second batch of the Tuscan fries from earlier this week as well as a new version of a daube from Cook&#8217;s Illustrated. With all of the frenzy and excitement, I forgot to take any pictures. I did, however, take a picture of the reheated leftovers tonight!</p>
+
+
+	<p style="float:center"><img src="/pictures/newdaube.jpg" alt="" /></p>
+
+
+	<p>Although that looks a bit unappetizing, this daube was excellent, and it was much more satisfying than the <a href="http://technically.us/eat/articles/2005/12/01/daube-of-short-ribs">short rib version</a> I was making last month. Cook&#8217;s Illustrated called for tender chuck, which became as soft as butter after two hours in the oven. The sauce was much richer too, full of niçoise olives, diced anchovies, bacon, tomato paste, dried cèpes, flour, and big chunks of carrot. Just as the recipe promised, nobody noticed the anchovy flavor specifically. I didn&#8217;t either, although my salient memory of making the thing is the dicing of the anchovy fillets, one of the most disgusting tasks I&#8217;ve faced in the kitchen. Why are anchovies so gross? Next time I might just use anchovy paste. That&#8217;s the same thing, right? Anyway, everybody seemed to enjoy it. They liked the fries as well, although I wish I had cooked them in two batches, because once I put all the potatoes in, I couldn&#8217;t get the oil temperature back up high enough for them to brown very well. The flavor and texture were fine, however.</p>
+
+
+	<p>Today, before Elizabeth and Gerome went back to France, we went to <a href="http://www.menupages.com/restaurantdetails.asp?areaid=0&#38;restaurantid=442&#38;neighborhoodid=0&#38;cuisineid=0">Buona Sera</a> on University Place for the piano brunch, which we&#8217;ve been meaning to do since we moved here. Never again. This place is just lame. My eggs benedict were <strong>below</strong> room temperature, and on a partially frozen English muffin. I sent it back, and when they returned over 20 minutes later, they were only just above warm. Why is it <a href="http://technically.us/eat/articles/2005/12/04/yuca-bar">so hard</a> to get hot food these days? Use the microwave! Use a heat lamp! All I care about is that it&#8217;s hot. We have yet to find a good place to eat on University Place: Cedar is overpriced and infested, Patsy&#8217;s is too expensive even for takeout, Lemongrass is gone, Mandoo Bar is lousy, El Cantinero is owned by our obnoxious downstairs neighbor&#8230;it&#8217;s just impossible to eat on this street. All my hopes lie on the soon-to-be-opened, allegedly &#8220;classy joint&#8221; opening in the old Lemongrass, <a href="http://technically.us/eat/articles/2005/11/05/jacks-bistro-bar">Jack&#8217;s Bistro Bar,</a> which has already visually polluted the block with its hideous paint job.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="idde1">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-1341"><p>I don&#8217;t know if it would work in your daube, maybe not strong enough, but in some recipes I substitute oil-packed sun dried tomatoes for anchovies. I figure they have some of the same properties: salty, strongly flavored, red, and oily, without the nasty fishy taste that I don&#8217;t like. You can also get a sun dried tomato paste in a tube.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">beckyleeprice@mac.com</span></span>
+  				<span>on January 1, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1342"><p>That is good advice. I have anchovy paste in a tube, but frankly I never use it.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on January 1, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="idde2">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="idde3" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="idde3_hf_0" id="idde3_hf_0" /><input type="hidden" name="wicket:interface" value=":506:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="idde4" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="idde5" name="add" value="Add a comment" onclick="wicketShow('idde5--ajax-indicator');var wcall=wicketSubmitFormById('idde3', '../../../?wicket:interface=:506:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('idde5--ajax-indicator');}.bind(this),function() { ;wicketHide('idde5--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('idde3')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="idde5--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

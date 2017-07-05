@@ -1,0 +1,295 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / theory</title>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container tag-listing">
+
+<div id="lead">
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-11">
+		<div class="tag-columns">
+	<div>
+		<span class="elem"><a href="../../../eat/tag/baking/#selected-tag"><span>baking</span></a></span><span class="elem"><a href="../../../eat/tag/drink/#selected-tag"><span>drink</span></a></span><span class="elem"><a href="../../../eat/tag/grocery/#selected-tag"><span>grocery</span></a></span><span class="elem"><a href="../../../eat/tag/restaurants/#selected-tag"><span>restaurants</span></a></span><span class="elem"><a href="../../../eat/tag/techniques/#selected-tag"><span>techniques</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../eat/tag/books/#selected-tag"><span>books</span></a></span><span class="elem"><a href="../../../eat/tag/entertaining/#selected-tag"><span>entertaining</span></a></span><span class="elem"><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span><span class="elem"><a href="../../../eat/tag/restaurants:%20new%20york/#selected-tag"><span>restaurants: new york</span></a></span><span class="elem"><span><em><span>theory</span></em></span></span>
+	</div><div>
+		<span class="elem"><a href="../../../eat/tag/cooking%20with%20fruit/#selected-tag"><span>cooking with fruit</span></a></span><span class="elem"><a href="../../../eat/tag/ethnic%20cooking/#selected-tag"><span>ethnic cooking</span></a></span><span class="elem"><a href="../../../eat/tag/kitchen%20equipment/#selected-tag"><span>kitchen equipment</span></a></span><span class="elem"><a href="../../../eat/tag/restaurants:%20pittsburgh/#selected-tag"><span>restaurants: pittsburgh</span></a></span><span class="elem"><a href="../../../eat/tag/travel/#selected-tag"><span>travel</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../eat/tag/dessert/#selected-tag"><span>dessert</span></a></span><span class="elem"><a href="../../../eat/tag/food%20products/#selected-tag"><span>food products</span></a></span><span class="elem"><a href="../../../eat/tag/party/#selected-tag"><span>party</span></a></span><span class="elem"><a href="../../../eat/tag/school/#selected-tag"><span>school</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../eat/tag/desserts/#selected-tag"><span>desserts</span></a></span><span class="elem"><a href="../../../eat/tag/freshdirect/#selected-tag"><span>freshdirect</span></a></span><span class="elem"><a href="../../../eat/tag/produce%20alerts/#selected-tag"><span>produce alerts</span></a></span><span class="elem"><a href="../../../eat/tag/shopping/#selected-tag"><span>shopping</span></a></span>
+	</div>
+</div>
+
+	<div id="selected-tag"><img height="45" alt="theory" width="101" src="../../../resources/net.databinder.components.RenderedLabel/cf326c54"/></div>
+		
+	<div>
+		<h4><a href="../../../eat/x/cold-brewed-iced-coffee/"><span>Cold-brewed iced coffee</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>August 15, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/stinging-nettles-not-worth-eating/"><span>Stinging nettles: not worth eating</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>June 28, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/heart-disease-redux-and-vermouth-pasta/"><span>Heart disease redux, and vermouth pasta</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>June 20, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-agrees-with-nina-planck/"><span>Mom agrees with Nina Planck</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>May 25, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/eat-featured-in-culinate/"><span>Eat featured in Culinate</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>May 3, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-cooks-fish/"><span>Mom cooks fish</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>February 22, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-laughs/"><span>Mom laughs</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>February 16, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/kitchen-power-struggles/"><span>Kitchen power struggles</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>February 13, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-makes-chili/"><span>Mom makes chili</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>January 12, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/raw-milk-party/"><span>Raw milk party</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>November 24, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/cooking-101-lelands-salad-dressing/"><span>Cooking 101, Leland’s salad dressing</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>October 25, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/leland-goes-live/"><span>Leland goes live</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>September 19, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/last-day-of-bread-class-italian/"><span>Last day of bread class: Italian</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>September 17, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/packaged-greens-can-kill-you/"><span>Packaged greens can kill you</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>September 16, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/fourth-bread-class-hard-labor/"><span>Fourth bread class: hard labor</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>September 9, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/western-pennsylvania-to-eat-local/"><span>Western Pennsylvania to eat local</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>September 8, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/third-bread-class-butter/"><span>Third bread class: butter</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>August 27, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/lelands-list-of-five/"><span>Leland&#039;s list of five</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>August 25, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-revises-her-list/"><span>Mom revises her list</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>August 25, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-names-five-foods-to-try-before-dying/"><span>Mom names five foods to try before dying</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>August 24, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/bread-class-continued/"><span>Bread class, continued</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>August 20, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/iced-coffee-is-not-hard/"><span>Iced coffee is not hard</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>August 15, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/first-bread-class/"><span>First bread class</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>August 13, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/nina-planck-speaks-at-the-strand/"><span>Nina Planck speaks at the Strand</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>August 9, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/my-inadequacy-at-table/"><span>My inadequacy at table</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>August 1, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/kitchen-update-cont-the-stain/"><span>Kitchen update, cont. - the stain</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>July 29, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/milestone-for-mom/"><span>Milestone for Mom</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>July 21, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/sara-dickerman-on-gourmet/"><span>Sara Dickerman on Gourmet</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>July 20, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-rants-about-bottled-water/"><span>Mom rants about bottled water</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>July 20, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/sweet-wine/"><span>Sweet wine</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>July 19, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/heart-disease/"><span>Heart disease</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>July 15, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/hamburgers-2/"><span>Hamburgers</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>July 11, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/nina-plancks-real-food-market/"><span>Nina Planck&#039;s Real Food Market</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>June 17, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-goes-to-the-farmers-market/"><span>Mom goes to the farmer&#039;s market</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>June 5, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/sara-dickermans-down-with-gloves/"><span>Sara Dickerman&#039;s &quot;Down with gloves&quot;</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>May 8, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/foie-gras/"><span>Foie gras</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>May 3, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/burns/"><span>Burns</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>April 20, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/quote-of-the-day-meat/"><span>Quote of the day: meat</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>April 13, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/quick-cooking-from-cooks-illustrated/"><span>Quick cooking from Cook&#039;s Illustrated?</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>February 1, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/lesson-of-the-day-truffles/"><span>Lesson of the day: truffles</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>January 9, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/two-good-times-articles/"><span>Two good Times articles</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>December 7, 2005</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/food-phobias/"><span>Food phobias</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>November 17, 2005</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/finally-someone-makes-sense-of-the-michelin-guide/"><span>Finally, someone makes sense of the Michelin Guide!</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>November 7, 2005</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/le-guide-michelin/"><span>Le Guide Michelin</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>November 3, 2005</span>
+		</div>
+	</div>
+
+	<div><form id="searchbox_014353926172616456646:1qois_andhs" action="http://www.google.com/cse">
+<input type="hidden" name="cx" value="014353926172616456646:1qois_andhs" />
+<input type="hidden" name="cof" value="FORID:0" />
+<p><a href="/eat/archive/2007/10/">Browse by calendar </a>, or     <input name="q" type="text" /><br />
+    <input type="submit" name="sa" value="Search" /></p>
+</form></div>
+
+</div>
+	
+</div> <!-- container -->
+
+<div id="target-padder"></div>
+
+
+
+
+</body>
+</html>

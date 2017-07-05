@@ -1,0 +1,217 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Friday: a feed reader for castaways</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id2580" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Friday: a feed reader for castaways" width="562" class="title" src="../../../resources/net.databinder.components.RenderedLabel/34361157"/><span class="title">Friday: a feed reader for castaways</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on November 24, 2008</span></span>
+			<span id="id2581" class="tags">
+					{&nbsp;<span><a href="../../../code/tag/spde/#selected-tag"><span>spde</span></a><span id="id2582">, </span></span><span><a href="../../../code/tag/processing/#selected-tag"><span>processing</span></a><span id="id2583">, </span></span><span><a href="../../../code/tag/web/#selected-tag"><span>web</span></a><span id="id2584">, </span></span><span><a href="../../../code/tag/scala/#selected-tag"><span>scala</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>News feeds! Where would we be without them? Living in caves, caves with celebrity baby portraits scrawled onto the walls. Feeds liberate the internet&#8217;s constant readers from the sad spectacle of gyrating bodies advertising low-rate mortgages, which is known as the world wide web.</p>
+
+<h3 id='failure_to_communicate'>Failure to communicate</h3>
+
+<p>Besides restoring an ounce of decency to on-line news reading, feeds enable much greater efficiency than the raw web by demarcating individual stories, so that the reader software can track read stories for the user. In theory, you never have to see the same dumb story twice. If you skim hundreds of stories a week and do not want to miss <em>anything</em> or waste your time, using a feed reader is more than worth the hassle.</p>
+
+<p>There is only one problem: most of us kids these days are using more than one computer! (Except for the all-eggs-in-one-notebook crowd, and they really should get out more.) Using more than one computer breaks read status tracking, whether you read with separate readers or fall back to slurping the web on satellite machines. If you feed-read at work you&#8217;re lost on the weekend or when traveling, and inundated with stale news when you return. The happy vs. hassle seesaw flops in the wrong direction, and this is why 0.0% of the world actually uses desktop feed readers.</p>
+
+<p>The web thinks it can solve this problem, like always. A web application acts as your feed reader, maintaining read status on Google or Blogline&#8217;s servers. This works well enough for a great number of people, but if you&#8217;ve ever used a desktop feed reader the web readers feel like clunk. Keyboard navigation is crucial for reading, but Javascript apps can&#8217;t reliably trap the best keys (cursors and space) across all browsers. So it becomes an exercise in mousing like the web in general, and who knows what hideous animated nonsense will be fed into the unprotected browser from the feed or the reader app itself. You can keep it, masses!</p>
+
+<p>The best solution to the problem came a hundred years ago when <a href='http://www.newsgator.com/'>NewsGator</a> started to offer free subscription and read status synchronization across feed reader instances, applications, and even platforms. They bought <a href='http://www.newsgator.com/individuals/netnewswire/'>NetNewsWire</a> and have been giving it away for free. It is basically crazy not to use their software and services, unless you&#8217;re on a platform that lacks a compatible reader like Ubuntu. Then it&#8217;s kind of a major bummer that your <a href='http://technically.us/code/x/new-toy-new-toy-new-toy/'>new toy</a> cuts you off from the stream of news that sustains your intellectual life! NewsGator is not building a Linux-compatible reader (they mostly seem to buy such things) and none of the Linux readers are working on integration with NewsGator, an imposing job to be sure.</p>
+
+<h3 id='so_project'>So, project!</h3>
+
+<p>NewsGator&#8217;s ambitious synchronization actually makes the task of writing a compatible reader much easier. Whereas a traditional reader needs a persistent data model and user interface to support adding and organizing subscriptions, one that works through managed synchronization can leave that task up to other software. It only needs to know how to fetch unread stories and update their read status.</p>
+
+<p>Among the <a href='http://www.newsgator.com/ngs/api/'>NewsGator <abbr>API</abbr>s</a> is a <abbr>REST</abbr> one, which is an acronym meaning &#8220;let&#8217;s just do this with <abbr>HTTP</abbr> and try not to make everything needlessly painful.&#8221; Supposing you already had <a href='http://technically.us/code/x/giving-it-a-rest/'>an <abbr>HTTP</abbr> interface</a> you liked, and also a platform and environment for making <a href='http://technically.us/code/x/runaway-processing/'>fun desktop software</a>, the path to writing this application would be pretty straightforward.</p>
+
+<p class='break'>(It was.)</p>
+
+<p class='break'> <a href='http://technically.us/friday/'><img alt='Get Friday' src='http://technically.us/resources/com.typeturner.Typeturner/image?name=friday-bundle' style='border: none' /></a></p>
+
+<p class='break'>Say hello to Friday, a feed reader for eccentrics who like words. You can download a runnable jar for any platform, or a Mac application bundle containing that jar and with a hawt icns for the dock. (Runnable jars compressed by <a href='http://proguard.sourceforge.net/'>ProGuard</a> are like Java Web Start without the wrist slitting and long downloads.) To run Friday you&#8217;ll need Java 1.5+ and a <a href='http://www.newsgator.com/ngs/order1.aspx'>NewsGator account</a>.</p>
+
+<p>Fill the account with interesting feeds, either on NewGator&#8217;s site or with a compatible client like NetNewsWire, then open Friday and log in. (Name and password optionally save in <code>Friday.properties</code> file of the working directory.) Cursor left and right to move through stories, up and down to scroll by page, spacebar to mark as read and enter to opens in your default web browser. It&#8217;s awesomer than it sounds. (<a href='http://processing.org/'>Processing</a>!) In fact, you might stop using your regular desktop feed reader even on platforms it supports, because Friday is more fun. Or maybe that attachment only develops if you develop Friday.</p>
+
+<p>By the way, Friday is written in the <a href='http://neopythonic.blogspot.com/2008/11/scala.html'>complex, disappointing</a> language known <strong>Scala</strong>, and not any of those fast and easy ‘<em>type? shmype!</em>&#8217; languages that people are always using to write their own jaunty feed reading apps in their spare time for their personal use.</p>
+
+<h3 id='actors_are_tougher_than_they_sound_and_easier_than_they_look'>Actors are tougher than they sound and easier than they look</h3>
+
+<p>One thing that was new in Friday, for this coder, was using Actors. It&#8217;s bean real fun, guys, hearing about how easy that concurrency library was for the past year when we could not wrap our heads around it to save our lives! Turns out though you just have to know 90% of the Scala language, and then the Actors library is easy. So if you&#8217;re still suspicious about &#8216;currying&#8217; and partial functions make you want to partially throw up, don&#8217;t worry about fully understanding Actors. That&#8217;s probably why they&#8217;re in the back of <a href='http://www.artima.com/shop/programming_in_scala'>the book</a>. But they are really super when you are ready to use them.</p>
+
+<p>At Friday&#8217;s core is the beating heart of Processing, which will hit the draw method as fast as it can up to the maximum framerate you set, if any. So that is your main thread, and Actors are the perfect tool for doing work asynchronous to drawing. Since this is a network application, that is obligatory. Take a look:</p>
+
+<pre><code>def draw() {
+  if (applet.frame.isVisible)
+    writer !? Draw
+}</code></pre>
+
+<p>This draw loop sends a synchronous <code>Draw</code> message to <code>writer</code>. It doesn&#8217;t run in parallel since we want the draw commands to execute before the method terminates, as normal for Processing. If that were its only entry point <code>writer</code> wouldn&#8217;t need to be an Actor, but it also receives messages from an Actor that runs asynchronously. Actors will only process one message at a time, so <code>writer</code> can safely update its local variable without worrying about stepping on its own toes.</p>
+
+<pre><code>val writer: Actor = actor {
+  var program = Program(Nil)
+  act_loop {
+    react {
+      case Draw =&gt;
+        val last_moving = program.moving
+        background(0xFF999999)
+
+        program = program.draw
+        if (!(last_moving || program.moving)) {
+          noLoop()
+        }
+        reply(None)
+      case p: Program =&gt;
+        program = p
+        loop()
+      ...</code></pre>
+
+<p>Whoa, name collisions galore! We had to make use of one of Scala&#8217;s complex features to rename <code>Actor.loop</code> to <code>act_loop</code>, since <code>loop</code> is itself a pretty important method in Processing.</p>
+
+<pre><code>import scala.actors.Actor.{loop =&gt; act_loop, link =&gt; act_link, _}</code></pre>
+
+<p>How complex and quite scary! You can do something like that or you can just not use these awesome libraries that happen to conflict, take your pick. The methods <code>loop()</code> and <code>noLoop()</code> turn off and on the hungry draw loop in Processing&#8217;s main thread. That might seem like a gratuitous optimization, but it is the difference between Friday using a responsible amount of processor time when idle versus it turning your laptop into a space heater. The <code>reply(..)</code> call is only necessary for messages that are sent synchronously.</p>
+
+<h3 id='its_a_twoday_week_here'>It&#8217;s a two-day week here</h3>
+
+<p class='liner'>Awesomely, Processing&#8217;s text wrapping is already fixed in 1.0 core, so now Friday <a href='http://technically.us/git?p=Friday.git;a=commitdiff;h=066a319cc6e48fef7e35d88a8d1f2aa3a9c71ced;hp=4fa8c56af45aaa204248f5f64328fed8a02bb583'>has regular margins</a>.</p>
+
+<p class='break'> That is all for now! There is enough material in Friday for a half dozen posts, and the software is not finished either. Mainly, it needs Spde to offer better long text rendering than what comes with Processing (something that wraps before instead of after hitting the margin, etc) to advance. But still it&#8217;s kind of sweet already, no? You can hack away on Friday inside Spde (<a href='http://technically.us/torrents/'>torrents</a>), and clone from:</p>
+
+<pre><code>git clone git://technically.us/git/Friday</code></pre>
+
+<p class='break'> But please don&#8217;t add gyrating bodies to any Friday fork.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id2585">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-5939"><p>Very cool &#8230; thanks for the writeup and example code to play with.</p>
+
+<p>I&#8217;m a Google Reader type of guy myself, but always appreciate new scala code in the wild that I can learn from.</p>
+
+<p>Thanks, -steve</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://cbio.mskcc.org/~lianos"><span class="alias">Steve Lianoglou</span></a>
+  				<span>on November 24, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5940"><p>I was going to talk some trash about Google Reader specifically, but then I looked at it last night (fact checking!) and it has improved considerably since I first saw it. It&#8217;s not bad, for a web-based feed reader.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on November 24, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5941"><p>Death to the Google Reader trash-talkers!! :-)</p>
+
+<p>Seriously, I use Google Reader to manage hundreds of feeds with ~150-200 new items per day. I almost never have a problem with it. I have used desktop clients (including NewsGator), but they just aren&#8217;t as efficient. I&#8217;ll grant you that Reader used to suck some serious a**, but since the redesign (two+ years ago), it&#8217;s been very very good.</p>
+
+<p>With that said, I wish you the best of luck with Friday! One thing you might want to consider in addition to NewsGator synchronization is Google Reader sync. It does have an API AFAIK that you can use to do similar things behind the scenes. Considering that more people use Reader these days than all the other RSS aggregators put together (source Feedburner), it might be a bigger draw.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.codecommit.com"><span class="alias">Daniel Spiewak</span></a>
+  				<span>on November 24, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5942"><p>I haven&#8217;t used their windows client, FeedDemon, enough to know if it&#8217;s comparable to NNW. And while you&#8217;ve made an informed decision, I&#8217;m sure that most people haven&#8217;t gone as far as to set up synchronization (if they&#8217;ve tried a desktop reader at all), leaving them with the false impression that the killer feature of <em>universal read status</em> is unique to web-based readers. Well, anyway, it&#8217;s good to know that Google has an API as well in case NewsGator folds, which wouldn&#8217;t be for a lack of good ideas or products (just a lack of Google&#8217;s market-crushing name, I cynically insist). Barring that sad possibility I&#8217;ll continue to stick with NewsGator&#8217;s news software and services, which happen to be the best. ;)</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on November 24, 2008</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id2586">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id2587" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id2587_hf_0" id="id2587_hf_0" /><input type="hidden" name="wicket:interface" value=":1369:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id2588" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id2589" name="add" value="Add a comment" onclick="wicketShow('id2589--ajax-indicator');var wcall=wicketSubmitFormById('id2587', '../../../?wicket:interface=:1369:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id2589--ajax-indicator');}.bind(this),function() { ;wicketHide('id2589--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id2587')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id2589--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

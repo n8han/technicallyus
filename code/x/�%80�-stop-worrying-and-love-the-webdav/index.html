@@ -1,0 +1,140 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="../../../blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="../../../blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet.css"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / ... stop worrying and love the WebDAV</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code.html">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code.html">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id229a" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="... stop worrying and love the WebDAV" width="615" class="title" src="../../../resources/net.databinder.components.RenderedLabel/b37995c1"/><span class="title">... stop worrying and love the WebDAV</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on October 5, 2005</span></span>
+			<span id="id229b" class="tags">
+					{&nbsp;<span><a href="../../tag/ubuntu/index.html#selected-tag"><span>ubuntu</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>I&#8217;ve been searching for the perfect file sharing setup for Ubuntu and the Macs. My needs right now are pretty basic: I&#8217;m tired of secure copying photos when I want to reference them on a web page. In the long term I&#8217;ll be editing source code on one of the macs that I need to execute and test on the linux box.</p>
+
+
+	<p>I immediately ruled out <span class="caps">SMB</span> networking. I know that both OSes have good implementations, but I am <em>not</em> going to use adapted Microsoft technology to network two unixes in my house. Nuh uhh. I figured that <span class="caps">NFS</span> would be the best best, since it&#8217;s been around forever and of course both OSes have it built-in. I&#8217;d set up <acronym title="Network File System">NFS</acronym> once before, years ago, and had bad, vague memories. Surely things had gotten better.</p>
+
+
+	<p>Nope. Worse. <span class="caps">NFS</span> expects users to have the same ID numbers across systems. Between Linux and Mac OS, that is not a coincidence you&#8217;ll be lucky enough to find. In theory, you set up a login server, like <acronym title="Network Information Server">NIS</acronym>, to manage your users in a central place. But who wants to pollute their Mac OS setup with <span class="caps">NIS</span>, if that&#8217;s even possible? I only have two users anyway; this was obviously too complicated.</p>
+
+
+	<p>My next failed attempt was to use <a href="http://www.openafs.org/">OpenAFS</a>. On the good side, it&#8217;s cited all over the place as more secure than <span class="caps">NFS</span>, and it doesn&#8217;t depend on your local login credentials. On the bad side, its home page looks like something out of 1999. I should have known better, but last night I spent hours installing OpenAFS, then Kerberos, and finally giving up on that as well. Talk about complicated!</p>
+
+
+	<p>I briefly considered <a href="http://netatalk.sourceforge.net/">Netatalk</a>, an implementation of good old AppleTalk. The problem there is that the modern versions, which are required for networking with Mac <span class="caps">OS X</span>, are not available as Ubuntu packages. If I&#8217;m going to run something as vulnerable as file serving software, I&#8217;d like for it to be auto-updated if there&#8217;s a breach.</p>
+
+
+	<p>Finally, I decided to enable WebDAV. I only need to upload some pictures to the web server — WebDAV&#8217;s <em>raison d&#8217;être</em>. It took about 15 minutes to enable it in Apache. Duh. Even with <a href="http://en.wikipedia.org/wiki/Digest_access_authentication">digest authentication</a>. Mounting the directories on the macs was easy too.</p>
+
+
+	<p>Maybe someone will eventually package Netatalk for Ubuntu. Maybe <span class="caps">NFS</span> will get easier for simple-but-heterogenous setups like mine. Until then, I&#8217;m just not going to worry about it. Though it sounds flimsy, WebDAV works well, and is plenty good enough to push around pictures and edit text files in-place. Long live simplicity.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='../../../resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id229c">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-1034"><p>This is exactly what I&#8217;ve always thought about WebDAV!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">MrLittlePants</span></span>
+  				<span>on October 5, 2005</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1035"><p>That <em>is</em> what you&#8217;ll think whenever I lure you over to fabulous technically.us weblog hosting.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8han</span></span>
+  				<span>on October 5, 2005</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id229d">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id229e" action="../../../index.html" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id229e_hf_0" id="id229e_hf_0" /><input type="hidden" name="wicket:interface" value=":1292:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id229f" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id22a0" name="add" value="Add a comment" onclick="wicketShow('id22a0--ajax-indicator');var wcall=wicketSubmitFormById('id229e', '../../../?wicket:interface=:1292:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id22a0--ajax-indicator');}.bind(this),function() { ;wicketHide('id22a0--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id229e')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id22a0--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

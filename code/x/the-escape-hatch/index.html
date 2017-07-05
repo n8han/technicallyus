@@ -1,0 +1,442 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="../../../blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="../../../blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet.css"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / The escape hatch</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code.html">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code.html">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id231e" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="The escape hatch" width="283" class="title" src="../../../resources/net.databinder.components.RenderedLabel/ed813877"/><span class="title">The escape hatch</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on June 18, 2007</span></span>
+			<span id="id231f" class="tags">
+					{&nbsp;<span><a href="../../tag/databinder/index.html#selected-tag"><span>databinder</span></a><span id="id2320">, </span></span><span><a href="../../tag/buildr/index.html#selected-tag"><span>buildr</span></a><span id="id2321">, </span></span><span><a href="../../tag/jvm/index.html#selected-tag"><span>jvm</span></a><span id="id2322">, </span></span><span><a href="../../tag/wicket/index.html#selected-tag"><span>wicket</span></a><span id="id2323">, </span></span><span><a href="../../tag/scala/index.html#selected-tag"><span>scala</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Programming in Java can be tiresome. The language itself is pedantic, famously knowing better than its users when exception handling code is necessary. But its users are worse, always fretting over their <em>best practices</em> and how to avoid dreaded <em>anti-patterns</em> (as if the word &#8220;pattern&#8221; applied only to good things). The Java contingent&#8217;s corporate mindset, tolerance for unwieldy syntax, and lack of creativity have lead to <a href='http://lukewelling.com/2006/08/03/java-programmers-are-the-erotic-furries-of-programming/'>mockery</a> in the programming world at large. In numbers Java dominates that world, but like Microsoft&#8217;s dominance of operating systems, the elite have moved on.</p>
+
+<p>Yet somewhere between the best practices and the anti-patterns of Java scolds, we&#8217;ve found there is still some interesting programming to be done. The <abbr>JVM</abbr> gives us access to a variety of libraries, some of them useful. A few, like <a href='http://wicket.sourceforge.net/'>Wicket</a>, are so good they would have changed the whole internet by now, but for the craven conformity of Java masses (and the aloofness of post-Java types who refuse to consider the happenings in our pidgin language).</p>
+
+<p>For this reason we&#8217;ve had an idea in the back of our heads for a while now: attempting to implement a Wicket derivative in some better language before <a href='http://technically.us/n8/articles/2007/01/26/apple-is-making-a-web-toolkit-for-ruby'>someone else</a> does it first. This would require moving from Manhattan to a shack in the hinterlands where we could live off of savings for several years, but sometimes you have to make sacrifices.</p>
+
+<h3 id='sometimes_you_dont_have_to_make_sacrifices'>Sometimes you don&#8217;t have to make sacrifices</h3>
+
+<p>Hey everybody! Have you heard of this language called Scala? It&#8217;s both functional and object oriented, and it can call into Java libraries. We first heard of this scaly thing a few months ago, from a colleague. We were talking about how Groovy might be the answer to Java&#8217;s woes, except that some of the concepts it eschews, like anonymous subclasses, can make it hard to work with Java libraries, <a href='http://bigheadco.blogspot.com/2007/03/wicket-and-groovy.html'>like Wicket</a>. The colleague suggested that I look at Scala. My awful internet-y short-attention-span evaluation of the language proceeded as follows:</p>
+
+<ol>
+<li>
+<p>Where the heck is its web site? It&#8217;s not even in <a href='http://www.google.com/search?q=scala'>the top ten for &#8220;scala&#8221;</a>. Google doesn&#8217;t know scala, and neither should I! [Update: a fortnight later, it&#8217;s number four.]</p>
+</li>
+
+<li>
+<p>Okay, <a href='http://www.scala-lang.org/'>here&#8217;s the web site</a>. It&#8217;s not pretty. If these scala people cared about the web, or about me, or about their supposed &#8220;language,&#8221; they would have better looking web site.</p>
+</li>
+
+<li>
+<p>No one&#8217;s using this. There must be a good reason for that. It&#8217;s not like people aren&#8217;t aware of it. One Java smart-y-pants <a href='http://gafter.blogspot.com/2006/11/reified-generics-for-java.html#comment-3979548403357760816'>doesn&#8217;t seem too impressed</a>.</p>
+</li>
+</ol>
+
+<p>Thus Scala stayed hidden from this weblog&#8217;s gaze, until Marcus showed us <a href='http://marcus-schulte.blogspot.com/2007/06/tapestry-components-in-scala.html'>&#8220;how a Tapestry page looks like in Scala&#8221;</a>. It looks easy, that&#8217;s how! And if it&#8217;s that easy in Wicket&#8217;s curmudgeonly predecessor Tapestry, it couldn&#8217;t be very hard in Wicket. So we checked out Scala, for reals this time.</p>
+
+<p>An important point about Scala is that it <em>is</em> statically typed. Yes, we&#8217;re aware that all the cool languages right now are dynamically typed. But unlike the question of whether or not Java is a verbose, awkward, limited, and generally unfashionable language, the static versus dynamic war is far from over. You can reasonably be on either side of it.</p>
+
+<p>That is, unless you&#8217;re integrating with Java libraries. In that case, dynamic typing is a waste of time for both the programmer and the processor. Dynamic languages <a href='http://www.avibryant.com/2006/11/ruby-and-the-jv.html'>beg specific optimizations</a> that the <abbr>JVM</abbr> does not provide, forcing Groovy and JRuby to run on treadmills. Furthermore, we&#8217;re extending class hierarchies from Java libraries and we want the code to mesh easily. Dynamic typing and all the debatable advantages it has are not worth the complications of integration with statically typed code. (This <a href='http://technically.us/n8/articles/2007/02/21/meanwhile-on-the-desktop-front'>goes both ways</a>, of course.)</p>
+
+<p>Scala interfaces beautifully with Java libraries including, it turns out, Wicket. Therefore it isn&#8217;t necessary to rewrite Wicket in a pure object-oriented, functional language because you can already use Wicket perfectly well in <a href='http://www.scala-lang.org/intro/index.html'>one of those</a>. Cynics might assume that Scala is linguistically compromised by the <abbr>JVM</abbr> or tainted by its very proximity to The Java. We aren&#8217;t qualified to counter that argument (the language programs real nice!11), but those who think they&#8217;re qualified to make it should consult Scala&#8217;s high-minded <a href='http://www.scala-lang.org/docu/index.html'>documentation section</a>.</p>
+
+<h3 id='writing_a_wicket_and_hibernate_application_in_scala'>Writing a Wicket and Hibernate application in Scala</h3>
+
+<p>If we wanted this post to be linked from popular Java sites, this would have been its only section. And that would have been its title, except with &#8220;in ten steps&#8221; at the end. And a subtitle of &#8220;Java is not doomed—Myths EXPOSED.&#8221; Anyway!</p>
+
+<pre><code>package example
+
+import net.databinder._
+import net.databinder.models._
+import net.databinder.components._
+import javax.persistence._
+import org.hibernate.cfg._
+import org.apache.wicket.markup.html._
+import org.apache.wicket.markup.html.basic._
+import org.apache.wicket.markup.html.form._
+import org.apache.wicket.markup.html.list._
+
+class Scale extends DataApplication {
+  def getHomePage = classOf[Home]
+  override def configureHibernate(config: AnnotationConfiguration) {
+    super.configureHibernate(
+        config.addAnnotatedClass(classOf[Weight])
+        )
+  }
+}
+
+@Entity
+class Weight extends  java.io.Serializable {
+  @Id @GeneratedValue 
+  var id: Int = _
+  var value: Float = _
+}
+
+class Home extends WebPage {
+  add(new DataForm(&quot;form&quot;, classOf[Weight]) { 
+    override def onSubmit() {
+      super.onSubmit()
+      clearPersistentObject()
+    }
+  }.add(new TextField(&quot;value&quot;)))
+  add(new PropertyListView(&quot;weights&quot;, new HibernateListModel(&quot;from Weight&quot;)) {
+    def populateItem(item: ListItem) = item.add(new Label(&quot;value&quot;))
+  })
+}</code></pre>
+
+<p>That is the entire application. In Scala you&#8217;re allowed to put whatever classes you want in a source file. You usually wouldn&#8217;t want every class in one file, but the freedom is there.</p>
+
+<p>Starting from the top, we have the package declaration and then the familiar buzzkill of import statements, except with a <code>_</code> instead of a <code>*</code>. No less ugly though. Let&#8217;s move on. <code>Scale</code> is the application class. If Wicket were written in Scala it would be a Scala singleton <code>object</code>, but this works fine. See that one line <code>getHomePage</code> method? This is how much fun it would be to write in Java:</p>
+
+<pre><code>@Override
+public Class getHomePage() {
+	return Home.class;
+}</code></pre>
+
+<p>You could write all that on one line, but people would wring their hands over it in code review. Plus it really would be ugly.</p>
+
+<p>Let&#8217;s look at the <code>Weight</code> class. It maps to a database table storing rows of a floating point number and an integer primary key; both are public variables in its class definition. Public variables!?! Yes, but the reference and assign operations are overridable methods so it is okay. There&#8217;s an <a href='http://osdir.com/ml/lang.scala/2005-12/msg00008.html'>interesting discussion</a> about how it works if you want to read it.</p>
+
+<p>Hibernate Annotations uses field mapping for a thusly defined Scala class, making us wonder what exactly would happen with a <code>_=</code> override, but in practice we&#8217;re often wishing Hibernate would bypass whatever weird stuff we sometimes have to do in a set method. There&#8217;s enough play in Scala and H.A. that unexpected adjustments should be possible without having to change schema or outside code. We&#8217;re just thrilled to be able to dispense with those hideous &#8220;getters&#8221; and &#8220;setters&#8221; for the very common base case.</p>
+
+<p>Note that the standard numeric and boolean types in Scala can not be set to null. In our class the values are initialized to <code>_</code> which maps to <code>0</code>. To be able to null the <code>value</code> field (for the database and the user interface) we could set it instead to <code>java.lang.Float</code>.</p>
+
+<p>Finally, the <code>Home</code> class is the real meat as far as Wicket is concerned. Wicket likes constructors and, conveniently, in Scala constructing statements go right in the body of the class. In this case we&#8217;re using only the default constructor but alternate constructors are supported.</p>
+
+<p class='out'> <img src='../../../pictures/scale.png' alt='' /></p>
+
+<p>The class adds a Databinder <code>DataForm</code>, which by default wraps its model object in a compound property model and saves or updates it in <code>onSubmit()</code>. By clearing the model after each submit we allow an new one to be added on the next request. The <code>TextField</code> maps to the <code>Float</code> field as it would with bean-style property methods. This doesn&#8217;t look much different from how it would in Java.</p>
+
+<p>To list the existing <code>Weight</code> values we can implement <code>populateItem()</code> in one line. Most lists have more than one component per item, but we&#8217;ll take our terse syntax when we can get it. There are plenty of anonymous subclass overrides in Wicket programming requiring only one statement; Scala lets us implement them with half the bloat.</p>
+
+<p>This is <code>Home.html</code>, where the fabulous entry and display components are told where to render themselves:</p>
+
+<pre><code>&lt;!DOCTYPE HTML&gt;
+&lt;html&gt;
+&lt;body&gt;
+&lt;form wicket:id=&quot;form&quot;&gt;
+	&lt;input type=&quot;text&quot; wicket:id=&quot;value&quot; /&gt;
+	&lt;input type=&quot;submit&quot; /&gt;
+&lt;/form&gt;
+&lt;ol&gt;
+	&lt;li wicket:id=&quot;weights&quot;&gt;&lt;span wicket:id=&quot;value&quot;&gt;1.75&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+<h3 id='what_this_all_means'>What this all means</h3>
+
+<p>It is easy to learn enough Scala to code with Java libraries. As in this example, the finished product might still be utterly procedural, but it benefits significantly from the abbreviated structures that Scala provides. Translating from Java to Scala is not difficult: rename the file and start fixing compilation errors. (Deleting a ton of semicolons and curly braces is optional.)</p>
+
+<p>Some people have petitioned Sun to bring things like implied types and traits (mix-ins) from Scala to Java. That isn&#8217;t likely to happen in the Java quagmire. Significantly improving this or any decade&#8217;s corporate programming language in ways that would break existing code is impossible. There is too much money behind the Java status quo. Or, as contented Java programmers like to say, &#8220;Java pays my bills.&#8221;</p>
+
+<p>But Scala transcends Java. It makes clever use of the <abbr>JVM</abbr> to enable modern coding for efficient execution in an environment that is present on almost every computational device. (iPhone, damn you.) Because of Scala, we don&#8217;t have to worry about Sun&#8217;s corporate gridlock. We can unsubscribe from <a href='http://gafter.blogspot.com/'>Neal Gafter&#8217;s blog</a> and not even care if he ever gets a closure proposal past Java committees. We can just <em>use Scala instead</em>.</p>
+
+<p>And, as we have time, we can explore the unfamiliar constructs that Scala allows and incorporate them into code that we write, rewrite, and wrap. In Wicket, perhaps we&#8217;d like to make it dead simple for a <code>Label</code> to dynamically render with a functional <code>IModel</code>? That would be easy enough to make:</p>
+
+<pre><code>class Fodel(value: () =&gt; Object) extends AbstractReadOnlyModel {
+  override def getObject = value
+}</code></pre>
+
+<p>And to use:</p>
+
+<pre><code>new Label(&quot;status&quot;, new Fodel( () =&gt; { if (some_comp isEnabled) &quot; :) &quot; else &quot; :( &quot; } ))</code></pre>
+
+<p>It is obvious that Databinder will be rewritten in Scala. We&#8217;ll be careful to keep essential interfaces simple enough for the Java compiler to understand, but there will be better interfaces for Scala code. Like modern web sites just working on Internet Explorer 6 and shining on less hunchbacked browsers, we hope to be the first of many <abbr>JVM</abbr> libraries escaping from Java to a better world.</p>
+
+<h3 id='anybody_got_a_hammer'>Anybody got a hammer?</h3>
+
+<p>We wish we could say it&#8217;s as easy to compile and package Scala code as it is to write it, but Scala&#8217;s toolset has reached only the point that motivated people can get work done in it. Now that motivated people <em>are</em> getting work done in it and its popularity is growing, the masses will soon be clamoring for tools that do everything and do it perfectly, and frazzled unpaid toolset programmers will accomodate them in time. Later is the time to start in Scala if you insist on things being easy.</p>
+
+<p>As we saw in the <code>Weight</code> class, Scala handles <abbr>JDK</abbr> 1.5 annotations perfectly&#8212;but you have to tell it to target 1.5 of course. The <a href='http://www.scala-lang.org/downloads/eclipse/index.html'>Scala Eclipse plug-in</a> has such an option, but it doesn&#8217;t seem to work. The good news is that there is a Scala Eclipse plug-in in the first place! It compiles on save and highlights errors. It&#8217;s able to replace code in debug mode (there it helps to have classes in separate source files). Breakpoints are supposed to work, and sometimes do.</p>
+
+<p>And there <em>is</em> a <a href='http://millstone.iodp.tamu.edu/~blambi/maven-scala-plugin/'>Scala Maven plug-in</a>, but&#8212;ha ha&#8212;it can&#8217;t target <abbr>JDK</abbr> 1.5 either. We tried to remedy that for an hour or so, and then tried some other Scala Maven plug-in that seemed even more neglected&#8212;this was the sign we were waiting for to abandon Maven. Good bye Maven.</p>
+
+<p><a href='http://buildr.rubyforge.org/'>Buildr</a> is what we&#8217;re using for this and future projects. There&#8217;s a lot to be said about Buildr, but for now let&#8217;s just say that it gives you a hammer to work with; Maven assigns you a construction contractor. After the contractor let us down we took the hammer and made a <code>Rakefile</code> that is probably horrendous and we won&#8217;t dare publish here, but it compiles Scala sources to <abbr>JDK</abbr> 1.5 code. Sometime we will nicely ask the Buildr people if they want to support Scala directly, because it is probably not hard for them.</p>
+
+<p>For the brave, the example above is <a href='http://databinder.net/other/scale.tar.bz2'>available to download</a>. If you run <code>rake</code> inside it will try to download a bunch of jars to your Maven repository and build itself. If that works you could try <code>rake scale:run</code> to run the demo with Jetty against an in-memory <abbr>HSQLDB</abbr>. (A MySQL config is provided in <code>hibernate.properties</code> commented-out lines.)</p>
+
+<p>With a crowbar in addition to that hammer you can edit the Eclipse <code>.project</code> file that Buildr generates to make it a Scala project file, and have Eclipse output its compile to something besides <code>target/classes</code>. Then, set the project to execute <code>rake</code> on every auto-build. That will update the compiled classes, page templates, and property files in <code>target/classes</code> to which you can point your Eclipse Jetty plug-in, if you have one.</p>
+
+<p>Whew! It&#8217;s not as bad as it sounds, and the environment is productive once you have it set up. We just made an <a href='http://www.gemmaredux.com/'>actual web site</a> in it. Yes, the first Databinder site in Scala is already live! Calling it Scala is kind of funny since Scala is the tip of the iceberg and Java is the rest of the iceberg, but it does establish that this crazy business we just went over actually works, and doesn&#8217;t immediately try to serialize the entire class hierarchy (which we feared it would).</p>
+
+<p class='break'> Now, please excuse us as we have to go shower off twelve years of boilerplate code.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='../../../resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id2324">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-562"><p>I just couldn&#8217;t resist: <a href='http://digg.com/programming/Writing_a_Wicket_and_Hibernate_application_in_Scala_in_10_steps'>link</a></p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.2rue.de"><span class="alias">rue</span></a>
+  				<span>on June 18, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-563"><p>Ha! We&#8217;ll see if that goes anywhere. And yes, this post is <em>very long</em>. It hurts me more than it hurts you.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8han</span></span>
+  				<span>on June 18, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-565"><p>I can only think about the pain. It&#8217;s a good, long read.</p>
+
+<p>I&#8217;m curious where the voyage of a scripted JVM will be going.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.2rue.de"><span class="alias">rue</span></a>
+  				<span>on June 18, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-568"><p>Now you&#8217;ve done it! I&#8217;ll be now worrying over all my Wicket code, wondering if there is a tighter way&#8230;</p>
+
+<p>Thanks for the nice writeup. I&#8217;ll def be taking a look at Scala. And good luck with the Databinder re-write, this should be interesting.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://ptrthomas.wordpress.com"><span class="alias">Peter Thomas</span></a>
+  				<span>on June 19, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-569"><p>Fortunately, Databinder is teeny tiny or I wouldn&#8217;t make such brash plans. It will take me longer to translate things I&#8217;ve written on top of it, but since Scala is so insanely compatible I could do Databinder first. Not making any promises tho! Actually, I promise <em>not</em> to make any big changes to Databinder at all until Wicket 1.3 rolls followed by Databinder 1.1.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8han</span></span>
+  				<span>on June 19, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-571"><p>Nice! Scala has been on my to-check-out list for such a long time now that I can only read this post cursing the fact that I&#8217;m spending every free minute I have on Wicket! Seriously, give me a few months to get the book out of the door, and I&#8217;ll jump that Scala band wagon!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://chillenious.wordpress.com/"><span class="alias">Eelco Hillenius</span></a>
+  				<span>on June 19, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-574"><p>you have been thoofed (<a href='http://thoof.com'>thoof.com</a>)</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">gerolf</span></span>
+  				<span>on June 19, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-576"><p>Nice post, it&#8217;s great to see more converts to the Good Cause. Here&#8217;s another thing you can do with Scala: <a href='http://neilbartlett.name/blog/2007/06/13/eclipse-pde-does-scala/'>write Eclipse plug-ins</a>.</p>
+
+<p>As you noted, the plug-in for Scala needs a little work. Wouldn&#8217;t it be cool to fix it up in Scala itself? ;-)</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://neilbartlett.name/blog"><span class="alias">Neil Bartlett</span></a>
+  				<span>on June 19, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-577"><p>No complaints here! I&#8217;m glad to have the plug-in as it is, but I also want fresh converts to know what to expect and how I worked around a few problems I ran into. Thank you for your work on the plug-in&#8212;as I understand it is pretty much your baby. I wouldn&#8217;t be using Scala without it. <strong>Updated:</strong> I must have been very confused here. The plug-in is Sean McDirmid&#8217;s.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8han</span></span>
+  				<span>on June 19, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-579"><p>Although I see a few things I don&#8217;t like, Scala looks quite interesting. I wonder if it would be too late for me to contribute a few ideas.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://web.mac.com/jonathan.locke/iWeb/JonathanLocke/Blog/Blog.html"><span class="alias">Jonathan Locke</span></a>
+  				<span>on June 20, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-580"><p>BTW, typo above where you said Fodel instead of Model, but I think we all knew what you meant. ;-)</p>
+
+<p>Great article!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Jonathan Locke</span></span>
+  				<span>on June 20, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-581"><p>I doubt it would be too late at all. There&#8217;s plenty of recent and current activity in the <a href='http://www.scala-lang.org/docu/changelog.html'>language change log</a>.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8han</span></span>
+  				<span>on June 20, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-582"><p>Oh and that spelling is a contraction of &#8220;functional model&#8221;&#8212;working without name completion is making me a little coo coo for short names.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8han</span></span>
+  				<span>on June 20, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-590"><p>Thank&#8217;s for a brilliant article! I will surely have a look into Scala, from my 20 minutes spent so far I get that &#8220;this-can-get-big&#8221; feeling.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.ejeklint.se"><span class="alias">Per Ejeklint</span></a>
+  				<span>on June 21, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-686"><p>This is just not fair! I wanted to do this ever since I came across wicket :-)</p>
+
+<p>Please keep us updated on how things work out with the scala-wicket integration.</p>
+
+<p>One thing I can&#8217;t stop thinking about is how the scala code could be validated with scalacheck to generate the component tree prescribed in the HTML template.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">szocske</span></span>
+  				<span>on July 17, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-718"><p>!!! excellent article !!!</p>
+
+<p>Some notes replace import net.databinder.components._ with import net.databinder.components.hibernate._</p>
+
+<p>and the rake file needs to download other databinder stuff. HOUSE=<span>&#8220;net.databinder:databinder:jar:1.1-SNAPSHOT&#8221;,&#8221;net.databinder:databinder-models:jar:1.1-SNAPSHOT&#8221;,&#8221;net.databinder:databinder-components:jar:1.1-SNAPSHOT&#8221;</span></p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Anonymouse</span></span>
+  				<span>on July 22, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-719"><p>What, people are actually playing around with that thing? I recently broke Databinder into sub-projects and forgot to update this ex. Sorry for that! But now it&#8217;s even better than before, with a much shorter Rakefile and all the weirdness factored into an second file that will be useful across projects. Download again if you want to see that, tho it sounds like you&#8217;ve done fine on your own.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on July 22, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-721"><p>turned out my ubuntu 6.0.6 default install of ruby was not well.</p>
+
+<p>:( after much suffering i reinstalled ruby from source</p>
+
+<p>im getting hibernate errors now, but will download the latest code when i get home and try that out.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Anonymouse</span></span>
+  				<span>on July 23, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-724"><p>The Ruby in Feisty is solid, and it has updated versions of Java packaged. Might be worth upgrading. And if you want help with Databinder, please join the <a href='http://databinder.net/forum/'>forum</a> and drop me an e-mail with your login name so I can approve the account.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on July 23, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4070"><p>Hmm. My brain is foggy, so I&#8217;ll have to take a look later. I will say Groovy did irk me with the lack of anonymous subclasses and whatnot while working on the Groovy builder for Wicket (yes, I feel like a deadbeat dad with the current state of that project).</p>
+
+<p>I do sort of lament the lack of clear development efforts between different projects. It seems like there are many efforts on the Java front for the definitive &#8220;application language&#8217; sibling. JRuby, Jython, Groovy, and, apparently, Scala (or <a href='http://www.robert-tolksdorf.de/vmlanguages.html'>the others</a>). I&#8217;m still in the Groovy camp, notably for the syntax similarity, optional typing, relative maturity, and industry adoption. A big one as well is editor support. Once they get the &#8220;auto import&#8221; working for Eclipse and Idea, I&#8217;m sold. Wicket is problematic, but if I ever get off my behind and finish that builder, it would be a little bit better.</p>
+
+<p>Currently I&#8217;ve been working with Seam exclusively at the day job. They&#8217;ve put Groovy support right into the thing.</p>
+
+<p>Anyway, interesting post. I&#8217;ll check it out.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://bigheadco.blogspot.com/"><span class="alias">Kevin G</span></a>
+  				<span>on August 16, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4949"><p>I agree that it&#8217;s now about the toolset. In order to get all those Java folks out there (I&#8217;m on of them that disparately wants to move on), we need tools. I&#8217;m not sure I want to go back to vi.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Andy C</span></span>
+  				<span>on January 11, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5088"><p>I think Neal Gafter has had a chance to look more closely at Scala</p>
+
+<p>http://gafter.blogspot.com/2008/01/is-java-dying.html</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://bymyreckoning.com"><span class="alias">Ray Waterman</span></a>
+  				<span>on February 2, 2008</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id2325">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id2326" action="../../../index.html" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id2326_hf_0" id="id2326_hf_0" /><input type="hidden" name="wicket:interface" value=":1303:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id2327" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id2328" name="add" value="Add a comment" onclick="wicketShow('id2328--ajax-indicator');var wcall=wicketSubmitFormById('id2326', '../../../?wicket:interface=:1303:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id2328--ajax-indicator');}.bind(this),function() { ;wicketHide('id2328--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id2326')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id2328--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

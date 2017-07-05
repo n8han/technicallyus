@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/city-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>City Slicking / Dear Amtrak, America’s rail-road</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../city">
+			
+			<img alt="City Slicking" src="../../../resources/org.apache.wicket.Application/city-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../city">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/city-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id1818" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Dear Amtrak, America’s rail-road" width="421" class="title" src="../../../resources/net.databinder.components.RenderedLabel/dcd6f844"/><span class="title">Dear Amtrak, America’s rail-road</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Doctor Barnett</span>, <span>on July 14, 2008</span></span>
+			<span id="id1819" class="tags">
+					{&nbsp;<span><a href="../../../city/tag/security/#selected-tag"><span>security</span></a><span id="id181a">, </span></span><span><a href="../../../city/tag/travel/#selected-tag"><span>travel</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><blockquote>
+<p>I am sorry to hear about your new security initiatives <a href='http://www.usatoday.com/travel/news/2008-07-10-amtrak_N.htm'>described in USA Today</a>. Avoiding the invasion of privacy that flying has become is one of the main reasons I travel by train, but the random selection you&#8217;re planning to engage in is the only thing worse than systematic searches. I do not wish to face the dilemma of having my belongings searched without cause or cancelling my trip with no notice, nor do I want a portion of my fare going to finance that treatment for any of my fellow passengers.</p>
+</blockquote>
+
+<blockquote>
+<p>Railroads are our safest means of transportation, and I&#8217;m sorry that many people do not understand this, but I would appreciate it if you would respond to calculated risks rather than public anxiety. Since you&#8217;ve chosen not to, I must chose to avoid the Northeast Corridor in which you&#8217;re targeting passengers for harassement.</p>
+</blockquote>
+
+<blockquote>
+<p>Sadly,</p>
+</blockquote>
+
+<blockquote>
+<p>Doctor Barnett</p>
+</blockquote>
+
+<p>Amtrak&#8217;s response to this letter refers to their passenger trains and stations as a &#8220;front-line&#8221; (<em class='smcp'>war</em>!) and darkly hints about unleashing their popular K-9 unit on us:</p>
+
+<blockquote>
+<p>Thank you for contacting us regarding security and Amtrak.</p>
+</blockquote>
+
+<blockquote>
+<p>Amtrak’s priority is the safety and security of our passengers. Therefore, Amtrak has in place a range of behind-the-scenes and front-line security measures aimed at improving passenger rail security, some of which are conducted on an unpredictable or random basis.</p>
+</blockquote>
+
+<blockquote>
+<p>In stations or aboard trains, you may notice:</p>
+</blockquote>
+<blockquote>Uniformed Amtrak Police officers and Mobile Security Teams <br />
+K-9 units [grr...] <br />
+Random passenger and carry-on baggage screening<br />
+Checked baggage screening  <br />
+Identification checks  <br />
+On-board security checks<br />
+</blockquote>
+<blockquote>
+<p>Amtrak is in constant, direct communication with government agencies that direct and disseminate up-to-the-minute intelligence reports. These measures conform to the current Homeland Security Advisory Systems threat level. [That show is still on?] We also encourage all passengers to report any suspicious activity or unattended luggage to Amtrak Police, personnel or by calling 1-800-331-0008.</p>
+</blockquote>
+
+<blockquote>
+<p>For more information regarding these new security procedures, please refer to <a href='http://www.amtrak.com/servlet/ContentServer?pagename=Amtrak/am2Copy/News_Release_Page&amp;c=am2Copy&amp;cid=1178294112060&amp;ssid=180'>our web site</a>.</p>
+</blockquote>
+
+<blockquote>
+<p>Once again, thank you for writing. Please be assured that we are taking many significant steps to improve our security while maintaining the open access upon which our passengers rely.</p>
+</blockquote>
+
+<blockquote>
+<p>Sincerely,</p>
+</blockquote>
+
+<blockquote>
+<p>Lew <br />Amtrak Customer Service</p>
+</blockquote>
+
+<p>No no no, thank <em>you</em> Lew for sending your security-hyping form letter to a customer that complained about your hyped-up security measures.</p>
+
+<p class='break'>At least we can rely upon Amtrak to bury those terroristic prepositions trying to sneak to the end of their sentences.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about'>About</h3>
+
+<p><em>City Slicking</em> is about urban life, transportation, energy, liberty, and language.</p>
+
+<h3 id='haunts'>Haunts</h3>
+
+<p><a href='http://twitter.com/n8han/'>Twitter</a><br /><a href='http://technically.us/code/'>Coderspiel</a><br /><a href='http://www.streetsblog.org/'>Streetsblog</a><br /><a href='http://gawker.com/people/alexpareene/posts/'>Pareene</a><br /><a href='http://www.copenhagenize.com/'>Copenhagenize</a><br /><a href='http://itre.cis.upenn.edu/~myl/languagelog/'>Language Log</a><br /><a href='http://t4america.org/'>Trans. for America</a></p>
+
+<h3 id='wire_service'>Wire Service</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/city-rss' title='All in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-short-rss' title='Left column, frequent links and notes'>Quickies</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-long-rss' title='Main column, occasional extended posts'>Treatise</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id181b">
+  		
+  		
+  	</div>
+  	<div id="id181c">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id181d" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id181d_hf_0" id="id181d_hf_0" /><input type="hidden" name="wicket:interface" value=":954:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id181e" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id181f" name="add" value="Add a comment" onclick="wicketShow('id181f--ajax-indicator');var wcall=wicketSubmitFormById('id181d', '../../../?wicket:interface=:954:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id181f--ajax-indicator');}.bind(this),function() { ;wicketHide('id181f--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id181d')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id181f--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

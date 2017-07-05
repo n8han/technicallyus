@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Dealing with decadent data</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id2404" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Dealing with decadent data" width="438" class="title" src="../../../resources/net.databinder.components.RenderedLabel/6ac23833"/><span class="title">Dealing with decadent data</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on August 12, 2006</span></span>
+			<span id="id2405" class="tags">
+					{&nbsp;<span><a href="../../../code/tag/databinder/#selected-tag"><span>databinder</span></a><span id="id2406">, </span></span><span><a href="../../../code/tag/hibernate/#selected-tag"><span>hibernate</span></a><span id="id2407">, </span></span><span><a href="../../../code/tag/interfaces/#selected-tag"><span>interfaces</span></a><span id="id2408">, </span></span><span><a href="../../../code/tag/wicket/#selected-tag"><span>wicket</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>As threatened in the <a href="http://databinder.net/forum/viewtopic.php?t=29">forum</a>, I&#8217;ve finally tackled DataView integration for Databinder. Now you can page through those 100,000-row tables all day long. Sweet!</p>
+
+
+	<p>One reason for the delay was my reluctance to link to wicket-extensions; we already get enough complaints about dependency downloads. But fortunately it was possible to implement the methods of <tt>IDataProvider</tt> without actually <em>declaring</em> it. So Databinder won&#8217;t link to extensions, but if <em>your project</em> does there&#8217;s a <a href="http://databinder.net/wsvn/Databinder/databinder/trunk/src/main/java/net/databinder/models/DatabinderProvider.java?op=file">mighty fine data provider</a>  waiting for you to extend and tag it <tt>IDataProvider</tt>.</p>
+
+
+	<p style="float:left"><img src="/pictures/flowers.jpg" alt="" /></p>
+
+
+	<p>The other reason I was so slow in getting to this is that I don&#8217;t care for pagination. Efficient pagination of large datasets is the main purpose of DataView; when using a large paginated <tt><a href="http://wicket.sourceforge.net/apidocs/wicket/markup/html/list/ListView.html">ListView</a></tt>, you&#8217;re just wasting memory and cycles on objects you don&#8217;t read. The thing is, <strong>just as processing efficiency becomes critical in paging, the interface becomes useless</strong>.</p>
+
+
+	<p style="clear:left;">What are you supposed to, I wonder, with one page out of 663? Will page 451 ever see the light of day? Users filter down the results, or order them by some criterion and skim through the first few pages. That&#8217;s great, but you could do the same thing with a <tt>ListView</tt> limited to the first 200 results; users can refine the query if they&#8217;re interested in the rest of the data. Or better yet, come up with an interface that doesn&#8217;t present such problems.</p>
+
+
+	<p>But back in the real world, large-scale pagination interfaces are expected by both users and programmers. Everyone is impressed, or at least relieved, when Rails scaffolding coughs up a (presumably efficient) paginated list. Not having an efficient one is like showing up for work impeccably dressed, but barefoot.</p>
+
+
+	<p>Conceding this point, Databinder has at last slipped on some Pumas. Now it includes a straightforward and tight method for paginating huge result sets with DataView. As always, there&#8217;s an appropriate example app: it&#8217;s time to look up <a href="http://databinder.net/baseball/app">baseball players</a>, everybody!</p>
+
+
+	<p>As you can see in <a href="http://databinder.net/wsvn/Databinder/baseball/trunk/src/main/java/example/Pager.java?op=file">the Pager class</a>, the imaginary connection between Databinder and DataView is not painful to solidify. You manage sorting and filtering in your subclass, and that&#8217;s about it. (Please do help me test it, particularly if you were already using your own data provider. It&#8217;s in the latest <a href="http://databinder.net/faq.html#uptodate">snapshot</a>.)</p>
+
+
+	<p>So people looking to check efficient pagination off their lists when evaluating Databinder can finally exhale. It&#8217;s there, it&#8217;s &#8220;easy.&#8221; <tt>DataTable</tt> works the way I imagine expensive <span class="caps">JSF</span> components to work. You throw an empty tag into your template, close your eyes and start the server&#8230; then suddenly all these features your boss thinks he wants are sparkling on the screen.</p>
+
+
+	<p>Well, anyway. Have fun with those 16,566 baseball players. (Thanks, <a href="http://www.baseball1.com/statistics/">baseball archive</a>.)</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id2409">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-1151"><p>On repeaters: <br /> Even if you don&#8217;t want pagination but just a lot of rows, kind of a long and plain report, I think ListView can&#8217;t help you, can it? <br /> Don&#8217;t you need something that can render as the data arrives from the database? <br /></p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Gustavo</span></span>
+  				<span>on August 12, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1152"><p>Hibernate always returns a List, so even with DataView you&#8217;re not streaming perfectly. (No rows can be garbage collected until the is iterator is discarded.)</p>
+
+<p>On the other hand, DataView does avoid having a ListItem-like child for each row. That&#8217;s a real advantage for this case. Good point!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on August 12, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1153"><p>I take that back. There <em>is</em> an Item class for DataView. How its memory consumption compares to ListView isn&#8217;t something I can answer from skimming through the code for the first time. It&#8217;s reasonable to expect, though, that since pains have been taken to optimize DataView for large data sets, it&#8217;s probably superior at handling them in a number of subtle ways.</p>
+
+<p>Good thing Databinder supports it now.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on August 12, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id240a">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id240b" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id240b_hf_0" id="id240b_hf_0" /><input type="hidden" name="wicket:interface" value=":1327:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id240c" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id240d" name="add" value="Add a comment" onclick="wicketShow('id240d--ajax-indicator');var wcall=wicketSubmitFormById('id240b', '../../../?wicket:interface=:1327:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id240d--ajax-indicator');}.bind(this),function() { ;wicketHide('id240d--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id240b')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id240d--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

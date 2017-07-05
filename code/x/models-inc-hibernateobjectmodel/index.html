@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="../../../blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="../../../blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet.css"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Models Inc. / HibernateObjectModel</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code.html">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code.html">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id23a1" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Models Inc. / HibernateObjectModel" width="573" class="title" src="../../../resources/net.databinder.components.RenderedLabel/a4244f64"/><span class="title">Models Inc. / HibernateObjectModel</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on November 13, 2006</span></span>
+			<span id="id23a2" class="tags">
+					{&nbsp;<span><a href="../../tag/databinder/index.html#selected-tag"><span>databinder</span></a><span id="id23a3">, </span></span><span><a href="../../tag/models&#32;inc/index.html#selected-tag"><span>models inc</span></a><span id="id23a4">, </span></span><span><a href="../../tag/learning/index.html#selected-tag"><span>learning</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p><em>This is the third entry in a <a href="http://technically.us/n8/articles/tag/modelsinc">series</a> that is to become</em> Databinder 101, <em>an introductory text for the toolkit.</em></p>
+
+
+	<h2>HibernateObjectModel</h2>
+
+
+	<p>Happily, <tt>IModel</tt>&#8217;s detach logic provides an answer to the problem of carrying Hibernate entities  between web requests. If we discard our references to the entities before the session ends, and reload them before use in a new session, it&#8217;s almost like we had the same object all along.</p>
+
+
+	<p><em>Almost</em>. Any changes that weren&#8217;t persisted to the database will be undone. The programmer must either <tt>commit</tt> changes (as done by default in <tt>DataForm.onSubmit()</tt>) or let them evaporate. This isn&#8217;t so bad really, compared to practically every Web application design, but it is a little grating. Future versions of Databinder will attempt Hibernate sessions that span requests, but until then we have to think in terms of committing changes at every request.</p>
+
+
+	<p>With that caveat behind us, we can use <tt>HibernateObjectModel</tt> as our good ship entity-pop. As long as any entity loaded by Hibernate goes into one of these, we can use it without fear for the next one thousand requests. It can travel between components, and even between pages.</p>
+
+
+	<p>It is the session babysitter.</p>
+
+
+	<p><em>To be continued&#8230;</em></p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='../../../resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id23a5">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-1193"><p>Hi Nathan, thanks for your effort with Databinder and these writings. Much appreciated!</p>
+
+<p>My own Databinder-based project is unfortunately on hold due to too much paid daytime work. :-/ Making money is ok, but I wish I had time for this fun stuff as well. Maybe at xmas&#8230;</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.ejeklint.se"><span class="alias">Per Ejeklint</span></a>
+  				<span>on November 13, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1194"><p>Thanks, I&#8217;m glad you&#8217;re enjoying the series. I&#8217;m hacking up a little app to display these at databinder.net simultaneous to the 1.0 release. Maven&#8217;s site generator dosen&#8217;t render Textile, and I&#8217;m not about to rewrite this stuff in its crappy APT format. I&#8217;ve decided to move all of databinder.net&#8217;s content into this new app eventually. But, yes, that free time is hard to come by!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8han</span></span>
+  				<span>on November 13, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id23a6">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id23a7" action="../../../index.html" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id23a7_hf_0" id="id23a7_hf_0" /><input type="hidden" name="wicket:interface" value=":1316:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id23a8" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id23a9" name="add" value="Add a comment" onclick="wicketShow('id23a9--ajax-indicator');var wcall=wicketSubmitFormById('id23a7', '../../../?wicket:interface=:1316:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id23a9--ajax-indicator');}.bind(this),function() { ;wicketHide('id23a9--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id23a7')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id23a9--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

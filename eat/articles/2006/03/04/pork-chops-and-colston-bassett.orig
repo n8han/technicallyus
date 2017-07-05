@@ -1,0 +1,195 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Pork chops and Colston Bassett</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../eat">
+			
+			<img alt="Eat" src="../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../eat">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id1337" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Pork chops and Colston Bassett" width="504" class="title" src="../../resources/net.databinder.components.RenderedLabel/b71841f3"/><span class="title">Pork chops and Colston Bassett</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on March 4, 2006</span></span>
+			
+		</span></div>
+		<div><p>I made pork chops last night for the first time in ages. We used to eat them all the time in France, but we had one bad experience that I barely even remember that put us off chops (but <a href="http://technically.us/eat/articles/2006/03/01/pork-and-gorgonzola-risotto">not</a> <a href="http://technically.us/eat/articles/2006/01/31/pork-roast-and-whipped-cream">pork</a> <a href="http://technically.us/eat/articles/2006/02/11/moules-marini%C3%A8res-french-toast-and-pork-roast">altogether</a>). Whole Foods had center-cut, boneless loin chops for $6.99 a pound last night, so I got us two small ones.</p>
+
+
+	<p>First I sautéed some sliced potatoes and a Fuji apple until they got crispy and soft, then I doused the chops in Meyer lemon juice, salt, and pepper and threw them in my trusty cast-iron skillet. Ten minutes later I had this on the table:</p>
+
+
+	<p style="float:center"><img src="/pictures/porkchop.jpg" alt="" /></p>
+
+
+	<p>Of course the chop wasn&#8217;t cooked through, so I had to put it back over the heat for five more minutes, but that&#8217;s no big deal. Everyone knows I have trouble with the temperature of pork. Mom, please show me the way. You once mentioned to me a good way of braising chops, didn&#8217;t you? This dish came out well, but it still could have been more tender. Or maybe I just prefer tender meat, and I shouldn&#8217;t even buy pork chops or steak. I&#8217;m tired of wrestling with tough meat.</p>
+
+
+	<p style="float:right"><img src="/pictures/colston.jpg" alt="" /></p>
+
+
+	<p>We also sampled some incredibly intense <a href="http://www.colstonbassettdairy.com/">Colston Bassett</a> cheese last night, which I&#8217;ve been wanting to try ever since Max McCalman said it was the best blue cheese in the world. I&#8217;d seen it at the cheese counter, but I was turned off by its steep price (about $20 a pound) and its odd, yellow hue. I got some last night because I found a hunk of it in the trial-size cheese basket, which I check out every time I go to Whole Foods. When n8 tasted it, he said, &#8220;This is dirty. I feel dirty just eating this.&#8221; And he&#8217;s exactly right. It&#8217;s like eating the flesh of a corpse, but sort of in a good way. It&#8217;s grainy, creamy, and potent. Anyone who comes to the apartment in the next week will have to taste it.</p>
+
+
+	<p>Come to think of it, this probably would have been delicious spread on top of the chops.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1338">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-1594"><p>I have said it before and I will say it again; today&#8217;s pork is too lean to be tender. In their zeal for breeding out the fat (and where has that gotten us, anyway? The population of the U.S. is more obese than ever!) they have bred out all the flavor and tenderness. There are only two ways to have passably edible pork chops that I know of, and one is what you did; serve them on the rare side and they&#8217;ll be pretty juicy.</p>
+<p>I don&#8217;t like them that way, though, so this is how I usually make them: first I season them with lots of salt, pepper, and cumin and brown them well on both sides in a skillet in plenty of olive oil. Then I quarter some lemons and squeeze the juice on the chops and leave the squeezed lemons in the pan. I mince about 5 or 6 large cloves of fresh garlic and sprinkle it all over the contents of the skillet, pour a little chicken stock in, cover, turn the heat down to low and simmer for about 2 hours or so, until the meat is so tender that you can cut it with a fork. About 1/2 hour before they are done I season them with some dried oregano. I add more stock as needed so there is always some liquid in the bottom of the pan.</p>
+<p>I serve this with rice and it&#8217;s another man-pleaser. The lemony, garlicky drippings are really good on the rice. Make sure you use plenty of salt.</p>
+<p>I didn&#8217;t know <strong>Whole Foods</strong> had a sample cheese bin but I&#8217;m going to look for it!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on March 4, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1595"><p>Ooooh! That sounds delicious! I&#8217;ll definitely give it a try and soon!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on March 4, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1596"><p>I forgot to ask, how was your cast-iron skillet after cooking the chops? I used to think there was something about fresh pork that would destroy the seasoning on cast iron, and you had the acidity of the lemon and the liqueur to contend with as well. I remember preparing pork and sauerkraut in my cast-iron Dutch oven when I was in college and having the whole thing turn black on me&#8212;too embarrassing, as I was trying to show off for a boyfriend! But this new cast iron comes specially seasoned so maybe they treat it with something that doesn&#8217;t come off as easily.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on March 4, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1597"><p>Hmm, you know I didn&#8217;t even consider that about the acidity, which was probably foolish on my part. I didn&#8217;t notice any problems, but I think I need to season the pan again anyway because it&#8217;s looking a bit rusty in places.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on March 4, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1598"><p>I didn&#8217;t realize there was a &#8220;good&#8221; way to eat the flesh of a corpse.  You&#8217;ll have to explain that recipe in your next posting.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Carly</span></span>
+  				<span>on March 4, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1599"><p>I mean that it tastes that way, but in a good way. The way cheese can also smell exactly like feet, but in a good way.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on March 4, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1600"><p>We spent the winter in Miami Beach/South Beach and dinghied to shore every day just to taste the magnificent array of blue cheese at a store called &#8220;Epicure&#8221;. It was some pricey cheese which if I had a lottery windfall&#8230;would buy by the ton. The stinkier and dirtier and bluer the cheese&#8230;the better it was. So rank&#8230;but in a <span class="caps">GOOD</span> way&#8230;.&amp; the smell of it lingered on your fingers and your clothing.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Debra (Fxgrl@hotmail.com)</span></span>
+  				<span>on March 4, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1601"><p>Mm, yes, Debra, I love the way it stays on my fingers! I&#8217;m always reluctant to wash my hands after handling it. I&#8217;ll keep that store in mind if I&#8217;m ever in the area!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on March 4, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id1339">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id133a" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id133a_hf_0" id="id133a_hf_0" /><input type="hidden" name="wicket:interface" value=":702:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id133b" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id133c" name="add" value="Add a comment" onclick="wicketShow('id133c--ajax-indicator');var wcall=wicketSubmitFormById('id133a', '../../?wicket:interface=:702:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id133c--ajax-indicator');}.bind(this),function() { ;wicketHide('id133c--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id133a')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id133c--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="../../../blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="../../../blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet.css"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / If you can&#039;t beat &#039;em</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code.html">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code.html">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id2601" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="If you can't beat 'em" width="315" class="title" src="../../../resources/net.databinder.components.RenderedLabel/77e1da6b"/><span class="title">If you can&#039;t beat &#039;em</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on October 11, 2006</span></span>
+			<span id="id2602" class="tags">
+					{&nbsp;<span><a href="../../tag/rpc/index.html#selected-tag"><span>rpc</span></a><span id="id2603">, </span></span><span><a href="../../tag/markup/index.html#selected-tag"><span>markup</span></a><span id="id2604">, </span></span><span><a href="../../tag/ruby/index.html#selected-tag"><span>ruby</span></a><span id="id2605">, </span></span><span><a href="../../tag/xml/index.html#selected-tag"><span>xml</span></a><span id="id2606">, </span></span><span><a href="../../tag/java/index.html#selected-tag"><span>java</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p class="out"><img src="../../../pictures/turtle-1.jpg" alt="" /></p>
+
+
+	<p class="break">After two weeks of showboating the <a href="http://technically.us/n8/articles/2006/09/29/databinder-at-your-web-service">least practical demo</a> in the history of database programming, I’m reminded that there <em>are</em> toys worth having besides applets. Like <strong>text processing libraries</strong>.</p>
+
+
+	<p>We do have <a href="http://philwilson.org/projects/jtextile/">JTextile</a>, thank heavens, and <a href="http://markdownj.petebevin.com/">MarkdownJ</a>. But it’s starting to feel like the <a href="http://en.wikipedia.org/wiki/ES_EVM">1970s Soviet computer industry</a> around here. Can’t we have some text processors <em>conceived in</em> Java?</p>
+
+
+	<p>No, we can’t. It all goes back to throwing two or three checked exceptions on every stream reading function. Or maybe it all goes back to “1 file(s) deleted.” In any case there are two camps of nerds: in one they’re eager to get their hands dirty and make something pretty, while the other devotes its prettiness ambitions to <span class="caps">UML</span> diagrams and neglects the final product. Java is (mostly) in the wrong camp.</p>
+
+
+	<p><a href="http://databinder.net/">Databinder</a> aspires to bring Java closer to “gettin’ cool stuff done” (before Java ends up in the same corporate waste bin as <span class="caps">CORBA</span>), but there’s no relief in sight for text processing libraries. They have ’em and we don’t.</p>
+
+
+	<p class="out"><img src="../../../pictures/turtle-2.jpg" alt="" /></p>
+
+
+	<p>The new <a href="http://www.deveiate.org/projects/Linguistics/wiki/English">Ruby Linguistics Framework</a> is upping the ante, from polishing punctuation to changing copy. If you don’t care about the former you must think the latter is ridiculous, but <em>I</em> do want to programmatically turn <code>"cow".en.quantify( 5 )</code> into “several cows,” and I want it now.</p>
+
+
+	<p style="clear:left;"><a href="http://jruby.codehaus.org/">JRuby</a> comes to mind, but its priority is calling old legacy Java code from Ruby, not calling the latest interdependent text processing libraries from (legacy!) Java. My sometimes-accurate ability to predict how much hair-pulling a computing task will involve is telling me to forget about running Linguistics in JRuby.</p>
+
+
+	<p>The remaining options are spawning a Ruby interpreter process (ouch, my hair!) or calling a Ruby <span class="caps">XML</span>-RPC server from Java. Now that might actually work, and nicely. You could still use <a href="http://rubygems.org/">RubyGems</a> to manage Ruby libraries in a completely separate, normal setup. All you need is a little script to bridge the <span class="caps">RPC</span> requests into the libraries. It would be easy. It would be cool.</p>
+
+
+	<p class="break">It would be darn good Databinder example.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='../../../resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id2607">
+  		
+  		
+  	</div>
+  	<div id="id2608">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id2609" action="../../../index.html" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id2609_hf_0" id="id2609_hf_0" /><input type="hidden" name="wicket:interface" value=":1383:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id260a" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id260b" name="add" value="Add a comment" onclick="wicketShow('id260b--ajax-indicator');var wcall=wicketSubmitFormById('id2609', '../../../?wicket:interface=:1383:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id260b--ajax-indicator');}.bind(this),function() { ;wicketHide('id260b--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id2609')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id260b--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

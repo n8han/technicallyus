@@ -1,0 +1,217 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Veal chops with mushrooms</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="idb31" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Veal chops with mushrooms" width="442" class="title" src="../../../resources/net.databinder.components.RenderedLabel/e2bea90b"/><span class="title">Veal chops with mushrooms</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on August 30, 2006</span></span>
+			<span id="idb32" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Tonight was the night that Gourmet finally impressed me, and it was the first time in my life that I prepared veal. I had veal for lunch too, which is kind of weird, but I was not to be deterred from preparing the loin chops I ordered from FreshDirect.</p>
+
+
+	<pre><code><div style="float:center"><img src="/pictures/vealchop.jpg" alt="" /></div></code></pre>
+
+
+	<p>(Nathan was out galavanting after work and so missed the fantastic swiss chard stems that cooked slowly for over an hour in chicken broth and red wine.)</p>
+
+
+	<p>This is an exceedingly easy dish to prepare for two or four people. The preparation, which involves nothing but chopping a couple vegetables and sprinkling salt and pepper, takes longer than the cooking. Furthermore, it seems like it would be difficult to screw up these beautiful, expensive chops.</p>
+
+
+	<p>Other than the fact that I dropped the sauce-stirring spoon on my naked foot as I cooked, causing me to scream and run from the stove, this dish went off without a hitch. But would you believe that the one recipe I&#8217;ve ever really liked in Gourmet is <em>not</em> available at epicurious? I&#8217;ve taken it upon myself to transcribe it, and it&#8217;s worth a try by any of you (except my own mother, who doesn&#8217;t eat veal for some reason).</p>
+
+
+	<p><strong>Sautéed veal chops with mushrooms</strong>
+(serves 4)</p>
+
+
+	<ul>
+	<li>1 teaspoon cornstarch</li>
+		<li>2 teaspoons Worcestershire sauce</li>
+		<li>1 cup chicken broth</li>
+		<li>4 1/2-inch-thick veal loin chops</li>
+		<li>2 tablespoons olive oil</li>
+		<li>2 tablespoons unsalted butter</li>
+		<li>1 medium onion, finely chopped</li>
+		<li>10 ounces cremini mushrooms, thinly sliced</li>
+		<li>2 garlic cloves, finely chopped</li>
+		<li>1/4 cup heavy cream</li>
+		<li>1/4 cup chopped flat-leaf parsley</li>
+	</ul>
+
+
+	<p>Preheat the oven to 200ºF. Stir together the cornstarch, Worcestershire, and chicken broth in a bowl and set aside. Season the chops with salt and pepper, and sauté them over high heat in one tablespoon of oil (you can do this in batches). Once they are well browned (don&#8217;t leave them in the pan for longer than four minutes), transfer them to a shallow baking dish and put them in the oven.</p>
+
+
+	<p>Wipe the pan clean and add the butter. Let it brown a bit, then add the onion. Cook that for a few minutes before adding the mushrooms and garlic. Turn the heat way up so that the mushrooms lose their water (this should take about 5 minutes). Give the chicken broth mixture a stir, then add it to the mushrooms. Let the sauce boil for a few minutes as you stir it, and once it&#8217;s very thick, add any accumulated juices from the roasting pan as well as the cream and parsley. Season to taste, and then pour it over the chops and serve.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="idb33">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-2661"><p>You know Poppy loves veal chops and often orders them (or one) when we go out to eat, but I guess I&#8217;ve just been affected by reading one too many <span class="caps">PETA</span> pamphlets or something. I know that&#8217;s illogical, since I eat other varieties of meat and they are all raised fairly inhumanely, even the so-called &#8220;free-range&#8221; ones, but there&#8217;s something about the babies&#8230;</p>
+<p>It sounds like Nathan missed a great dinner!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on August 30, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2662"><p>Oooh, that sounds absolutely wonderful.  It&#8217;s been a while since I&#8217;ve had veal&#8230; perhaps when I return home from this weekend&#8217;s brief holiday, I will try my hand at something like this dish!</p>
+<p>Also, you (and Kathryn, in fact) have mentioned Swiss chard frequently recently.  To my knowledge, I&#8217;ve never purchased or cooked Swiss chard.  What is it like?</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://colinwetherbee.com/"><span class="alias">Colin</span></a>
+  				<span>on August 30, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2663"><p>I also have this issue of Gourmet and have been itching to try a few recipes. Thanks for testing the waters! also, i can practically smell how good this dish looks&#8230;</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">jeannie</span></span>
+  				<span>on August 30, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2664"><p>:&#8217;(</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://technically.us/doc"><span class="alias">Nathan</span></a>
+  				<span>on August 30, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2665"><p>I tried to leave a comment last night to tell you I was spotlighting your blog for Blog Day (today) but my computer was not behaving.  Anyway, hopefully you&#8217;ll be getting a few visitors from my blog.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">http://kalynskitchen.blogspot.com</span></span>
+  				<span>on August 30, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2666"><p>The veal sounds delicious. I, like Rebecca, usually avoid veal, because it makes me feel like a bad person. But I do indulge when my conscience and wallet both allow me to do so. I&#8217;m always pleased I did.</p>
+<p>I might try this one, as today is pay day and I&#8217;m feeling paticularly unfeeling about baby animals at the moment.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.metakathryn.com"><span class="alias">Kathryn</span></a>
+  				<span>on August 30, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2667"><p>Colin: I look at this comment page and just freak out about how cool all of our gravatars look. Swiss chard is like spinach&#8230;for men. You can cook it and cook it, and in my experience it keeps getting better the longer it&#8217;s on the heat. You don&#8217;t have to worry about it, just like collards, but it&#8217;s not as intense and woody. Give it a try!</p>
+<p>Thanks, Kalyn and Kathryn, for commenting! I don&#8217;t think we need to worry about the little babies. They should be so lucky as to grace my dinner table. I don&#8217;t usually eat veal because, in addition to being expensive, it&#8217;s not too flavorful. I have no moral hangups, though.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on August 30, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2668"><p>Leland, which do you think is more flavorful, swiss chard or kale? I definitely think either outclass collards, but can&#8217;t decide which of the two I like better,  either alone or mixed with beans or pasta. I agree with you that both of them benefit from long cooking, and Laurie Colwin says so, too. Most restaurants serve them undercooked, and they&#8217;re <span class="caps">TOUGH</span> that way, instead of meltingly tender the way they should be.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on August 30, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="idb34">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="idb35" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="idb35_hf_0" id="idb35_hf_0" /><input type="hidden" name="wicket:interface" value=":412:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="idb36" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="idb37" name="add" value="Add a comment" onclick="wicketShow('idb37--ajax-indicator');var wcall=wicketSubmitFormById('idb35', '../../../?wicket:interface=:412:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('idb37--ajax-indicator');}.bind(this),function() { ;wicketHide('idb37--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('idb35')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="idb37--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

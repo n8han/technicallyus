@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Cheese soufflé</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="idccf" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Cheese soufflé" width="231" class="title" src="../../../resources/net.databinder.components.RenderedLabel/8dd8b91c"/><span class="title">Cheese soufflé</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on March 27, 2006</span></span>
+			<span id="idcd0" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>When I was a girl the ability to make a successful soufflé was considered to be a real feather in one&#8217;s culinary cap, and was the cause of a great deal of anxiety and hand-wringing amongst us young brides and hippies, even those of us who could cook far more complicated dishes without turning a hair. I was given a set of soufflé dishes, in graduated sizes, for my first wedding, and hauled them around with me through I don&#8217;t know how many moves until they finally broke or I lost track of them sometime in the last decade or so. I replaced the largest one although I wish I would have gotten a darker color as it would have made a more dramatic presentation.</p>
+
+
+	<p>I don&#8217;t think what I fully realized all those years ago when I was fretting about the difficulty of it all was that a soufflé is basically nothing more than a thick cheese sauce, enriched with egg yolk (in culinary terms this type of sauce is called a &#8216;Mornay sauce&#8217;), into which you fold the beaten egg whites. We invested a lot more mystery into the whole process than it deserved; the eggs had to be warm, should we wrap a &#8216;collar&#8217; around the lip of the soufflé dish?, we tiptoed around the kitchen for fear of making the whole thing fall once it was in the oven, etc. And separating the eggs always made me more nervous while I was making this dish than it ever did while I was baking desserts, I guess because of the warnings that if one speck of yolk should get into the whites they wouldn&#8217;t whip. My nervousness would often make me clumsy and then my clumsiness would make me crack the eggs awkwardly, sometimes breaking the yolks and causing the very thing I feared. You can&#8217;t be fearful and tentative when breaking eggs&#8212;give them a sharp rap on the side of the bowl, pour them back and forth between the halves of shell twice, letting the white drain through, and there you have it. And if you should get a bit of shell in the bowl, the best way to retrieve it is to use the sharp edge of the egg shell itself to scoop it out.</p>
+
+
+	<p style="float:center"><img src="/eat/files/souffle.jpg" alt="" /></p>
+
+
+	<p>I&#8217;m not going to bother giving the recipe here; I happened to use the one in <a href="http://www.amazon.com/exec/obidos/ASIN/0517207125/eat0e-20"><em>From Julia Child&#8217;s Kitchen</em></a>, an older Julia Child cookbook that I haven&#8217;t opened for some time. But you can find soufflé recipes in many cookbooks, including <a href="http://www.amazon.com/exec/obidos/ASIN/0684818701/eat0e-20"><em>The Joy of Cooking</em></a> and others. They are all basically the same formula. According to Julia, the classic cheese soufflé uses gruyère cheese; I used an extra-sharp Canadian cheddar, which she calls a &#8216;distinctly American taste&#8217;, somewhat disdainfully. It was absolutely delicious, though, with lots of glossy, crisp brown crust on the top, bottom, and sides, which I think is the best part. Make sure you don&#8217;t skimp on the buttering and dusting the baking dish with flour because that&#8217;s what makes it get all crusty.</p>
+
+
+	<p>I served this with a spinach salad with avocado and mandarin oranges, and a whole-grain baguette. And the soufflé itself was so far from being temperamental, that when I took it out too early and had to put it back in the oven for an additional five minutes or so, it didn&#8217;t even fall, but rose a little bit more!</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="idcd1">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-1730"><p>Looks delicious! I&#8217;m sorry I never got to have one growing up. Or did I?</p>
+<p>I hear the chefs around school saying that adding a bit of liquid like water helps a soufflé rise even higher!</p>
+<p>We had pierogies tonight, and then I made my first chocolate mousse. I didn&#8217;t use a recipe or anything, I just guessed my way through it. We now have an incredibly rich and thick chocolate chantilly cream in the fridge, of which we can only tolerate a few bites at a time, it&#8217;s so rich.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on March 27, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1731"><p>I used to make them once in awhile when you and Jon were little but you weren&#8217;t that fond of them. Calvin didn&#8217;t like this one but couldn&#8217;t really say why; he likes eggs and cheese omelets.</p>
+<p>Why didn&#8217;t you use a recipe for the chocolate mousse? Does it have eggs in it or just heavy cream?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on March 27, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1732"><p>Just heavy cream. I don&#8217;t know why I didn&#8217;t use a recipe. I guess sometimes I look at a recipe and there is something in it that I don&#8217;t have, at which point I become flustered and occasionally give up. So occasionally I throw caution to the wind and just guess my way through something, which I realize is foolish with something like mousse, which I had never prepared before. Sometimes, though, I end up with a delicious and unique meal.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on March 27, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4612"><p>How do you eat a souffle in a restaurant &#8211; direct from the ramikin? with just a fork..or with a knife as well or with a spoon?</p>
+<p>Sorry to sound ignorant.</p>
+<p>Thanks</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Nat</span></span>
+  				<span>on November 3, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="idcd2">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="idcd3" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="idcd3_hf_0" id="idcd3_hf_0" /><input type="hidden" name="wicket:interface" value=":468:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="idcd4" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="idcd5" name="add" value="Add a comment" onclick="wicketShow('idcd5--ajax-indicator');var wcall=wicketSubmitFormById('idcd3', '../../../?wicket:interface=:468:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('idcd5--ajax-indicator');}.bind(this),function() { ;wicketHide('idcd5--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('idcd3')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="idcd5--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

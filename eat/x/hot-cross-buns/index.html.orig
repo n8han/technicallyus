@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Hot cross buns</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id8a3" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Hot cross buns" width="238" class="title" src="../../../resources/net.databinder.components.RenderedLabel/198abfba"/><span class="title">Hot cross buns</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on April 16, 2006</span></span>
+			<span id="id8a4" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/books/#selected-tag"><span>books</span></a><span id="id8a5">, </span></span><span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Has anyone ever made the hot cross buns from <em>The Bread Bible</em>, by Beth Hensberger? I made these for Easter dinner today, and although I haven&#8217;t baked them every year and don&#8217;t have a recipe I habitually turn to, as an advocate of establishing and maintaining food traditions, I decided I would begin the ritual of serving these rolls as part of our holiday meal.</p>
+
+
+	<p>I have at least two of Beth Hensberger&#8217;s books but haven&#8217;t cooked much from them. My first doubt came when I was instructed to sprinkle the yeast on 3/4 cup of warm water, along with the sugar, which was 1/3 cup. That&#8217;s a lot of sugar to &#8216;sprinkle&#8217;. I was then told to put the yeast mixture aside, and mix several other ingredients together, including sugar, but there was no more sugar listed in the recipe. My conclusion is that the recipe omitted an initial 1 tablespoon of sugar to sprinkle with yeast. The recipe also calls for only 3-4 cups of flour to 1 3/4 cups liquid, 3 eggs, and 1 stick of melted butter. That is just way too little flour for that amount of wet ingredients. I added about 1 extra cup while kneading with my dough hook but didn&#8217;t want to add too much, figuring these buns were supposed to be light. Plus, who am I to question the <em>Bible</em>, especially on Easter? And I knew that sometimes sticky doughs are less sticky after rising, so I just sort of slopped the whole thing in an oiled bowl and let it rise.</p>
+
+
+	<p style="float:right"><img src="/eat/files/bun.JPG" alt="" /></p>
+
+
+	<p>And it was less sticky later. I was able to cut it into 18 pieces and shape them into rolls. They were too soft to really cut the crosses into, though, even with my nice, new, sharp lamé, but I did the best I could. The recipe called for mixing a sugar &#8216;glaze&#8217;, which was really nothing more than a simple syrup, so I used vanilla syrup instead, which I had on my pantry shelf. Hazelnut or lemon syrup might also have been good; this glaze was brushed on the buns as soon as they came out of the oven. The crosses are piped on after the rolls are cool, with a simple confectioner&#8217;s sugar frosting.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id8a6">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-1862"><p>Rebecca-Just realized you are in Pittsburgh too!We may be the only local foodbloggers since the recent departure of the &#8220;Green Jackfruit.&#8221; (Some other people write about food sometimes too-like &#8220;i hate the new yorker&#8221;)<br />
+Welcome.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://lindystoast.com"><span class="alias">lindy</span></a>
+  				<span>on April 16, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1863"><p>PS Had best luck with a recipe for hot cross buns from Bernard Clayton&#8217;s Book of Small Breads..after trying another recipe which had been less than successful.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://lindystoast.com"><span class="alias">lindy</span></a>
+  				<span>on April 16, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1864"><p>Thanks, Lindy&#8212;I saw your blog listed on <a href="http://wednesdaychef.typepad.com/">The Wednesday Chef</a> a couple of weeks ago and read it for the first time; it&#8217;s beautiful and beautifully written. I&#8217;m new to this whole thing but am becoming rapidly addicted!</p>
+<p>And thanks for the tip about the hot cross buns; I&#8217;ll bookmark that for next year.</p>
+<p>&#8212;Rebecca</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on April 16, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1865"><p>Just in case you havent heard enough from me today, I thought I&#8217;d mention that my daughter writes a food blog too. Hers has been around quite a lot longer than mine-she was my inspiration-I was terribly jealous, it looked like so much fun.</p>
+<p>They live in Cleveland, and you can check out her blog, the hungry tiger, <a href="http://stuttercut.org/hungry">here</a>.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://lindystoast.com"><span class="alias">lindy</span></a>
+  				<span>on April 16, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1866"><p>Lindy, your daughter&#8217;s blog is great! You must be so proud of her; I&#8217;ve just been sitting here reading it. What a shame about the robbery, though.</p>
+<p>Leland has been doing this for quite awhile and only invited me to join him a few months ago; it&#8217;s a lot of fun to do it together (from different cities!)</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on April 16, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id8a7">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id8a8" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id8a8_hf_0" id="id8a8_hf_0" /><input type="hidden" name="wicket:interface" value=":323:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id8a9" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id8aa" name="add" value="Add a comment" onclick="wicketShow('id8aa--ajax-indicator');var wcall=wicketSubmitFormById('id8a8', '../../../?wicket:interface=:323:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id8aa--ajax-indicator');}.bind(this),function() { ;wicketHide('id8aa--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id8a8')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id8aa--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

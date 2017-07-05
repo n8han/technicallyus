@@ -1,0 +1,240 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / grocery</title>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container tag-listing">
+
+<div id="lead">
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-11">
+		<div class="tag-columns">
+	<div>
+		<span class="elem"><a href="../../../eat/tag/baking/#selected-tag"><span>baking</span></a></span><span class="elem"><a href="../../../eat/tag/drink/#selected-tag"><span>drink</span></a></span><span class="elem"><span><em><span>grocery</span></em></span></span><span class="elem"><a href="../../../eat/tag/restaurants/#selected-tag"><span>restaurants</span></a></span><span class="elem"><a href="../../../eat/tag/techniques/#selected-tag"><span>techniques</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../eat/tag/books/#selected-tag"><span>books</span></a></span><span class="elem"><a href="../../../eat/tag/entertaining/#selected-tag"><span>entertaining</span></a></span><span class="elem"><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span><span class="elem"><a href="../../../eat/tag/restaurants:%20new%20york/#selected-tag"><span>restaurants: new york</span></a></span><span class="elem"><a href="../../../eat/tag/theory/#selected-tag"><span>theory</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../eat/tag/cooking%20with%20fruit/#selected-tag"><span>cooking with fruit</span></a></span><span class="elem"><a href="../../../eat/tag/ethnic%20cooking/#selected-tag"><span>ethnic cooking</span></a></span><span class="elem"><a href="../../../eat/tag/kitchen%20equipment/#selected-tag"><span>kitchen equipment</span></a></span><span class="elem"><a href="../../../eat/tag/restaurants:%20pittsburgh/#selected-tag"><span>restaurants: pittsburgh</span></a></span><span class="elem"><a href="../../../eat/tag/travel/#selected-tag"><span>travel</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../eat/tag/dessert/#selected-tag"><span>dessert</span></a></span><span class="elem"><a href="../../../eat/tag/food%20products/#selected-tag"><span>food products</span></a></span><span class="elem"><a href="../../../eat/tag/party/#selected-tag"><span>party</span></a></span><span class="elem"><a href="../../../eat/tag/school/#selected-tag"><span>school</span></a></span>
+	</div><div>
+		<span class="elem"><a href="../../../eat/tag/desserts/#selected-tag"><span>desserts</span></a></span><span class="elem"><a href="../../../eat/tag/freshdirect/#selected-tag"><span>freshdirect</span></a></span><span class="elem"><a href="../../../eat/tag/produce%20alerts/#selected-tag"><span>produce alerts</span></a></span><span class="elem"><a href="../../../eat/tag/shopping/#selected-tag"><span>shopping</span></a></span>
+	</div>
+</div>
+
+	<div id="selected-tag"><img height="45" alt="grocery" width="120" src="../../../resources/net.databinder.components.RenderedLabel/159c29bc"/></div>
+		
+	<div>
+		<h4><a href="../../../eat/x/greenmarket-tour-of-brooklyn/"><span>Greenmarket tour of Brooklyn</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>October 12, 2008</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/the-manhattan-fruit-exchange/"><span>The Manhattan Fruit Exchange</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>July 10, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/morels/"><span>Morels</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>June 19, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-shops-at-mcginnis-sisters/"><span>Mom shops at McGinnis Sisters</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>June 11, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/sahadis/"><span>Sahadi&#039;s</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>May 17, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/first-impressions-of-whole-foods-bowery/"><span>First impressions of Whole Foods Bowery</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>March 30, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/moms-big-mussels/"><span>Mom&#039;s big mussels</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>March 22, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-shops-at-costco/"><span>Mom shops at Costco</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>March 20, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/whole-foods-changes-register-logistics/"><span>Whole Foods changes register logistics</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>March 16, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/wolfermans-at-balduccis/"><span>Wolferman&#039;s at Balducci&#039;s</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>February 4, 2007</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/chocolate-ice-cream-returns-to-whole-foods/"><span>Chocolate ice cream returns to Whole Foods!</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>December 11, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-eats-crow/"><span>Mom eats crow</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>October 27, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/dipalos/"><span>Di Palo’s</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>September 30, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/chicken-with-bacon-wrapped-apples/"><span>Chicken with bacon-wrapped apples</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>September 14, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/lime-ginger-scallop-saut%C3%A9/"><span>Lime-ginger scallop sauté</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>September 10, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/garden-of-cheatin-strikes-again/"><span>Garden of Cheatin’ strikes again</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>September 4, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-gets-upset/"><span>Mom gets upset</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>September 1, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/new-york-store-bought-ravioli/"><span>New York store-bought ravioli</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>July 30, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/rotten-garlic-at-garden-of-eden/"><span>Rotten garlic at Garden of Eden</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>July 27, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/garden-of-cheatin/"><span>Garden of Cheatin&#039;</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>July 6, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/nina-plancks-real-food-market/"><span>Nina Planck&#039;s Real Food Market</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>June 17, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/pittsburgh-to-get-trader-joes/"><span>Pittsburgh to get Trader Joe&#039;s!</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>May 24, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/today-i-ate-a-cheese-sandwich/"><span>Today I ate a cheese sandwich...</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>May 13, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/an-article/"><span>An article</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>May 4, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/mom-is-hometown-proud/"><span>Mom is hometown proud</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Mom</span>, <span>April 26, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/trader-joes-wine-store/"><span>Trader Joe&#039;s Wine Store</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>April 21, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/grocery-stores-rip-you-off/"><span>Grocery stores rip you off</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>April 17, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/murrays-cheese/"><span>Murray&#039;s Cheese</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>April 8, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/whole-foods-raises-prices/"><span>Whole Foods raises prices</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>April 7, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/trader-joes-a-rant/"><span>Trader Joe&#039;s (a rant)</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>March 7, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/chinatown-excursion/"><span>Chinatown excursion</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>March 4, 2006</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/balduccis-and-peep/"><span>Balducci’s and Peep</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>December 21, 2005</span>
+		</div>
+	</div><div>
+		<h4><a href="../../../eat/x/chinatown/"><span>Chinatown</span></a></h4>
+		<div class="byline">
+			By <span class="alias">Leland</span>, <span>December 13, 2005</span>
+		</div>
+	</div>
+
+	<div><form id="searchbox_014353926172616456646:1qois_andhs" action="http://www.google.com/cse">
+<input type="hidden" name="cx" value="014353926172616456646:1qois_andhs" />
+<input type="hidden" name="cof" value="FORID:0" />
+<p><a href="/eat/archive/2007/10/">Browse by calendar </a>, or     <input name="q" type="text" /><br />
+    <input type="submit" name="sa" value="Search" /></p>
+</form></div>
+
+</div>
+	
+</div> <!-- container -->
+
+<div id="target-padder"></div>
+
+
+
+
+</body>
+</html>

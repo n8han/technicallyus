@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+			<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>SpdeProject.scala</title>
+        <script type="text/javascript" src="jquery-all.js"></script>
+        <script type="text/javascript" src="linked.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css" title="Style">
+    </head>
+    <body>
+        <pre>
+<span class="keyword">package</span> spde
+
+<span class="keyword">import</span> sbt._
+
+<span class="keyword">import</span> archetect.TemplateTasks
+
+<span class="keyword">class</span> <a title="class DefaultSpdeProject extends sbt.DefaultProject with spde.SpdeProject with spde.AppletProject with ScalaObject" id="6170">DefaultSpdeProject</a>(<a title="sbt.ProjectInfo" id="13247">info</a>: <a title="sbt.ProjectInfo" id="6712">ProjectInfo</a>) <span class="keyword">extends</span> <a title="sbt.DefaultProject" id="8425">DefaultProject</a>(<a href="#13247" title="sbt.ProjectInfo">info</a>) <span class="keyword">with</span> <a href="#6171" title="spde.SpdeProject">SpdeProject</a> <span class="keyword">with</span> <a href="AppletProject.scala.html#6200" title="spde.AppletProject">AppletProject</a>
+
+<span class="keyword">trait</span> <a title="trait SpdeProject extends sbt.BasicScalaProject with ScalaObject" id="6171">SpdeProject</a> <span class="keyword">extends</span> <a title="sbt.BasicScalaProject" id="10753">BasicScalaProject</a> {
+  <span class="keyword">val</span> <a title="sbt.MavenRepository" id="13125">databinder_repo</a> = <a href="#6171" title="implicit sbt.ManagedProject.toRepositoryName : (String)sbt.RepositoryName" id="12967" class="string">&quot;Databinder Repository&quot;</a> <a title="(String)sbt.MavenRepository" id="13834">at</a> <span title="java.lang.String(&quot;http://databinder.net/repo&quot;)" class="string">&quot;http://databinder.net/repo&quot;</span>
+  <span class="keyword">val</span> <a title="SpdeProject.this.Property[String]" id="13127">spdeVersion</a> = <a href="#6171" title="(=&gt; String)(implicit scala.reflect.Manifest[String],sbt.Format[String])SpdeProject.this.Property[String]" id="12661">propertyOptional</a>[<a title="String" id="1802">String</a>](<span title="java.lang.String(&quot;1.0.3__0.2.0&quot;)" class="string">&quot;1.0.3__0.2.0&quot;</span>)
+  <span class="keyword">val</span> <a title="sbt.ModuleID" id="13129">spde</a> = <a href="#6171" title="implicit sbt.ManagedProject.toGroupID : (String)sbt.GroupID" id="12966" class="string">&quot;us.technically.spde&quot;</a> <a title="(String)sbt.GroupArtifactID" id="13840">%%</a> <span title="java.lang.String(&quot;spde-core&quot;)" class="string">&quot;spde-core&quot;</span> <a title="(String)sbt.ModuleID" id="15039">%</a> <a href="#13127" title="=&gt; SpdeProject.this.Property[String]">spdeVersion</a>.<a title="=&gt; String" id="12749">value</a>
+
+  <span class="keyword">val</span> <a title="sbt.Path" id="13131">spdeSourcePath</a> = <a href="#6171" title="implicit sbt.Project.path : (String)sbt.Path">path</a>(<span title="java.lang.String(&quot;.&quot;)" class="string">&quot;.&quot;</span>)
+  <span class="keyword">val</span> <a title="sbt.PathFinder" id="13133">spdeSources</a> = <a href="#13131" title="=&gt; sbt.Path">spdeSourcePath</a> <a title="(sbt.FileFilter)sbt.PathFinder" id="13902">*</a> <a href="#6171" title="implicit sbt.Project.filter : (String)sbt.NameFilter" class="string">&quot;*.spde&quot;</a>
+  <span class="keyword">val</span> <a title="sbt.Path" id="13135">managedSources</a> = <a href="#6171" title="implicit sbt.Project.path : (String)sbt.Path" class="string">&quot;src_managed&quot;</a> <span title="(String)sbt.Path">/</span> <span title="java.lang.String(&quot;main&quot;)" class="string">&quot;main&quot;</span>
+  <span class="keyword">val</span> <a title="sbt.Path" id="13137">managedScalaPath</a> = <a href="#13135" title="=&gt; sbt.Path">managedSources</a> <span title="(String)sbt.Path">/</span> <span title="java.lang.String(&quot;scala&quot;)" class="string">&quot;scala&quot;</span>
+  <span class="keyword">val</span> <a title="sbt.Path" id="13139">managedResourcesPath</a> = <a href="#13135" title="=&gt; sbt.Path">managedSources</a> <span title="(String)sbt.Path">/</span> <span title="java.lang.String(&quot;resources&quot;)" class="string">&quot;resources&quot;</span>
+  <span class="keyword">val</span> <a title="sbt.Path" id="13141">sourceGlob</a> = <a href="#13137" title="=&gt; sbt.Path">managedScalaPath</a> <span title="(String)sbt.Path">/</span> <span title="java.lang.String(&quot;glob.scala&quot;)" class="string">&quot;glob.scala&quot;</span>
+  <span class="keyword">abstract</span> <span class="keyword">override</span> <span class="keyword">def</span> <a title="=&gt; sbt.PathFinder" id="13143">mainSourceRoots</a> = <span class="keyword">super</span>.<a title="=&gt; sbt.PathFinder" id="13021">mainSourceRoots</a> <span title="(sbt.PathFinder)sbt.PathFinder">+++</span> <a href="#13137" title="=&gt; sbt.Path">managedScalaPath</a>
+  <span class="keyword">abstract</span> <span class="keyword">override</span> <span class="keyword">def</span> <a title="=&gt; sbt.PathFinder" id="13144">mainResources</a> = <span class="keyword">super</span>.<a title="=&gt; sbt.PathFinder" id="13023">mainResources</a> <span title="(sbt.PathFinder)sbt.PathFinder">+++</span> <a href="#6171" title="(sbt.PathFinder,sbt.FileFilter)sbt.PathFinder" id="12530">descendents</a>(<a href="#13139" title="=&gt; sbt.Path">managedResourcesPath</a> <a title="=&gt; sbt.Path" id="13856">##</a>, <a href="#6171" title="implicit sbt.Project.filter : (String)sbt.NameFilter" class="string">&quot;*&quot;</a>)
+  <span class="keyword">override</span> <span class="keyword">def</span> <a title="=&gt; SpdeProject.this.Task" id="13145">compileAction</a> = <span class="keyword">super</span>.<a title="=&gt; SpdeProject.this.Task" id="11944">compileAction</a> <span title="(SpdeProject.this.ManagedTask*)SpdeProject.this.Task">dependsOn</span> (<a href="#13153" title="=&gt; SpdeProject.this.Task">glob</a>, <a href="#13155" title="=&gt; SpdeProject.this.Task">data</a>)
+
+  <span class="keyword">override</span> <span class="keyword">def</span> <a title="=&gt; sbt.PathFinder" id="13146">watchPaths</a> = <span class="keyword">super</span>.<a title="=&gt; sbt.PathFinder" id="12031">watchPaths</a> <span title="(sbt.PathFinder)sbt.PathFinder">+++</span> <a href="#13133" title="=&gt; sbt.PathFinder">spdeSources</a>
+
+  <span class="keyword">override</span> <span class="keyword">def</span> <a title="=&gt; SpdeProject.this.Task" id="13147">cleanAction</a> = <span class="keyword">super</span>.<a title="=&gt; SpdeProject.this.Task" id="11946">cleanAction</a> <span title="(SpdeProject.this.ManagedTask*)SpdeProject.this.Task">dependsOn</span> <a href="#6171" title="(sbt.PathFinder,SpdeProject.this.CleanOption*)SpdeProject.this.Task" id="12451">cleanTask</a>(<a href="#13137" title="=&gt; sbt.Path">managedScalaPath</a>)
+  
+  <span class="keyword">class</span> <a title="class ProjectDirectoryRun extends sbt.ForkScala with sbt.ForkScalaRun with ScalaObject" id="13148">ProjectDirectoryRun</a> <span class="keyword">extends</span> <a title="sbt.ForkScalaRun" id="11758">ForkScalaRun</a> {
+    <span class="keyword">override</span> <span class="keyword">def</span> <a title="=&gt; Some[java.io.File]" id="17338">workingDirectory</a> = <span title="(java.io.File)Some[java.io.File]">Some</span>(<a href="#6171" title="=&gt; sbt.ProjectInfo" id="12462">info</a>.<a title="=&gt; sbt.Path" id="13216">projectPath</a>.<span title="=&gt; java.io.File">asFile</span>)
+  }
+
+  <span class="keyword">override</span> <span class="keyword">def</span> <a title="=&gt; Some[SpdeProject.this.ProjectDirectoryRun]" id="13149">fork</a> = <span title="(SpdeProject.this.ProjectDirectoryRun)Some[SpdeProject.this.ProjectDirectoryRun]">Some</span>(<span title="SpdeProject.this.ProjectDirectoryRun" class="keyword">new</span> <a href="#13148" title="SpdeProject.this.ProjectDirectoryRun">ProjectDirectoryRun</a>)
+  
+  <span class="keyword">def</span> <a title="=&gt; java.lang.String" id="13150">appletClass</a> = <span title="java.lang.String(&quot;ProxiedApplet&quot;)" class="string">&quot;ProxiedApplet&quot;</span>
+  <span class="keyword">def</span> <a title="=&gt; java.lang.String" id="13151">proxyClass</a> = <span title="java.lang.String(&quot;DrawProxy&quot;)" class="string">&quot;DrawProxy&quot;</span>
+  <span class="keyword">def</span> <a title="=&gt; List[java.lang.String]" id="13152">imports</a> = <span title="java.lang.String(&quot;processing.core._&quot;)" class="string">&quot;processing.core._&quot;</span> <a href="#16787" title="(java.lang.String)List[java.lang.String]">::</a> <span title="java.lang.String(&quot;spde.core._&quot;)" class="string">&quot;spde.core._&quot;</span> <a href="#16788" title="(java.lang.String)List[java.lang.String]">::</a> <span title="java.lang.String(&quot;PConstants._&quot;)" class="string">&quot;PConstants._&quot;</span> <a href="#16789" title="(java.lang.String)List[java.lang.String]">::</a> <span title="java.lang.String(&quot;PApplet._&quot;)" class="string">&quot;PApplet._&quot;</span> <a href="#16790" title="(java.lang.String)List[java.lang.String]">::</a> <a title="object Nil" id="306">Nil</a>
+
+  <span class="keyword">lazy</span> <span class="keyword">val</span> <a title="SpdeProject.this.Task" id="13154">glob</a> = <a href="#6171" title="(sbt.ProductsSources)(=&gt; Option[String])SpdeProject.this.Task" id="12777">fileTask</a>(<a href="#6171" title="implicit sbt.FileTasks.wrapProduct : (=&gt; sbt.Path)sbt.ProductsWrapper" id="12773">sourceGlob</a> <a title="(sbt.PathFinder)sbt.ProductsSources" id="15045">from</a> <a href="#13133" title="=&gt; sbt.PathFinder">spdeSources</a>) {
+    <span class="keyword">val</span> <a title="scala.collection.Set[sbt.Path]" id="16264">sources</a> = <a href="#13133" title="=&gt; sbt.PathFinder">spdeSources</a>.<a title="=&gt; scala.collection.Set[sbt.Path]" id="13907">get</a>
+    <span class="keyword">val</span> <a title="java.io.File" id="16265">sgf</a> = <a href="#13141" title="=&gt; sbt.Path">sourceGlob</a>.<span title="=&gt; java.io.File">asFile</span>
+    <span title="Option[String]" class="keyword">if</span> (<a href="#16264" title="scala.collection.Set[sbt.Path]">sources</a>.<a title="=&gt; Boolean" id="16271">isEmpty</a>) <a title="object None" id="501">None</a> <span class="keyword">else</span>
+      <span title="object sbt.FileUtilities">FileUtilities</span>.<a title="(java.io.File,String,sbt.Logger)Option[String]" id="16353">write</a>(<a href="#16265" title="java.io.File">sgf</a>,
+<span title="implicit scala.Predef.stringWrapper : (String)scala.runtime.RichString" class="string">&quot;&quot;&quot;     |%s
+        |object `%sRunner` {
+        |  def main(args: Array[String]) { PApplet.main(Array(classOf[`%s`].getName)) }
+        |}
+        |class `%s` extends %s {
+        |  lazy val px = new %s(this) {
+        |&quot;&quot;&quot;</span>.<a title="implicit scala.Predef.stringWrapper : (String)scala.runtime.RichString" id="14049">stripMargin</a>.<span title="(Any*)String">format</span>(
+          <a href="#13152" title="=&gt; List[java.lang.String]">imports</a>.<a title="(String,String,String)String" id="13730">mkString</a>(<span title="java.lang.String(&quot;import &quot;)" class="string">&quot;import &quot;</span>, <span title="java.lang.String(&quot;\012import &quot;)" class="string">&quot;\nimport &quot;</span>, <span title="java.lang.String(&quot;&quot;)" class="string">&quot;&quot;</span>), 
+          <a href="#6171" title="=&gt; String">name</a>, <a href="#6171" title="=&gt; String">name</a>, <a href="#6171" title="=&gt; String">name</a>, <a href="#13150" title="=&gt; java.lang.String">appletClass</a>, <a href="#13151" title="=&gt; java.lang.String">proxyClass</a>
+        ), <a href="#6171" title="=&gt; sbt.Logger">log</a>
+      ) <a title="(=&gt; Option[String])Option[String]" id="16244">orElse</a> {
+        <span class="keyword">import</span> scala.io.Source.fromFile
+        <span class="keyword">for</span>(<a title="(((sbt.Path, java.io.File)) =&gt; Unit)Unit" id="17118">s</a> &lt;- <a href="#16264" title="scala.collection.Set[sbt.Path]">sources</a>; <a title="java.io.File" id="17119">f</a> = <a href="#17118" title="sbt.Path">s</a>.<span title="=&gt; java.io.File">asFile</span>; <a href="#17304" title="(((String, Int)) =&gt; Unit)Unit" id="17232">(</a><a title="String" id="17309">l</a>, <a title="Int" id="17310">n</a>) &lt;- <a title="(java.io.File)scala.io.Source" id="17013">fromFile</a>(<a href="#17119" title="java.io.File">f</a>).<a title="=&gt; Iterator[String]" id="17070">getLines</a>.<a title="=&gt; &lt;refinement&gt; extends java.lang.Object with Iterator[(String, Int)]" id="17237">zipWithIndex</a>)
+          <span title="object sbt.FileUtilities">FileUtilities</span>.<span title="(java.io.File,String,sbt.Logger)Option[String]">append</span>(<a href="#16265" title="java.io.File">sgf</a>, <a href="#17309" title="implicit scala.Predef.stringWrapper : (String)scala.runtime.RichString">l</a>.<a title="=&gt; String" id="14040">stripLineEnd</a> <a title="(Any)java.lang.String" id="5743">+</a> 
+            <span title="implicit scala.Predef.stringWrapper : (String)scala.runtime.RichString" class="string">&quot; // %s: %s\n&quot;</span>.<span title="(Any*)String">format</span>(<a href="#17119" title="java.io.File">f</a>.<a title="()java.lang.String" id="14982">getName</a>, <a href="#17310" title="Int">n</a><a title="(Int)Int" id="3091">+</a><span title="Int(1)" class="int">1</span>), <a href="#6171" title="=&gt; sbt.Logger">log</a>)
+        <span title="object sbt.FileUtilities">FileUtilities</span>.<span title="(java.io.File,String,sbt.Logger)Option[String]">append</span>(<a href="#16265" title="java.io.File">sgf</a>, <span title="java.lang.String(&quot;\012  }\012}&quot;)" class="string">&quot;\n  }\n}&quot;</span>, <a href="#6171" title="=&gt; sbt.Logger">log</a>)
+      }
+  } <span title="(String)SpdeProject.this.Task">describedAs</span> <span title="java.lang.String(&quot;Combine all .spde sources into src_managed/scala/glob.scala&quot;)" class="string">&quot;Combine all .spde sources into src_managed/scala/glob.scala&quot;</span>
+  <span class="keyword">lazy</span> <span class="keyword">val</span> <a title="SpdeProject.this.Task" id="13156">data</a> = (<a href="#6171" title="(sbt.Path,sbt.Path)SpdeProject.this.Task" id="12309">syncTask</a>(<a href="#13131" title="=&gt; sbt.Path">spdeSourcePath</a> <span title="(String)sbt.Path">/</span> <span title="java.lang.String(&quot;data&quot;)" class="string">&quot;data&quot;</span>, <a href="#13139" title="=&gt; sbt.Path">managedResourcesPath</a> <span title="(String)sbt.Path">/</span> <span title="java.lang.String(&quot;data&quot;)" class="string">&quot;data&quot;</span>)
+    <span title="(String)SpdeProject.this.Task">describedAs</span> <span title="java.lang.String(&quot;Synch data/ with src_managed/main/resources/data/&quot;)" class="string">&quot;Synch data/ with src_managed/main/resources/data/&quot;</span>  )
+}
+
+        </pre>
+    </body>
+</html>

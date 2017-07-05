@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Pesto my way</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="idd0e" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Pesto my way" width="220" class="title" src="../../../resources/net.databinder.components.RenderedLabel/7d08fc33"/><span class="title">Pesto my way</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on March 13, 2006</span></span>
+			<span id="idd0f" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Although most of you have probably made this dish hundreds of times, I have a couple of tips that may be new to some. First of all, at this time of year when large bunches of fresh basil are not available, at least to us in the <a href="http://en.wikipedia.org/wiki/Pittsburgh,_Pennsylvania">hinterlands</a>, I use fresh <strong>spinach</strong>, and substitute basil-infused olive oil for part of the olive oil in the recipe. I don&#8217;t bother with those sad little bunches of blister packed &#8220;fresh&#8221; herbs that hang from pegs in the produce section of the grocery store; I don&#8217;t think they&#8217;re worth the money. What I do buy are the small, squat jars of water-packed chopped basil that you can usually find, also in the produce section, for a couple of dollars a jar. I think they give a fresh herb taste to sauces and soups, and I put a big spoonful in the spinach pesto along with the rest of the ingredients.
+<div style="float:right"><img src="/eat/files/pesto_ingred.jpg" alt="" /></div></p>
+
+
+	<ul>
+	<li>1/4 cup pine nuts</li>
+		<li>3 large cloves garlic, unpeeled</li>
+		<li>2 cups packed fresh spinach leaves</li>
+		<li>1 tablespoon chopped jarred basil, or 1 teaspoon dried</li>
+		<li>1/4 cup basil-flavored olive oil</li>
+		<li>3 tablespoons olive oil</li>
+		<li>1/4 cup freshly grated parmesan cheese</li>
+		<li>1/2 lb. green beans and 1 potato, cubed, if desired</li>
+		<li>1 lb. pasta</li>
+	</ul>
+
+
+	<p>Toast the nuts in a small skillet, watching carefully to make sure you don&#8217;t burn them! Spread them out on a plate to cool. Add the garlic to the skillet and toast, shaking the pan, until the garlic has brown spots on all sides. Remove from the pan and put on a plate with the nuts to cool. While the garlic and nuts are cooling, grate the cheese and put everything else into the food processor. Pulse until well combined, and add the nuts and peeled garlic. Continue to pulse, scraping the bowl once or twice until the pesto is smooth.</p>
+
+
+	<p>Cook the pasta and optional vegetables. I just boil them all together in the same big kettle because they get done at the same time. Drain and reserve about 1/2 cup of the cooking water. Toss everything with the pesto and serve hot, adding as much of the reserved cooking water as you need to get the pesto to mix in smoothly.</p>
+
+
+	<p><strong>note</strong>: Toasting the garlic like this removes the raw garlic flavor that can spoil so many homemade pestos. This recipe is adapted from <a href="http://www.amazon.com/exec/obidos/ASIN/0936184744/eat0e-20"><em>Cook&#8217;s Illustrated, The New Best Recipe</em></a>.</p>
+
+
+	<p style="float:center"><img src="/eat/files/pesto.jpg" alt="" /></p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="idd10">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-1663"><p>Looks delicious! And it makes me long for summer. That&#8217;s a great idea for garlic, and I&#8217;m definitely going to try it once I get through all this damn <a href="http://technically.us/eat/articles/2006/02/20/chinatown-bounty">Chinatown garlic</a>.</p>
+<p>The green beans and potatoes, which I know you&#8217;ve been making for years, remind me of a Nigella Lawson <a href="http://www.ourbigcountry.com/p/articles/mi_qn4155/is_20050105/ai_n11847285">recipe</a> I saw last year that also sounds good.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on March 13, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1664"><p>Your photos are fantastic!  Will have to try that recipe also.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Grandma</span></span>
+  				<span>on March 13, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1665"><p>I just read the Nigella Lawson recipe to compare it to mine and I would quarrel with her that potatoes cut into small dice (perhaps mine were a little smaller than 1 inch but not much) do not take <strong>20 minutes</strong> to get tender! They would be mush at that point. I still maintain that everything takes the same amount of time to cook and can all be boiled at once, unless you like your beans really crunchy, which apparently she does.</p>
+<p>Her idea of mixing some of the pasta water into the pesto before tossing with the pasta and vegetables is a good one, though.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on March 13, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="idd11">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="idd12" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="idd12_hf_0" id="idd12_hf_0" /><input type="hidden" name="wicket:interface" value=":477:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="idd13" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="idd14" name="add" value="Add a comment" onclick="wicketShow('idd14--ajax-indicator');var wcall=wicketSubmitFormById('idd12', '../../../?wicket:interface=:477:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('idd14--ajax-indicator');}.bind(this),function() { ;wicketHide('idd14--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('idd12')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="idd14--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

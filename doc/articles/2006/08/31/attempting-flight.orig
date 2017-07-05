@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/city-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>City Slicking / Attempting flight</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../city">
+			
+			<img alt="City Slicking" src="../../resources/org.apache.wicket.Application/city-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../city">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/city-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id1570" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Attempting flight" width="207" class="title" src="../../resources/net.databinder.components.RenderedLabel/3d23ae52"/><span class="title">Attempting flight</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Doctor Barnett</span>, <span>on August 31, 2006</span></span>
+			<span id="id1571" class="tags">
+					{&nbsp;<span><a href="../../city/tag/flying/#selected-tag"><span>flying</span></a><span id="id1572">, </span></span><span><a href="../../city/tag/weather/#selected-tag"><span>weather</span></a><span id="id1573">, </span></span><span><a href="../../city/tag/security/#selected-tag"><span>security</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p style="float:left"><img src="/pictures/ernesto.jpg" alt="" /></p>
+
+
+	<p>MrLittlePants and I are off to <small><span class="caps">NORTH CAROLINA</span></small> tomorrow, and you&#8217;d better believe we&#8217;re gonna raise up.</p>
+
+
+	<p>That&#8217;s assuming we get past Liquid Hysteria 2006. Not to mention this Ernesto character, who is spinning his removed shirt, helicopter-style, flinging dangerous liquids every which way.</p>
+
+
+	<p>Wish us luck!</p>
+
+
+	<p style="clear:left;"><strong><span class="caps">UPDATE</span>:</strong>  (<em>Saturday, New York</em>) Um, that went well.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about'>About</h3>
+
+<p><em>City Slicking</em> is about urban life, transportation, energy, liberty, and language.</p>
+
+<h3 id='haunts'>Haunts</h3>
+
+<p><a href='http://twitter.com/n8han/'>Twitter</a><br /><a href='http://technically.us/code/'>Coderspiel</a><br /><a href='http://www.streetsblog.org/'>Streetsblog</a><br /><a href='http://gawker.com/people/alexpareene/posts/'>Pareene</a><br /><a href='http://www.copenhagenize.com/'>Copenhagenize</a><br /><a href='http://itre.cis.upenn.edu/~myl/languagelog/'>Language Log</a><br /><a href='http://t4america.org/'>Trans. for America</a></p>
+
+<h3 id='wire_service'>Wire Service</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/city-rss' title='All in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-short-rss' title='Left column, frequent links and notes'>Quickies</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-long-rss' title='Main column, occasional extended posts'>Treatise</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1574">
+  		
+  		
+  	</div>
+  	<div id="id1575">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id1576" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id1576_hf_0" id="id1576_hf_0" /><input type="hidden" name="wicket:interface" value=":776:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id1577" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id1578" name="add" value="Add a comment" onclick="wicketShow('id1578--ajax-indicator');var wcall=wicketSubmitFormById('id1576', '../../?wicket:interface=:776:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id1578--ajax-indicator');}.bind(this),function() { ;wicketHide('id1578--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id1576')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id1578--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

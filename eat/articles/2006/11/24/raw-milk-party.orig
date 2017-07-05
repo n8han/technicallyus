@@ -1,0 +1,255 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Raw milk party</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../eat">
+			
+			<img alt="Eat" src="../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../eat">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id1384" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Raw milk party" width="230" class="title" src="../../resources/net.databinder.components.RenderedLabel/ecb4f508"/><span class="title">Raw milk party</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on November 24, 2006</span></span>
+			<span id="id1385" class="tags">
+					{&nbsp;<span><a href="../../eat/tag/food%20products/#selected-tag"><span>food products</span></a><span id="id1386">, </span></span><span><a href="../../eat/tag/theory/#selected-tag"><span>theory</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p style="float:left"><img src="/eat/files/rawmilk.jpg" alt="" /></p>
+
+
+	<p>Mom is cooking up a full Thanksgiving post that will go up sometime in the next few days, but in the meantime I wanted to report about a wonderful new, regular product in my grandmother&#8217;s refrigerator: <a href="http://www.ninaplanck.com/index.php?article=real_milk">raw milk</a>. She managed to buy a share of a cow from some Maryland <a href="http://en.wikipedia.org/wiki/Mennonite">Mennonites</a>, and every week she picks up 1.5 gallons of milk in Mason jars from her cow along with other fresh products. (These same Mennonites provided us with two freshly slaughtered turkeys for our Thanksgiving dinner, which were beautiful and delicious.) Nina Planck swears by the nutritional benefits of raw milk, and my grandfather, whose body cannot tolerate lactose, is happy to finally be able to enjoy a glass of cold milk poured over his leftover apple pie the morning after Thanksgiving. Enzymes he needs to digest lactose are destroyed by pasteurization. The state of Maryland may eventually make her arrangement with the Mennonites illegal, but in the meantime, it&#8217;s a raw milk party every day here in rural Keedysville, and everyone is happy.</p>
+
+
+	<p>Raw milk looks, smells, and tastes different and better than any milk I&#8217;ve ever had. It&#8217;s yellowish and grassy, and it tastes sweet and delicate. Of course it&#8217;s risky, and maybe you have a higher chance of being exposed to different pathogens when you drink it (compared to pasteurized milk). But you will also be exposed to healthful bacteria that are destroyed in processed milk, and to not have the choice is infuriating. My mother and her siblings all grew up on it in the fifties and sixties, and none of them ever had a problem.</p>
+
+
+	<p>Considering all the other products we can freely buy in varying degrees of healthfulness (cigarettes, alcohol, guns, candy), I find it bizarre that we can&#8217;t make a choice about dairy products. Put a warning label on it, and let us take the risk. I&#8217;d like to at least be able to make an arrangement similar to my grandmother&#8217;s with a farm in New Jersey or New York. Have any readers accomplished this? Does anyone know of a farmer who would be willing to break this ridiculous law? Is there a source in the city that I don&#8217;t know about?</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1387">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3092"><p>the real milk website has listings of places to obtain it:<br />
+http://realmilk.com/where1.html</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">sarah</span></span>
+  				<span>on November 24, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3093"><p>Great post. I&#8217;ve never had raw milk, I don&#8217;t think. I&#8217;ll be checking out that realmilk website now&#8230; Hope you had a great Thanksgiving!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://wednesdaychef.typepad.com"><span class="alias">Luisa</span></a>
+  				<span>on November 24, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3094"><p>You say raw milk is risky. I&#8217;m not sure where you got this information, but in the US there have been more cases of foodborne illness per gallon of pasteurized milk than from unpasteurized milk. Some cases are listed at http://www.realmilk.com/foodborne.html.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Keith</span></span>
+  				<span>on November 24, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3095"><p>Keith: I&#8217;m saying that all milk is risky, and that we should have the choice of what we drink. I could be wrong, but it seems that, under perfectly clean conditions, raw milk might have a slightly higher chance of having something undesirable in it than pasteurized milk. I think this is the thinking behind the pasteurization laws, anyway. In practice, I bet that pasteurization leads to less stringent quality control, and this is certainly a greater risk to public health.</p>
+<p>At the moment, raw milk is monitored closely enough to eliminate risk to the small group of people lucky enough to have access to it. The Mennonite farmers in Maryland say that their facilities are checked to a painful degree, and that it would be nearly impossible for anything harmful to make its way into the milk that they distribute. If it were produced and distributed on the scale of pasteurized milk, it would be a different story, and small farms would be put out of business by the big guys, who can afford high-tech facilities. All I want is for the American milk-drinker to have the right to buy the milk he wants to drink. I don&#8217;t care if Gristedes is carrying it, but I would like to see it at the markets.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on November 24, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3096"><p>I&#8217;d start by seeing if any of the Weston A. Price Foundation chapters can point you to a source: http://www.westonaprice.org/localchapters/locallist.html</p>
+<p>Good luck!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://planetrawmilk.com"><span class="alias">todd</span></a>
+  				<span>on November 24, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3097"><p>Great, interesting post! Fred&#8217;s dad was just telling us about how his grandparents used to pour a half-cup of boiled raw milk into their coffee, among other stuff. I wanted to try and find some raw milk, or something close to it, and try their recipe. I&#8217;m going to have to check out the sources others listed.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://goodamericanwife.blogspot.com"><span class="alias">Anne</span></a>
+  				<span>on November 24, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4211"><p>For sources, go to www.rawmilk.com and click on your state for farms that produce raw milk. Great post, by the way &#8211; Hey, I&#8217;ve been meaning to try it myself, raw milk has to be better for me than all of the processed food that I eat&#8230;plus I could make some great biscuits with it, right?</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.biscuitbaker.com"><span class="alias">biscuitbaker</span></a>
+  				<span>on August 23, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4578"><p>Organic Pastures has made it very simple for you to write to the lawmakers,<br />
+just click on this link and go to the links. They even give you sample<br />
+letters to copy and<br />
+paste.</p>
+<p>http://www.organicpastures.com/contact_lawmakers.html</p>
+<p>Even if you are not in CA, please support us in trying to keep raw milk legal:</p>
+<p>http://www.localforage.com/local_forage/2007/10/government-snea.html</p>
+<p>Government Sneak Attack on California Raw Milk</p>
+<p>No more raw milk after January 2008!</p>
+<p>Come fight for your right to eat whole, unprocessed foods and raw milk</p>
+<p>Eight words are threatening to change your life:</p>
+<p></p>
+<p>October 25, 2007<br />
+Government Sneak Attack on CA Raw Milk</p>
+<p>This just in from Mark McAfee of Organic Pastures raw dairy outside of<br />
+Fresno&#8230;</p>
+<p>The state of California has perpetrated yet another disturbing assault on<br />
+our rights to consume whole foods. Call your representative in the<br />
+California state assembly and senate, the governor, and the Secretary of<br />
+Agriculture to make sure your voice is heard.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Kathy</span></span>
+  				<span>on October 28, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4665"><p>We are having a hard time finding grass feed or raw milk.</p>
+<p>We live in Jacksonville Florida. Could you help us.</p>
+<p>Thanks,</p>
+<p>Jerry Beauchamp</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Jerry Beauchamp</span></span>
+  				<span>on November 9, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5309"><p>to Jerry B.  <br />
+I run a buying club that gets raw milk in the Jacksonville area.  email us at jaxfreshfoods@aol.com</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">valencia</span></span>
+  				<span>on March 28, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5693"><p>My children grew up in the 60&#8217;s and 70&#8217;s.  We were lucky to have a local farm near by. After the farm closed we could not find another and had to buy store milk.  My children developed allergies that includes milk intollerence.  That told me it is not good to mess with Mother Nature. If cleanliness is # 1 with all our food, we have nothing to worry about. My opinion is: cleanliness is next to godliness. God gave us perfect food, why would men try to improve it, beats the heck out of me. Now I found another raw milk farm and it taste so good and I am glad.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Eva</span></span>
+  				<span>on September 1, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5806"><p>Can someone please help me thank you<br />
+Just heard about raw milk is better for us.<br />
+I am in Glassboro N.J Where can I get  raw milk? thank you</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Patricia</span></span>
+  				<span>on October 7, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5889"><p>Part of why we don&#8217;t get a choice, is that a whole lot of people all the way down the chain benefit from us not having a choice in the matter.  Dairy is a big money maker, why would they want to let small farms come back up in the running by letting us have that choice?  Sick, isn&#8217;t it?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Danielle</span></span>
+  				<span>on November 4, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6447"><p>I live in NJ. Where can i get raw milk?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Aalimah</span></span>
+  				<span>on September 1, 2009</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id1388">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id1389" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id1389_hf_0" id="id1389_hf_0" /><input type="hidden" name="wicket:interface" value=":713:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id138a" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id138b" name="add" value="Add a comment" onclick="wicketShow('id138b--ajax-indicator');var wcall=wicketSubmitFormById('id1389', '../../?wicket:interface=:713:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id138b--ajax-indicator');}.bind(this),function() { ;wicketHide('id138b--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id1389')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id138b--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

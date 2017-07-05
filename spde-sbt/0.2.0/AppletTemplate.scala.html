@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+			<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>AppletTemplate.scala</title>
+        <script type="text/javascript" src="jquery-all.js"></script>
+        <script type="text/javascript" src="linked.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css" title="Style">
+    </head>
+    <body>
+        <pre>
+<span class="keyword">package</span> spde
+
+<span class="keyword">object</span> <a title="object spde.AppletTemplate" id="6194">AppletTemplate</a> {
+  <span class="comment">// Hey, maybe there is a way to get resources in a sbt plugin, but for now...</span>
+  <span class="keyword">val</span> <a title="java.lang.String" id="19453">resource</a> = 
+<span title="java.lang.String(&quot;\012&lt;html&gt;\012\012  &lt;!--  IF and only if the web server is configured to serve jpgz files with \012        the correct content type and encoding, you can swap the 3 jar names\012        below to their smaller jpgz equivalents. e.g., for Apache:\012      \012        AddEncoding pack200-gzip .jpgz\012        AddType application/x-java-archive .jpgz --&gt;\012\012  &lt;!--[if !IE]&gt; --&gt;\012    &lt;object classid=&quot;java:{{sketch}}.class&quot; \012              type=&quot;application/x-java-applet&quot;\012              archive=&quot;{{archive}}&quot;\012              width=&quot;{{width}}&quot; height=&quot;{{height}}&quot;\012              standby=&quot;Loading Processing software...&quot; &gt;\012            \012      &lt;param name=&quot;archive&quot; value=&quot;{{archive}}&quot; /&gt;\012  \012      &lt;param name=&quot;mayscript&quot; value=&quot;true&quot; /&gt;\012      &lt;param name=&quot;scriptable&quot; value=&quot;true&quot; /&gt;\012  \012      &lt;param name=&quot;image&quot; value=&quot;loading.gif&quot; /&gt;\012      &lt;param name=&quot;boxmessage&quot; value=&quot;Loading Processing software...&quot; /&gt;\012      &lt;param name=&quot;boxbgcolor&quot; value=&quot;#FFFFFF&quot; /&gt;\012  \012      &lt;param name=&quot;test_string&quot; value=&quot;outer&quot; /&gt;\012  &lt;!--&lt;![endif]--&gt;\012  \012    &lt;object classid=&quot;clsid:8AD9C840-044E-11D1-B3E9-00805F499D93&quot; \012        codebase=&quot;http://java.sun.com/update/1.5.0/jinstall-1_5_0_15-windows-i586.cab&quot;\012        width=&quot;{{width}}&quot; height=&quot;{{height}}&quot;\012        standby=&quot;Loading Processing software...&quot;  &gt;\012      \012      &lt;param name=&quot;code&quot; value=&quot;{{sketch}}&quot; /&gt;\012      &lt;param name=&quot;archive&quot; value=&quot;{{archive}}&quot; /&gt;\012    \012      &lt;param name=&quot;mayscript&quot; value=&quot;true&quot; /&gt;\012      &lt;param name=&quot;scriptable&quot; value=&quot;true&quot; /&gt;\012    \012      &lt;param name=&quot;image&quot; value=&quot;loading.gif&quot; /&gt;\012      &lt;param name=&quot;boxmessage&quot; value=&quot;Loading Processing software...&quot; /&gt;\012      &lt;param name=&quot;boxbgcolor&quot; value=&quot;#FFFFFF&quot; /&gt;\012    \012      &lt;param name=&quot;test_string&quot; value=&quot;inner&quot; /&gt;\012    \012      &lt;p&gt;\012        &lt;strong&gt;\012          This browser does not have a Java Plug-in.\012          &lt;br /&gt;\012          &lt;a href=&quot;http://java.sun.com/products/plugin/downloads/index.html&quot; title=&quot;Download Java Plug-in&quot;&gt;\012            Get the latest Java Plug-in here.\012          &lt;/a&gt;\012        &lt;/strong&gt;\012      &lt;/p&gt;\012  \012    &lt;/object&gt;\012  \012  &lt;!--[if !IE]&gt; --&gt;\012    &lt;/object&gt;\012  &lt;!--&lt;![endif]--&gt;\012\012&lt;/html&gt;\012&quot;)" class="string">&quot;&quot;&quot;
+&lt;html&gt;
+
+  &lt;!--  IF and only if the web server is configured to serve jpgz files with 
+        the correct content type and encoding, you can swap the 3 jar names
+        below to their smaller jpgz equivalents. e.g., for Apache:
+      
+        AddEncoding pack200-gzip .jpgz
+        AddType application/x-java-archive .jpgz --&gt;
+
+  &lt;!--[if !IE]&gt; --&gt;
+    &lt;object classid=&quot;java:{{sketch}}.class&quot; 
+              type=&quot;application/x-java-applet&quot;
+              archive=&quot;{{archive}}&quot;
+              width=&quot;{{width}}&quot; height=&quot;{{height}}&quot;
+              standby=&quot;Loading Processing software...&quot; &gt;
+            
+      &lt;param name=&quot;archive&quot; value=&quot;{{archive}}&quot; /&gt;
+  
+      &lt;param name=&quot;mayscript&quot; value=&quot;true&quot; /&gt;
+      &lt;param name=&quot;scriptable&quot; value=&quot;true&quot; /&gt;
+  
+      &lt;param name=&quot;image&quot; value=&quot;loading.gif&quot; /&gt;
+      &lt;param name=&quot;boxmessage&quot; value=&quot;Loading Processing software...&quot; /&gt;
+      &lt;param name=&quot;boxbgcolor&quot; value=&quot;#FFFFFF&quot; /&gt;
+  
+      &lt;param name=&quot;test_string&quot; value=&quot;outer&quot; /&gt;
+  &lt;!--&lt;![endif]--&gt;
+  
+    &lt;object classid=&quot;clsid:8AD9C840-044E-11D1-B3E9-00805F499D93&quot; 
+        codebase=&quot;http://java.sun.com/update/1.5.0/jinstall-1_5_0_15-windows-i586.cab&quot;
+        width=&quot;{{width}}&quot; height=&quot;{{height}}&quot;
+        standby=&quot;Loading Processing software...&quot;  &gt;
+      
+      &lt;param name=&quot;code&quot; value=&quot;{{sketch}}&quot; /&gt;
+      &lt;param name=&quot;archive&quot; value=&quot;{{archive}}&quot; /&gt;
+    
+      &lt;param name=&quot;mayscript&quot; value=&quot;true&quot; /&gt;
+      &lt;param name=&quot;scriptable&quot; value=&quot;true&quot; /&gt;
+    
+      &lt;param name=&quot;image&quot; value=&quot;loading.gif&quot; /&gt;
+      &lt;param name=&quot;boxmessage&quot; value=&quot;Loading Processing software...&quot; /&gt;
+      &lt;param name=&quot;boxbgcolor&quot; value=&quot;#FFFFFF&quot; /&gt;
+    
+      &lt;param name=&quot;test_string&quot; value=&quot;inner&quot; /&gt;
+    
+      &lt;p&gt;
+        &lt;strong&gt;
+          This browser does not have a Java Plug-in.
+          &lt;br /&gt;
+          &lt;a href=&quot;http://java.sun.com/products/plugin/downloads/index.html&quot; title=&quot;Download Java Plug-in&quot;&gt;
+            Get the latest Java Plug-in here.
+          &lt;/a&gt;
+        &lt;/strong&gt;
+      &lt;/p&gt;
+  
+    &lt;/object&gt;
+  
+  &lt;!--[if !IE]&gt; --&gt;
+    &lt;/object&gt;
+  &lt;!--&lt;![endif]--&gt;
+
+&lt;/html&gt;
+&quot;&quot;&quot;</span>
+}
+        </pre>
+    </body>
+</html>

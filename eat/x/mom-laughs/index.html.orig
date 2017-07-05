@@ -1,0 +1,161 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Mom laughs</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="idf56" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Mom laughs" width="192" class="title" src="../../../resources/net.databinder.components.RenderedLabel/5daa9456"/><span class="title">Mom laughs</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on February 16, 2007</span></span>
+			<span id="idf57" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/theory/#selected-tag"><span>theory</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p style="float:right"><img src="/eat/files/brown.jpg" alt="" /></p>
+
+
+	<p>While throwing away the box from the <a href="http://www.dominosugar.com/">Domino</a> dark brown sugar this morning, the following on the back caught my eye: &#8220;Sugar is a 100% natural simple carbohydrate. Carbohydrates are an important part of any balanced diet. Sugar contains no fat or cholesterol and has 15 calories per teaspoon.&#8221;</p>
+
+
+	<p>I actually laughed out loud, even though I was all alone in the house. What are they trying to tell us with the first statement? Is it a veiled reference to <a href="http://www.westonaprice.org/modernfood/highfructose.html">high fructose corn syrup</a>? Because as opposed to what most people think, brown sugar is actually no more &#8220;natural&#8221; than white sugar, and in fact is simply white sugar that has been sprayed with cane syrup to give it the brown color and moisture; dark brown sugar has more syrup added.</p>
+
+
+	<p>Furthermore, the second statement is certainly true, but it has nothing to do with either the first or the third statements, and the carbohydrates that are an important part of any balanced diet are contained in fruits, whole grains, and vegetables, not refined sugar, for crying out loud! And the fact that sugar has 15 calories per teaspoon is great, but the recipe that follows all this (for pecan sticky buns) calls for almost a cup and a half of sugar, in addition to about a cup of butter, so the number of calories in a teaspoon of sugar isn&#8217;t particularly relevant to world we actually live in.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="idf58">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3391"><p>That&#8217;s hilarious. It reminds me of those horrible, sugary cereals that pretend to be &#8220;part of a balanced breakfast,&#8221; when in fact you&#8217;d be better off not eating at all.</p>
+<p>I had a similar private chuckle on Monday morning in the airport when I ate a McGriddle (my first one! and it wasn&#8217;t even that good). The bag, which was soaked through with grease from the sandwich and its accompanying hashbrown, was covered with scary illustrations of healthy people exercising and doing yoga. I&#8217;m thinking, these people are <em>not</em> have a McGriddle every morning.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on February 16, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3392"><p>Or the unforgettable ad campaign in which <span class="caps">KFC</span> attempted to brand fried chicken as a health food.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.billyprice.com"><span class="alias">Bill Pollak</span></a>
+  				<span>on February 16, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3393"><p>Well, if it is actually unrefined sugar then it is more natural than the refined white stuff.</p>
+<p>http://en.wikipedia.org/wiki/Brown_sugar</p>
+<p>I use the unrefined stuff &#8211; raw sugar or muscovado.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">http://www.stitchedinholland.com/blog</span></span>
+  				<span>on February 16, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3394"><p>Domino brown sugar is refined white sugar sprayed with cane syrup for color and moisture.</p>
+<p>According to Robert Wolke in <em>What Einstein Told His Cook</em>, true raw sugar is unfit for human consumption. What you are calling raw, or unrefined, sugar is just slightly less refined than white sugar, and the amount of nutrition in it is negligible. It makes food taste good and is a crucial ingredient in baking, but is certainly not an essential part of a healthy diet!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on February 16, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="idf59">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="idf5a" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="idf5a_hf_0" id="idf5a_hf_0" /><input type="hidden" name="wicket:interface" value=":559:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="idf5b" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="idf5c" name="add" value="Add a comment" onclick="wicketShow('idf5c--ajax-indicator');var wcall=wicketSubmitFormById('idf5a', '../../../?wicket:interface=:559:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('idf5c--ajax-indicator');}.bind(this),function() { ;wicketHide('idf5c--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('idf5a')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="idf5c--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

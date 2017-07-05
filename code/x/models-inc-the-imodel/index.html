@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="../../../blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="../../../blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet.css"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Models Inc. / the IModel</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code.html">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code.html">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id23cd" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Models Inc. / the IModel" width="382" class="title" src="../../../resources/net.databinder.components.RenderedLabel/36d2927d"/><span class="title">Models Inc. / the IModel</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on October 26, 2006</span></span>
+			<span id="id23ce" class="tags">
+					{&nbsp;<span><a href="../../tag/databinder/index.html#selected-tag"><span>databinder</span></a><span id="id23cf">, </span></span><span><a href="../../tag/models&#32;inc/index.html#selected-tag"><span>models inc</span></a><span id="id23d0">, </span></span><span><a href="../../tag/learning/index.html#selected-tag"><span>learning</span></a><span id="id23d1">, </span></span><span><a href="../../tag/wicket/index.html#selected-tag"><span>wicket</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p><em>This is the beginning of a <a href="http://technically.us/n8/articles/tag/modelsinc">series</a> that is to become</em> Databinder 101, <em>an introductory text for the toolkit.</em></p>
+
+
+	<p>The heart of Databinder is the <tt>HibernateObjectModel</tt>. It&#8217;s where Hibernate meets Wicket to transparently load and persist data reflected in the user interface. Understanding how it works will put you on your way to smooth Databinder programming.</p>
+
+
+	<h2>IModel</h2>
+
+
+	<p>Before delving into the <tt>HibernateObjectModel</tt> class, let&#8217;s go over the <tt>IModel</tt> interface it implements.</p>
+
+
+	<p>As is the trend in <span class="caps">GUI</span> frameworks (e.g. <a href="http://developer.apple.com/documentation/Cocoa/Conceptual/CocoaBindings/CocoaBindings.html">Cocoa Bindings</a>), Wicket binds UI components formally to the data they represent. You might think that a component could reference a plain object as its model and be done with it, but there are several ways the <tt>IModel</tt> middle-man earns its commission.</p>
+
+
+	<p>Firstly, it allows the actual model object to be an imaginary projection. Instead of assigning an object to all child components, you often benefit from a <a href="http://wicketframework.org/apidocs/wicket/model/CompoundPropertyModel.html">CompoundPropertyModel</a> assigned to a root component. This root model handles model requests for its child components with no models. Their <tt>wicket:id</tt> values map to properties of the root model object implicitly.</p>
+
+
+	<p>This same idea can be taken in unusual directions, like our <a href="http://databinder.net/javadoc/net/databinder/models/SublistProjectionModel.html">SublistProjectionModel</a>. It&#8217;s also common to have anonymous-subclass models that combine or operate on data to build model objects on the spot. These things wouldn&#8217;t be possible without a model container standing between components and their model objects.</p>
+
+
+	<p>The other purpose of <tt>IModel</tt> is detachability. We can&#8217;t always toss plain objects between Web requests. Some objects are just too big to be retained for each user of a busy Web application. And some objects—all Hibernate managed objects—are associated with particular database sessions and need help to go between two. Custom <tt>IModel</tt> implementations, such as Databinder&#8217;s, handle persistence of component data, allowing Wicket component classes to remain storage-generic.</p>
+
+
+	<p><em>To be continued&#8230;</em></p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='../../../resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id23d2">
+  		
+  		
+  	</div>
+  	<div id="id23d3">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id23d4" action="../../../index.html" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id23d4_hf_0" id="id23d4_hf_0" /><input type="hidden" name="wicket:interface" value=":1321:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id23d5" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id23d6" name="add" value="Add a comment" onclick="wicketShow('id23d6--ajax-indicator');var wcall=wicketSubmitFormById('id23d4', '../../../?wicket:interface=:1321:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id23d6--ajax-indicator');}.bind(this),function() { ;wicketHide('id23d6--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id23d4')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id23d6--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

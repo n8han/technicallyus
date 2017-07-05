@@ -1,0 +1,275 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / The awesomeness of Scala is implicit</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id269c" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="The awesomeness of Scala is implicit" width="601" class="title" src="../../../resources/net.databinder.components.RenderedLabel/39becc0a"/><span class="title">The awesomeness of Scala is implicit</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on December 12, 2007</span></span>
+			<span id="id269d" class="tags">
+					{&nbsp;<span><a href="../../../code/tag/typeturner/#selected-tag"><span>typeturner</span></a><span id="id269e">, </span></span><span><a href="../../../code/tag/wicket/#selected-tag"><span>wicket</span></a><span id="id269f">, </span></span><span><a href="../../../code/tag/scala/#selected-tag"><span>scala</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Learning a new programming language, especially one that is a significant advancement over those that you&#8217;re comfortable in, is like hiking a trail that only optionally climbs mountains. There are few obligatory streams to cross at the beginning: assembling tools to write and compile the code, learning how to write familiar old constructs in the new language. And then?</p>
+
+<p>If you&#8217;re learning on the side, that&#8217;s probably the point where you stroll through the lowlands for a while. In Scala&#8217;s case, expressing the very same ideas as in Java can be rewarding for its concise syntax alone. And maybe you learned <code>map()</code> already in Ruby; that&#8217;s an easy one to show off / put to work. <a href='http://james-iry.blogspot.com/2007/09/monads-are-elephants-part-1.html'>Monads</a>? There&#8217;s always tomorrow to climb that funny looking boulder.</p>
+
+<p><em>Coderspiel</em> is passing the six-month mark of <a href='http://technically.us/code/x/the-escape-hatch/'>Scala escapism</a>. And we&#8217;re still not even sure how much of the language we <em>don&#8217;t</em> know. Probably most of it. In some ways Scala is almost too clever for its own good&#8212;if a language feature is so clean and graceful that no one hears it being used, does it make a sound?</p>
+
+<h3 id='just_dont_be_cumbersome'>Just don&#8217;t be cumbersome</h3>
+
+<p>Consider implicit type conversions. Here is how they&#8217;re described in <a href='http://www.scala-lang.org/docu/files/ScalaReference.pdf'>Scala Reference</a>:</p>
+
+<blockquote>
+<p>Implicit conversions can be applied to expressions whose type does not match their expected type, as well as to unapplied methods.</p>
+</blockquote>
+
+<p>They &#8220;can be applied&#8221;&#8212;who&#8217;s doing what exactly? Further research reveals that the programmer defines a conversion function and adds the <code>implicit</code> keyword. The compiler helpfully applies conversions that are in scope when they resolve mismatched types in the code. Why in the wide world of programming would you want such a thing? Because it is totally awesome.</p>
+
+<p><abbr>JDBC</abbr>, for example, is not awesome. It was good enough in its day, but other database libraries have evolved such that queries can be written and results can be read with a lot less mother-may-I coding. <code>implicit</code> conversions <a href='http://scala.sygneca.com/code/simplifying-jdbc'>can make <abbr>JDBC</abbr> awesome</a>. (Hold on to that link; it&#8217;s the closest thing to an <code>implict</code> user&#8217;s guide there is.)</p>
+
+<pre><code>val insertPerson = conn prepareStatement &quot;insert into person(type, name) values(?, ?)&quot;;
+for (val name &lt;- names)
+  insertPerson&lt;&lt;rnd.nextInt(10)&lt;&lt;name&lt;&lt;!;</code></pre>
+
+<p>Nice, right? What looks like a different library is really the same old <abbr>JDBC</abbr> with <code>PreparedStatement</code> enriched by composition. Because the enriching conversion is implicit, objects returned from the library can be used in their enriched form without preamble. And because the original isn&#8217;t permanently converted it can still be used normally, giving the appearance that it has been dynamically extended.</p>
+
+<p>This is <em>very</em> handy for extending libraries. Wrapping one library class the old-fashioned way triggers an unfortunate cascade of wrapping everything that deals with the class; you end up writing a lot more wrapping code than code that actively improves anything. But with implicit conversion you can extend libraries ad hoc: one wrapping function works universally, and you need only touch the classes of a library you want to enhance. With no need to toil away on a sprawling, empty infrastructure, you can wrap a library for the benefit of a single application and still come out ahead.</p>
+
+<h3 id='lets_wrap_component_construction_whiners_in_duct_tape'>Let&#8217;s wrap component construction whiners in duct tape</h3>
+
+<p>One thing people like to complain about in Wicket is that you have to construct a component hierarchy with &#8230; object constructors. They think they would rather do that work in an additional source file, probably in the cuddly and popular declarative syntax of <abbr>XML</abbr>. Instead of calling for these people to be banned from using all communications equipment, we&#8217;ve decided to try adding some zany tokens to component hierarchy building in the hopes of scaring them back into the woods.</p>
+
+<p>The basic tool in Wicket construction is <code>MarkupContainer</code>&#8217;s <code>add(child)</code> method. Because this and many other component methods return the component itself, it&#8217;s possible to chain calls together and entirely avoid assigning most components to a <code>val</code>. Why? Less clutter or something. Anyway, once you start you don&#8217;t want to stop. But there <em>are</em> a few methods that don&#8217;t return the component, such as <code>DataView</code>&#8217;s <code>setItemsPerPage()</code>. Fortunately Scala has more tricks than Java, like always:</p>
+
+<pre><code>add(new DataView(&quot;tings&quot;, provider) {
+  setItemsPerPage(20)
+  def populateItem(item: Item) { ... }
+})</code></pre>
+
+<p>You can take this all the way to the bank (if your bank hasn&#8217;t invested in bad debt or whatever all that noise is about) and never have to assign values to components, except ones that actually work in tandem. So, we thought, wouldn&#8217;t it be nice to have a <code>RichContainer</code> with a chunky <abbr>ASCII</abbr>-art <code>add</code> method that would look cool as an <a href='http://www.scala-lang.org/intro/operators.html'>infix operator</a>? Okay!</p>
+
+<pre><code>implicit def container2rich(cont: MarkupContainer) = new RichContainer(cont)
+
+class RichContainer(val cont: MarkupContainer) {
+  def &lt;&lt; (child: Component) = cont.add(child)
+}</code></pre>
+
+<p>This is a trivial way to dress up component building; the substance of it is exactly the same as before. Note that to use infix notation against <code>this</code> you actually have to say so, as in <code>this &lt;&lt; new Label(...)</code> for <code>add(new Label(...))</code>. <em>Coderspiel</em> labs tested this method against a complicated Typeturner page and found that it was cool looking, but a coherent indentation strategy was hard to nail down and some odd parentheses crashed the party.</p>
+
+<pre><code>this &lt;&lt;
+  new Label(&quot;A&quot;) &lt;&lt;
+  (new WebMarkupContainer(&quot;B&quot;) &lt;&lt;
+    new Label(&quot;C&quot;)) &lt;&lt;
+  new Label(&quot;D&quot;)</code></pre>
+
+<p>Only a whiz at <code>add()</code> chaining would be able to make sense of that tree. Returning the first argument of the infix operation is so counterintuitive that it&#8217;s easy to get lost from one line to the next. So forget the <code>add()</code> semantics, let&#8217;s make all new operators!</p>
+
+<pre><code>class RichContainer(val cont: MarkupContainer) extends RichComponent(cont) {
+  def &lt;&lt;[T &lt;: Component] (child: T) = { cont.add(child); child }
+}
+
+class RichComponent(val comp: Component) {
+  def &lt;+[T &lt;: Component] (sib: T) = { comp.getParent.add(sib); sib }
+  def &lt;| (behv: IBehavior) = comp.add(behv)
+  def &gt;&gt;[T &lt;: Component] (child: T) = { comp.getParent.getParent.add(child); child }
+}</code></pre>
+
+<p>Here we&#8217;ve added generics to say that the return type should be the parameter&#8217;s <code>Component</code> subclass, instead of just <code>Component</code>. (Why is that necessary? Hm.) The <code>&lt;&lt;</code> operator adds a child as before but this time it returns the child. <code>&lt;+</code> adds and returns a sibling. The convention facilitates understanding operations in a series without having to work very far backwards. The first parameter <em>is</em> the object preceding the infix operator&#8212;but only because that is what the previous operation returned.</p>
+
+<p>And there are exceptions. The <code>&lt;|</code> operator adds a behavior and returns the component&#8212;otherwise, you be at a dead-end. And <code>&gt;&gt;</code> is for getting out of component dead-ends; it adds to the grandparent component. So when those are in play you do have to work backwards, but with behaviors you don&#8217;t have to look far and with <code>&gt;&gt;</code> it&#8217;s easy to find the mirrored <code>&lt;&lt;</code> that it&#8217;s effectively closing.</p>
+
+<p>What? Okay here&#8217;s an example, inside a <code>populateItem</code> method:</p>
+
+<pre><code>item &lt;&lt;
+  new PostLink(&quot;link&quot;, post) &lt;&lt;
+    new Headline(&quot;title&quot;) &lt;+
+    new Label(&quot;headlineText&quot;, post.title _) &gt;&gt;
+  new Label(&quot;author_alias&quot;) &lt;+
+  new RelativeDateLabel(&quot;posted&quot;)</code></pre>
+
+<p>See, under <code>item</code> the link contains a headline and a label, and then back under the item are two other labels. We indent when adding a child and unindent when stepping back up a generation. With <code>&lt;|</code> you&#8217;d indent as well, for as many lines as there are behaviors.</p>
+
+<p>This is probably not the ideal hierarchy-building <abbr title='Domain Specific Language'>DSL</abbr> (oops there&#8217;s the buzzword) for Wicket but it&#8217;s a start. It&#8217;s sitting in a <a href='http://databinder.net/wsvn/Databinder/typeturner/trunk/src/main/scala/net/databinder/enrich/RichWicket.scala?op=file'>source file in Typeturner</a>, for now; the class package hints where it might go eventually. The <a href='http://databinder.net/wsvn/Databinder/typeturner/trunk/src/main/scala/com/typeturner/pages/Home.scala?op=file'>Typeturner home page class</a> uses these operators, with moderate enthusiasm, to build itself. Success!</p>
+
+<p>But wait. Just like in <em>She-Ra: Princess of Power</em>, this episode had an easter egg, something for the most attentive readers. Did you see it? It was the underscore in the code sample above.</p>
+
+<h3 id='firstclass_functions_are_the_power_of_grayskull'>First-class functions are the power of Grayskull</h3>
+
+<p>The Wicket <code>IModel</code> interface is a bugaboo that strikes fear in the heart of new users. Databinder wrote <a href='http://databinder.net/site/show/models-inc'>an explanation</a> to try to help them out. Models can be used for a number of different things; a model created as an anonymous subclass can produce programmatic output based on the current application state. Instead of setting a model to some serializable value <code>new Model(new Date())</code> that will not change on subsequent requests, you can make one that will always contain the current time:</p>
+
+<pre><code>new AbstractReadOnlyModel {
+  def getObject = new Date()
+}</code></pre>
+
+<p>Which is not too bad (better than it looks in Java). But, we can implement this technique even better in Scala, <a href='http://liftweb.net/index.php/Lift_View_First'>as the Lift framework shows</a>, by passing in a function instead of a class and a method. So let&#8217;s create a new model class:</p>
+
+<p class='liner break'> The generic type here is a placeholder, ready for the day that Wicket cuts Java 1.4 loose.</p>
+
+<pre><code>class Readable[T](f: () =&gt; T) extends AbstractReadOnlyModel() {
+  def getObject = f().asInstanceOf[Object]
+}</code></pre>
+
+<p>We can instantiate that for the ever-current date in a label with:</p>
+
+<pre><code>new Label(&quot;now&quot;, new Readable(() =&gt; Date()))</code></pre>
+
+<p>Nice. But! Do you think we are done yet? No sir we are not!</p>
+
+<pre><code>implicit def func2read_model[T](f: () =&gt; T) = new Readable(f)</code></pre>
+
+<p>Look at our date label now, everybody:</p>
+
+<pre><code>new Label(&quot;cur_dt&quot;, () =&gt; new Date())</code></pre>
+
+<p><em>That</em> is awesome. And the mysterious underscore used earlier? Still pretty friggin&#8217; mysterious. Lift trots it out a lot, or else we never would have known it existed. It seems that if you follow a method with a space and an underscore the compiler will know you&#8217;re referring to the function itself instead a value returned from it. But the underscore trick doesn&#8217;t work for constructors, so to get the date we went with the regular <a href='http://www.scala-lang.org/intro/funsyntax.html'>anonymous function syntax</a>.</p>
+
+<p>Likewise you can use a first-class function to take over for <code>setObject</code>, and apply a tuple of the two functions implicitly for an instant read-write model. (<a href='http://databinder.net/wsvn/Databinder/typeturner/trunk/src/main/scala/net/databinder/enrich/RichWicket.scala?op=file'>Promise</a>.) Along those lines Scala has an abbreviated syntax for functions with one parameter, also involving an underscore, but that mystery will be left for the reader solve.</p>
+
+<p class='break'> Now, about those &#8220;monads,&#8221; we were thinking that a component&#8217;s model could or should be one, and &#8230; <em>Zzzzzzzz</em></p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id26a0">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-4829"><p>Good post! Do you know if a Scala book is going to be available soon? I love learning new languages, but generally take a cover-to-cover approach. And I hate reading on a computer screen. ;-)</p>
+
+<p>Cheers!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Clinton</span></span>
+  				<span>on December 13, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4830"><p>Yes, actually, it was just announced yesterday: <a href='http://www.artima.com/shop/forsale'>Programming in Scala</a>. The print edition is still six months away, but you can download the finished chapters as <abbr>PDF</abbr>s (and print them, I guess).</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on December 13, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4831"><p>Great stuff like always Nathan!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://chillenious.wordpress.com/"><span class="alias">Eelco Hillenius</span></a>
+  				<span>on December 13, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4832"><p>Btw, you use AbstractBehavior but wouldn&#8217;t you rather use IModel instead?</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://chillenious.wordpress.com"><span class="alias">Eelco Hillenius</span></a>
+  				<span>on December 13, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4833"><p>What is this, code review? Fine&#8212;I&#8217;ll change it to <code>IBehavior</code> because I&#8217;m sure that&#8217;s what you meant to type. ;)</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on December 13, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4901"><p>Simplifying JDBC was one of the earliest examples I wrote showing what could be done with implicits. The language has evolved quite a bit since then, and I suspect that the same functionality would look a little different today. It would probably be a little shorter, and a little easier to read.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Ross Judson</span></span>
+  				<span>on January 2, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4902"><p>Hi Ross! I found it very helpful, mostly for exploring the possible. I&#8217;m not aware of any similarly extensive examples that also come with explanatory text, though use of implicit enrichment within the standard library seems to be pretty common. I suppose people could grep around there if they want to see the latest and cleverest stuff.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8han</span></span>
+  				<span>on January 2, 2008</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id26a1">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id26a2" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id26a2_hf_0" id="id26a2_hf_0" /><input type="hidden" name="wicket:interface" value=":1400:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id26a3" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id26a4" name="add" value="Add a comment" onclick="wicketShow('id26a4--ajax-indicator');var wcall=wicketSubmitFormById('id26a2', '../../../?wicket:interface=:1400:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id26a4--ajax-indicator');}.bind(this),function() { ;wicketHide('id26a4--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id26a2')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id26a4--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / This number now in service</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id26a5" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="This number now in service" width="441" class="title" src="../../../resources/net.databinder.components.RenderedLabel/1026d33e"/><span class="title">This number now in service</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on March 15, 2007</span></span>
+			<span id="id26a6" class="tags">
+					{&nbsp;<span><a href="../../../code/tag/typeturner/#selected-tag"><span>typeturner</span></a><span id="id26a7">, </span></span><span><a href="../../../code/tag/programming/#selected-tag"><span>programming</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p><em>The old Typo-driven</em> Coderspiel <em>is shutting down. This is the last post to appear at both addresses.</em></p>
+
+<p class='break'>People talk about &#8220;eating your own dogfood&#8221; like it&#8217;s unpleasant. To the contrary, it&#8217;s the ideal state for a programmer. My first encounter with a coder was in a <abbr title='Bulletin Board System'>BBS</abbr> chat session; he was the sysop. He was talking about a problem he&#8217;d encountered that required him to whip up a program in <a href='http://en.wikipedia.org/wiki/Turbo_Pascal'>Turbo Pascal</a>. I downloaded his program and could hardly believe it was something he&#8217;d <em>just</em> made. But there it was.</p>
+
+<p>It was a few more years before I was competent enough in any programming environment to create things so easily. And by that time I was graduating from college, eschewing post-graduate study, and heading off to&#8212;I thought&#8212;code my butt off at Lucent. But instead of the invigorating business of <em>creation</em> I&#8217;d imagined, I was entering a world of corporate degeneration inhabited by masters of doing nothing. This world is known as &#8220;Information Technology.&#8221;</p>
+
+<p>Rather than create good applications, an <abbr>IT</abbr> programmer does things like installing software on his computer (Rational Rose!) that is known to require more memory than ninety-nine percent of computers possess. Then he struggles to make this &#8220;required&#8221; software work, and complains to management that his <abbr>PC</abbr> does not have enough memory to run the software he needs to properly complete the &#8220;design phase.&#8221; Ergo, the project must go on hold until the request for more memory is fulfilled.</p>
+
+<p class='break'>I left that kind of job behind, but unfortunately it&#8217;s not so easy to escape the mind-set. Because Java is so popular in corporations, the weight of their lazy <abbr>IT</abbr> departments consistently pushes the technology towards optimizing the picture rather than the product. In Java it&#8217;s perversely more important to have the right diagrams, the right development processes, and the right coding standards than it is to have a well-working application.</p>
+
+<p>And the tragedy of it is that there <em>is</em> something worth saving in Java. There&#8217;s an enormous amount of free libraries, waiting to be used. They may not allow for the most efficient coding (because of their adherence to certain fussy principles) but they can still do great swaths of your work for you. With every new project I&#8217;m pleased with the libraries I find to help me out, particularly if they&#8217;re waiting in the central <a href='http://maven.apache.org/'>Maven</a> repository so I can integrate them effortlessly.</p>
+
+<p>So here&#8217;s to writing your own software&#8212;and <em>using</em> it, which should go without saying. Already I&#8217;m happier with my <a href='http://databinder.net/'>Databinder</a>-based Typeturner weblog software than with Rails-based <a href='http://trac.typosphere.org/'>Typo</a>, because it works the way <em>I</em> want it to. Some day I hope Typeturner will be useful to a great number of people. For now, I&#8217;d appreciate it if you guys would help break it in. <a href='http://technically.us/code/x/this-number-now-in-service#add-comment'>Say something</a>!</p>
+
+<p class='break'>And spammers: make my day, bitches!</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id26a8">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-124"><p>Wait! I&#8217;m not a spammer :)</p>
+
+<p>Just wanted to comment on <a href='http://technically.us/code/archive/2007/4#item-121'>this entry</a> that begins with &#8220;Newish Wicket user &#8230;&#8221; [grr&#8230;] couldn&#8217;t find any other way to do so on this site.</p>
+
+<p>Just that I don&#8217;t use links for the buttons, I use input type=&#8221;image&#8221; and as you rightly said without <em>any</em> change to the backing java code.</p>
+
+<p>So they are not links but submit buttons.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://ptrthomas.wordpress.com"><span class="alias">Peter Thomas</span></a>
+  				<span>on April 3, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-125"><p>Good point! I hadn&#8217;t looked at your source. So, Wicket isn&#8217;t providing that particular advantage; I assumed otherwise because in a few cases I have swapped buttons for text links, and appreciated how it works in Wicket.</p>
+
+<p>As for commenting on the short posts, I don&#8217;t think that&#8217;s going to be possible. They&#8217;re too short to have their own pages, and without that it&#8217;s just weird. I&#8217;m thinking instead that responses can be made on one&#8217;s own blog, as Waffle did in the update on <a href='http://waffle.wootest.net/2007/03/27/nerves-and-the-striking-thereof/'>this post</a>. I keep an eye on Technorati so I know when anyone&#8217;s linking and responding.</p>
+
+<p>But I&#8217;m glad you used this comment thing because now I know I need to work on its formatting, among other things.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8han</span></span>
+  				<span>on April 3, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-139"><p>Thanks for the update. Hey glad I could help beak in Typeturner:) It looks great!</p>
+
+<p>Good idea to link back to your blog instead, never thought of that.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://ptrthomas.wordpress.com"><span class="alias">Peter Thomas</span></a>
+  				<span>on April 4, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4189"><p>I love what you&#8217;ve done with the blog. Typo wasn&#8217;t <em>bad</em>, but this is definitely much cooler. I&#8217;m a frequent reader of Eat, by the way. Keep up the good work!</p>
+
+<p>(Oh, and if you want some help writing MovableType-to-Typeturner migration scripts, I could definitely see myself upgrading my own blog. :) )</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://colinwetherbee.com/"><span class="alias">Colin</span></a>
+  				<span>on August 22, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4206"><p>I think that Movable Type can export to the same WordPress <abbr>WXR</abbr> format that I used to import Typo, so it would probably only need a few tweaks. But to run Typeturner you basically need root access to a virtual server, because it requires software most hosts don&#8217;t provide (Java <em>and</em> Ruby). I&#8217;m glad you like it and are interested!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on August 22, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4273"><p>Well, I run all my hosted blogs and numerous other things off my server here at home, so there&#8217;s no problem with root access, of course. I&#8217;ve never played with Ruby, although I watched a video about it once, and the only thing I got out of the presentation was something like &#8220;a six-year-old would be fully capable of setting up a poorly-designed database back-end to a really crappy and slow blog in OSX&#8221;&#8230; so, perhaps this could change my mind about Ruby.</p>
+
+<p>I imagine you&#8217;re still developing this thing, but if you have a reasonably thought-out installation guide, I&#8217;d be happy to give it a shot with my MovableType configuration.</p>
+
+<p>Oh, and, where did the comments RSS feeds go?! I neeeeed that feature! :)</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://colinwetherbee.com/"><span class="alias">Colin</span></a>
+  				<span>on September 2, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4274"><p>Oh, and while I love the sidebar comments thing, I must say it&#8217;s not too pretty when the comments are long like that one I just posted. :)</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://colinwetherbee.com/"><span class="alias">Colin</span></a>
+  				<span>on September 2, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4276"><p>[<em>continued by e-mail</em>.]</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">nn8</span></span>
+  				<span>on September 3, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id26a9">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id26aa" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id26aa_hf_0" id="id26aa_hf_0" /><input type="hidden" name="wicket:interface" value=":1401:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id26ab" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id26ac" name="add" value="Add a comment" onclick="wicketShow('id26ac--ajax-indicator');var wcall=wicketSubmitFormById('id26aa', '../../../?wicket:interface=:1401:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id26ac--ajax-indicator');}.bind(this),function() { ;wicketHide('id26ac--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id26aa')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id26ac--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

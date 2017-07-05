@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Mom makes a hot weather meal</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id4a1" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Mom makes a hot weather meal" width="499" class="title" src="../../../resources/net.databinder.components.RenderedLabel/356d1a20"/><span class="title">Mom makes a hot weather meal</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on September 7, 2007</span></span>
+			
+		</span></div>
+		<div><p>When it is too hot to cook but I still have to put food on the table like last night, I often fall back on an old stand-by, pasta with grilled vegetables and if I have it, grilled chicken or some other meat (like a sausage or two). Unfortunately it didn&#8217;t really keep me cool, as standing over the grill in the heat of the afternoon sun was quite unpleasant, as was boiling a big pot of water for the pasta, but I did all of it early enough so that I had time to cool off for a bit before putting everything on the table, so I at least wasn&#8217;t sitting down to eat pouring with sweat. And I&#8217;ve been to a lot of funerals lately so believe me, I&#8217;m not complaining! Life is good!</p>
+<p><img src="http://technically.us/resources/com.typeturner.Typeturner/image?name=grill-veg" title="grill-veg" alt="grill-veg" /></p>
+<p>When grilling the vegetables I like a hot fire so they get a bit charred yet not overcooked. I had a nice assortment from my <a href="http://www.post-gazette.com/pg/07060/765794-34.stm"><span class="caps">CSA</span></a> box &#8211; zucchini, bell pepper, and plum tomatoes, to which I added a Pennsylvania sweet onion and a few big mushrooms. I tossed everything in some olive oil and balsamic vinegar, minced garlic, salt and pepper, and dried oregano, and grilled until marked on both sides but not overcooked. The chicken was seasoned on a separate plate and grilled until done but still juicy. The vegetables and chicken cooled in the bowl with the vegetable marinade until I could handle them, and then I cut everything into bite size pieces, hoarding any juices, and returned all to the big bowl.</p>
+<p>Next, I cooked about a half a pound of green beans along with the penne, until al dente, drained them together, and added them to the bowl with the chicken and vegetables. I folded everything together with a rubber spatula and sprinkled in some chopped fresh basil and grated fresh parmesan cheese, folded again and put the bowl in the refrigerator for the flavors to blend and the whole thing to chill for an hour or so. Shortly before serving I tasted it and added salt and some balsamic vinegar for extra flavor. I had pine nuts so I toasted about 1/4 cup of them and sprinkled them over the top.</p>
+<p>For dessert I made my Grandmother Dutton&#8217;s Chocolate Sauce, served over vanilla ice cream. I used to think this was the best fudge sauce in the world, and made it frequently in college and as a young adult. It now strikes me as a bit too sweet, but it&#8217;s still head and shoulders above anything that comes in a bottle or jar. It&#8217;s a good recipe to have on hand as most of us have the ingredients in our pantries and it transforms plain ice cream into a real treat.</p>
+<p><strong>Grandmama Dutton&#8217;s Chocolate Sauce</strong></p>
+<ul>
+	<li>1 cup milk</li>
+	<li>1 cup sugar</li>
+	<li>1/4 cup unsweetened cocoa powder</li>
+	<li>dash salt</li>
+	<li>2 tablespoons butter</li>
+	<li>1 teaspoon vanilla</li>
+</ul>
+<p><img src="http://technically.us/resources/com.typeturner.Typeturner/image?name=icecream" title="icecream" alt="icecream" /></p>
+<p>Mix first four ingredients together in small, heavy saucepan and simmer over low heat until soft ball forms or candy thermometer registers about 230º, stirring frequently. Remove from heat and add butter and vanilla. Serve warm or hot over ice cream, pound cake, or brownies.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id4a2">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-4322"><p>Ah, Rebecca&#8230;a recipe for fudge sauce&#8230;I was just looking for one to go with some homemade ice cream! It seemed wrong, somehow, to pour something hershey-ish on it. And I don&#8217;t need to go out to buy anything-I&#8217;ve got it all here-thank you!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://lindystoast.com"><span class="alias">lindy</span></a>
+  				<span>on September 8, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4326"><p>Why has this steamy weather returned to bother our cooking anyway.  I love cooking pasta in advance and serving it cold and for some reason I forgot to do that this summer. It is definitely a good way to have a relaxing meal. Usually I am cooking til the last minute. That chocolate sauce does sound good. Maybe I will try it with less sugar.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.izzyeats.blogspot.com"><span class="alias">izzy&#039;s mama</span></a>
+  				<span>on September 8, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4332"><p>My grandmother used to make a chocolate sauce that my family has been trying to recreate for years. I know it had all those ingredients in it (except possibly the vanilla). I&#8217;m wondering if this is the same. I&#8217;ll have to do a test run for my parents next time I see them.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://kitchenography.typepad.com"><span class="alias">Julie</span></a>
+  				<span>on September 10, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-4335"><p>Actually, Julie, the vanilla is my own addition.</p>
+<p>Lindy, you&#8217;ll have to let me know how you like it!</p>
+<p>Hi, izzy&#8217;s mama! I can relate to your desire to use less sugar, but sometimes these cooked sugar things are calculated proportionally and might not come out right if you mess with them. It might be better just to put less sauce on your ice cream&#8230;</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca (Mommy)</span></span>
+  				<span>on September 10, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id4a3">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id4a4" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id4a4_hf_0" id="id4a4_hf_0" /><input type="hidden" name="wicket:interface" value=":189:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id4a5" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id4a6" name="add" value="Add a comment" onclick="wicketShow('id4a6--ajax-indicator');var wcall=wicketSubmitFormById('id4a4', '../../../?wicket:interface=:189:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id4a6--ajax-indicator');}.bind(this),function() { ;wicketHide('id4a6--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id4a4')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id4a6--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

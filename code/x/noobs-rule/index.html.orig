@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Noobs Rule</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id245d" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Noobs Rule" width="184" class="title" src="../../../resources/net.databinder.components.RenderedLabel/b49c183a"/><span class="title">Noobs Rule</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on April 23, 2006</span></span>
+			<span id="id245e" class="tags">
+					{&nbsp;<span><a href="../../../code/tag/databinder/#selected-tag"><span>databinder</span></a><span id="id245f">, </span></span><span><a href="../../../code/tag/learning/#selected-tag"><span>learning</span></a><span id="id2460">, </span></span><span><a href="../../../code/tag/wicket/#selected-tag"><span>wicket</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>I&#8217;m recording for posterity an event that brings me great satisfaction: a rallying cry for newbies hiding right in the <a href="http://databinder.net/directory/app">Databinder phone directory example</a> :</p>
+
+
+	<p style="float:center"><img src="/pictures/noobs.png" alt="" /></p>
+
+
+	<p>(No I didn&#8217;t plant that there myself, thought I might have if I&#8217;d thought of it)</p>
+
+
+	<p>Helping new users get started with <a href="http://www.wicketframework.org/">Wicket</a> was is what I made <a href="http://databinder.net/">Databinder</a> to do. And to &#8220;get started,&#8221; in my opinion, you need to connect to a database. Everything else is a useless variation of <em>helloworld</em>.</p>
+
+
+	<p>I care about new Wicket users not just because I was once one myself, but also because they&#8217;re vital to the success of the framework. Superior technology doesn&#8217;t succeed on its merits alone&#8212;it has to win people over. Just ask <a href="http://en.wikipedia.org/wiki/Betamax">Betamax</a>, the <a href="http://en.wikipedia.org/wiki/Amiga">Amiga</a>, or <a href="http://en.wikipedia.org/wiki/New_Coke">New Coke</a>. (And that&#8217;s just from the ’80s!)</p>
+
+
+	<p>Wicket was introduced after both <a href="http://java.sun.com/javaee/javaserverfaces/"><span class="caps">JSF</span></a> and <a href="http://jakarta.apache.org/tapestry/">Tapestry</a>. It&#8217;s not the only second generation Web framework in Java town&#8212;just the best one. If it&#8217;s going to succeed, or even be around it ten years, it needs to pile on users <strong>now</strong>.</p>
+
+
+	<p>Mr. (or Ms.!) Noobs Rule, I salute you. And if 42424242 could possibly be a real phone number I&#8217;d call it to say, &#8220;I agree.&#8221;</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id2461">
+  		
+  		
+  	</div>
+  	<div id="id2462">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id2463" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id2463_hf_0" id="id2463_hf_0" /><input type="hidden" name="wicket:interface" value=":1337:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id2464" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id2465" name="add" value="Add a comment" onclick="wicketShow('id2465--ajax-indicator');var wcall=wicketSubmitFormById('id2463', '../../../?wicket:interface=:1337:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id2465--ajax-indicator');}.bind(this),function() { ;wicketHide('id2465--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id2463')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id2465--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / GNOME is it!</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id2278" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="GNOME is it!" width="194" class="title" src="../../../resources/net.databinder.components.RenderedLabel/ad59b387"/><span class="title">GNOME is it!</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on January 26, 2006</span></span>
+			<span id="id2279" class="tags">
+					{&nbsp;<span><a href="../../../code/tag/gnome/#selected-tag"><span>gnome</span></a><span id="id227a">, </span></span><span><a href="../../../code/tag/macintosh/#selected-tag"><span>macintosh</span></a><span id="id227b">, </span></span><span><a href="../../../code/tag/ubuntu/#selected-tag"><span>ubuntu</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p style="float:left"><img src="/pictures/gnome.jpg" alt="" /></p>
+
+
+	<p>I recently switched from XP to Ubuntu in the office.</p>
+
+
+	<p>At home I use Ubuntu&#8217;s default <span class="caps">GNOME</span> configuration, but I was worried by the lack of decent mail notification from <a href="http://www.gnome.org/projects/evolution/">Evolution</a>  and decided that if <span class="caps">KDE</span>&#8217;s priority was features over simplicity, it would better suit my workday needs.</p>
+
+
+	<p>I had heard mostly good things about Kubuntu <del>- though, in retrospect, mostly from their own <a href="http://www.kubuntu.org/">web site</a> -</del> and decided to install it as soon as I had shrunk my XP partition. It does install as easily as Ubuntu, and it <strong>does</strong> have a friggin&#8217; mail notification linked to an e-mail program, and nice form controls in its default browser (Konqueror). Those are all of the good things I have to say about <span class="caps">KDE</span>.</p>
+
+
+	<p>The bad, which outweighs the good here by about 5 tons, is that the damn thing <em>crashes all the time</em>. At first I thought maybe I had done something wrong, set something incorrectly. But surely I hadn&#8217;t separately messed up Konqueror, Kontact, and amaroK, all three of which crashed several times a day. I can be reckless with computers, but my luck isn&#8217;t <em>that</em> bad.</p>
+
+
+	<p>So I switched back to <span class="caps">GNOME</span>, which is not hard to do with (K)ubuntu. My work day is so much less stressful now, I wonder if <span class="caps">GNOME</span> isn&#8217;t secretly feeding me valium through my fingertips. Probably, though, it&#8217;s just the pleasure of using something that doesn&#8217;t crash too much and doesn&#8217;t overwhelm me with a gazillion useless configuration parameters and bizarre defaults.</p>
+
+
+	<p>(Not sure why I ever though <span class="caps">KDE</span> would work for me, since their model is Windows X-P-3000-whiz-bang, and <span class="caps">GNOME</span>&#8217;s is Mac System 7.)</p>
+
+
+	<p>I followed <a href="http://ubuntuforums.org/showthread.php?t=44110&#38;highlight=firefox+widgets">these instructions</a> to make Firefox&#8217;s forms a little easier on the eyes, and I&#8217;m trying not to let it bother me that two programs are separately querying my <span class="caps">IMAP</span> sever. Beats crashing, anyway.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id227c">
+  		
+  		
+  	</div>
+  	<div id="id227d">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id227e" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id227e_hf_0" id="id227e_hf_0" /><input type="hidden" name="wicket:interface" value=":1288:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id227f" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id2280" name="add" value="Add a comment" onclick="wicketShow('id2280--ajax-indicator');var wcall=wicketSubmitFormById('id227e', '../../../?wicket:interface=:1288:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id2280--ajax-indicator');}.bind(this),function() { ;wicketHide('id2280--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id227e')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id2280--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

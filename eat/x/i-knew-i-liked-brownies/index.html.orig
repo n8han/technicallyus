@@ -1,0 +1,220 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / I knew I liked brownies</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id5c2" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="I knew I liked brownies" width="350" class="title" src="../../../resources/net.databinder.components.RenderedLabel/e630cce"/><span class="title">I knew I liked brownies</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on March 18, 2007</span></span>
+			<span id="id5c3" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/baking/#selected-tag"><span>baking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>The only way for me to understand the difference between the three brownies I&#8217;ve made in the last few months is to view them in a convenient table format.</p>
+
+
+<table>
+<tr>
+<td> <strong>Recipe</strong> </td>
+<td> <strong>choc</strong> </td>
+<td> <strong>butter</strong> </td>
+<td> <strong>sugar</strong> </td>
+<td> <strong>eggs</strong> </td>
+<td> <strong>flour</strong> </td>
+<td> <strong>vanilla</strong> </td>
+<td> <strong>salt</strong> </td>
+<td> <strong>grade</strong> </td>
+</tr>
+<tr>
+<td> Bittman </td>
+<td> 2 oz </td>
+<td> 1/2 c </td>
+<td> 1 c </td>
+<td> 2 </td>
+<td> 1/2 c </td>
+<td> 1/2 t </td>
+<td> pinch </td>
+<td> F </td>
+</tr>
+<tr>
+<td> <a href="http://www.scharffenberger.com/re0102.asp">Scharffen Berger</a> </td>
+<td> 6 oz </td>
+<td> 3/4 c </td>
+<td> 1.5 c </td>
+<td> 3 </td>
+<td> 1 c </td>
+<td> 1 tsp </td>
+<td> n/a </td>
+<td> D </td>
+</tr>
+<tr>
+<td> <a href="http://www.marthastewart.com/portal/site/mslo/menuitem.fc77a0dbc44dd1611e3bf410b5900aa0/?vgnextoid=b72bad948aa0f010VgnVCM1000003d370a0aRCRD&#38;vgnextfmt=default">Martha</a> </td>
+<td> 8 oz </td>
+<td> 1/2 c </td>
+<td> 1.5 c </td>
+<td> 4 </td>
+<td> 3/4 cup </td>
+<td> 1 tsp </td>
+<td> 1/2 tsp </td>
+<td> A+ </td>
+</tr>
+</table>
+
+	<p>I had nearly given up on ever making brownies worth eating, but I put my faith in Martha and she did not disappoint. Her <a href="http://www.amazon.com/exec/obidos/ASIN/0307236722/eat0e-20">book</a> has already provided me with go-to recipes for <a href="http://technically.us/eat/articles/2007/03/10/marthas-chocolate-chip-cookies">chocolate chip cookies</a>, <a href="http://technically.us/eat/articles/2007/02/19/leland-conquers-muffins">blueberry muffins</a>, and <a href="http://technically.us/eat/articles/2007/03/01/martha-stewarts-spicy-cheese-biscuits">cheesy biscuits</a>, and now I can credit it with restoring my faith in the brownie as the ultimate chocolate treat.</p>
+
+
+	<p><img src="/pictures/marthabrownies.jpg" alt="" /></p>
+
+
+	<p>I approached the recipe cautiously. If I hadn&#8217;t had everything on hand, I would have skipped it, but as it was I had a big bar of Valrhona chocolate to get through. I melted my butter and chocolate very carefully in a makeshift double boiler, and I stirred, whisked, and folded almost exactly as instructed. I left out about 1/4 cup of the sugar on a whim, and I took about 5 minutes off of the baking time because a toothpick was coming out clean. (The apartment also smelled so good that it tested my patience.) Otherwise I was very faithful to the recipe.</p>
+
+
+	<p>The key to the kind of brownies I like (dense and chocolaty, and not sickeningly sweet) seems to be a hefty amount of chocolate, eggs, and salt. It&#8217;s amazing that Martha&#8217;s brownies have <em>four times</em> the amount of chocolate and twice the number of eggs as Mark Bittman&#8217;s, which are sad and horrible and not fit to be eaten. The Scharffen Berger brownies, which are edible but not very good, have more sugar and flour than the others, but no salt; that might explain their boring flavor. Martha&#8217;s are good and salty, just like her cookies and everything else.</p>
+
+
+	<p>Mom gets jealous when I gush about Martha, but I get my love of hearty, salty things from her, so it&#8217;s her fault. If I hadn&#8217;t grown up eating such wonderful baked goods, I wouldn&#8217;t be so obsessed with recreating them as an adult.</p>
+
+
+	<p><strong>Martha&#8217;s perfect brownies</strong> <br> 
+1 stick unsalted butter <br> 8 oz. bittersweet chocolate, coarsely chopped <br> 1 1/2 cups sugar <br> 4 large eggs <br> 1 teaspoon vanilla extract <br> 3/4 cup all-purpose flour <br> 1/2 teaspoon salt</p>
+
+
+	<p>Preheat to 350º. Butter an 8-inch square baking pan, and line with parchment, leaving a slight overhang on 2 sides. Melt the butter and chocolate together in a large bowl set over (but not touching) simmering water; stir frequently until melted. Remove from heat and let cool to room temperature.</p>
+
+
+	<p>Stir sugar into chocolate mixture until combined. Whisk in eggs one at a time, whisking until smooth after each addition. Whisk in vanilla. Gently fold in flour and salt.</p>
+
+
+	<p>Pour batter into prepared pan, and smooth top with an offset spatula. Bake until cake tester inserted in the center comes out with only a few moist crumbs attached, 40 to 45 minutes. Transfer pan to a wire rack to cool completely before removing and cutting into squares. (Confession: Nathan and I ate an entire row of them while they were hot from the oven, before I could even take a picture, and we never felt more satisfied.)</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id5c4">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3537"><p>You still haven&#8217;t tried the <em>Cook&#8217;s Illustrated</em> version, which is my go-to recipe these days; it combines unsweetened, semi-sweet, and cocoa powder, and is definitely not too sweet.</p>
+<p>A wonderful dessert is to spoon berries prepared as for shortcake (sliced and very lightly sweetened and let stand until juicy) over still slightly warm squares of brownie and topped with vanilla ice cream. The combination of fruit and chocolate is out of this world.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on March 18, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3538"><p>I&#8217;m sure it&#8217;s lovely, but I have this problem where just the idea of fruit and chocolate together makes me feel nauseated. I&#8217;ll take the ice cream though!</p>
+<p>Speaking of ice cream, Whole Foods-brand vanilla has gone up to $4.99 here, while chocolate and other flavors remain $3.99. What&#8217;s up with that?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on March 18, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3539"><p>These aren&#8217;t brownies!  They are Sachertorte!  Or something close. I&#8217;m with  Rebecca, a chocolate cake this good begs for fruit.  I&#8217;d choose sour cherry or raspberry, a Sachertorte usually has apricot, I think.</p>
+<p>I made a half-recipe of these with unsweetened chocolate.  I melted the chocolate and butter in the microwave, on low, and butter and floured a loaf pan, no parchment.  Came out beautiful.  A less fuss approach (if you&#8217;ve got a microwave).</p>
+<p>I love how crumbly and not-oily these are, duh, butter. I like brownies too, now.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">zp</span></span>
+  				<span>on March 18, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id5c5">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id5c6" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id5c6_hf_0" id="id5c6_hf_0" /><input type="hidden" name="wicket:interface" value=":226:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id5c7" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id5c8" name="add" value="Add a comment" onclick="wicketShow('id5c8--ajax-indicator');var wcall=wicketSubmitFormById('id5c6', '../../../?wicket:interface=:226:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id5c8--ajax-indicator');}.bind(this),function() { ;wicketHide('id5c8--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id5c6')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id5c8--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

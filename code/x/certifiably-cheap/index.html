@@ -1,0 +1,173 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="../../../blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="../../../blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet.css"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Certifiably cheap</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code.html">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code.html">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id2329" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Certifiably cheap" width="274" class="title" src="../../../resources/net.databinder.components.RenderedLabel/b3fa6ce2"/><span class="title">Certifiably cheap</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on March 24, 2007</span></span>
+			<span id="id232a" class="tags">
+					{&nbsp;<span><a href="../../tag/databinder/index.html#selected-tag"><span>databinder</span></a><span id="id232b">, </span></span><span><a href="../../tag/cryptography/index.html#selected-tag"><span>cryptography</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>When I first <a href='http://technically.us/n8/articles/2006/06/10/databinder-gets-personal-authentication'>announced</a> built-in authentication components for Databinder, I made much of the care they take to store password hashes only and no actual passwords in the database. It&#8217;s one of those things we know we know we&#8217;re supposed to, but don&#8217;t always get around to doing when we build things from scratch.</p>
+
+<h2 id='the_internet_in_the_middle'>The Internet in the middle</h2>
+
+<p>Storing the hash only, and preventing a disastrous theft of all passwords, is crucial. But it&#8217;s also nice to avoid ever sending a user&#8217;s actual password in the clear. Usually, we intend to avoid that by submitting password-bearing forms over a secure connection, but those intentions aren&#8217;t always carried out.</p>
+
+<p>Effective use of secure <abbr>HTTP</abbr> connections unfortunately requires parting with a fair bit of cash. Certificate authorities must work to verify one&#8217;s identity before putting it on the cert, and they aren&#8217;t likely to work for free anytime soon.</p>
+
+<p>You can always self-sign a certificate, or use a <a href='http://en.wikipedia.org/wiki/CAcert.org'>free authority</a>, but don&#8217;t expect your users to be pleased with the threatening dialog boxes that pop up as they try to log in. Worse, some users will be unable to use those certificates at all, thanks to their overzealous IT departments. (Yes, overzealous&#8212;warnings are as good as exclusion. Phishing sites will always prefer inconspicuous non-signing over fire-alarm self-signing.)</p>
+
+<p>We understand the threat of <a href='http://en.wikipedia.org/wiki/Man-in-the-middle_attack'>man-in-the-middle</a> attacks, but the certificate authority defense tragically leads to more passwords being sent in the clear than otherwise would be. We&#8217;d rather our non-revenue-generating sites be exposed to an elite <abbr>DNS</abbr> hacker-in-the-middle than the entire dumb-hacking internet, thank you very much.</p>
+
+<p class='break'> So I&#8217;ve begun to look at Databinder&#8217;s authentication components without the obviously-bunk assumption that they will be used over a secure connection. To be reasonably well protected, we must encrypt password data ourselves, using technology that used to be rocket science but now yields to any browser&#8217;s JavaScript interpreter: <abbr>RSA</abbr> public key encryption.</p>
+
+<p>I&#8217;m not breaking ground here, just wrapping up the technology for easy use. This kind of password encryption doesn&#8217;t get a lot of respect, and the source code I dredged up was housed in sites looking either dated or downmarket, shall we say. (I had to give an e-mail address to get some of the code&#8211;the things I do for you guys.) As you might expect, the server-side implementations I came across were either ASP or &#8220;JSP.&#8221; This scrappy technique, unassuming but effective, deserved to be wrapped up in Wicket component.</p>
+
+<h2 id='key_generation'>Key generation</h2>
+
+<p>Since we&#8217;re sending passwords from the client to the server and never the other way around, we generate the encryption key pair on the server. We don&#8217;t want to generate a new key for each component instance, as it takes a significant amount of processor time. Instead, we can generate the 1024 bit key pair (still considered unfactorable) and use it for as long as the JVM is up:</p>
+
+<pre><code>private static KeyPair keypair;
+static {
+  try {
+    keypair = KeyPairGenerator.getInstance(&quot;RSA&quot;).genKeyPair();
+  } catch (NoSuchAlgorithmException e) { ... }
+}</code></pre>
+
+<p>We&#8217;ll send the public key to the client in spliced-together JavaScript. With that, it can encrypt the entered password and no observer with reasonably limited computation resources would be to determine the actual password. But! A clever observer could use the same encrypted string to log himself in, at least until the keys change.</p>
+
+<p>To thwart that attack, we generate a random challenge string that is specific to a component instance and export it to JavaScript. This challenge string must be encrypted along with the password, and verified on the server, so that the encrypted string as a whole is valid only for one component instance (and therefore Web session).</p>
+
+<h2 id='mathy_javascript'>Mathy JavaScript</h2>
+
+<p><abbr>RSA</abbr> has been implemented in JavaScript a few times. After frustrating myself trying to get different of these to work with Java&#8217;s <abbr>RSA</abbr> implementation, I eventually landed on <a href='http://www.codeproject.com/aspnet/rasinterop.asp'>this tutorial</a> promising to work with .<abbr>NET</abbr>, thinking that if it worked with at least one implementation besides itself it might work with Java&#8217;s. It did!</p>
+
+<p>The meaty scripts provided in the tutorial bundle (which you can see in <a href='http://databinder.net/wsvn/Databinder/databinder/trunk/databinder/src/main/resources/net/databinder/auth/components/'>my svn repo</a> <em>without</em> giving an e-mail address) are slightly altered versions of other scripts, and better-adhere the <abbr>PKCS</abbr>#1 v1.5 padding standard, or something. Anyway, did I mention it works?</p>
+
+<p>The component adds an <code>onsubmit</code> handler to the form that encrypts the password with a challenge string before sending, which won&#8217;t take more than a second or two on most computers. The scripts work with strings of hexadecimal digits, and it seemed to finicky to change the keys and encrypted strings to Base64, so hex it is for now.</p>
+
+<h2 id='back_at_on_the_homestead'>Back at on the homestead</h2>
+
+<p>Decrypting the password in a Wicket component is easy if you can navigate the exception minefield:</p>
+
+<pre><code>protected Object convertValue(String[] value) throws ConversionException {
+  String enc = (String) super.convertValue(value);
+  if (enc == null)
+    return null;
+  try {
+    Cipher rsa = Cipher.getInstance(&quot;RSA&quot;);
+    rsa.init(Cipher.DECRYPT_MODE, keypair.getPrivate());
+    String dec = new String(rsa.doFinal(hex2data(enc)));
+    
+    String[] toks = dec.split(&quot;\\|&quot;, 2);
+    if (toks.length != 2 || !toks[0].equals(challenge))
+      throw new ConversionException(&quot;incorrect or empy challenge value&quot;)
+        .setResourceKey(&quot;RSAPasswordTextField.failed.challenge&quot;);
+
+    return toks[1];
+  } catch (GeneralSecurityException e) { ... }
+}</code></pre>
+
+<p>The decrypted value becomes the component&#8217;s converted input, and is later processed as plaintext (until <abbr>SHA</abbr> hashed for the database). This works perfectly, except with the <code>EqualPasswordInputValidator</code>, which inherits its parent&#8217;s bad habit of comparing pre-conversion values. <code>EqualPasswordConvertedInputValidator</code> comes to rescue, bearing ninety percent of its source code in its class name.</p>
+
+<p>And that is the story of how <a href='http://databinder.net/wsvn/Databinder/databinder/trunk/databinder/src/main/java/net/databinder/auth/components/RSAPasswordTextField.java?op=file'><code>RSAPasswordTextField </code></a> came to be. Never again, out of expediency or laziness, will I send a password in the clear.</p>
+
+<p class='break'> At least, not through any Databinder application.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='../../../resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id232c">
+  		
+  		
+  	</div>
+  	<div id="id232d">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id232e" action="../../../index.html" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id232e_hf_0" id="id232e_hf_0" /><input type="hidden" name="wicket:interface" value=":1304:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id232f" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id2330" name="add" value="Add a comment" onclick="wicketShow('id2330--ajax-indicator');var wcall=wicketSubmitFormById('id232e', '../../../?wicket:interface=:1304:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id2330--ajax-indicator');}.bind(this),function() { ;wicketHide('id2330--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id232e')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id2330--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Databinder 0.5 complete, mostly available</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id243a" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Databinder 0.5 complete, mostly available" width="676" class="title" src="../../../resources/net.databinder.components.RenderedLabel/6884e3fc"/><span class="title">Databinder 0.5 complete, mostly available</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on May 25, 2006</span></span>
+			<span id="id243b" class="tags">
+					{&nbsp;<span><a href="../../../code/tag/databinder/#selected-tag"><span>databinder</span></a><span id="id243c">, </span></span><span><a href="../../../code/tag/maven/#selected-tag"><span>maven</span></a><span id="id243d">, </span></span><span><a href="../../../code/tag/wicket/#selected-tag"><span>wicket</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p style="float:right"><img src="/pictures/pegasus.jpg" alt="" /></p>
+
+
+	<p><a href="http://wicket.sourceforge.net/">Wicket 1.2</a> was released yesterday, and I flipped the big <em>Databinder 0.5</em> switch last night. If you&#8217;ve <a href="http://technically.us/n8/articles/2006/05/11/databinder-automatic-for-the-people">configured the Databinder repository</a> you should be able set your Databinder version to 0.5 and start using it right right away.</p>
+
+
+	<p>New Hibernate / Annotations versions are in the Maven repo pipeline. I&#8217;ve updated Databinder to depend on those and temporarily hosted them on our own repository. It isn&#8217;t clear how to automatically add project bundles to a repo, so I just dumped them in there without checksums. That causes a warning on download, but works.</p>
+
+
+	<p>You&#8217;ll also need to pull the latest <span class="caps">EJB</span> draft from the <a href="http://sourceforge.net/project/showfiles.php?group_id=40712&#38;package_id=139933">Hibernate Annotations download</a> and install it to your repository. Maven&#8217;s gotten smarter in recent minor versions; the easiest way to install troublesome (Sun) JARs like this is to try a <code>mvn compile</code> on your project and copy the lengthy install command from Maven&#8217;s error message:</p>
+
+
+	<p><img src="/pictures/maven-jar.png" alt="" /></p>
+
+
+	<p>After that it will compile properly, though still complaining about the lack of an <span class="caps">EJB POM</span>. Maven will just have to chill out until the official repository has everything up later this week. At that point I&#8217;ll take down my ramshackle Hibernate distribution stand.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id243e">
+  		
+  		
+  	</div>
+  	<div id="id243f">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id2440" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id2440_hf_0" id="id2440_hf_0" /><input type="hidden" name="wicket:interface" value=":1333:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id2441" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id2442" name="add" value="Add a comment" onclick="wicketShow('id2442--ajax-indicator');var wcall=wicketSubmitFormById('id2440', '../../../?wicket:interface=:1333:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id2442--ajax-indicator');}.bind(this),function() { ;wicketHide('id2442--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id2440')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id2442--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

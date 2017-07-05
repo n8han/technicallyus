@@ -1,0 +1,188 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Mom cooks pork chops</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../eat">
+			
+			<img alt="Eat" src="../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../eat">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id2cd" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Mom cooks pork chops" width="371" class="title" src="../../resources/net.databinder.components.RenderedLabel/43bb289e"/><span class="title">Mom cooks pork chops</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on October 2, 2006</span></span>
+			<span id="id2ce" class="tags">
+					{&nbsp;<span><a href="../../eat/tag/books/#selected-tag"><span>books</span></a><span id="id2cf">, </span></span><span><a href="../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Anne, from <a href="http://goodamericanwife.blogspot.com/">A Good American Wife</a> alerted me to another recipe from The Silver Palate&#8217;s <em>New Basics Cookbook</em> that I had never tried, <strong>Pork Chops and Scalloped Potato Casserole</strong>. I usually make my scalloped potatoes the way my mother taught me, basically just slicing a lot of potatoes and onions and layering them with salt, pepper, a sprinkle of flour, generous lashings of grated sharp cheddar, and repeating until the casserole is full, then pouring milk over the whole thing until I can see it, placing in oven and baking until it is done, which takes a long time.</p>
+
+
+	<p>This recipe skips the cheese and uses heavy cream seasoned with garlic, thyme, and mustard, and it&#8217;s really a very nice variation on scalloped potatoes. The pork chops are browned and layered in the middle of the spuds, so you actually can&#8217;t see them in the photo. I used thin, 1/2 inch chops; and they cooked a bit faster than the time called for in the recipe.</p>
+
+
+	<p><strong>Pork Chops and Scalloped Potato Casserole</strong></p>
+
+
+	<p style="float:right"><img src="/eat/files/scalchop.jpg" alt="" /></p>
+
+
+	<ul>
+	<li>2 cups heavy cream</li>
+		<li>1 clove garlic, thinly sliced</li>
+		<li>2 tablespoons whole-grain mustard</li>
+		<li>2 tablespoons Dijon mustard</li>
+		<li>2 teaspoons dried thyme</li>
+		<li>3 cups thinly sliced peeled potatoes</li>
+		<li>2 tablespoons butter</li>
+		<li>6 loin pork chops</li>
+		<li>1/4 cup white wine</li>
+		<li>1 cup sliced onion</li>
+		<li>2 tablespoons chopped parsley</li>
+		<li>salt and pepper</li>
+	</ul>
+
+
+	<p>1. Preheat oven to 350ºF.</p>
+
+
+	<p>2. Bring the cream and garlic to boil in a saucepan. Reduce the heat and simmer until reduced by a third, about 5-8 minutes. Add both mustards and thyme. Set aside.</p>
+
+
+	<p>3. Fill a large pot with water and bring to boil. Drop potato slices in and cook for 30 seconds. Drain, rinse under cold water and dry on paper towels. (I just let them sit in a colander while I worked on frying the chops and didn&#8217;t even rinse them.)</p>
+
+
+	<p>4. Melt the butter (I used a little olive oil with it) in a large skillet and brown the chops over medium-high heat for 2 minutes on each side. Remove from pan and set aside. Add the wine to pan and simmer for 30 seconds, scraping up and brown bits. Turn off skillet.</p>
+
+
+	<p>5. In large shallow casserole, layer half the potatoes and onions; lay the chops on top and pour the pan juices over them. Top with remaining potatoes and onions, and then carefully pour the reduced cream over the top. If it seems a little dry add a bit more cream. Sprinkle the top with chopped parsley, salt, and pepper.</p>
+
+
+	<p>6. Bake for 1 1/4 hours. If the top isn&#8217;t brown enough, place under broiler and cook until browned and bubbly, but I didn&#8217;t find this to be necessary.</p>
+
+
+	<p>I served this with green beans on the side, but applesauce would also be good.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id2d0">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-2856"><p>Looks delicious! <span class="caps">NOW</span> I recall having the same problem with my thinner-cut pork chops and the first time making them, they turned out a bit dry. Sorry I didn&#8217;t warn you. It&#8217;s been a while.</p>
+<p>I&#8217;m so into pork now that&#8217;s it&#8217;s fall. Great for the tastebuds, not so great for the cholesterol!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://goodamericanwife.blogspot.com"><span class="alias">Anne</span></a>
+  				<span>on October 2, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6246"><p>Your comments about dry chops is precisely why I&#8217;m on the net this very moment.  I plan to brown my chops, set them aside, and add them to the pre-baked scalloped potatoes as the butcher tells me they only need 30 min and the dish itself can cook for 1 hour or more.  Has anyone tried doing that?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Linda Overn</span></span>
+  				<span>on April 18, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6247"><p>Hi Linda&#8212;First I will tell you that Leland has had good luck with brining pork chops to increase their juiciness; I haven&#8217;t tried that myself but you might consider that for your dish. While I have never topped scalloped potatoes with pork chops I have topped various rice-pilaf type concoctions and baked them in the oven. And I did it like you say, browned the chops, then topped the rice and whatever liquid it&#8217;s cooking in and baked until the rice is done, which does only take about 30 minutes. Of course, I have covered the casserole in order to cook the rice but the principle is the same. So give it a try and good luck!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca (Mom)</span></span>
+  				<span>on April 18, 2009</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id2d1">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id2d2" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id2d2_hf_0" id="id2d2_hf_0" /><input type="hidden" name="wicket:interface" value=":126:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id2d3" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id2d4" name="add" value="Add a comment" onclick="wicketShow('id2d4--ajax-indicator');var wcall=wicketSubmitFormById('id2d2', '../../?wicket:interface=:126:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id2d4--ajax-indicator');}.bind(this),function() { ;wicketHide('id2d4--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id2d2')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id2d4--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

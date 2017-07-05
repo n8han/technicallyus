@@ -1,0 +1,213 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / A springtime dessert</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../eat">
+			
+			<img alt="Eat" src="../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../eat">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id50d" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="A springtime dessert" width="322" class="title" src="../../resources/net.databinder.components.RenderedLabel/dc57e92e"/><span class="title">A springtime dessert</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on May 11, 2006</span></span>
+			<span id="id50e" class="tags">
+					{&nbsp;<span><a href="../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a><span id="id50f">, </span></span><span><a href="../../eat/tag/dessert/#selected-tag"><span>dessert</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>To (mis)quote a high school classmate of my husband&#8217;s, &#8220;Springtime is here, isn&#8217;t it dandy; let&#8217;s turn on the set and watch Amos and Andy.&#8221;</p>
+
+
+	<p>I&#8217;m going to make a confession here before God and all you people and tell everyone before we go any further that summer is not my season; I am a cold-weather girl. Even before Mother Nature started giving me hot flashes I did not handle the heat well. We do not have air-conditioning in our house, and it may surprise some folks to hear that it gets <strong>hot</strong> in Pittsburgh. My kitchen windows face southwest, so the sun is streaming into them just when I begin to cook dinner.</p>
+
+
+	<p>I don&#8217;t think I will ever forget the day, 2 summers ago when Calvin wanted fried chicken, corn on the cob, green beans, and linguine with pesto for his birthday dinner on July 24, in addition to an apple pie. I was cooking in my bare feet that day and my feet looked like red water balloons by the time we sat down at the dinner table, all hot and swollen.</p>
+
+
+	<p>Anyway, today was comparatively cool, and rainy, and I made a wonderful rhubarb crisp for dessert. The key to a really crisp topping is to melt the butter before mixing with the other topping ingredients. I used whole wheat flour here, both in the topping and mixed with the rhubarb and it was undetectable (my whole grains initiative continues). I put some of my wonderful <a href="http://www.bakingabusiness.com/aboutwatkinsvanilla.htm">Watkins vanilla</a> in the topping. If you haven&#8217;t tried Watkins vanilla extract yet you really should; it&#8217;s so delicious. You can order it online and I just heard that Target is starting to carry it, although I haven&#8217;t seen it there yet. The crisp was a tiny bit on the tart side, the way we like it, and I served it slightly warm with scoops of vanilla ice cream.</p>
+
+
+	<p style="float:right"><img src="/eat/files/rhcrsp.JPG" alt="" /></p>
+
+
+	<p>Makes 8 servings</p>
+
+
+	<ul>
+	<li>8 cups rhubarb, sliced </li>
+		<li>1 cup light brown sugar </li>
+		<li>4 tablespoons melted butter </li>
+		<li>1/3 cup flour </li>
+		<li>1 teaspoon cinnamon</li>
+	</ul>
+
+
+Topping: 
+	<ul>
+	<li>3/4 cup flour </li>
+		<li>1 1/2 cups quick oat meal </li>
+		<li>1 1/2 cups light brown sugar </li>
+		<li>3/4 cup melted butter</li>
+		<li>1 teaspoon vanilla</li>
+	</ul>
+
+
+	<p>Preheat oven to 400 degrees. 
+In a mixing bowl, combine rhubarb, brown sugar, butter, flour and cinnamon. 
+Spoon into a buttered 9X12&#8221; casserole dish.</p>
+
+
+	<p>For topping: 
+Combine the topping ingredients in a bowl. Sprinkle evenly over rhubarb mixture. 
+Bake for 30 to 40 minutes. Test center to make sure rhubarb is cooked.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id510">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-2059"><p>Hi Rebecca,</p>
+<p>I knew we were kindred spirits. I am not a hot weather person either. I love the cold. Love it! In fact I could never live anywhere where there weren&#8217;t 4 seasons. I need my fall and winter!</p>
+<p>Beautiful crisp by the way &#8230;</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.creampuffsinvenice.ca"><span class="alias">Ivonne</span></a>
+  				<span>on May 11, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2060"><p>We&#8217;re having a cool and rainy day here too. Rhubarb crisp sounds perfect.</p>
+<p><span class="caps">BTW</span>, that sounds like some great birthday dinner. Calvin is a lucky boy.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://kitchenography.typepad.com"><span class="alias">Julie</span></a>
+  				<span>on May 11, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2061"><p>Lucky for mom and for me, I&#8217;m a December baby; I get whatever I want and she&#8217;s happy to oblige.</p>
+<p>I&#8217;ve never seen this rhubarb crisp before, mom. Have you been holding out on me? You know how fond I am of foods in the <a href="http://www.rhubarbinfo.com/rhubarb-poison.html#TOC82">poisonous</a> deadly nightshade family.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on May 11, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2062"><p>Thanks, Ivonne and Julie&#8212;I actually think it was overbaked a little bit; you can see from the photo that the rhubarb had basically turned to puree. That darn oven of mine is so unreliable, but I&#8217;ll be getting a new one soon.</p>
+<p>Leland, now that the Ubers come for dinner every week I get a lot more free rhubarb; you wouldn&#8217;t believe how much they have in their back yard; it&#8217;s a rhubarb jungle back there! This is a really good recipe, though, and could be adapted for other fruits&#8212;also scaled down for smaller quantities.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on May 11, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2063"><p>I have some rhubarb in the fridge, and a crisp was just what I was planning on doing with it. I am going to try your melted butter tip-it makes sense, though it never occured to me. You are indeed lucky to have friends who grow rhubarb!</p>
+<p>I was wondering how the Watkins compares with the Penzey&#8217;s vanilla, which I love? They make a double-strength one too. Have you tried it?</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://http;//lindystoast.com"><span class="alias">lindy</span></a>
+  				<span>on May 11, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2064"><p>Lindy, I&#8217;ve never actually tried the Penzey&#8217;s double strength vanilla, but I think the Watkin&#8217;s is much better than Neilson-Massey&#8217;s, which is generally held to be the gold standard and the one we used to sell at the <strong>Kitchen Wizard</strong>.</p>
+<p>Here&#8217;s the <a href="http://www.chefdecuisine.com/all_fruit/rhubarb/RHUBARB_CRISP.asp">recipe</a> I followed if you want to see the original; I had increased the proportions because I was serving a larger crowd. I added the vanilla to the topping, and used whole wheat flour throughout. Let me know how it turns out.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on May 11, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id511">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id512" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id512_hf_0" id="id512_hf_0" /><input type="hidden" name="wicket:interface" value=":203:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id513" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id514" name="add" value="Add a comment" onclick="wicketShow('id514--ajax-indicator');var wcall=wicketSubmitFormById('id512', '../../?wicket:interface=:203:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id514--ajax-indicator');}.bind(this),function() { ;wicketHide('id514--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id512')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id514--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

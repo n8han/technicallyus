@@ -1,0 +1,195 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Hearty Beef Stew</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../eat">
+			
+			<img alt="Eat" src="../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../eat">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id268" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Hearty Beef Stew" width="272" class="title" src="../../resources/net.databinder.components.RenderedLabel/dee1ba33"/><span class="title">Hearty Beef Stew</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on March 15, 2006</span></span>
+			
+		</span></div>
+		<div><p>I learned an important lesson tonight: It&#8217;s okay to follow simple recipes from <a href="http://www.amazon.com/exec/obidos/ASIN/B000069YW9/eat0e-20">Cook&#8217;s Illustrated</a> without trying to get fancy, as I am frequently tempted to do. Last night I made the Hearty Beef Stew from their <a href="http://www.amazon.com/exec/obidos/ASIN/0936184809/eat0e-20"><em>Cover &#38; Bake</em></a> collection of recipes. There is nothing complicated or fussy about it&#8212;it is pure comfort food.</p>
+
+
+	<p style="float:center"><img src="/pictures/beefstew.jpg" alt="" /></p>
+
+
+	<h3>Hearty Beef Stew</h3>
+
+
+	<ul>
+	<li>3 pounds chuck roast cut into 1.5-inch cubes (I used FreshDirect&#8217;s economical <a href="http://www.freshdirect.com/product.jsp?productId=bstw_beef&#38;catId=beef_cubesstrips">beef stew meat</a>, despite my various <a href="http://technically.us/eat/articles/2006/03/07/trader-joes-a-rant">protests</a> about packaged food. At least this came from a real butcher.)</li>
+		<li>Vegetable oil, for sautéing</li>
+		<li>2 onions, chopped coarsely</li>
+		<li>3 garlic cloves, minced or chopped</li>
+		<li>3 tablespoons all-purpose flour</li>
+		<li>1 cup red wine</li>
+		<li>2 cups chicken, beef, or veal stock/broth (I used some frozen homemade veal stock)</li>
+		<li>2 bay leaves</li>
+		<li>1 teaspoon dried thyme</li>
+		<li>1 pound potatoes (I used Yukon Gold), cut into one-inch cubes</li>
+		<li>4 carrots, sliced however you like</li>
+		<li>1 cup frozen peas</li>
+		<li>Parsley</li>
+	</ul>
+
+
+	<ol>
+	<li>Preheat the oven to 300ºF. Dry the meat with paper towels and season with salt and pepper. Heat one tablespoon of oil over medium-high heat in an an <a href="http://www.amazon.com/exec/obidos/ASIN/B00005CET4/eat0e-20">eight-quart ovenproof pot</a>, and brown the meat in two batches on all sides. Make sure it is well browned. Reserve the meat in a bowl.</li>
+		<li>Reduce the heat to medium, add a tablespoon of oil, and brown the onions with 1/4 teaspoon salt. Stir vigorously, scraping the pot with a wooden spoon.</li>
+		<li>Once the onions are soft, add the garlic and cook for 30 seconds. Stir in the flour, and cook it for about 2 minutes.</li>
+		<li>Add the wine and continue to scrape the pot. Add the broth gradually, then add the bay and thyme. Add the meat and, once the mixture has returned to a simmer, cover the pot, and put it in the preheated oven for one hour.</li>
+		<li>After an hour, add the potatoes and carrots. Return the pot to the oven, and cook for another hour. (Note: You can stop at this point, as I did, if you aren&#8217;t going to eat your stew today. Cool the pot at room temperature, cover tightly, and keep it in the fridge for a day or two. They say this improves a stew&#8217;s flavor.)</li>
+		<li>After the second hour in the oven, add the peas, cover, and let stand for 5 minutes. (If you&#8217;re reheating, the pot will need about 30 minutes on the stove to soften up again). Discard the bay leaves, stir in the parsley, and serve.</li>
+	</ol></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id269">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-1675"><p>You should have made an Irish stew! It&#8217;s important to create rituals and traditions in life and food traditions are one way to do that.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on March 15, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1676"><p>Yummy, yummy in my tummy!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Grandma</span></span>
+  				<span>on March 15, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1677"><p>I don&#8217;t know how to make an Irish stew, and I don&#8217;t get into the whole Saint Patrick thing. But you do have a point about food traditions.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on March 15, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1678"><p>It <em>does</em> have potatoes in it. And green peas!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on March 15, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1679"><p>Don&#8217;t be petulant, Leland! Your stew looks and sounds delicious and I didn&#8217;t mean to be critical. <span class="caps">OTOH</span>, you didn&#8217;t know how to make this stew until you read a recipe so not knowing how to make Irish stew isn&#8217;t really an excuse for not making it. I don&#8217;t make it because I don&#8217;t like it; I only like lamb when it&#8217;s garlicky and grilled and medium rare, not all gray and stewed with too many potatoes and a floury gravy. <a href="http://www.billyprice.com">Poppy</a> loves it, though, and used to consider it one of his specialities when he did the cooking before he had a day job. Thank goodness I don&#8217;t have to eat it anymore. That&#8217;s the point about food traditions, though, create your own, but do have them because they help to anchor our lives.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on March 15, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1680"><p>Wow, that stew looks amazing!</p>
+<p>Why did I not know you had a food blog? Also, I haven&#8217;t seen you in ages, and that&#8217;s not a good thing. I think the e-mail address you have for me is one I abandoned, so please change it to glendaglamazon@yahoo.com.</p>
+<p>I hope you all are doing well and I hope to see you sometime soon!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Enid</span></span>
+  				<span>on March 15, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id26a">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id26b" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id26b_hf_0" id="id26b_hf_0" /><input type="hidden" name="wicket:interface" value=":112:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id26c" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id26d" name="add" value="Add a comment" onclick="wicketShow('id26d--ajax-indicator');var wcall=wicketSubmitFormById('id26b', '../../?wicket:interface=:112:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id26d--ajax-indicator');}.bind(this),function() { ;wicketHide('id26d--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id26b')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id26d--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

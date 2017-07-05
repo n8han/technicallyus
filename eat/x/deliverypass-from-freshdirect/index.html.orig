@@ -1,0 +1,199 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / DeliveryPass from FreshDirect</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id1204" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="DeliveryPass from FreshDirect" width="464" class="title" src="../../../resources/net.databinder.components.RenderedLabel/5366872d"/><span class="title">DeliveryPass from FreshDirect</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on October 18, 2006</span></span>
+			<span id="id1205" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/freshdirect/#selected-tag"><span>freshdirect</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>I got this email from FreshDirect today:</p>
+
+
+	<blockquote>
+		<p><span class="caps">DELIVERYPASS</span>: A <span class="caps">NEW WAY TO SAVE</span>!
+Unlimited Deliveries &#38; &#8220;Reserve Delivery Privileges&#8221; For Six Months!</p>
+	</blockquote>
+
+
+	<blockquote>
+		<p>Pay one price and keep it coming. The new FreshDirect <span class="caps">DELIVERYPASS</span> program provides convenient access to all the delicious foods that you love. In addition, <span class="caps">DELIVERYPASS</span> allows you to lock-in a delivery slot with our &#8220;Reserve Delivery Privileges&#8221; feature. Select the slot you want and let us handle the rest!</p>
+	</blockquote>
+
+
+	<blockquote>
+		<p><span class="caps">INTRODUCTORY OFFER</span>! RECEIVE $50 <span class="caps">OFF THE REGULAR</span> $99 <span class="caps">PRICE</span>!</p>
+	</blockquote>
+
+
+	<blockquote>
+		<p>To sign up for this special offer visit www.freshdirect.com/deliverypass and add the $99 <span class="caps">DELIVERYPASS</span> to your cart. Enter code <span class="caps">FDDELIVERS50</span> during checkout to get your $50 off. Offer expires November 15, 2006.</p>
+	</blockquote>
+
+
+	<blockquote>
+		<p><span class="caps">PLUS A FREE MEAL</span>! When you purchase a <span class="caps">DELIVERYPASS</span>, we&#8217;ll also send you a coupon code for a free Shrimp Romesco Fresh Dining meal ($9.99 value), created by Chef Terrance Brennan.</p>
+	</blockquote>
+
+
+	<p>So, it&#8217;s $49 for six months of free delivery, or about $8 per month. That works out to a good deal for me, as I generally order at least twice per month, and the delivery fee is $4.95. FreshDirect should really leave it at the discounted rate, though. For $99 to be worth it, you&#8217;d have to order slightly more than three times per month, which I don&#8217;t believe anybody does. It would be one thing if they lowered the minimum order, but I would have serious trouble spending $120 a month at FreshDirect. I&#8217;d end up forcing myself to order a bunch of things I didn&#8217;t want and wouldn&#8217;t have time to eat.</p>
+
+
+	<p>This program reminds me of Amazon Prime, which I once thoroughly enjoyed during a three-month free trial. I&#8217;d never sign up, though, because I&#8217;d always be worried that I wasn&#8217;t ordering enough, and then I&#8217;d order something.</p>
+
+
+	<p>I&#8217;m curious to see how this &#8220;Reserve Delivery Privileges&#8221; feature works. Can I get the coveted 8 to 10 am slot less than two days in advance? The 6 to 8 pm? I&#8217;ll sign up and tell the internet all about it, and of course about the fancy &#8220;Shrimp Romesco Fresh Dining meal ($9.99 value).&#8221;</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1206">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-2934"><p>oh how i miss fresh direct!</p>
+<p>its the <span class="caps">ONLY</span> thing i miss since moving north to the hudson valley &#8211; and they still are not delivering where i live <span class="caps">YET</span>.  (i am near tarrytown).  i keep hoping and hoping but &#8230;</p>
+<p>enjoy it!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.sogalitno.typepad.com/southerngalknits"><span class="alias">Sogal</span></a>
+  				<span>on October 18, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2935"><p>Speaking of groceries, I know you&#8217;ll be interested to hear that the Pittsburgh branch of Trader Joe&#8217;s is finally slated to open, October 27. I expect it will be a zoo, similar to the opening of Whole Foods.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on October 18, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2936"><p>Hey- I tried the code today and it didn&#8217;t work. Anyone else?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Gmail</span></span>
+  				<span>on October 18, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2937"><p>I&#8217;ve noticed that when I&#8217;ve made a larger order (&gt; $80 or so), certain delivery slots miraculously opened up.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Clare Dedlock</span></span>
+  				<span>on October 18, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2938"><p>how d  get deliver</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">jerry marcus</span></span>
+  				<span>on October 18, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-2939"><p>where do  i get code</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">jerry marcus</span></span>
+  				<span>on October 18, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id1207">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id1208" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id1208_hf_0" id="id1208_hf_0" /><input type="hidden" name="wicket:interface" value=":656:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id1209" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id120a" name="add" value="Add a comment" onclick="wicketShow('id120a--ajax-indicator');var wcall=wicketSubmitFormById('id1208', '../../../?wicket:interface=:656:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id120a--ajax-indicator');}.bind(this),function() { ;wicketHide('id120a--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id1208')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id120a--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

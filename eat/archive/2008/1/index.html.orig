@@ -1,0 +1,162 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / January 2008</title>
+
+		<script src="../../../../resources/com.typeturner.pages.Archive/animator.js" type="text/javascript"></script>
+		<script src="../../../../resources/com.typeturner.pages.Archive/Archive.js" type="text/javascript"></script>
+<script type="text/javascript" src="../../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" ><!--/*--><![CDATA[/*><!--*/
+Wicket.Event.add(window, "load", function() { highlightTarget()  ;});
+/*-->]]>*/</script>
+
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div id="lead">
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../../eat">
+			
+			<img alt="Eat" src="../../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="span-14 last">
+	<h1 class="period" id="navigation">
+		<span class="arrow"><a class="arrow" href="../../../../eat/archive/2007/12/#navigation"><img height="45" alt="<" width="23" src="../../../../resources/net.databinder.components.RenderedLabel/4e9208d"/></a></span>
+		<span class="month-year"><img height="45" alt="January 2008" width="214" src="../../../../resources/net.databinder.components.RenderedLabel/1eed2a6d"/></span>
+		<span class="arrow"><a class="arrow" href="../../../../eat/archive/2008/2/#navigation"><img height="45" alt=">" width="23" src="../../../../resources/net.databinder.components.RenderedLabel/4e9208f"/></a></span>
+	</h1>
+</div>
+
+<div class="prepend-1 span-12 append-1 last calendar" id="calendar">
+	<div id="id39" class="span-3 sidebar">
+		<h3>1 &ndash; 8</h3>
+		<div>
+			
+			<div>
+				<h3><a class="title" href="../../../../eat/x/martha-stewarts-pumpkin-bread/"><span>Martha Stewart&#039;s pumpkin bread</span></a></h3>
+				<div class="byline">
+					<span>Jan 3</span>
+				</div>
+			</div>
+		</div>
+	</div><div id="id3a" class="span-3 sidebar">
+		<h3>9 &ndash; 16</h3>
+		<div>
+			
+			<div>
+				<h3><a class="title" href="../../../../eat/x/philippine-civet-coffee/"><span>Philippine civet coffee</span></a></h3>
+				<div class="byline">
+					<span>Jan 9</span>
+				</div>
+			</div>
+		</div><div>
+			<div id="item-4958" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id3b"><p>The Marshalls in Harlem, at 125th and Lenox, has the best selection of cookware I&#8217;ve ever seen in such a store, including an impressive cache of Marco Pierre White&#8217;s <a href="http://www.amazon.com/s/ref=nb_ss_gw/103-0817027-8092667?url=search-alias%3Daps&amp;field-keywords=beka&amp;x=0&amp;y=0">line of Beka</a> pots and pans, as well as a ton of Calphalon, All-Clad, Le Creuset, etc. If you&#8217;re not afraid to go above 96th Street, it&#8217;s worth the trek!</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Leland</span>
+							<span>Jan 12</span>
+							<a href="../../../../eat/archive/2008/1/#item-4958">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			
+			<div>
+				<h3><a class="title" href="../../../../eat/x/poule-au-pot/"><span>Poulet en cocotte</span></a></h3>
+				<div class="byline">
+					<span>Jan 14</span>
+				</div>
+			</div>
+		</div>
+	</div><div id="id3c" class="span-3 sidebar">
+		<h3>17 &ndash; 24</h3>
+		<div>
+			
+			<div>
+				<h3><a class="title" href="../../../../eat/x/eat-endorses-barack-obama/"><span>Eat endorses Barack Obama</span></a></h3>
+				<div class="byline">
+					<span>Jan 17</span>
+				</div>
+			</div>
+		</div><div>
+			
+			<div>
+				<h3><a class="title" href="../../../../eat/x/spaghetti-cacio-e-pepe/"><span>Spaghetti cacio e pepe</span></a></h3>
+				<div class="byline">
+					<span>Jan 17</span>
+				</div>
+			</div>
+		</div><div>
+			<div id="item-5026" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id3d"><p>Mom: <a href="http://www.nytimes.com/2008/01/23/dining/23coff.html?ex=1358744400&amp;en=031f5c6438fa946b&amp;ei=5124&amp;partner=permalink&amp;exprod=permalink">this coffee maker</a> is a lot like the one I originally saw in France that inspired me to want the <a href="http://technically.us/eat/x/appliance-adventures-part-2/">Bodum Santos</a>. We&#8217;ll have to try a cup from the machine in Chelsea when you visit New York in April!</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Leland</span>
+							<span>Jan 23</span>
+							<a href="../../../../eat/archive/2008/1/#item-5026">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			
+			<div>
+				<h3><a class="title" href="../../../../eat/x/pound-cake-troubles/"><span>Pound cake troubles</span></a></h3>
+				<div class="byline">
+					<span>Jan 24</span>
+				</div>
+			</div>
+		</div>
+	</div><div id="id3e" class="span-3 sidebar last left-overlay">
+		<h3>25 &ndash; 31</h3>
+		<div>
+			
+			<div>
+				<h3><a class="title" href="../../../../eat/x/butter-cake-with-chocolate-frosting/"><span>Butter cake with chocolate frosting</span></a></h3>
+				<div class="byline">
+					<span>Jan 27</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	
+
+
+</div> <!-- container -->
+
+<div id="target-padder"></div>
+
+
+
+</body>
+</html>

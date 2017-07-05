@@ -1,0 +1,405 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/city-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>City Slicking / September 2007</title>
+
+		<script src="../../../resources/com.typeturner.pages.Archive/animator.js" type="text/javascript"></script>
+		<script src="../../../resources/com.typeturner.pages.Archive/Archive.js" type="text/javascript"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" ><!--/*--><![CDATA[/*><!--*/
+Wicket.Event.add(window, "load", function() { highlightTarget()  ;});
+/*-->]]>*/</script>
+
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div id="lead">
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../city">
+			
+			<img alt="City Slicking" src="../../../resources/org.apache.wicket.Application/city-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../city">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/city-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="span-14 last">
+	<h1 class="period" id="navigation">
+		<span class="arrow"><a class="arrow" href="../../../city/archive/2007/8/#navigation"><img height="45" alt="<" width="18" src="../../../resources/net.databinder.components.RenderedLabel/d14166b5"/></a></span>
+		<span class="month-year"><img height="45" alt="September 2007" width="199" src="../../../resources/net.databinder.components.RenderedLabel/c23af05d"/></span>
+		<span class="arrow"><a class="arrow" href="../../../city/archive/2007/10/#navigation"><img height="45" alt=">" width="18" src="../../../resources/net.databinder.components.RenderedLabel/d14166b7"/></a></span>
+	</h1>
+</div>
+
+<div class="prepend-1 span-12 append-1 last calendar" id="calendar">
+	<div id="id2214" class="span-3 sidebar">
+		<h3>1 &ndash; 8</h3>
+		<div>
+			<div id="item-4282" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id2215"><p><strong>Temperance</strong> forever! We thought we had won the war against church ladies back in 1933, but those clever bats foresaw that <em>the automobile</em> was an engine of alcoholic abstinence. For the next half century everybody stupidly decided to live at least three miles from his friends, and from daily necessities, so that driving became as American as bathing. Then in 1980 the other clog dropped with the founding of Ladies Against Drunk Driving. After 27 years of their heart-wrenching and politically deadly ad spots, we can relax knowing that when we&#8217;re torn asunder by a civilian tank its operator probably made the boo-boo in holy sobriety. But guess what, Bessie! Drinkers will not be subdued so easily. Now they&#8217;re <a href='http://www.boingboing.net/2007/09/04/housing-development.html'>building burbs for boozing</a>. Hmm.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Sep 4</span>
+							<a href="../../../city/archive/2007/9/#item-4282">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4288" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id2216"><p><a href='http://www.streetsblog.org/2007/09/05/taxi-strike-07-share-your-stories/#comment-36588'>Aha</a>! : &#8220;The real reason that the <strong>cab drivers are striking</strong> is that in a cash economy, year-end reporting of tips for tax purposes is done on the honor system.&#8221; Yet another reason to hate <a href='http://technically.us/city/archive/2007/8#item-4258'>unions</a>, and <a href='http://technically.us/city/archive/2007/8#item-788'>tipping</a>, and the <a href='http://technically.us/city/archive/2007/3#item-89'>income tax</a>, and everything else.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Sep 5</span>
+							<a href="../../../city/archive/2007/9/#item-4288">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4291" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id2217"><p>Feature of the <a href='http://live.gizmodo.com/'>just announced</a> iPod Touch: &#8220;When you get near a Starbucks location, you’ll get a <strong>Starbucks icon</strong> in iTunes Store. You can buy songs that are playing over the Starbucks music selection, and you can even look at the last 10 songs that’s been played and buy the songs there.&#8221; Yeah, we are <em>always</em> wanting that music we hear in there, if only someone would <em>sell</em> it to us! (You can tell that&#8217;s a lie because we avoid their franchises like the dirty, crowded, <a href='http://technically.us/city/x/if-you-think-elitism-is-bad-try-rule-of-the-merely-average'>aspirational-snob</a> orgies that they are.) Starbucks is so 90s, they&#8217;re trying to synergize their way out of cultural irrelevance.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Sep 5</span>
+							<a href="../../../city/archive/2007/9/#item-4291">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4304" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id2218"><p><em>A Brief Message</em> is a new weblog that is art directed, unlike everything else on the internet. It&#8217;s a great idea, but <em>A.B.M.</em> might want to spend some time polishing its copy, too. In <a href='http://www.abriefmessage.com/2007/09/06/millman/'>today&#8217;s item</a>: &#8220;Last week, we watched a Miss Teen USA contestant embarrass the nation by <strong>decimating a question</strong> about geography.&#8221; While it&#8217;s agreed that the girl <a href='http://itre.cis.upenn.edu/~myl/languagelog/archives/004861.html'>lost fluency</a> in front of the cameras, people that think questions can be decimated don&#8217;t have much room to talk. Or write, in their weblogs. Especially ones bragging about being an &#8220;edited publication&#8221; instead of a weblog. Please do edit that fancy blog, and keep in mind it&#8217;s a privilege that live broadcasts do not offer.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Sep 6</span>
+							<a href="../../../city/archive/2007/9/#item-4304">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4311" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id2219"><p>If great events need great <a href='http://www.newscientist.com/channel/being-human/mg19526121.300-the-lure-of-the-conspiracy-theory.html'>conspiratorial</a> explanations, they also need great long-term disability-paying consequences. <strong>9/11 Dust Syndrome</strong>, or whatever they call it, was all too politically convenient for terrorism opportunists <a href='http://www.senate.gov/~clinton/news/statements/record.cfm?id=271075'>like</a> Hillary Clinton. So <a href='http://www.nytimes.com/2007/09/07/nyregion/07sinai.html'>of course it&#8217;s totally fake</a>: &#8220;doctors at the clinic, which has strong historical ties to labor unions, have allowed their advocacy for workers to trump their science by making statements that go beyond what their studies have confirmed.&#8221;</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Sep 7</span>
+							<a href="../../../city/archive/2007/9/#item-4311">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4312" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id221a"><p>Remember how <strong>Al Gore</strong> invented the internet, and that was so hilarious that we had to elect George Bush for president instead? And how that didn&#8217;t work out so well? The sad thing is that not only did <a href='http://amsterdam.nettime.org/Lists-Archives/nettime-l-0009/msg00311.html'>Al Gore invent the internet</a>, he didn&#8217;t really claim to have. It was just a mean-spirited <a href='http://www.huffingtonpost.com/eric-boehlert/wired-owes-al-gore-an-apo_b_19980.html'>piece in <em>Wired News</em></a> that became talk-show fodder. Nowadays, it&#8217;s <a href='http://gawker.com/news/internet/former-mean-girl-repents-296989.php'>always weblogs</a> that break mean-spirited stories, so the opposition can just say that it&#8217;s some crazy talk on the internet blogs that aren&#8217;t <a href='http://technically.us/city/archive/2007/9#item-4304'>edited</a>. That should help our glorious country not elect the worst possible president for the stupidest possible reasons, again, we hope.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Sep 7</span>
+							<a href="../../../city/archive/2007/9/#item-4312">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4314" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id221b"><p>Bone-chilling suggestion that the <strong>iPhone&#8217;s</strong> price <a href='http://www.pbs.org/cringely/pulpit/2007/pulpit_20070906_002891.html'>shenanigans were premeditated</a>: &#8220;Steve, having deliberately alienated his best customers, now gets a chance to woo them back. He has finally placed millions of people in the role of every key Apple employee—being alternately seduced and tormented.&#8221; What a creep!</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Sep 7</span>
+							<a href="../../../city/archive/2007/9/#item-4314">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4315" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id221c"><p><em>Gawker</em> has finally picked up the jourodouchiness <a href='http://gawker.com/news/sorry%2C-i-have-to-take-this/busy-journalist-way-too-popular-for-iphone-297162.php'>that is <strong>Paul Boutin</strong></a>: &#8220;But the real lesson here is that Paul Boutin is much, much, much more important than you. And don&#8217;t you forget it.&#8221; We made a freaking <a href='http://technically.us/city/tag/boutin#selected-tag'>tag</a> for how much we hated that guy, like a year ago!</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Sep 7</span>
+							<a href="../../../city/archive/2007/9/#item-4315">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div>
+	</div><div id="id221d" class="span-3 sidebar">
+		<h3>9 &ndash; 16</h3>
+		<div>
+			<div id="item-4330" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id221e"><p>Computing revolution foreseen, <strong>gender</strong> revolution <a href='http://www.boingboing.net/2007/09/10/1966-prediction-of-h.html'>not so much</a>: &#8220;Behold &#8216;father&#8217; coming home to his computer to shake is head over the e-bills sent directly to him from &#8216;mother&#8217;s&#8217; gleeful shopping at her console (when she wasn&#8217;t raising their children by video conference).&#8221; But thanks to the letters A and V, actual 21st century husbands easily keep pace with their hos&#8217; spending.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Sep 10</span>
+							<a href="../../../city/archive/2007/9/#item-4330">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4334" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id221f"><p><a href='http://www.cbsnews.com/stories/2007/09/10/business/realestate/main3246900.shtml'>New Roc City</a>: &#8220;New Rochelle neighbors [say] the house had originally been listed for $750,000 but didn’t sell even after the price had been dropped to $600,000.&#8221; So the mortgage brokers who own it did what most failed house flippers in the sad-burbs are doing these days: they turned it &#8220;into a <strong>brothel</strong> complete with a red ribbon placed out by the sidewalk to indicate they were open for business.&#8221;</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Sep 10</span>
+							<a href="../../../city/archive/2007/9/#item-4334">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4347" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id2220"><p>The <em>Slate</em> <strong><a href='http://www.slate.com/gabfest'>Gabfest</a></strong>, secretly the best non-text thing on the internet, was all bloggy today, with Mickey Kaus and Rachel Sklar. Those two are argumentative, petty, and boring compared to not just the usual Gabfest crew, but even the random trad-media folks they&#8217;ve subbed in during the no-news season. It was all John Dickerson could do to shepherd them through the three assigned topics. Score one for reporters, finally. <strong>n.b.</strong> That Gabfest &#8220;blog&#8221; is often out of date, but if you <a href='http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=158004641'>subscribe in iTunes</a> the program is normally available on Friday mornings.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Sep 14</span>
+							<a href="../../../city/archive/2007/9/#item-4347">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4348" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id2221"><p>Unimpressed by that whipper snapper Jimmy Stewart, old people still love <a href='http://www.nytimes.com/2007/09/14/business/worldbusiness/14cnd-bank.html'>running on <strong>banks</strong></a>. Don&#8217;t they understand that their money is invested in some sympathetic person&#8217;s chicken house, and they can&#8217;t just have it back whenever they want it?</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Sep 14</span>
+							<a href="../../../city/archive/2007/9/#item-4348">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4361" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id2222"><p><strong>Michael Kinsley</strong> shows the kids <a href='http://www.slate.com/id/2174000/'>how it&#8217;s done</a>: &#8220;Student loans are the clearest example of the common Republican confusion between free-market capitalism and business. Capitalism is an economic system that is held, with some justification, to be the best guarantor of prosperity. Business can be capitalism in action, or it can be something entirely different. &#8230; [But] whenever the student loan system comes under criticism, lobbyists, &#8216;industry&#8217; leaders, and supportive politicians haul out the same old clichés as if they were defending Adam Smith&#8217;s famous pin factory itself.&#8221;</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Sep 16</span>
+							<a href="../../../city/archive/2007/9/#item-4361">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div>
+	</div><div id="id2223" class="span-3 sidebar">
+		<h3>17 &ndash; 24</h3>
+		<div>
+			<div id="item-4366" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id2224"><p>Holy Technorati watchlist! <em>Kausfiles</em> <a href='http://www.slate.com/id/2174043/'>spotted our criticism</a> of last week: “I&#8217;m on the <em>Slate</em> ‘<strong>Gabfest</strong>&#8217; being &#8216;argumentative&#8217; and &#8216;petty&#8217; despite the best efforts of John Dickerson and HuffPo&#8217;s Rachel Sklar.&#8221; Actually we <a href='http://technically.us/city/archive/2007/9#item-4347'>pegged</a> both him and Sklar as spoilers. And truth be told, <em>she</em> was annoying one. When Kaus said, &#8220;It&#8217;s not necessarily a bad thing that ethnic cleansing has occurred&#8230;&#8221;, he completely ignored Sklar&#8217;s attempt to make a scandal over half a sentence and saved us a good twenty seconds of fake arguing. If anybody wants to listen to this thing, <em>Kausfiles</em> found <a href='http://media.slate.com/podcast/Slate-070914-Gabfest.mp3'>the audio link</a>.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Sep 17</span>
+							<a href="../../../city/archive/2007/9/#item-4366">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4369" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id2225"><p><a href='http://gawker.com/news/the-new-age/-300872.php'>Allergic to normalcy</a>: &#8220;All you bonkers people who say you&#8217;re like &#8216;allergic to wheat&#8217; and <strong>gluten</strong> and dairy or whatever? 75% of you are <em class='smcp'>LIARS</em> who have never asked a doctor about your so-called allergy, says a new U.K. survey.&#8221; Find some other way to be special. {&#160;<em><a href='http://technically.us/city/tag/organic#selected-tag'>previously</a></em>&#160;}</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Sep 18</span>
+							<a href="../../../city/archive/2007/9/#item-4369">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4374" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id2226"><p>That show <em>The View</em> must be pretty fun to watch, with its parade of loose cannon lesbians. And, it is just not believable how far a wilful <strong>ignorance of science</strong>, so as not to challenge religious faith, will take some people: <a href='http://www.boingboing.net/2007/09/19/cohost-of-the-view-d.html'>Is the world flat?</a></p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Sep 19</span>
+							<a href="../../../city/archive/2007/9/#item-4374">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4375" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id2227"><p>Fresh hot schadenfreude, <a href='http://www.nytimes.com/2007/09/19/business/19hedge.html'>come and get it</a>! &#8220;&#8216;It has been a very challenging period for these people,&#8217; said Jonathan F. Katz, a psychologist who works with large <strong>hedge funds</strong>. &#8216;I have seen people shaken, their confidence eroded. They are upset and depressed.&#8217;&#8221; It tastes like sauerkraut.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Sep 19</span>
+							<a href="../../../city/archive/2007/9/#item-4375">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4379" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id2228"><p>Because no one is Republican or reading <em>National Review</em> anymore, one of its editors had to go to <em>The Times</em> to get anyone to hear his crazy argument for <a href='http://www.nytimes.com/2007/09/20/opinion/20ponnuru.html'>not <strong>taxing</strong> parents</a>. Like not at all, if they have enough babies or something. Nice try, Ponnuru, but no one is falling for your plan to let poor parents decide what to spend their tax money on (premium beer?) and further increase the deficit so that health insurance for all children, and maybe even some adults, is fiscally impossible. Good idea roping in kids to spice up your bloody boring tax slashing argument though!</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Sep 20</span>
+							<a href="../../../city/archive/2007/9/#item-4379">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4385" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id2229"><p><a href='http://itre.cis.upenn.edu/~myl/languagelog/archives/004939.html'>L&#8217;affaire <strong>Crockus</strong></a> is easily the brainiest thing to happen on the internet this week. The perp was at a central Jersey preschool recently, which is fine. If we find out he&#8217;s selling his made-up brain sex differences over here, we&#8217;ll call in a pack of angry Brooklyn trannies. F2M, obvs.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Sep 21</span>
+							<a href="../../../city/archive/2007/9/#item-4385">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4396" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id222a"><p>Country morals less than they are cracked up to be in country music, etc.: &#8220;&#8216;He’s a <strong>country boy</strong>, just like the rest of us,&#8217; said Mark Plunkett, who played high school basketball with John Lee. &#8216;You throw a suitcase with a million dollars in front of us, who knows what we would do?&#8217;&#8221; Take $10 million in <a href='http://www.nytimes.com/2007/09/24/world/middleeast/24contractor.html'>bribes for army contracts</a>, apparently.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Sep 24</span>
+							<a href="../../../city/archive/2007/9/#item-4396">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4397" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id222b"><p>Adventures in <a href='http://www.onnyturf.com/articles/read.php?article_id=627'>activist rhetoric</a>: &#8220;Quinn so desperately wants to be mayor that she has sold the queer community and her constituents down the historical river for her own political gain.&#8221; Guess they got tired of selling people down metaphorical rivers. We&#8217;re kind of tired of tarted up, self-conscious clichés in the first place. But they&#8217;re right&#8212;those <strong>parade permit</strong> rules are nutty.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Sep 24</span>
+							<a href="../../../city/archive/2007/9/#item-4397">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4399" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id222c"><p>Chicago cracks down on <a href='http://blog.wired.com/27bstroke6/2007/09/chicago-crime-c.html'><strong>drinking &#8220;in public&#8221;</strong></a> with scary cameras that zoom in on people sitting on their home streets. Living in America is a lot like being a teenager, forever. And just as embarrassing.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Sep 24</span>
+							<a href="../../../city/archive/2007/9/#item-4399">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div>
+	</div><div id="id222d" class="span-3 sidebar last left-overlay">
+		<h3>25 &ndash; 30</h3>
+		<div>
+			<div id="item-4405" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id222e"><p>This is pretty much what we expect to happen every time we <a href='http://www.nytimes.com/2007/09/26/nyregion/26hit.html'>cross stupid <strong>Houston Street</strong></a>: &#8220;the driver was in a sport utility vehicle heading north on Avenue of the Americas and had a minor accident, then tried to flee the scene by turning onto Houston Street, striking Ms. Miller, who was crossing Houston Street.&#8221; [<a href='http://www.streetsblog.org/2007/09/26/todays-headlines-250/'>via</a> <em>Streetsblog</em>]</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Sep 26</span>
+							<a href="../../../city/archive/2007/9/#item-4405">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4410" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id222f"><p><em>Gawker</em> is awfully quick to <a href='http://gawker.com/news/when-technology-attacks/-304145.php'>make fun of <em>NYT</em>&#8217;s <strong>technical problems</strong></a>, considering the technical gyrations of all Gawker Media sites over the past few weeks. Let us know when NYT Co. fails to print the day&#8217;s paper, kids!</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Sep 26</span>
+							<a href="../../../city/archive/2007/9/#item-4410">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div><div>
+			<div id="item-4411" class="entry">
+				<div class="note-edit-line"></div>
+				<div id="id2230"><p>Did everybody <a href='http://technically.us/city/x/there-is-only-one-the-unit'>remember to watch <em>The Unit</em></a> season premiere? Sorry, we meant to remind you. Anyway, it appears to be one of those <strong>series reboot</strong> things. Now the show is all about how &#8220;six families&#8221; have always controlled the country, with the puppet strings. (It used to be about Army Special Forces.) So we can expect to find out who was really behind 9/11, the Kennedys, etc. So much for the unfamiliar patriotic kick we got out of <em>The</em> old <em>Unit</em>.</p></div>
+				<div class="byline">
+					<span>
+							<span class="alias">Doctor Barnett</span>
+							<span>Sep 26</span>
+							<a href="../../../city/archive/2007/9/#item-4411">#</a>
+					</span>
+				</div>
+</div>
+			
+		</div>
+	</div>
+</div>
+	
+
+
+</div> <!-- container -->
+
+<div id="target-padder"></div>
+
+
+
+</body>
+</html>

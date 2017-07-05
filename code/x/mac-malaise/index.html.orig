@@ -1,0 +1,170 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Mac malaise</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id2267" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Mac malaise" width="200" class="title" src="../../../resources/net.databinder.components.RenderedLabel/a0820cc6"/><span class="title">Mac malaise</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on June 16, 2006</span></span>
+			<span id="id2268" class="tags">
+					{&nbsp;<span><a href="../../../code/tag/apple/#selected-tag"><span>apple</span></a><span id="id2269">, </span></span><span><a href="../../../code/tag/macintosh/#selected-tag"><span>macintosh</span></a><span id="id226a">, </span></span><span><a href="../../../code/tag/ubuntu/#selected-tag"><span>ubuntu</span></a><span id="id226b">, </span></span><span><a href="../../../code/tag/open%20source/#selected-tag"><span>open source</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p style="float:right"><img src="/pictures/sad-mac.png" alt="" /></p>
+
+
+	<p>An intellectually rich discusion has grown out of <em>dive into mark</em>’s high-profile decision to <a href="http://diveintomark.org/archives/2006/05/30/bye-apple">stop using a Mac</a>.</p>
+
+
+	<p>On one side we have <em>mark</em>, who has been on Apple products since, like, forever, and is really smart. On the other is <em>Daring Fireball</em>, who  has also been using Apple products forever, and is really smart, but would probably switch to an abacus before Linux or Windows.</p>
+
+
+	<p>After <em>mark</em>’s <a href="http://diveintomark.org/archives/2006/05/30/bye-apple">initial</a> shocking revelation (and huge annoying comment thread courtesy of <em>Fireball</em> linkage), he posted a <a href="http://diveintomark.org/archives/2006/06/02/when-the-bough-breaks">follow-up</a> with a more concrete explanation of his puzzling decision. Again <em>DF</em> linked, this time quoting the following:</p>
+
+
+	<blockquote>
+		<p>I’m creating things now that I want to be able to read, hear, watch, search, and filter 50 years from now. Despite all their emphasis on content creators, Apple has made it clear that they do not share this goal. Openness is not a <a href="[ccs]:http://www.lhup.edu/~DSIMANEK/cargocul.htm">cargo cult</a>. Some get it, some don’t. Apple doesn’t.</p>
+	</blockquote>
+
+
+	<p>You know you’re on the Internet if someone references a metaphor buried in a 3,567 word commencement speech from 1974. At first I skimmed, then I “Found in page…” and finally I just felt gypped. As far as I can tell, the implication is that Apple is going through the open source motions <em>just like a South Seas tribe still preparing dirt-strip runways for <span class="caps">WWII</span> aircraft.</em></p>
+
+
+	<p>In the 3,567 word speech the point of the “cargo cult” story is to illustrate the importance of scientific integrity. Are we criticizing Apple for ignoring certain results in their scientific evaluation of open source? What evaluation? Apparently we’re just supposed to enjoy the image of Apple wearing face paint and haplessly trying to conjure up open source magic. Ha ha.</p>
+
+
+	<p>In fact the company’s open source strategy is very effective. It gets them goodwill from the public and free code from open source projects, and Apple gives back a tiny bit of code in return. You can criticize the practice on ethical grounds, but there’s no question that it’s “bringing in the cargo” (if we must speak in such terms).</p>
+
+
+	<p>What <em>mark</em> wants the story to mean (I think) is that their strategy is ineffective at protecting user data from corruption. Because Apple isn’t really open source and doesn’t have open file formats across the board, they’re leaving their users to suffer avoidable data losses. Aha. Glad we had the “cargo cult” to help us figure that one out!</p>
+
+
+	<p>It’s a good argument for open formats, but I’m not sure it’s so damning of Apple Computer. As a software company they’re pretty good about open formats. If one of theirs isn’t open yet, it’s most likely because they don’t think it’s good enough yet.</p>
+
+
+	<p>That’s the dirty secret of corporate source code and file formats. Among other reasons, they’re not public because they’re not good enough. Sooner or later Apple will decide they have the photo database format to end all photo database formats, and they’ll publish it.</p>
+
+
+	<p>If iPhoto itself were open source, its formats would be open from conception. But Apple’s iLife apps <em>can’t</em> be open source and still drive Macintosh sales. It’s not gonna happen. At the same time, observe that the open source community did not invent “iPhoto,” nor has it yet produced worthy competition. I’d rather have a risky iPhoto than none at all.</p>
+
+
+	<p>Not that I think Apple is blameless. I flew into my own anti-Apple rage last October after my too-quickly-adopted iMac G5’s hard drive crashed—and that was six months after it overheated enough to produce smoke (there’s a “fireball” for you). I couldn’t believe Apple wasn’t replacing such an expensive yet obviously defective computer, or compensating me in any way. Before Apple had even shipped my warranty replacement hard drive, I ordered a <a href="http://en.wikipedia.org/wiki/Mini-ITX">Mini-ITX</a> kit to build a PC for the first time in ten years.</p>
+
+
+	<p>It’s probably true that both <em>mark</em> and I turned against Apple in retaliation for data loss that we could have prevented ourselves. But feelings aside, data loss is a good time to evaluate all the decisions you’ve made leading to the incident. How much does the company you’ve defended for so long care about your predicament? Are they at fault in any way? Do they still deserve your support?</p>
+
+
+	<p>In my case I decided they certainly didn’t deserve to monopolize my “digital life”(Apple’s endgame, in a nutshell). I <a href="http://technically.us/n8/pages/bricolage">set up my new box</a> as a headless Ubuntu server and it’s been a joy to use. For a time it was my Java development workstation, but now that Java is <a href="http://technically.us/n8/articles/2006/04/21/mac-does-java-again">up to speed again</a> on Mac <span class="caps">OS X</span> it’s mostly a (this) Web server.</p>
+
+
+	<p><em>Daring Fireball</em>, responsible in part for the attention this Ubuntu switcher has received, has posted a <a href="http://daringfireball.net/2006/06/and_oranges">thorough analysis</a> of how people choose computers and software. For his metaphor <em>Fireball</em> picked the tried-and-true apples-oranges comparison. Apparently you can’t decide that one operating system is the best just because Jesus Christ used it to write the Sermon on the Mount. There are  many factors in the decision, and many of them are personal. So it’s okay that <em>mark</em> switched—our Mac lives will continue.</p>
+
+
+	<p>I’m going to add one more cliché to the pile: not putting all your eggs in one basket. Seeing as Ubuntu is getting good enough for a well-reasoned, longtime Mac user to <strong>switch</strong> to it, it’s worth the time of any technically minded Mac user to download and evaluate. If you have an old PC, or feel like spending $400 on a Mini-ITX kit, you may as well set up an Ubuntu headless utility box or server.</p>
+
+
+	<p>You can use it for backup. You can use it for backup. You can use it for backup. (Get it?) You can also stay abreast of technological developments that haven’t yet caught the interest of Apple computer, or its comparatively tiny league of open-source programmers. You can know what the heck everyone is talking about.</p>
+
+
+	<p>And to balance any ideological misgivings you might have with Apple, you could try dumping fewer wheelbarrows full of cash onto One Infinite Loop each year. Use a Mac Mini with a big honkin’ Dell UtraSharp screen instead of an iMac. Listen to music on a cheap, practically indestructible Shuffle instead of an expensive time-bomb iPod Video. And criticize Apple when they deserve it. That’s my coping mechanism anyway.</p>
+
+
+	<p>Anyone want a smokin’ hot iMac G5? Doubles as a space heater for the winter—goin’ fast!</p>
+
+
+	<p><strong><span class="caps">UPDATE</span></strong>: <em>Tao of Mac</em> points out that Apple’s core apps and iLife <a href="http://the.taoofmac.com/space/blog/2006-06-20">might be better</a> if they were open source, but that it’ll never happen.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id226c">
+  		
+  		
+  	</div>
+  	<div id="id226d">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id226e" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id226e_hf_0" id="id226e_hf_0" /><input type="hidden" name="wicket:interface" value=":1286:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id226f" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id2270" name="add" value="Add a comment" onclick="wicketShow('id2270--ajax-indicator');var wcall=wicketSubmitFormById('id226e', '../../../?wicket:interface=:1286:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id2270--ajax-indicator');}.bind(this),function() { ;wicketHide('id2270--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id226e')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id2270--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

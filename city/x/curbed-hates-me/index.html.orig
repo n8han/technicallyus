@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/city-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>City Slicking / Curbed hates me</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../city">
+			
+			<img alt="City Slicking" src="../../../resources/org.apache.wicket.Application/city-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../city">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/city-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id1b45" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Curbed hates me" width="202" class="title" src="../../../resources/net.databinder.components.RenderedLabel/7448c1e7"/><span class="title">Curbed hates me</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Doctor Barnett</span>, <span>on July 10, 2006</span></span>
+			<span id="id1b46" class="tags">
+					{&nbsp;<span><a href="../../../city/tag/nighttime/#selected-tag"><span>nighttime</span></a><span id="id1b47">, </span></span><span><a href="../../../city/tag/web/#selected-tag"><span>web</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p style="float:left"><img src="/pictures/pee.jpg" alt="" /></p>
+
+
+	<p>It seems like every time I comment there, which is not often, <em>Curbed</em> rejects whatever it is I have to say.</p>
+
+
+	<p>I&#8217;m not sure what my offense is. Maybe my comments are aloof—and why shouldn&#8217;t they be? The comment threads over there are common as all hell. I&#8217;m better than Anonymous&#8217;s &#8220;Pee Free or Die&#8221; outburst and that&#8217;s all there is to it.</p>
+
+
+	<p>So occasionally MrLittlePants tips off <em>Curbed</em> to something, lately it&#8217;s been funny pictures of our neighbor cleaning up vomit, and today they <a href="http://www.curbed.com/archives/2006/07/10/on_pee_and_class_war_in_the_central_village.php">ran a pic</a> he had sent in of a guy peeing on that same door.</p>
+
+
+	<p>Good stuff. But <em>Curbed</em> decides to run with a &#8220;class war&#8221; headline and notes, &#8220;they have a neighbor hell-bent on keeping watch and documenting it all.&#8221; This kind of gets on my nerves since MrLittlePants is doing them a friggin&#8217; favor sending in good material he knows they want. That&#8217;s the only reason he&#8217;s taking the pictures.</p>
+
+
+	<p style="clear:left;">Anyway, here&#8217;s my dumb comment that I spent several minutes on that would otherwise never appear on this World Wide Web. Thank God for one&#8217;s own damn weblog:</p>
+
+
+	<blockquote>
+		<p>What your tipster means to emphasize, I think, is the tragic irony of an 11th Street townhouse that&#8217;s routinely defiled by partying idiots with nowhere private to relieve themselves. It&#8217;s incredible that this &#8220;rich&#8221;  owner of a some-million dollar piece of property has to deal with human waste so frequently.</p>
+	</blockquote>
+
+
+	<blockquote>
+		<p>Meanwhile our scourge-of-the-block rental building is mostly
+un-barfed-upon. I mean, sure we&#8217;re in the jealous underclass, but we&#8217;re
+taking these pictures more to curb our own aspirations for property in
+this &#8216;hood than to bring down those lucky (or not-so-lucky) enough to
+have it already.</p>
+	</blockquote>
+
+
+	<p>And that&#8217;s it. I shan&#8217;t try to mingle among the <em>curbed polloi</em> again.</p>
+
+
+	<p><strong><span class="caps">UPDATE</span>:</strong> Dumb comment, <a href="http://www.curbed.com/archives/2006/07/10/on_pee_and_class_war_in_the_central_village.php#71728">approved!</a> (Who can beat that 20-hour turnaround?)</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about'>About</h3>
+
+<p><em>City Slicking</em> is about urban life, transportation, energy, liberty, and language.</p>
+
+<h3 id='haunts'>Haunts</h3>
+
+<p><a href='http://twitter.com/n8han/'>Twitter</a><br /><a href='http://technically.us/code/'>Coderspiel</a><br /><a href='http://www.streetsblog.org/'>Streetsblog</a><br /><a href='http://gawker.com/people/alexpareene/posts/'>Pareene</a><br /><a href='http://www.copenhagenize.com/'>Copenhagenize</a><br /><a href='http://itre.cis.upenn.edu/~myl/languagelog/'>Language Log</a><br /><a href='http://t4america.org/'>Trans. for America</a></p>
+
+<h3 id='wire_service'>Wire Service</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/city-rss' title='All in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-short-rss' title='Left column, frequent links and notes'>Quickies</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-long-rss' title='Main column, occasional extended posts'>Treatise</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1b48">
+  		
+  		
+  	</div>
+  	<div id="id1b49">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id1b4a" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id1b4a_hf_0" id="id1b4a_hf_0" /><input type="hidden" name="wicket:interface" value=":1048:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id1b4b" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id1b4c" name="add" value="Add a comment" onclick="wicketShow('id1b4c--ajax-indicator');var wcall=wicketSubmitFormById('id1b4a', '../../../?wicket:interface=:1048:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id1b4c--ajax-indicator');}.bind(this),function() { ;wicketHide('id1b4c--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id1b4a')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id1b4c--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

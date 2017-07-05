@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE  html PUBLIC "-//W3C//DTD XHTML 1.1//EN"  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>MyDocument.m</title>
+	<link rel="stylesheet" type="text/css" href="highlight.css"/>
+</head>
+<body>
+<pre></pre><div class="com">// Copyright 2003 - 2004 Nathan Hamblen
+</div><pre>
+</pre><div class="com">// Modified BSD license:
+</div><pre></pre><div class="com">// Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+</div><pre></pre><div class="com">// 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+</div><pre></pre><div class="com">// 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+</div><pre></pre><div class="com">// 3. The name of the author may not be used to endorse or promote products derived from this software without specific prior written permission.
+</div><pre></pre><div class="com">// THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+</div><pre>
+<span class="dir">#import </span><span class="dstr">&quot;MyDocument.h&quot;</span><span class="dir">
+</span><span class="dir">#import </span><span class="dstr">&quot;EditController.h&quot;</span><span class="dir">
+</span><span class="dir">#import </span><span class="dstr">&quot;FillController.h&quot;</span><span class="dir">
+</span><span class="dir">#import </span><span class="dstr">&quot;WebLocationWrapper.h&quot;</span><span class="dir">
+</span><span class="dir">#import </span><span class="dstr">&quot;IconFamily.h&quot;</span><span class="dir">
+</span>
+</pre><div class="com">// delimeters for the dynamic location parameters
+</div><pre><span class="typ">static </span>NSString *START_DELIMITER = &#64;<span class="str">&quot;[&quot;</span>, *END_DELIMITER = &#64;<span class="str">&quot;]&quot;</span>,
+</pre><div class="com">// file type names
+</div><pre>*DYNAMIC_LOCATION_TYPE = &#64;<span class="str">&quot;Dynamic Location File&quot;</span>, *WEB_LOCATION_TYPE = &#64;<span class="str">&quot;Web Location File&quot;</span>;
+
+</pre><div class="com">// Category that handles the parameters  we are using for Dynamic Locations
+</div><pre>&#64;implementation NSString (ParameterAccess)
+
+</pre><div class="com">// Returns an array of the parameters contained in the string, or nil if the parameter syntax is invalid (delimiters out of order)
+</div><pre>- (NSArray *)parameterNameArray
+{
+  NSMutableArray *paramAry = [NSMutableArray arrayWithCapacity:<span class="num">8</span>];
+  <span class="typ">unsigned int </span>strLen = [self length];
+  NSRange remaining = NSMakeRange(<span class="num">0</span>, strLen);
+  NSCharacterSet *delimSet = [NSCharacterSet characterSetWithCharactersInString:
+    [START_DELIMITER stringByAppendingString:END_DELIMITER]];
+  <span class="typ">bool </span>searching = YES;
+  <span class="key">while </span>(searching)
+  {
+    NSRange delimRange = [self rangeOfCharacterFromSet:delimSet options:NSLiteralSearch
+                                                   range:remaining];
+    NSRange paramRange;
+
+    <span class="key">if </span>(delimRange.location == NSNotFound)
+      searching = NO;
+    <span class="key">else
+    </span>{
+      <span class="key">if </span>(![[self substringWithRange:delimRange] isEqualToString:START_DELIMITER])
+        <span class="key">return </span>nil;
+      paramRange.location = NSMaxRange(delimRange);
+      remaining.location = paramRange.location;
+      remaining.length = strLen - remaining.location;
+      delimRange = [self rangeOfCharacterFromSet:delimSet options:NSLiteralSearch
+                                             range:remaining];
+      <span class="key">if </span>(delimRange.location == NSNotFound ||
+          ![[self substringWithRange:delimRange] isEqualToString:END_DELIMITER])
+        <span class="key">return </span>nil;
+      remaining.location = NSMaxRange(delimRange);
+      remaining.length = strLen - remaining.location;
+      paramRange.length = delimRange.location - paramRange.location;
+      [paramAry addObject:[self substringWithRange:paramRange]];
+    }
+  }
+  <span class="key">return </span>paramAry;
+}
+
+</pre><div class="com">// Returns a string with parameters replaced by the contents of valueArray.
+</div><pre>- (NSString *)stringFilledWithParameters:(NSArray *)valueArray
+{
+  <span class="typ">unsigned int </span>strLen = [self length];
+  NSRange remaining = NSMakeRange(<span class="num">0</span>, strLen);
+  NSCharacterSet *delimSet = [NSCharacterSet characterSetWithCharactersInString:
+    [START_DELIMITER stringByAppendingString:END_DELIMITER]];
+  NSMutableString *filledString = [NSMutableString stringWithCapacity:strLen * <span class="num">2</span>];
+  NSEnumerator *params = [valueArray objectEnumerator];
+  <span class="typ">bool </span>startDelim = YES;
+  <span class="key">while </span>(remaining.location &lt; strLen)
+  {
+    NSRange delimRange = [self rangeOfCharacterFromSet:delimSet options:NSLiteralSearch
+                                                   range:remaining];
+    <span class="key">if </span>(delimRange.location == NSNotFound)
+      delimRange.location = strLen;
+    <span class="key">if </span>(startDelim)
+    {
+      NSRange chunk = NSMakeRange(remaining.location,
+                                  delimRange.location - remaining.location);
+      [filledString appendString:[self substringWithRange:chunk]];
+      <span class="key">if </span>(delimRange.location &lt; strLen)
+        [filledString appendString:[params nextObject]];
+    }
+    remaining.location = NSMaxRange(delimRange);
+    remaining.length = strLen - remaining.location;
+    startDelim = !startDelim;
+  }
+  <span class="key">return </span>filledString;
+}
+
+</pre><div class="com">// Used to validate that the string will be valid once parameters are supplied.
+</div><pre>- (NSString *)stringFilledWithDummyParameters
+{
+  NSArray *paramAry = [self parameterNameArray];
+  NSMutableArray *valAry;
+  <span class="typ">unsigned short </span>i;
+
+  <span class="key">if </span>(paramAry == nil || [paramAry count] &lt; <span class="num">1</span>)
+    <span class="key">return </span>nil;
+  valAry = [NSMutableArray arrayWithCapacity:[paramAry count]];
+  <span class="key">for </span>(i=<span class="num">0</span>; i&lt; [paramAry count]; i++)
+    [valAry addObject:&#64;<span class="str">&quot;test&quot;</span>];
+  <span class="key">return </span>[self stringFilledWithParameters:valAry];
+}
+
+&#64;end
+
+&#64;interface MyDocument(Internals)
+- (<span class="typ">void</span>) endAnyConnection;
+- (<span class="typ">void</span>) setSiteIconImage:(NSImage *)newImage;
+- siteIconSearchInString: (NSString *) urlContents;
+- (<span class="typ">void</span>) loadSiteIcon:(NSString *) href;
+&#64;end
+
+&#64;implementation MyDocument
+
+<span class="dir">#pragma mark  Initilization
+</span>
+- (id)init
+{
+  self = [super init];
+  <span class="key">if </span>(self) {
+    mImages = [[NSMutableSet alloc] initWithCapacity:<span class="num">5</span>];
+    mPageUrl = nil;
+    mCompiledRegularExpression = nil;
+    mData = [[NSMutableData alloc] init];
+    mPageConnection = mImageConnection = nil;
+    mPageResponse = nil;
+  }
+  <span class="key">return </span>self;
+}
+
+</pre><div class="com">// Make these appropriate controller for the current mode (edit or fill-in).
+</div><pre>- (<span class="typ">void</span>)makeWindowControllers
+{
+  <span class="key">if </span>(mDynamicLocation)
+    [self addWindowController:[[[FillController alloc] init] autorelease]];
+  <span class="key">else
+    </span>[self addWindowController:[[[EditController alloc] init] autorelease]];
+}
+
+<span class="dir">#pragma mark  User interface, validation
+</span>
+</pre><div class="com">// Change from edit to fill-in mode or vice-versa, called by window controllers.
+</div><pre>- (<span class="typ">void</span>)switchToFillin:(BOOL)fillinFlag
+{
+  NSWindowController *newCont, *controller;
+  NSEnumerator *controllers;
+
+  <span class="key">if </span>(fillinFlag)
+    newCont = [[FillController alloc] init];
+  <span class="key">else
+    </span>newCont =  [[EditController alloc] init];
+
+  [self addWindowController:[newCont autorelease]];
+
+  controllers = [[self windowControllers] objectEnumerator];
+  <span class="key">while </span>(controller = [controllers nextObject])
+    <span class="key">if </span>(controller != newCont)
+      [controller close];
+  [newCont showWindow:self];
+}
+
+</pre><div class="com">// This prevents the user from changing the file type in the save panel.
+</div><pre>- (BOOL)shouldRunSavePanelWithAccessoryView {
+  <span class="key">return </span>NO;
+}
+
+</pre><div class="com">// Allows the window controller to validate (and disable) menu items if it implements the relevant protocol.
+</div><pre>- (BOOL)validateUserInterfaceItem:(id &lt;NSValidatedUserInterfaceItem&gt;)anItem
+{
+  id cont = [[[self windowControllers] objectEnumerator] nextObject];
+  <span class="key">if </span>(cont &amp;&amp; [cont conformsToProtocol:&#64;protocol(NSUserInterfaceValidations)])
+    <span class="key">return </span>[cont validateUserInterfaceItem:anItem];
+  <span class="key">return </span>[super validateUserInterfaceItem:anItem];
+}
+
+</pre><div class="com">// Displays an alert and returns NO if errors are found in the URL / dynamic location.
+</div><pre>- (BOOL)validate
+{
+  NSWindow *topWind = nil;
+  NSString *testUrlStr;
+  NSURL *testUrl;
+  <span class="key">if </span>([[self windowControllers] count] &gt; <span class="num">0</span>)
+    topWind = [[[self windowControllers]objectAtIndex:<span class="num">0</span>] window];
+
+  <span class="key">if </span>(mDynamicLocation) {
+    NSArray *paramAry = [mDynamicLocation parameterNameArray];
+    <span class="key">if </span>(paramAry == nil)
+    {
+      <span class="key">if </span>(topWind)
+        NSBeginAlertSheet(&#64;<span class="str">&quot;Parameter Error&quot;</span>, nil, nil, nil, topWind, nil, nil, nil,
+                          self, &#64;<span class="str">&quot;The parameter braces are not positioned correctly.&quot;</span>);
+      <span class="key">return </span>NO;
+    }
+    <span class="key">if </span>([paramAry count] &lt; <span class="num">1</span>)
+    {
+      <span class="key">if </span>(topWind)
+        NSBeginAlertSheet(&#64;<span class="str">&quot;No Parameters in Location&quot;</span>, nil, nil, nil,
+                          topWind, nil, nil, nil, self,
+                          &#64;<span class="str">&quot;You must define parameters for a Dynamic Location.&quot;</span>);
+      <span class="key">return </span>NO;
+    }
+    testUrlStr = [mDynamicLocation stringFilledWithDummyParameters];
+  } <span class="key">else
+    </span>testUrlStr = mUrl;
+
+  testUrl = [NSURL URLWithString:testUrlStr];
+  <span class="key">if </span>(!testUrl)
+  {
+    NSBeginAlertSheet(&#64;<span class="str">&quot;URL Error&quot;</span>, nil, nil, nil, topWind, nil, nil, nil, self,
+                      &#64;<span class="str">&quot;The entered Location is not a valid URL.&quot;</span>);
+    <span class="key">return </span>NO;
+  }
+  <span class="key">return </span>YES;
+}
+
+</pre><div class="com">// Posts a notification on closing that enables the fill in window to save its position, search history, etc.
+</div><pre>- (<span class="typ">void</span>) close
+{
+  [self endAnyConnection];
+  [[NSNotificationCenter defaultCenter] postNotificationName:&#64;<span class="str">&quot;ClosingDocument&quot;</span>
+                                                      object:self];
+  [super close];
+}
+
+<span class="dir">#pragma mark  Read and write
+</span>
+</pre><div class="com">// Retrieve the URL from a the web location at fileName; if the file at path does not exist, a seed internet location file is copied from this application's bundle. Note that Project Builder does not correctly  copy the seed's resource fork when building the project so it must be copied manually to the application package. If the destroyExisting flag is YES, we delete the existing file if there is one and copy from the seed.
+</div><pre>+ (BOOL) ensureInternetLocationExists:(NSString*)path destroyExisting:(BOOL)destroyExisting
+{
+  NSFileManager* fileManager = [NSFileManager defaultManager];
+  NSBundle* bundle = [NSBundle mainBundle];
+  NSString* seedPath = [bundle pathForResource:&#64;<span class="str">&quot;seed&quot;</span> ofType:&#64;<span class="str">&quot;webloc&quot;</span>];
+
+  <span class="key">if </span>([fileManager fileExistsAtPath:path])
+  {
+    <span class="key">if </span>(destroyExisting)
+      [fileManager removeFileAtPath:path handler:nil];
+    <span class="key">else
+      return </span>YES;
+  }
+  <span class="key">return </span>[fileManager copyPath:seedPath toPath:path handler:nil];
+}
+
+</pre><div class="com">// Checks the HFS type and file name extension and updates either as needed.
+</div><pre>+ (NSString *) checkTypeOfFile:(NSString *)inPath forType:(NSString *)documentType
+{
+  NSDictionary *infoPlist = [[NSBundle mainBundle] infoDictionary];
+  NSEnumerator *types =
+    [[infoPlist objectForKey:&#64;<span class="str">&quot;CFBundleDocumentTypes&quot;</span>] objectEnumerator];
+  NSDictionary *typeInfo = nil;
+  NSString *typeExtension = nil, *typeCode = nil;
+  NSFileManager *fileManager = [NSFileManager defaultManager];
+  NSString *outPath = inPath;
+
+  <span class="key">while </span>(!typeExtension &amp;&amp; (typeInfo = [types nextObject]))
+    <span class="key">if </span>([[typeInfo objectForKey:&#64;<span class="str">&quot;CFBundleTypeName&quot;</span>] isEqualToString:documentType])
+    {
+      typeCode = [[typeInfo objectForKey:&#64;<span class="str">&quot;CFBundleTypeOSTypes&quot;</span>] objectAtIndex:<span class="num">0</span>];
+      typeExtension = [[typeInfo objectForKey:&#64;<span class="str">&quot;CFBundleTypeExtensions&quot;</span>] objectAtIndex:<span class="num">0</span>];
+    }
+
+  <span class="key">if </span>(typeExtension &amp;&amp; ![[inPath pathExtension] isEqualToString:typeExtension])
+  {
+    outPath = [[inPath stringByDeletingPathExtension]
+     stringByAppendingPathExtension:typeExtension];
+    <span class="key">if </span>(![fileManager movePath:inPath toPath:outPath handler:nil])
+      outPath = inPath;
+  }
+  <span class="key">if </span>(typeCode)
+  {
+    NSMutableDictionary *attributes = [NSMutableDictionary dictionaryWithDictionary:
+      [fileManager fileAttributesAtPath:outPath traverseLink:NO]];
+
+    NSNumber *typeCodeNum = [NSNumber numberWithUnsignedLong:
+      NSHFSTypeCodeFromFileType([NSString stringWithFormat:&#64;<span class="str">&quot;'%&#64;'&quot;</span>,typeCode])];
+
+    NSString *creatorCodeString = ([documentType isEqualToString:WEB_LOCATION_TYPE]) ?
+      &#64;<span class="str">&quot;MACS&quot;</span> : [infoPlist objectForKey:&#64;<span class="str">&quot;CFBundleSignature&quot;</span>];
+
+    NSNumber *creatorCodeNum = [NSNumber numberWithUnsignedLong:
+      NSHFSTypeCodeFromFileType([NSString stringWithFormat:&#64;<span class="str">&quot;'%&#64;'&quot;</span>, creatorCodeString])];
+
+    [attributes setObject:typeCodeNum forKey:NSFileHFSTypeCode];
+
+    [attributes setObject:creatorCodeNum forKey:NSFileHFSCreatorCode];
+
+    [fileManager changeFileAttributes:attributes atPath:outPath];
+  }
+  <span class="key">return </span>(outPath == nil) ? inPath : outPath;
+}
+
+- (BOOL)readFromFile:(NSString *)fileName ofType:(NSString *)type
+{
+  WebLocationWrapper  *wlWrapper = [[WebLocationWrapper alloc] initWithPath:fileName];
+  NSString *errorString = nil;
+  NSPropertyListFormat format;
+
+  <span class="key">if </span>([type isEqualToString:DYNAMIC_LOCATION_TYPE])
+  {
+    [self setDynamicLocation:[wlWrapper url]];
+    mSpecificPreferences =
+      [NSPropertyListSerialization propertyListFromData:[wlWrapper regularFileContents]
+                                       mutabilityOption:kCFPropertyListMutableContainersAndLeaves
+                                                 format:&amp;format
+                                       errorDescription:&amp;errorString];
+    <span class="key">if </span>(mSpecificPreferences)
+      mSpecificPreferences = [mSpecificPreferences mutableCopyWithZone:nil];
+
+    </pre><div class="com">// if the dynamic location doesn't have prefs yet we'll get a &quot;stream had too few bytes&quot; error which is not an error for the app
+</div><pre>    <span class="key">if </span>(errorString)
+      [errorString release];
+  }
+  <span class="key">else if </span>([type isEqualToString:WEB_LOCATION_TYPE])
+    [self setUrl:[wlWrapper url]];
+
+  [wlWrapper release];
+  <span class="key">return </span>YES;
+}
+
+</pre><div class="com">// We're going to disobey orders here and NOT use a backup file. NSDocument's built-in backup system doesn't handle custom icons (or any resources) very well, and I'm not writing my own backup routine.
+</div><pre>- (BOOL)writeWithBackupToFile:(NSString *)fullDocumentPath
+                       ofType:(NSString *)documentTypeName
+                saveOperation:(NSSaveOperationType)saveOperationType
+{
+  WebLocationWrapper *wlWrapper;
+  BOOL status;
+  NSData *prefData = nil;
+  NSString *errorString = nil;
+
+  [[NSNotificationCenter defaultCenter] postNotificationName:&#64;<span class="str">&quot;NeedsUpdate&quot;</span>
+                                                      object:self];
+  <span class="key">if </span>(![self validate])
+    <span class="key">return </span>NO;
+
+  [[self undoManager] removeAllActions];
+
+  <span class="key">if </span>(![MyDocument ensureInternetLocationExists:fullDocumentPath
+                                destroyExisting:(saveOperationType == NSSaveAsOperation)])
+  {
+    NSLog(&#64;<span class="str">&quot;Unable to create new internet location from seed location.&quot;</span>);
+    <span class="key">return </span>NO;
+  }
+
+  fullDocumentPath = [MyDocument checkTypeOfFile:fullDocumentPath
+                                         forType:documentTypeName];
+  [self setFileName:fullDocumentPath];
+
+  <span class="key">if </span>(mDynamicLocation &amp;&amp; mSpecificPreferences &amp;&amp; [mSpecificPreferences count] &gt; <span class="num">0</span>)
+    prefData =
+      [NSPropertyListSerialization dataFromPropertyList:mSpecificPreferences
+                                                 format:NSPropertyListXMLFormat_v1_0
+                                       errorDescription:&amp;errorString];
+  <span class="key">if </span>(errorString) {
+    NSLog(errorString);
+    [errorString release];
+  }
+
+  wlWrapper = [[WebLocationWrapper alloc] initRegularFileWithContents:prefData];
+
+  <span class="key">if </span>(!wlWrapper)
+  {
+    NSLog(&#64;<span class="str">&quot;Unable to open location wrapper.&quot;</span>);
+    <span class="key">return </span>NO;
+  }
+
+  [wlWrapper setUrl:(mDynamicLocation ? mDynamicLocation : mUrl)];
+
+  status = [wlWrapper writeToFile:fullDocumentPath
+                            atomically:NO
+                       updateFilenames:YES];
+  [wlWrapper release];
+
+  <span class="key">if </span>(!status)
+    <span class="key">return </span>NO;
+
+  <span class="key">if </span>(mSiteImage)
+  {
+    NSEnumerator *reps;
+    NSImageRep *rep;
+    NSMutableArray *bitmaps = [NSMutableArray arrayWithCapacity:<span class="num">3</span>];
+    NSImage* workImage = [mSiteImage copyWithZone:[mSiteImage zone]];
+    NSSize siteImageSize = [workImage size];
+    NSImage *fileIcon;
+    NSGraphicsContext *graphicsContext = [NSGraphicsContext currentContext];
+    IconFamily *iconFamily;
+
+    [workImage setScalesWhenResized:YES];
+    <span class="key">if </span>([documentTypeName isEqualToString:DYNAMIC_LOCATION_TYPE])
+      fileIcon = [[IconFamily iconFamilyWithContentsOfFile:
+        [[NSBundle mainBundle] pathForResource:&#64;<span class="str">&quot;dynamiclocation&quot;</span> ofType:&#64;<span class="str">&quot;icns&quot;</span>]]
+        imageWithAllReps];
+    <span class="key">else
+      </span>fileIcon = [[IconFamily iconFamilyWithSystemIcon:
+        kInternetLocationHTTP] imageWithAllReps];
+    reps = [[fileIcon representations] objectEnumerator];
+
+    [NSGraphicsContext saveGraphicsState];
+    [graphicsContext setShouldAntialias:YES];
+    [graphicsContext setImageInterpolation:NSImageInterpolationHigh];
+    <span class="key">while </span>(rep = [reps nextObject])
+    {
+      NSBitmapImageRep *bitmap;
+      NSSize fullSize = [rep size], siteSize;
+      NSRect fullRect = NSMakeRect(<span class="num">0.F</span>, <span class="num">0.F</span>, fullSize.width, fullSize.height);
+      [fileIcon lockFocusOnRepresentation:rep];
+      <span class="key">if </span>(siteImageSize.width &gt;= fullSize.width &amp;&amp;
+          siteImageSize.height &gt;= fullSize.height)
+      {
+        siteSize = fullSize;
+        [[NSColor clearColor] set];
+        NSRectFill(fullRect);
+      }
+      <span class="key">else
+        </span>siteSize = NSMakeSize(fullSize.width * .<span class="num">6F</span>, fullSize.height * .<span class="num">6F</span>);
+
+      [workImage setSize:siteSize];
+      [workImage drawAtPoint:NSMakePoint(<span class="num">0.F</span>, <span class="num">0.F</span>)
+                    fromRect:NSMakeRect(<span class="num">0.F</span>, <span class="num">0.F</span>, siteSize.width, siteSize.height)
+                   operation:NSCompositeSourceOver
+                    fraction:<span class="num">1.0F</span>];
+      bitmap = [[[NSBitmapImageRep alloc] initWithFocusedViewRect:fullRect] autorelease];
+      [fileIcon unlockFocus];
+
+      [bitmaps addObject:bitmap];
+    }
+    [NSGraphicsContext restoreGraphicsState];
+    iconFamily = [[IconFamily alloc] initWithBitmaps:bitmaps];
+    status = [iconFamily setAsCustomIconForFile:fullDocumentPath];
+    [iconFamily release];
+    [workImage release];
+  }
+  <span class="key">return </span>status;
+}
+
+</pre><div class="com">// Appkit tries to set an incorrect filename after calling our writeToFile method (our method changes the file name) so we have to intercept that call.
+</div><pre>- (<span class="typ">void</span>)setFileName:(NSString *)fileName
+{
+  <span class="key">if </span>([[NSFileManager defaultManager] fileExistsAtPath:fileName])
+    [super setFileName:fileName];
+}
+
+<span class="dir">#pragma mark  Site icons
+</span>
+</pre><div class="com">// Called by the edit window controller and by the import procedure to retrieve site icons. This method kicks off the page download and parse controller, NSXMLParser. The parse procedure will eventually complete and callloadSiteIcon (in parserDidEndDocument) with a site icon href if it finds one. If the parser fails to start, we call setSiteIconImage directly with nil, which will try to guess the site icon name.
+</div><pre>- (<span class="typ">void</span>)refreshSiteImage
+{
+  NSString *urlStr;
+  </pre><div class="com">// If there is an existing connection, end it.
+</div><pre>  [self endAnyConnection];
+
+  [[NSNotificationCenter defaultCenter] postNotificationName:&#64;<span class="str">&quot;NeedsUpdate&quot;</span>
+                                                      object:self];
+
+  <span class="key">if </span>(![self validate])
+    <span class="key">return</span>;
+
+  <span class="key">if </span>(mDynamicLocation)
+    urlStr = [mDynamicLocation stringFilledWithDummyParameters];
+  <span class="key">else
+    </span>urlStr = mUrl;
+
+  <span class="key">if </span>(mPageUrl) [mPageUrl release];
+  mPageUrl = [[NSURL alloc] initWithString:urlStr];
+  mRedirectCount = <span class="num">0</span>;
+  mPageConnection =
+    [[NSURLConnection alloc] initWithRequest:[NSURLRequest requestWithURL:mPageUrl]
+                                    delegate:self];
+}
+
+</pre><div class="com">// ends a page or icon downloading connetion if one is active
+</div><pre>- (<span class="typ">void</span>) endAnyConnection
+{
+  NSURLConnection *conn = mPageConnection ? mPageConnection : mImageConnection;
+  <span class="key">if </span>(conn)
+  {
+    [conn cancel];
+    [conn release];
+    mPageConnection = mImageConnection = nil;
+    </pre><div class="com">//[self setSiteIconImage:nil];
+</div><pre>  }
+}
+
+</pre><div class="com">// hold on to the response object for page connections because it may contain character set information
+</div><pre>- (<span class="typ">void</span>)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse*)response
+{
+  <span class="key">if </span>(connection == mPageConnection)
+  {
+    <span class="key">if </span>(mPageResponse)
+      [mPageResponse release];
+    mPageResponse = [response retain];
+  }
+  [mData setLength:<span class="num">0</span>];
+}
+
+</pre><div class="com">// append page or icon data
+</div><pre>- (<span class="typ">void</span>)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data
+{
+  [mData appendData:data];
+}
+
+</pre><div class="com">// page or icon finished loading
+</div><pre>- (<span class="typ">void</span>)connectionDidFinishLoading:(NSURLConnection *)connection
+{
+  <span class="key">if </span>(connection == mPageConnection) {
+    NSString *pageText = nil, *siteIconUrl;
+    NSStringEncoding encoding = <span class="num">0</span>;
+
+    [[NSNotificationCenter defaultCenter] postNotificationName:&#64;<span class="str">&quot;PartialLoad&quot;</span>
+                                                        object:self];
+    </pre><div class="com">// use encoding if specified in header
+</div><pre>    <span class="key">if </span>([mPageResponse textEncodingName])
+      encoding = CFStringConvertEncodingToNSStringEncoding(
+                   CFStringConvertIANACharSetNameToEncoding(
+                      (CFStringRef)[mPageResponse textEncodingName]));
+
+    <span class="key">if </span>(encoding)
+      pageText = [[NSString alloc] initWithData:mData encoding:encoding];
+    <span class="key">if </span>(!pageText)
+      pageText = [[NSString alloc] initWithData:mData
+                                       encoding:NSISOLatin1StringEncoding];
+    siteIconUrl = [self siteIconSearchInString:pageText];
+
+    <span class="key">if </span>(pageText)
+      [pageText release];
+
+    </pre><div class="com">// if load was aborted by a second entry into - refreshSiteImage while we were searching, then mPageConnection will have been nil'd or set to a new connection
+</div><pre>    <span class="key">if </span>(mPageConnection == connection)
+    {
+      mPageConnection = nil;
+      [self loadSiteIcon:siteIconUrl]; </pre><div class="com">// ok to be nil
+</div><pre>    }
+  } <span class="key">else if </span>(connection == mImageConnection) {
+    NSImage *iconImage;
+    <span class="typ">const unsigned </span>fillerSize = <span class="num">2048</span>;
+    <span class="typ">char </span>buffer[fillerSize];
+    <span class="typ">unsigned </span>spaceCount = <span class="num">0</span>;
+    NSData *imageData = mData;
+
+    </pre><div class="com">// webcore somestimes has a section of innapropriate data prepended to the icon data. It corresponds to 2047 spaces and one newline character. If this data is present, it must be excluded from what is passed to NSImage
+</div><pre>    [mData getBytes:buffer length:fillerSize];
+
+    <span class="key">while </span>((buffer[spaceCount] == <span class="str">' '</span>) &amp;&amp; (spaceCount &lt; fillerSize))
+      spaceCount++;
+
+    <span class="key">if </span>((spaceCount == (fillerSize <span class="num">- 1</span>)) &amp;&amp;
+        (buffer[spaceCount] == <span class="str">'</span><span class="esc">\n</span><span class="str">'</span>))
+      imageData = [mData subdataWithRange:
+        NSMakeRange(fillerSize, [mData length] - fillerSize)];
+
+    iconImage = [[NSImage alloc] initWithData:imageData];
+    mImageConnection = nil;
+    [self setSiteIconImage:iconImage];
+    </pre><div class="com">// don't release iconImage as setIconImage expects it to be retained
+</div><pre>  }
+  [connection release];
+}
+
+</pre><div class="com">// webcore seems to screw up if a page redirects more than once (like at http://www.voyages-sncf.com/) so upon the second redirect we just give up on retrieving the page.
+</div><pre>- (NSURLRequest *)connection:(NSURLConnection *)connection
+             willSendRequest:(NSURLRequest *)request
+            redirectResponse:(NSURLResponse *)response
+{
+  <span class="key">if </span>(++mRedirectCount &lt; <span class="num">2</span>)
+    <span class="key">return </span>request;
+  <span class="key">else
+    return </span>nil;
+}
+
+</pre><div class="com">// log the error and stop there. When importing bookmarks while not connected to the internet, you see this error quite a bit.
+</div><pre>- (<span class="typ">void</span>)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error
+{
+  NSLog([NSString stringWithFormat:&#64;<span class="str">&quot;Connection failed with error:%&#64;&quot;</span>,
+    [error description]]);
+  [connection release];
+  <span class="key">if </span>(connection == mImageConnection)
+    mImageConnection = nil;
+  <span class="key">else if </span>(connection == mPageConnection) {
+    mPageConnection = nil;
+    [[NSNotificationCenter defaultCenter] postNotificationName:&#64;<span class="str">&quot;PartialLoad&quot;</span>
+                                                        object:self];
+  }
+  [self setSiteIconImage:nil];
+}
+
+</pre><div class="com">// search for a site icon tag in html or xml using the pcre library
+</div><pre>- siteIconSearchInString: (NSString *) urlContents
+{
+  NSString * siteIconUrl = nil;
+
+  </pre><div class="com">// /&lt; *link[^&gt;]+rel *= *&quot;(shortcut )*icon&quot;[^&gt;]*href *= *&quot;([^&quot;]+)&quot;/i'
+</div><pre>
+  <span class="key">if </span>(urlContents &amp;&amp; ([urlContents length] &gt; <span class="num">0</span>))
+  {
+    <span class="typ">const char </span>*error;
+    <span class="typ">const char </span>*result;
+    <span class="typ">int </span>erroffset;
+    <span class="typ">const char </span>*subject = [urlContents UTF8String];
+    <span class="typ">int </span>rc;
+    <span class="typ">int </span>ovector[<span class="num">30</span>];
+
+    <span class="key">if </span>(!mCompiledRegularExpression)
+      mCompiledRegularExpression =
+        pcre_compile(
+                     <span class="str">&quot;&lt; *link[^&gt;]+rel *= *</span><span class="esc">\&quot;</span><span class="str">(shortcut )*icon</span><span class="esc">\&quot;</span><span class="str">[^&gt;]*href *= *</span><span class="esc">\&quot;</span><span class="str">([^</span><span class="esc">\&quot;</span><span class="str">]+)</span><span class="esc">\&quot;</span><span class="str">&quot;</span>,
+                     PCRE_UTF8 | PCRE_CASELESS,
+                     &amp;error,           </pre><div class="com">// for error message
+</div><pre>                     &amp;erroffset,       </pre><div class="com">// for error offset
+</div><pre>                     NULL);            </pre><div class="com">// use default character tables
+</div><pre>
+    rc = pcre_exec(mCompiledRegularExpression,  </pre><div class="com">// result of pcre_compile()
+</div><pre>                   NULL,            </pre><div class="com">// we didn't study the pattern
+</div><pre>                   subject,          </pre><div class="com">// the subject string
+</div><pre>                   strlen(subject), </pre><div class="com">// the length of the subject string
+</div><pre>                   <span class="num">0</span>,                </pre><div class="com">// start at offset 0 in the subject
+</div><pre>                   <span class="num">0</span>,                </pre><div class="com">// default options
+</div><pre>                   ovector,          </pre><div class="com">// vector for substring information
+</div><pre>                   <span class="num">30</span>);              </pre><div class="com">// number of elements in the vector
+</div><pre>
+    <span class="key">if </span>(rc &gt; <span class="num">0</span>) {
+      pcre_get_substring(subject, ovector, rc, <span class="num">2</span>, &amp;result);
+      siteIconUrl = [[NSString alloc] initWithUTF8String:result];
+      pcre_free_substring(result);
+    }
+  }
+
+  <span class="key">return </span>siteIconUrl;
+}
+
+</pre><div class="com">// Retrieve a site icon from the server. At this point, we either have an image URL (href) from the page or we won't have one. If we don't have one, assume /favicon.ico.
+</div><pre>- (<span class="typ">void</span>) loadSiteIcon:(NSString *) href
+{
+  NSURL *iconUrl;
+
+  <span class="key">if </span>(!href)
+    href = &#64;<span class="str">&quot;/favicon.ico&quot;</span>;
+  iconUrl = [NSURL URLWithString:href relativeToURL:mPageUrl];
+
+  mRedirectCount = <span class="num">0</span>;
+  mImageConnection =
+    [[NSURLConnection alloc] initWithRequest:[NSURLRequest requestWithURL:iconUrl]
+                                    delegate:self];
+  <span class="key">if </span>(!mImageConnection)
+    [self setSiteIconImage:nil];
+}
+
+</pre><div class="com">// Sets the image and registers an undo event. newImage was just retrieved from the server.
+</div><pre>- (<span class="typ">void</span>)setSiteIconImage:(NSImage *)newImage
+{
+  NSImage *currentImage = mSiteImage;
+  <span class="key">if </span>(currentImage != newImage)
+    [[self undoManager] registerUndoWithTarget:self
+                                      selector:&#64;selector(setSiteIconImage:)
+                                        object:currentImage];
+  <span class="key">if </span>(newImage)
+    [mImages addObject:newImage];
+
+  mSiteImage = newImage;
+  [[NSNotificationCenter defaultCenter] postNotificationName:&#64;<span class="str">&quot;SiteImageChanged&quot;</span>
+                                                      object:self];
+}
+
+<span class="dir">#pragma mark  Fields
+</span>
+</pre><div class="com">// the url for a standard internet location
+</div><pre>- (NSString *)url
+{
+  <span class="key">return </span>mUrl;
+}
+
+</pre><div class="com">// Set the url, and unset the dynamic location if it is set (in which case we are switching from a dynamic location to a standard location.
+</div><pre>- (<span class="typ">void</span>)setUrl:(NSString *)aUrl
+{
+  <span class="key">if </span>(mDynamicLocation) {
+    [mDynamicLocation release];
+    mDynamicLocation = nil;
+  }
+  <span class="key">if </span>(mUrl)
+    [mUrl release];
+  mUrl = [aUrl retain];
+  [self setFileType:WEB_LOCATION_TYPE];
+}
+
+</pre><div class="com">// the location (with unfilled parameters) for a dynamic location
+</div><pre>- (NSString *)dynamicLocation
+{
+  <span class="key">return </span>mDynamicLocation;
+}
+
+</pre><div class="com">// Set the dynamic location, and unset the url if it is set (in which case we are switching from a standard location to a dynamic location.
+</div><pre>- (<span class="typ">void</span>)setDynamicLocation:(NSString *)aDynamicLocation
+{
+  <span class="key">if </span>(mUrl) {
+    [mUrl release];
+    mUrl = nil;
+  }
+  <span class="key">if </span>(mDynamicLocation) [mDynamicLocation release];
+  mDynamicLocation = [aDynamicLocation retain];
+  [self setFileType:DYNAMIC_LOCATION_TYPE];
+}
+
+</pre><div class="com">// Pointer to the site icon if there is one
+</div><pre>- (NSImage *)siteImage
+{
+  <span class="key">return </span>mSiteImage;
+}
+
+</pre><div class="com">// These prefs are used with dynamic locations to save the fill in window location, search history, etc.
+</div><pre>- (NSMutableDictionary *)specificPreferences
+{
+  <span class="key">if </span>(!mSpecificPreferences)
+    mSpecificPreferences = [[NSMutableDictionary alloc] initWithCapacity:<span class="num">8</span>];
+  <span class="key">return </span>mSpecificPreferences;
+}
+
+<span class="dir">#pragma mark  Deallocation
+</span>
+- (<span class="typ">void</span>)dealloc
+{
+  NSEnumerator *imageEnum = [mImages objectEnumerator];
+  id object;
+
+  [[self undoManager] removeAllActions];
+  <span class="key">while </span>(object = [imageEnum nextObject])
+    [object release];
+  [mImages release];
+
+  </pre><div class="com">// If there is an existing connection, end it.
+</div><pre>  [self endAnyConnection];
+
+  <span class="key">if </span>(mUrl) [mUrl release];
+  <span class="key">if </span>(mDynamicLocation) [mDynamicLocation release];
+  <span class="key">if </span>(mSpecificPreferences) [mSpecificPreferences release];
+  <span class="key">if </span>(mPageResponse) [mPageResponse release];
+  <span class="key">if </span>(mData) [mData release];
+  <span class="key">if </span>(mPageUrl) [mPageUrl release];
+  <span class="key">if </span>(mCompiledRegularExpression) pcre_free(mCompiledRegularExpression);
+
+  [super dealloc];
+}
+
+&#64;end
+</pre>
+</body>
+</html>
+<!--XHTML generated by highlight 2.0-19, http://www.andre-simon.de/-->

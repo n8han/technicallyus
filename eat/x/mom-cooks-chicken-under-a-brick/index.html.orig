@@ -1,0 +1,248 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Mom cooks chicken under a brick</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id783" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Mom cooks chicken under a brick" width="528" class="title" src="../../../resources/net.databinder.components.RenderedLabel/1663ffd4"/><span class="title">Mom cooks chicken under a brick</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on July 6, 2007</span></span>
+			<span id="id784" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/techniques/#selected-tag"><span>techniques</span></a><span id="id785">, </span></span><span><a href="../../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>You&#8217;d think the variety of vegetables in my <a href="http://www.slowfoodpgh.com/news_archive_supportfromcity.html"><span class="caps">CSA</span></a> box would be an inspiration to me, but <em>au contraire</em>! (You&#8217;ll find me sprinkling my posts with French phrases for the next few months because I&#8217;m going to <a href="http://en.wikipedia.org/wiki/Paris">Paris</a> in November where my <a href="http://www.youtube.com/watch?v=szHsaOjGvfk">husband</a> is performing with some French blues musicians.) Instead I find myself chucking things like zucchini blossoms and pea shoots willy-nilly, and doing the bare minimum with the rest of it. The sheer volume of spinach has been terribly oppressive and I don&#8217;t like all the bugs in the broccoli. Last night I actually found myself making a dish that you would have found on the table of almost any self-respecting hippie in the late 60s or early 70s: &#8220;I know, let&#8217;s stir-fry a bunch of different vegetables with curry and serve them over brown rice!&#8221; How is it that so many individually flavorful ingredients can turn into a puddle of brown, tasteless glop?</p>
+
+
+	<p>For a break from all that I turned to an old favorite recently, a recipe from <em>The Supper Book</em>, by Marion Cunningham, called <strong>Chicken Under a Brick</strong>. She says it&#8217;s an Italian method of cooking chicken; it&#8217;s simple and satisfying. It&#8217;s also quite a man-pleaser.</p>
+
+
+	<p><strong>Chicken Under a Brick</strong> from <em>The Supper Book</em>, 1992 edition, Marion Cunningham
+<div style="float:right"><img src="/eat/files/brick.jpg" alt="" /></div></p>
+
+
+	<ul>
+	<li>one 2 1/2-pound frying chicken (mine was 3 pounds)</li>
+		<li>3 tablespoons olive oil</li>
+		<li>3 cloves garlic</li>
+		<li>1 teaspoon dried thyme, crumbled (I used fresh rosemary, chopped)</li>
+		<li>optional: red pepper flakes, kosher salt</li>
+		<li>3 tablespoons peanut oil or more olive oil</li>
+	</ul>
+
+
+	<p>Split the chicken down the back and remove the backbone. Flip the chicken over and remove its rib cage with a small sharp knife. Flatten the chicken with the heels of your hands. Mix together the olive oil, garlic, thyme, and optional red pepper flakes and salt, and rub the mixture all over the chicken with your hands.</p>
+
+
+	<p style="float:left"><img src="/eat/files/press.jpg" alt="" /></p>
+
+
+	<p>Heat the peanut or olive oil in a 10- to 12-inch skillet over medium-high heat. Put the chicken in the skillet, skin side down. Rub any left-over olive oil mixture on the exposed side. Cover the chicken with foil, tucking the foil down around the chicken. Weight down with another, slightly smaller heavy skillet that has additional weights in it, such as bricks, a heavy rock, or another heavy pan (I used a filled teakettle). Press down firmly. Cook for 15 minutes, checking to make sure the chicken isn&#8217;t browning too fast, lower the heat to medium, and cook 10 minutes more. Turn the chicken over, cover and weight down again, and cook for a final 10 minutes. (If your chicken is bigger than in the recipe, adjust cooking time accordingly.) Remove to heated platter and let rest for 10 minutes before carving. I reduced the pan juices and served with the chicken, but next time I make it I might not tuck the foil in so firmly, as I think it caused the chicken to steam more than I wanted.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id786">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3962"><p>Ohh&#8230; that looks very tasty. I have several bricks that I think would serve this recipe well.</p>
+<p>I can hardly wait.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.metakathryn.com"><span class="alias">Kathryn</span></a>
+  				<span>on July 6, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3963"><p>That does look yummy..what do you mean you toss the zucchini blossoms and pea shoots..am I missing something? Those are so precious to me. I adore the stuffed blossoms and you cake make pea pancakes. You must be thrilled to be going to Paris. Izzy and I are here now and having a great time! You can check out our restaurant recommendations.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.izzyeats.blogspot.com"><span class="alias">izzy&#039;s mama</span></a>
+  				<span>on July 6, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3964"><p>Hi, Kathryn &#8211; I suggested the teakettle because most people don&#8217;t have bricks or even heavy rocks available, but by all means, use them!</p>
+<p>Sorry, izzy&#8217;s mama! I knew that sentence would generate some controversy; I just didn&#8217;t feel up to stuffing, frying, or battering any squash blossoms. If I could have packed them up and sent them to you in New Jersey I would have. And I must be missing something with the pea shoots, all they are are small leaves on very tough stems. I can&#8217;t figure out how they are supposed to be used. I tried braising them with garlic in chicken stock but the stems remained so tough and fibrous they had to be spit out after long chewing. I&#8217;m not a cow with 4 stomachs.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on July 6, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3965"><p>Wow, that chicken looks lovely &#8211; and I <span class="caps">JUST</span> splurged on both the Supper Book and the Breakfast Book, so I&#8217;m double excited!  (I love Marion Cunningham &#8211; give me her editions of Fannie Farmer over the Joy of Cooking any day!)</p>
+<p>And buggy broccoli is disgusting, isn&#8217;t it?  The teeny ones hide in the florets and I&#8217;m never entirely sure I&#8217;ve gotten them all out.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://trivialissimo.blogspot.com"><span class="alias">Heath</span></a>
+  				<span>on July 6, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3966"><p>The chicken sounds wonderful, although I tend not to take the time to get that personal with raw chicken. (Lazy cook here.)</p>
+<p>Your season must be a little behind ours; our spinach is long-gone. I&#8217;ve turned risotto into my all-purpose, use-a-bunch of produce dish. I make the risotto, and then in the last 5-10 minutes of cooking, and making allowances for any liquid the vegetables might give off, throw in quantities of coarsely chopped spinach or diced summer squash or green peppers or whatever. I don&#8217;t know whether anybody from Italy would claim it, but it&#8217;s unfailingly delicious (<span class="caps">IMO</span>).</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://foodperson.com"><span class="alias">Janet</span></a>
+  				<span>on July 6, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3967"><p>That chicken looks amazing! I loved your stir-fry tale. My husband used to cook like that and the girls would soon (that was before we were together, of course). Lucky you, you&#8217;re going to Paris.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.ceresandbacchus.com"><span class="alias">Mary</span></a>
+  				<span>on July 6, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3968"><p>I will always associate chicken under a brick with Pittsburgh &#8211; good friends of ours there made it, but I wish they&#8217;d tried the &#8220;optional&#8221; red pepper flakes! Maybe I&#8217;ll have to try them myself.</p>
+<p>I am sorry to hear that the veggies don&#8217;t exactly work for you.  You might &#8220;toss&#8221; any that don&#8217;t inspire you into someone else&#8217;s box?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">zp</span></span>
+  				<span>on July 6, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3969"><p>Hi, Heath &#8211; I like <em>The Breakfast Book</em>, too. And yes, I soaked the broccoli in several changes of water and every time at least one new bug emerged, so you&#8217;re right, I wasn&#8217;t sure I got them all, even after I had chopped it up.</p>
+<p>Risotto is a good idea, Janet; maybe this week.</p>
+<p>Mary, I assume this is why you appear to do most of the cooking now&#8230;;)</p>
+<p>Good idea about tossing stuff I don&#8217;t want into someone else&#8217;s box, zp; you are so much more socially regenerated than I am! Not to mention less wasteful.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on July 6, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3970"><p>Is soaking the broccoli in salted water any more effective for getting rid of bugs? It seems to me that I&#8217;ve read that although I&#8217;ve never tried it.</p>
+<p>I&#8217;ve always thought those chicken- under-a-brick recipes sounded wonderful but I&#8217;ve never tried one. It&#8217;s the deboning that stops me. Not the chopping out the backbone &#8212; that I can do &#8212; but the cutting out the ribs. That&#8217;s a skill I just do not have.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://kitchenography.typepad.com"><span class="alias">Julie</span></a>
+  				<span>on July 6, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3971"><p>P.S. Your Paris trip sounds wonderful!</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://kitchenography.typepad.com"><span class="alias">Julie</span></a>
+  				<span>on July 6, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3972"><p>Hi, Julie &#8211; You know, that salted water thing is ringing a bell; I think I remember the Hispanic kitchen help talking about that at the Watergate. I&#8217;ll have to try it with the next bunch. As far as the chicken goes, just leave the ribs in; you can still flatten it out pretty well that way, especially with the weight on top.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on July 6, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3973"><p>For those worried about the perils of bone removal-I make a weighted chicken recipe with those little cornish hens. I just cut them down the back, open them out, and pound those guys-bones and all- between waxed paper like veal scallops. <br />
+I&#8217;m not sure what makes poultry so good this way-apart from excessive quantities of clarified butter, but they are wonderful, aren&#8217;t they?</p>
+<p>Re putting stuff in other peoples&#8217; farmboxes- I hope nobody puts more broccoli in mine. Also, no more beets. I like beets, but they come up with so many!Probably better to ask people if they want it?&#8230;I&#8217;m envisioning the last pickup family, all weighted down with extra, less popular veg!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">lindy</span></span>
+  				<span>on July 6, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3974"><p>That&#8217;s a funny image, Lindy! But I actually can&#8217;t imagine standing on a stranger&#8217;s porch pawing through my box, deciding what to keep and what to reject. The boxes are packed pretty tightly and carefully and it would make a mess to start going through it on the spot, as it were. Personally I wouldn&#8217;t mind getting more beets; then I could make some summer borcht. They keep pretty well, too. But I guess we all have our favorites and those we just use up.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca</span></span>
+  				<span>on July 6, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id787">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id788" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id788_hf_0" id="id788_hf_0" /><input type="hidden" name="wicket:interface" value=":286:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id789" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id78a" name="add" value="Add a comment" onclick="wicketShow('id78a--ajax-indicator');var wcall=wicketSubmitFormById('id788', '../../../?wicket:interface=:286:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id78a--ajax-indicator');}.bind(this),function() { ;wicketHide('id78a--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id788')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id78a--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

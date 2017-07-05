@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/city-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>City Slicking / Can’t buy me blogs</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../city">
+			
+			<img alt="City Slicking" src="../../resources/org.apache.wicket.Application/city-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../city">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/city-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id1d1b" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Can’t buy me blogs" width="237" class="title" src="../../resources/net.databinder.components.RenderedLabel/4ec09d31"/><span class="title">Can’t buy me blogs</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Doctor Barnett</span>, <span>on September 19, 2006</span></span>
+			<span id="id1d1c" class="tags">
+					{&nbsp;<span><a href="../../city/tag/apple/#selected-tag"><span>apple</span></a><span id="id1d1d">, </span></span><span><a href="../../city/tag/web/#selected-tag"><span>web</span></a><span id="id1d1e">, </span></span><span><a href="../../city/tag/publishing/#selected-tag"><span>publishing</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>One of the things that fascinates me about the never-ending <a href="http://blog.washingtonpost.com/securityfix/2006/08/hijacking_a_macbook_in_60_seco.html">Hijacking a MacBook in 60 Seconds or Less</a> saga is the disparity it highlights among those covering it.</p>
+
+
+	<p>The story started with a <em>Washington Post</em> hosted weblog, <em>Security Fix</em> by Brian Krebs. It&#8217;s a sloppy piece that, after a month and a half of about a gazillon page views, still has this copy error in its closer:</p>
+
+
+	<blockquote>
+		<p>&#8230;it might not be terrible idea to take advantage of the button your laptop that allows you to turn off the machine&#8217;s constant search for wireless networks&#8230;</p>
+	</blockquote>
+
+
+	<p>Leave aside that he&#8217;s bizarrely talking about a button on my laptop when he means a setting in System Preferences that is off by default. What about the mising &#8220;a&#8221; of <em>terrible idea</em>? That is whack, <em>WP</em>!</p>
+
+
+	<p>Krebs&#8217;s reckless claims about a possible compromise of the MacBook and his &#8220;told you so&#8221; finger wagging made a lot of people angry, including John Gruber of <em>Daring Fireball</em> who <a href="http://daringfireball.net/2006/08/krebs_followup">took the <em>60 seconds</em> piece apart</a>. After that it was blogger vs. so-called blogger.</p>
+
+
+	<p><img src="/pictures/IT-blogs.png" alt="" /></p>
+
+
+	<p class="break"><em>No, I didn&#8217;t alter this photo to give that last guy <a href="http://michellemalkin.com/archives/003780.htm">demon eyes</a> or to give his neighbor George Ou a Chuck Norris expression. That&#8217;s just what they look like.</em></p>
+
+
+	<p class="break">George Ou of ZDNet <span class="caps">BLOGS</span> <em><span class="caps">REAL WORLD IT</span></em> <a href="http://blogs.zdnet.com/Ou/?p=304">faced Gruber directly</a>, only to be <a href="http://www.crazyapplerumors.com/?p=667">mocked mercilessly</a> by <em>Crazy Apple Rumors Site</em> and others for his overreaching arguments and penchant for boasting of making &#8220;phone calls.&#8221; It was a blood bath.</p>
+
+
+	<p>The Mac weblogs outclassed the IT crowd at every turn, and in every way possible. (For one thing, it&#8217;s hard to get past the jarring superiority of the <a href="http://daringfireball.net/">Daring Fireball</a> design compared to the dorked-up WordPress skin of <a href="http://blogs.zdnet.com/">ZDNet <span class="caps">BLOGS</span></a>, but we do our best.) The macland writing is better, the jokes are better, the logic is better, the research is better, the insight is better&#8230; it&#8217;s no contest.</p>
+
+
+	<p>But it&#8217;s not just a Mac vs. IT thing. George Ou <a href="http://blogs.zdnet.com/Ou/?p=321">confuses “blog” and “blog post”</a></p>
+
+
+	<blockquote>
+		<p>In a follow up blog, I&#8217;ll go over some TV and <span class="caps">HDTV</span> tuner cards.</p>
+	</blockquote>
+
+
+	<p>&#8230;and that&#8217;s just triflin&#8217; and ignorant. MrLittlePants&#8217;s mom made this mistake in one of her first posts at <a href="/eat/">Eat</a> — we nipped that right in the bud. Yet here is a paid weblog writer, chugging along without knowing exactly what &#8220;blog&#8221; means.</p>
+
+
+	<p>This is what happens when you try to buy weblogs into existence.</p>
+
+
+	<p>The strength of the medium has always been that individuals don&#8217;t need corporate support to publish. Weblogs grow up through their own merit (or, in most cases, don&#8217;t). <em>Gawker Media</em> is busy blowing weblogs up in the lab trying to make a winning commercial formula. If they find one, it won&#8217;t turn out to be a <span class="caps">BLOGS</span> section of a traditional publisher housing a bunch of assigned dweebs.</p>
+
+
+	<p>So please stick to that whole fact check, copy edit, blah blah blah thing. There actually is a future in it. (You just have to do it faster.)</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about'>About</h3>
+
+<p><em>City Slicking</em> is about urban life, transportation, energy, liberty, and language.</p>
+
+<h3 id='haunts'>Haunts</h3>
+
+<p><a href='http://twitter.com/n8han/'>Twitter</a><br /><a href='http://technically.us/code/'>Coderspiel</a><br /><a href='http://www.streetsblog.org/'>Streetsblog</a><br /><a href='http://gawker.com/people/alexpareene/posts/'>Pareene</a><br /><a href='http://www.copenhagenize.com/'>Copenhagenize</a><br /><a href='http://itre.cis.upenn.edu/~myl/languagelog/'>Language Log</a><br /><a href='http://t4america.org/'>Trans. for America</a></p>
+
+<h3 id='wire_service'>Wire Service</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/city-rss' title='All in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-short-rss' title='Left column, frequent links and notes'>Quickies</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-long-rss' title='Main column, occasional extended posts'>Treatise</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id1d1f">
+  		
+  		
+  	</div>
+  	<div id="id1d20">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id1d21" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id1d21_hf_0" id="id1d21_hf_0" /><input type="hidden" name="wicket:interface" value=":1106:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id1d22" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id1d23" name="add" value="Add a comment" onclick="wicketShow('id1d23--ajax-indicator');var wcall=wicketSubmitFormById('id1d21', '../../?wicket:interface=:1106:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id1d23--ajax-indicator');}.bind(this),function() { ;wicketHide('id1d23--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id1d21')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id1d23--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

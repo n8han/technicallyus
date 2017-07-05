@@ -1,0 +1,204 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Graphical interfaces are best described by resources</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id2509" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Graphical interfaces are best described by resources" width="846" class="title" src="../../../resources/net.databinder.components.RenderedLabel/7afeaffd"/><span class="title">Graphical interfaces are best described by resources</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on December 4, 2006</span></span>
+			<span id="id250a" class="tags">
+					{&nbsp;<span><a href="../../../code/tag/apple/#selected-tag"><span>apple</span></a><span id="id250b">, </span></span><span><a href="../../../code/tag/next/#selected-tag"><span>next</span></a><span id="id250c">, </span></span><span><a href="../../../code/tag/interfaces/#selected-tag"><span>interfaces</span></a><span id="id250d">, </span></span><span><a href="../../../code/tag/java/#selected-tag"><span>java</span></a><span id="id250e">, </span></span><span><a href="../../../code/tag/web/#selected-tag"><span>web</span></a><span id="id250f">, </span></span><span><a href="../../../code/tag/wicket/#selected-tag"><span>wicket</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Last week an <a href="http://www.javalobby.org/java/forums/t85241.html">interesting discussion</a> popped up at <em>Javalobby</em>. (Yes, really.) The post was rhetorically asking why we don’t have a resourced-based <acronym title="Graphical User Interface">GUI</acronym> framework in Java.</p>
+
+
+	<blockquote>
+		<p>Almost every platform has a visual designer that serializes the <acronym title="">GUI</acronym> to resources (some <acronym title="">XML</acronym>, some proprietary binaries) and then attaches it to the controller at runtime. Apple has had this for years with Interface Builder…</p>
+	</blockquote>
+
+
+	<p>Poor <a href="http://en.wikipedia.org/wiki/NeXT">NeXT</a>. Their greatest innovations have been understandably muddled with those of Apple Computer in the public memory. It’s a complicated story but one fact is worth absorbing: Mac <span class="caps">OS X</span> <em>is</em> NeXTstep. Those of us using Macs in the late ’90s will remember this for the rest of our lives, as we watched for several grueling years while Apple made it so.</p>
+
+
+	<p>NeXTstep’s AppKit library (now Apple’s <a href="http://en.wikipedia.org/wiki/Cocoa_%28API%29">Cocoa</a>) was the biggest innovation in <acronym title="">GUI</acronym> programming since the <acronym title="">GUI</acronym> itself. Using Interface Builder you lay out an interface, which is stored in binary resource files that will stay with the application from conception through deployment. Interface Builder connects interface elements to code “outlets,” and is capable of some skeletal code generation (as a convenience).</p>
+
+
+	<p>Anyone who’s used this tool knows it is the best method available to design a <acronym title="">GUI</acronym>. It doesn’t matter if it’s a simple interface you don’t care about or a complicated one that must be perfect: Interface Builder will give you better results in less time.</p>
+
+
+	<p>So I was a little surprised to see <a href="http://www.javalobby.org/java/forums/t85241.html#92069269">some usually-right folks</a> championing the current Swing approach, talking about “flexibility” and chasing <acronym title="">XML</acronym> red herrings. What? Imagine the world of desktop applications with Mac (Cocoa) apps at one pole and Swing apps at the other. Need it be said which pole has the <em>best</em> interfaces and which has the <em>worst</em>?</p>
+
+
+	<p>It’s easy to be distracted by all the kludgy interface generators some platforms may have had, but a tool that tries to output Java code which arranges a Swing interface is <em>not</em> a resource-based <acronym title="">API</acronym>—it’s an example of why we need resource based <acronym title="">API</acronym>s. They aren’t about cheating, or being too dumb to write UI code; they’re about <em>being smart</em> and putting reams of interface data  into a resource file instead of program code.</p>
+
+
+	<p>Not that I have anything against plain-coded Swing layouts. For programming students, they’re straightforward and easy to throw together, an small step up from <tt>System.out.println</tt>. But for better application interfaces, it’s time to wake up and smell the Cocoa.</p>
+
+
+	<h3>Wicket templates are interface resources</h3>
+
+
+	<p>There’s a healthy parallel between resource-mapped <acronym title="">GUI</acronym>s and Web component templating systems like Wicket. That’s only natural, since Wicket is inspired by Tapestry, which is inspired by NeXT’s WebObjects. (We love WebObjects <a href="/n8/articles/2006/08/31/all-about-webobjects">like a grandfather</a> around here.) They all go back to AppKit.</p>
+
+
+	<p>In traditional Web programing the graphical interface is determined by program code that’s interspersed with the layout. It’s an inside-out draw function, which isn’t half bad except your application has no state outside of a few global variables (session objects) and strings you can manually pass and respond to in its event loop (request parameters). It’s not that this method fails to use resources with its graphical <acronym title="">API</acronym>; it’s that it has no graphical <acronym title="">API</acronym> in the first place.</p>
+
+
+	<p>But in Wicket the <acronym title="">HTML</acronym> template <em>only</em> determines the layout for components that live in the program code, just as resource files denote at what pixel a button should draw itself in Cocoa. It’s simple, elegant, and precise once you’re used to it, and you’d no more want to go back to the old way than a Cocoa programmer would switch to Swing. The only downside is its appetite for memory, a familial trait going back to NeXTstep’s outrageous (at the time) 16MB minimum.</p>
+
+
+	<p>Descendant graphical <acronym title="">API</acronym>s of NeXTstep’s AppKit like Cocoa, .<acronym title="">NET</acronym>’s, and <acronym title="">GTK</acronym># have slowly grown to dominate <em>good</em> desktop application programming. The same shift will eventually happen on the Web: session-stored components bound to <acronym title="">HTML</acronym> templates will overtake request-structured programming. In letting go of WebObjects Apple has given up on “their” idea too soon. Or perhaps the company is writing a WebObjects do-over with their new <acronym title="Best Friends Forevar">BFF</acronym> Ruby.</p>
+
+
+	<p class="break">And if that happens, well guys, it’s been fun!</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id2510">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-1212"><p>It seems like you describe Swing and Cocoa/NeXT* as opposite paradigms, and then you describe Wicket as a grandchild of NeXT’s WebObjects. Yet I&#8217;ve also heard Wicket described as <a href='http://www.google.com/search?q=wicket+swing-like'>very Swing-like</a>. Should I be worried? :)</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://jeoftp.blogspot.com"><span class="alias">Jeoff Wilks</span></a>
+  				<span>on December 4, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1213"><p>People tend to compare it to what they know. Many Java people looking at Wicket have coded GUIs only in Swing, if they&#8217;ve worked on desktop apps at all, so they call it Swing-like. I think of Wicket as GUI-like in general, while traditional scripted pages (jsp, php, rhtml) don&#8217;t have any analogue in graphical desktop programming (not good!).</p>
+
+<p>In some ways Wicket is more like Swing (instantiate components in constructor), others it more like Cocoa (define layout in a resource). I&#8217;m far from finished making up my mind about this stuff, but I&#8217;m sure that Wicket&#8217;s method works well for me.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on December 4, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5729"><p>&#8220;Poor NeXT. Their greatest innovations have been understandably muddled with those of Apple Computer in the public memory.&#8221; Did you never use ResEdit and its RAD-before-there-was-RAD interfaces to DITL, DLOG, WIND etc. resources?</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://johnl.org"><span class="alias">johnl</span></a>
+  				<span>on September 14, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5730"><p>I did use ResEdit for a little app hacking like everybody else, but no I didn&#8217;t do any Toolbox programing so I don&#8217;t know to what extent the concept was developed. Not as far as Interface Builder + AppKit, by all accounts.</p>
+
+<p>Anyway, the quote I was responding to seemed to attribute IB itself to Apple. While the company deserves credit for all kinds of graphical programming inventions, that&#8217;s just something they bought (as you know, but most of the world will forget).</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on September 14, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5732"><p>True, history always forgets the loser. Interface Builder was and still is quite amazing, particularly when used with Cocoa and those new data-store objects. You can make a real program with basically no code, which was, let&#8217;s face it, the Holy Grail of the 1990s!</p>
+
+<p>Before AppKit there was MacApp (and PowerPlant from Metrowerks). Your post made me go and read the Wikipedia articles about these things and reminisce. Then I searched the web for Toolbox sample code to bring me back, and remind me of Pascal strings and Handles and so forth. It&#8217;s getting harder to find! Search results are swamped by Google Toolbox. Says it all, I guess&#8230;</p>
+
+<p>When you made a resource in ResEdit, you would then use Toolbox calls to load it in, then use it. You&#8217;d load in your DLOG resource and your DITL etc.</p>
+
+<pre><code>InitGraf(&amp;thePort);
+InitCursor();
+InitFonts();
+InitWindows();
+InitMenus();
+TEInit();
+InitDialogs(0L);               
+mywind=GetNewWindow(1000,0,-1);
+SetPort(mywind);</code></pre>
+
+<p>And so on into the sunset.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://johnl.org"><span class="alias">johnl</span></a>
+  				<span>on September 15, 2008</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id2511">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id2512" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id2512_hf_0" id="id2512_hf_0" /><input type="hidden" name="wicket:interface" value=":1357:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id2513" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id2514" name="add" value="Add a comment" onclick="wicketShow('id2514--ajax-indicator');var wcall=wicketSubmitFormById('id2512', '../../../?wicket:interface=:1357:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id2514--ajax-indicator');}.bind(this),function() { ;wicketHide('id2514--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id2512')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id2514--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

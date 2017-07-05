@@ -1,0 +1,172 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="../../../blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="../../../blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet.css"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Databinder, we need to talk</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code.html">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code.html">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id2378" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Databinder, we need to talk" width="443" class="title" src="../../../resources/net.databinder.components.RenderedLabel/3eda7576"/><span class="title">Databinder, we need to talk</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on December 17, 2006</span></span>
+			<span id="id2379" class="tags">
+					{&nbsp;<span><a href="../../tag/databinder/index.html#selected-tag"><span>databinder</span></a><span id="id237a">, </span></span><span><a href="../../tag/hibernate/index.html#selected-tag"><span>hibernate</span></a><span id="id237b">, </span></span><span><a href="../../tag/wicket/index.html#selected-tag"><span>wicket</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p style="float:right"><img src="../../../pictures/peacock.jpg" alt="" /></p>
+
+
+	<p>It&#8217;s been a while since I&#8217;ve seen Databinder this excited about anything. The last time was probably <a href="../../../n8/articles/2006/08/25/cameras-rolling.html">its film debut</a>. The big story today is that <a href="http://www.hibernate.org/43.html#A5">extended sessions for long conversations</a> actually work. We tried them.</p>
+
+
+	<p>Keeping open a Hibernate session between Web requests is a crazy idea. It reminds me of the way people <del>used to</del> <em>still</em> complain about Wicket&#8217;s use of the Web session for something besides a 32-bit integer representing a user key. <em>You&#8217;ll run out memory. That doesn&#8217;t scale. The enterprise will fire proton javabean torpedos into your despicable flouting of <strong>convention!</strong></em></p>
+
+
+	<p>Anyway, who cares about those boring people. Chuck (on the <a href="http://databinder.net/forum/">Databinder forum</a>) has been working on a use of ajax that constantly butts up against stale object exceptions. It took me a long time to understand his app&#8217;s problem. And then I forgot what it was and had to have it explained again.</p>
+
+
+	<p>The gist of it is, a page with ajax controls can operate a lot like a multi-page transactional &#8220;wizard.&#8221; Each time the user acts, a request goes to the server that alters the model. No problem there, except when you <em>don&#8217;t want to commit yet</em>. The user should be able to save or abandon his changes at any time.</p>
+
+
+	<p>Using detachable Wicket models with a standard Hibernate session does not offer a solution to this problem other than 1) just shut up and persist those changes, or 2) store those changes in some object that hasn&#8217;t yet been persisted. I tried to sell Chuck on each of those and he was appropriately unimpressed.</p>
+
+
+	<h3>Enter white horse, conversational rider</h3>
+
+
+	<p>The correct answer to the problem is to use a conversational session. Everything can work normally in such a session, you can even detach models, and the changes are held until you flush or clear them.</p>
+
+
+	<p>I experimented with a number of different methods for holding this session before deciding on the page object itself. This maps the functionality to the user&#8217;s expectations (back, forward, multi-window browser use) better than tying a single Hibernate session to the Web session. Wicket manages the page map, so all Databinder has to do is check for sessions in the pages before loading any objects.</p>
+
+
+	<p>Easier said than done, of course. I&#8217;m not sure exactly what&#8217;s coming down the Wicket 1.3 pike in the way of &#8220;tightening&#8221; request callbacks, but for now I&#8217;ve had to resort to a <a href="http://databinder.net/wsvn/Databinder/databinder/trunk/src/main/java/net/databinder/conv/DataConversationRequestCycleProcessor.java?op=file">hack</a> that hooks into request target resolution. It mostly works.</p>
+
+
+	<p>When the conversation functionality is enabled for an application, Databinder inspects the request target as soon as it&#8217;s available and binds the page&#8217;s session, if present, to the thread. When there is no session but the page is able to hold one, the new session is placed in the page and marked for &#8220;manual&#8221; flush. Again at the end of the request Databinder assesses the responding page. If it can hold a session and the session is dirty, the session is left open (though its <acronym title="">JDBC</acronym> connection is closed) and placed in that page. Clean sessions are closed and nullified.</p>
+
+
+	<p>In the ideal scenario users follow tasks to their completion where the session is either flushed or cleared, causing Databinder to neatly dispose of it. But in the obvious scenarios where conversational sessions are left open and abandoned, they fall off the end of the page map and are garbage collected without error.</p>
+
+
+	<h3>Phone directory conversates</h3>
+
+
+	<p>Now, the fun stuff. I decided to apply Chuck&#8217;s style of interaction to Databinder&#8217;s <a href="http://databinder.net/phone-directory.html">classic phone directory</a> example. Instead of editing the entries in a box floating to the right of the listing, the new version [<b>Update:</b> no longer online, but it will be behind the first link when Databinder 1.1 is final] presents them in an ajax modal dialog.  You can make as many changes as you want, and then save or revert them all at once. (With the exception of adding, which flushes automatically because of the generated key.) The <a href="http://databinder.net/wsvn/Databinder/directory/trunk/src/main/java/example/">source</a> is available if you can&#8217;t believe your eyes.</p>
+
+
+	<p>Oh, and watch out for optimistic locking exceptions.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='../../../resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id237c">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-5701"><p>Many months on are you still a fan of this approach? Have you any &#8220;top tips&#8221; for other people doing something similar?</p>
+
+<p>I think we are in a similar position of wanting to manipulate a complex object graph managed by hibernate via Wicket&#8230;</p>
+
+<p>Cheers</p>
+
+<p>Sam</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://redspr.com"><span class="alias">Sam Hough</span></a>
+  				<span>on September 4, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5702"><p>I&#8217;m glad I tried it, just to test out the theory, but for my own Hibernate apps I still use request-length sessions. It seems too risky, and without much reward, to aggressively employ a technology that has basically been shelved. (Who is using anything but session-in-view with Hibernate, other than a few desktop application developers?) There&#8217;s surely a lot of undiscovered kinks to work through in making it work solidly on the web, and someone more motivated to use the technology than myself would have to work them out.</p>
+
+<p>Although, perhaps <em>you</em> may want to take it on. I&#8217;ve put Databinder into Git so that it takes all of five minutes for anyone to branch it. Or for what you&#8217;re describing, if the app does not exist yet, I would seriously consider Cayenne. Even though I haven&#8217;t used it much beyond a demo app, it seems very well suited to complex object graphs. And, it doesn&#8217;t complain when you take an object between two sessions, so you don&#8217;t even have the problem described (afaik).</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on September 4, 2008</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id237d">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id237e" action="../../../index.html" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id237e_hf_0" id="id237e_hf_0" /><input type="hidden" name="wicket:interface" value=":1312:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id237f" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id2380" name="add" value="Add a comment" onclick="wicketShow('id2380--ajax-indicator');var wcall=wicketSubmitFormById('id237e', '../../../?wicket:interface=:1312:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id2380--ajax-indicator');}.bind(this),function() { ;wicketHide('id2380--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id237e')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id2380--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

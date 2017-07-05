@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/city-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>City Slicking / Hack your razor</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../city">
+			
+			<img alt="City Slicking" src="../../../resources/org.apache.wicket.Application/city-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../city">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/city-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id17de" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Hack your razor" width="205" class="title" src="../../../resources/net.databinder.components.RenderedLabel/20625de9"/><span class="title">Hack your razor</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Doctor Barnett</span>, <span>on April 18, 2006</span></span>
+			<span id="id17df" class="tags">
+					{&nbsp;<span><a href="../../../city/tag/marketing/#selected-tag"><span>marketing</span></a><span id="id17e0">, </span></span><span><a href="../../../city/tag/shopping/#selected-tag"><span>shopping</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p class="out"><img src="/pictures/fusion.jpg" alt="" /></p>
+
+
+	<p class="break">We geeks (normally youngish, maleish, common-senseless types) often <a href="http://itotd.com/articles/295/">complain</a> about the high cost of replacement razor blades for refillable razors. We also <a href="http://www.trendhunter.com/trends/the-utting-edge-14-blade-razors-by-2100/">ridicule</a> the pointless increase in blade-count, while clinging to whatever silly model was introduced when we came of age.</p>
+
+
+	<p>My generation was suckered in by the Gillette Sensor, whose refills cost <a href="http://www.drugstore.com/products/prod.asp?pid=37344">$1.50 per blade</a>. That feels a tad expensive (compared to, I don’t know, this <a href="http://www.newegg.com/Product/Product.asp?Item=N82E16833180004">$5 ethernet card</a>) but I truly feel sorry for today’s newly bearded lads confronted with the monstrosity named Fusion whose refills cost over  <a href="http://www.drugstore.com/products/prod.asp?pid=148996">$3.50 per “cartridge”</a>. Jesus.</p>
+
+
+	<p>Yet we’re trapped. Even if we throw away our “investment” in the base razor, there’s no razor on the market with reasonably priced refills. I thought maybe if I ventured into unknown Schick territory… <a href="http://www.drugstore.com/products/prod.asp?pid=83692&catid=89896&trx=PLST-0-SRCH&trxp1=89896&trxp2=83692&trxp3=1&trxp4=0&btrx=BUY-PLST-0-SRCH">nope</a>. MrLittlePants noticed that <a href="http://www.drugstore.com/products/prod.asp?pid=27401">Trac II refills</a> approach the coveted $1 per blade mark, but alas, <strong>good luck buying a damn Trac II razor anywhere</strong>.</p>
+
+
+	<p>Frustrated, we started to wonder why we were even fooling with refillable razors. Don’t most women just use the throw-away kind? I know it’s not for their faces (in theory), but what’s the difference? Maybe the ladies are on to something?</p>
+
+
+	<p class="out"><img src="/pictures/razors.jpg" alt="" /></p>
+
+
+	<p class="break">Uhh, <em>yeeeeahh!</em> Disposables are much, much cheaper than the replacement blades for any razor. Even in <a href="http://www.drugstore.com/products/prod.asp?pid=27425">pivoting Gillette-branded form</a> they come out to less than $1 apiece. We bought those, and seriously can’t tell the difference. After all these years…</p>
+
+
+	<p>Of course, MrLittlePants and I are deeply <a href="http://technically.us/eat/articles/2006/03/07/trader-joes-a-rant">offended</a> by waste in general. But that revulsion to throw-away products is what drives the razor scheme. Refills <em>seem</em> smarter, more efficient, and just better than disposables… so of course they charge more for them.</p>
+
+
+	<p>I blame the cynical marketing bastards in the shaving business for the rubbery plastic handles now showing up in my trash, but I’ll try to make amends anyway. <em>Hail Mother Earth full of dirt, Hail Mother Earth…</em></p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about'>About</h3>
+
+<p><em>City Slicking</em> is about urban life, transportation, energy, liberty, and language.</p>
+
+<h3 id='haunts'>Haunts</h3>
+
+<p><a href='http://twitter.com/n8han/'>Twitter</a><br /><a href='http://technically.us/code/'>Coderspiel</a><br /><a href='http://www.streetsblog.org/'>Streetsblog</a><br /><a href='http://gawker.com/people/alexpareene/posts/'>Pareene</a><br /><a href='http://www.copenhagenize.com/'>Copenhagenize</a><br /><a href='http://itre.cis.upenn.edu/~myl/languagelog/'>Language Log</a><br /><a href='http://t4america.org/'>Trans. for America</a></p>
+
+<h3 id='wire_service'>Wire Service</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/city-rss' title='All in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-short-rss' title='Left column, frequent links and notes'>Quickies</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-long-rss' title='Main column, occasional extended posts'>Treatise</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id17e1">
+  		<div><h3 id='backtalk'>Backtalk</h3></div>
+  		<div>
+  			<div id="item-893"><p>he he&#8230; most girls get ripped off just like you guys. i spent the past year using the &#8220;intuition&#8221; which was horribly designed and almost impossible to use (counter-intuitive, if you will). but i did like the idea of not paying for shaving cream and razor blades and having it all-in-one. but i recently switched back to the gillette venus. much better and not uber-expensive. and a trick for saving $$ on shaving cream (and often a better shave) conditioner. you can get a huge bottle of the cheap stuff (suave) for less than $2!!! and it&#8217;ll last ages!!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">dots</span></span>
+  				<span>on April 18, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-894"><p>It&#8217;s funny you mention the &#8220;intuition.&#8221; My impression is that it was the first time shaving companies managed to pull one over on the ladies. But I&#8217;m no women&#8217;s shaving historian.</p>
+
+<p>There&#8217;s &#8220;this funny article&#8221;:http://www.slate.com/id/2085175/ about Jewel selling her song of the same name for their commercial (and the song is about not selling out!).</p>
+
+<p>About the cream: I guess we&#8217;re better off than you cause we don&#8217;t go through it that quickly, having a lot less surface area to cover.</p>
+
+<p>It&#8217;s all the same though, any money spent just shaving hairs off your body kinda sucks.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Doc</span></span>
+  				<span>on April 18, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5202"><p>Get a double edge safety razor. Blades run from $0.50 down to $0.17. Shave is very close (closer than the multi blade). I use shaving soap and a shaving brush. It saves lots of money and works better than the canned shave cream&#8230; a no brainer!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Tim</span></span>
+  				<span>on March 2, 2008</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id17e2">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id17e3" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id17e3_hf_0" id="id17e3_hf_0" /><input type="hidden" name="wicket:interface" value=":947:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id17e4" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id17e5" name="add" value="Add a comment" onclick="wicketShow('id17e5--ajax-indicator');var wcall=wicketSubmitFormById('id17e3', '../../../?wicket:interface=:947:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id17e5--ajax-indicator');}.bind(this),function() { ;wicketHide('id17e5--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id17e3')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id17e5--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

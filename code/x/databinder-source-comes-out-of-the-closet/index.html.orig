@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Databinder revision history comes out of the closet</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id244c" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Databinder revision history comes out of the closet" width="818" class="title" src="../../../resources/net.databinder.components.RenderedLabel/2d50caab"/><span class="title">Databinder revision history comes out of the closet</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on May 1, 2006</span></span>
+			<span id="id244d" class="tags">
+					{&nbsp;<span><a href="../../../code/tag/databinder/#selected-tag"><span>databinder</span></a><span id="id244e">, </span></span><span><a href="../../../code/tag/learning/#selected-tag"><span>learning</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p style="float:right"><img src="/pictures/goose.jpg" alt="" /></p>
+
+
+	<p>Many people have been wondering, &#8220;Where can I browse the Databinder sources? Is the project under source control? Why hasn&#8217;t Databinder settled down yet? Is Databinder just waiting for the right hosting service&#8212;still?&#8221;</p>
+
+
+	<p>While I can&#8217;t answer any questions about Databinder&#8217;s personal life, I&#8217;m happy to report that it has mastered its shyness for revision exposure. You can now see <a href="http://databinder.net/wsvn/Databinder/databinder/trunk/?rev=0&#38;sc=0">all Databinder versions and projects</a> in a Web browser. All my corrected mistakes, and their corresponding cheeky check-in comments, are open to the public.</p>
+
+
+	<p>While that <em>does</em> make me feel a little queasy, I can no longer deny the benefits of easy access to the source tree. The downloadable tarball on the <a href="http://databinder.net/releases.html">releases</a> page just wasn&#8217;t cutting it: you need to be able to <strong>link</strong> to things on this here Internet. Like when you&#8217;re <a href="http://technically.us/n8/articles/2006/04/27/databinder-chipping-away-at-un-usability">talking</a> about <a href="http://databinder.net/wsvn/Databinder/bookmark/trunk/src/main/webapp/WEB-INF/web.xml?op=file&#38;rev=0&#38;sc=0">specific pieces of code</a>. This will also be handy for answering questions on the Wicket listserv (and dropping an incidental Databinder plug).</p>
+
+
+	<p>Even I&#8217;ll benefit. Last week I was migrating parts of our application at work to Wicket 1.2. Naturally I came across problems I&#8217;d already solved in Databinder, but I couldn&#8217;t easily crib even from my own project. With the sources on the Web, I (and any other Wicket programmer) can get to them from any computer.</p>
+
+
+	<p>Now, about those hosting providers, Databinder is proudly independent and that&#8217;s all there is to it.</p>
+
+
+	<p>No more questions.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id244f">
+  		
+  		
+  	</div>
+  	<div id="id2450">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id2451" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id2451_hf_0" id="id2451_hf_0" /><input type="hidden" name="wicket:interface" value=":1335:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id2452" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id2453" name="add" value="Add a comment" onclick="wicketShow('id2453--ajax-indicator');var wcall=wicketSubmitFormById('id2451', '../../../?wicket:interface=:1335:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id2453--ajax-indicator');}.bind(this),function() { ;wicketHide('id2453--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id2451')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id2453--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

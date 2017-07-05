@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Save the Date</title>
+		<style type="text/css" media="screen">
+			div { width: 900px; margin: 0px auto; text-align: left; }
+			img { border: none; }
+			span#overlay { position: absolute; top: 30px; text-align: left; z-index: 10; }
+			img#print-the-date { display: none; }
+			body { background-color: black; text-align: center; margin: 30px; }
+		</style>
+		<style type="text/css" media="print">
+			div { display: none; }
+			body { background-color: white; text-align: left; }
+			img#print-the-date { display: block; width: 450px; padding: 3px; border: 3px dashed black; }
+		</style>
+		<!--[if lt IE 7.]>
+		<style type="text/css" media="screen">
+ img, div { behavior: url(iepngfix.htc) }
+		</style>
+		<![endif]-->
+	</head>
+	
+	<body>
+	
+	<div><a title="Print the date" href="#" onclick="window.print(); return false;"><img src="save-the-date.jpg" /></a></div>
+	<div><span class="trans-png" id="overlay"><a title="Print the date" href="#" onclick="window.print(); return false;"><img width="900" height="632" alt="May 31, 2008   Pittsburgh, PA" src="save-the-date.png" /></a></span></div>
+	
+	<img id="print-the-date" src="print-the-date.gif" />
+
+	</body>
+</html>

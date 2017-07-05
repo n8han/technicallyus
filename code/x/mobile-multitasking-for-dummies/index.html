@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="../../../blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="../../../blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet.css"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Mobile multitasking for dummies</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code.html">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code.html">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id2520" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Mobile multitasking for dummies" width="528" class="title" src="../../../resources/net.databinder.components.RenderedLabel/7993ec76"/><span class="title">Mobile multitasking for dummies</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on January 30, 2010</span></span>
+			<span id="id2521" class="tags">
+					{&nbsp;<span><a href="../../tag/meetup/index.html#selected-tag"><span>meetup</span></a><span id="id2522">, </span></span><span><a href="../../tag/android/index.html#selected-tag"><span>android</span></a><span id="id2523">, </span></span><span><a href="../../tag/scala/index.html#selected-tag"><span>scala</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>At our last New York Scala Enthusiasts Meetup I presented on <strong>Android</strong>. I started the talk with a series of 1980s magazine ads that extolled Apple personal computers as world-changing tools for creative expression and invention. Android is a platform for hand-held computers in this proud tradition.</p>
+
+<p class='break'> <img src='../../../resources/com.typeturner.Typeturner/image%3Fname=adams-apple' alt='adams-apple' /><br /><em>We&#8217;re looking for the most original use of an Apple since Adam.</em></p>
+
+<p class='break'> After that ironic stroll down memory lane and after I presented <a href='http://github.com/meetup/snapup'>Snapup</a> a simple photo-snapping application I wrote to <a href='http://www.meetup.com/meetup_api/docs/#photo'>post Meetup photos</a>, we had one of those conversations that are, ultimately, the reason we gather in public. I hadn&#8217;t gone there to talk about multitasking and didn&#8217;t have anything prepared for the subject. I didn&#8217;t hide the fact thatI knew little about the greater Android platform; I had only learned enough of its API to make my app workie.</p>
+
+<p>But I had shown a number of internal background image-loading threads being created as <a href='http://www.scala-lang.org/node/242'>Scala actors</a>, and someone who did know the Android platform wanted to know if those were still chewing through valuable mobile cycles. So we opened the <a href='http://developer.android.com/guide/developing/tools/ddms.html'>Dalvik Debug Monitor</a>&#8212;my first time!&#8212;and quickly discovered (in front of forty people) that my app was stealing some cycles when it should have been idle, and actors were part of the theft.</p>
+
+<p class='break'>Was this the greatest actors crime since the Lincoln assassination? Well no. I should have been telling the actors to exit after they were done. I wasn&#8217;t even <em>really</em> using actors, just somewhat idiomatically using an actor for a simple background thread (mentioned in the <a href='../building-blocks-for-android-interaction/index.html'>last post</a>, actually). I assumed that the zombie activity there was negligible, but, in the Android model there is no such thing. Any wasteful polling picks the battery&#8217;s pocket all day long.</p>
+
+<p>So after the Meetup I pushed ahead my plans to implement <a href='http://n2.nabble.com/Non-blocking-interfaces-in-Dispatch-0-7-td4451127.html#a4451127'>asynchronous interfaces in Dispatch</a> using java.util.concurrent as a foundation. Once Snapup was refactored to use this higher level HTTP interface, ddms showed no activity at all from my background threads. <em>But</em>, there was still a significant amount of CPU burn when the app should have been idle. What was it?</p>
+
+<p>It was a stupid indeterminate progress dialog animating itself off-screen. See, Android replaces the desktop concept of windows with a new concept of activities, better suited to small (or large?) touchscreen interfaces. Snapup has one activity that does nothing but OAuth token exchange, and the only face it shows to the user is a <em>Please wait&#8230;</em> dialog. Once it has the tokens it starts the another activity but it doesn&#8217;t stop itself. Neither, apparently, does its animation.</p>
+
+<p>After stopping that nonsense, Snapup&#8217;s idle activity went down to zero where it belonged. Whether on-screen or off the process is voluntarily cryogenically frozen, the same as if the operating system had forced it to pause. Problem solved!</p>
+
+<h3 id='yo_mama'>Yo mama</h3>
+
+<p>But oh my god, doesn&#8217;t this mean that your &#8216;mom&#8217; or &#8216;wife&#8217; is going to have a hard time using an Android contraption because of bad apps like version 0.1 of mine? First of all, <em>That&#8217;s sexist</em>. Secondly, <em>No</em>. This story means the Android human-interface to multitasking needs work.</p>
+
+<p>Sure, I&#8217;m a dummy for not profiling the application before releasing it. I like making things and it worked so I jumped the gun. And there&#8217;s a lot of dummies in the world. One option is to cut us off from users and require bureaucratic approval of all software binaries before anyone can run them. Another option is to solve the problem, with design.</p>
+
+<p class='break'>The old desktop software model puts users in charge of starting <em>and quitting</em> applications. A bit of sloppy processor use was expected, and generally harmless. When computers began to run on batteries, the task fell on users to be vigilant. <em>Road warriors</em> that depended on battery life learned to quit any app that they didn&#8217;t immediately need.</p>
+
+<p>In the new model that&#8217;s been adopted by all successful mobile platforms, you don&#8217;t quit applications: you leave them. On platforms that support multitasking this shifts responsibility to application programmers: they are the ones that need to be vigilant. If they do their part things work great: Android&#8217;s technical implementation of multitasking is excellent. It&#8217;s up to applications to be good, or bad.</p>
+
+<p>The design problem is that users (and casual programmers) aren&#8217;t exposed to this new dimension of bad. Normally you can judge software just by using it. The user interface is good, bad, or ugly. The app is fast or slow, it crashes or it doesn&#8217;t. But for <em>battery waste</em> the feedback loop is broken.</p>
+
+<p>Android tries to address the problem with a kind of shit-list for applications. It&#8217;s is offered up when your battery runs low: <em>Dang, who&#8217;s been using up my battery?</em> The shortcomings of this measure are obvious. For one thing, batteries are meant to run out. Reaching the end of a cycle is not a sign that any app has been misbehaving. To find any bad apps you have to mentally subtract your historical use of each one listed. And who wants to <em>start</em> that investigation with an uncertain few minutes of battery life remaining?</p>
+
+<p>Battery waste information, which all users now require to judge applications, is just not adequately exposed in Android.</p>
+
+<h3 id='all_activities_on_deck'>All Activities on Deck</h3>
+
+<p>Where does application activity information belong? The place you go to switch running apps, at the very least. And as it happens, that place is a dump in Android right now anyway, an alt-tab popup lifted from Windows 95. In this problem domain the <a href='http://waffle.wootest.net/2009/12/28/iphone-cards/'>Palm Pre&#8217;s card metaphor</a> is so far the only effort worthy of the touchscreen medium. There&#8217;s plenty to be inspired by there, so much as the lawyers will allow it.</p>
+
+<p>Because Android doesn&#8217;t have an activity switcher worth talking about anyway, it can kill two birds with one interface and bake battery usage <em>deep</em> into whatever does emerge. It should be as obvious which applications are using the battery as it is which ones are running at all. This is critical information to anyone using the platform. Especially your &#8216;mom&#8217; needs to know which applications are wasteful!</p>
+
+<p>The Android people at Google, they&#8217;re no fools. The current lame task switcher is a sign, if anything, that there is a big fat <em>real-task-switcher</em> branch that their work is going into. It needs to land soon. This is the year that people are picking up and trying Android. They need to be able to say, &#8220;hey, I&#8217;m not using that app right now and it&#8217;s using my battery for no good reason.&#8221; DELETE. Otherwise, their experience will be bad.</p>
+
+<p class='break'>The difference between this and the old model is simple: you don&#8217;t quit applications that might be wasting resources, you remove applications that you know are. You aren&#8217;t managing tasks, you&#8217;re firing applications. It raises the awareness of programmers making the apps too, and the incentives to write a well behaved app. By filling that information gap, we can finally reach a level of abstraction that many of us have been anticipating for decades: applications that are <em>just there</em>. Your trusty software is always available, right where you left it and doing only what you told it to do.</p>
+
+<p>Apple thinks they can guide us into that future with an army of bureaucrats, who are surely enrolled in profiler training courses at this moment. It&#8217;s surprising how long that is taking, actually; it has made their cherished new product unveiling <a href='http://www.youtube.com/watch?v=lQnT0zp8Ya4'>the butt of resonant jokes</a>. And <em>when</em> they finally start to white-list &#8216;background&#8217; apps it will at least be one helpful purpose of their degrading software approval exercise. But even so, a platform that enlists informed masses to collectively rank software will run circles around one administered by, well, your dad.</p>
+
+<p class='break'>Just ask the first company that tried to fight off Google with <a href='http://www.wired.com/wired/archive/4.05/indexweb.html?pg=2'>an army of classifiers</a>.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='../../../resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id2524">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-6592"><p>Thanks for the writeup. This is the kind of thing mobile developers need to be aware of. I can&#8217;t wait to get an android phone so I can join in on the fun. I&#8217;ve tried at least 3 times to get into objective-c for iphone programming but it&#8217;s just not for me. Loved the talk you did at the meetup mentioned above. Keep it up.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://lessis.me"><span class="alias">doug Tangren</span></a>
+  				<span>on January 30, 2010</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6593"><p>Thanks for the encouragement!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on January 31, 2010</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id2525">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id2526" action="../../../index.html" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id2526_hf_0" id="id2526_hf_0" /><input type="hidden" name="wicket:interface" value=":1359:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id2527" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id2528" name="add" value="Add a comment" onclick="wicketShow('id2528--ajax-indicator');var wcall=wicketSubmitFormById('id2526', '../../../?wicket:interface=:1359:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id2528--ajax-indicator');}.bind(this),function() { ;wicketHide('id2528--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id2526')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id2528--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

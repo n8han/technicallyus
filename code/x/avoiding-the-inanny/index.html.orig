@@ -1,0 +1,208 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Avoiding the iNanny</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id2532" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Avoiding the iNanny" width="320" class="title" src="../../../resources/net.databinder.components.RenderedLabel/23b7478"/><span class="title">Avoiding the iNanny</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on November 14, 2009</span></span>
+			<span id="id2533" class="tags">
+					{&nbsp;<span><a href="../../../code/tag/droid/#selected-tag"><span>droid</span></a><span id="id2534">, </span></span><span><a href="../../../code/tag/apple/#selected-tag"><span>apple</span></a><span id="id2535">, </span></span><span><a href="../../../code/tag/iphone/#selected-tag"><span>iphone</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p class='break'><img src='http://technically.us/resources/com.typeturner.Typeturner/image?name=princess' alt='princess' /></p>
+
+<p><em>Just cold floating over your App Store approval process</em></p>
+
+<p class='break'>Has it been a long Apple-decade or what, you guys? We spent the first few years waiting for a meaningful upgrade of System 7 to be released, and then, for OS X to be usable on regular hardware. We waited for an LCD all-in-one that didn&#8217;t emit smoke. We waited for Apple TV, and then wondered why. We still wait on &#8216;tablets&#8217;. But mostly, we waited for the iPhone. I know a guy that wouldn&#8217;t sign any cellular contract from 2005 on, just to be ready when the inevitable awesomeness arrived.</p>
+
+<p>What&#8217;s that, you were waiting on your iPhone starting with the January 2007 announcement? Cute.</p>
+
+<p class='break'>Listen, I haven&#8217;t been suckered into a cell phone contract for many years, but after an hour&#8217;s reflection last weekend I went and committed to pay $1320 to Verizon over the next two years (the secret $55/month data-only plan) to finally get my iPhone, which is a Motorola Droid.</p>
+
+<p>I just couldn&#8217;t do the Apple iPhone. As a programmer, I couldn&#8217;t buy computing hardware that had been given a consumer electronics lobotomy. As a consumer, I couldn&#8217;t pay $70 a month (+ unknowable tax) for a mobile web browser when I sit in front of a stationary web browser all day.</p>
+
+<p>But my exclusion from the world of wireless applications itself became unsustainable. I can live without map applications; I like to know where I am without looking down. And I can generally assemble information I need from the web <em>before</em> I go places. But then along came friggin&#8217; <a href='http://foursquare.com/'>Foursquare</a>, which basically isn&#8217;t workable without a mobile app. (T-Mobile prepay actually blocks their shortcode&#8212;smart move, guys!) And Foursquare is just the beginning of a new category of software that can have no counterpart on traditional computers. You&#8217;re in or you&#8217;re out.</p>
+
+<p>So as soon as I heard the internet whispering that the Droid was the phone I&#8217;d been waiting for, I grabbed it. I didn&#8217;t do any research; I&#8217;m not sure what this thing&#8217;s clock rate is, for example. AND I AM SO PLEASED WITH MY DROID.</p>
+
+<p class='break'> I have used iPhones a fair bit and I know exactly what I&#8217;m missing. That is, I&#8217;m aware just how much my Droid is clunkier than an iPhone. I know that polish is important, that <em>these things matter</em>, etc. I was of the fifteen people using Macs back when they were significantly slower than PCs, because the interaction was that much better. But on the usability continuum, the Droid is close enough to pistol whip the iPhone.</p>
+
+<p>People have made analogies to different desktop operating systems, Windows 95 or whatever, and I have one of my own: the interface design gap between the iPhone and the Droid is like that between System 7 and Mac OS 10.6. The modern Apple OS trades consistency and thoughtfulness for capability. Some of that trade is justified and some is not, but it&#8217;s there. The iPhone, as a new creation and also apparently where all the people that really care about interface design at Apple have ended up, is a jewel much like their desktop systems of old. The Droid on the other hand does more&#8212;for both engineering and political reasons&#8212;with less panache.</p>
+
+<p class='break'>Now, raise your hand if you are using System 7 today because you value the last 10% of interface design over the ability to run an unlimited array of modern software.</p>
+
+<h3 id='appleytes'>Appleytes</h3>
+
+<p>Let&#8217;s take a moment to look back at the past two and a half years. The iPhone, when it was finally announced, was an ideological disappointment. Many of us were hoping for a product that changed&#8212;ended, actually&#8212;the cell phone control structure. A phone that would be sold like a computer, with no particular obligations, bringing power and choice to its users and healthy profits to Apple and the companies that customers picked for their service. We were disappointed from the very beginning that the iPhone would be AT&amp;T-only, contract-only, and &#8216;locked&#8217;. It&#8217;s not the particular service company, T-Mobile or Verizon or Lunesta or whatever. The problems that people started to complain about later&#8212;prices ratcheted up for an inadequate and overloaded 3G network&#8212;were inevitable the moment any exclusive service provider was named.</p>
+
+<p>The second big disappointment was the App Store, when it was finally announced. Apple implemented unprecedented software restrictions for a device that was otherwise designed to be a computer. Again, the downsides were evident from the moment we knew the ground rules, that Apple would approve or reject every binary of every application installed. The idea that any centrally controlled (software) market could be fair and efficient was a fairy tale. History, you guys?</p>
+
+<p>AND YET those of us that protested this terrible system were dismissed by the mob that came to Apple by way of iPod. It was that we just didn&#8217;t understand business. Our possession of basic principles, and especially any kind of rational philosophy of software, made us irrelevant perfectionists that should just accept the iPhone&#8217;s popularity as a proof of correctness. And most amusingly, there are great deal of people that consider it <em>immature</em> to question any kind of authority. God love the rabble!</p>
+
+<p>Now the great, naive concern is whether Apple will discover these systematic flaws in App Store and correct them, a framing that mistakes features for bugs. The App Store was designed for arbitrary control, to do stupid things like <a href='http://www.rogueamoeba.com/utm/2009/11/13/airfoil-speakers-touch-1-0-1-finally-ships/'>hamstring apps</a> that Apple doesn&#8217;t like so much. There is no real news this month or this year about the process&#8212;least of all news to Apple. Everything is going <em>according to their design</em>. If the system is substantially reorganized it will not be from a sudden discovery of its flaws or respect for iPhone programmers: it will be a competitive public relations maneuver.</p>
+
+<p>Which is fine. Who cares! I don&#8217;t care. Year by year Apple has shorn away the warm and fuzzy that used make it special. I mean, dang, remember the Gandhi ads? That was over the top even at the time but now it feels like the ad campaign existed in an alternate reality. Today Apple is a just another Google or Microsoft, with a focus on design. I could take it or leave it and, at least for this round, I&#8217;ve left it.</p>
+
+<h3 id='practical_philosophy'>Practical philosophy</h3>
+
+<p>People objected to abstract reasoning about the App Store&#8217;s flaws, but the only reason we humans have that faculty is to predict reality. I didn&#8217;t have to pore over a list of apps in the Android Market to know it would have great things that you couldn&#8217;t get through Apple&#8217;s sieve. Game machine emulators, for example, never occurred to me, but then I was flipping through popular Android apps and was like OF COURSE.</p>
+
+<p>Emulators are banned from the App Store in about a million ways, starting with a ban on compiling or interpreting code; essentially, a ban on programming. On top of that game emulators in general are of dubious legality because they require game images of dubious legality. <a href='http://www.androlib.com/android.application.com-androidemu-nes-jpmB.aspx'>The one I have</a> links out from the app to a Google search for &#8220;NES ROMs download.&#8221; Can you imagine the idiotic back and forth that would spawn with the App Store administration? To be honest, I was a little surprised to not have to use the Droid&#8217;s ability to run &#8220;software from unknown sources&#8221; here, but of course that very ability creates pressure on the Market&#8217;s administrators not to be stupid. If they reject apps for silly reasons, people will make their own market.</p>
+
+<p>Game emulators illustrate so much of what is right with a normal software environment, and what is wrong with the App Store. It&#8217;s up to me to decide if I think that running an emulated 20 year old game is ethical. I appreciate the creative genius that went into it back in the day, and I do value software and think that its production should be compensated. In fact, I paid for the emulator. But I think the possibilities for meaningful compensation of NES software have pretty much expired. <a href='http://technically.us/code/x/codecraft/'>I want to support people that work in software today</a>, not corporations holding copyrights that they have manipulated governments to extend. So, I will play my Super Mario Bros. 2 and I&#8217;ll be happy to pay for original new games that are worth playing, too. The main reason to bury the old games, naturally, is to prevent them from competing with uncreative new games.</p>
+
+<p>So I&#8217;ve developed my own opinion about game emulation, and I&#8217;m sure some people would disagree or see it as rationalization. But in the end I decide what software to run on my phone, which makes it a computer, which makes it worth the up front cost and monthly service contract. Outside its software the system is not as open as I&#8217;d like it to be, but the runtime makes it worth the the telco-statism it&#8217;s encased in.</p>
+
+<p class='break'>Here&#8217;s to the crazy ones?</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id2536">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-6531"><p>Bravo Nathan. I simply agree with your every sentiment in this post.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://iamchrislewis.tumblr.com/"><span class="alias">Chris</span></a>
+  				<span>on November 14, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6533"><p>Should make the process simple but Apple will still have the final say</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.2828.bz"><span class="alias">Stephen</span></a>
+  				<span>on November 15, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6539"><p>&#8220;But I think the possibilities for meaningful compensation of NES software have pretty much expired.&#8221;</p>
+
+<p>http://www.amazon.com/Super-Mario-Advance-Game-Boy/dp/B00005B8FZ/</p>
+
+<p>The hoops that people will jump through in order to rationalize the theft of intellectual property really baffle me &#8230; especially coming from programmers, who depend on IP laws for their livelihood.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">cody</span></span>
+  				<span>on November 21, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6540"><p>Well I&#8217;m glad SOMEONE took me up on the offer of accusing me of rationalization.</p>
+
+<p>I think I have that cartridge btw, in a shoebox with a gameboy or two at my parent&#8217;s house. If they haven&#8217;t thrown it away. But one of the intellectual hoops I have dared jump through is an assertion that after a span of decades a corporation can not be equated with its one-time employees, as you have tried to do. My only concern is for the people that work on a product, and at this point my money is unlikely to reach them. The fact that the game is still &#8216;for sale&#8217; on a clunky medium for a device I don&#8217;t want to use is a reflection of current law and not an argument or a solution.</p>
+
+<p>As for all programmers depending on IP law for their livelihood, bullshit. I don&#8217;t. No one that writes software for the web does, and that&#8217;s most programmers these days. If you&#8217;re ignorant of something so fundamental to the issue then I can understand your being baffled and depending on a government body to tell you what is ethical. Me, I jump through hoops.</p>
+
+<p>I won&#8217;t continue the debate about classic games here and any further comments on it will be deleted (my blog, yay), because that is not the point. The point is that issues exist where reasonable people disagree, but on the iPhone platform an arbitrary corporate body in California decides them for you. So even if you&#8217;re just in love with US IP law, someone who loves their own, different country&#8217;s law is getting screwed by Apple. And then there are conundrums outside the beloved construct of intellectual property over which Apple also has capricious, absolute authority on the platform.</p>
+
+<p>Not for me, thanks.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on November 21, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6543"><p>&#8220;As for all programmers depending on IP law for their livelihood, bullshit. I don’t. No one that writes software for the web does, and that’s most programmers these days.&#8221;</p>
+
+<p>Care to explain to us ignorant web-programmers how it is that writing software for the web magically makes all IP law completely irrelevant? Should make for a good blog post.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">cody</span></span>
+  				<span>on November 24, 2009</span>
+  			</div>
+  		</div><div>
+  			<div id="item-6545"><p>No thanks! I make it a habit not to explain exaggerated caricatures of my opinions.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on November 24, 2009</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id2537">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id2538" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id2538_hf_0" id="id2538_hf_0" /><input type="hidden" name="wicket:interface" value=":1361:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id2539" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id253a" name="add" value="Add a comment" onclick="wicketShow('id253a--ajax-indicator');var wcall=wicketSubmitFormById('id2538', '../../../?wicket:interface=:1361:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id253a--ajax-indicator');}.bind(this),function() { ;wicketHide('id253a--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id2538')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id253a--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

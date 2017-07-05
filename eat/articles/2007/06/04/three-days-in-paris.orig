@@ -1,0 +1,216 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Three days in Paris</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../eat">
+			
+			<img alt="Eat" src="../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../eat">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id14cc" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Three days in Paris" width="297" class="title" src="../../resources/net.databinder.components.RenderedLabel/39abd186"/><span class="title">Three days in Paris</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on June 4, 2007</span></span>
+			<span id="id14cd" class="tags">
+					{&nbsp;<span><a href="../../eat/tag/travel/#selected-tag"><span>travel</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>The week&#8217;s vacation we just took in France was the best vacation of my life. It was the first trip I&#8217;ve ever taken that I truly didn&#8217;t want to end. I&#8217;m usually pretty ready to go home after a week away, but this time, Nathan and I both wanted to stay (one night, over a wine-soaked dinner, it became a five-year plan to make that a reality).</p>
+
+
+	<p>My body is still on French time, and I feel extremely tired, so this first in a series of France posts will be a short one of highlights.</p>
+
+
+	<p>On our first full day in Paris, I did what I always do there, which is to wake up at 6 or 7 a.m. and hit the streets. I do this partly because I feel wide awake, but mostly because I&#8217;m excited to be there, and I love how empty and quiet the city is early in the morning. I strolled around, ate some pastries, had coffee, and watched food purveyors setting up for the day. Butcher shops were stacking steaks and chickens and <em>andouillettes</em>, bakeries were arranging hundreds of loaves of bread, and grocers were setting up fruits and vegetables. I was assaulted on the Rue de Rivoli by the scent of strawberries, and I splurged on a basket of <em>fraises des bois</em>.</p>
+
+
+	<p><img src="/pictures/fraises.jpg" alt="" /></p>
+
+
+	<p>Later that morning, after I got Nathan out of bed, we ambled over towards the Bastille and came upon the best food market I&#8217;ve ever seen.</p>
+
+
+	<p><img src="/pictures/bastillemarket.jpg" alt="" /></p>
+
+
+	<p>I believe this is the kind of market Nina Planck had in mind when she started her Real Food markets in New York last summer. There were hundreds of vendors selling mostly local but also imported products. I could have spent hours walking around, even in the dense crowd. All I bought was a jar of rhubarb confiture from Brittany, although I spent the day regretting not buying some of the potatoes you see cooking in the juice from these chickens:</p>
+
+
+	<p><img src="/pictures/pommes.jpg" alt="" /></p>
+
+
+	<p>I&#8217;m sorry for the blurry picture, but have you ever seen something look so delicous? I couldn&#8217;t get the smell and sound of them out of my head. The entire market was mouth-watering, and it made the thought of Union Square depressing. I know I shouldn&#8217;t complain, and that we have it extremely good in New York in a lot of ways. But the variety of produce at these French markets, and the low prices, are heartbreaking.</p>
+
+
+	<p>The only other Paris highlight that I have a picture of is my pizza at Pizza Sant Antonio (16, Rue St Martin in the Marais). Mom: you and I ate here when we were in Paris together, which is the only reason I knew of the place. I remembered that we liked our dinner. All the pies are around 9€ (approximately $500 at today&#8217;s rate), and the restaurant is packed with young, good-looking people. French pizza is hilarious, as it seems to always have an egg or a bunch of crème fraîche on it. I had the excellent chèvre pizza with lardons and, of course, plenty of cream:</p>
+
+
+	<p><img src="/pictures/creampizza.jpg" alt="" /></p>
+
+
+	<p>Coming up: adventures in the Loire Valley&#8230;</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id14ce">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-3854"><p>Wait &#8211; I thought you had a 5-year plan to move to Pittsburgh&#8230;</p>
+<p>So it sounds like Nathan liked his birthday present! (The trip, I mean.) I wish I could have eaten some of those potatoes roasting under the chickens, they sound delicious!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Rebecca (Mommy)</span></span>
+  				<span>on June 4, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3855"><p>It seems you had a wonderful time&#8230; that&#8217;s great!</p>
+<p>Those potatoes sound amazing.</p>
+<p>Is crème fraîche actually good on pizza?</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://colinwetherbee.com/"><span class="alias">Colin</span></a>
+  				<span>on June 4, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3856"><p>A plan to go live in Paris has always been in the back of my mind, too. I love fraises des bois and also a good gooey egg smack in the middle of my pizza. Miam miam.</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.ceresandbacchus.com"><span class="alias">Mary</span></a>
+  				<span>on June 4, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3857"><p>can&#8217;t wait to hear all about it.<br />
+paula deen visited that very chicken vendor on her trip in paris too!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">jeannie</span></span>
+  				<span>on June 4, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3858"><p>I&#8217;m so jealous!  :-}</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">grandma</span></span>
+  				<span>on June 4, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3859"><p>I&#8217;m so glad you had a good time. That market you swooned over is a good one indeed, and I know exactly how you feel about the Union Sq Greenmarket after seeing something of that caliber. They can&#8217;t really even be compared, can they?</p>
+<p>Can I come visit in 5 years? :)</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://wednesdaychef.typepad.com"><span class="alias">Luisa</span></a>
+  				<span>on June 4, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3860"><p>I know the dollar sucks in Europe but $500 for a pie????  I surely hope you wrote that tongue stuck deeply in cheek!<br />
+On another note&#8230;I remember the long weekend I spent in Paris and how wonderful the food all looked to me. I took some wonderful pictures of the vibrant food and have them hanging in my kitchen.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Margaret</span></span>
+  				<span>on June 4, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-3861"><p>Ha, yes, Margaret, that was tongue in cheek!</p>
+<p>Thank you, everyone, for your nice comments! And yes, Colin, crème fraîche is as delicious on pizza as it is on everything else.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on June 4, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id14cf">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id14d0" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id14d0_hf_0" id="id14d0_hf_0" /><input type="hidden" name="wicket:interface" value=":755:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id14d1" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id14d2" name="add" value="Add a comment" onclick="wicketShow('id14d2--ajax-indicator');var wcall=wicketSubmitFormById('id14d0', '../../?wicket:interface=:755:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id14d2--ajax-indicator');}.bind(this),function() { ;wicketHide('id14d2--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id14d0')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id14d2--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

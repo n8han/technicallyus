@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE  html PUBLIC "-//W3C//DTD XHTML 1.1//EN"  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>EditController.m</title>
+	<link rel="stylesheet" type="text/css" href="highlight.css"/>
+</head>
+<body>
+<pre></pre><div class="com">// Copyright 2003 - 2004 Nathan Hamblen
+</div><pre>
+</pre><div class="com">// Modified BSD license:
+</div><pre></pre><div class="com">// Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+</div><pre></pre><div class="com">// 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+</div><pre></pre><div class="com">// 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+</div><pre></pre><div class="com">// 3. The name of the author may not be used to endorse or promote products derived from this software without specific prior written permission.
+</div><pre></pre><div class="com">// THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+</div><pre>
+<span class="dir">#import </span><span class="dstr">&quot;EditController.h&quot;</span><span class="dir">
+</span><span class="dir">#import </span><span class="dstr">&quot;MyDocument.h&quot;</span><span class="dir">
+</span>
+</pre><div class="com">// Controller for edit windows for internet / dynamic locations. The user interface varies slightly between the two types (see typeChanged:). There is a field to edit the location, a button to go to the location (or switch to fill in for dynamic locations), a view of the site icon for the location and a button to update that view, and a save button (functionally identical to save menu command and keyboard shortcut).
+</div><pre>&#64;implementation EditController
+
+<span class="dir">#pragma mark  Initilization
+</span>
+- (id)init
+{
+  self = [super initWithWindowNibName:&#64;<span class="str">&quot;Edit&quot;</span>];
+
+  mDynamicLocationInfoSuperview = nil;
+  <span class="key">return </span>self;
+}
+
+- (<span class="typ">void</span>)windowDidLoad
+{
+  NSNotificationCenter *noteCenter = [NSNotificationCenter defaultCenter];
+  MyDocument *doc = [self document];
+  <span class="typ">int </span>newState;
+  NSString *initialUrl = [doc url];
+
+  [[self window] setDelegate: self];
+
+  </pre><div class="com">// see respective methods for notification info
+</div><pre>  [noteCenter addObserver:self selector:&#64;selector(siteImageChanged:)
+                     name:&#64;<span class="str">&quot;SiteImageChanged&quot;</span> object:[self document]];
+  [noteCenter addObserver:self selector:&#64;selector(updateDocument:)
+                     name:&#64;<span class="str">&quot;NeedsUpdate&quot;</span> object:[self document]];
+
+  </pre><div class="com">// if not set in [doc url]
+</div><pre>  <span class="key">if </span>(!initialUrl)
+    initialUrl = [doc dynamicLocation];
+  </pre><div class="com">// if set one way or the other
+</div><pre>  <span class="key">if </span>(initialUrl)
+    [mURLField setStringValue: initialUrl];
+
+  </pre><div class="com">// if a site icon was found (online) for the location while loading it from disk
+</div><pre>  <span class="key">if </span>([doc siteImage])
+    [mSiteIcon setImage:[doc siteImage]];
+
+  [mSiteIconProgress setStyle:NSProgressIndicatorSpinningStyle];
+  [mSiteIconProgress setDisplayedWhenStopped:NO];
+
+  newState = ([doc dynamicLocation]) ? NSOnState : NSOffState;
+  [mDynamicToggle setState:newState];
+  [self typeChanged:self];
+
+  </pre><div class="com">// if initialUrl is unfilled, then this is a new webloc and we don't need to look for a site icon
+</div><pre>  <span class="key">if </span>(initialUrl)
+    [self refreshSiteIcon:nil];
+}
+
+<span class="dir">#pragma mark  Handle site icons
+</span>
+</pre><div class="com">// Tries to retrieve a site icon for the current web site. Note that we do not intend to support any kind of concurrent loading; when the refresh button is pressed any current load is told to cancel itself.
+</div><pre>- (IBAction)refreshSiteIcon:(id)sender
+{
+  MyDocument *doc = [self document];
+  [mSiteIconProgress startAnimation:sender];
+  [doc refreshSiteImage];
+}
+
+- (<span class="typ">void</span>)siteImageChanged:(NSNotification *)notification
+{
+  [mSiteIconProgress stopAnimation:self];
+  [mSiteIcon setImage:[((MyDocument *)[self document]) siteImage]];
+}
+
+<span class="dir">#pragma mark  Support undo
+</span>
+- (id)windowWillReturnFieldEditor:(NSWindow *)aWindow toObject:(id)anObject
+{
+  <span class="key">if </span>([anObject isEqual:mURLField]) {
+    <span class="key">if </span>(!mUndoEditor) {
+      mUndoEditor = [[NSTextView alloc] initWithFrame:[anObject bounds]];
+      [mUndoEditor setFieldEditor:YES];
+      [mUndoEditor setAllowsUndo:YES];
+    }
+    <span class="key">return </span>mUndoEditor;
+  }
+  <span class="key">return </span>nil;
+}
+
+</pre><div class="com">// change the field and register an undo even so that things don't get screwy with the text field's built-in undo
+</div><pre>- (<span class="typ">void</span>)setUrlFieldUndoably:(NSString *)newValue
+{
+  [[self undoManager] registerUndoWithTarget:self
+                                    selector:&#64;selector(setUrlFieldUndoably:)
+                                      object:[mURLField stringValue]];
+  [mURLField setStringValue:newValue];
+}
+
+<span class="dir">#pragma mark  Go to / save
+</span>
+</pre><div class="com">// Update the document object with the information in the view objects. The document object requests this update with a notification.
+</div><pre>- (<span class="typ">void</span>)updateDocument:(NSNotification *)notification
+{
+  MyDocument *doc = [self document];
+  NSString *trimmedUrlStr = [[mURLField stringValue]
+    stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+  NSRange httpRange = [trimmedUrlStr rangeOfString:&#64;<span class="str">&quot;http&quot;</span>];
+
+  <span class="key">if </span>(httpRange.location != <span class="num">0</span>)
+    trimmedUrlStr = [&#64;<span class="str">&quot;http://&quot;</span> stringByAppendingString:trimmedUrlStr];
+  <span class="key">if </span>([[mURLField stringValue] length] != [trimmedUrlStr length])
+    [self setUrlFieldUndoably:trimmedUrlStr];
+  <span class="key">if </span>([mDynamicToggle state] == NSOnState)
+    [doc setDynamicLocation:trimmedUrlStr];
+  <span class="key">else
+    </span>[doc setUrl:trimmedUrlStr];
+}
+
+</pre><div class="com">// If editing a standard location, this opens that location in a browser immediately. If editing a dynamic location, this attempts to save the location; the callback from the save function will switch to fill-in (non-edit) mode if the save was successful. If already in fill-in mode, this method fills the dynamic location with the form data and opens the resulting URL in the browser.
+</div><pre>- (IBAction)goToLocation:(id)sender
+{
+  MyDocument *doc = [self document];
+
+  [self updateDocument:nil];
+  <span class="key">if </span>([doc validate])
+  {
+    <span class="key">if </span>([mDynamicToggle state] == NSOffState)
+      [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:[doc url]]];
+    <span class="key">else
+    </span>{
+      <span class="key">if </span>([doc isDocumentEdited])
+        [doc saveDocumentWithDelegate:self
+                       didSaveSelector:&#64;selector(savedForSwitch:didSave:contextInfo:)
+                           contextInfo:nil];
+      <span class="key">else
+        </span>[doc switchToFillin:YES];
+    }
+  }
+}
+
+</pre><div class="com">// Callback function for save invoked by goToLocation when editing a dynamic location. If the save was completed, we switch modes to &quot;go&quot; to the location.
+</div><pre>- (<span class="typ">void</span>)savedForSwitch:(MyDocument *)doc didSave:(BOOL)didSave
+           contextInfo:(<span class="typ">void </span>*)contextInfo
+{
+  <span class="key">if </span>(didSave)
+    [doc switchToFillin:YES];
+}
+
+
+<span class="dir">#pragma mark  Internet loc / Dyn loc switch
+</span>
+</pre><div class="com">// Called when the checkbox selecting type is changed and also by windowControllerDidLoadNib. It sets the file type for the document, hides or shows the information on dynamic locations, and sets the name of the goto button.
+</div><pre>- (IBAction)typeChanged:(id)sender
+{
+  <span class="key">if </span>([sender isKindOfClass:[NSUndoManager <span class="key">class</span>]])
+  {
+    <span class="typ">int </span>newState = ([mDynamicToggle state] == NSOnState) ? NSOffState : NSOnState;
+    [mDynamicToggle setState:newState];
+  }
+  <span class="key">if </span>(sender != self)
+    [[self undoManager] registerUndoWithTarget:self
+                                      selector:&#64;selector(typeChanged:)
+                                        object:[self undoManager]];
+  <span class="key">if </span>([mDynamicToggle state] == NSOffState)
+  {
+    [mGoToLocation setTitle:&#64;<span class="str">&quot;Go to Location&quot;</span>];
+    mDynamicLocationInfoSuperview = [mDynamicLocationInfo superview];
+    [mDynamicLocationInfo retain];
+    [mDynamicLocationInfo removeFromSuperview];
+    [mDynamicLocationInfoSuperview setNeedsDisplay:YES];
+  }
+  <span class="key">else
+  </span>{
+    [mGoToLocation setTitle:&#64;<span class="str">&quot;Fill in Location&quot;</span>];
+    <span class="key">if </span>(mDynamicLocationInfoSuperview)
+    {
+      [mDynamicLocationInfoSuperview addSubview:mDynamicLocationInfo];
+      [mDynamicLocationInfoSuperview setNeedsDisplay:YES];
+      [mDynamicLocationInfo release];
+    }
+  }
+  </pre><div class="com">// the doc type needs to be kept in sync before its saved
+</div><pre>  [self updateDocument:nil];
+}
+
+<span class="dir">#pragma mark  Deallocation
+</span>
+- (<span class="typ">void</span>)dealloc
+{
+  NSNotificationCenter *noteCenter = [NSNotificationCenter defaultCenter];
+  [noteCenter removeObserver:self];
+
+  <span class="key">if </span>(mUndoEditor) [mUndoEditor release];
+
+  <span class="key">if </span>(mDynamicLocationInfo &amp;&amp; ![mDynamicLocationInfo superview]) [mDynamicLocationInfo release];
+
+  [super dealloc];
+}
+
+&#64;end
+</pre>
+</body>
+</html>
+<!--XHTML generated by highlight 2.0-19, http://www.andre-simon.de/-->

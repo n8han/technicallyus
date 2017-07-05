@@ -1,0 +1,299 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Going into orbit</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id2593" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Going into orbit" width="251" class="title" src="../../../resources/net.databinder.components.RenderedLabel/fd5eb3b7"/><span class="title">Going into orbit</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on October 10, 2008</span></span>
+			<span id="id2594" class="tags">
+					{&nbsp;<span><a href="../../../code/tag/spde/#selected-tag"><span>spde</span></a><span id="id2595">, </span></span><span><a href="../../../code/tag/processing/#selected-tag"><span>processing</span></a><span id="id2596">, </span></span><span><a href="../../../code/tag/scala/#selected-tag"><span>scala</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Did you find a cool <a href='http://www.processing.org/'>Processing</a> sketch on the internet today and post it to reddit? Why not!? Well on Monday someone linked up this awesome <a href='http://complexification.net/gallery/machines/orbitals/'>Orbitals</a> simulation from 2004.</p>
+<object classid='java:Orbitals.class' type='application/x-java-applet' archive='http://technically.us/pictures/Orbitals.jpgz' width='455' height='455' standby='Loading Processing software...'>
+
+<!--[if !IE]> -->
+<param name='archive' value='http://technically.us/pictures/Orbitals.jpgz' />
+
+<param name='mayscript' value='true' />
+<param name='scriptable' value='true' />
+
+<param name='image' value='loading.gif' />
+<param name='boxmessage' value='Loading Processing software...' />
+<param name='boxbgcolor' value='#E8FFCF' />
+
+<param name='test_string' value='outer' />
+<!--<![endif]-->
+
+<object classid='clsid:8AD9C840-044E-11D1-B3E9-00805F499D93' codebase='http://java.sun.com/update/1.5.0/jinstall-1_5_0_15-windows-i586.cab' width='455' height='455' standby='Loading Processing software...'>
+
+<param name='code' value='Orbitals' />
+<param name='archive' value='http://technically.us/pictures/Orbitals.jpgz' />
+
+<param name='mayscript' value='true' />
+<param name='scriptable' value='true' />
+
+<param name='image' value='loading.gif' />
+<param name='boxmessage' value='Loading Processing software...' />
+<param name='boxbgcolor' value='#FFFFFF' />
+
+<param name='test_string' value='inner' />
+
+<p>
+<strong>
+This browser does not have a Java Plug-in.
+<br />
+<a href='http://java.sun.com/products/plugin/downloads/index.html' title='Download Java Plug-in'>
+Get the latest Java Plug-in here.
+</a>
+</strong>
+</p>
+
+</object>
+
+<!--[if !IE]> -->
+</object><!--<![endif]-->
+<p class='break'>Oops! Sorry for crashing everybody&#8217;s Ubuntu again. (It works fine on <a href='http://technically.us/code/x/new-toy-new-toy-new-toy/'>this one</a>.) But you know, there is this wonderful virtual machine available in most web browsers (not the one named after a vegetable drink / large combustion engine) and we are going to use it, by gum.</p>
+
+<p>The sketch, created by Jared Tarbell, simulates orbital bodies using a bunch of trigonometric functions you learned in high school (or not&#8230; they didn&#8217;t seem to do anything like this). But math is hard, let&#8217;s go looping:</p>
+
+<pre><code>for (int x=0;x&lt;b.width;x++){
+  for (int y=0;y&lt;b.height;y++) {
+    color c = get(x,y);
+    boolean exists = false;
+    for (int n=0;n&lt;numpal;n++) {
+      if (c==goodcolor[n]) {
+        exists = true;
+        break;
+      }
+    }
+    if (!exists) {
+      // add color to pal
+      if (numpal&lt;maxpal) {
+        goodcolor[numpal] = c;
+        numpal++;
+      } else {
+        break;
+      }
+    }
+    if (random(10000)&lt;100) {
+      if (numpal&lt;maxpal) {
+        // pump black or white into palette
+        if (random(100)&lt;50) {
+          goodcolor[numpal] = #FFFFFF;
+          print(&quot;w&quot;);
+        } else {
+          goodcolor[numpal] = #000000;
+          print(&quot;b&quot;);
+        }
+        numpal++;
+      }
+    }
+  }
+}</code></pre>
+
+<p>These loops take unique colors from an image <code>b</code> (which has been painted, so <code>get()</code> works on it) and put them in a <code>goodcolor</code> array. But! Every one out of a hundred iterations or so, it gets funky and adds an extra element that is either black or white. Each iteration adds either zero, one, or two array elements&#8212;lock up your daughters!</p>
+
+<p>This is something funny that happens with this kind of open-ended programming. The way the sketch behaves is driven not just by imagination by also <em>the language and environment</em>, adding an actual computer dimension to computer art; registers and jump instructions themselves become a part of the work the work.</p>
+
+<p>To do exactly the same thing this loop is doing in a functional language would be awkward and dissatisfying. So we improvise. Because, hey, if this were written in a functional language in the first place, it would be doing something different. The <code>goodcolor</code> sequence is read randomly, later, so inserting the expected proportion of black and white elements as a block should have the same effect as scattering a similar amount by chance.</p>
+
+<pre><code>def takecolor(img: PImage, len: Int) = (
+    List.make(len / 200, 0xFFFFFFFF) ++
+    List.make(len / 200, 0xFF000000) ++
+    img.pixels.toList.removeDuplicates
+  ).take(len)</code></pre>
+
+<p>This is not exactly the right proportion, on second thought; for that we would need to know the proportion of unique colors to pixels in the source image. But it&#8217;s close enough. If you don&#8217;t like the amount of black and white in the image, adjust the denominator (or randomize it a little).</p>
+
+<p>In addition to that cheap trick, this function is profiting from P5 library calls that may not have been available to the original, <em class='smcp'>and</em> it&#8217;s being kind of sloppy and reading in the entire image, then truncating, instead of stopping when the target number of colors is hit. <a href='http://www.scala-lang.org/docu/files/api/scala/Stream$object.html'>Stream</a> could do a better job, if anyone wants to figure that out, but as it is there is no noticeable delay in startup from loading in the colors, and the code is tight, so whatever.</p>
+
+<p class='break'>Here&#8217;s the procedure that returns a random array element:</p>
+
+<pre><code>color somecolor() {
+  // pick some random good color
+  return goodcolor[int(random(numpal))];
+}</code></pre>
+
+<p>This Java code is simple enough, but wouldn&#8217;t it be cool to be able to select a random element from any sequence, since it seems like that happens a lot in Processing? It is simple do with implicit conversions. Let&#8217;s add it to the <abbr>API</abbr>:</p>
+
+<pre><code>trait Randoms {
+  private val rand = new Random
+  implicit def seq2RichRandom[K](seq: Seq[K]) = new RichRandom(seq)
+  
+  protected class RichRandom[K](seq: Seq[K]) {
+    def random: K = seq((rand.nextFloat * seq.length).toInt)
+  }
+  ...</code></pre>
+
+<p><a href='http://technically.us/code/x/runaway-processing/'>Spde</a> brings this into scope by default, so any sketch can call <code>random</code> on a sequence directly. At that point you don&#8217;t really need a <code>somecolor()</code> function, just call <code>goodcolor.random</code>. And it comes in handy here, when selecting a random, existing list element to orbit around while building the list:</p>
+
+<pre><code>def make_orbitals(num:Int, around: List[Body]): List[Body] =
+  if (around.length == num) around
+  else make_orbitals(num, new Orbital(around.random) :: around)</code></pre>
+
+<p>Next!</p>
+
+<pre><code>  ...
+  class Bet[K](val weight: Int, val out: () =&gt; K)
+  class BetSum[K](val bet: Bet[K], val sum: Int)
+  
+  def play[K](odds: Bet[K]*) = {
+    def adder(acc:Int, in: Seq[Bet[K]], out: List[BetSum[K]]): List[BetSum[K]] = in match  {
+      case Nil =&gt; out
+      case Seq(cur, rest @ _*) =&gt; adder(acc + cur.weight, rest, new BetSum(cur, acc) :: out)
+    }
+    val sl = adder(0, odds, Nil)
+    val score = rand.nextDouble * (sl.head.sum + sl.head.bet.weight)
+    sl.find(_.sum &lt; score).get.bet.out()
+  }
+  
+  implicit def int2RichBetter(weight: Int) = new RichBetter(weight)
+  
+  protected class RichBetter(weight: Int) {
+    def %&gt;[K](out: =&gt; K) = new Bet(weight, () =&gt; out)
+  }
+}</code></pre>
+
+<p>This is the rest of the <code>Randoms</code> trait. It is a scary tool for making a program act unpredictably. The idea is that you pass control off to <code>play</code> along with weighted outcomes, each defined as a <code>Bet</code>. This allows an expression to be written in terms of whole-number odds like 100 to 1, 1 to 1 (50/50), or 1 to 2 to 10. The <code>adder</code> function tail-recursively builds sum elements for the bet sequence, then we fetch a random, ranged score and return whichever bet won. The losing outcomes, passed in &#8220;by name&#8221;, are never evaluated.</p>
+
+<p class='liner'> Well, n8, you could probably have done <code>adder</code> with a fold, but when you wrote this you didn&#8217;t realize that folds are not obligated to reduce lists; a fold can build a new list, even one of a different length than the source list. See: future post.</p>
+
+<p>The low point of writing this was giving up on doing <code>adder</code> with terse, immutable list processing functions. Are we missing something? The recursive solution is fine, but still. The high point was, as usual with Scala, exploiting the freedom to define just about whatever <abbr>API</abbr> you can dream up. This one is inspired by the implicit <code>-&gt;</code> tuple builder for hashmaps, but uses an evocative percent sign:</p>
+
+<pre><code>play(
+  1       %&gt; &quot;You won the lottery!&quot;, 
+  1000000 %&gt; &quot;You are still poor!&quot;, 
+  10000   %&gt; { global_thermonuclear_war(); &quot;Frig.&quot; }
+)</code></pre>
+
+<p>Although this interface was inspired by Orbitals, it doesn&#8217;t get too much of a workout there.</p>
+
+<pre><code>tv = random(0.0001,0.02/(d+1)) * play(1 %&gt; 1, 1 %&gt;  -1)</code></pre>
+
+<p>But it&#8217;s got potential!</p>
+
+<p class='break'><em>The <a href='http://technically.us/git?p=spde.git;a=blob;f=examples/src/main/resources/examples/Topics/Simulate/Orbitals/Orbitals.pde'>translated Orbitals example</a> is available in the Spde <a href='http://technically.us/git?p=spde.git;a=summary'>head</a> and latest <a href='http://technically.us/torrents/'>snapshot releases</a>.</em></p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id2597">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-5836"><p>Nathan, I must say. You&#8217;ve written the only software that has made Java worth loading in my browser.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Alex Boisvert</span></span>
+  				<span>on October 17, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5838"><p>Ah ha, everything is going according to my secret plan to redeem browser applets! It&#8217;s all about rebranding, and by rebranding I mean banishing Java&#8217;s terrible branding to the phantom zone and replacing it with software that does cool stuff. Which I must say is based entirely on the hard work of many people over many years. I am just putting Scala frosting on the Processing cake.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on October 17, 2008</span>
+  			</div>
+  		</div><div>
+  			<div id="item-5861"><p>Hi Nathan</p>
+
+<p>It works now fine on my ubuntu, apparently the last Java update solved the issue :)</p>
+
+<p>For the record, I&#8217;m running that : java version &#8220;1.6.0<em>07&#8221; Java(TM) SE Runtime Environment (build 1.6.0</em>07-b06) Java HotSpot(TM) Server VM (build 10.0-b23, mixed mode) Linux version : 2.6.24-21-generic</p>
+
+<p>++ Joseph</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Joseph</span></span>
+  				<span>on October 24, 2008</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id2598">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id2599" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id2599_hf_0" id="id2599_hf_0" /><input type="hidden" name="wicket:interface" value=":1371:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id259a" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id259b" name="add" value="Add a comment" onclick="wicketShow('id259b--ajax-indicator');var wcall=wicketSubmitFormById('id2599', '../../../?wicket:interface=:1371:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id259b--ajax-indicator');}.bind(this),function() { ;wicketHide('id259b--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id2599')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id259b--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/city-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>City Slicking / Pittsburgh: the city that gives it a go…</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../city">
+			
+			<img alt="City Slicking" src="../../../resources/org.apache.wicket.Application/city-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../city">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/city-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id1946" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Pittsburgh: the city that gives it a go…" width="467" class="title" src="../../../resources/net.databinder.components.RenderedLabel/b33596ae"/><span class="title">Pittsburgh: the city that gives it a go…</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Doctor Barnett</span>, <span>on January 11, 2007</span></span>
+			<span id="id1947" class="tags">
+					{&nbsp;<span><a href="../../../city/tag/fashion/#selected-tag"><span>fashion</span></a><span id="id1948">, </span></span><span><a href="../../../city/tag/pittsburgh/#selected-tag"><span>pittsburgh</span></a><span id="id1949">, </span></span><span><a href="../../../city/tag/shopping/#selected-tag"><span>shopping</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p><em>Everyone please give a round of applause for our new Pittsburgh editor, <strong>Carlsbarls</strong>! She&#8217;ll be covering anything related to</em> Flashdance <em>and, apparently, underwear. —Doc Barnett</em></p>
+
+
+	<p class="break">Most people hear Pittsburgh, and a few things immediately pop into their heads:  steel mills, smog and pollution, and back-ass-wards quasi-city folk who can’t quite decide if they reside in the East or in the Midwest.  Don’t get me wrong:  <span class="caps">I ADORE</span> my hometown, and while the steel mills are long gone, and the pollution problem has pretty much been taken care of with the departure of said steel mills, this last issue is one that we, as a city, tend to struggle with on a daily basis.</p>
+
+
+	<p>I must be entirely upfront, I am no fashionista.  I mean, yes, I did see <em>The Devil Wears Prada</em> (twice in fact) but that is basically the extent of my knowledge on the topic of high fashion.  Aside  from the occasional <span class="caps">STEAL</span> at <span class="caps">DSW</span> (two pairs of <span class="caps">BCBG</span> pumps for a  total of $40!), my idea of &#8220;shopping for designer labels&#8221; is the sale rack at J. Crew.  This being said, I still feel as though it is time for an intervention young men of Pittsburgh, and since no one else has been snarky enough to take the reigns, I will step up.</p>
+
+
+	<p>Twenty-something men of America:  If you want to run around in a t-shirt, jeans, and tennis shoes 24/7, go for it.  Embrace it.  Personally, I think there is nothing more attractive than a man in a good looking suit, and was raised in a household where I never once saw my father in any type of denim, but that is my own personal taste, and I digress.  I am not attempting to change the style of America&#8217;s youth, but there is one issue on which I cannot compromise.  When the day comes (and trust me, it will come.  Hello job interview), that you must abandon your favorite pair of white Adidas and don those hideously clunky black shoes you all insist on wearing, for the love of all that is good and holy, <span class="caps">BUY A FUCKING PAIR OF BLACK SOCKS</span>.</p>
+
+
+	<p>White socks and black shoes—not a style choice, simply socially unacceptable.  And I know what you are thinking—“but my pants are long enough, you can&#8217;t even see my socks&#8221;.  Not an excuse.  You may have to cross your legs at some point, or perhaps a gust of wind will come your way, hell, maybe your pants will catch on fire and you will have to hastily remove them in order to save your lower extremities, it doesn’t really matter.  We will discover your dirty little secret, and trust me, we will not be impressed.  I will be blunt:  the minute any potential/current employer catches even the slightest glimpse of white tube sock, you can kiss the job and any possibility of professional respect goodbye.  You might as well have stumbled into the meeting 25 minutes late, holding a bottle of Jim Beam, mumbling something about banging the boss’ daughter.  It is not about spending a lot of money on some fancy wardrobe or becoming a clone of every Beta Theta Pi you went to college with.  It is about looking put-together and understanding that, regardless of what the city of Seattle circa 1993 has attempted to convince us, there are basic tenets of professionalism (and just basic good taste) that we, as members of civilized society, must adhere to.</p>
+
+
+	<p class="break">I mean, you can probably buy a 12 pack at Wal-Mart for 99 cents for christssake!</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about'>About</h3>
+
+<p><em>City Slicking</em> is about urban life, transportation, energy, liberty, and language.</p>
+
+<h3 id='haunts'>Haunts</h3>
+
+<p><a href='http://twitter.com/n8han/'>Twitter</a><br /><a href='http://technically.us/code/'>Coderspiel</a><br /><a href='http://www.streetsblog.org/'>Streetsblog</a><br /><a href='http://gawker.com/people/alexpareene/posts/'>Pareene</a><br /><a href='http://www.copenhagenize.com/'>Copenhagenize</a><br /><a href='http://itre.cis.upenn.edu/~myl/languagelog/'>Language Log</a><br /><a href='http://t4america.org/'>Trans. for America</a></p>
+
+<h3 id='wire_service'>Wire Service</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/city-rss' title='All in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-short-rss' title='Left column, frequent links and notes'>Quickies</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-long-rss' title='Main column, occasional extended posts'>Treatise</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id194a">
+  		<div><h3 id='backtalk'>Backtalk</h3></div>
+  		<div>
+  			<div id="item-984"><p>Does &#8220;Michael Jackson&#8221;:http://mjtkop.com/home/uploads/img446857e950a9d.jpg get a pass?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">MrLittlePants</span></span>
+  				<span>on January 11, 2007</span>
+  			</div>
+  		</div><div>
+  			<div id="item-985"><p>I&#8217;m wearing white socks and black jeans today, as you&#8217;ll see for yourself in a few hours. (Yay, city slicking party!)</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Doc Barnett</span></span>
+  				<span>on January 11, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id194b">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id194c" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id194c_hf_0" id="id194c_hf_0" /><input type="hidden" name="wicket:interface" value=":988:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id194d" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id194e" name="add" value="Add a comment" onclick="wicketShow('id194e--ajax-indicator');var wcall=wicketSubmitFormById('id194c', '../../../?wicket:interface=:988:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id194e--ajax-indicator');}.bind(this),function() { ;wicketHide('id194e--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id194c')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id194e--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Can she bake a cherry pie</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../eat">
+			
+			<img alt="Eat" src="../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../eat">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id480" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Can she bake a cherry pie" width="407" class="title" src="../../resources/net.databinder.components.RenderedLabel/a7211e1a"/><span class="title">Can she bake a cherry pie</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Mom</span>, <span>on March 9, 2006</span></span>
+			<span id="id481" class="tags">
+					{&nbsp;<span><a href="../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a><span id="id482">, </span></span><span><a href="../../eat/tag/dessert/#selected-tag"><span>dessert</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>If you like cherry pie as much as we do you should make your own, as bakeries use horrible, over-sweetened and over-thickened canned filling. Unfortunately the season for fresh sour pie cherries is only about a week long, so unless you have a source for frozen pie cherries you are forced to use the ones that come in a can. You <span class="caps">CANNOT</span> make a cherry pie with sweet, or Bing cherries; it just won&#8217;t taste right. Most recipes call for almond extract but I prefer vanilla. You can use more sugar if you want, but we like ours on the tart side; better with a scoop of vanilla ice cream on top!</p>
+
+
+	<p style="float:right"><img src="/eat/files/pie.jpg" alt="" /></p>
+
+
+	<ul>
+	<li>3/4 cup sugar</li>
+		<li>3 tablespoons cornstarch</li>
+		<li>2 cans tart red pie cherries</li>
+		<li>1/2 teaspoon vanilla extract</li>
+		<li>pastry for double crust 9-inch pie</li>
+	</ul>
+
+
+	<p>Preheat oven to 400°F. Drain the cherries and reserve the juice from only one can. Mix the cornstarch and sugar together in a saucepan and stir the reserved juice into this mixture. Cook over medium heat, stirring constantly, until thickened and smooth. Remove from heat and gently stir in cherries and extract. Taste and add up to 1/4 more cup of sugar if you want it sweeter. Pour filling into pastry lined pie pan and top with traditional or lattice crust. If traditional crust vent for steam. Crimp edges, place in oven and bake 30-40 minutes until crust browns and filling begins to bubble. If necessary cover edges with foil during final 15 minutes to prevent over-browning.</p>
+
+
+	<p>Cool pie several hours to allow filling to thicken before slicing.</p>
+
+
+	<p>This recipe was adapted from the one on the <a href="http://www.oregonfruit.com/?pg=cp">Oregon Cherry</a> can, and I&#8217;m pretty excited about it because for the first time in my life I made a lattice-top crust. I have always been pretty much a hurry-up-and-get-the-pie-in-the-oven-girl, thanks to <a href="http://www.technically.us/eat/articles/2006/03/07/trader-joes-a-rant#comments">washing cloth diapers</a> and all, but I figured if I don&#8217;t make the occasional lattice crust now, when would I? I&#8217;m 53 years old, I don&#8217;t work, I only have one child at home these days, and if I wait much longer I&#8217;m afraid I might drop dead taking so long to make a pie, along the lines of George Burns&#8217; being afraid to buy green bananas.</p>
+
+
+	<p>Anyway, I think it came out pretty well for a first effort! I know it will taste good because I have made this recipe many times, just not with the lattice crust.</p>
+
+
+	<p>Note&#8212;Canned tart cherries are <span class="caps">NOT</span> the same as canned cherry pie filling and can be a little hard to find. Sometimes they are shelved with the canned fruit and sometimes in the baking aisle of the grocery store. They are a little expensive, too, usually between $3.00 &#8211; $4.00/can.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id483">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-1644"><p>Oh mommy! Your lattice crust is gorgeous. I&#8217;m so regretful that I didn&#8217;t eat pie at all growing up. I crave your pies these days, especially the sour ones like cherry and strawberry-rhubarb!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on March 9, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1645"><p>when my cherries come in, come and pick all you want!  they really can&#8217;t be beat!the pie is fabulous!  I am a &#8220;girl&#8221; who also just wants to get it in the oven!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">grandma</span></span>
+  				<span>on March 9, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1646"><p>I&#8217;m eating it right now. Godhead!</p>
+<p>Poppy</p></div>
+  			<div class="date byline">
+  				
+  				<a href="http://www.billyprice.com/BPBlog.html"><span class="alias">Billy Price</span></a>
+  				<span>on March 9, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1647"><p>Oh my I wish I was eating that cherry pie right now too!</p>
+<p>Strawberry rhubarb pie is my absolutely fave- tangy and sweet all in one.</p>
+<p>Something about Mom&#8217;s pies- my mother is also queen of pies- she makes a mean cherry pie with the cherries from my parents&#8217; cherry tree in June!</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Emily</span></span>
+  				<span>on March 9, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id484">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id485" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id485_hf_0" id="id485_hf_0" /><input type="hidden" name="wicket:interface" value=":185:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id486" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id487" name="add" value="Add a comment" onclick="wicketShow('id487--ajax-indicator');var wcall=wicketSubmitFormById('id485', '../../?wicket:interface=:185:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id487--ajax-indicator');}.bind(this),function() { ;wicketHide('id487--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id485')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id487--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

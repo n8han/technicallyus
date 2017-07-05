@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/city-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>City Slicking / Rules of flight</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../city">
+			
+			<img alt="City Slicking" src="../../../resources/org.apache.wicket.Application/city-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../city">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/city-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id1879" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Rules of flight" width="182" class="title" src="../../../resources/net.databinder.components.RenderedLabel/c408ec59"/><span class="title">Rules of flight</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Doctor Barnett</span>, <span>on February 10, 2006</span></span>
+			<span id="id187a" class="tags">
+					{&nbsp;<span><a href="../../../city/tag/flying/#selected-tag"><span>flying</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p style="float:right"><img src="/pictures/clasp.jpg" alt="" /></p>
+
+
+	<p><em><span class="caps">NEW YORK EDITION</span></em></p>
+
+
+	<ol>
+	<li><strong>Always fly from LaGuardia for domestic.</strong> Unless you&#8217;re going to a place where they speak a different language, have perfect weather, or still like Michael Jackson, <span class="caps">JFK</span> and Newark simply aren&#8217;t worth the  trip.</li>
+		<li><strong>Do not fly Delta from LaGuardia.</strong> Do you really want to get into a fight with that wild-haired gate agent queen <em>again</em>?</li>
+		<li><strong>Take the subway and bus to <span class="caps">LGA</span>.</strong> It&#8217;s faster, less nausea-inducing, and vastly cheaper than taking a taxi.</li>
+		<li><strong>Take the AirTrain to <span class="caps">JFK</span> or Newark.</strong> Duh. The AirTrain is the the bomb. (Don&#8217;t take that the wrong way.)</li>
+		<li><strong>Don&#8217;t ask for the exit row.</strong> Leave them for <a href="/eat">MrLittlePants</a>. He&#8217;s very tall and gets grumpy if <em>you&#8217;ve</em> already taken his seat.</li>
+		<li><strong>If your flight is greatly delayed or cancelled, take the refund.</strong> Seriously, don&#8217;t let them bully you around like that. Spend the money on another carrier, or a large screen T.V. and DVDs of the place you were <em>hoping</em> to go for that long weekend.</li>
+		<li><strong>Loathe the <span class="caps">TSA</span>.</strong> They will never be able to <a href="http://www.washingtonpost.com/wp-dyn/articles/A15183-2004Dec20.html">follow</a> their own simple <a href="http://www.tsa.gov/public/interapp/editorial/editorial_1050.xml">shoe policy</a>. They are lower than dogs.</li>
+		<li><strong>Expect the worst.</strong> Be pleasantly surprised! (Or smugly, angrily accurate.)</li>
+		<li><strong>Do as you&#8217;re told&#8212;follow along in the damn flight safety card.</strong> Which picture is your favorite? Ours is of course the flashed-out swimming drag-queen stewardess <em>(pictured above)</em>.</li>
+		<li><strong>Flight attendant cross check.</strong> One L one R! Two L two R!</li>
+	</ol></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about'>About</h3>
+
+<p><em>City Slicking</em> is about urban life, transportation, energy, liberty, and language.</p>
+
+<h3 id='haunts'>Haunts</h3>
+
+<p><a href='http://twitter.com/n8han/'>Twitter</a><br /><a href='http://technically.us/code/'>Coderspiel</a><br /><a href='http://www.streetsblog.org/'>Streetsblog</a><br /><a href='http://gawker.com/people/alexpareene/posts/'>Pareene</a><br /><a href='http://www.copenhagenize.com/'>Copenhagenize</a><br /><a href='http://itre.cis.upenn.edu/~myl/languagelog/'>Language Log</a><br /><a href='http://t4america.org/'>Trans. for America</a></p>
+
+<h3 id='wire_service'>Wire Service</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/city-rss' title='All in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-short-rss' title='Left column, frequent links and notes'>Quickies</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/city-long-rss' title='Main column, occasional extended posts'>Treatise</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id187b">
+  		<div><h3 id='backtalk'>Backtalk</h3></div>
+  		<div>
+  			<div id="item-870"><p>that looks like friggin jennifer aniston circa 1996!</p>
+
+<p>also, i&#8217;m such a bitch. i always ask for the exit row for all 65&#8221; of me.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">steak</span></span>
+  				<span>on February 10, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-871"><p>Well, watch your back, that&#8217;s all I&#8217;m saying. Lil&#8217; pants doesn&#8217;t look tough, but he can be real mean to anyone gets between him and his legroom. How do you think Aniston ended up in that pool?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Doctor Barnett</span></span>
+  				<span>on February 10, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id187c">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id187d" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id187d_hf_0" id="id187d_hf_0" /><input type="hidden" name="wicket:interface" value=":965:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id187e" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id187f" name="add" value="Add a comment" onclick="wicketShow('id187f--ajax-indicator');var wcall=wicketSubmitFormById('id187d', '../../../?wicket:interface=:965:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id187f--ajax-indicator');}.bind(this),function() { ;wicketHide('id187f--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id187d')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id187f--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

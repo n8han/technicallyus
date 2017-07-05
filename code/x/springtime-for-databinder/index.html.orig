@@ -1,0 +1,209 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Springtime for Databinder</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id238b" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Springtime for Databinder" width="417" class="title" src="../../../resources/net.databinder.components.RenderedLabel/dd259f36"/><span class="title">Springtime for Databinder</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on November 29, 2006</span></span>
+			<span id="id238c" class="tags">
+					{&nbsp;<span><a href="../../../code/tag/databinder/#selected-tag"><span>databinder</span></a><span id="id238d">, </span></span><span><a href="../../../code/tag/hibernate/#selected-tag"><span>hibernate</span></a><span id="id238e">, </span></span><span><a href="../../../code/tag/java/#selected-tag"><span>java</span></a><span id="id238f">, </span></span><span><a href="../../../code/tag/wicket/#selected-tag"><span>wicket</span></a><span id="id2390">, </span></span><span><a href="../../../code/tag/spring/#selected-tag"><span>spring</span></a><span id="id2391">, </span></span><span><a href="../../../code/tag/oop/#selected-tag"><span>oop</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p style="float:right"><img src="/pictures/tulips.jpg" alt="" /></p>
+
+
+	<p>In the heady months leading up to Databinder&#8217;s debut (fall of ’05, for the newbs) I was bouncing around the Wicket listserv trying to determine if Wicket core or extensions would ever integrate with persistence technologies like Hibernate. The answer was a resounding &#8220;no.&#8221;</p>
+
+
+	<p>That had a lot to do with Wicket&#8217;s already-laid plans to become an Apache project, specifically the need to keep the codebase license-pure. Good reason! Also, Spring filters can open and close Hibernate sessions for you, so all you have to do is <em>blah blah blah</em>&#8212;bad reason!</p>
+
+
+	<p>Spring-managed transactions for Wicket make a fine configuration (and one we use at my job), but it&#8217;s not trivial to get it working. Wicket&#8217;s IModel is <a href="http://databinder.net/manual/app/show">a difficult concept</a> on its own, and one that particularly affects how you persist your data. Sending inquisitors off to ponder an example app with a dozen source files to determine how to accomplish a fundamental task is not much of a welcome wagon.</p>
+
+
+	<p>Besides, not everyone is using Spring, or even interested in using it. Why expect them to?</p>
+
+
+	<h3>About that Spring</h3>
+
+
+	<p>Spring is the <a href="http://en.wikipedia.org/wiki/Kudzu#Kudzu_as_an_invasive_exotic">kudzu</a> of Java programming. The library&#8217;s chastity pledge is that &#8220;application code should <em>not</em> depend on Spring <acronym title="">API</acronym>s,&#8221; a clever misdirection. Without any classpath dependencies, it hooks its tendrils around applications, projects, and programmers themselves.</p>
+
+
+	<p>The Spring mindset and coding style (<em>interfaces, interfaces, interfaces!</em>) deeply affect any application they touch. Perhaps the changes are all reasonable and helpful, or perhaps half of them are made only to flaunt the latest programming fad. Either way, the result is program code that is harder to follow, for both humans and computers.</p>
+
+
+	<p>This is my biggest gripe with Spring-style coding: you can&#8217;t click from one class to another in Eclipse; you end up at an interface dead-end. If my <acronym title="">IDE</acronym> can&#8217;t tell where the next statement is, how am I supposed to find it? I have to either <em>know</em> it or look it up in an <acronym title="">XML</acronym> file. That is bullshit.</p>
+
+
+	<p>Even more confusing is unrelated code that runs as I call a normal-looking method. Thanks to those famous Spring interceptors, there&#8217;s no hint of the altered execution path in the program source. It&#8217;s almost as if they <em>set out</em> to make software code harder to read.</p>
+
+
+	<p>Interceptors are worse than <tt>goto</tt>.</p>
+
+
+	<p>That&#8217;s just my own, unfashionable opinion. I recognize that there is some good stuff in Spring and that some projects benefit from using it sensibly. But when you elect to contort your inheritance hierarchy <em>and</em> execution path (hello, fundamentals of object-oriented and procedural programming!), you&#8217;d better have a damn good reason.</p>
+
+
+	<h4>Spring problem-solving steps</h4>
+
+
+	<ol>
+	<li>Is there even a &#8220;problem&#8221; you&#8217;re solving here? Or just some trick you want to perform? Well <em>don&#8217;t.</em></li>
+		<li>Ok, real problem? Can&#8217;t solve it with traditional <acronym title="">OOP</acronym>? Try harder.</li>
+		<li>Umm, <em>fine</em>. Inject, intercept, cross-cut your heart out, but do not expect <em>me</em> to debug in that ridiculous call stack.</li>
+	</ol>
+
+
+	<h3>We can all just get along</h3>
+
+
+	<p>So much for <a href="http://databinder.net/faq.html#spring">spite</a>, new releases of Databinder <em>will</em> work with Spring-managed Hibernate transactions.</p>
+
+
+	<p>It&#8217;s something we might have done all along, had we known better. We don&#8217;t even have to pander to Spring specifically. In Databinder 1.1-SNAPSHOT releases, we&#8217;re using Hibernate&#8217;s &#8220;current&#8221; session facility. Instead of calling <tt>DataRequestCycle.getHibernateSession()</tt> (now deprecated), you&#8217;ll call <tt>DataStaticService.getHibernateSession()</tt>, which itself <a href="http://databinder.net/wsvn/Databinder/databinder/trunk/src/main/java/net/databinder/DataStaticService.java?op=file">calls</a> <tt>getCurrentSession</tt> on the Hibernate session factory that it owns. Please, <a href="http://databinder.net/faq.html#uptodate">try it yourself</a>.</p>
+
+
+	<p>A standard Databinder app will use a <a href="http://www.hibernate.org/hib_docs/v3/api/org/hibernate/context/ManagedSessionContext.html">ManagedSessionContext</a> bound by <a href="http://databinder.net/wsvn/Databinder/databinder/trunk/src/main/java/net/databinder/DataRequestCycle.java?op=file">DataRequestCycle</a>, but applications are free to manage sessions and transactions externally with <acronym title="">JTA</acronym> or Spring&#8217;s <a href="http://www.springframework.org/docs/api/org/springframework/orm/hibernate3/LocalSessionFactoryBean.html">LocalSessionFactoryBean</a> or whatever is cool next week. All you have to do is tell <tt>DataStaticService</tt> what session factory your app is using. Then you can use our <a href="http://www.nabble.com/forum/ViewPost.jtp?post=7516152&#38;framed=y">sought-after</a> Wicket persistence models. We won&#8217;t even charge you for ’em.</p>
+
+
+	<p>&#9834;<em>You know it&#8217;s hard out here for a pimp</em>&#8230;</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='http://technically.us/resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='http://technically.us/resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id2392">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-1208"><blockquote>
+<p>have to either know it or look it up in an XML file<br /></p>
+</blockquote>
+
+<p>I found this today: http://blog.interface21.com/main/2006/11/28/a-java-configuration-option-for-spring/</p>
+
+<blockquote>
+<p>in Eclipse; you end up at an interface dead-end<br /></p>
+</blockquote>
+
+<p>Did you try Ctrl-T?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Gustavo</span></span>
+  				<span>on November 29, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1209"><p>Dude, I hit ctrl+T and ctrl+shift+T all day long. It&#8217;s still lame.</p>
+
+<p>And circling back to in-code annotations just makes it more obvious that external &#8220;configuration&#8221; was a wild goose chase. It&#8217;s a way to make a bad idea more palatable, just as Spring was to J2EE.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8</span></span>
+  				<span>on November 29, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1210"><blockquote>
+<p>I hit ctrl+T and ctrl+shift+T all day long<br /></p>
+</blockquote>
+
+<p>Sorry, I had to ask.</p>
+
+<blockquote>
+<p>external “configuration” was a wild goose chase<br /></p>
+</blockquote>
+
+<p>I&#8217;m with you here.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Gustavo</span></span>
+  				<span>on November 29, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id2393">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id2394" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id2394_hf_0" id="id2394_hf_0" /><input type="hidden" name="wicket:interface" value=":1314:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id2395" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id2396" name="add" value="Add a comment" onclick="wicketShow('id2396--ajax-indicator');var wcall=wicketSubmitFormById('id2394', '../../../?wicket:interface=:1314:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id2396--ajax-indicator');}.bind(this),function() { ;wicketHide('id2396--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id2394')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id2396--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

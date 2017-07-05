@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="../../../blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="../../../blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet.css"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Escaping logic</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code.html">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code.html">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id262e" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Escaping logic" width="232" class="title" src="../../../resources/net.databinder.components.RenderedLabel/3e3006fb"/><span class="title">Escaping logic</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on August 18, 2006</span></span>
+			<span id="id262f" class="tags">
+					{&nbsp;<span><a href="../../tag/scripting/index.html#selected-tag"><span>scripting</span></a><span id="id2630">, </span></span><span><a href="../../tag/markup/index.html#selected-tag"><span>markup</span></a><span id="id2631">, </span></span><span><a href="../../tag/templating/index.html#selected-tag"><span>templating</span></a><span id="id2632">, </span></span><span><a href="../../tag/java/index.html#selected-tag"><span>java</span></a><span id="id2633">, </span></span><span><a href="../../tag/web/index.html#selected-tag"><span>web</span></a><span id="id2634">, </span></span><span><a href="../../tag/wicket/index.html#selected-tag"><span>wicket</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p style="float:right"><img src="../../../pictures/buildings.jpg" alt="" /></p>
+
+
+	<p>I have great sympathy for <span class="caps">JSP</span> programmers. It follows that, from time to time, I feel sorry for myself. We’re supposed to love Java and be lukewarm to <span class="caps">HTML</span>, but we can never use the first inside the second. (Let’s leave aside that writing Java inside <span class="caps">HTML</span> is the original purpose of <span class="caps">JSP</span>.)</p>
+
+
+	<p>I suspect that the origin of this embargo is the blatant ugliness of curly brackets mixed with <span class="caps">HTML</span>. (Even EE programmers have that much aesthetic sense.) Instead you’re encouraged to mask logic using a set of custom tags that are, supposedly, not a joke propagated by an underground cartel of existential programmers:</p>
+
+
+<pre><code>    &lt;c:choose&gt;
+        &lt;c:when test="${person.isHappy}"&gt;I'm happy!&lt;/c:when&gt;
+        &lt;c:otherwise&gt;I'm not so sure.&lt;/c:otherwise&gt;
+    &lt;/c:choose&gt;
+</code></pre>
+
+	<p>That was an if / else, if you couldn’t tell. <span class="caps">XML</span> control tags are the accepted back door to coding a page that thinks. But what if you need to access something besides a simple property: is person A happy with person B? Well no biggie, you anticipate the need in the servlet (or “action” or “controller”) and set a response parameter.</p>
+
+
+	<p>Oh, did I mention this is inside a loop? In that case you must construct a rather complicated data structure in the servlet, which you’ll loop through on the page using <code>&lt;c:for&gt;</code>. That will work, if you try hard enough.</p>
+
+
+	<p>Later you may learn that you need a similar display on another page. You can either copy & paste about a hundred lines, or do the right thing: write a custom tag. So you add a descriptor to your tag library, and proceed to code the tag class. Unfortunately the loops and conditionals in the page must be translated from <span class="caps">XML</span> to Java, and the complicated data structure from the servlet is mostly useless. You  pass in parameters through attributes of the tag, and then splice together <span class="caps">HTML</span> in the Java class without any help from anything.</p>
+
+
+	<p>So there went one week of a programmer’s life. Next time he’ll just tell the man, “sorry, we can’t do that.” It’s no wonder that most Java-driven sites are lifeless. Having “logic” is what a good interface is all about, but the hurdles for doing it in a Model 2 Web app are high, and therefore expensive. You want that control to reflect the object’s status? It’ll cost ya $500.</p>
+
+
+	<p>Meanwhile in <a href="http://technically.us/n8/articles/2006/08/08/scripting-a-very-good-sheet-with-a-hole-in-it">scripting land</a>, they’re generally blessed with a syntax that looks much less out-of-place in <span class="caps">HTML</span>—and they aren’t afraid to use it. Creative interfaces, instead of being dismissed as low-priority business objectives, are just <em>done</em>.</p>
+
+
+	<p>The upshot is that there’s a better way to extract logic from the template, one that yields dividends beyond a jarchitect’s approving nod. Since <a href="http://wicketframework.org/">Wicket</a> dives head-first into <span class="caps">HTML</span> tag construction with its component hierarchy, it enables painless (and mostly unseen) object oriented markup processing of the entire page. A <tt>wicket:id</tt> connects the markup to the code, and the logic is in Java. Not by convention: it just <strong>is</strong>.</p>
+
+
+	<p>Although I wish Wicket had happened sooner, I’m not sure it would have been as effective in a pre-CSS Web. Let’s see, how would I elegantly append this <code>&lt;BR&gt;</code> ? But those are concerns of the past. These days <span class="caps">HTML</span> is a lightweight, hierarchical structure just begging to be manipulated by program code.</p>
+
+
+	<p>So don’t hold back. Get medieval on your markup.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='../../../resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id2635">
+  		
+  		
+  	</div>
+  	<div id="id2636">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id2637" action="../../../index.html" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id2637_hf_0" id="id2637_hf_0" /><input type="hidden" name="wicket:interface" value=":1388:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id2638" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id2639" name="add" value="Add a comment" onclick="wicketShow('id2639--ajax-indicator');var wcall=wicketSubmitFormById('id2637', '../../../?wicket:interface=:1388:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id2639--ajax-indicator');}.bind(this),function() { ;wicketHide('id2639--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id2637')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id2639--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

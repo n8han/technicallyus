@@ -1,0 +1,88 @@
+.container {
+	font-family: 'Hoefler Text', 'Palatino Linotype', Georgia, serif;
+	background: white;
+	color: #262626;
+	font-size: 140%;
+}
+
+.post ul {
+margin-bottom: 1.5em;
+}
+
+#weblog-name {
+	position: absolute;
+}
+
+.post div.byline {
+	margin-top: -2em;
+}
+
+#weblog-name img {
+	position: relative;
+	height: 295px;
+	width: 500px;
+}
+
+a.home-link {
+	z-index: 10;
+}
+
+div#lead a{
+	border: none;
+}
+
+#weblog-photo img {
+	height: 295px;
+}
+
+a, a:hover, a:active, a:visited {
+	text-decoration: none;
+	color: #262626;
+	border-bottom: 1px solid gray;
+}
+
+a:hover {
+	border-bottom: 1px solid black;
+}
+
+a.arrow {
+	border: none;
+}
+
+
+.post p img {
+	border: solid 1px gray;
+}
+
+.post p.out {
+	position: absolute;
+	height: 0;
+	margin: 0;
+}
+
+.post p.out img {
+	position: relative;
+	top: .3em;
+	left: 32em;
+}
+
+div.tag-columns div span.elem {
+	width: 11em;
+}
+
+div.tag-columns div {
+	font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	font-size: .7em;
+	text-transform: none;
+	letter-spacing: .02em;
+}
+
+.invisible {
+	color: #ffffff;
+	border-color: #ffffff;
+}
+
+.normal {
+	color: #262626;
+	border-color: gray;
+}

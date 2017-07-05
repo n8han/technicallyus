@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Tasting ramps</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id11b0" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Tasting ramps" width="224" class="title" src="../../../resources/net.databinder.components.RenderedLabel/bd3c6a44"/><span class="title">Tasting ramps</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on April 29, 2006</span></span>
+			<span id="id11b1" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/food%20products/#selected-tag"><span>food products</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>I do my best not to pass judgment on anything before giving it a try. I may have <a href="http://technically.us/eat/articles/2006/03/07/trader-joes-a-rant">jumped the gun</a> once or twice, but whenever possible I form <a href="http://technically.us/eat/articles/2006/04/21/trader-joes-wine-store">my own opinion</a>.</p>
+
+
+	<p>The other day I posted an <a href="http://technically.us/eat/articles/2006/04/26/ramps-and-fiddlehead-ferns">item</a> about ramps and fiddlehead ferns. Despite having just read a piece in the Times about how ramps aren&#8217;t that good, I wanted to try them and see for myself just how weedy they tasted. So this morning I dragged myself out of the apartment at 9:30 and walked three blocks to the Union Square Greenmarket.</p>
+
+
+	<p>Ramps were everywhere for $2.50 or $3 per bunch. <a href="http://acadeka-and-that-rum-cake.blogspot.com/">Sabena</a> reports that <a href="http://www.newyorkmetro.com/listings/stores/garden-of-eden00/index.html">Garden of Eden</a> is selling them for $20 per pound, so this is rather a steal if you&#8217;re fond of ramps.</p>
+
+
+	<p>We hadn&#8217;t eaten breakfast yet, so I made slow-scrambled eggs and pan-roasted potatoes, both with a heavy dose of ramps. I wasn&#8217;t quite sure what to do with the ramps themselves. I knew they were edible from top to bottom, so I washed them thoroughly and chopped them up. For the scrambled eggs, I sautéed the ramps in butter for a few minutes first, then I added the eggs. I did the opposite with the potatoes.</p>
+
+
+	<p style="float:center"><img src="/pictures/rampeggs.jpg" alt="" /></p>
+
+
+	<p>Ramps have a peculiar flavor, one that I can still taste an hour after breakfast. Weeds came to mind at the table, but Nathan reminded me that I have never eaten weeds. There is something distinctly grassy and funky about these things, though. I taste onion, but none of onion&#8217;s sweetness. In any case, it&#8217;s probably not something I&#8217;ll buy again without having a recipe recommended to me. I&#8217;m certainly not running back to the market to get another bunch before they&#8217;re all gone.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id11b2">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-1970"><p>I might treat these more like leeks, that is, stew them for a long time in butter to bring out their sweetness, rather than a brief sautée. Weren&#8217;t there some recipes with the Times article? Were they any help in terms of technique?</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mommy</span></span>
+  				<span>on April 29, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1971"><p>Hmm, I actually didn&#8217;t look at the recipes! I saw that one was a salad and one a soup, so I didn&#8217;t bother. I&#8217;ll stew the leftover ramps for longer, maybe, although I can still taste the first round in the back of my mouth and I&#8217;m reluctant to give them another go.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on April 29, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1972"><p>i feel like i could be intruding here, but i am a big fan of ramps&#8230;if you blanch (1 minute) and shock them, it removes much of the bitterness and some of the pungency. then you can saute, stew, what-have-you&#8230;they definitely are not timid greens, but worth giving another chance.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">kat</span></span>
+  				<span>on April 29, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1973"><p>Ramps in scrambled eggs would have been fine with plain potatoes or herbed potatoes.  However, ramps in both dishes?  Not a good idea when making a menu.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Sabena</span></span>
+  				<span>on April 29, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1974"><p>Thanks, Kat. You&#8217;re not intruding at all&#8212;that&#8217;s good advice!</p>
+<p>Sabena: the point was to taste them in two dishes, hence the title of the post, &#8220;Tasting ramps.&#8221;</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Leland</span></span>
+  				<span>on April 29, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1975"><p>I think you have to be from West Virginia to truly enjoy ramps.  I often hear people around here raving about them.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">grandma</span></span>
+  				<span>on April 29, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id11b3">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id11b4" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id11b4_hf_0" id="id11b4_hf_0" /><input type="hidden" name="wicket:interface" value=":644:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id11b5" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id11b6" name="add" value="Add a comment" onclick="wicketShow('id11b6--ajax-indicator');var wcall=wicketSubmitFormById('id11b4', '../../../?wicket:interface=:644:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id11b6--ajax-indicator');}.bind(this),function() { ;wicketHide('id11b6--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id11b4')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id11b6--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

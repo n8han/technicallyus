@@ -1,0 +1,205 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="../../../blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="../../../blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/code-stylesheet.css"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Coderspiel / Databinder at your (Web) service</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../code.html">
+			
+			<img alt="Coderspiel" src="../../../resources/org.apache.wicket.Application/code-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../code.html">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/code-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id23e8" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="47" alt="Databinder at your (Web) service" width="522" class="title" src="../../../resources/net.databinder.components.RenderedLabel/a345cc1"/><span class="title">Databinder at your (Web) service</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">n8han</span>, <span>on September 29, 2006</span></span>
+			<span id="id23e9" class="tags">
+					{&nbsp;<span><a href="../../tag/databinder/index.html#selected-tag"><span>databinder</span></a><span id="id23ea">, </span></span><span><a href="../../tag/services/index.html#selected-tag"><span>services</span></a><span id="id23eb">, </span></span><span><a href="../../tag/processing/index.html#selected-tag"><span>processing</span></a><span id="id23ec">, </span></span><span><a href="../../tag/web/index.html#selected-tag"><span>web</span></a><span id="id23ed">, </span></span><span><a href="../../tag/wicket/index.html#selected-tag"><span>wicket</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>Remember how it exciting it was when the graffiti demo <a href="http://technically.us/n8/articles/2006/07/15/funny-face">made its first appearance</a>? So audacious, so indifferent to the hegemony of gray 42-point Trebuchet MS.</p>
+
+
+	<p>Well that was nothing. It was static, two dimentional text. We can be far more offensive to <span class="caps">HTML</span> purists than that. We can use applets.</p>
+
+
+	<p class="break"><a href="http://databinder.net/message/app"><img src="../../../pictures/message.png" alt="" /></a></p>
+
+
+	<p class="break"><strike>Click above, but you might want to open in a new window. The applet is half a meg, and we’re not friggin’ Akamai.</strike> This is offline for now. <code>:(</code> It&#8217;s hard to maintain as a separate build process, but maybe it will come back some day.</p> 
+
+
+	<p  class="break">First of all, add a message. Please. Something besides random letters from the home row. Thank you.</p>
+
+
+	<p>What you’re seeing is 10% <a href="http://databinder.net/">Databinder</a> and 90% <a href="http://processing.org/">Processing</a>, an alteration of the <a href="http://processing.org/learning/examples/kinetictype.html">KineticType demo</a> specifically. Processing is a Java environment optimized for graphical programming.</p>
+
+
+	<p>The Databinder webapp submits your message via ajax, adds it to the database (we’re good at that!), and then tells the applet (via JavaScript) to refresh its data using <a href="http://plw.media.mit.edu/people/arikan/xmlrpclib/">xmlrpclib</a>. A small service class obliges, using Databinder’s Hibernate session factory to get the data and <a href="http://ws.apache.org/xmlrpc/index.html">Apache <span class="caps">XML</span>-RPC</a> to serve it.</p>
+
+
+	<p>This isn’t <a href="http://technically.us/n8/articles/2006/02/11/applets-back-from-the-grave">sprockets</a>. That idea, as I understand it, requires a deeper integration between the applet and page components, so that you can use Swing components in a Wicket page without coding the applet itself, or writing out its tag. I still think that could be useful, but it isn’t appropriate for Processing, where half the fun is using the simple <span class="caps">IDE</span> for experimentation. It exports applet JARs in one click.</p>
+
+
+	<p>I wouldn’t mind having a Maven plugin to handle Processing source files, just to save me the trouble of copying the applet <span class="caps">JAR</span> (and keeping it in svn), but until then the build processes are separate. The only thing left to decide was how to communicate between the applet and the webapp.</p>
+
+
+	<p>One weird option is JavaScript. We’re already calling Java from JavaScript and we could be using it to transfer textual data to the applet instead of just signalling. It would be one fewer request to the server.</p>
+
+
+	<p>But the main reason I was doing this demo, aside from the coolness of swinging 3D text around, was to test Databinder <em>outside</em> a Wicket request cycle. And who knows how well Unicode, for example, travels across the JavaScript bridge? Better to use something a little more solid.</p>
+
+
+	<p>I considered <a href="http://java.sun.com/products/jdk/rmi/">Java <span class="caps">RMI</span></a>, one of those buzzy technologies everyone had to have on their resumes a few years back that is now practically forgotten. Though it didn’t appear to be the enterprise train wreck I expected, my exploration ended when I saw that I would have to run a server specifically to route <span class="caps">RMI</span> requests. Pshaaa…</p>
+
+
+	<p>Then I wasted some time with <span class="caps">SOAP</span>, which was going to bloat the applet to several megs, until I realized that good old <span class="caps">XML</span>-RPC does exactly what I need with less code. (That counts for a lot around here.)</p>
+
+
+	<p>The <a href="http://databinder.net/wsvn/Databinder/message/trunk/src/main/java/example/?rev=0&sc=0">webapp source</a> ended up being very compact, as it really doesn’t have much work to do. You’ll need the latest Databinder <a href="http://databinder.net/faq.html#uptodate">snapshot</a> if you want to try this at home.</p>
+
+
+	<p>Or wait until 0.8 is out and a refined example is on the site. But don’t wait to <a href="http://databinder.net/message/app">add your wisdom</a> to the database.</p>
+
+
+	<p>sdklsdaflkjalkd.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3 id='about_coderspiel'>About <em>Coderspiel</em></h3>
+
+<p>This weblog is dedicated to programming with creative license, by <a href='http://twitter.com/n8han'>@n8han</a> / <a href='mailto:nathan@technically.us'>nathan@technically.us</a>.</p>
+
+<h3 id='news_feeds'>News Feeds</h3>
+
+<p><a href='../../../resources/com.typeturner.Typeturner/code-rss' title='All content in one feed'>Everything</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-short-rss' title='Left column, frequent links and notes'>Short</a><br /><a href='../../../resources/com.typeturner.Typeturner/code-long-rss' title='Main column, infrequent lengthy posts'>Long</a></p>
+
+<h3 id='codershelf'>Codershelf</h3>
+
+<p><a href='http://waffle.wootest.net/'>Waffle</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id23ee">
+  		<div><h3 id='codercomments'>Codercomments</h3></div>
+  		<div>
+  			<div id="item-1175"><blockquote>
+<p>I considered Java RMI</p>
+</blockquote>
+
+<p>Did you try Cajo? <br /> It&#8217;s a 40K JAR (and this is if you use all of it).<br /></p>
+
+<p>Of course it&#8217;s smaller without the web server in the middle, but you can start RMI services from a servlet, if you want.<br /></p>
+
+<p>And it&#8217;s one line of code: <br /><br /></p>
+
+<p>ItemServer.bind(new MyServer(), &#8220;MyServerName&#8221;);<br /><br /></p>
+<hr />
+<p>Gustavo.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Gustavo</span></span>
+  				<span>on September 29, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1176"><p>I should use Preview&#8230; what a waste of space!<br /></p>
+
+<p>Gustavo.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Gustavo</span></span>
+  				<span>on September 29, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1177"><p>No worries, space is free here. Cajo looks cool.</p>
+
+<p>Since RMI is included in the JRE (or isn&#8217;t it?) I could make a version of this with a smaller applet, without xmlrpclib. But then it wouldn&#8217;t run on older, or non-Sun, JVMs. As it is the applet should run just about anywhere, though I doubt it could hit 30 fps on an old processor.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">n8han</span></span>
+  				<span>on September 29, 2006</span>
+  			</div>
+  		</div><div>
+  			<div id="item-1178"><blockquote>
+<p>Since RMI is included in the JRE (or isn’t it?) <br /></p>
+</blockquote>
+
+<p>Yes it is. I&#8217;m exposing JPA services through it. No XML, no HTTP, no web server.<br /></p>
+
+<p>Something I had to work out: for remote calls from the same client VM, sometimes the RMI server re-uses threads for performance. So you no longer have 1 request == 1 thread.<br /></p>
+
+<p>Gustavo.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Gustavo</span></span>
+  				<span>on September 29, 2006</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id23ef">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id23f0" action="../../../index.html" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id23f0_hf_0" id="id23f0_hf_0" /><input type="hidden" name="wicket:interface" value=":1324:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id23f1" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id23f2" name="add" value="Add a comment" onclick="wicketShow('id23f2--ajax-indicator');var wcall=wicketSubmitFormById('id23f0', '../../../?wicket:interface=:1324:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id23f2--ajax-indicator');}.bind(this),function() { ;wicketHide('id23f2--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id23f0')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id23f2--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

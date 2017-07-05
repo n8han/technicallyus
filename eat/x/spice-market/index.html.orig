@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Spice Market</title>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../../eat">
+			
+			<img alt="Eat" src="../../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../../eat">
+		<span id="weblog-photo"><img alt="" src="../../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id540" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Spice Market" width="207" class="title" src="../../../resources/net.databinder.components.RenderedLabel/4825e17f"/><span class="title">Spice Market</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on October 6, 2007</span></span>
+			<span id="id541" class="tags">
+					{&nbsp;<span><a href="../../../eat/tag/restaurants:%20new%20york/#selected-tag"><span>restaurants: new york</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>My little brother Calvin is in town this weekend. The trip is a gift we gave him either for his eighteenth birthday or his high school graduation, I can&#8217;t remember which. He arrived without incident in Harlem last night on the M60 bus, and now he&#8217;s off at the Arcade Fire concert on <a href="http://en.wikipedia.org/wiki/Randall&#39;s_Island">Randall&#8217;s Island</a> with some lady friends of his. (Don&#8217;t worry, Mom, he&#8217;ll take a cab back.)</p>
+<p>We haven&#8217;t had a ton of time together, and most of what we have done is eat. We attempted to take out a soul food dinner last night, but we ended up getting a pie from Slice of Harlem on Lenox Avenue, since we couldn&#8217;t find the place I ordered from (only to realize later that it was in the back of Slice of Harlem&#8212;whoops!).</p>
+<p>I wanted to take him out for one serious meal, and the concert prevented us from doing so tonight for dinner. We decided that lunch was our best option, and I had my heart set on Tía Pol. Realizing at about noon that we&#8217;d possibly have a long wait for a table, I clicked around and saw that I could easily get a reservation at <a href="http://nymag.com/listings/restaurant/spice_market/">Spice Market</a>, Jean-Georges Vongerichten&#8217;s upscale street-food restaurant in the Meatpacking District.</p>
+<p>The place was empty shortly after noon, and happily peaceful after the awful subway trip downtown (later followed by a much worse trip back uptown). We were seated in a comfortable booth near the Ninth Avenue windows, with sunlight and a cool breeze streaming through.</p>
+<p><img src="http://technically.us/resources/com.typeturner.Typeturner/image?name=calvin" title="calvin" alt="calvin" /></p>
+<p>There&#8217;s Calvin commenting on the Aladdin-like décor. He and I each picked an appetizer and a main and shared, trying to touch many different bases in those four dishes. Just about everything that came to the table was fresh and excellent, and I can&#8217;t wait to explore the menu further on my next visit.</p>
+<p>We started with the pork satay with pickled vegetables. The pork was smoky and tender, served on a little Staub pan with a bowl of pickled cauliflower and peppers. Next we had the dish that will live on in taste memory for years: fried chicken wings with mango and mint.</p>
+<p><img src="http://technically.us/resources/com.typeturner.Typeturner/image?name=spicewings" title="spicewings" alt="spicewings" /></p>
+<p>The server warned us that the wings would be spicy, and spicy they were, but I had no trouble downing my fair share. The spice was intense, but so was the sweetness, crunchiness, and the tenderness of the meat. Calvin and I were beside ourselves with joy at these perfect little morsels. The high notes continued, with braised short ribs and then grilled shrimp, both served in bowls with noodles. The ribs were spreadable, and the shrimp, though the flavor didn&#8217;t appeal to me personally, were perfectly cooked and springy.</p>
+<p>I thought this restaurant seemed so gimmicky when it opened, but years later on a random Saturday in the October, the service and food were top-notch. There&#8217;s even a guy walking around giving you hot towels, like on business class flights. He made a special trip after we made messes of ourselves on those wings. <em>That</em> is the way to run a restaurant. The prices are reasonable too. If you&#8217;re in the city, this place is worth the detour for an early lunch.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id542">
+  		<div><h3>Comments</h3></div>
+  		<div>
+  			<div id="item-4469"><p>Oh, that&#8217;s too funny. We were sitting at the table directly behind you during your lunch. I thought I recognized you from the blog! I told my sister, brother in law, and partner &#8212; and they pretty much thought I was nuts. We had a fantastic lunch&#8230;shared about 10 dishes between the four of us. Spice Market is one of my go to place on a Saturday afternoon in NY.</p></div>
+  			<div class="date byline">
+  				
+  				<span><span class="alias">Mbaldwin</span></span>
+  				<span>on October 10, 2007</span>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="id543">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id544" action="../../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id544_hf_0" id="id544_hf_0" /><input type="hidden" name="wicket:interface" value=":209:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id545" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id546" name="add" value="Add a comment" onclick="wicketShow('id546--ajax-indicator');var wcall=wicketSubmitFormById('id544', '../../../?wicket:interface=:209:formWrapper:addComment:add::IActivePageBehaviorListener:0:3&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id546--ajax-indicator');}.bind(this),function() { ;wicketHide('id546--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id544')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id546--ajax-indicator"><img src="../../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>

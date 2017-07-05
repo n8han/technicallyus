@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/blueprint/print.css" type="text/css" media="print">  
+
+<!--[if IE]><link rel="stylesheet" href="/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../../resources/com.typeturner.pages.Home/typeturner_en_US.css"/>
+<link rel="stylesheet" type="text/css" href="../../resources/org.apache.wicket.Application/eat-stylesheet"/>
+
+<script language="JavaScript" src="../../resources/com.typeturner.pages.WeblogPage/WeblogPage_en_US.js"></script>
+
+<meta name="generator" content="Typeturner" />
+
+<title>Eat / Lamb ragú</title>
+<script type="text/javascript" src="../../resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="../../resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+</head>
+
+<body onload="initTypeturner();">
+
+
+
+<div class="container">
+
+<div>
+<div class="prepend-3 span-11 last lead">
+	<span id="weblog-name">
+		<a href="../../eat">
+			
+			<img alt="Eat" src="../../resources/org.apache.wicket.Application/eat-nameImage.png"/>
+		</a>
+	</span>
+	<a class="home-link" href="../../eat">
+		<span id="weblog-photo"><img alt="" src="../../resources/org.apache.wicket.Application/eat-photo"/></span>
+	</a>
+</div>
+</div>
+
+<div class="prepend-3 span-8 append-3 last">
+	
+	<div id="id26e" class="post">
+		<h2 class="title"><span class="image-wrapper"><img height="45" alt="Lamb ragú" width="168" class="title" src="../../resources/net.databinder.components.RenderedLabel/8b3478e9"/><span class="title">Lamb ragú</span></span></h2>
+		<div class="byline"><span>
+			<span>By <span class="alias">Leland</span>, <span>on February 4, 2007</span></span>
+			<span id="id26f" class="tags">
+					{&nbsp;<span><a href="../../eat/tag/techniques/#selected-tag"><span>techniques</span></a><span id="id270">, </span></span><span><a href="../../eat/tag/home%20cooking/#selected-tag"><span>home cooking</span></a></span>&nbsp;}
+			</span>
+		</span></div>
+		<div><p>If it seems that I&#8217;ve been baking more than I&#8217;ve been cooking lately, that&#8217;s just an illusion. I continue to cook every night, but it&#8217;s almost always braised meat and vegetables. Be it chicken, beef, lamb, or pork, all I want in these dark days of winter is soft lusciousness, and I don&#8217;t need a recipe for it. I like to braise meat one day, eat a bit of it that night, and then shred what&#8217;s remaining into a sauce that feeds us for the following couple of nights, adding things here and there as they reach their limits in the crisper drawer.</p>
+
+
+	<p>But last night I followed a <a href="http://kitchen.apartmenttherapy.com/food/main-dish/recipe-lamb-ragu-017327">recipe</a> that I found at Apartment Therapy several days ago and that I couldn&#8217;t get out of my head. It&#8217;s a simple dish of braised lamb and vegetables, for which you shred the lamb right at the end. Did you know that there really is something to shredding meat? I discovered it over time, that shredding meat and getting it wet it made the it seem moister all over again. Researching it in <a href="http://www.amazon.com/exec/obidos/ASIN/0684800012/eat0e-20">McGee</a>, I found the following passage:</p>
+
+
+	<blockquote>
+		<p><strong>Shredding</strong>. Even if a tough roast has been cooked to the point that it has become tender but unpleasantly dry, the cook can restore a certain succulence to the meat by pulling it apart into small shreds and pouring over them the meat&#8217;s collected juices, or a sauce. A film of liquid clings to the surface of each shred and thus coats many fibers with some of their lost moisture. The finer the shredding, the greater the surface that can take up the liquid, and the moister the meat will seem.</p>
+	</blockquote>
+
+
+	<p>This is so true! And if you shred meat finely when it&#8217;s already surrounded with liquid, you&#8217;ll have an extremely succulent and rich sauce. Such as this lamb ragu:</p>
+
+
+	<p><img src="/pictures/lambragu.jpg" alt="" /></p>
+
+
+	<p>The only thing I&#8217;ll do differently next time is add something zippy right at the end, like a half cup of chopped olives or a minced garlic clove. It had a deep, wonderful savoriness, but it could have used a little kick. Still, though, this ragu was so good that I ended up ignoring my pasta and eventually just taking spoonfuls of it directly out of the pot. I loaded it up with rosemary and thyme (I didn&#8217;t have the called-for sage), and I cooked it for just over three hours. After feeding two hungry boys for dinner, there are still a good three cups of sauce left.</p>
+
+
+	<h3>Lamb ragú (serves about six)</h3>
+
+
+	<p>2 pounds stew lamb, cut in chunks <br> Salt and freshly ground black pepper  <br> 2 onions <br> 4 sprigs fresh rosemary <br> 3 tablespoons fresh sage <br> 8 cloves garlic <br> 1 big carrot, peeled <br> 2 celery stalks <br> Olive oil <br> 2 cups red wine  <br> One 28-ounce cans peeled whole plum tomatoes</p>
+
+
+	<p>Liberally coat the lamb chunks with salt and pepper and set aside. Peel and coarsely chop the onions, and chop the garlic. Chop the carrot and celery. Preheat the oven to 275ºF.</p>
+
+
+	<p>Place an oven-proof Dutch oven or heavy stockpot over medium-high heat, and add olive oil to cover the bottom thinly. When oil is hot, add the lamb and brown deeply. Do this in batches if necessary.</p>
+
+
+	<p>When the meat is thoroughly dark, add the onions. Cook slowly over medium heat for about 10 minutes or until the onions are golden. Add rosemary and sage, garlic, carrot and celery. Reduce heat to medium-low and sauté until vegetables are softened, about 5 minutes.</p>
+
+
+	<p>Add wine and simmer until liquid has reduced by half, about 10 minutes. Add tomatoes and their juices. Simmer, covered, in the oven for 3 to 4 hours. The longer it cooks the more tender it will be. When ready to serve, go through with two forks and shred any remaining chunks.</p></div>
+	</div>
+</div>
+
+<div class="span-3 sidebar" id="postSidebar">
+  <div><h3>About <em>Eat</em></h3>
+<p><a href="http://technically.us/eat/x/about-eat">All About <em>Eat</em></a> <br/><br />
+<a href="http://technically.us/eat/x/recipe-index">Recipe Index</a> <br/></p>
+<h3><acronym title="Really Simple Syndication"><span class="caps">RSS</span></acronym> feeds</h3>
+<p><a href="http://technically.us/resources/com.typeturner.Typeturner/eat-rss">All posts</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-long-rss">Eat</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-short-rss">Graze</a> <br/><br />
+<a href="http://technically.us/resources/com.typeturner.Typeturner/eat-comments-rss">Comments</a></p>
+<h3>Food Blogs</h3>
+<p><a href="http://www.eater.com" title="Eater">Eater</a><br/><br />
+<a href="http://wednesdaychef.typepad.com/" title="Wednesday Chef">Wednesday Chef</a><br/><br />
+<a href="http://www.lindystoast.com/" title="Toast">Toast</a><br/><br />
+<a href="http://kitchenography.typepad.com/" title="Kitchenography"> Kitchenography </a><br/><br />
+<a href="http://goodamericanwife.blogspot.com/" title="Annie">Good American Wife</a><br/><br />
+<a href="http://littlebouffe.blogspot.com/" title="Little Bouffe">Little Bouffe</a><br/><br />
+<a href="http://www.smittenkitchen.com/" title="Smitten Kitchen">Smitten Kitchen</a><br/><br />
+<a href="http://lobstersquad.blogspot.com/" title="Lobstersquad">Lobstersquad</a><br/><br />
+<a href="http://www.elise.com/recipes/" title="Elise">Simply Recipes</a><br/><br />
+<a href="http://kitchen.apartmenttherapy.com/" title="The Kitchen">The Kitchen</a><br/><br />
+<a href="http://foodandpaper.blogspot.com/" title="Food & Paper">Food &amp; Paper</a><br/><br />
+<a href="http://gezellig-girl.com/" title="It's all about the gezellig">Gezellig</a><br/><br />
+<a href="http://achickenineverygrannycart.wordpress.com/" title="A Chicken in Every Granny Cart">Chicken/Granny</a><br/><br />
+<a href="http://www.ceresandbacchus.com/" title="Ceres & Bacchus">Ceres &amp; Bacchus</a></p></div>
+</div>
+
+<div class="span-8 append-3 last">
+  <div id="comments">
+    <div id="id271">
+  		
+  		
+  	</div>
+  	<div id="id272">
+  	  <h3 id="add-comment">Add a comment</h3>
+  		<form id="id273" action="../../" class="labelAbove" method="get"><div style="display:none"><input type="hidden" name="id273_hf_0" id="id273_hf_0" /><input type="hidden" name="wicket:interface" value=":113:formWrapper:addComment::IFormSubmitListener::" /></div>
+  		  <div id="id274" class="feedback">
+  
+</div>
+  			<div class="row">
+  				<label>Name</label>
+  				<input name="commenterName" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>E-mail <span class="note">(will not appear with comment)</span></label>
+  				<input name="commenterEmail" value="" type="text"/>
+  			</div>
+  			<div class="row">
+  				<label>Web site <span class="note">(optional)</span></label>
+  				<input name="commenterSite" value="http://" class="web" type="text"/>
+  			</div>
+  			<div>
+  				<label>Comment</label>
+  				<textarea name="body"></textarea>
+  			</div>
+  			<p><input id="id275" name="add" value="Add a comment" onclick="wicketShow('id275--ajax-indicator');var wcall=wicketSubmitFormById('id273', '../../?wicket:interface=:113:formWrapper:addComment:add::IActivePageBehaviorListener:0:2&amp;wicket:ignoreIfNotActive=true', 'add' ,function(){;wicketHide('id275--ajax-indicator');}.bind(this),function() { ;wicketHide('id275--ajax-indicator');}.bind(this), function() {return Wicket.$$(this)&amp;&amp;Wicket.$$('id273')}.bind(this));;; return false;" type="submit"/><span style="display:none;" class="wicket-ajax-indicator" id="id275--ajax-indicator"><img src="../../resources/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator.gif" alt=""/></span></p>		
+  		</form>
+  	</div>
+  </div>
+</div>
+	
+</div> <!-- container -->
+
+
+
+</body>
+</html>
